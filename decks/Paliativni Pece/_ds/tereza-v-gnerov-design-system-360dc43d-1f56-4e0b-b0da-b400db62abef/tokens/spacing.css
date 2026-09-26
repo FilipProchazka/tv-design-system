@@ -1,0 +1,68 @@
+/* Shell, rhythm, radii and the one shadow. Values are the site's own, not
+   snapped to a 4/8px grid: 28px card padding, 26px meta gaps, 46px marks. */
+:root{
+  /* Step scale. Not an invented 8px grid: these are the values her own
+     surfaces already use, collected so a consumer has a sanctioned number
+     instead of a guess. 18/26/34/44 exist because the site uses them
+     (eyebrow-to-heading, card body, section head, stats rule) and rounding
+     them to 16/24/32/40 would visibly change the page. */
+  --s-2:2px; /* @kind spacing */
+  --s-6:6px; /* @kind spacing */
+  --s-8:8px; /* @kind spacing */
+  --s-12:12px; /* @kind spacing */
+  --s-14:14px; /* @kind spacing */
+  --s-18:18px; /* @kind spacing */
+  --s-20:20px; /* @kind spacing */
+  --s-24:24px; /* @kind spacing */
+  --s-26:26px; /* @kind spacing */
+  --s-32:32px; /* @kind spacing */
+  --s-36:36px; /* @kind spacing */
+  --s-44:44px; /* @kind spacing */
+  --s-64:64px; /* @kind spacing */
+
+  --shell:1240px;
+  --gut:24px;
+  --gap:24px;
+  --sec:clamp(64px,7.4vw,112px); /* @kind spacing */
+  --sec-tight:calc(var(--sec) * .62); /* @kind spacing */
+  --card-pad:28px;
+
+  --radius:16px;      /* cards, FAQ rows, contact routes */
+  --radius-lg:24px;   /* photographs and the closing CTA band */
+  --radius-mark:14px; /* the 52px topic-card mark */
+  --radius-mark-lg:18px; /* the 64px page-hero mark */
+  --radius-pill:999px;
+
+  /* Flat at rest; the lift exists only as a response to hover/open/focus.
+     Tinted from the page's own ink (#0F2C47), never neutral grey.
+
+     Two values, two jobs, and they are not interchangeable:
+     --lift        a surface responding in place (card hover, pill hover,
+                   open accordion, contact route). The default.
+     --lift-strong a surface that has left the page and is floating over it
+                   (the mobile nav panel, a dialog). If nothing is
+                   overlapping other content, it takes --lift. */
+  --lift:0 12px 32px rgba(15,44,71,.08);
+  --lift-strong:0 18px 44px rgba(15,44,71,.13);
+
+  /* Surface ladder. Four levels, and a colour accent never sits directly on
+     the page ground without one of them under it.
+       0 paper    the reading ground
+       1 band     the tinted section stripe, alternating down the page
+       2 card     white sheets on either of the above, on a 1px hairline
+       3 dark     punctuation only: utility bar, photo scrim, closing CTA */
+  --surface-0:#FFFFFF;
+  --surface-1:var(--band);
+  --surface-2:#FFFFFF;
+  --surface-3:var(--blue-dark);
+
+  --measure:68ch; /* @kind spacing */
+  --measure-tight:54ch; /* @kind spacing */
+
+  /* deck grid, 1920x1080 */
+  --deck-w:1920px;--deck-h:1080px;
+  --deck-margin:120px;--deck-live:1680px;
+  --deck-claim-y:140px;--deck-col-r:1060px;--deck-photo-l:1200px;
+  --deck-zone-top:352px;--deck-zone-h:548px;--deck-base-y:962px;
+}
+@media (max-width:767px){:root{--gut:20px;--gap:16px}}

@@ -1,0 +1,104 @@
+/* Sentiment and grading: a complementary layer, not a fourth palette.
+ *
+ * Three signals, drawn from the warm/cool axis her material already has
+ * (sand is the warm end, petrol the cool one), so they sit beside blue,
+ * petrol and violet without competing with the topic coding. Deliberately
+ * NOT a red/green pair: DATAVIZ.md bans it because red-green deficiency is
+ * the common one, and half her audience reads these on a projector.
+ *
+ * Each signal has four roles:
+ *   -ink     text and strokes on a light surface (≥4.5:1 on paper)
+ *   -soft    a tint to sit content on (a row, a column, a chip)
+ *   -edge    a 1px rule or a 3px bar
+ *   -on-dark the same signal on a .dark board (≥4.5:1 on the dark surfaces)
+ *
+ * Colour is never the only carrier: a positive row still says what it is,
+ * and the evidence ladder still prints its level in words beside the ticks.
+ */
+:root{
+  /* POSITIVE · supported, recommended, what to do */
+  --signal-positive-ink:#0B6A52;
+  --signal-positive-soft:#EAF4F0;
+  --signal-positive-edge:#8CC9B6;
+  --signal-positive-on-dark:#7FDCC0;
+
+  /* NEGATIVE · unsupported, harmful, what not to do */
+  --signal-negative-ink:#A3391C;
+  --signal-negative-soft:#FBEEE9;
+  --signal-negative-edge:#E0A38C;
+  --signal-negative-on-dark:#F3A98E;
+
+  /* CAUTION · contested, depends, watch this. Sand's own family, so the
+     dark-board caution IS --data-sand. */
+  --signal-caution-ink:#8A5A12;
+  --signal-caution-soft:#FBF3E4;
+  --signal-caution-edge:#E3C48A;
+  --signal-caution-on-dark:#F0D2A2;
+
+  /* NEUTRAL · stated without a verdict */
+  --signal-neutral-ink:var(--muted);
+  --signal-neutral-soft:var(--band);
+  --signal-neutral-edge:var(--rule);
+  --signal-neutral-on-dark:var(--muted);
+
+  /* GRADING · the evidence ladder's five rungs as a strength ramp. The rung
+     colour is the theme accent at four steps plus the rule colour, so a
+     grade re-tints with the topic and never introduces a hue of its own. */
+  --grade-5:var(--accent);
+  --grade-4:color-mix(in srgb,var(--accent) 78%,transparent);
+  --grade-3:color-mix(in srgb,var(--accent) 56%,transparent);
+  --grade-2:color-mix(in srgb,var(--accent) 34%,transparent);
+  --grade-1:var(--rule);
+}
+/* On a dark board every signal swaps to its light ink and its tint becomes a
+   translucent wash of itself, so a positive row reads as a row and not as a
+   white card. */
+.dark{
+  --signal-positive-ink:var(--signal-positive-on-dark);
+  --signal-positive-soft:color-mix(in srgb,var(--signal-positive-on-dark) 16%,transparent);
+  --signal-positive-edge:color-mix(in srgb,var(--signal-positive-on-dark) 52%,transparent);
+  --signal-negative-ink:var(--signal-negative-on-dark);
+  --signal-negative-soft:color-mix(in srgb,var(--signal-negative-on-dark) 16%,transparent);
+  --signal-negative-edge:color-mix(in srgb,var(--signal-negative-on-dark) 52%,transparent);
+  --signal-caution-ink:var(--signal-caution-on-dark);
+  --signal-caution-soft:color-mix(in srgb,var(--signal-caution-on-dark) 16%,transparent);
+  --signal-caution-edge:color-mix(in srgb,var(--signal-caution-on-dark) 52%,transparent);
+}
+/* Utility classes, so a slide or a card can mark a row without inline colour. */
+.sig-pos{color:var(--signal-positive-ink)}
+.sig-neg{color:var(--signal-negative-ink)}
+.sig-cau{color:var(--signal-caution-ink)}
+.sig-neu{color:var(--signal-neutral-ink)}
+.sig-row{border-left:3px solid var(--rule);padding-left:22px}
+.sig-row.pos{border-left-color:var(--signal-positive-edge)}
+.sig-row.neg{border-left-color:var(--signal-negative-edge)}
+.sig-row.cau{border-left-color:var(--signal-caution-edge)}
+.sig-chip{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:6px 14px;font-family:var(--font-mono);font-weight:500;font-size:15px;letter-spacing:.08em;text-transform:uppercase}
+/* Chips are sized for the 700px specimen cards. On a 1920 board they must
+   clear the 24px slide-text floor: a chip is often the most important label
+   on the slide (the answer to a decision question), so it scales with the
+   board rather than inheriting card-scale type. */
+.slide .sig-chip,.reel .sig-chip{padding:12px 24px;font-size:26px;letter-spacing:.1em}
+.sig-chip.pos{background:var(--signal-positive-soft);color:var(--signal-positive-ink)}
+.sig-chip.neg{background:var(--signal-negative-soft);color:var(--signal-negative-ink)}
+.sig-chip.cau{background:var(--signal-caution-soft);color:var(--signal-caution-ink)}
+
+/* CERTAINTY: A/B/C/P marks the certainty of the evidence behind a claim, never a count.
+   A filled accent square, B outlined accent, C dashed muted, P band tint (a practical tool, not evidence).
+   Square: radius 0. Theme vars are used directly so the mark re-tints with .t-* and .dark. */
+.tv-cert{display:flex;align-items:center;gap:14px;background:var(--cert-scrim,transparent)}
+.slide.dark .tv-cert{padding:10px 14px}
+.tv-cert-mark{flex:none;box-sizing:border-box;width:40px;height:40px;line-height:40px;display:inline-flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-weight:500;font-size:20px;border-radius:0}
+.tv-cert-label{font-family:var(--font-mono);font-weight:400;font-size:20px;line-height:1.3;letter-spacing:.04em;color:var(--muted);max-width:380px}
+.tv-cert-a .tv-cert-mark{background:var(--accent);color:var(--onacc)}
+.tv-cert-b .tv-cert-mark{border:2px solid var(--accent);color:var(--accent)}
+.tv-cert-c .tv-cert-mark{border:2px dashed var(--muted);color:var(--muted)}
+.tv-cert-p .tv-cert-mark{background:var(--band);color:var(--ink);font-style:italic}
+.tv-cert-p .tv-cert-label{font-style:italic}
+.dark .tv-cert-p .tv-cert-mark{background:color-mix(in srgb,var(--ink) 16%,transparent)}
+.tv-cert-chip{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:1.5em;height:1.5em;line-height:1;margin-left:.5em;vertical-align:.08em;font-family:var(--font-mono);font-weight:500;font-size:.8em;font-style:normal;letter-spacing:0;border-radius:0}
+.tv-cert-chip-a{background:var(--accent);color:var(--onacc)}
+.tv-cert-chip-b{border:2px solid var(--accent);color:var(--accent)}
+.tv-cert-chip-c{border:2px dashed var(--muted);color:var(--muted)}
+.tv-cert-chip-p{background:var(--band);color:var(--ink);font-style:italic}
+.dark .tv-cert-chip-p{background:color-mix(in srgb,var(--ink) 16%,transparent)}
