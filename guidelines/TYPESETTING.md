@@ -1,4 +1,4 @@
-# Typesetting: Czech and English are set differently
+# Typesetting — Czech and English are set differently
 
 Two languages, two sets of rules. The English deck is **not** a word-for-word
 translation of the Czech: Czech is roughly 10–15% longer in characters for the
@@ -26,7 +26,7 @@ a&nbsp;pohyb · i&nbsp;metabolické · k&nbsp;jídlu · z&nbsp;úst
 Also bind: a numeral to its unit (`90&nbsp;min`, `1,2&nbsp;g/kg`), an
 abbreviation to its noun (`1.&nbsp;LF UK`, `m.&nbsp;Alzheimer`,
 `Mgr.&nbsp;Ing.`), and a percentage to its number with a thin space
-(`24&thinsp;%`: Czech puts a space before the sign, English does not).
+(`24&thinsp;%` — Czech puts a space before the sign, English does not).
 
 ### Quotes and dashes
 - Quotes are **„Czech double“** (U+201E, U+201C). Never "straight" or "English".
@@ -39,14 +39,14 @@ abbreviation to its noun (`1.&nbsp;LF UK`, `m.&nbsp;Alzheimer`,
 
 ### Hyphenation and rag
 Czech words are long; a 1400px claim column at 74px runs ~36 characters.
-**Never hyphenate a claim or statement**: break the line at a syntactic
+**Never hyphenate a claim or statement** — break the line at a syntactic
 boundary instead (`<br>` after a clause, never mid-phrase). Body copy may
 hyphenate (`hyphens:auto; lang="cs"`).
 
 ### Rag rules for claims
 Break before a preposition, not after it; keep a verb with its subject on the
 same line where possible. A two-line claim should not end line one on a
-one-letter word: that is what the non-breaking bonds enforce.
+one-letter word — that is what the non-breaking bonds enforce.
 
 ---
 
@@ -66,17 +66,17 @@ syntax. What must survive: the assertion, its hedge, and its grade.
 
 ### English punctuation
 - Quotes are **“English double”** (U+201C, U+201D), nested ‘single’.
-- **No em dashes** either: this is a house rule, not a Czech one. Use an en
+- **No em dashes** either — this is a house rule, not a Czech one. Use an en
   dash with spaces, or restructure.
 - Decimals take a **point**: `1.2`. Percentages close up: `24%`.
-- Ranges: en dash, no spaces: `10–43%`, `Day 1–5`.
+- Ranges: en dash, no spaces — `10–43%`, `Day 1–5`.
 - No non-breaking prepositions. English binds only: numeral to unit
   (`90&nbsp;min`), and a name to its qualifier (`Charles&nbsp;University`).
 
 ### Register
 Plain clinical English, British spelling (`oesophagus`, `programme`,
 `recognise`). Address the reader as *you*; she remains *I*. No Latin
-abbreviations in running text (`for example`, not `e.g.`): they survive only
+abbreviations in running text (`for example`, not `e.g.`) — they survive only
 in citations.
 
 ---
@@ -95,7 +95,7 @@ different limits for the same visual line count.
 | Reel hook | 920px | 150px | 42 chars / 7 words | **48 chars / 8 words** |
 | Reel body | 920px | 48px | 120 chars | 135 chars |
 
-English gets ~15% more characters because English words are shorter: the
+English gets ~15% more characters because English words are shorter — the
 *line count* stays identical, which is the thing that actually matters.
 
 `slides/deck-lint.js` reads `lang` on `<html>` and applies the right column.
@@ -113,10 +113,10 @@ y 140   kicker
 y 190   claim top          (claim block grows downward)
 y 352   content zone top   (height 576, contents vertically centred)
 y 842   scale top          (when a scale is present)
-y 962   footer baseline    (.ref left, .pg right: reserved, always)
+y 962   footer baseline    (.ref left, .pg right — reserved, always)
 ```
 
-A board either has a claim at 190 **or** a statement in the zone: never both.
+A board either has a claim at 190 **or** a statement in the zone — never both.
 
 ### Optical alignment
 The claim, the kicker and the content zone all start at **x 120**. A
@@ -127,7 +127,7 @@ Claims and statements carry explicit `<br>` at the intended break. Auto-wrap
 is for body copy only. If a `<br>` makes a line under 40% of the column, the
 break is wrong.
 
-### Weight: the rules (revised 13 Sep 2026)
+### Weight — the rules (revised 13 Sep 2026)
 
 Researched against typographic practice and accessibility guidance; the
 sources and the reasoning are in `guidelines/RESEARCH.md § Weight`. Seven
@@ -142,7 +142,7 @@ does not create one. Colour never carries rank alone.
 | Weight | Job | Never |
 |---|---|---|
 | **300** | display only: statement (102px), figure (≥ 100px), ghost glyph | below 60px on light, below 100px on dark; body; anything muted |
-| **400** | everything read: claim, lead, body, list, caption; mono data |: |
+| **400** | everything read: claim, lead, body, list, caption; mono data | — |
 | **500** | a role at a *different size*: sub / column head, diagram label, mono kicker (tracked caps) | same-size emphasis |
 | **600** | *same-size* emphasis only: `<b>` in body, reel `a-h` beside `a-body`, wordmark | headings, claims, anything ≥ 40px |
 
@@ -155,8 +155,6 @@ emphasis is 400 → 600. Roles at different sizes may sit one step apart
 anti-aliases into the ground and under-measures on contrast tools even when
 the colour passes. Floor: 60px on paper, 100px on a dark or photo ground.
 This is why the reel `a-sub` moved from 300 to 400 (62px on dark).
-
-**4b. Body size (22 Sep 2026).** Body on a board is 28px (`--d-body`) by default. Any board may go to 24px (`--d-body-min`) when the content needs it; nothing goes below 24px, and mono never below 19px. If content will not fit at 24px, it is two boards.
 
 **5. Mono has two weights.** 500 for tracked uppercase kickers and scale
 headers, 400 for figures, units, citations and tabular columns. Never 300,
@@ -208,14 +206,14 @@ columns of numbers align and a changing figure does not shift its neighbours.
 
 ---
 
-## 5b. Applying the Czech bonds mechanically: one hard rule
+## 5b. Applying the Czech bonds mechanically — one hard rule
 
 The binder that adds `&nbsp;` after one-letter prepositions must run over
 **rendered copy only**. It must skip the contents of `<script>` and
 `<style>`, and it must never touch a Design Component's logic class: a
 single-letter JS identifier looks exactly like a Czech preposition, so
 `const v = this.renderVals()` becomes `const v&nbsp;= …` and the class stops
-evaluating: silently, taking every Tweak with it.
+evaluating — silently, taking every Tweak with it.
 
 A tag-skipping regex (`/<[^>]*>/`) is **not** enough: it skips the tags but
 walks straight through script *contents*. Skip whole elements, or bind by
@@ -231,7 +229,7 @@ rewriting sentences board by board.
 
 | Role | Rule | Why |
 |---|---|---|
-| claim, statement, sub, reel hook, headings | `text-wrap: balance` | evens the lines of a short block: what a two-line 74px claim needs |
+| claim, statement, sub, reel hook, headings | `text-wrap: balance` | evens the lines of a short block — what a two-line 74px claim needs |
 | body, lead, list items, captions | `text-wrap: pretty` | keeps the measure, refuses a short last line |
 | figure, mono kicker, reference, page number | `text-wrap: nowrap` | one line by definition |
 | print (handout, doc) | `orphans: 3; widows: 3` | screen ignores these; the paginator does not |
@@ -240,12 +238,12 @@ Authored `<br>` still wins as a hard break, so a deliberate rag survives
 balancing.
 
 **What CSS cannot do** is bind a specific pair of words. Where a last line
-must never break: a name, a unit, a citation, a two-word clinical term –
+must never break — a name, a unit, a citation, a two-word clinical term —
 bind it in the copy: `Pacient s&nbsp;těžkou&nbsp;demencí`.
 
 The lint measures widows rather than trusting the CSS, and it measures the
-**block's own line boxes**: `Range.selectNodeContents(el).getClientRects()`
-– to find the true bottom line, then walks every descendant text node and
+**block's own line boxes** — `Range.selectNodeContents(el).getClientRects()`
+— to find the true bottom line, then walks every descendant text node and
 Range-measures each word against it. Measuring a single text node instead is
 wrong: a block that ends in an inline tail (`<b>`, `<span>`, `<a>`) or wraps
 its copy in child elements has its final line inside a descendant, so the
@@ -266,7 +264,7 @@ characters. A single-line block cannot have a widow and is skipped.
 7. **Run the lint and read its verdict.** It is an on-demand check, not an
    auto-include: a helmet `<script src>` evaluates in a sandboxed realm whose
    `window` and `document` are not the page's, so an automatic include
-   reports into the void: which reads as "clean" and is worse than no gate.
+   reports into the void — which reads as "clean" and is worse than no gate.
    Run it from the console of the deck page:
 
    ```js
@@ -277,47 +275,8 @@ characters. A single-line block cannot have a widow and is skipped.
    ```
 
    (Adjust the path: `../../slides/deck-lint.js` from inside `templates/<slug>/`.)
-   A **missing** verdict is a failure, not a pass: `[]` is the pass.
+   A **missing** verdict is a failure, not a pass — `[]` is the pass.
 8. No widow reported. Where one is genuine, bind the last two words rather
    than rewriting the sentence.
-9. No `&nbsp;` entity anywhere inside a `<script>`: and the DC's logic class
+9. No `&nbsp;` entity anywhere inside a `<script>` — and the DC's logic class
    still evaluates (no `logic class eval FAILED` in the console).
-
-## Figure and its text: the two-scale line
-
-Added 0.7.0, from a defect on a lecture board: a 66px mono figure sat in a
-fixed 230px column, "150–300" overflowed it, and the sentence beside it lost
-its gap and collided with the numeral. The value was correct, the setting was
-broken, and nothing in this file said so.
-
-A figure set at display scale beside body copy is **two type scales sharing one
-baseline**. Three rules.
-
-**Never give the figure column a fixed width.** The widest figure in the stack
-sizes it. Set the whole stack as one grid, so every figure and every sentence
-in it shares a column and stays aligned:
-
-```css
-display:grid;
-grid-template-columns:max-content minmax(0,1fr);
-column-gap:32px;
-align-items:baseline;
-```
-
-One grid per stack, never one grid per row. A grid per row cannot align rows to
-each other, which is what tempts the fixed width in the first place. A full
-width note inside the stack takes `grid-column:1/-1`.
-
-**A figure is one token.** `2× +` is not a figure, it is a numeral and a
-floating operator, and mono tabular spacing pulls them apart into two objects.
-Write the qualifier in words in the sentence beside it: the figure reads `2×`
-and the text opens "a více týdně". Where a comparison genuinely belongs in the
-figure, use a single glyph and bind it: `≤&nbsp;8`, not `≤ 8`.
-
-**Gap is column-gap, not a margin or a space.** The figure and the sentence are
-separate grid items, so nothing in the markup can collapse the space between
-them, and a long figure pushes the sentence instead of overlapping it.
-
-The same reasoning as the claim measure: over the limit, the type steps down.
-If the widest figure leaves the sentence under about 30 characters a line, the
-figure steps down a size. The column never grows to swallow the sentence.

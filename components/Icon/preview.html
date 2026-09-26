@@ -1,0 +1,11 @@
+<!-- @dsCard group="Core" height=303 subtitle="Eight topic marks, nine interface marks, 1.5px stroke" -->
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><style>body{margin:0;background:var(--surface);color:var(--ink);font-family:var(--font-body)}#root{padding:28px}.lbl{font-family:var(--font-mono);font-weight:500;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}.lbl:not(:first-child){margin-top:28px}.row{display:flex;flex-wrap:wrap;align-items:center;gap:16px 24px}</style></head><body><div id="root"></div>
+<script>
+(function(){
+var h=React.createElement, F=React.Fragment, DS=window.TerezaVGnerovDesignSystem_360dc4;
+function L(t){return h('p',{className:'lbl'},t);}
+var T=['prehled','medicina','zenske-zdravi','dlouhovekost','spanek','fitness','vyziva','lifestyle'],I=['arrow','phone','mail','instagram','menu','close','building','external','plus'];
+function cell(n){return h('div',{key:n,style:{display:'grid',justifyItems:'center',gap:8}},h('span',{style:{display:'flex',alignItems:'center',justifyContent:'center',width:52,height:52,border:'1px solid var(--rule)',color:'var(--accent)'}},h(DS.Icon,{name:n,size:26})),h('span',{style:{fontFamily:'var(--font-mono)',fontSize:11,color:'var(--muted)'}},n));}
+ReactDOM.createRoot(document.getElementById('root')).render(h(F,null,L('Topic marks'),h('div',{className:'row',style:{alignItems:'start'}},T.map(cell)),L('Interface marks'),h('div',{className:'row',style:{alignItems:'start'}},I.map(cell))));
+})();
+</script></body></html>

@@ -7,11 +7,11 @@
 </head>
 <body>
 <x-dc>
-<!-- @template name="Reel s fotografií: timing sheet + preview" description="Photo-led 9:16 reel: duotoned photographs with real scrims, Ken Burns push, cuts to plain ground for figures. Role-named placeholders only; pick the palette per topic." -->
+<!-- @template name="Reel s fotografií — timing sheet + preview" description="Photo-led 9:16 reel: duotoned photographs with real scrims, Ken Burns push, cuts to plain ground for figures. Role-named placeholders only; pick the palette per topic." -->
 <helmet>
 <script src="./ds-base.js"></script>
 <script>document.documentElement.lang='cs';</script>
-<style>html,body{margin:0;background:#EDEFF1}.wrap{display:grid;grid-template-columns:420px minmax(0,1fr);gap:40px;padding:32px;align-items:start}.phone{position:relative;width:420px;height:747px;border-radius:44px;overflow:hidden;box-shadow:0 18px 44px rgba(15,44,71,.13)}.ui{position:absolute;left:0;right:0;pointer-events:none}.ui.top{top:0;height:13%;background:linear-gradient(180deg,rgba(0,0,0,.28),transparent)}.ui.bot{bottom:0;height:18%;background:linear-gradient(0deg,rgba(0,0,0,.36),transparent)}.k{font-family:var(--font-mono);font-weight:500;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}.hook{font-family:var(--font-display);font-weight:500;font-size:58px;line-height:.98;letter-spacing:-.038em}.mid{font-family:var(--font-display);font-weight:500;font-size:36px;line-height:1.08;letter-spacing:-.028em}.bd{font-family:var(--font-body);font-size:19px;line-height:1.38;color:var(--muted)}.fig{font-family:var(--font-mono);font-size:120px;line-height:.86;letter-spacing:-.05em;color:var(--accent)}table{width:100%;border-collapse:collapse;font-size:15px}th{text-align:left;font-family:var(--font-mono);font-weight:500;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);padding:0 12px 10px 0;border-bottom:1px solid var(--rule)}td{padding:12px 12px 12px 0;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--ink)}tr.on td{background:var(--tint)}.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}.bar{height:4px;background:var(--rule);border-radius:0;overflow:hidden}.bar>div{height:100%;background:var(--accent);transition:width .25s linear}</style>
+<style>html,body{margin:0;background:#EDEFF1}.wrap{display:grid;grid-template-columns:420px minmax(0,1fr);gap:40px;padding:32px;align-items:start}.phone{position:relative;width:420px;height:747px;border-radius:44px;overflow:hidden;box-shadow:0 18px 44px rgba(15,44,71,.13)}.ui{position:absolute;left:0;right:0;pointer-events:none}.ui.top{top:0;height:13%;background:linear-gradient(180deg,rgba(0,0,0,.28),transparent)}.ui.bot{bottom:0;height:18%;background:linear-gradient(0deg,rgba(0,0,0,.36),transparent)}.k{font-family:var(--font-mono);font-weight:500;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}.hook{font-family:var(--font-display);font-weight:500;font-size:58px;line-height:.98;letter-spacing:-.038em}.mid{font-family:var(--font-display);font-weight:500;font-size:36px;line-height:1.08;letter-spacing:-.028em}.bd{font-family:var(--font-body);font-size:19px;line-height:1.38;color:var(--muted)}.fig{font-family:var(--font-mono);font-size:120px;line-height:.86;letter-spacing:-.05em;color:var(--accent)}table{width:100%;border-collapse:collapse;font-size:15px}th{text-align:left;font-family:var(--font-mono);font-weight:500;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);padding:0 12px 10px 0;border-bottom:1px solid var(--rule)}td{padding:12px 12px 12px 0;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--ink)}tr.on td{background:var(--tint)}.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}.bar{height:4px;background:var(--rule);border-radius:2px;overflow:hidden}.bar>div{height:100%;background:var(--accent);transition:width .25s linear}</style>
 </helmet>
 <div class="wrap">
 <div>
@@ -26,13 +26,13 @@
 <sc-if value="{{ frame.mid }}" hint-placeholder-val="{{ false }}"><div class="mid" style="margin-top:14px">{{ frame.mid }}</div></sc-if>
 <sc-if value="{{ frame.body }}" hint-placeholder-val="{{ true }}"><div class="bd" style="margin-top:18px">{{ frame.body }}</div></sc-if>
 <sc-if value="{{ frame.grade }}" hint-placeholder-val="{{ false }}"><div style="display:flex;align-items:center;gap:10px;margin-top:22px"><span class="k">{{ frame.grade }}</span><span style="display:inline-flex;align-items:flex-end;gap:4px;height:14px"><span style="width:3px;height:14px;background:var(--accent)"></span><span style="width:3px;height:14px;background:var(--accent)"></span><span style="width:3px;height:14px;background:var(--accent)"></span><span style="width:3px;height:14px;background:var(--accent)"></span><span style="width:3px;height:6px;background:var(--rule)"></span></span></div></sc-if>
-<sc-if value="{{ frame.cta }}" hint-placeholder-val="{{ false }}"><div style="margin-top:22px;display:inline-flex;align-self:flex-start;align-items:center;gap:8px;background:var(--accent);color:var(--onacc);border-radius:0;padding:12px 20px;font-family:var(--font-display);font-weight:500;font-size:17px">{{ frame.cta }}</div></sc-if>
+<sc-if value="{{ frame.cta }}" hint-placeholder-val="{{ false }}"><div style="margin-top:22px;display:inline-flex;align-self:flex-start;align-items:center;gap:8px;background:var(--accent);color:var(--onacc);border-radius:999px;padding:12px 20px;font-family:var(--font-display);font-weight:500;font-size:17px">{{ frame.cta }}</div></sc-if>
 </div>
 <div style="position:absolute;left:31px;right:31px;top:506px;display:flex;align-items:center;justify-content:space-between"><span class="k" style="text-transform:none;letter-spacing:.04em">@tvagnerova_clinicaldietitian</span><img src="../../assets/sig-violet.png" alt="" style="width:44px;opacity:.9"></div>
 <div class="ui top"></div><div class="ui bot"></div>
-<div style="position:absolute;left:31px;right:31px;top:109px;bottom:262px;border:1px dashed rgba(255,255,255,.3);border-radius:0;pointer-events:none"></div>
+<div style="position:absolute;left:31px;right:31px;top:109px;bottom:262px;border:1px dashed rgba(255,255,255,.3);border-radius:6px;pointer-events:none"></div>
 </div>
-<div style="display:flex;align-items:center;gap:12px;margin-top:16px"><button onClick="{{ toggle }}" style="min-height:40px;padding:8px 18px;font-size:15px;font-family:var(--font-mono);font-weight:500;letter-spacing:.06em;border:1px solid var(--accent);background:var(--accent);color:var(--onacc);cursor:pointer">{{ playLabel }}</button><div class="bar" style="flex:1"><div ref="{{ barRef }}" style="width:0%"></div></div><span class="mono" style="font-size:13px;color:var(--muted)">{{ clock }}</span></div>
+<div style="display:flex;align-items:center;gap:12px;margin-top:16px"><button onClick="{{ toggle }}" class="pill pill-sm" style="min-height:40px;padding:8px 18px;font-size:15px">{{ playLabel }}</button><div class="bar" style="flex:1"><div ref="{{ barRef }}" style="width:0%"></div></div><span class="mono" style="font-size:13px;color:var(--muted)">{{ clock }}</span></div>
 <p class="bd" style="font-size:13px;margin-top:10px">The palette is the topic’s colour (violet shown), never chrome. Dashed box is the safe text zone; shaded bands are Instagram's UI.</p>
 </div>
 <div>
@@ -41,9 +41,9 @@
 <sc-for list="{{ rows }}" as="r" hint-placeholder-count="7"><tr class="{{ r.cls }}"><td class="mono">{{ r.n }}</td><td class="mono">{{ r.dur }}</td><td><b style="font-weight:600">{{ r.on }}</b><br><span style="color:var(--muted)">{{ r.sub }}</span></td><td class="mono" style="font-size:13px;color:var(--muted)">{{ r.img }}</td><td style="color:var(--muted)">{{ r.change }}</td><td style="color:var(--muted)">{{ r.say }}</td></tr></sc-for>
 </tbody></table>
 <div class="k" style="margin-top:32px">Caption</div>
-<pre style="margin-top:12px;font-family:var(--font-mono);font-size:14px;line-height:1.6;color:var(--ink);white-space:pre-wrap;background:#FFFFFF;border:1px solid var(--rule);border-radius:0;padding:18px">{{ caption }}</pre>
+<pre style="margin-top:12px;font-family:var(--font-mono);font-size:14px;line-height:1.6;color:var(--ink);white-space:pre-wrap;background:#FFFFFF;border:1px solid var(--rule);border-radius:12px;padding:18px">{{ caption }}</pre>
 <div class="k" style="margin-top:32px">Checks</div>
-<ul class="bd" style="margin-top:12px;padding-left:18px;font-size:15px;display:grid;gap:6px"><li>Čísla nad 100px jsou <b style="font-weight:600;color:var(--ink)">Geist 300</b>, jednotka a&nbsp;popisek <b style="font-weight:600;color:var(--ink)">IBM Plex Mono</b>.</li><li>Váhy 300 / 400 / 500 / 600; zvýraznění ve&nbsp;stejné velikosti přeskakuje stupeň (400 → 600).</li><li>Každý text je <b style="font-weight:600;color:var(--ink)">role</b>, ne obsah: nahraďte ji, strukturu ponechte.</li><li>Hook: <b style="font-weight:600;color:var(--ink)">{{ hookCheck }}</b></li><li>Keyword <b style="font-weight:600;color:var(--ink)">cyklus</b> is spoken on frame 1, shown on frame 1, and first in the caption.</li><li>Payoff (the correction) lands on frame 2, not after a setup.</li><li>Every frame changes something: figure, grade ticks, highlight, CTA.</li><li>CTA sits mid-frame; the bottom 340 px carries only ground.</li><li>Violet because the topic is women's health: never because it looks good.</li><li><b style="font-weight:600;color:var(--ink)">{{ photoCount }} of 7 frames carry a photograph.</b> Two frames deliberately do not: the figure owns its frame, and the reframe lands bare: that contrast is what makes the photographs read as evidence rather than wallpaper.</li><li>Every photograph runs through the <b style="font-weight:600;color:var(--ink)">violet duotone</b> (#401252 → #D8A6F5), then sits under a scrim with a <b style="font-weight:600;color:var(--ink)">solid colour floor</b> (rgba(64,18,82,.84)) under the gradient: a gradient alone computes as transparent and under-measures.</li><li>Frames 1–2 share one photograph at two crops (1.06 → 1.12), so the correction reads as the same moment seen closer rather than a new one.</li></ul>
+<ul class="bd" style="margin-top:12px;padding-left:18px;font-size:15px;display:grid;gap:6px"><li>Čísla nad 100px jsou <b style="font-weight:600;color:var(--ink)">Geist 300</b>, jednotka a&nbsp;popisek <b style="font-weight:600;color:var(--ink)">IBM Plex Mono</b>.</li><li>Váhy 300 / 400 / 500 / 600; zvýraznění ve&nbsp;stejné velikosti přeskakuje stupeň (400 → 600).</li><li>Každý text je <b style="font-weight:600;color:var(--ink)">role</b>, ne obsah — nahraďte ji, strukturu ponechte.</li><li>Hook: <b style="font-weight:600;color:var(--ink)">{{ hookCheck }}</b></li><li>Keyword <b style="font-weight:600;color:var(--ink)">cyklus</b> is spoken on frame 1, shown on frame 1, and first in the caption.</li><li>Payoff (the correction) lands on frame 2, not after a setup.</li><li>Every frame changes something: figure, grade ticks, highlight, CTA.</li><li>CTA sits mid-frame; the bottom 340 px carries only ground.</li><li>Violet because the topic is women's health — never because it looks good.</li><li><b style="font-weight:600;color:var(--ink)">{{ photoCount }} of 7 frames carry a photograph.</b> Two frames deliberately do not: the figure owns its frame, and the reframe lands bare — that contrast is what makes the photographs read as evidence rather than wallpaper.</li><li>Every photograph runs through the <b style="font-weight:600;color:var(--ink)">violet duotone</b> (#401252 → #D8A6F5), then sits under a scrim with a <b style="font-weight:600;color:var(--ink)">solid colour floor</b> (rgba(64,18,82,.84)) under the gradient — a gradient alone computes as transparent and under-measures.</li><li>Frames 1–2 share one photograph at two crops (1.06 → 1.12), so the correction reads as the same moment seen closer rather than a new one.</li></ul>
 </div>
 </div>
 </x-dc>
@@ -53,15 +53,15 @@ class Component extends DCLogic {
   barRef = React.createRef();
   /* Photography carries four of the seven frames. `photo` names the file,
      `ken` the slow push it drifts through (a photograph settling, per the
-     motion rules), `scrim` the alpha the violet ground sits at: raised
+     motion rules), `scrim` the alpha the violet ground sits at — raised
      where type has to clear 4.5:1 over a natural-colour image. */
   frames = [
     { dur: 3, kicker: 'Klíčové slovo', hook: 'Hák do sedmi slov.', body: 'Jedna věta, co uvidí dál.', photo: 'photo-lift', ken: 1.06, scrim: 0.88, change: 'photo in + hook on frame 1', say: 'Klíčové slovo v první větě.' },
     { dur: 4, hook: 'Druhé tvrzení, bez háku.', body: 'Jedna věta, která ho podpírá.', photo: 'photo-lift', ken: 1.12, scrim: 0.94, change: 'same photo, closer crop, body enters', say: 'Mluvená věta k rámečku 2.' },
-    { dur: 4, kicker: 'Co číslo měří', fig: '< 42', body: 'jednotka a podmínka měření', change: 'cut to ground: the figure owns the frame', say: 'Číslo slovy, s jednotkou.' },
+    { dur: 4, kicker: 'Co číslo měří', fig: '< 42', body: 'jednotka a podmínka měření', change: 'cut to ground — the figure owns the frame', say: 'Číslo slovy, s jednotkou.' },
     { dur: 4, hook: 'Tvrzení se zdrojem.', body: 'Věta, kterou zdroj skutečně říká, včetně meze.', grade: 'Stupeň důkazu', photo: 'photo-organs', ken: 1.05, scrim: 0.92, change: 'cut to second photo, grade ticks enter', say: 'Co zdroj našel, jednou větou.' },
-    { dur: 4, kicker: 'Kicker', mid: 'Střední myšlenka', body: 'Jedna věta doplnění.', photo: 'photo-kitchen', ken: 1.08, scrim: 0.90, change: 'cut to third photo: the point, shown', say: 'Mluvená věta k rámečku 5.' },
-    { dur: 4, hook: 'Přerámování.', body: 'Jedna věta, která obrací úhel pohledu.', change: 'hard cut to ground: the reframe lands bare', say: 'Přerámování jednou větou.' },
+    { dur: 4, kicker: 'Kicker', mid: 'Střední myšlenka', body: 'Jedna věta doplnění.', photo: 'photo-kitchen', ken: 1.08, scrim: 0.90, change: 'cut to third photo — the point, shown', say: 'Mluvená věta k rámečku 5.' },
+    { dur: 4, hook: 'Přerámování.', body: 'Jedna věta, která obrací úhel pohledu.', change: 'hard cut to ground — the reframe lands bare', say: 'Přerámování jednou větou.' },
     { dur: 4, kicker: 'Kam dál', mid: 'Název celku', body: 'Kde to najít.', cta: 'Uložit na později', photo: 'photo-walk', ken: 1.06, scrim: 0.93, change: 'cut back to photo, CTA mid-frame', say: 'Jedna věta výzvy.' },
   ];
   caption = 'Řádek 1: klíčové slovo a tvrzení z prvního rámečku.\nŘádek 2: tvrzení rozvedené do dvou vět, s mezí platnosti.\nŘádek 3: Zdroj: autor, rok, identifikátor\n#klicoveslovo #tema #bezdiakritiky';
@@ -75,7 +75,7 @@ class Component extends DCLogic {
      literal in the template (nothing requests an unresolved hole) and the
      push survives re-renders instead of restarting on every tick.
 
-     Photograph changes are HARD CUTS: no opacity or transform transition.
+     Photograph changes are HARD CUTS — no opacity or transform transition.
      The url(#duo-violet) filter has to re-rasterise the whole 420×747 image
      on every painted frame of any animation on this element, and that paint
      cost stretched a .5 s fade to ~2.25 s: the photograph lagged the text by
@@ -113,7 +113,7 @@ class Component extends DCLogic {
       photoRef: this.photoRef, pushRef: this.pushRef, scrimRef: this.scrimRef,
       photoCount: fr.filter(x => x.photo).length,
       rows: fr.map((x, n) => ({ n: n + 1, dur: x.dur, on: x.hook || x.mid || x.fig || '', sub: [x.kicker, x.body, x.cta].filter(Boolean).join(' · '), img: x.photo ? `${x.photo} · scrim ${Math.round(x.scrim * 100)}% · crop ${x.ken}` : 'no photo', change: x.change, say: x.say, cls: n === i ? 'on' : '' })),
-      hookCheck: `${hw} words / ${hc} chars: ${hw <= 7 && hc <= 42 ? 'OK' : 'OVER BUDGET'}`,
+      hookCheck: `${hw} words / ${hc} chars — ${hw <= 7 && hc <= 42 ? 'OK' : 'OVER BUDGET'}`,
       clock: `${before.toFixed(1)} / ${total} s`,
       playLabel: this.state.playing ? 'Pause' : 'Play',
       toggle: () => this.setState(st => ({ playing: !st.playing })),

@@ -1,0 +1,2442 @@
+{
+  "manifestVersion": 3,
+  "name": "Tereza Vágnerová Design System",
+  "namespace": "TerezaVGnerovDesignSystem_360dc4",
+  "files": [
+    "CHANGELOG.md",
+    "assets/clinical/PROVENANCE.md",
+    "assets/img/PROVENANCE.md",
+    "assets/notes/MIGRATION-REPORT.md",
+    "assets/notes/SKILL.from-standalone.md",
+    "components/Agenda/README.md",
+    "components/Agenda/deck.css",
+    "components/Agenda/fit.js",
+    "components/AnnotatedSentence/README.md",
+    "components/AnnotatedSentence/deck.css",
+    "components/AnnotatedSentence/fit.js",
+    "components/BarChart/README.md",
+    "components/BarChart/deck.css",
+    "components/BarChart/fit.js",
+    "components/BigNumber/README.md",
+    "components/BigNumber/deck.css",
+    "components/BigNumber/fit.js",
+    "components/CallToAction/README.md",
+    "components/CallToAction/deck.css",
+    "components/CallToAction/fit.js",
+    "components/Cards/README.md",
+    "components/CaseVignette/README.md",
+    "components/CaseVignette/deck.css",
+    "components/CaseVignette/fit.js",
+    "components/CauseChain/README.md",
+    "components/CauseChain/deck.css",
+    "components/CauseChain/fit.js",
+    "components/ChartColors/README.md",
+    "components/ChartLine/README.md",
+    "components/ChartRiskstack/README.md",
+    "components/ClaimBand/ClaimBand.d.ts",
+    "components/ClaimBand/README.md",
+    "components/ClaimBesideEvidence/README.md",
+    "components/ClaimBesideEvidence/deck.css",
+    "components/ClaimBesideEvidence/fit.js",
+    "components/ClaimPhoto/README.md",
+    "components/ClaimPhoto/deck.css",
+    "components/ClaimPhoto/fit.js",
+    "components/ClaimPhotoBlue/README.md",
+    "components/ClaimPhotoBlue/deck.css",
+    "components/ClaimPhotoBlue/fit.js",
+    "components/ClinicalIcon/ClinicalIcon.d.ts",
+    "components/ClinicalIcon/README.md",
+    "components/ClinicalIcons/README.md",
+    "components/Closing/README.md",
+    "components/Closing/deck.css",
+    "components/Closing/fit.js",
+    "components/Comparison/README.md",
+    "components/Comparison/deck.css",
+    "components/Comparison/fit.js",
+    "components/ConceptMap/README.md",
+    "components/ConceptMap/deck.css",
+    "components/ConceptMap/fit.js",
+    "components/ContactBlock/ContactBlock.d.ts",
+    "components/ContactBlock/README.md",
+    "components/Core/README.md",
+    "components/Cover/README.md",
+    "components/Cover/deck.css",
+    "components/Cover/fit.js",
+    "components/CoverBlue/README.md",
+    "components/CoverBlue/deck.css",
+    "components/CoverBlue/fit.js",
+    "components/CoverViolet/README.md",
+    "components/CoverViolet/deck.css",
+    "components/CoverViolet/fit.js",
+    "components/CtaClose/CtaClose.d.ts",
+    "components/CtaClose/README.md",
+    "components/CycleChart/README.md",
+    "components/CycleChart/deck.css",
+    "components/CycleChart/fit.js",
+    "components/DecisionPath/README.md",
+    "components/DecisionPath/deck.css",
+    "components/DecisionPath/fit.js",
+    "components/Definition/README.md",
+    "components/Definition/deck.css",
+    "components/Definition/fit.js",
+    "components/Disclosure/README.md",
+    "components/Disclosure/deck.css",
+    "components/Disclosure/fit.js",
+    "components/DoAndDonT/README.md",
+    "components/DoAndDonT/deck.css",
+    "components/DoAndDonT/fit.js",
+    "components/EdgeToEdgeData/README.md",
+    "components/EdgeToEdgeData/deck.css",
+    "components/EdgeToEdgeData/fit.js",
+    "components/EntryCard/EntryCard.d.ts",
+    "components/EntryCard/README.md",
+    "components/Evidence/README.md",
+    "components/Evidence/deck.css",
+    "components/Evidence/fit.js",
+    "components/FactPanel/FactPanel.d.ts",
+    "components/FactPanel/README.md",
+    "components/FaqList/FaqList.d.ts",
+    "components/FaqList/README.md",
+    "components/Foot/Foot.d.ts",
+    "components/Foot/README.md",
+    "components/ForestPlot/README.md",
+    "components/ForestPlot/deck.css",
+    "components/ForestPlot/fit.js",
+    "components/Glossary/README.md",
+    "components/Glossary/deck.css",
+    "components/Glossary/fit.js",
+    "components/Grade/Grade.d.ts",
+    "components/Grade/README.md",
+    "components/Hierarchy/README.md",
+    "components/Hierarchy/deck.css",
+    "components/Hierarchy/fit.js",
+    "components/HubAndSpoke/README.md",
+    "components/HubAndSpoke/deck.css",
+    "components/HubAndSpoke/fit.js",
+    "components/Icon/Icon.d.ts",
+    "components/Icon/README.md",
+    "components/Index/HomeScreen.jsx",
+    "components/Index/README.md",
+    "components/Index/Screens.jsx",
+    "components/Index/data.js",
+    "components/IndexWall/README.md",
+    "components/IndexWall/deck.css",
+    "components/IndexWall/fit.js",
+    "components/InstitutionCard/InstitutionCard.d.ts",
+    "components/InstitutionCard/README.md",
+    "components/KnockoutFigure/README.md",
+    "components/KnockoutFigure/deck.css",
+    "components/KnockoutFigure/fit.js",
+    "components/LabCard/README.md",
+    "components/LabCard/deck.css",
+    "components/LabCard/fit.js",
+    "components/LifespanTimeline/README.md",
+    "components/LifespanTimeline/deck.css",
+    "components/LifespanTimeline/fit.js",
+    "components/LoopDiagram/README.md",
+    "components/LoopDiagram/deck.css",
+    "components/LoopDiagram/fit.js",
+    "components/Matrix/README.md",
+    "components/Matrix/deck.css",
+    "components/Matrix/fit.js",
+    "components/MediaStill/README.md",
+    "components/MediaStill/deck.css",
+    "components/MediaStill/fit.js",
+    "components/MilestoneTimeline/README.md",
+    "components/MilestoneTimeline/deck.css",
+    "components/MilestoneTimeline/fit.js",
+    "components/MythAndFact/README.md",
+    "components/MythAndFact/deck.css",
+    "components/MythAndFact/fit.js",
+    "components/Nav/Nav.d.ts",
+    "components/Nav/README.md",
+    "components/Navigation/README.md",
+    "components/PageHero/PageHero.d.ts",
+    "components/PageHero/README.md",
+    "components/PhotoBand/README.md",
+    "components/PhotoBand/deck.css",
+    "components/PhotoBand/fit.js",
+    "components/PhotoCallout/README.md",
+    "components/PhotoCallout/deck.css",
+    "components/PhotoCallout/fit.js",
+    "components/PhotoCaptionStrip/README.md",
+    "components/PhotoCaptionStrip/deck.css",
+    "components/PhotoCaptionStrip/fit.js",
+    "components/PhotoCorner/README.md",
+    "components/PhotoCorner/deck.css",
+    "components/PhotoCorner/fit.js",
+    "components/PhotoFade/README.md",
+    "components/PhotoFade/deck.css",
+    "components/PhotoFade/fit.js",
+    "components/PhotoGrid/README.md",
+    "components/PhotoGrid/deck.css",
+    "components/PhotoGrid/fit.js",
+    "components/PhotoMosaic/README.md",
+    "components/PhotoMosaic/deck.css",
+    "components/PhotoMosaic/fit.js",
+    "components/PhotoPair/README.md",
+    "components/PhotoPair/deck.css",
+    "components/PhotoPair/fit.js",
+    "components/PhotoPanel/README.md",
+    "components/PhotoPanel/deck.css",
+    "components/PhotoPanel/fit.js",
+    "components/PhotoQuote/README.md",
+    "components/PhotoQuote/deck.css",
+    "components/PhotoQuote/fit.js",
+    "components/PhotoStat/README.md",
+    "components/PhotoStat/deck.css",
+    "components/PhotoStat/fit.js",
+    "components/PhotoStatement/README.md",
+    "components/PhotoStatement/deck.css",
+    "components/PhotoStatement/fit.js",
+    "components/Pill/Pill.d.ts",
+    "components/Pill/README.md",
+    "components/PracticalList/README.md",
+    "components/PracticalList/deck.css",
+    "components/PracticalList/fit.js",
+    "components/ProcessSteps/README.md",
+    "components/ProcessSteps/deck.css",
+    "components/ProcessSteps/fit.js",
+    "components/PublicationRow/PublicationRow.d.ts",
+    "components/PublicationRow/README.md",
+    "components/Question/README.md",
+    "components/Question/deck.css",
+    "components/Question/fit.js",
+    "components/Quote/README.md",
+    "components/Quote/deck.css",
+    "components/Quote/fit.js",
+    "components/R01HookCover/README.md",
+    "components/R02MythAndFact/README.md",
+    "components/R03BigNumber/README.md",
+    "components/R04ThreePoints/README.md",
+    "components/R05Quote/README.md",
+    "components/R06EvidenceCard/README.md",
+    "components/R07PhotoSplit/README.md",
+    "components/R08CallToAction/README.md",
+    "components/R09NumberedStep/README.md",
+    "components/R10BeforeAfter/README.md",
+    "components/R11DoAndDonT/README.md",
+    "components/R12ImpactPhrase/README.md",
+    "components/R13Comparison/README.md",
+    "components/R14StatTrio/README.md",
+    "components/R15Question/README.md",
+    "components/R16VerticalTimeline/README.md",
+    "components/R17Definition/README.md",
+    "components/R18PhotoStrip/README.md",
+    "components/R19QuotePortrait/README.md",
+    "components/R20SeriesCover/README.md",
+    "components/R21Word/README.md",
+    "components/R22AnnotatedSentence/README.md",
+    "components/R23TwoThemeSplit/README.md",
+    "components/R24EdgeToEdgeData/README.md",
+    "components/R25LabCard/README.md",
+    "components/R26IndexWall/README.md",
+    "components/R27KnockoutFigure/README.md",
+    "components/R28VerticalScale/README.md",
+    "components/RangePlot/README.md",
+    "components/RangePlot/deck.css",
+    "components/RangePlot/fit.js",
+    "components/Resources/README.md",
+    "components/Resources/deck.css",
+    "components/Resources/fit.js",
+    "components/ScaleStrip/README.md",
+    "components/ScaleStrip/ScaleStrip.d.ts",
+    "components/SectionDivider/README.md",
+    "components/SectionDivider/deck.css",
+    "components/SectionDivider/fit.js",
+    "components/SectionDividerViolet/README.md",
+    "components/SectionDividerViolet/deck.css",
+    "components/SectionDividerViolet/fit.js",
+    "components/SectionProgress/README.md",
+    "components/SectionProgress/deck.css",
+    "components/SectionProgress/fit.js",
+    "components/Sections/README.md",
+    "components/SectionsFurniture/README.md",
+    "components/Speaker/README.md",
+    "components/Speaker/deck.css",
+    "components/Speaker/fit.js",
+    "components/SplitHero/README.md",
+    "components/SplitHero/SplitHero.d.ts",
+    "components/Statement/README.md",
+    "components/Statement/deck.css",
+    "components/Statement/fit.js",
+    "components/StatementBlue/README.md",
+    "components/StatementBlue/deck.css",
+    "components/StatementBlue/fit.js",
+    "components/StatementViolet/README.md",
+    "components/StatementViolet/deck.css",
+    "components/StatementViolet/fit.js",
+    "components/StudyAnatomy/README.md",
+    "components/StudyAnatomy/deck.css",
+    "components/StudyAnatomy/fit.js",
+    "components/Table/README.md",
+    "components/Table/deck.css",
+    "components/Table/fit.js",
+    "components/Takeaways/README.md",
+    "components/Takeaways/deck.css",
+    "components/Takeaways/fit.js",
+    "components/TalkCard/README.md",
+    "components/TalkCard/TalkCard.d.ts",
+    "components/ThreeColumns/README.md",
+    "components/ThreeColumns/deck.css",
+    "components/ThreeColumns/fit.js",
+    "components/ThreeColumnsBlue/README.md",
+    "components/ThreeColumnsBlue/deck.css",
+    "components/ThreeColumnsBlue/fit.js",
+    "components/ThreeColumnsViolet/README.md",
+    "components/ThreeColumnsViolet/deck.css",
+    "components/ThreeColumnsViolet/fit.js",
+    "components/ThreeFigures/README.md",
+    "components/ThreeFigures/deck.css",
+    "components/ThreeFigures/fit.js",
+    "components/TimeSeries/README.md",
+    "components/TimeSeries/deck.css",
+    "components/TimeSeries/fit.js",
+    "components/TopicCard/README.md",
+    "components/TopicCard/TopicCard.d.ts",
+    "components/TwoThemeSplit/README.md",
+    "components/TwoThemeSplit/deck.css",
+    "components/TwoThemeSplit/fit.js",
+    "components/VerticalScale/README.md",
+    "components/VerticalScale/deck.css",
+    "components/VerticalScale/fit.js",
+    "components/WebGrammar/README.md",
+    "components/WebinarCard/README.md",
+    "components/WebinarCard/WebinarCard.d.ts",
+    "components/Word/README.md",
+    "components/Word/deck.css",
+    "components/Word/fit.js",
+    "components/bundle.css",
+    "components/bundle.js",
+    "components/lib/react-dom.production.min.js",
+    "components/lib/react.production.min.js",
+    "components/slides/deck.css",
+    "components/slides/fit.js",
+    "docs/_ds_bundle.js",
+    "docs/_ds_manifest.json",
+    "docs/components/cards/cards.card.md",
+    "docs/components/core/core.card.md",
+    "docs/components/icons/clinical-icons.card.md",
+    "docs/components/navigation/navigation.card.md",
+    "docs/components/sections/sections-furniture.card.md",
+    "docs/components/sections/sections.card.md",
+    "docs/guidelines/a11y-contrast.card.md",
+    "docs/guidelines/brand-deckgrid.card.md",
+    "docs/guidelines/brand-monogram.card.md",
+    "docs/guidelines/brand-motion.card.md",
+    "docs/guidelines/brand-photography.card.md",
+    "docs/guidelines/brand-principles.card.md",
+    "docs/guidelines/brand-scrim.card.md",
+    "docs/guidelines/chart-colors.card.md",
+    "docs/guidelines/chart-line.card.md",
+    "docs/guidelines/chart-riskstack.card.md",
+    "docs/guidelines/color-chrome.card.md",
+    "docs/guidelines/color-dark.card.md",
+    "docs/guidelines/color-data.card.md",
+    "docs/guidelines/color-grading.card.md",
+    "docs/guidelines/color-signal-dark.card.md",
+    "docs/guidelines/color-signal.card.md",
+    "docs/guidelines/color-surfaces.card.md",
+    "docs/guidelines/color-topic.card.md",
+    "docs/guidelines/imagery-clinical-library.card.md",
+    "docs/guidelines/imagery-modes.card.md",
+    "docs/guidelines/space-elevation.card.md",
+    "docs/guidelines/space-radius.card.md",
+    "docs/guidelines/space-rhythm.card.md",
+    "docs/guidelines/space-scale.card.md",
+    "docs/guidelines/token-semantic.card.md",
+    "docs/guidelines/type-body.card.md",
+    "docs/guidelines/type-claim-measure.card.md",
+    "docs/guidelines/type-czech.card.md",
+    "docs/guidelines/type-deck.card.md",
+    "docs/guidelines/type-display.card.md",
+    "docs/guidelines/type-mono.card.md",
+    "docs/guidelines/type-weight.card.md",
+    "docs/guidelines/web-grammar.card.md",
+    "docs/reels/r01-hook-cover.md",
+    "docs/reels/r02-myth-and-fact.md",
+    "docs/reels/r03-big-number.md",
+    "docs/reels/r04-three-points.md",
+    "docs/reels/r05-quote.md",
+    "docs/reels/r06-evidence-card.md",
+    "docs/reels/r07-photo-split.md",
+    "docs/reels/r08-call-to-action.md",
+    "docs/reels/r09-numbered-step.md",
+    "docs/reels/r10-before-after.md",
+    "docs/reels/r11-do-and-don-t.md",
+    "docs/reels/r12-impact-phrase.md",
+    "docs/reels/r13-comparison.md",
+    "docs/reels/r14-stat-trio.md",
+    "docs/reels/r15-question.md",
+    "docs/reels/r16-vertical-timeline.md",
+    "docs/reels/r17-definition.md",
+    "docs/reels/r18-photo-strip.md",
+    "docs/reels/r19-quote-portrait.md",
+    "docs/reels/r20-series-cover.md",
+    "docs/reels/r21-word.md",
+    "docs/reels/r22-annotated-sentence.md",
+    "docs/reels/r23-two-theme-split.md",
+    "docs/reels/r24-edge-to-edge-data.md",
+    "docs/reels/r25-lab-card.md",
+    "docs/reels/r26-index-wall.md",
+    "docs/reels/r27-knockout-figure.md",
+    "docs/reels/r28-vertical-scale.md",
+    "docs/slides/01-cover.md",
+    "docs/slides/02-disclosure.md",
+    "docs/slides/03-agenda.md",
+    "docs/slides/04-section-divider.md",
+    "docs/slides/05-claim-photo.md",
+    "docs/slides/06-claim-beside-evidence.md",
+    "docs/slides/07-three-columns.md",
+    "docs/slides/08-photo-band.md",
+    "docs/slides/09-comparison.md",
+    "docs/slides/10-myth-and-fact.md",
+    "docs/slides/11-do-and-don-t.md",
+    "docs/slides/12-cycle-chart.md",
+    "docs/slides/13-lifespan-timeline.md",
+    "docs/slides/14-bar-chart.md",
+    "docs/slides/15-range-plot.md",
+    "docs/slides/16-milestone-timeline.md",
+    "docs/slides/17-big-number.md",
+    "docs/slides/18-three-figures.md",
+    "docs/slides/19-table.md",
+    "docs/slides/20-evidence.md",
+    "docs/slides/21-study-anatomy.md",
+    "docs/slides/22-quote.md",
+    "docs/slides/23-glossary.md",
+    "docs/slides/24-practical-list.md",
+    "docs/slides/25-resources.md",
+    "docs/slides/26-definition.md",
+    "docs/slides/27-question.md",
+    "docs/slides/28-case-vignette.md",
+    "docs/slides/29-process-steps.md",
+    "docs/slides/30-statement.md",
+    "docs/slides/31-photo-statement.md",
+    "docs/slides/32-photo-grid.md",
+    "docs/slides/33-takeaways.md",
+    "docs/slides/34-closing.md",
+    "docs/slides/35-loop-diagram.md",
+    "docs/slides/36-cause-chain.md",
+    "docs/slides/37-hub-and-spoke.md",
+    "docs/slides/38-hierarchy.md",
+    "docs/slides/39-matrix.md",
+    "docs/slides/40-concept-map.md",
+    "docs/slides/41-decision-path.md",
+    "docs/slides/42-photo-callout.md",
+    "docs/slides/43-photo-fade.md",
+    "docs/slides/44-photo-stat.md",
+    "docs/slides/45-photo-pair.md",
+    "docs/slides/46-photo-quote.md",
+    "docs/slides/47-cover-violet.md",
+    "docs/slides/48-section-divider-violet.md",
+    "docs/slides/49-statement-violet.md",
+    "docs/slides/50-three-columns-violet.md",
+    "docs/slides/51-cover-blue.md",
+    "docs/slides/52-three-columns-blue.md",
+    "docs/slides/53-statement-blue.md",
+    "docs/slides/54-claim-photo-blue.md",
+    "docs/slides/55-photo-mosaic.md",
+    "docs/slides/56-photo-corner.md",
+    "docs/slides/57-photo-panel.md",
+    "docs/slides/58-photo-caption-strip.md",
+    "docs/slides/59-forest-plot.md",
+    "docs/slides/60-time-series.md",
+    "docs/slides/61-media-still.md",
+    "docs/slides/62-call-to-action.md",
+    "docs/slides/63-speaker.md",
+    "docs/slides/64-section-progress.md",
+    "docs/slides/65-word.md",
+    "docs/slides/66-annotated-sentence.md",
+    "docs/slides/67-two-theme-split.md",
+    "docs/slides/68-edge-to-edge-data.md",
+    "docs/slides/69-lab-card.md",
+    "docs/slides/70-index-wall.md",
+    "docs/slides/71-knockout-figure.md",
+    "docs/slides/72-vertical-scale.md",
+    "docs/ui_kits/web/index.md",
+    "fonts/Geist-Black.woff2",
+    "fonts/Geist-BlackItalic.woff2",
+    "fonts/Geist-Bold.woff2",
+    "fonts/Geist-BoldItalic.woff2",
+    "fonts/Geist-ExtraBold.woff2",
+    "fonts/Geist-ExtraBoldItalic.woff2",
+    "fonts/Geist-ExtraLight.woff2",
+    "fonts/Geist-ExtraLightItalic.woff2",
+    "fonts/Geist-Italic.woff2",
+    "fonts/Geist-Italic_wght_.woff2",
+    "fonts/Geist-Light.woff2",
+    "fonts/Geist-LightItalic.woff2",
+    "fonts/Geist-Medium.woff2",
+    "fonts/Geist-MediumItalic.woff2",
+    "fonts/Geist-Regular.woff2",
+    "fonts/Geist-SemiBold.woff2",
+    "fonts/Geist-SemiBoldItalic.woff2",
+    "fonts/Geist-Thin.woff2",
+    "fonts/Geist-ThinItalic.woff2",
+    "fonts/GeistMono-Black.woff2",
+    "fonts/GeistMono-BlackItalic.woff2",
+    "fonts/GeistMono-Bold.woff2",
+    "fonts/GeistMono-BoldItalic.woff2",
+    "fonts/GeistMono-ExtraBold.woff2",
+    "fonts/GeistMono-ExtraBoldItalic.woff2",
+    "fonts/GeistMono-ExtraLight.woff2",
+    "fonts/GeistMono-ExtraLightItalic.woff2",
+    "fonts/GeistMono-Italic.woff2",
+    "fonts/GeistMono-Italic_wght_.woff2",
+    "fonts/GeistMono-Light.woff2",
+    "fonts/GeistMono-LightItalic.woff2",
+    "fonts/GeistMono-Medium.woff2",
+    "fonts/GeistMono-MediumItalic.woff2",
+    "fonts/GeistMono-Regular.woff2",
+    "fonts/GeistMono-SemiBold.woff2",
+    "fonts/GeistMono-SemiBoldItalic.woff2",
+    "fonts/GeistMono-Thin.woff2",
+    "fonts/GeistMono-ThinItalic.woff2",
+    "fonts/geist-300-normal.woff2",
+    "fonts/geist-400-normal.woff2",
+    "fonts/geist-500-normal.woff2",
+    "fonts/geist-600-normal.woff2",
+    "fonts/geist-mono-400-normal.woff2",
+    "fonts/geist-mono-500-normal.woff2",
+    "fonts/inter-latin-400-normal.woff2",
+    "fonts/inter-latin-500-normal.woff2",
+    "fonts/inter-latin-600-normal.woff2",
+    "fonts/inter-latin-ext-400-normal.woff2",
+    "fonts/inter-latin-ext-500-normal.woff2",
+    "fonts/inter-latin-ext-600-normal.woff2",
+    "guidelines/ACCESSIBILITY.md",
+    "guidelines/DATAVIZ.md",
+    "guidelines/ICONOGRAPHY.md",
+    "guidelines/IMAGERY.md",
+    "guidelines/PRESENTATION_RESEARCH.md",
+    "guidelines/PRINCIPLES.md",
+    "guidelines/RESEARCH.md",
+    "guidelines/TALKS.md",
+    "guidelines/TYPESETTING.md",
+    "guidelines/a11y-contrast.card.html",
+    "guidelines/brand-deckgrid.card.html",
+    "guidelines/brand-monogram.card.html",
+    "guidelines/brand-motion.card.html",
+    "guidelines/brand-photography.card.html",
+    "guidelines/brand-principles.card.html",
+    "guidelines/brand-scrim.card.html",
+    "guidelines/color-chrome.card.html",
+    "guidelines/color-dark.card.html",
+    "guidelines/color-data.card.html",
+    "guidelines/color-grading.card.html",
+    "guidelines/color-signal-dark.card.html",
+    "guidelines/color-signal.card.html",
+    "guidelines/color-surfaces.card.html",
+    "guidelines/color-topic.card.html",
+    "guidelines/imagery-clinical-library.card.html",
+    "guidelines/imagery-modes.card.html",
+    "guidelines/space-elevation.card.html",
+    "guidelines/space-radius.card.html",
+    "guidelines/space-rhythm.card.html",
+    "guidelines/space-scale.card.html",
+    "guidelines/token-semantic.card.html",
+    "guidelines/type-body.card.html",
+    "guidelines/type-claim-measure.card.html",
+    "guidelines/type-czech.card.html",
+    "guidelines/type-deck.card.html",
+    "guidelines/type-display.card.html",
+    "guidelines/type-mono.card.html",
+    "guidelines/type-weight.card.html",
+    "reference/deck-src/Agenda.dc.html",
+    "reference/deck-src/Annotated.dc.html",
+    "reference/deck-src/BarChart.dc.html",
+    "reference/deck-src/Beside.dc.html",
+    "reference/deck-src/BigNumber.dc.html",
+    "reference/deck-src/CallToAction.dc.html",
+    "reference/deck-src/Case.dc.html",
+    "reference/deck-src/CauseChain.dc.html",
+    "reference/deck-src/ClaimPhoto.dc.html",
+    "reference/deck-src/ClaimPhotoBlue.dc.html",
+    "reference/deck-src/Closing.dc.html",
+    "reference/deck-src/Comparison.dc.html",
+    "reference/deck-src/ConceptMap.dc.html",
+    "reference/deck-src/CoverBlue.dc.html",
+    "reference/deck-src/CoverViolet.dc.html",
+    "reference/deck-src/CycleChart.dc.html",
+    "reference/deck-src/DecisionPath.dc.html",
+    "reference/deck-src/Definition.dc.html",
+    "reference/deck-src/Disclosure.dc.html",
+    "reference/deck-src/Divider.dc.html",
+    "reference/deck-src/DividerViolet.dc.html",
+    "reference/deck-src/DoDont.dc.html",
+    "reference/deck-src/EdgeData.dc.html",
+    "reference/deck-src/Evidence.dc.html",
+    "reference/deck-src/Forest.dc.html",
+    "reference/deck-src/Glossary.dc.html",
+    "reference/deck-src/Hierarchy.dc.html",
+    "reference/deck-src/HubSpoke.dc.html",
+    "reference/deck-src/IndexWall.dc.html",
+    "reference/deck-src/Knockout.dc.html",
+    "reference/deck-src/LabCard.dc.html",
+    "reference/deck-src/Lifespan.dc.html",
+    "reference/deck-src/LoopDiagram.dc.html",
+    "reference/deck-src/Main.dc.html",
+    "reference/deck-src/Matrix.dc.html",
+    "reference/deck-src/Media.dc.html",
+    "reference/deck-src/Milestones.dc.html",
+    "reference/deck-src/MythFact.dc.html",
+    "reference/deck-src/Numbers.dc.html",
+    "reference/deck-src/PhotoBand.dc.html",
+    "reference/deck-src/PhotoCallout.dc.html",
+    "reference/deck-src/PhotoCaption.dc.html",
+    "reference/deck-src/PhotoCorner.dc.html",
+    "reference/deck-src/PhotoFade.dc.html",
+    "reference/deck-src/PhotoGrid.dc.html",
+    "reference/deck-src/PhotoMosaic.dc.html",
+    "reference/deck-src/PhotoPair.dc.html",
+    "reference/deck-src/PhotoPanel.dc.html",
+    "reference/deck-src/PhotoQuote.dc.html",
+    "reference/deck-src/PhotoStat.dc.html",
+    "reference/deck-src/PhotoStatement.dc.html",
+    "reference/deck-src/Practical.dc.html",
+    "reference/deck-src/Progress.dc.html",
+    "reference/deck-src/Question.dc.html",
+    "reference/deck-src/Quote.dc.html",
+    "reference/deck-src/R10Split.dc.html",
+    "reference/deck-src/R11DoDont.dc.html",
+    "reference/deck-src/R12Impact.dc.html",
+    "reference/deck-src/R13Compare.dc.html",
+    "reference/deck-src/R14Trio.dc.html",
+    "reference/deck-src/R15Question.dc.html",
+    "reference/deck-src/R16Timeline.dc.html",
+    "reference/deck-src/R17Definition.dc.html",
+    "reference/deck-src/R18Strip.dc.html",
+    "reference/deck-src/R19Portrait.dc.html",
+    "reference/deck-src/R1Hook.dc.html",
+    "reference/deck-src/R20Series.dc.html",
+    "reference/deck-src/R21Word.dc.html",
+    "reference/deck-src/R22Annotated.dc.html",
+    "reference/deck-src/R23SplitTheme.dc.html",
+    "reference/deck-src/R24EdgeData.dc.html",
+    "reference/deck-src/R25LabCard.dc.html",
+    "reference/deck-src/R26IndexWall.dc.html",
+    "reference/deck-src/R27Knockout.dc.html",
+    "reference/deck-src/R28VerticalScale.dc.html",
+    "reference/deck-src/R2Myth.dc.html",
+    "reference/deck-src/R3Number.dc.html",
+    "reference/deck-src/R4Three.dc.html",
+    "reference/deck-src/R5Quote.dc.html",
+    "reference/deck-src/R6Evidence.dc.html",
+    "reference/deck-src/R7Split.dc.html",
+    "reference/deck-src/R8CTA.dc.html",
+    "reference/deck-src/R9Step.dc.html",
+    "reference/deck-src/RangePlot.dc.html",
+    "reference/deck-src/Resources.dc.html",
+    "reference/deck-src/Speaker.dc.html",
+    "reference/deck-src/SplitTheme.dc.html",
+    "reference/deck-src/Statement.dc.html",
+    "reference/deck-src/StatementBlue.dc.html",
+    "reference/deck-src/StatementViolet.dc.html",
+    "reference/deck-src/Steps.dc.html",
+    "reference/deck-src/StudyAnatomy.dc.html",
+    "reference/deck-src/Table.dc.html",
+    "reference/deck-src/Takeaways.dc.html",
+    "reference/deck-src/ThreeUp.dc.html",
+    "reference/deck-src/ThreeUpBlue.dc.html",
+    "reference/deck-src/ThreeUpViolet.dc.html",
+    "reference/deck-src/TimeSeries.dc.html",
+    "reference/deck-src/VerticalScale.dc.html",
+    "reference/deck-src/Word.dc.html",
+    "templates/lecture-deck/LectureDeck.dc.html",
+    "templates/lecture-deck/ds-base.js",
+    "templates/lecture-deck/support.js",
+    "templates/paliativni-pece-en/PalliativeCareEN.dc.html",
+    "templates/paliativni-pece-en/ds-base.js",
+    "templates/paliativni-pece-en/support.js",
+    "templates/paliativni-pece/PaliativniPece.dc.html",
+    "templates/paliativni-pece/ds-base.js",
+    "templates/paliativni-pece/support.js",
+    "templates/reel-zenske-zdravi/ReelZenskeZdravi.dc.html",
+    "templates/reel-zenske-zdravi/ds-base.js",
+    "templates/reel-zenske-zdravi/support.js",
+    "templates/reel/Reel.dc.html",
+    "templates/reel/ds-base.js",
+    "templates/reel/support.js",
+    "templates/slide-kit/SlideKit.dc.html",
+    "templates/slide-kit/ds-base.js",
+    "templates/slide-kit/support.js",
+    "tokens.css",
+    "tokens/tokens.json",
+    "tokens/tokens.md",
+    "ui_kits/web/README.md",
+    "uploads/SKILL.md",
+    "uploads/TALKS.md"
+  ],
+  "libraries": [
+    {
+      "name": "react",
+      "version": "18.3.1",
+      "global": "React",
+      "file": "components/lib/react.production.min.js"
+    },
+    {
+      "name": "react-dom",
+      "version": "18.3.1",
+      "global": "ReactDOM",
+      "file": "components/lib/react-dom.production.min.js"
+    }
+  ],
+  "components": [
+    {
+      "name": "EntryCard",
+      "summary": "A listing row: title, mono meta line, and a mark only if it actually goes somewhere."
+    },
+    {
+      "name": "FactPanel",
+      "summary": "The sticky booking facts beside a webinar or talk, and the one Stripe button."
+    },
+    {
+      "name": "InstitutionCard",
+      "summary": "An organisation that corroborates the record."
+    },
+    {
+      "name": "PublicationRow",
+      "summary": "A publication: year, title, byline, journal, and a grade only where the paper states its own design."
+    },
+    {
+      "name": "TalkCard",
+      "summary": "A bookable talk: duotoned photograph, mono meta, two sentences of abstract."
+    },
+    {
+      "name": "TopicCard",
+      "summary": "One of the eight subjects, on its own theme tint, with its topic mark."
+    },
+    {
+      "name": "WebinarCard",
+      "summary": "A webinar for sale, with the price at figure scale in mono."
+    },
+    {
+      "name": "Grade",
+      "summary": "The evidence ladder: five ticks and the study design in mono, marking how well a claim is supported."
+    },
+    {
+      "name": "Icon",
+      "summary": "One 24px-grid, 1.5px-stroke icon set: eight topic marks and nine interface marks, the site's only glyph source."
+    },
+    {
+      "name": "Pill",
+      "summary": "The one ask on a page."
+    },
+    {
+      "name": "ClinicalIcon",
+      "summary": "Renders one illustrative glyph from Lucide at the brand's stroke settings — reach for it when a slide or card needs a picture of a thing (stethoscope, pill, mo…"
+    },
+    {
+      "name": "Foot",
+      "summary": "The blue connect strip over the four-column footer."
+    },
+    {
+      "name": "Nav",
+      "summary": "A mono utility bar over the white nav bar, collapsing to a stacked panel under 768px."
+    },
+    {
+      "name": "ScaleStrip",
+      "summary": "The deck's footer scale as a page element: the continuum a subject sits on, drawn as 25 ticks with the active span in accent."
+    },
+    {
+      "name": "ClaimBand",
+      "summary": "One sentence over a duotoned photograph, on a real scrim."
+    },
+    {
+      "name": "ContactBlock",
+      "summary": "Three mail routes to one inbox."
+    },
+    {
+      "name": "CtaClose",
+      "summary": "The one commercial ask, in the page's own theme, after the proof."
+    },
+    {
+      "name": "FaqList",
+      "summary": "Native , first answer open."
+    },
+    {
+      "name": "PageHero",
+      "summary": "The opening band every inner page shares."
+    },
+    {
+      "name": "SplitHero",
+      "summary": "The homepage opening: the deck's SPLIT board as a page."
+    },
+    {
+      "name": "Agenda",
+      "group": "Slides",
+      "summary": "STACK · three columns under a claim.",
+      "page": true
+    },
+    {
+      "name": "AnnotatedSentence",
+      "group": "Slides",
+      "summary": "OPEN · annotated sentence: three lines, each with a mono annotation.",
+      "page": true
+    },
+    {
+      "name": "BarChart",
+      "group": "Slides",
+      "summary": "PLOT · bar chart, value above each bar, no gridlines.",
+      "page": true
+    },
+    {
+      "name": "BigNumber",
+      "group": "Slides",
+      "summary": "BESIDE · big number on a dark ground with its label in mono and a claim beside.",
+      "page": true
+    },
+    {
+      "name": "CallToAction",
+      "group": "Slides",
+      "summary": "OPEN · call to action: QR slot left (empty until real), one sentence and contact right.",
+      "page": true
+    },
+    {
+      "name": "Cards",
+      "group": "Components",
+      "summary": "Topic, talk, institution, webinar, entry, publication, fact panel",
+      "page": true
+    },
+    {
+      "name": "CaseVignette",
+      "group": "Slides",
+      "summary": "BESIDE · case vignette: mono labels + values left, assessment right.",
+      "page": true
+    },
+    {
+      "name": "CauseChain",
+      "group": "Slides",
+      "summary": "DIAGRAM · cause chain: numbered nodes left to right, label and sub-label under each.",
+      "page": true
+    },
+    {
+      "name": "ChartColors",
+      "group": "Data",
+      "summary": "One hue, an opacity ladder, and sand for the second curve",
+      "page": true
+    },
+    {
+      "name": "ChartLine",
+      "group": "Data",
+      "summary": "Accent and sand; the second is also dashed",
+      "page": true
+    },
+    {
+      "name": "ChartRiskstack",
+      "group": "Data",
+      "summary": "Ranges as accent-25 spans, midpoints in accent, common baseline",
+      "page": true
+    },
+    {
+      "name": "ClaimBesideEvidence",
+      "group": "Slides",
+      "summary": "BESIDE · claim steps to 58px, evidence column right, grade top-right.",
+      "page": true
+    },
+    {
+      "name": "ClaimPhoto",
+      "group": "Slides",
+      "summary": "SPLIT · claim and three bold-led points left, photograph right.",
+      "page": true
+    },
+    {
+      "name": "ClaimPhotoBlue",
+      "group": "Slides",
+      "summary": "SPLIT · claim + photograph in blue.",
+      "page": true
+    },
+    {
+      "name": "ClinicalIcons",
+      "group": "Components",
+      "summary": "Curated set for clinic, women's health, longevity — 1.5px stroke, her hand",
+      "page": true
+    },
+    {
+      "name": "Closing",
+      "group": "Slides",
+      "summary": "FULL · closing with photograph.",
+      "page": true
+    },
+    {
+      "name": "Comparison",
+      "group": "Slides",
+      "summary": "SPLIT · two lists compared.",
+      "page": true
+    },
+    {
+      "name": "ConceptMap",
+      "group": "Slides",
+      "summary": "DIAGRAM · concept map as a ring; claim BESIDE.",
+      "page": true
+    },
+    {
+      "name": "Core",
+      "group": "Components",
+      "summary": "Pill, evidence grade, and the 24px icon set",
+      "page": true
+    },
+    {
+      "name": "Cover",
+      "group": "Slides",
+      "summary": "FULL · cover.",
+      "page": true
+    },
+    {
+      "name": "CoverBlue",
+      "group": "Slides",
+      "summary": "FULL · cover in blue.",
+      "page": true
+    },
+    {
+      "name": "CoverViolet",
+      "group": "Slides",
+      "summary": "FULL · cover in violet.",
+      "page": true
+    },
+    {
+      "name": "CycleChart",
+      "group": "Slides",
+      "summary": "PLOT · two curves, one axis, labels at the curve end.",
+      "page": true
+    },
+    {
+      "name": "DecisionPath",
+      "group": "Slides",
+      "summary": "DIAGRAM · decision path: one question node, two branches carrying the sentiment signal.",
+      "page": true
+    },
+    {
+      "name": "Definition",
+      "group": "Slides",
+      "summary": "OPEN · definition on a dark ground: term as statement, definition as lead, caveat as body.",
+      "page": true
+    },
+    {
+      "name": "Disclosure",
+      "group": "Slides",
+      "summary": "OPEN · kicker + claim + two mono columns.",
+      "page": true
+    },
+    {
+      "name": "DoAndDonT",
+      "group": "Slides",
+      "summary": "STACK · what helps, what does not.",
+      "page": true
+    },
+    {
+      "name": "EdgeToEdgeData",
+      "group": "Slides",
+      "summary": "PLOT · edge-to-edge curve behind a claim.",
+      "page": true
+    },
+    {
+      "name": "Evidence",
+      "group": "Slides",
+      "summary": "OPEN · evidence board.",
+      "page": true
+    },
+    {
+      "name": "ForestPlot",
+      "group": "Slides",
+      "summary": "PLOT · forest plot: estimate + CI per row, null line, effect labels in mono.",
+      "page": true
+    },
+    {
+      "name": "Glossary",
+      "group": "Slides",
+      "summary": "STACK · glossary, two columns of term + definition.",
+      "page": true
+    },
+    {
+      "name": "Hierarchy",
+      "group": "Slides",
+      "summary": "DIAGRAM · hierarchy: stacked tiers widening downward, axis label on the left.",
+      "page": true
+    },
+    {
+      "name": "HubAndSpoke",
+      "group": "Slides",
+      "summary": "DIAGRAM · hub and spoke: one filled hub, four satellites, spokes at 4px.",
+      "page": true
+    },
+    {
+      "name": "Index",
+      "group": "Web",
+      "summary": "The site on the deck's grammar: claim-as-sentence, mono kickers, hairlines, square corners, marks-only hover",
+      "page": true
+    },
+    {
+      "name": "IndexWall",
+      "group": "Slides",
+      "summary": "STACK · index wall: everything said today, three columns, numbered.",
+      "page": true
+    },
+    {
+      "name": "KnockoutFigure",
+      "group": "Slides",
+      "summary": "FULL · knockout figure: photograph through the numerals.",
+      "page": true
+    },
+    {
+      "name": "LabCard",
+      "group": "Slides",
+      "summary": "STACK · lab card: mono table of parameter, value, unit, reference range, direction.",
+      "page": true
+    },
+    {
+      "name": "LifespanTimeline",
+      "group": "Slides",
+      "summary": "PLOT · lifespan bars on a shared axis, claim BESIDE.",
+      "page": true
+    },
+    {
+      "name": "LoopDiagram",
+      "group": "Slides",
+      "summary": "DIAGRAM · loop with a figure in the centre and phases on the ring.",
+      "page": true
+    },
+    {
+      "name": "Matrix",
+      "group": "Slides",
+      "summary": "DIAGRAM · 2×2 matrix; axis titles in mono, items as labelled dots.",
+      "page": true
+    },
+    {
+      "name": "MediaStill",
+      "group": "Slides",
+      "summary": "SPLIT · media still with play mark; description and source left.",
+      "page": true
+    },
+    {
+      "name": "MilestoneTimeline",
+      "group": "Slides",
+      "summary": "PLOT · milestones on a horizontal axis, alternating above and below.",
+      "page": true
+    },
+    {
+      "name": "MythAndFact",
+      "group": "Slides",
+      "summary": "STACK · myth left (italic, muted), fact right (bold-led).",
+      "page": true
+    },
+    {
+      "name": "Navigation",
+      "group": "Components",
+      "summary": "One hairline nav strip, the connect band, the four-column footer, and the scale strip a topic page carries",
+      "page": true
+    },
+    {
+      "name": "PhotoBand",
+      "group": "Slides",
+      "summary": "BAND · photograph across the top, claim and note below.",
+      "page": true
+    },
+    {
+      "name": "PhotoCallout",
+      "group": "Slides",
+      "summary": "SPLIT · photograph with numbered callouts; list left.",
+      "page": true
+    },
+    {
+      "name": "PhotoCaptionStrip",
+      "group": "Slides",
+      "summary": "BAND · photograph strip on top, claim and three captions below.",
+      "page": true
+    },
+    {
+      "name": "PhotoCorner",
+      "group": "Slides",
+      "summary": "FULL · photograph with the claim in a corner on a scrim.",
+      "page": true
+    },
+    {
+      "name": "PhotoFade",
+      "group": "Slides",
+      "summary": "SPLIT · photograph fading into the text column.",
+      "page": true
+    },
+    {
+      "name": "PhotoGrid",
+      "group": "Slides",
+      "summary": "BAND · four photographs with mono labels, one sentence below.",
+      "page": true
+    },
+    {
+      "name": "PhotoMosaic",
+      "group": "Slides",
+      "summary": "BAND · photo mosaic, one large + two stacked, mono labels.",
+      "page": true
+    },
+    {
+      "name": "PhotoPair",
+      "group": "Slides",
+      "summary": "BAND · two photographs, two mono labels, two sentences.",
+      "page": true
+    },
+    {
+      "name": "PhotoPanel",
+      "group": "Slides",
+      "summary": "FULL · photograph with a solid text panel.",
+      "page": true
+    },
+    {
+      "name": "PhotoQuote",
+      "group": "Slides",
+      "summary": "FULL · quote over a photograph on a real scrim; attribution in body.",
+      "page": true
+    },
+    {
+      "name": "PhotoStat",
+      "group": "Slides",
+      "summary": "FULL · photograph with a figure and its sentence on a bottom scrim.",
+      "page": true
+    },
+    {
+      "name": "PhotoStatement",
+      "group": "Slides",
+      "summary": "FULL · statement over a duotoned photograph on a real scrim.",
+      "page": true
+    },
+    {
+      "name": "PracticalList",
+      "group": "Slides",
+      "summary": "STACK · practical list, two columns of item + detail.",
+      "page": true
+    },
+    {
+      "name": "ProcessSteps",
+      "group": "Slides",
+      "summary": "STACK · numbered process steps with a matching progress scale in the footer.",
+      "page": true
+    },
+    {
+      "name": "Question",
+      "group": "Slides",
+      "summary": "OPEN · a question to the room at claim size, one line of context.",
+      "page": true
+    },
+    {
+      "name": "Quote",
+      "group": "Slides",
+      "summary": "OPEN · quote at 76px with source line.",
+      "page": true
+    },
+    {
+      "name": "R01HookCover",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · cover / hook.",
+      "page": true
+    },
+    {
+      "name": "R02MythAndFact",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · myth (italic, top half) vs fact (bottom half).",
+      "page": true
+    },
+    {
+      "name": "R03BigNumber",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · one figure fills the frame; ghost glyph allowed here only.",
+      "page": true
+    },
+    {
+      "name": "R04ThreePoints",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · three numbered points; one line each.",
+      "page": true
+    },
+    {
+      "name": "R05Quote",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · quote at 112px with signature; no portrait exists.",
+      "page": true
+    },
+    {
+      "name": "R06EvidenceCard",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · evidence card: citation, identifier, grade ticks.",
+      "page": true
+    },
+    {
+      "name": "R07PhotoSplit",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · photograph top, text on a bottom scrim; mono phase label.",
+      "page": true
+    },
+    {
+      "name": "R08CallToAction",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · CTA mid-frame; bottom 480px carries only ground.",
+      "page": true
+    },
+    {
+      "name": "R09NumberedStep",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · numbered step; kicker names the step count.",
+      "page": true
+    },
+    {
+      "name": "R10BeforeAfter",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · before / after halves, same theme.",
+      "page": true
+    },
+    {
+      "name": "R11DoAndDonT",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · do and don’t with drawn marks (1.5px stroke), never dingbats.",
+      "page": true
+    },
+    {
+      "name": "R12ImpactPhrase",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · impact phrase over a photograph; nothing else.",
+      "page": true
+    },
+    {
+      "name": "R13Comparison",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · comparison in two halves; same theme, one tint step apart.",
+      "page": true
+    },
+    {
+      "name": "R14StatTrio",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · stat trio: figures in Geist 300, units in mono.",
+      "page": true
+    },
+    {
+      "name": "R15Question",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · question to the viewer; answer goes in the comments.",
+      "page": true
+    },
+    {
+      "name": "R16VerticalTimeline",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · vertical timeline on a light ground.",
+      "page": true
+    },
+    {
+      "name": "R17Definition",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · definition: term as mid, definition as body.",
+      "page": true
+    },
+    {
+      "name": "R18PhotoStrip",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · photo strip with a kicker + claim; scrim under the text.",
+      "page": true
+    },
+    {
+      "name": "R19QuotePortrait",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · signed quote on plain ground; the signature is the attribution.",
+      "page": true
+    },
+    {
+      "name": "R20SeriesCover",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · series cover: episode number in mono, title as mid.",
+      "page": true
+    },
+    {
+      "name": "R21Word",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · single word at display size; ghost glyph allowed here only.",
+      "page": true
+    },
+    {
+      "name": "R22AnnotatedSentence",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · annotated sentence: three lines with mono annotations.",
+      "page": true
+    },
+    {
+      "name": "R23TwoThemeSplit",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · two phases split; same theme, tint step.",
+      "page": true
+    },
+    {
+      "name": "R24EdgeToEdgeData",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · edge-to-edge curve under a claim.",
+      "page": true
+    },
+    {
+      "name": "R25LabCard",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · lab card: mono table.",
+      "page": true
+    },
+    {
+      "name": "R26IndexWall",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · index wall: numbered glossary, two columns.",
+      "page": true
+    },
+    {
+      "name": "R27KnockoutFigure",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · knockout figure through a photograph.",
+      "page": true
+    },
+    {
+      "name": "R28VerticalScale",
+      "group": "Reels",
+      "summary": "Instagram 9:16 · vertical scale with the window highlighted.",
+      "page": true
+    },
+    {
+      "name": "RangePlot",
+      "group": "Slides",
+      "summary": "PLOT · range plot.",
+      "page": true
+    },
+    {
+      "name": "Resources",
+      "group": "Slides",
+      "summary": "STACK · resources: sources left, contact right.",
+      "page": true
+    },
+    {
+      "name": "SectionDivider",
+      "group": "Slides",
+      "summary": "BESIDE · one figure at 260px, the sentence that gives it meaning beside it.",
+      "page": true
+    },
+    {
+      "name": "SectionDividerViolet",
+      "group": "Slides",
+      "summary": "OPEN · section divider in violet with a side list of what the section covers.",
+      "page": true
+    },
+    {
+      "name": "SectionProgress",
+      "group": "Slides",
+      "summary": "OPEN · section progress: the agenda with the current item at 500 and accent.",
+      "page": true
+    },
+    {
+      "name": "Sections",
+      "group": "Components",
+      "summary": "How a page opens: the split hero, the shared page hero, the claim band",
+      "page": true
+    },
+    {
+      "name": "SectionsFurniture",
+      "group": "Components",
+      "summary": "FAQ on hairlines, three mail routes, the one closing ask",
+      "page": true
+    },
+    {
+      "name": "Speaker",
+      "group": "Slides",
+      "summary": "SPLIT · speaker.",
+      "page": true
+    },
+    {
+      "name": "Statement",
+      "group": "Slides",
+      "summary": "OPEN · statement at 102px, one sentence under, signature bottom-right.",
+      "page": true
+    },
+    {
+      "name": "StatementBlue",
+      "group": "Slides",
+      "summary": "OPEN · statement in blue.",
+      "page": true
+    },
+    {
+      "name": "StatementViolet",
+      "group": "Slides",
+      "summary": "OPEN · statement in violet.",
+      "page": true
+    },
+    {
+      "name": "StudyAnatomy",
+      "group": "Slides",
+      "summary": "STACK · study anatomy: four labelled parts on a progress scale.",
+      "page": true
+    },
+    {
+      "name": "Table",
+      "group": "Slides",
+      "summary": "STACK · table.",
+      "page": true
+    },
+    {
+      "name": "Takeaways",
+      "group": "Slides",
+      "summary": "OPEN · takeaways: numbered, 48px, four max.",
+      "page": true
+    },
+    {
+      "name": "ThreeColumns",
+      "group": "Slides",
+      "summary": "FULL · closing.",
+      "page": true
+    },
+    {
+      "name": "ThreeColumnsBlue",
+      "group": "Slides",
+      "summary": "STACK · three columns in blue.",
+      "page": true
+    },
+    {
+      "name": "ThreeColumnsViolet",
+      "group": "Slides",
+      "summary": "STACK · three columns in violet.",
+      "page": true
+    },
+    {
+      "name": "ThreeFigures",
+      "group": "Slides",
+      "summary": "STACK · three figures, unit in mono beneath each, one sentence under.",
+      "page": true
+    },
+    {
+      "name": "TimeSeries",
+      "group": "Slides",
+      "summary": "PLOT · time series with one highlighted window.",
+      "page": true
+    },
+    {
+      "name": "TwoThemeSplit",
+      "group": "Slides",
+      "summary": "SPLIT · two phases of one topic.",
+      "page": true
+    },
+    {
+      "name": "VerticalScale",
+      "group": "Slides",
+      "summary": "BESIDE · vertical scale left, claim and three bold-led points right.",
+      "page": true
+    },
+    {
+      "name": "WebGrammar",
+      "group": "Web",
+      "summary": "The deck's rules, made fluid — what replaced the card-and-pill composition",
+      "page": true
+    },
+    {
+      "name": "Word",
+      "group": "Slides",
+      "summary": "OPEN · a single word at display size with its definition below.",
+      "page": true
+    }
+  ],
+  "lastChange": {
+    "by": "Migration",
+    "via": "standalone export",
+    "at": "2026-09-17T19:51:43.979Z",
+    "note": "migrated from the standalone version",
+    "source": "claude-design",
+    "authoredIn": "spa"
+  },
+  "assetGroups": [
+    {
+      "name": "Images",
+      "files": [
+        {
+          "path": "assets/Images/carer-elderly-woman-embrace.png",
+          "id": "8ebbe027459aa310931a0c8694bab3ac"
+        },
+        {
+          "path": "assets/Images/carer-feeding-man.png",
+          "id": "a068904be303861fd5500df3a6f89a36"
+        },
+        {
+          "path": "assets/Images/doctor-consult-desk.png",
+          "id": "565c91f6eb9b867b99c8fb1dbb39d4c4"
+        },
+        {
+          "path": "assets/Images/elderly-man-dual-blur.png",
+          "id": "62d74cd11b62660ee1d9816361ba971d"
+        },
+        {
+          "path": "assets/Images/elderly-woman-bed-bw.png",
+          "id": "ca1840e78fce2e83502e2fa620a2ad6a"
+        },
+        {
+          "path": "assets/Images/gloved-hands-chart.png",
+          "id": "1420d0dc95207db0bf04ac4fb123eafe"
+        },
+        {
+          "path": "assets/Images/hands-held-bedside.png",
+          "id": "f11015c0bb894cab645a17930f8280d7"
+        },
+        {
+          "path": "assets/Images/nurse-doctor-bedside.png",
+          "id": "b5c6af6590fe3cf4192907b2ffa7f3f5"
+        },
+        {
+          "path": "assets/Images/nurse-scrubs-clipboard.png",
+          "id": "14ddcf1aac58b1306fd71a0798b6ac69"
+        },
+        {
+          "path": "assets/Images/patient-bed-oxygen-bw.png",
+          "id": "c22990a01293e739017b44b64cb38f8b"
+        },
+        {
+          "path": "assets/Images/peg-tube-abdomen.png",
+          "id": "34178b06c974337b35c7e138906e4188"
+        },
+        {
+          "path": "assets/Images/stethoscope-flatlay-blue.png",
+          "id": "cda25386f39b852284251d1ec35c1505"
+        },
+        {
+          "path": "assets/Images/stethoscope-keyboard-desk.png",
+          "id": "3492d03379bc53f380c0e4d4a08811d3"
+        },
+        {
+          "path": "assets/Images/surgery-team.png",
+          "id": "b5bc28b57f7926ada5dddaabd683f13f"
+        },
+        {
+          "path": "assets/Images/xray-neck-circle.png",
+          "id": "7da0fee2a2fece59786f4c32cff21dcc"
+        }
+      ]
+    },
+    {
+      "name": "Logos",
+      "files": [
+        {
+          "path": "assets/Logos/band-lift.jpg",
+          "id": "9e00cae6028b1397a86d8946f99665d8"
+        },
+        {
+          "path": "assets/Logos/faq-archive.jpg",
+          "id": "92d64d2c4ce69540ffcb1bcd463d9d58"
+        },
+        {
+          "path": "assets/Logos/hero-kitchen.jpg",
+          "id": "d595d432a5a3c9295422275f8c1b7b76"
+        },
+        {
+          "path": "assets/Logos/sig-blue.png",
+          "id": "b39ea731efc9e144a042dc8f4681e171"
+        },
+        {
+          "path": "assets/Logos/sig-mint.png",
+          "id": "b4494db21fe861b591f9303299251a09"
+        },
+        {
+          "path": "assets/Logos/sig-sand.png",
+          "id": "0437dc60d0fc940a4cac724f6438dd58"
+        },
+        {
+          "path": "assets/Logos/sig-violet.png",
+          "id": "e2736e5fb4d07c91c2bccb8d8d90cced"
+        },
+        {
+          "path": "assets/Logos/talk-squash.jpg",
+          "id": "871c9716253bd7578b52126d0a262b1d"
+        }
+      ]
+    },
+    {
+      "name": "Uploads",
+      "files": [
+        {
+          "path": "assets/Uploads/CleanShot 2026-09-14 at 00.07.33@2x.png",
+          "id": "34393b5efa18f36d8a5f737924015142"
+        },
+        {
+          "path": "assets/Uploads/paliativni-pece.pdf",
+          "id": "3a9c8fe6acb4ca33f7ce32b186fd3cd0"
+        }
+      ]
+    },
+    {
+      "name": "clinical",
+      "files": [
+        {
+          "path": "assets/clinical/doctor-holding-brain-model.png",
+          "id": "1d456e91ddcffd6b2ae5b0a4cfc45b8b"
+        },
+        {
+          "path": "assets/clinical/legacy-speech-bubble.png",
+          "id": "a9f5c4151b7fb1dfb50de56a807ba1d1"
+        },
+        {
+          "path": "assets/clinical/nurse-elderly-woman-bedside.png",
+          "id": "c1821dcae692ed319584c47fa7e4a82d"
+        },
+        {
+          "path": "assets/clinical/peg-feeding-set.png",
+          "id": "a9c1b38c3d70ab8d5fb2d0b508d7692b"
+        },
+        {
+          "path": "assets/clinical/product-fresubin-creme.png",
+          "id": "a81a96e42010acc90e5819f1baa35c0e"
+        },
+        {
+          "path": "assets/clinical/stock-brain-dissolve.png",
+          "id": "d30e0d625a7bc6a8e254b7734727f822"
+        },
+        {
+          "path": "assets/clinical/stock-health-cubes-phone.png",
+          "id": "e3c3880b7e4880023322b82eb8350b94"
+        },
+        {
+          "path": "assets/clinical/stock-puzzle-head.png",
+          "id": "f4e44292094de07632269178ac1841e7"
+        },
+        {
+          "path": "assets/clinical/texture-modified-meal.png",
+          "id": "8c09a452351aee5615f3adad2fea1f12"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "files": [
+        {
+          "path": "assets/favicon.svg",
+          "id": "7e7a51e7f5929aecdff2588066671ab0"
+        },
+        {
+          "path": "assets/sig-blue.png",
+          "id": "b39ea731efc9e144a042dc8f4681e171"
+        },
+        {
+          "path": "assets/sig-ink.png",
+          "id": "98cd8894df2432a01902e7a319db8806"
+        },
+        {
+          "path": "assets/sig-mint.png",
+          "id": "b4494db21fe861b591f9303299251a09"
+        },
+        {
+          "path": "assets/sig-violet.png",
+          "id": "e2736e5fb4d07c91c2bccb8d8d90cced"
+        }
+      ]
+    },
+    {
+      "name": "img",
+      "files": [
+        {
+          "path": "assets/img/about-food.jpg",
+          "id": "fe18d6aa2b3b1503386dded9d54891a5"
+        },
+        {
+          "path": "assets/img/about-grip.jpg",
+          "id": "d1c3aabeb63493b8bdd8dfb9fd107854"
+        },
+        {
+          "path": "assets/img/contact-squash.jpg",
+          "id": "8cb45f4c2c291e49c200f065c6bca0e4"
+        },
+        {
+          "path": "assets/img/talk-bar.jpg",
+          "id": "15eaa6af08add152660ae09bd9870746"
+        }
+      ]
+    },
+    {
+      "name": "notes"
+    },
+    {
+      "name": "photo",
+      "files": [
+        {
+          "path": "assets/photo/photo-archive.jpg",
+          "id": "ce6c5b25bf067eb859ff574429af9c32"
+        },
+        {
+          "path": "assets/photo/photo-bar.jpg",
+          "id": "2293a0484a641c05c4160e4d904eb80d"
+        },
+        {
+          "path": "assets/photo/photo-chart.jpg",
+          "id": "6cce36f36d2a97c336fd63ab9263acdb"
+        },
+        {
+          "path": "assets/photo/photo-clinic.jpg",
+          "id": "8a0fd57e21725530172a6a2f20ad47f0"
+        },
+        {
+          "path": "assets/photo/photo-cover.jpg",
+          "id": "5f6b5f70268d6119397315f0d200899a"
+        },
+        {
+          "path": "assets/photo/photo-food.jpg",
+          "id": "b3cc8be7195c1838f6c5f48d820026fa"
+        },
+        {
+          "path": "assets/photo/photo-gym.jpg",
+          "id": "3cfbc32f80763fb86578213ec044d782"
+        },
+        {
+          "path": "assets/photo/photo-highkey.jpg",
+          "id": "46b5770bd58f5acea22588209ae21014"
+        },
+        {
+          "path": "assets/photo/photo-kitchen.jpg",
+          "id": "9636d492bbf8b749942a99c629fccb1c"
+        },
+        {
+          "path": "assets/photo/photo-lift.jpg",
+          "id": "5b66a5810174e16e053a05e9588d9268"
+        },
+        {
+          "path": "assets/photo/photo-midlife.jpg",
+          "id": "6dc6f435d779a17f468eb0d4838923b9"
+        },
+        {
+          "path": "assets/photo/photo-organs.jpg",
+          "id": "e2a27488e6369d44a0bbc482983ef22d"
+        },
+        {
+          "path": "assets/photo/photo-portrait.jpg",
+          "id": "f716e0c05a987acf54805f39441ca1b2"
+        },
+        {
+          "path": "assets/photo/photo-rest.jpg",
+          "id": "f1c956127e0ebf72c328cb84c1b1e21c"
+        },
+        {
+          "path": "assets/photo/photo-squash.jpg",
+          "id": "35a092bc0e8cd2b95697f4923a624bf6"
+        },
+        {
+          "path": "assets/photo/photo-steth.jpg",
+          "id": "2939d7d70a5c2a598a3e8deb981b10da"
+        },
+        {
+          "path": "assets/photo/photo-walk.jpg",
+          "id": "7ffb218d39439565ddff705b18ce28ba"
+        }
+      ]
+    },
+    {
+      "name": "reference",
+      "files": [
+        {
+          "path": "assets/reference/cochrane-davies-tube-feeding-header.png",
+          "id": "4958fde51e11ce44294e59689ca8b90d"
+        },
+        {
+          "path": "assets/reference/glim-algorithm-figure.png",
+          "id": "f065209d6fc7d8eed5611f6a0d9b414f"
+        },
+        {
+          "path": "assets/reference/home-1440.png",
+          "id": "3d98de4ca1b82945d17a6d5f854d70ff"
+        },
+        {
+          "path": "assets/reference/o-mne-1440.png",
+          "id": "fe62afbf53568914433748852ffeb9e6"
+        },
+        {
+          "path": "assets/reference/step2-board.jpg",
+          "id": "44c1c65bb591b0cd4c2b5c610990c347"
+        },
+        {
+          "path": "assets/reference/temata-1440.png",
+          "id": "dabd4f1f4bb74d2dba3bb1806617b4b3"
+        },
+        {
+          "path": "assets/reference/third-party-finger-foods-infographic.png",
+          "id": "6f078afde5cd563a3a599e69b88dfac3"
+        },
+        {
+          "path": "assets/reference/third-party-netflix-poster.png",
+          "id": "c7b3b88cf4f7493e581bcc5da9a3fa74"
+        }
+      ]
+    }
+  ],
+  "storage": {
+    "files": {
+      "assets/Images/carer-elderly-woman-embrace.png": {
+        "store": "blob",
+        "id": "8ebbe027459aa310931a0c8694bab3ac",
+        "sha256": "898951f4c0efe472262e5a35b5f47d0638f56c04fdba6b82e2abf69edc5b46b3",
+        "bytes": 534059,
+        "type": "image/png",
+        "name": "carer-elderly-woman-embrace.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Images/carer-feeding-man.png": {
+        "store": "blob",
+        "id": "a068904be303861fd5500df3a6f89a36",
+        "sha256": "82cd6c553321f31241dfa7bbc763d385c08478700633f36f3cdee27888bcb33d",
+        "bytes": 539514,
+        "type": "image/png",
+        "name": "carer-feeding-man.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Images/doctor-consult-desk.png": {
+        "store": "blob",
+        "id": "565c91f6eb9b867b99c8fb1dbb39d4c4",
+        "sha256": "0f2749fdfab60b5d1ff60a158548bf504c1f598f01b34cab88d3f362d0cd2678",
+        "bytes": 411327,
+        "type": "image/png",
+        "name": "doctor-consult-desk.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Images/elderly-man-dual-blur.png": {
+        "store": "blob",
+        "id": "62d74cd11b62660ee1d9816361ba971d",
+        "sha256": "265cb484c55ea9f1b9f3e81b77a81129c1136143b55dbe512264339380b39f4c",
+        "bytes": 277078,
+        "type": "image/png",
+        "name": "elderly-man-dual-blur.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Images/elderly-woman-bed-bw.png": {
+        "store": "blob",
+        "id": "ca1840e78fce2e83502e2fa620a2ad6a",
+        "sha256": "a2925ac3fd333db22bafb3c68063eb27bee62031931fffa93fdfcb6a7f70bdec",
+        "bytes": 192975,
+        "type": "image/png",
+        "name": "elderly-woman-bed-bw.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Images/gloved-hands-chart.png": {
+        "store": "blob",
+        "id": "1420d0dc95207db0bf04ac4fb123eafe",
+        "sha256": "5709de3822731d5979b0bf2b34d4c46e23041588995605d430cf3a34d139f109",
+        "bytes": 354662,
+        "type": "image/png",
+        "name": "gloved-hands-chart.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Images/hands-held-bedside.png": {
+        "store": "blob",
+        "id": "f11015c0bb894cab645a17930f8280d7",
+        "sha256": "0dcdbcc530e0684d10baad15c29dea7475aa96affc2ff859d9eee010ada3bd76",
+        "bytes": 452756,
+        "type": "image/png",
+        "name": "hands-held-bedside.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Images/nurse-doctor-bedside.png": {
+        "store": "blob",
+        "id": "b5c6af6590fe3cf4192907b2ffa7f3f5",
+        "sha256": "e5820253b6f73fc4f85abba4a44175e79a11944d02d3306414ce7a4be0e06221",
+        "bytes": 303544,
+        "type": "image/png",
+        "name": "nurse-doctor-bedside.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Images/nurse-scrubs-clipboard.png": {
+        "store": "blob",
+        "id": "14ddcf1aac58b1306fd71a0798b6ac69",
+        "sha256": "546cb061aa8586688e8daed1e1719906fcff808a891982826391d0b9736b18e5",
+        "bytes": 441082,
+        "type": "image/png",
+        "name": "nurse-scrubs-clipboard.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Images/patient-bed-oxygen-bw.png": {
+        "store": "blob",
+        "id": "c22990a01293e739017b44b64cb38f8b",
+        "sha256": "7cee813b3f87a1336dbca8b0bb4c5bd9590bfd78f841f146c1ec6402159e969f",
+        "bytes": 221857,
+        "type": "image/png",
+        "name": "patient-bed-oxygen-bw.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Images/peg-tube-abdomen.png": {
+        "store": "blob",
+        "id": "34178b06c974337b35c7e138906e4188",
+        "sha256": "5dcf07865a40276092840b4f14c014b32e477d9bc2e1785e58158313df20f930",
+        "bytes": 528634,
+        "type": "image/png",
+        "name": "peg-tube-abdomen.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Images/stethoscope-flatlay-blue.png": {
+        "store": "blob",
+        "id": "cda25386f39b852284251d1ec35c1505",
+        "sha256": "9d8e7802e37bd71c53d946b043b0cfafb3e86e96771cecec7fc08285faee9f9a",
+        "bytes": 413788,
+        "type": "image/png",
+        "name": "stethoscope-flatlay-blue.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Images/stethoscope-keyboard-desk.png": {
+        "store": "blob",
+        "id": "3492d03379bc53f380c0e4d4a08811d3",
+        "sha256": "db2bdac825c5373834efabda4e5cf5f8bc6662f18f01f567477be8e563c0f9af",
+        "bytes": 654448,
+        "type": "image/png",
+        "name": "stethoscope-keyboard-desk.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Images/surgery-team.png": {
+        "store": "blob",
+        "id": "b5bc28b57f7926ada5dddaabd683f13f",
+        "sha256": "2eaba912cf798f3da70618cbec3a2487c52cd2c322f719b81dda7c62249b5f7f",
+        "bytes": 301909,
+        "type": "image/png",
+        "name": "surgery-team.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Images/xray-neck-circle.png": {
+        "store": "blob",
+        "id": "7da0fee2a2fece59786f4c32cff21dcc",
+        "sha256": "a98fb3f8c9ec3e8e5fc75bee261d921eaaa55fa7ddec90f2234190672776c1b9",
+        "bytes": 220204,
+        "type": "image/png",
+        "name": "xray-neck-circle.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Logos/band-lift.jpg": {
+        "store": "blob",
+        "id": "9e00cae6028b1397a86d8946f99665d8",
+        "sha256": "59816c632bb7486761f4bdee2a4b6b4d923f232f1d6168979ef567950fa3e207",
+        "bytes": 114182,
+        "type": "image/jpeg",
+        "name": "band-lift.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Logos/faq-archive.jpg": {
+        "store": "blob",
+        "id": "92d64d2c4ce69540ffcb1bcd463d9d58",
+        "sha256": "0347c2a19bfab1799a70bef8260b6f329f81d7aa20395e6efa9228d57582aada",
+        "bytes": 78037,
+        "type": "image/jpeg",
+        "name": "faq-archive.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Logos/hero-kitchen.jpg": {
+        "store": "blob",
+        "id": "d595d432a5a3c9295422275f8c1b7b76",
+        "sha256": "3d05affd863a90912127feba360011102bc9ca918c4d3410aa628cc6398d7872",
+        "bytes": 1871259,
+        "type": "image/jpeg",
+        "name": "hero-kitchen.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Logos/sig-blue.png": {
+        "store": "blob",
+        "id": "b39ea731efc9e144a042dc8f4681e171",
+        "sha256": "a5bfe186f35d01e69649649611dbbdb5ba9bb0df7a1b352a22d491fdef9bac03",
+        "bytes": 13438,
+        "type": "image/png",
+        "name": "sig-blue.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Logos/sig-mint.png": {
+        "store": "blob",
+        "id": "b4494db21fe861b591f9303299251a09",
+        "sha256": "963dd226043ea74fa99aa928b629277521ce9f29789ba1647193ac3ef799db33",
+        "bytes": 14148,
+        "type": "image/png",
+        "name": "sig-mint.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Logos/sig-sand.png": {
+        "store": "blob",
+        "id": "0437dc60d0fc940a4cac724f6438dd58",
+        "sha256": "e8567c2b53c48e3c848a4dc7fef25d5ff6f45942866e83bb8fa9b107a200c7c9",
+        "bytes": 14151,
+        "type": "image/png",
+        "name": "sig-sand.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Logos/sig-violet.png": {
+        "store": "blob",
+        "id": "e2736e5fb4d07c91c2bccb8d8d90cced",
+        "sha256": "12417d9d8d0923a90e9d40a67de93f8f2c813696a8045a3478d2089f5c3718ce",
+        "bytes": 14133,
+        "type": "image/png",
+        "name": "sig-violet.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Logos/talk-squash.jpg": {
+        "store": "blob",
+        "id": "871c9716253bd7578b52126d0a262b1d",
+        "sha256": "0b93a152f477c0da7c66cfcec880aa50348d43f065ed7bb3b12f032ac0a9d423",
+        "bytes": 42944,
+        "type": "image/jpeg",
+        "name": "talk-squash.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Uploads/CleanShot 2026-09-14 at 00.07.33@2x.png": {
+        "store": "blob",
+        "id": "34393b5efa18f36d8a5f737924015142",
+        "sha256": "2f1c7ba788e303240d9bc82d3362d58df5ef0569f187665bbde572f9ba7e73bb",
+        "bytes": 39178,
+        "type": "image/png",
+        "name": "CleanShot 2026-09-14 at 00.07.33@2x.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/Uploads/paliativni-pece.pdf": {
+        "store": "blob",
+        "id": "3a9c8fe6acb4ca33f7ce32b186fd3cd0",
+        "sha256": "6104c1a883b0b1b302553a1b82273613691a07fdb494835c3c26c25bb368afd0",
+        "bytes": 17200045,
+        "type": "application/pdf",
+        "name": "paliativni-pece.pdf",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/clinical/doctor-holding-brain-model.png": {
+        "store": "blob",
+        "id": "1d456e91ddcffd6b2ae5b0a4cfc45b8b",
+        "sha256": "e7a47ea6892796c2d043846fcfe9fff453bdb0cff37ce0aa4c21fff6123fbef4",
+        "bytes": 371613,
+        "type": "image/png",
+        "name": "doctor-holding-brain-model.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/clinical/legacy-speech-bubble.png": {
+        "store": "blob",
+        "id": "a9f5c4151b7fb1dfb50de56a807ba1d1",
+        "sha256": "0225ba2aefe8d1b2839c3edb57788b6875cbc4bb7a4432bba6e3784800f284f7",
+        "bytes": 162392,
+        "type": "image/png",
+        "name": "legacy-speech-bubble.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/clinical/nurse-elderly-woman-bedside.png": {
+        "store": "blob",
+        "id": "c1821dcae692ed319584c47fa7e4a82d",
+        "sha256": "29a625612c75f5f8621278604833fc27d180243cad64fdd6513035d86c92439d",
+        "bytes": 470572,
+        "type": "image/png",
+        "name": "nurse-elderly-woman-bedside.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/clinical/peg-feeding-set.png": {
+        "store": "blob",
+        "id": "a9c1b38c3d70ab8d5fb2d0b508d7692b",
+        "sha256": "e1cfe5f9ee7cbeded77d08d84e966efb207fa25eb9ea1848aed8b628f9ada12a",
+        "bytes": 34290,
+        "type": "image/png",
+        "name": "peg-feeding-set.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/clinical/product-fresubin-creme.png": {
+        "store": "blob",
+        "id": "a81a96e42010acc90e5819f1baa35c0e",
+        "sha256": "e863728b74ea385ce34d6a97e96a6e2333bc8748d5f8aa3221c0457d9da108fb",
+        "bytes": 274383,
+        "type": "image/png",
+        "name": "product-fresubin-creme.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/clinical/stock-brain-dissolve.png": {
+        "store": "blob",
+        "id": "d30e0d625a7bc6a8e254b7734727f822",
+        "sha256": "9b1621b65e6e6fdc04933f6db607e57aaeb9bc7a8bcf0f7a8e3ce6c55c93ae81",
+        "bytes": 295605,
+        "type": "image/png",
+        "name": "stock-brain-dissolve.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/clinical/stock-health-cubes-phone.png": {
+        "store": "blob",
+        "id": "e3c3880b7e4880023322b82eb8350b94",
+        "sha256": "e10f94493957e47f02182d2710e6114bdf46a94d7747652b35b5ae946e0424dc",
+        "bytes": 360546,
+        "type": "image/png",
+        "name": "stock-health-cubes-phone.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/clinical/stock-puzzle-head.png": {
+        "store": "blob",
+        "id": "f4e44292094de07632269178ac1841e7",
+        "sha256": "940a826b49a239b15744d9f7d82f4c037baa83722dd70a1465ec4be443fb8d93",
+        "bytes": 541949,
+        "type": "image/png",
+        "name": "stock-puzzle-head.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/clinical/texture-modified-meal.png": {
+        "store": "blob",
+        "id": "8c09a452351aee5615f3adad2fea1f12",
+        "sha256": "fd9ce17af67e82a0635d31100671b11eb48db7385a3c504c072a6e7cf4c3df21",
+        "bytes": 291467,
+        "type": "image/png",
+        "name": "texture-modified-meal.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/favicon.svg": {
+        "store": "blob",
+        "id": "7e7a51e7f5929aecdff2588066671ab0",
+        "sha256": "c183e2d8a18a28bc98c44f699e7b3638016503b65d4c75d20a2db32133ecc5a7",
+        "bytes": 8169,
+        "type": "image/svg+xml",
+        "name": "favicon.svg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/img/about-food.jpg": {
+        "store": "blob",
+        "id": "fe18d6aa2b3b1503386dded9d54891a5",
+        "sha256": "64244924b427d41702f1cdf227d4e8eabd68d58f36e798cd8324e70b0abf2bb6",
+        "bytes": 1491830,
+        "type": "image/jpeg",
+        "name": "about-food.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/img/about-grip.jpg": {
+        "store": "blob",
+        "id": "d1c3aabeb63493b8bdd8dfb9fd107854",
+        "sha256": "0edbd6ac772f51a1eaa34cfd22d7ed653ed63ceeb3f99a71ca2bea046fc28a75",
+        "bytes": 45342,
+        "type": "image/jpeg",
+        "name": "about-grip.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/img/contact-squash.jpg": {
+        "store": "blob",
+        "id": "8cb45f4c2c291e49c200f065c6bca0e4",
+        "sha256": "f874ca4de0638ca96e9c47117b64e31043154331d94aefdbdc1d13a9e4b17afc",
+        "bytes": 75673,
+        "type": "image/jpeg",
+        "name": "contact-squash.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/img/talk-bar.jpg": {
+        "store": "blob",
+        "id": "15eaa6af08add152660ae09bd9870746",
+        "sha256": "3262f1b95c58bb788907d600ca971fecf2777275e99db559a508156f5b611f32",
+        "bytes": 30459,
+        "type": "image/jpeg",
+        "name": "talk-bar.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-archive.jpg": {
+        "store": "blob",
+        "id": "ce6c5b25bf067eb859ff574429af9c32",
+        "sha256": "076169d2f2eee63428d6ae3fbf5485904b48c0eaa8d27c4f24e944af917a8484",
+        "bytes": 80785,
+        "type": "image/jpeg",
+        "name": "photo-archive.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-bar.jpg": {
+        "store": "blob",
+        "id": "2293a0484a641c05c4160e4d904eb80d",
+        "sha256": "c48b35002607a518aaed7398f35c941368d5ffdf7eab28e71118f4dc73313d7e",
+        "bytes": 231782,
+        "type": "image/jpeg",
+        "name": "photo-bar.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-chart.jpg": {
+        "store": "blob",
+        "id": "6cce36f36d2a97c336fd63ab9263acdb",
+        "sha256": "74940c068e6ba9765bb4d7f8200c11c31a690bc0ed7109ae5a84582b28ff4595",
+        "bytes": 121985,
+        "type": "image/jpeg",
+        "name": "photo-chart.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-clinic.jpg": {
+        "store": "blob",
+        "id": "8a0fd57e21725530172a6a2f20ad47f0",
+        "sha256": "1248ada280f94497bb9fa84b21421cf51b1f509aa3b18f6f2adf001c49f70a48",
+        "bytes": 188435,
+        "type": "image/jpeg",
+        "name": "photo-clinic.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-cover.jpg": {
+        "store": "blob",
+        "id": "5f6b5f70268d6119397315f0d200899a",
+        "sha256": "2dbd5d898f71017baadc7d27bdaac14bddba54aaf2a0c1e214cc48598c7d9c04",
+        "bytes": 87152,
+        "type": "image/jpeg",
+        "name": "photo-cover.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-food.jpg": {
+        "store": "blob",
+        "id": "b3cc8be7195c1838f6c5f48d820026fa",
+        "sha256": "8b4390662061b7e4ca012d71185dc85c13ccedd20df5865252eaac35c7cdff5f",
+        "bytes": 102388,
+        "type": "image/jpeg",
+        "name": "photo-food.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-gym.jpg": {
+        "store": "blob",
+        "id": "3cfbc32f80763fb86578213ec044d782",
+        "sha256": "90cb26dc82406a4c2e5f959937cde4547250d495ce255e0c1b4834797da2c6cd",
+        "bytes": 70101,
+        "type": "image/jpeg",
+        "name": "photo-gym.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-highkey.jpg": {
+        "store": "blob",
+        "id": "46b5770bd58f5acea22588209ae21014",
+        "sha256": "075e0d9bbf24c707e0be7631a68c3e4687de9f13d522f4451ec69c9e01196a50",
+        "bytes": 40364,
+        "type": "image/jpeg",
+        "name": "photo-highkey.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-kitchen.jpg": {
+        "store": "blob",
+        "id": "9636d492bbf8b749942a99c629fccb1c",
+        "sha256": "66b22b7e2ec5ca2ab94d1ca0bb0cdfd12e99ba7edc9e3392d13240dc6ac91bbb",
+        "bytes": 382161,
+        "type": "image/jpeg",
+        "name": "photo-kitchen.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-lift.jpg": {
+        "store": "blob",
+        "id": "5b66a5810174e16e053a05e9588d9268",
+        "sha256": "61b096d71d340d1c608f708e3bd56dd39f99f6aea89f960b2fe274d055748f3d",
+        "bytes": 270648,
+        "type": "image/jpeg",
+        "name": "photo-lift.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-midlife.jpg": {
+        "store": "blob",
+        "id": "6dc6f435d779a17f468eb0d4838923b9",
+        "sha256": "f7b35b3f5774cbcaca4081fff48d7be28a0c3c4763aeb3e91aefa93bfba29454",
+        "bytes": 630941,
+        "type": "image/jpeg",
+        "name": "photo-midlife.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-organs.jpg": {
+        "store": "blob",
+        "id": "e2a27488e6369d44a0bbc482983ef22d",
+        "sha256": "58277e96a6aada9cace653135ab22113aaf77dd59dd222f29dbc6f0f15923d99",
+        "bytes": 39777,
+        "type": "image/jpeg",
+        "name": "photo-organs.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-portrait.jpg": {
+        "store": "blob",
+        "id": "f716e0c05a987acf54805f39441ca1b2",
+        "sha256": "b7383716d8286122dc48511ac1c171a52692da31c8be25cab3f60675eb1f333e",
+        "bytes": 221057,
+        "type": "image/jpeg",
+        "name": "photo-portrait.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-rest.jpg": {
+        "store": "blob",
+        "id": "f1c956127e0ebf72c328cb84c1b1e21c",
+        "sha256": "6a9ee13ee4b9ebd62faf9ce714d411aaf8c2a2ea7e497f4a62d54a041b461919",
+        "bytes": 48956,
+        "type": "image/jpeg",
+        "name": "photo-rest.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-squash.jpg": {
+        "store": "blob",
+        "id": "35a092bc0e8cd2b95697f4923a624bf6",
+        "sha256": "a752aeac7f72c5e345c87cef3877b2ec9964a0a0f9135bb2b8809290a8ab85bd",
+        "bytes": 269870,
+        "type": "image/jpeg",
+        "name": "photo-squash.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-steth.jpg": {
+        "store": "blob",
+        "id": "2939d7d70a5c2a598a3e8deb981b10da",
+        "sha256": "4711485af6744c4b33107b63b1f33a803b8f6793c35e714781993f51c8412a4b",
+        "bytes": 54164,
+        "type": "image/jpeg",
+        "name": "photo-steth.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/photo/photo-walk.jpg": {
+        "store": "blob",
+        "id": "7ffb218d39439565ddff705b18ce28ba",
+        "sha256": "7f91730c6af3938bf6f7e2ff460f9845c01b5e91d76ad89a10b5e8c72450e9a9",
+        "bytes": 314475,
+        "type": "image/jpeg",
+        "name": "photo-walk.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/reference/cochrane-davies-tube-feeding-header.png": {
+        "store": "blob",
+        "id": "4958fde51e11ce44294e59689ca8b90d",
+        "sha256": "7cc2eef212db85630b9af1a87e50cd07980e261fd4a193afaed7bee6d8f82b24",
+        "bytes": 53380,
+        "type": "image/png",
+        "name": "cochrane-davies-tube-feeding-header.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/reference/glim-algorithm-figure.png": {
+        "store": "blob",
+        "id": "f065209d6fc7d8eed5611f6a0d9b414f",
+        "sha256": "cf979b5cd5bbe2d05118aa0e34fa6bfe54c1b3a56cb2501760bfa63259f18b69",
+        "bytes": 82693,
+        "type": "image/png",
+        "name": "glim-algorithm-figure.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/reference/home-1440.png": {
+        "store": "blob",
+        "id": "3d98de4ca1b82945d17a6d5f854d70ff",
+        "sha256": "9a6010c030128bc00a5bf8465cd655f2362f9a7d14f3c8313295929a5ff2c741",
+        "bytes": 3372706,
+        "type": "image/png",
+        "name": "home-1440.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/reference/o-mne-1440.png": {
+        "store": "blob",
+        "id": "fe62afbf53568914433748852ffeb9e6",
+        "sha256": "705a516bf627bcfc8f8b4d20c67bd1926aa139996e21fd6eae08c3581cacab30",
+        "bytes": 395005,
+        "type": "image/png",
+        "name": "o-mne-1440.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/reference/step2-board.jpg": {
+        "store": "blob",
+        "id": "44c1c65bb591b0cd4c2b5c610990c347",
+        "sha256": "fbdc4f3227c0794acf8b0ff80c1f8a0f167536d6724a846ba3c1b56c7718cdd0",
+        "bytes": 20544,
+        "type": "image/jpeg",
+        "name": "step2-board.jpg",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/reference/temata-1440.png": {
+        "store": "blob",
+        "id": "dabd4f1f4bb74d2dba3bb1806617b4b3",
+        "sha256": "44a23adbc12f320fa191ee804af662c6d717b5beab6e7f5e3ca26d9707086191",
+        "bytes": 423520,
+        "type": "image/png",
+        "name": "temata-1440.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/reference/third-party-finger-foods-infographic.png": {
+        "store": "blob",
+        "id": "6f078afde5cd563a3a599e69b88dfac3",
+        "sha256": "c57921d8416b7a4d0b183b4e0a7f571108f5573cd3f3e08f2225d80e12aa8e89",
+        "bytes": 168862,
+        "type": "image/png",
+        "name": "third-party-finger-foods-infographic.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/reference/third-party-netflix-poster.png": {
+        "store": "blob",
+        "id": "c7b3b88cf4f7493e581bcc5da9a3fa74",
+        "sha256": "6dd41af300513c24a7da404d3e8ed82788bb70a5c4a1a8999cfb16d16c545a2c",
+        "bytes": 291842,
+        "type": "image/png",
+        "name": "third-party-netflix-poster.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/sig-blue.png": {
+        "store": "blob",
+        "id": "b39ea731efc9e144a042dc8f4681e171",
+        "sha256": "a5bfe186f35d01e69649649611dbbdb5ba9bb0df7a1b352a22d491fdef9bac03",
+        "bytes": 13438,
+        "type": "image/png",
+        "name": "sig-blue.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/sig-ink.png": {
+        "store": "blob",
+        "id": "98cd8894df2432a01902e7a319db8806",
+        "sha256": "f40243f886a5ea1b13b20cb8e6ea4a9804a94456d98e6f0dfe65fe6be06730c0",
+        "bytes": 14131,
+        "type": "image/png",
+        "name": "sig-ink.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/sig-mint.png": {
+        "store": "blob",
+        "id": "b4494db21fe861b591f9303299251a09",
+        "sha256": "963dd226043ea74fa99aa928b629277521ce9f29789ba1647193ac3ef799db33",
+        "bytes": 14148,
+        "type": "image/png",
+        "name": "sig-mint.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      },
+      "assets/sig-violet.png": {
+        "store": "blob",
+        "id": "e2736e5fb4d07c91c2bccb8d8d90cced",
+        "sha256": "12417d9d8d0923a90e9d40a67de93f8f2c813696a8045a3478d2089f5c3718ce",
+        "bytes": 14133,
+        "type": "image/png",
+        "name": "sig-violet.png",
+        "addedAt": "2026-09-17T19:51:43.979Z",
+        "via": "standalone export"
+      }
+    },
+    "blobBytesUsed": 37681366
+  }
+}

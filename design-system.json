@@ -1,0 +1,746 @@
+{
+ "v": 3,
+ "assetGroups": {
+  "Images": {
+   "files": {
+    "carer-elderly-woman-embrace.png": {
+     "blob": "8ebbe027459aa310931a0c8694bab3ac",
+     "name": "carer-elderly-woman-embrace.png",
+     "sha256": "898951f4c0efe472262e5a35b5f47d0638f56c04fdba6b82e2abf69edc5b46b3",
+     "size": 534059,
+     "type": "image/png"
+    },
+    "carer-feeding-man.png": {
+     "blob": "a068904be303861fd5500df3a6f89a36",
+     "name": "carer-feeding-man.png",
+     "sha256": "82cd6c553321f31241dfa7bbc763d385c08478700633f36f3cdee27888bcb33d",
+     "size": 539514,
+     "type": "image/png"
+    },
+    "doctor-consult-desk.png": {
+     "blob": "565c91f6eb9b867b99c8fb1dbb39d4c4",
+     "name": "doctor-consult-desk.png",
+     "sha256": "0f2749fdfab60b5d1ff60a158548bf504c1f598f01b34cab88d3f362d0cd2678",
+     "size": 411327,
+     "type": "image/png"
+    },
+    "elderly-man-dual-blur.png": {
+     "blob": "62d74cd11b62660ee1d9816361ba971d",
+     "name": "elderly-man-dual-blur.png",
+     "sha256": "265cb484c55ea9f1b9f3e81b77a81129c1136143b55dbe512264339380b39f4c",
+     "size": 277078,
+     "type": "image/png"
+    },
+    "elderly-woman-bed-bw.png": {
+     "blob": "ca1840e78fce2e83502e2fa620a2ad6a",
+     "name": "elderly-woman-bed-bw.png",
+     "sha256": "a2925ac3fd333db22bafb3c68063eb27bee62031931fffa93fdfcb6a7f70bdec",
+     "size": 192975,
+     "type": "image/png"
+    },
+    "gloved-hands-chart.png": {
+     "blob": "1420d0dc95207db0bf04ac4fb123eafe",
+     "name": "gloved-hands-chart.png",
+     "sha256": "5709de3822731d5979b0bf2b34d4c46e23041588995605d430cf3a34d139f109",
+     "size": 354662,
+     "type": "image/png"
+    },
+    "hands-held-bedside.png": {
+     "blob": "f11015c0bb894cab645a17930f8280d7",
+     "name": "hands-held-bedside.png",
+     "sha256": "0dcdbcc530e0684d10baad15c29dea7475aa96affc2ff859d9eee010ada3bd76",
+     "size": 452756,
+     "type": "image/png"
+    },
+    "nurse-doctor-bedside.png": {
+     "blob": "b5c6af6590fe3cf4192907b2ffa7f3f5",
+     "name": "nurse-doctor-bedside.png",
+     "sha256": "e5820253b6f73fc4f85abba4a44175e79a11944d02d3306414ce7a4be0e06221",
+     "size": 303544,
+     "type": "image/png"
+    },
+    "nurse-scrubs-clipboard.png": {
+     "blob": "14ddcf1aac58b1306fd71a0798b6ac69",
+     "name": "nurse-scrubs-clipboard.png",
+     "sha256": "546cb061aa8586688e8daed1e1719906fcff808a891982826391d0b9736b18e5",
+     "size": 441082,
+     "type": "image/png"
+    },
+    "patient-bed-oxygen-bw.png": {
+     "blob": "c22990a01293e739017b44b64cb38f8b",
+     "name": "patient-bed-oxygen-bw.png",
+     "sha256": "7cee813b3f87a1336dbca8b0bb4c5bd9590bfd78f841f146c1ec6402159e969f",
+     "size": 221857,
+     "type": "image/png"
+    },
+    "peg-tube-abdomen.png": {
+     "blob": "34178b06c974337b35c7e138906e4188",
+     "name": "peg-tube-abdomen.png",
+     "sha256": "5dcf07865a40276092840b4f14c014b32e477d9bc2e1785e58158313df20f930",
+     "size": 528634,
+     "type": "image/png"
+    },
+    "stethoscope-flatlay-blue.png": {
+     "blob": "cda25386f39b852284251d1ec35c1505",
+     "name": "stethoscope-flatlay-blue.png",
+     "sha256": "9d8e7802e37bd71c53d946b043b0cfafb3e86e96771cecec7fc08285faee9f9a",
+     "size": 413788,
+     "type": "image/png"
+    },
+    "stethoscope-keyboard-desk.png": {
+     "blob": "3492d03379bc53f380c0e4d4a08811d3",
+     "name": "stethoscope-keyboard-desk.png",
+     "sha256": "db2bdac825c5373834efabda4e5cf5f8bc6662f18f01f567477be8e563c0f9af",
+     "size": 654448,
+     "type": "image/png"
+    },
+    "surgery-team.png": {
+     "blob": "b5bc28b57f7926ada5dddaabd683f13f",
+     "name": "surgery-team.png",
+     "sha256": "2eaba912cf798f3da70618cbec3a2487c52cd2c322f719b81dda7c62249b5f7f",
+     "size": 301909,
+     "type": "image/png"
+    },
+    "xray-neck-circle.png": {
+     "blob": "7da0fee2a2fece59786f4c32cff21dcc",
+     "name": "xray-neck-circle.png",
+     "sha256": "a98fb3f8c9ec3e8e5fc75bee261d921eaaa55fa7ddec90f2234190672776c1b9",
+     "size": 220204,
+     "type": "image/png"
+    }
+   },
+   "name": "Images",
+   "order": []
+  },
+  "Logos": {
+   "files": {
+    "band-lift.jpg": {
+     "blob": "9e00cae6028b1397a86d8946f99665d8",
+     "name": "band-lift.jpg",
+     "sha256": "59816c632bb7486761f4bdee2a4b6b4d923f232f1d6168979ef567950fa3e207",
+     "size": 114182,
+     "type": "image/jpeg"
+    },
+    "faq-archive.jpg": {
+     "blob": "92d64d2c4ce69540ffcb1bcd463d9d58",
+     "name": "faq-archive.jpg",
+     "sha256": "0347c2a19bfab1799a70bef8260b6f329f81d7aa20395e6efa9228d57582aada",
+     "size": 78037,
+     "type": "image/jpeg"
+    },
+    "hero-kitchen.jpg": {
+     "blob": "d595d432a5a3c9295422275f8c1b7b76",
+     "name": "hero-kitchen.jpg",
+     "sha256": "3d05affd863a90912127feba360011102bc9ca918c4d3410aa628cc6398d7872",
+     "size": 1871259,
+     "type": "image/jpeg"
+    },
+    "sig-blue.png": {
+     "blob": "b39ea731efc9e144a042dc8f4681e171",
+     "name": "sig-blue.png",
+     "sha256": "a5bfe186f35d01e69649649611dbbdb5ba9bb0df7a1b352a22d491fdef9bac03",
+     "size": 13438,
+     "type": "image/png"
+    },
+    "sig-mint.png": {
+     "blob": "b4494db21fe861b591f9303299251a09",
+     "name": "sig-mint.png",
+     "sha256": "963dd226043ea74fa99aa928b629277521ce9f29789ba1647193ac3ef799db33",
+     "size": 14148,
+     "type": "image/png"
+    },
+    "sig-sand.png": {
+     "blob": "0437dc60d0fc940a4cac724f6438dd58",
+     "name": "sig-sand.png",
+     "sha256": "e8567c2b53c48e3c848a4dc7fef25d5ff6f45942866e83bb8fa9b107a200c7c9",
+     "size": 14151,
+     "type": "image/png"
+    },
+    "sig-violet.png": {
+     "blob": "e2736e5fb4d07c91c2bccb8d8d90cced",
+     "name": "sig-violet.png",
+     "sha256": "12417d9d8d0923a90e9d40a67de93f8f2c813696a8045a3478d2089f5c3718ce",
+     "size": 14133,
+     "type": "image/png"
+    },
+    "talk-squash.jpg": {
+     "blob": "871c9716253bd7578b52126d0a262b1d",
+     "name": "talk-squash.jpg",
+     "sha256": "0b93a152f477c0da7c66cfcec880aa50348d43f065ed7bb3b12f032ac0a9d423",
+     "size": 42944,
+     "type": "image/jpeg"
+    }
+   },
+   "name": "Logos",
+   "order": []
+  },
+  "Other": {
+   "files": {},
+   "name": "Other",
+   "order": []
+  },
+  "Uploads": {
+   "files": {
+    "CleanShot~202026-09-14~20at~2000.07.33~402x.png": {
+     "blob": "34393b5efa18f36d8a5f737924015142",
+     "name": "CleanShot 2026-09-14 at 00.07.33@2x.png",
+     "sha256": "2f1c7ba788e303240d9bc82d3362d58df5ef0569f187665bbde572f9ba7e73bb",
+     "size": 39178,
+     "type": "image/png"
+    },
+    "paliativni-pece.pdf": {
+     "blob": "3a9c8fe6acb4ca33f7ce32b186fd3cd0",
+     "name": "paliativni-pece.pdf",
+     "sha256": "6104c1a883b0b1b302553a1b82273613691a07fdb494835c3c26c25bb368afd0",
+     "size": 17200045,
+     "type": "application/pdf"
+    }
+   },
+   "name": "Uploads",
+   "order": []
+  },
+  "clinical": {
+   "files": {
+    "doctor-holding-brain-model.png": {
+     "blob": "1d456e91ddcffd6b2ae5b0a4cfc45b8b",
+     "name": "doctor-holding-brain-model.png",
+     "sha256": "e7a47ea6892796c2d043846fcfe9fff453bdb0cff37ce0aa4c21fff6123fbef4",
+     "size": 371613,
+     "type": "image/png"
+    },
+    "legacy-speech-bubble.png": {
+     "blob": "a9f5c4151b7fb1dfb50de56a807ba1d1",
+     "name": "legacy-speech-bubble.png",
+     "sha256": "0225ba2aefe8d1b2839c3edb57788b6875cbc4bb7a4432bba6e3784800f284f7",
+     "size": 162392,
+     "type": "image/png"
+    },
+    "nurse-elderly-woman-bedside.png": {
+     "blob": "c1821dcae692ed319584c47fa7e4a82d",
+     "name": "nurse-elderly-woman-bedside.png",
+     "sha256": "29a625612c75f5f8621278604833fc27d180243cad64fdd6513035d86c92439d",
+     "size": 470572,
+     "type": "image/png"
+    },
+    "peg-feeding-set.png": {
+     "blob": "a9c1b38c3d70ab8d5fb2d0b508d7692b",
+     "name": "peg-feeding-set.png",
+     "sha256": "e1cfe5f9ee7cbeded77d08d84e966efb207fa25eb9ea1848aed8b628f9ada12a",
+     "size": 34290,
+     "type": "image/png"
+    },
+    "product-fresubin-creme.png": {
+     "blob": "a81a96e42010acc90e5819f1baa35c0e",
+     "name": "product-fresubin-creme.png",
+     "sha256": "e863728b74ea385ce34d6a97e96a6e2333bc8748d5f8aa3221c0457d9da108fb",
+     "size": 274383,
+     "type": "image/png"
+    },
+    "stock-brain-dissolve.png": {
+     "blob": "d30e0d625a7bc6a8e254b7734727f822",
+     "name": "stock-brain-dissolve.png",
+     "sha256": "9b1621b65e6e6fdc04933f6db607e57aaeb9bc7a8bcf0f7a8e3ce6c55c93ae81",
+     "size": 295605,
+     "type": "image/png"
+    },
+    "stock-health-cubes-phone.png": {
+     "blob": "e3c3880b7e4880023322b82eb8350b94",
+     "name": "stock-health-cubes-phone.png",
+     "sha256": "e10f94493957e47f02182d2710e6114bdf46a94d7747652b35b5ae946e0424dc",
+     "size": 360546,
+     "type": "image/png"
+    },
+    "stock-puzzle-head.png": {
+     "blob": "f4e44292094de07632269178ac1841e7",
+     "name": "stock-puzzle-head.png",
+     "sha256": "940a826b49a239b15744d9f7d82f4c037baa83722dd70a1465ec4be443fb8d93",
+     "size": 541949,
+     "type": "image/png"
+    },
+    "texture-modified-meal.png": {
+     "blob": "8c09a452351aee5615f3adad2fea1f12",
+     "name": "texture-modified-meal.png",
+     "sha256": "fd9ce17af67e82a0635d31100671b11eb48db7385a3c504c072a6e7cf4c3df21",
+     "size": 291467,
+     "type": "image/png"
+    }
+   },
+   "name": "clinical",
+   "order": []
+  },
+  "img": {
+   "files": {
+    "about-food.jpg": {
+     "blob": "fe18d6aa2b3b1503386dded9d54891a5",
+     "name": "about-food.jpg",
+     "sha256": "64244924b427d41702f1cdf227d4e8eabd68d58f36e798cd8324e70b0abf2bb6",
+     "size": 1491830,
+     "type": "image/jpeg"
+    },
+    "about-grip.jpg": {
+     "blob": "d1c3aabeb63493b8bdd8dfb9fd107854",
+     "name": "about-grip.jpg",
+     "sha256": "0edbd6ac772f51a1eaa34cfd22d7ed653ed63ceeb3f99a71ca2bea046fc28a75",
+     "size": 45342,
+     "type": "image/jpeg"
+    },
+    "contact-squash.jpg": {
+     "blob": "8cb45f4c2c291e49c200f065c6bca0e4",
+     "name": "contact-squash.jpg",
+     "sha256": "f874ca4de0638ca96e9c47117b64e31043154331d94aefdbdc1d13a9e4b17afc",
+     "size": 75673,
+     "type": "image/jpeg"
+    },
+    "talk-bar.jpg": {
+     "blob": "15eaa6af08add152660ae09bd9870746",
+     "name": "talk-bar.jpg",
+     "sha256": "3262f1b95c58bb788907d600ca971fecf2777275e99db559a508156f5b611f32",
+     "size": 30459,
+     "type": "image/jpeg"
+    }
+   },
+   "name": "img",
+   "order": []
+  },
+  "notes": {
+   "files": {},
+   "name": "notes",
+   "order": []
+  },
+  "photo": {
+   "files": {
+    "photo-archive.jpg": {
+     "blob": "ce6c5b25bf067eb859ff574429af9c32",
+     "name": "photo-archive.jpg",
+     "sha256": "076169d2f2eee63428d6ae3fbf5485904b48c0eaa8d27c4f24e944af917a8484",
+     "size": 80785,
+     "type": "image/jpeg"
+    },
+    "photo-bar.jpg": {
+     "blob": "2293a0484a641c05c4160e4d904eb80d",
+     "name": "photo-bar.jpg",
+     "sha256": "c48b35002607a518aaed7398f35c941368d5ffdf7eab28e71118f4dc73313d7e",
+     "size": 231782,
+     "type": "image/jpeg"
+    },
+    "photo-chart.jpg": {
+     "blob": "6cce36f36d2a97c336fd63ab9263acdb",
+     "name": "photo-chart.jpg",
+     "sha256": "74940c068e6ba9765bb4d7f8200c11c31a690bc0ed7109ae5a84582b28ff4595",
+     "size": 121985,
+     "type": "image/jpeg"
+    },
+    "photo-clinic.jpg": {
+     "blob": "8a0fd57e21725530172a6a2f20ad47f0",
+     "name": "photo-clinic.jpg",
+     "sha256": "1248ada280f94497bb9fa84b21421cf51b1f509aa3b18f6f2adf001c49f70a48",
+     "size": 188435,
+     "type": "image/jpeg"
+    },
+    "photo-cover.jpg": {
+     "blob": "5f6b5f70268d6119397315f0d200899a",
+     "name": "photo-cover.jpg",
+     "sha256": "2dbd5d898f71017baadc7d27bdaac14bddba54aaf2a0c1e214cc48598c7d9c04",
+     "size": 87152,
+     "type": "image/jpeg"
+    },
+    "photo-food.jpg": {
+     "blob": "b3cc8be7195c1838f6c5f48d820026fa",
+     "name": "photo-food.jpg",
+     "sha256": "8b4390662061b7e4ca012d71185dc85c13ccedd20df5865252eaac35c7cdff5f",
+     "size": 102388,
+     "type": "image/jpeg"
+    },
+    "photo-gym.jpg": {
+     "blob": "3cfbc32f80763fb86578213ec044d782",
+     "name": "photo-gym.jpg",
+     "sha256": "90cb26dc82406a4c2e5f959937cde4547250d495ce255e0c1b4834797da2c6cd",
+     "size": 70101,
+     "type": "image/jpeg"
+    },
+    "photo-highkey.jpg": {
+     "blob": "46b5770bd58f5acea22588209ae21014",
+     "name": "photo-highkey.jpg",
+     "sha256": "075e0d9bbf24c707e0be7631a68c3e4687de9f13d522f4451ec69c9e01196a50",
+     "size": 40364,
+     "type": "image/jpeg"
+    },
+    "photo-kitchen.jpg": {
+     "blob": "9636d492bbf8b749942a99c629fccb1c",
+     "name": "photo-kitchen.jpg",
+     "sha256": "66b22b7e2ec5ca2ab94d1ca0bb0cdfd12e99ba7edc9e3392d13240dc6ac91bbb",
+     "size": 382161,
+     "type": "image/jpeg"
+    },
+    "photo-lift.jpg": {
+     "blob": "5b66a5810174e16e053a05e9588d9268",
+     "name": "photo-lift.jpg",
+     "sha256": "61b096d71d340d1c608f708e3bd56dd39f99f6aea89f960b2fe274d055748f3d",
+     "size": 270648,
+     "type": "image/jpeg"
+    },
+    "photo-midlife.jpg": {
+     "blob": "6dc6f435d779a17f468eb0d4838923b9",
+     "name": "photo-midlife.jpg",
+     "sha256": "f7b35b3f5774cbcaca4081fff48d7be28a0c3c4763aeb3e91aefa93bfba29454",
+     "size": 630941,
+     "type": "image/jpeg"
+    },
+    "photo-organs.jpg": {
+     "blob": "e2a27488e6369d44a0bbc482983ef22d",
+     "name": "photo-organs.jpg",
+     "sha256": "58277e96a6aada9cace653135ab22113aaf77dd59dd222f29dbc6f0f15923d99",
+     "size": 39777,
+     "type": "image/jpeg"
+    },
+    "photo-portrait.jpg": {
+     "blob": "f716e0c05a987acf54805f39441ca1b2",
+     "name": "photo-portrait.jpg",
+     "sha256": "b7383716d8286122dc48511ac1c171a52692da31c8be25cab3f60675eb1f333e",
+     "size": 221057,
+     "type": "image/jpeg"
+    },
+    "photo-rest.jpg": {
+     "blob": "f1c956127e0ebf72c328cb84c1b1e21c",
+     "name": "photo-rest.jpg",
+     "sha256": "6a9ee13ee4b9ebd62faf9ce714d411aaf8c2a2ea7e497f4a62d54a041b461919",
+     "size": 48956,
+     "type": "image/jpeg"
+    },
+    "photo-squash.jpg": {
+     "blob": "35a092bc0e8cd2b95697f4923a624bf6",
+     "name": "photo-squash.jpg",
+     "sha256": "a752aeac7f72c5e345c87cef3877b2ec9964a0a0f9135bb2b8809290a8ab85bd",
+     "size": 269870,
+     "type": "image/jpeg"
+    },
+    "photo-steth.jpg": {
+     "blob": "2939d7d70a5c2a598a3e8deb981b10da",
+     "name": "photo-steth.jpg",
+     "sha256": "4711485af6744c4b33107b63b1f33a803b8f6793c35e714781993f51c8412a4b",
+     "size": 54164,
+     "type": "image/jpeg"
+    },
+    "photo-walk.jpg": {
+     "blob": "7ffb218d39439565ddff705b18ce28ba",
+     "name": "photo-walk.jpg",
+     "sha256": "7f91730c6af3938bf6f7e2ff460f9845c01b5e91d76ad89a10b5e8c72450e9a9",
+     "size": 314475,
+     "type": "image/jpeg"
+    }
+   },
+   "name": "photo",
+   "order": []
+  },
+  "reference": {
+   "files": {
+    "cochrane-davies-tube-feeding-header.png": {
+     "blob": "4958fde51e11ce44294e59689ca8b90d",
+     "name": "cochrane-davies-tube-feeding-header.png",
+     "sha256": "7cc2eef212db85630b9af1a87e50cd07980e261fd4a193afaed7bee6d8f82b24",
+     "size": 53380,
+     "type": "image/png"
+    },
+    "glim-algorithm-figure.png": {
+     "blob": "f065209d6fc7d8eed5611f6a0d9b414f",
+     "name": "glim-algorithm-figure.png",
+     "sha256": "cf979b5cd5bbe2d05118aa0e34fa6bfe54c1b3a56cb2501760bfa63259f18b69",
+     "size": 82693,
+     "type": "image/png"
+    },
+    "home-1440.png": {
+     "blob": "3d98de4ca1b82945d17a6d5f854d70ff",
+     "name": "home-1440.png",
+     "sha256": "9a6010c030128bc00a5bf8465cd655f2362f9a7d14f3c8313295929a5ff2c741",
+     "size": 3372706,
+     "type": "image/png"
+    },
+    "o-mne-1440.png": {
+     "blob": "fe62afbf53568914433748852ffeb9e6",
+     "name": "o-mne-1440.png",
+     "sha256": "705a516bf627bcfc8f8b4d20c67bd1926aa139996e21fd6eae08c3581cacab30",
+     "size": 395005,
+     "type": "image/png"
+    },
+    "step2-board.jpg": {
+     "blob": "44c1c65bb591b0cd4c2b5c610990c347",
+     "name": "step2-board.jpg",
+     "sha256": "fbdc4f3227c0794acf8b0ff80c1f8a0f167536d6724a846ba3c1b56c7718cdd0",
+     "size": 20544,
+     "type": "image/jpeg"
+    },
+    "temata-1440.png": {
+     "blob": "dabd4f1f4bb74d2dba3bb1806617b4b3",
+     "name": "temata-1440.png",
+     "sha256": "44a23adbc12f320fa191ee804af662c6d717b5beab6e7f5e3ca26d9707086191",
+     "size": 423520,
+     "type": "image/png"
+    },
+    "third-party-finger-foods-infographic.png": {
+     "blob": "6f078afde5cd563a3a599e69b88dfac3",
+     "name": "third-party-finger-foods-infographic.png",
+     "sha256": "c57921d8416b7a4d0b183b4e0a7f571108f5573cd3f3e08f2225d80e12aa8e89",
+     "size": 168862,
+     "type": "image/png"
+    },
+    "third-party-netflix-poster.png": {
+     "blob": "c7b3b88cf4f7493e581bcc5da9a3fa74",
+     "name": "third-party-netflix-poster.png",
+     "sha256": "6dd41af300513c24a7da404d3e8ed82788bb70a5c4a1a8999cfb16d16c545a2c",
+     "size": 291842,
+     "type": "image/png"
+    }
+   },
+   "name": "reference",
+   "order": []
+  }
+ },
+ "blobs": {
+  "assets/favicon.svg": {
+   "blob": "7e7a51e7f5929aecdff2588066671ab0",
+   "name": "assets/favicon.svg",
+   "sha256": "c183e2d8a18a28bc98c44f699e7b3638016503b65d4c75d20a2db32133ecc5a7",
+   "size": 8169,
+   "type": "image/svg+xml"
+  },
+  "assets/sig-blue.png": {
+   "blob": "b39ea731efc9e144a042dc8f4681e171",
+   "name": "assets/sig-blue.png",
+   "sha256": "a5bfe186f35d01e69649649611dbbdb5ba9bb0df7a1b352a22d491fdef9bac03",
+   "size": 13438,
+   "type": "image/png"
+  },
+  "assets/sig-ink.png": {
+   "blob": "98cd8894df2432a01902e7a319db8806",
+   "name": "assets/sig-ink.png",
+   "sha256": "f40243f886a5ea1b13b20cb8e6ea4a9804a94456d98e6f0dfe65fe6be06730c0",
+   "size": 14131,
+   "type": "image/png"
+  },
+  "assets/sig-mint.png": {
+   "blob": "b4494db21fe861b591f9303299251a09",
+   "name": "assets/sig-mint.png",
+   "sha256": "963dd226043ea74fa99aa928b629277521ce9f29789ba1647193ac3ef799db33",
+   "size": 14148,
+   "type": "image/png"
+  },
+  "assets/sig-violet.png": {
+   "blob": "e2736e5fb4d07c91c2bccb8d8d90cced",
+   "name": "assets/sig-violet.png",
+   "sha256": "12417d9d8d0923a90e9d40a67de93f8f2c813696a8045a3478d2089f5c3718ce",
+   "size": 14133,
+   "type": "image/png"
+  }
+ },
+ "createdOnFiles": {
+  "at": "2026-09-17T19:51:43.979Z",
+  "v": 1
+ },
+ "docs": {
+  "readme": "project/README.md",
+  "sections": [
+   "project/CHANGELOG.md",
+   "project/docs/components/cards/cards.card.md",
+   "project/docs/components/core/core.card.md",
+   "project/docs/components/icons/clinical-icons.card.md",
+   "project/docs/components/navigation/navigation.card.md",
+   "project/docs/components/sections/sections-furniture.card.md",
+   "project/docs/components/sections/sections.card.md",
+   "project/docs/guidelines/a11y-contrast.card.md",
+   "project/docs/guidelines/brand-deckgrid.card.md",
+   "project/docs/guidelines/brand-monogram.card.md",
+   "project/docs/guidelines/brand-motion.card.md",
+   "project/docs/guidelines/brand-photography.card.md",
+   "project/docs/guidelines/brand-principles.card.md",
+   "project/docs/guidelines/brand-scrim.card.md",
+   "project/docs/guidelines/chart-colors.card.md",
+   "project/docs/guidelines/chart-line.card.md",
+   "project/docs/guidelines/chart-riskstack.card.md",
+   "project/docs/guidelines/color-chrome.card.md",
+   "project/docs/guidelines/color-dark.card.md",
+   "project/docs/guidelines/color-data.card.md",
+   "project/docs/guidelines/color-grading.card.md",
+   "project/docs/guidelines/color-signal-dark.card.md",
+   "project/docs/guidelines/color-signal.card.md",
+   "project/docs/guidelines/color-surfaces.card.md",
+   "project/docs/guidelines/color-topic.card.md",
+   "project/docs/guidelines/imagery-clinical-library.card.md",
+   "project/docs/guidelines/imagery-modes.card.md",
+   "project/docs/guidelines/space-elevation.card.md",
+   "project/docs/guidelines/space-radius.card.md",
+   "project/docs/guidelines/space-rhythm.card.md",
+   "project/docs/guidelines/space-scale.card.md",
+   "project/docs/guidelines/token-semantic.card.md",
+   "project/docs/guidelines/type-body.card.md",
+   "project/docs/guidelines/type-claim-measure.card.md",
+   "project/docs/guidelines/type-czech.card.md",
+   "project/docs/guidelines/type-deck.card.md",
+   "project/docs/guidelines/type-display.card.md",
+   "project/docs/guidelines/type-mono.card.md",
+   "project/docs/guidelines/type-weight.card.md",
+   "project/docs/guidelines/web-grammar.card.md",
+   "project/docs/reels/r01-hook-cover.md",
+   "project/docs/reels/r02-myth-and-fact.md",
+   "project/docs/reels/r03-big-number.md",
+   "project/docs/reels/r04-three-points.md",
+   "project/docs/reels/r05-quote.md",
+   "project/docs/reels/r06-evidence-card.md",
+   "project/docs/reels/r07-photo-split.md",
+   "project/docs/reels/r08-call-to-action.md",
+   "project/docs/reels/r09-numbered-step.md",
+   "project/docs/reels/r10-before-after.md",
+   "project/docs/reels/r11-do-and-don-t.md",
+   "project/docs/reels/r12-impact-phrase.md",
+   "project/docs/reels/r13-comparison.md",
+   "project/docs/reels/r14-stat-trio.md",
+   "project/docs/reels/r15-question.md",
+   "project/docs/reels/r16-vertical-timeline.md",
+   "project/docs/reels/r17-definition.md",
+   "project/docs/reels/r18-photo-strip.md",
+   "project/docs/reels/r19-quote-portrait.md",
+   "project/docs/reels/r20-series-cover.md",
+   "project/docs/reels/r21-word.md",
+   "project/docs/reels/r22-annotated-sentence.md",
+   "project/docs/reels/r23-two-theme-split.md",
+   "project/docs/reels/r24-edge-to-edge-data.md",
+   "project/docs/reels/r25-lab-card.md",
+   "project/docs/reels/r26-index-wall.md",
+   "project/docs/reels/r27-knockout-figure.md",
+   "project/docs/reels/r28-vertical-scale.md",
+   "project/docs/slides/01-cover.md",
+   "project/docs/slides/02-disclosure.md",
+   "project/docs/slides/03-agenda.md",
+   "project/docs/slides/04-section-divider.md",
+   "project/docs/slides/05-claim-photo.md",
+   "project/docs/slides/06-claim-beside-evidence.md",
+   "project/docs/slides/07-three-columns.md",
+   "project/docs/slides/08-photo-band.md",
+   "project/docs/slides/09-comparison.md",
+   "project/docs/slides/10-myth-and-fact.md",
+   "project/docs/slides/11-do-and-don-t.md",
+   "project/docs/slides/12-cycle-chart.md",
+   "project/docs/slides/13-lifespan-timeline.md",
+   "project/docs/slides/14-bar-chart.md",
+   "project/docs/slides/15-range-plot.md",
+   "project/docs/slides/16-milestone-timeline.md",
+   "project/docs/slides/17-big-number.md",
+   "project/docs/slides/18-three-figures.md",
+   "project/docs/slides/19-table.md",
+   "project/docs/slides/20-evidence.md",
+   "project/docs/slides/21-study-anatomy.md",
+   "project/docs/slides/22-quote.md",
+   "project/docs/slides/23-glossary.md",
+   "project/docs/slides/24-practical-list.md",
+   "project/docs/slides/25-resources.md",
+   "project/docs/slides/26-definition.md",
+   "project/docs/slides/27-question.md",
+   "project/docs/slides/28-case-vignette.md",
+   "project/docs/slides/29-process-steps.md",
+   "project/docs/slides/30-statement.md",
+   "project/docs/slides/31-photo-statement.md",
+   "project/docs/slides/32-photo-grid.md",
+   "project/docs/slides/33-takeaways.md",
+   "project/docs/slides/34-closing.md",
+   "project/docs/slides/35-loop-diagram.md",
+   "project/docs/slides/36-cause-chain.md",
+   "project/docs/slides/37-hub-and-spoke.md",
+   "project/docs/slides/38-hierarchy.md",
+   "project/docs/slides/39-matrix.md",
+   "project/docs/slides/40-concept-map.md",
+   "project/docs/slides/41-decision-path.md",
+   "project/docs/slides/42-photo-callout.md",
+   "project/docs/slides/43-photo-fade.md",
+   "project/docs/slides/44-photo-stat.md",
+   "project/docs/slides/45-photo-pair.md",
+   "project/docs/slides/46-photo-quote.md",
+   "project/docs/slides/47-cover-violet.md",
+   "project/docs/slides/48-section-divider-violet.md",
+   "project/docs/slides/49-statement-violet.md",
+   "project/docs/slides/50-three-columns-violet.md",
+   "project/docs/slides/51-cover-blue.md",
+   "project/docs/slides/52-three-columns-blue.md",
+   "project/docs/slides/53-statement-blue.md",
+   "project/docs/slides/54-claim-photo-blue.md",
+   "project/docs/slides/55-photo-mosaic.md",
+   "project/docs/slides/56-photo-corner.md",
+   "project/docs/slides/57-photo-panel.md",
+   "project/docs/slides/58-photo-caption-strip.md",
+   "project/docs/slides/59-forest-plot.md",
+   "project/docs/slides/60-time-series.md",
+   "project/docs/slides/61-media-still.md",
+   "project/docs/slides/62-call-to-action.md",
+   "project/docs/slides/63-speaker.md",
+   "project/docs/slides/64-section-progress.md",
+   "project/docs/slides/65-word.md",
+   "project/docs/slides/66-annotated-sentence.md",
+   "project/docs/slides/67-two-theme-split.md",
+   "project/docs/slides/68-edge-to-edge-data.md",
+   "project/docs/slides/69-lab-card.md",
+   "project/docs/slides/70-index-wall.md",
+   "project/docs/slides/71-knockout-figure.md",
+   "project/docs/slides/72-vertical-scale.md",
+   "project/docs/ui_kits/web/index.md",
+   "project/guidelines/ACCESSIBILITY.md",
+   "project/guidelines/DATAVIZ.md",
+   "project/guidelines/ICONOGRAPHY.md",
+   "project/guidelines/IMAGERY.md",
+   "project/guidelines/PRESENTATION_RESEARCH.md",
+   "project/guidelines/PRINCIPLES.md",
+   "project/guidelines/RESEARCH.md",
+   "project/guidelines/TALKS.md",
+   "project/guidelines/TYPESETTING.md",
+   "project/tokens/tokens.md",
+   "project/ui_kits/web/README.md",
+   "project/uploads/SKILL.md",
+   "project/uploads/TALKS.md"
+  ]
+ },
+ "groups": [
+  "Images",
+  "Logos",
+  "Uploads",
+  "clinical",
+  "Other",
+  "img",
+  "notes",
+  "photo",
+  "reference"
+ ],
+ "layout": "files",
+ "libraries": [
+  {
+   "file": "components/lib/react.production.min.js",
+   "global": "React",
+   "name": "react",
+   "version": "18.3.1"
+  },
+  {
+   "file": "components/lib/react-dom.production.min.js",
+   "global": "ReactDOM",
+   "name": "react-dom",
+   "version": "18.3.1"
+  }
+ ],
+ "namespace": "TerezaVGnerovDesignSystem_360dc4",
+ "sections": {},
+ "source": {
+  "app": "claude-design",
+  "exportedAt": "2026-09-17T19:51:43.979Z",
+  "projectId": "360dc43d-1f56-4e0b-b0da-b400db62abef",
+  "url": "https://claude.ai/design/p/360dc43d-1f56-4e0b-b0da-b400db62abef",
+  "v": 1,
+  "upgradedAt": "2026-09-26T13:39:07Z"
+ },
+ "title": "Tereza Vágnerová Design System",
+ "lastChange": {
+  "by": "Filip Prochazka",
+  "at": "2026-09-26T13:47:29Z",
+  "via": "Claude (Cowork)",
+  "note": "Restored theme and dark-band colours in bundle.css; slide 01 moved to CoverSlide; new system cover."
+ },
+ "upgraded": {
+  "v": 1,
+  "at": "2026-09-26T13:39:07Z",
+  "from": "claude-design"
+ }
+}

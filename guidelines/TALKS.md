@@ -14,10 +14,10 @@ medical-presentation guidance). Read it once; apply this file every time.
 
 Work in this order. Do not open a layout before step 4.
 
-**1. Inventory the claims.** Follow `INTAKE.md`: read everything the user gave (notes, a paper,
+**1. Inventory the claims.** Read everything the user gave (notes, a paper,
 a previous deck, a syllabus). Write one line per claim: the claim as a full
-sentence in her voice, the source it rests on, and the certainty (A/B/C/P) the source states,
-or a proposed one marked for her approval (`INTAKE.md §2`). If a claim has no source, it goes on a separate list to show
+sentence in her voice, the source it rests on, and the grade *if the source
+states one*. If a claim has no source, it goes on a separate list to show
 her; it does not go on a board.
 
 **2. Decide the spine for the audience.** See §2. A case runs S → O → A → P.
@@ -92,9 +92,17 @@ before anything else.
 Rules that hold in every room: first person, sentence-case claims, one
 theme, one imagery mode, the ask once or never.
 
-## 3. Speaker notes (adopted 22 Sep 2026)
+## 3. Speaker notes (proposed convention, not yet adopted)
 
-Each board carries its note in a `data-speaker-notes` attribute on the slide element, as the Ženské zdraví deck does. The note travels with the board through copy, reorder and export. Every board of a talk has one; a new or split board gets its note written before handover, or is listed as missing.
+No board carries notes today. Until she adopts one of these, deliver notes
+as `<deck-name>.notes.md` beside the deck, one heading per board in the
+board's order, and say so in the handover.
+
+Proposed: each `.slide` may contain one `<aside class="notes">` as its last
+child. `deck.css` hides it on the board (`display:none`); a print stylesheet
+for the handout shows it under the board's thumbnail. The lint should
+report boards without a note in a deck that has any, so a half-noted deck
+is visible.
 
 Notes are prose in her voice, never bullets, and include the source spoken
 in full where the board carries only a footer.
@@ -136,5 +144,7 @@ the lint and the ship gate after every revision pass.
 
 ## 5. What this file does not decide
 
-- A certainty mark the source does not state. Propose it; she confirms it.
-- PowerPoint output: see `EXPORT.md`; there is no master template.
+- The Grade rung set (six on the site, five in the deck). Flag it when a
+  grade is set.
+- Whether notes ship in the board (§3) or beside it.
+- Any PowerPoint output. There is none.

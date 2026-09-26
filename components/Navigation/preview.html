@@ -1,0 +1,16 @@
+<!-- @dsCard group="Components" height=860 subtitle="One hairline nav strip, the connect band, the four-column footer, and the scale strip a topic page carries" page -->
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><style>body{background:#FFFFFF}</style></head><body><div id="root"></div>
+<script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel">
+const { Nav, Foot } = window.TerezaVGnerovDesignSystem_360dc4;
+const LINKS=[{href:'/temata',label:'Témata'},{href:'/prednasky',label:'Přednášky'},{href:'/webinare',label:'Webináře'},{href:'/o-mne',label:'O mně'}];
+const TOPICS=['Přehled','Medicína','Ženské zdraví','Dlouhověkost','Spánek','Fitness','Výživa','Lifestyle'].map(l=>({href:'#',label:l}));
+function Card(){return (<div>
+<Nav wordmark="Tereza Vágnerová" links={LINKS} current="/temata" cta="Kontakt" ctaHref="#" phone="225 003 211" phoneHref="#" clinic="Klinika geriatrie a interní medicíny VFN" email="klbikovt@gmail.com" emailHref="#" instagram="@tvagnerova_clinicaldietitian" instagramUrl="#" langLabel="EN" langHref="#" />
+<div style={{height:40}}></div>
+<Foot wordmark="Tereza Vágnerová" role="Klinická nutriční terapeutka a odborná asistentka 1. LF UK" phone="225 003 211" phoneHref="#" email="klbikovt@gmail.com" emailHref="#" instagramUrl="#" clinic="Klinika geriatrie a interní medicíny VFN" links={LINKS} topics={TOPICS} copyright="© 2026 Tereza Vágnerová"
+  sig="../../assets/sig-blue.png"
+  scale={{unit:'Den',right:'Cyklus',majors:['1','7','14','21','28'],on:12}} />
+</div>);}
+ReactDOM.createRoot(document.getElementById('root')).render(<Card />);
+</script></body></html>

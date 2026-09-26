@@ -1,0 +1,12 @@
+<!-- @dsCard group="Core" height=371 subtitle="The one ask: square block, ghost, mono link, outward" -->
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><style>body{margin:0;background:var(--surface);color:var(--ink);font-family:var(--font-body)}#root{padding:28px}.lbl{font-family:var(--font-mono);font-weight:500;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}.lbl:not(:first-child){margin-top:28px}.row{display:flex;flex-wrap:wrap;align-items:center;gap:16px 24px}</style></head><body><div id="root"></div>
+<script>
+(function(){
+var h=React.createElement, F=React.Fragment, DS=window.TerezaVGnerovDesignSystem_360dc4;
+function L(t){return h('p',{className:'lbl'},t);}
+ReactDOM.createRoot(document.getElementById('root')).render(h(F,null,
+ L('Primary and ghost'),h('div',{className:'row'},h(DS.Pill,{href:'#',label:'Napište mi'}),h(DS.Pill,{href:'#',label:'Více o mně',ghost:true})),
+ L('External (leaves the site)'),h('div',{className:'row'},h(DS.Pill,{href:'#',label:'Zaplatit a přihlásit se · 890 Kč',external:true})),
+ L('Small: tracked mono link'),h('div',{className:'row'},h(DS.Pill,{href:'#',label:'Kontakt',small:true}),h(DS.Pill,{href:'#',label:'Instagram',small:true,external:true}))));
+})();
+</script></body></html>

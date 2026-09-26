@@ -1,4 +1,4 @@
-## 0.9.0: 14 September 2026
+## 0.9.0 — 14 September 2026
 
 ### Type: three faces, three jobs
 - **Geist** 300/400/500/600 sets display, claims, statements, headings and display figures. **Inter** 400/500/600 sets body, lead, small and every affiliation line. **Geist Mono** 400 (data) / 500 (kicker) sets every label, kicker, unit, citation, price, axis and tabular figure. Supersedes 0.7.0, which put Geist on body and IBM Plex Mono on labels; IBM Plex Mono is replaced by Geist Mono everywhere.
@@ -18,47 +18,7 @@ The readme and four cards still described the template-era site. Corrected again
 - `guidelines/TYPESETTING.md §4` rule 6 states the three-face split.
 - Cards **Reading**, **Labels and figures**, **Corner radii**, **Elevation**: the current rule is the headline; legacy values are a one-line footnote.
 
-## 0.10.0 – 22 Sep 2026
-
-Audit pass: one source of truth for slides, and an intake procedure for the usual work.
-
-### Slides
-- `slides/deck.css` now reads the `--d-*` tokens (body 28px by default with `--d-body-min` 24px allowed on any board, lead 30, sub 34) instead of the 0.7.0 literals (32/34/40), and no longer lifts 22–26px text. It also holds the shared template vocabulary (`.k .st .cl .sb .ld .bd .li .fig .pg .ref .zone .ev`). Every deck template loads it; private copies of those classes were removed from slide-kit, both palliative decks and the Ženské zdraví deck.
-- 52 layout usage notes, the Deck scale card and the Contrast card restated at 24px body, 34px sub.
-- Slide kit: radius removed from nodes, tiers and bars; literal hexes replaced by colour tokens. Reel templates: deprecated `.pill` buttons replaced by square buttons, radius removed from the timing sheet.
-
-### Workflow
-- New `guidelines/INTAKE.md`: per source type (old deck, study, notes, photos, web copy) what to extract, the two files written before designing (`intake/claims.md`, `intake/open-questions.md`), how certainty is mapped or proposed, where photographs are filed.
-- New `guidelines/HANDOUTS.md`: print + online pair, content, 16px print floor, hairline rows.
-- New `assets/README.md`: library index by mode, theme and use.
-- `SKILL.md` routing, rules, ship gate and decisions brought up to date. `TALKS.md`: certainty replaces grade on boards; speaker notes adopted as `data-speaker-notes`.
-
-### Imagery
-- Her photograph (`cv-tereza`, podcast studio) is approved and restored on the Ženské zdraví closing board. It is the system's one photograph of her: closing or Speaker board, beside her name, never a cover.
-- Stock portraits allowed on public talks, never under her name. The Ženské zdraví cover now uses a subject photograph (strength training) instead of a stock portrait under her name.
-
-## 0.9.1 – 22 Sep 2026
-
-### Type
-- Deck body floor is **24px on every board** (`--d-body`), mono 19px, per her 22 Sep decision; the 26px floor and the reference-board exception are withdrawn. readme, tokens.md, tokens.json, TYPESETTING.md rule 4b and deck-lint agree.
-- TYPESETTING.md gains "Figure and its text": max-content figure column, one grid per stack, a figure is one token.
-
-### Evidence
-- **Certainty** component in `tokens/signal.css`: A filled accent, B outlined accent, C dashed muted, P band tint; 40px square, radius 0, theme vars used directly so it re-tints with the topic and on `.dark`; `--cert-scrim` for dark slides; inline `.tv-cert-chip`. Closes the Grade divergence: certainty on boards, study design (`Grade`) on publications only. Publications keep the ladder (her decision, 22 Sep).
-
-### Identity
-- Affiliations: once per artifact, at the closing, never on a cover.
-
-### Guidelines
-- Added EXPORT.md (what a PowerPoint capture cannot do), RENDERING.md (patterns that stop a page painting) and VOICE-CS.md from the women's health project.
-
-### Templates and library
-- Templates: Ženské zdraví – vitalita v longevity medicíně (54 slides) with its print and online handouts. Deck brought into line: square boards, token colours, solid scrims under photo gradients, her portrait removed, body at 24px or larger.
-- Handouts: cards replaced by hairline rows, radius removed, print text at 16px (mono labels 14px).
-- Library: assets/womens-health/ with PROVENANCE.md and a Brand card. Clinical library card squared.
-- Em dashes removed from every file in the system.
-
-## 0.8.0: 14 September 2026
+## 0.8.0 — 14 September 2026
 
 ### The website is rebuilt on the deck's grammar
 The site and the decks were two design systems wearing one palette. The site's
@@ -74,7 +34,7 @@ Five rules the web layer obeys, in `tokens/web.css`:
    role (`--w-claim-n`) rather than reflowing to reading size.
 2. **Structure is a 1px hairline, never a card.** `.w-rows` / `.w-row` replace
    `.card`; sections are divided by a rule and by air, not by a change of ground.
-3. **Nothing has a radius.** Photographs, blocks and bands are square: a board
+3. **Nothing has a radius.** Photographs, blocks and bands are square — a board
    has no rounded corners and neither does a page.
 4. **Nothing moves on hover except a mark.** The arrow slides 4px, a mark's
    hairline takes the accent, ink goes to accent. No transform on a surface, no
@@ -110,28 +70,28 @@ All 20 rebuilt in place with **unchanged props**, so consuming code keeps workin
   so a half-migrated consuming page does not break; they go at 1.0.0.
 
 ### Patched alongside
-- **The web layer failed the weight floor the deck layer is linted against**: the exact divergence this turn existed to close. `.w-statement` and `.w-figure` had been given the deck's 300, but their fluid clamps top out at 68px and 148px and instances step figures down to 42–57px, so 300 could never clear the floor (≥60px on light, ≥100px on a dark ground) at any viewport. Both are weight 400 across the web layer now; a page statement is distinguished by size and air, which is what it should have been.
+- **The web layer failed the weight floor the deck layer is linted against** — the exact divergence this turn existed to close. `.w-statement` and `.w-figure` had been given the deck's 300, but their fluid clamps top out at 68px and 148px and instances step figures down to 42–57px, so 300 could never clear the floor (≥60px on light, ≥100px on a dark ground) at any viewport. Both are weight 400 across the web layer now; a page statement is distinguished by size and air, which is what it should have been.
 - Card viewports were being set from a measurement at the preview width, but every driving length in the web layer is a `vw` clamp that grows toward 1240 (ClaimBand min-height +126px, hero photo +145px, block padding +82px). Both Sections cards re-declared with that growth accounted for.
-- **Public-mode imagery is now audited, not assumed.** `hero-kitchen.jpg` was natural colour (hue spread 114°) while its siblings were proper single-hue duotones (3–13°), so the site was shipping the mixed-mode failure IMAGERY.md forbids: on the hero, no less. It and `about-food.jpg` were re-tinted to the documented pair (shadow #0F3557, highlight #8FC9F5); all eight Public assets now measure a hue spread ≤ 15° with a 203–208° median. A CSS filter is explicitly *not* the enforcement: hue-rotate on an already-tinted file double-shifts it (it turned the hero mauve), so `tokens/web.css` documents the asset contract and offers `.w-photo-duo`, the deck's own `feComponentTransfer` filter, for assets a page does not control.
-- The Sections card was one card showing six page-scale components, ~3400px tall against a declared 1500: four of six clipped. Split into **Sections · openings** and **Sections · page furniture**, each measured and content-sized at 1480, with the SplitHero label corrected.
-- **The palliative decks carried the banned old clinic name** ("Geriatrická klinika" / "Department of Geriatrics") and a superseded organisation (ČANT / Czech Association of Nutritional Therapists) on their cover and closing boards. Corrected to the four canonical registered names in both languages. Their content is otherwise untouched: they stay frozen as worked examples.
+- **Public-mode imagery is now audited, not assumed.** `hero-kitchen.jpg` was natural colour (hue spread 114°) while its siblings were proper single-hue duotones (3–13°), so the site was shipping the mixed-mode failure IMAGERY.md forbids — on the hero, no less. It and `about-food.jpg` were re-tinted to the documented pair (shadow #0F3557, highlight #8FC9F5); all eight Public assets now measure a hue spread ≤ 15° with a 203–208° median. A CSS filter is explicitly *not* the enforcement: hue-rotate on an already-tinted file double-shifts it (it turned the hero mauve), so `tokens/web.css` documents the asset contract and offers `.w-photo-duo`, the deck's own `feComponentTransfer` filter, for assets a page does not control.
+- The Sections card was one card showing six page-scale components, ~3400px tall against a declared 1500 — four of six clipped. Split into **Sections · openings** and **Sections · page furniture**, each measured and content-sized at 1480, with the SplitHero label corrected.
+- **The palliative decks carried the banned old clinic name** ("Geriatrická klinika" / "Department of Geriatrics") and a superseded organisation (ČANT / Czech Association of Nutritional Therapists) on their cover and closing boards. Corrected to the four canonical registered names in both languages. Their content is otherwise untouched — they stay frozen as worked examples.
 - `SplitHero` and `ScaleStrip` gained usage notes; the Sections and Navigation cards now show them, and the Sections card's own copy carried the same banned clinic name (fixed).
 
 ### Also
 - `ui_kits/web` rebuilt on all of the above, hero included; its README now
   states the five rules and what they replaced.
-- New card `guidelines/web-grammar`: a was/now sheet for every device.
+- New card `guidelines/web-grammar` — a was/now sheet for every device.
 - Body is 19px/1.62 (from 18/1.68) to sit with the airier rhythm.
 
 
-## Usage notes moved out of the artefacts: 14 Sep 2026
+## Usage notes moved out of the artefacts — 14 Sep 2026
 
-- The 72 slide cards and 28 reel cards were each carrying their usage note **inside the page**, as a sheet under the board (`slides/usage.css`). The note is now in each card's own usage-notes field (`<card>.prompt.md`) and the page is the board alone: declared viewports drop back to 1920×1080 and 1080×1920, so a card shows the artefact at its real size.
+- The 72 slide cards and 28 reel cards were each carrying their usage note **inside the page**, as a sheet under the board (`slides/usage.css`). The note is now in each card's own usage-notes field (`<card>.prompt.md`) and the page is the board alone — declared viewports drop back to 1920×1080 and 1080×1920, so a card shows the artefact at its real size.
 - `slides/usage.css` deleted; `fit.js` no longer scales a two-part card.
-- The 40 remaining cards (Brand, Colors, Components, Data, Spacing, Type, Web) had an empty notes field: all 40 written: what the card governs, how to apply it, and the rule that is easy to get wrong.
+- The 40 remaining cards (Brand, Colors, Components, Data, Spacing, Type, Web) had an empty notes field — all 40 written: what the card governs, how to apply it, and the rule that is easy to get wrong.
 - `Pill`'s note still described the retired pill shape (56px, true pill, Geist 500). Rewritten against the current component: square accent block, `small` as a tracked mono link, mark-only hover.
 
-## 0.7.0: 13 September 2026
+## 0.7.0 — 13 September 2026
 
 ### Type: Geist Mono replaces Geist Mono
 - Every label, axis, unit, citation and tabular column is now **Geist Mono** 400/500, loaded from the Google Fonts CDN beside Geist. Swapped at the token (`--font-mono`), so all 72 slide layouts, 28 reel frames, six templates and every card followed.
@@ -154,22 +114,22 @@ All 20 rebuilt in place with **unchanged props**, so consuming code keeps workin
 - Topic colour is no longer used as a comparison colour: 67, R13, R23 now use one theme with a tint step.
 
 ### Reels
-- Ghost glyphs kept on R3 and R21 only (`.keep-ghost`); removed from the other eleven frames: they sat under Instagram's UI and read as the faded-number trope.
+- Ghost glyphs kept on R3 and R21 only (`.keep-ghost`); removed from the other eleven frames — they sat under Instagram's UI and read as the faded-number trope.
 - R1 hook cut to the 7-word budget; R10 hook is the payoff, not the pallor.
 
 ### Component usage notes
-- All 18 components now carry a usage note (`<Name>.prompt.md`): the field that was empty on 14 of them: what the component is, a real JSX call, and the rules that are easy to get wrong (why `href` is optional on EntryCard, why InstitutionCard requires a URL, why PageHero drops the eyebrow, why the webinar empty state is the page’s job).
+- All 18 components now carry a usage note (`<Name>.prompt.md`) — the field that was empty on 14 of them: what the component is, a real JSX call, and the rules that are easy to get wrong (why `href` is optional on EntryCard, why InstitutionCard requires a URL, why PageHero drops the eyebrow, why the webinar empty state is the page’s job).
 
 ### Usage notes on every layout
-- Each of the 72 slide cards and 28 reel cards now carries a **usage note sheet under the board** (`slides/usage.css`): the layout’s family, one line of *use when*, the *roles* it actually contains (derived from the markup, not guessed), and the 3–4 *rules* it must obey: family rules plus what is specific to that board. Card viewports grew to 1920×1440 and 1080×2700 to show it; `fit.js` scales board and note together.
-- Six legacy duplicate boards removed (`02-divider`, `03-threeup`, `04-bignumber`, `05-statement`, `06-claimphoto`, `07-closing`): they were the v0.1.0 sample set, carried stale card numbers that clashed with the catalogue, and duplicated layouts 04/05/07/18/32/36. The catalogue is now exactly 72 boards with unique numbers.
+- Each of the 72 slide cards and 28 reel cards now carries a **usage note sheet under the board** (`slides/usage.css`): the layout’s family, one line of *use when*, the *roles* it actually contains (derived from the markup, not guessed), and the 3–4 *rules* it must obey — family rules plus what is specific to that board. Card viewports grew to 1920×1440 and 1080×2700 to show it; `fit.js` scales board and note together.
+- Six legacy duplicate boards removed (`02-divider`, `03-threeup`, `04-bignumber`, `05-statement`, `06-claimphoto`, `07-closing`) — they were the v0.1.0 sample set, carried stale card numbers that clashed with the catalogue, and duplicated layouts 04/05/07/18/32/36. The catalogue is now exactly 72 boards with unique numbers.
 
 ### Placeholder copy rewritten by role
-- The first neutralisation pass built placeholders by truncating a filler string to the original text’s character length and mapping every mono element to the word "Popisek": short sources became mid-word fragments ("Zástu"), and sibling labels collapsed to identical strings. Replaced wholesale by a role- and position-aware resolver: whole Czech phrases, never truncated, siblings numbered (`Popisek osy 02`, `Uzel 03`, `Druhá položka…`), mono differentiated by where it sits (top-left kicker, unit under a figure, axis label, grade, footer).
+- The first neutralisation pass built placeholders by truncating a filler string to the original text’s character length and mapping every mono element to the word "Popisek": short sources became mid-word fragments ("Zástu"), and sibling labels collapsed to identical strings. Replaced wholesale by a role- and position-aware resolver — whole Czech phrases, never truncated, siblings numbered (`Popisek osy 02`, `Uzel 03`, `Druhá položka…`), mono differentiated by where it sits (top-left kicker, unit under a figure, axis label, grade, footer).
 - Boards whose micro-copy carries meaning are hand-authored, not generated: 02 Disclosure (two named columns and a visible italic blank), 41 Decision path (Ano/Ne branches), 63 Speaker (the portrait slot explains itself; four affiliation rows), 66 and R22 Annotated sentence (a grammatical carrier sentence), 69 and R25 Lab card (parameter, value, unit, reference range).
 
 ### Templates enhanced
-- Slide kit and lecture deck open with a **“how to use this” sheet**: the grid constants, the type and weight scale, and what to replace: so a copied template teaches its own rules.
+- Slide kit and lecture deck open with a **“how to use this” sheet**: the grid constants, the type and weight scale, and what to replace — so a copied template teaches its own rules.
 - Both reel templates gained the type/weight rules and the role-not-content rule in their checks list.
 - `.bd b` / `.tbl td b` emphasis lifted 500 → 600 in the kit and lecture deck; two 96px statements on dark boards raised to 102px to clear the 300-weight floor.
 
@@ -178,13 +138,13 @@ All 20 rebuilt in place with **unchanged props**, so consuming code keeps workin
 - `templates/reel` ships two **structures** (claim-led, number-led) with role-named frames; `templates/reel-zenske-zdravi` is now the photo-led reel structure; `templates/lecture-deck` is placeholder-only and scales to the preview.
 - The two palliative decks are kept as worked examples of a real talk and are unchanged in content.
 
-## 0.6.0: 13 September 2026
+## 0.6.0 — 13 September 2026
 
 ### Type: one family, two cuts
-- **Geist replaces Manrope** for display, headings and reading, and **Geist Mono replaces JetBrains Mono** for every label, axis, unit and figure. JetBrains is a code face: its slashed zero and terminal rhythm read as developer tooling rather than clinical evidence; Geist Mono shares the text face's skeleton, so a figure and its label now speak in one voice.
+- **Geist replaces Manrope** for display, headings and reading, and **Geist Mono replaces JetBrains Mono** for every label, axis, unit and figure. JetBrains is a code face — its slashed zero and terminal rhythm read as developer tooling rather than clinical evidence; Geist Mono shares the text face's skeleton, so a figure and its label now speak in one voice.
 - Czech verified before the swap: Geist draws the ring on ů, the raised-comma caron on ď/ť and full háčky on ě š č ř ž at both 300 and 500, at claim scale.
 - `--font-display` and `--font-body` are now the same stack (`Geist, Inter, system-ui`). **Inter is demoted to the offline fallback** and is never specified on its own.
-- Geist and Geist Mono load from the Google Fonts CDN: the woff2 files are not in `assets/fonts/` yet. Drop them in and swap the `@import` in `tokens/fonts.css` for `@font-face` blocks to go fully offline.
+- Geist and Geist Mono load from the Google Fonts CDN — the woff2 files are not in `assets/fonts/` yet. Drop them in and swap the `@import` in `tokens/fonts.css` for `@font-face` blocks to go fully offline.
 - Swapped through every token, card, slide board, reel frame, component and template. `reference/` keeps the original Manrope/JetBrains source as imported.
 
 ### Affiliations corrected and closed
@@ -198,7 +158,7 @@ Versioning: **0.x until the first talk ships** on this system, then 1.0.0.
 Semver from there: major for a token rename or component API break, minor
 for a new component, layout or template, patch for a fix.
 
-## 0.6.3: 2026-09-13
+## 0.6.3 — 2026-09-13
 ### Fixed
 - `.sig-chip` was authored at 15px for the 700px specimen cards and then
   reused verbatim on 1920px boards, putting the **answer to a decision
@@ -207,10 +167,10 @@ for a new component, layout or template, patch for a fix.
   proportional padding), so every chip on every deck and the kit scales with
   the board and the card size is left to the cards.
 - `40 · Concept map` referenced an undefined `--card`, rendering white only
-  by its literal fallback and ignoring theming: now `--surface-card`.
+  by its literal fallback and ignoring theming — now `--surface-card`.
 - Bound the last 7 one-letter Czech prepositions in the palliative deck.
 
-## 0.6.2: 2026-09-13
+## 0.6.2 — 2026-09-13
 ### Changed
 - **40 · Concept map** redrawn. The K4 graph's diagonals tangled in the
   centre and its centred SVG text collided with the left claim column. Now a
@@ -218,8 +178,8 @@ for a new component, layout or template, patch for a fix.
   discs, so all six relations are present without crossing lines. Claim moves
   to the BESIDE column, nodes are HTML (click-editable) in Geist, not
   hardcoded Inter.
-- **41 · Decision path** redrawn. The decision point now reads as one –
-  a bordered accent node: and the two branches are cards carrying the
+- **41 · Decision path** redrawn. The decision point now reads as one —
+  a bordered accent node — and the two branches are cards carrying the
   **sentiment signals**: the energy-availability branch positive, the
   endocrine work-up caution. Branch copy is left-aligned rather than centred,
   headings share a baseline, and arrows land on card centres.
@@ -231,9 +191,9 @@ for a new component, layout or template, patch for a fix.
   read `textContent`. The lint include is versioned so a stale cached copy
   cannot mask the fix.
 
-## 0.6.1: 2026-09-13
+## 0.6.1 — 2026-09-13
 ### Added
-- `tokens/signal.css`: a complementary **sentiment layer**: positive,
+- `tokens/signal.css` — a complementary **sentiment layer**: positive,
   negative, caution and neutral, each with ink / soft / edge / on-dark
   roles, plus a five-step **grading ramp** keyed to the theme accent.
   Warm-against-cool rather than red/green; the dark-board caution is sand,
@@ -251,9 +211,9 @@ for a new component, layout or template, patch for a fix.
 - Lint no longer false-positives on full-bleed scrims overlapping the
   footer row.
 
-## 0.6.0: 2026-09-13
+## 0.6.0 — 2026-09-13
 ### Added
-- `guidelines/TYPESETTING.md`: the authority for both languages: Czech
+- `guidelines/TYPESETTING.md` — the authority for both languages: Czech
   bonds/quotes/dashes/decimals, English as a **mirror not a translation**
   (with a before/after table), per-language claim and hook measures, the
   four vertical positions on a board, and a pre-ship checklist.
@@ -269,26 +229,26 @@ for a new component, layout or template, patch for a fix.
   preposition bonds stripped, “English quotes”, decimal points, closed-up
   percentages.
 
-## 0.5.1: 2026-09-13
+## 0.5.1 — 2026-09-13
 ### Added
 - Slide kit grown from 12 to **26 compositions**: agenda, section divider,
   three figures, table, myth and fact, cause chain, decision path,
   hierarchy, line chart, bar chart, definition, question, photo band,
-  takeaways: covering all eight families (FULL, OPEN, SPLIT, BESIDE,
+  takeaways — covering all eight families (FULL, OPEN, SPLIT, BESIDE,
   STACK, BAND, PLOT, DIAGRAM).
-- Two new Tweaks: **footer scale** (five presets from her deck: cyklus,
-  život, den, dávka, roky: or none) and **layout labels** on/off.
+- Two new Tweaks: **footer scale** (five presets from her deck — cyklus,
+  život, den, dávka, roky — or none) and **layout labels** on/off.
 - EN palliative deck: missing `ds-base.js` / `support.js` scaffold added;
   it had been rendering unstyled with system fonts.
 
-## 0.5.0: 2026-09-13
+## 0.5.0 — 2026-09-13
 ### Added
-- `templates/slide-kit/`: 12 content-free compositions (one per family)
+- `templates/slide-kit/` — 12 content-free compositions (one per family)
   with placeholder copy; Tweaks for palette (blue/petrol/violet), imagery
   mode (Public/Clinical), and evidence grade. The palliative decks remain as
   worked examples; the kit is the starting point for any new talk.
 
-## 0.4.1: 2026-09-13
+## 0.4.1 — 2026-09-13
 ### Changed
 - Palliative deck imagery set to the "middle" rhythm: every section opener
   and every statement/quote slide carries a Clinical photograph (17 of 34).
@@ -297,17 +257,17 @@ for a new component, layout or template, patch for a fix.
 - Clinical library captioned in full; 4 duplicates removed; 3 third-party
   graphics moved to `reference/` as citations, not assets.
 
-## 0.4.0: 2026-09-13
+## 0.4.0 — 2026-09-13
 ### Added
-- `guidelines/PRESENTATION_RESEARCH.md`: what the best decks and reels do,
+- `guidelines/PRESENTATION_RESEARCH.md` — what the best decks and reels do,
   audited against ours, with the improvement list that was applied.
-- `slides/deck-lint.js`: console lint for rhythm (three of one family),
+- `slides/deck-lint.js` — console lint for rhythm (three of one family),
   claim/statement measure, list length (max 5), reel hook budget.
 - Palliative deck (CZ + EN): assertion–evidence pass (lists capped at 5),
   Clinical photographs on the S/A/P openers and slide 17, one-number slide
   for 30-day PEG mortality, reference footers where the source named one,
   a three-slide appendix for backup material. Core 31 + appendix 3.
-- `templates/reel/`: reel timing sheet with animated preview, two frame
+- `templates/reel/` — reel timing sheet with animated preview, two frame
   sets (palliative, generic), hook budget check, caption template, 3:4 grid
   and centre-CTA rules.
 ### Decided
@@ -315,7 +275,7 @@ for a new component, layout or template, patch for a fix.
 - Reference footers only where the source deck named a source.
 - Backup slides use the same layouts as core.
 
-## 0.3.0: 2026-09-13
+## 0.3.0 — 2026-09-13
 ### Added
 - All 72 deck layouts (`slides/`) and 28 reel frames (`reels/`) ported onto
   the system stylesheet from the deck source, tagged as cards.
@@ -327,12 +287,12 @@ for a new component, layout or template, patch for a fix.
 ### Decided
 - Topic colour coding: Blue clinical, Petrol longevity, Violet women's health.
 
-## 0.2.0: 2026-09-13
+## 0.2.0 — 2026-09-13
 ### Added
 - Canonical semantic tokens (`--text-*`, `--surface-*`, `--border-*`,
   `--action-*`, `--icon-*`, `--chart-*`) aliasing the working short names.
 - `tokens/tokens.json` (W3C DTCG) and `tokens/tokens.md` (AI-context export).
-- `tokens/dataviz.css`: chart colour ladder and stroke tokens.
+- `tokens/dataviz.css` — chart colour ladder and stroke tokens.
 - `guidelines/PRINCIPLES.md`, `ACCESSIBILITY.md`, `DATAVIZ.md`, `IMAGERY.md`,
   `RESEARCH.md`.
 - Clinical imagery library (`assets/clinical/`, 32 files) with provenance,
@@ -351,7 +311,7 @@ for a new component, layout or template, patch for a fix.
 - Handouts ship A4 and Letter.
 - Decks deliver as PDF + PPTX.
 
-## 0.1.0: 2026-09-13
+## 0.1.0 — 2026-09-13
 ### Added
 - Tokens (colour, type, spacing, motion, fonts), 17 components in four
   groups, 19 foundation cards, 7 sample slides, lecture-deck template, web

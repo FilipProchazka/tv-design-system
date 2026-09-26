@@ -1,9 +1,9 @@
-# Imagery: two modes
+# Imagery — two modes
 
 Her material has two photographic languages and the decision (2026-09-13) is
 to keep both, documented, and **never mixed in one piece**.
 
-## Public mode: duotone to the surface's own theme
+## Public mode — duotone to the surface's own theme
 Website, social, webinar sales, anything a member of the public sees first.
 - **On the website** every photograph passes through the blue duotone
   (shadow `#0F3557`, highlight `#8FC9F5`) at a 60% blend, so the subject
@@ -19,15 +19,12 @@ Website, social, webinar sales, anything a member of the public sees first.
   a set of stock photographs with four colour temperatures reading as four
   different libraries.
 - Subjects: hands, food, a barbell, a clinical record, an archive image. No
-  no portrait of her except her approved photograph (`assets/womens-health/flat/cv-tereza.jpg`, closing or Speaker board only), no smiling stock clinicians, no flat-lay.
-- Stock portraits (a woman in midlife, for example) are allowed on public
-  talks where the topic is a person's experience, never under her name: not
-  on a cover, speaker or closing board that carries her name or affiliations.
-- Library: index in `assets/README.md`. `assets/img/` (site), `assets/photo/` (deck), `assets/womens-health/` (violet). On petrol decks
+  portraits of her, no smiling stock clinicians, no flat-lay.
+- Library: `assets/img/` (site) and `assets/photo/` (deck). On petrol decks
   the SVG `feComponentTransfer` duotone (`#062020` → `#73BFB4`) is used
   instead of a CSS filter stack.
 
-## Clinical mode: natural colour
+## Clinical mode — natural colour
 Professional talks to clinicians, carers and students, where the photograph
 is documentary evidence of a situation (a PEG tube, a bedside, an X-ray).
 - Natural colour, no duotone. Black-and-white is permitted where the source
@@ -35,7 +32,7 @@ is documentary evidence of a situation (a PEG tube, a bedside, an X-ray).
 - Text over a Clinical photograph needs `--scrim-photo` raised to .62, or a
   solid panel, because natural-colour images do not guarantee contrast.
 - Library: `assets/clinical/`, provenance in its `PROVENANCE.md`. Rights
-  unverified: see the note there.
+  unverified — see the note there.
 - Clip-art register stock (icon cubes, jigsaw heads, dissolving brains) is
   kept for the record and marked **do not use**.
 
@@ -50,7 +47,7 @@ is documentary evidence of a situation (a PEG tube, a bedside, an X-ray).
   transparent` and under-measures on contrast tools: the scrim needs a solid
   `background-color` floor with the gradient layered over it, as
   `tokens/base.css`'s `.scrim` does. On a 9:16 frame the alpha must hold at
-  the TOP of the frame too, where the kicker sits: not only at the bottom.
+  the TOP of the frame too, where the kicker sits — not only at the bottom.
 - No stock of her; a portrait, when supplied, is the only exception and is
   used on the Speaker layout and the CV.
 

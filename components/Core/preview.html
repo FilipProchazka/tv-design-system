@@ -1,0 +1,16 @@
+<!-- @dsCard group="Components" height=360 subtitle="Pill, evidence grade, and the 24px icon set" page -->
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><style>body{background:#FFFFFF;padding:28px}.row{display:flex;flex-wrap:wrap;align-items:center;gap:16px 20px}.lbl{font-family:var(--font-mono);font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin:24px 0 12px}.lbl:first-child{margin-top:0}.ico{display:grid;grid-template-columns:repeat(9,1fr);gap:14px;color:var(--accent)}.ico span{display:flex;align-items:center;justify-content:center;width:38px;height:38px;border:1px solid var(--rule);border-radius:10px}</style></head><body><div id="root"></div>
+<script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel">
+const { Pill, Grade, Icon } = window.TerezaVGnerovDesignSystem_360dc4;
+const NAMES = ['prehled','medicina','zenske-zdravi','dlouhovekost','spanek','fitness','vyziva','lifestyle','arrow','phone','mail','instagram','menu','close','building','external','plus'];
+function Card(){return (<div>
+<div className="lbl">Pill</div>
+<div className="row"><Pill label="Napište mi" /><Pill label="Více o mně" ghost /><Pill label="Zaplatit a přihlásit se" external /><Pill label="Kontakt" small /></div>
+<div className="lbl">Evidence grade</div>
+<div className="row" style={{gap:'12px 40px'}}><Grade level="meta" /><Grade level="kohorta" /><Grade level="mechanismus" /><Grade level="nepodlozeno" /></div>
+<div className="lbl">Icon · eight topic marks, nine interface marks</div>
+<div className="ico">{NAMES.map(n=><span key={n}><Icon name={n} size={22} /></span>)}</div>
+</div>);}
+ReactDOM.createRoot(document.getElementById('root')).render(<Card />);
+</script></body></html>

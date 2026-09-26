@@ -1,0 +1,892 @@
+/* ── styles.css ── */
+/* ── tokens/fonts.css ── */
+/* Three faces, self-hosted from assets/fonts/, no CDN (14 Sep 2026).
+
+   Geist 300/400/500/600 sets display, claims, statements, headings and
+   display figures: its Czech diacritics survive at 74-380px. Inter 400/500/600
+   sets body, lead, small and every affiliation line: it is the better reading
+   face at 19px. Geist Mono 400/500 sets every label, kicker, unit, citation,
+   price, axis and tabular figure: it keeps the mono in the same family as the
+   headings. This supersedes the 13 Sep 2026 decision, recorded in CHANGELOG
+   0.7.0.
+
+   Inter is split Latin + Latin Extended-A by unicode-range (fontsource's own
+   ranges) so Czech diacritics resolve to the ext file rather than collapsing
+   onto whichever same-weight face loaded last. A deck opened with
+   no network sets exactly as one opened online; nothing here is fetched. */
+/* Geist and Geist Mono: static cuts from Vercel's release, Latin + Latin
+   Extended in one file each, so no unicode-range split for these two. */
+/* @font-face Geist 300 normal: declared by tokens.json (fonts/geist-300-normal.woff2) */
+/* @font-face Geist 400 normal: declared by tokens.json (fonts/geist-400-normal.woff2) */
+/* @font-face Geist 500 normal: declared by tokens.json (fonts/geist-500-normal.woff2) */
+/* @font-face Geist 600 normal: declared by tokens.json (fonts/geist-600-normal.woff2) */
+/* @font-face Geist Mono 400 normal: declared by tokens.json (fonts/geist-mono-400-normal.woff2) */
+/* @font-face Geist Mono 500 normal: declared by tokens.json (fonts/geist-mono-500-normal.woff2) */
+/* @font-face Inter 400 normal: declared by tokens.json (fonts/inter-latin-400-normal.woff2) */
+/* @font-face Inter 400 normal: declared by tokens.json (fonts/inter-latin-ext-400-normal.woff2) */
+/* @font-face Inter 500 normal: declared by tokens.json (fonts/inter-latin-500-normal.woff2) */
+/* @font-face Inter 500 normal: declared by tokens.json (fonts/inter-latin-ext-500-normal.woff2) */
+/* @font-face Inter 600 normal: declared by tokens.json (fonts/inter-latin-600-normal.woff2) */
+/* @font-face Inter 600 normal: declared by tokens.json (fonts/inter-latin-ext-600-normal.woff2) */
+
+/* ── styles.css ── */
+
+/* ── tokens/colors.css ── */
+/* Three palettes, sampled from her own Canva decks, not invented. Each has a
+   light and a dark mode; every muted/soft/accent value clears 4.5:1 on its own
+   surface, so a theme swap can never quietly break legibility.
+
+   BLUE is the brand/chrome colour: buttons, links, focus, nav state, the
+   utility bar — and the CLINICAL / MEDICAL topic colour. PETROL is
+   LONGEVITY (dlouhověkost, výživa, fitness, spánek, lifestyle). VIOLET is
+   WOMEN'S HEALTH. Petrol and violet never become page furniture. --tint is the theme's own card ground (the topic index);
+   --band is the tinted section stripe. */
+:root{
+  color-scheme:light;
+}
+/* Semantic aliases. Everything downstream reads these, never a raw hex. */
+.t-blue{
+  --surface:#ffffff;
+  --ink:#0f2c47;
+  --muted:#4a6884;
+  --soft:#5c7890;
+  --rule:#afc4d6;
+  --accent:#1d5994;
+  --onacc:#ffffff;
+  --tint:#f2f6fa;
+  --band:#f2f6fa;
+  --chart-axis:var(--rule);
+  --chart-grid:var(--rule);
+  --chart-label:var(--muted);
+  --chart-series-1:var(--accent);
+  --chart-series-2:var(--data-sand);
+  --chart-series-1-a75:#1d5994bf;
+  --chart-series-1-a50:#1d599480;
+  --chart-series-1-a25:#1d599440;
+  --chart-emphasis:var(--ink);
+  --text-body:var(--ink);
+  --text-muted:var(--muted);
+  --text-subtle:var(--soft);
+  --text-link:var(--accent);
+  --text-on-action:var(--onacc);
+  --text-inverse:var(--surface);
+  --surface-page:var(--surface);
+  --surface-band:var(--band);
+  --surface-tint:var(--tint);
+  --surface-dark:var(--blue-dark);
+  --border-default:var(--rule);
+  --border-active:var(--accent);
+  --border-focus:var(--accent);
+  --action-primary:var(--accent);
+  --action-primary-text:var(--onacc);
+  --action-ghost-border:var(--rule);
+  --action-ghost-text:var(--accent);
+  --icon-default:var(--accent);
+  --icon-muted:var(--muted);
+  --surface-1:var(--band);
+  --surface-3:var(--blue-dark);
+  --signal-neutral-ink:var(--muted);
+  --signal-neutral-soft:var(--band);
+  --signal-neutral-edge:var(--rule);
+  --signal-neutral-on-dark:var(--muted);
+  --grade-5:var(--accent);
+  --grade-1:var(--rule);
+}
+.t-petrol{
+  --surface:#ffffff;
+  --ink:#14211f;
+  --muted:#5c6c69;
+  --soft:#687672;
+  --rule:#c2d0cd;
+  --accent:#0b6a63;
+  --onacc:#ffffff;
+  --tint:#f3f7f6;
+  --band:#f3f7f6;
+  --chart-axis:var(--rule);
+  --chart-grid:var(--rule);
+  --chart-label:var(--muted);
+  --chart-series-1:var(--accent);
+  --chart-series-2:var(--data-sand);
+  --chart-series-1-a75:#0b6a63bf;
+  --chart-series-1-a50:#0b6a6380;
+  --chart-series-1-a25:#0b6a6340;
+  --chart-emphasis:var(--ink);
+  --text-body:var(--ink);
+  --text-muted:var(--muted);
+  --text-subtle:var(--soft);
+  --text-link:var(--accent);
+  --text-on-action:var(--onacc);
+  --text-inverse:var(--surface);
+  --surface-page:var(--surface);
+  --surface-band:var(--band);
+  --surface-tint:var(--tint);
+  --surface-dark:var(--blue-dark);
+  --border-default:var(--rule);
+  --border-active:var(--accent);
+  --border-focus:var(--accent);
+  --action-primary:var(--accent);
+  --action-primary-text:var(--onacc);
+  --action-ghost-border:var(--rule);
+  --action-ghost-text:var(--accent);
+  --icon-default:var(--accent);
+  --icon-muted:var(--muted);
+  --surface-1:var(--band);
+  --surface-3:var(--blue-dark);
+  --signal-neutral-ink:var(--muted);
+  --signal-neutral-soft:var(--band);
+  --signal-neutral-edge:var(--rule);
+  --signal-neutral-on-dark:var(--muted);
+  --grade-5:var(--accent);
+  --grade-1:var(--rule);
+}
+/* Violet's pinned light tint IS its page surface, so its band steps one shade
+   deeper: on a violet topic page a band at #FBF5FE would be invisible. */
+.t-violet{
+  --surface:#fbf5fe;
+  --ink:#401252;
+  --muted:#6b4b7d;
+  --soft:#7c5e8d;
+  --rule:#cdb3dc;
+  --accent:#6d2a8c;
+  --onacc:#ffffff;
+  --tint:#fbf5fe;
+  --band:#f4ecfa;
+  --chart-axis:var(--rule);
+  --chart-grid:var(--rule);
+  --chart-label:var(--muted);
+  --chart-series-1:var(--accent);
+  --chart-series-2:var(--data-sand);
+  --chart-series-1-a75:#6d2a8cbf;
+  --chart-series-1-a50:#6d2a8c80;
+  --chart-series-1-a25:#6d2a8c40;
+  --chart-emphasis:var(--ink);
+  --text-body:var(--ink);
+  --text-muted:var(--muted);
+  --text-subtle:var(--soft);
+  --text-link:var(--accent);
+  --text-on-action:var(--onacc);
+  --text-inverse:var(--surface);
+  --surface-page:var(--surface);
+  --surface-band:var(--band);
+  --surface-tint:var(--tint);
+  --surface-dark:var(--blue-dark);
+  --border-default:var(--rule);
+  --border-active:var(--accent);
+  --border-focus:var(--accent);
+  --action-primary:var(--accent);
+  --action-primary-text:var(--onacc);
+  --action-ghost-border:var(--rule);
+  --action-ghost-text:var(--accent);
+  --icon-default:var(--accent);
+  --icon-muted:var(--muted);
+  --surface-1:var(--band);
+  --surface-3:var(--blue-dark);
+  --signal-neutral-ink:var(--muted);
+  --signal-neutral-soft:var(--band);
+  --signal-neutral-edge:var(--rule);
+  --signal-neutral-on-dark:var(--muted);
+  --grade-5:var(--accent);
+  --grade-1:var(--rule);
+}
+/* .dark is punctuation, not a mode: the utility bar, a photo scrim, a closing
+   CTA band. There is no dark-mode toggle and no prefers-color-scheme flip. */
+.t-blue.dark{
+  --surface:#0f3557;
+  --ink:#ffffff;
+  --muted:#a6c2db;
+  --soft:#8ca9c4;
+  --rule:#2a5480;
+  --accent:#8fc9f5;
+  --onacc:#0f3557;
+  --chart-axis:var(--rule);
+  --chart-grid:var(--rule);
+  --chart-label:var(--muted);
+  --chart-series-1:var(--accent);
+  --chart-series-2:var(--data-sand);
+  --chart-series-1-a75:#8fc9f5bf;
+  --chart-series-1-a50:#8fc9f580;
+  --chart-series-1-a25:#8fc9f540;
+  --chart-emphasis:var(--ink);
+  --text-body:var(--ink);
+  --text-muted:var(--muted);
+  --text-subtle:var(--soft);
+  --text-link:var(--accent);
+  --text-on-action:var(--onacc);
+  --text-inverse:var(--surface);
+  --surface-page:var(--surface);
+  --surface-band:var(--band);
+  --surface-tint:var(--tint);
+  --surface-dark:var(--blue-dark);
+  --border-default:var(--rule);
+  --border-active:var(--accent);
+  --border-focus:var(--accent);
+  --action-primary:var(--accent);
+  --action-primary-text:var(--onacc);
+  --action-ghost-border:var(--rule);
+  --action-ghost-text:var(--accent);
+  --icon-default:var(--accent);
+  --icon-muted:var(--muted);
+  --surface-1:var(--band);
+  --surface-3:var(--blue-dark);
+  --signal-neutral-ink:var(--muted);
+  --signal-neutral-soft:var(--band);
+  --signal-neutral-edge:var(--rule);
+  --signal-neutral-on-dark:var(--muted);
+  --grade-5:var(--accent);
+  --grade-1:var(--rule);
+}
+.t-petrol.dark{
+  --surface:#0e3a36;
+  --ink:#ffffff;
+  --muted:#9cbcb6;
+  --soft:#93b5af;
+  --rule:#2e5f59;
+  --accent:#8fe3d9;
+  --onacc:#0e3a36;
+  --chart-axis:var(--rule);
+  --chart-grid:var(--rule);
+  --chart-label:var(--muted);
+  --chart-series-1:var(--accent);
+  --chart-series-2:var(--data-sand);
+  --chart-series-1-a75:#8fe3d9bf;
+  --chart-series-1-a50:#8fe3d980;
+  --chart-series-1-a25:#8fe3d940;
+  --chart-emphasis:var(--ink);
+  --text-body:var(--ink);
+  --text-muted:var(--muted);
+  --text-subtle:var(--soft);
+  --text-link:var(--accent);
+  --text-on-action:var(--onacc);
+  --text-inverse:var(--surface);
+  --surface-page:var(--surface);
+  --surface-band:var(--band);
+  --surface-tint:var(--tint);
+  --surface-dark:#0e3a36;
+  --border-default:var(--rule);
+  --border-active:var(--accent);
+  --border-focus:var(--accent);
+  --action-primary:var(--accent);
+  --action-primary-text:var(--onacc);
+  --action-ghost-border:var(--rule);
+  --action-ghost-text:var(--accent);
+  --icon-default:var(--accent);
+  --icon-muted:var(--muted);
+  --surface-1:var(--band);
+  --surface-3:var(--blue-dark);
+  --signal-neutral-ink:var(--muted);
+  --signal-neutral-soft:var(--band);
+  --signal-neutral-edge:var(--rule);
+  --signal-neutral-on-dark:var(--muted);
+  --grade-5:var(--accent);
+  --grade-1:var(--rule);
+}
+.t-violet.dark{
+  --surface:#401252;
+  --ink:#ffffff;
+  --muted:#c9aeda;
+  --soft:#b49bc6;
+  --rule:#5e2e73;
+  --accent:#d8a6f5;
+  --onacc:#401252;
+  --chart-axis:var(--rule);
+  --chart-grid:var(--rule);
+  --chart-label:var(--muted);
+  --chart-series-1:var(--accent);
+  --chart-series-2:var(--data-sand);
+  --chart-series-1-a75:#d8a6f5bf;
+  --chart-series-1-a50:#d8a6f580;
+  --chart-series-1-a25:#d8a6f540;
+  --chart-emphasis:var(--ink);
+  --text-body:var(--ink);
+  --text-muted:var(--muted);
+  --text-subtle:var(--soft);
+  --text-link:var(--accent);
+  --text-on-action:var(--onacc);
+  --text-inverse:var(--surface);
+  --surface-page:var(--surface);
+  --surface-band:var(--band);
+  --surface-tint:var(--tint);
+  --surface-dark:#401252;
+  --border-default:var(--rule);
+  --border-active:var(--accent);
+  --border-focus:var(--accent);
+  --action-primary:var(--accent);
+  --action-primary-text:var(--onacc);
+  --action-ghost-border:var(--rule);
+  --action-ghost-text:var(--accent);
+  --icon-default:var(--accent);
+  --icon-muted:var(--muted);
+  --surface-1:var(--band);
+  --surface-3:var(--blue-dark);
+  --signal-neutral-ink:var(--muted);
+  --signal-neutral-soft:var(--band);
+  --signal-neutral-edge:var(--rule);
+  --signal-neutral-on-dark:var(--muted);
+  --grade-5:var(--accent);
+  --grade-1:var(--rule);
+}
+/* NOTE: dark values live on compound single-element selectors, so a theme
+   class and `dark` must sit on the SAME element (`class="slide t-blue dark"`).
+   `.dark` nested inside a themed ancestor keeps the light surface by design —
+   that is what keeps the token scopes registerable. */
+
+/* Canonical semantic roles. These are the names a consumer should reach for
+   first; the short names above (--ink, --muted, --rule, --accent) remain as
+   the working vocabulary the components were written in. Both resolve to the
+   same value under every theme, so they can never disagree. Naming follows
+   category-property-role: what it is, then what it is for. */
+:root,.t-blue,.t-petrol,.t-violet,.dark{
+  --text-body:var(--ink);
+  --text-muted:var(--muted);
+  --text-subtle:var(--soft);
+  --text-link:var(--accent);
+  --text-on-action:var(--onacc);
+  --text-inverse:var(--surface);
+  --surface-page:var(--surface);
+  --surface-band:var(--band);
+  --surface-card:#FFFFFF;
+  --surface-tint:var(--tint);
+  --surface-dark:var(--blue-dark);
+  --border-default:var(--rule);
+  --border-active:var(--accent);
+  --border-focus:var(--accent);
+  --action-primary:var(--accent);
+  --action-primary-text:var(--onacc);
+  --action-ghost-border:var(--rule);
+  --action-ghost-text:var(--accent);
+  --icon-default:var(--accent);
+  --icon-muted:var(--muted);
+  --scrim-photo:rgba(15,53,87,.50);
+  --shadow-lift:var(--lift);
+  --shadow-float:var(--lift-strong);
+}
+.t-petrol .dark,.t-petrol.dark{--surface-dark:#0E3A36}
+.t-violet .dark,.t-violet.dark{--surface-dark:#401252}
+/* On a dark band the card surface is the band itself: nothing floats white
+   on punctuation. */
+.dark{
+  --surface-card:var(--surface);
+}
+
+/* ── styles.css ── */
+
+/* ── tokens/typography.css ── */
+/* Three faces, three jobs, no overlap (14 Sep 2026; supersedes the 13 Sep
+   decision, recorded in CHANGELOG 0.7.0).
+
+   Geist 300/400/500/600 — display, claims, statements, headings and display
+   figures. Its Czech diacritics are fully drawn at 74-380px, where most
+   geometric faces thin the caron and the ring out.
+
+   Inter 400/500/600 — body, lead, small and every affiliation line: anything
+   read as running text. At 19px Inter's larger x-height and open apertures
+   read more evenly than Geist, which is drawn for display.
+
+   Geist Mono 400 (data) / 500 (kicker) — every label, kicker, unit, citation,
+   price, axis and tabular figure. Same family as the headings, so a kicker
+   above a claim shares its skeleton. Figures at display size (>= 100px) are
+   Geist 300, never mono. */
+:root{ /* @kind other */
+}
+.display{font-family:var(--font-display);font-weight:400;font-size:var(--f-display);line-height:1.05;letter-spacing:-.028em}
+.h1{font-family:var(--font-display);font-weight:400;font-size:var(--f-h1);line-height:1.10;letter-spacing:-.024em}
+.h2{font-family:var(--font-display);font-weight:500;font-size:var(--f-h2);line-height:1.16;letter-spacing:-.018em}
+.lead{font-family:var(--font-body);font-weight:400;font-size:var(--f-lead);line-height:1.55}
+.body{font-family:var(--font-body);font-weight:400;font-size:var(--f-body);line-height:1.68}
+.small{font-family:var(--font-body);font-weight:400;font-size:var(--f-small);line-height:1.55}
+.kicker{font-family:var(--font-mono);font-weight:500;font-size:var(--f-kicker);letter-spacing:.13em;text-transform:uppercase;font-variant-numeric:tabular-nums}
+.figure{font-family:var(--font-display);font-weight:300;font-size:var(--f-figure);line-height:.92;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.card-title{font-family:var(--font-display);font-weight:500;font-size:clamp(21px,1.6vw,24px);line-height:1.22;letter-spacing:-.014em}
+
+/* ── styles.css ── */
+
+/* ── tokens/spacing.css ── */
+/* Shell, rhythm, radii and the one shadow. Values are the site's own, not
+   snapped to a 4/8px grid: 28px card padding, 26px meta gaps, 46px marks. */
+:root{
+  --sec:clamp(64px,7.4vw,112px); /* @kind spacing */
+  --sec-tight:calc(var(--sec) * .62);
+
+  --measure:68ch; /* @kind spacing */
+  --measure-tight:54ch;
+}
+@media (max-width:767px){:root{--gut:20px;--gap:16px}}
+
+/* ── styles.css ── */
+
+/* ── tokens/motion.css ── */
+/* One easing curve. Three entrances, each doing a different job, and most
+   sections with none at all. Everything is armed by script, so the page
+   renders complete with no script and under reduced motion. */
+:root{ /* @kind spacing */
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+
+/* ── styles.css ── */
+
+/* ── tokens/dataviz.css ── */
+/* Chart geometry. The chart COLOUR aliases (--chart-axis, --chart-grid,
+   --chart-label, --chart-series-1/-2, the accent opacity ladder and
+   --chart-emphasis) are declared per theme in colors.css, alongside the
+   other semantic tokens — a var() reference inside a :root declaration
+   computes in the root context and freezes, so a themed or dark board
+   could never override it from here. */
+:root{ /* @kind spacing */
+}
+
+/* ── styles.css ── */
+
+/* ── tokens/signal.css ── */
+/* Sentiment and grading — a complementary layer, not a fourth palette.
+ *
+ * Three signals, drawn from the warm/cool axis her material already has
+ * (sand is the warm end, petrol the cool one), so they sit beside blue,
+ * petrol and violet without competing with the topic coding. Deliberately
+ * NOT a red/green pair: DATAVIZ.md bans it because red-green deficiency is
+ * the common one, and half her audience reads these on a projector.
+ *
+ * Each signal has four roles:
+ *   -ink     text and strokes on a light surface (≥4.5:1 on paper)
+ *   -soft    a tint to sit content on (a row, a column, a chip)
+ *   -edge    a 1px rule or a 3px bar
+ *   -on-dark the same signal on a .dark board (≥4.5:1 on the dark surfaces)
+ *
+ * Colour is never the only carrier: a positive row still says what it is,
+ * and the evidence ladder still prints its level in words beside the ticks.
+ */
+:root{
+}
+/* On a dark board every signal swaps to its light ink and its tint becomes a
+   translucent wash of itself, so a positive row reads as a row and not as a
+   white card. */
+.dark{
+  --signal-positive-ink:var(--signal-positive-on-dark);
+  --signal-positive-soft:#7fdcc029;
+  --signal-positive-edge:#7fdcc085;
+  --signal-negative-ink:var(--signal-negative-on-dark);
+  --signal-negative-soft:#f3a98e29;
+  --signal-negative-edge:#f3a98e85;
+  --signal-caution-ink:var(--signal-caution-on-dark);
+  --signal-caution-soft:#f0d2a229;
+  --signal-caution-edge:#f0d2a285;
+  --signal-neutral-ink:var(--muted);
+  --signal-neutral-soft:var(--band);
+  --signal-neutral-edge:var(--rule);
+  --signal-neutral-on-dark:var(--muted);
+}
+/* Utility classes, so a slide or a card can mark a row without inline colour. */
+.sig-pos{color:var(--signal-positive-ink)}
+.sig-neg{color:var(--signal-negative-ink)}
+.sig-cau{color:var(--signal-caution-ink)}
+.sig-neu{color:var(--signal-neutral-ink)}
+.sig-row{border-left:3px solid var(--rule);padding-left:22px}
+.sig-row.pos{border-left-color:var(--signal-positive-edge)}
+.sig-row.neg{border-left-color:var(--signal-negative-edge)}
+.sig-row.cau{border-left-color:var(--signal-caution-edge)}
+.sig-chip{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:6px 14px;font-family:var(--font-mono);font-weight:500;font-size:15px;letter-spacing:.08em;text-transform:uppercase}
+/* Chips are sized for the 700px specimen cards. On a 1920 board they must
+   clear the 24px slide-text floor — a chip is often the most important label
+   on the slide (the answer to a decision question), so it scales with the
+   board rather than inheriting card-scale type. */
+.slide .sig-chip,.reel .sig-chip{padding:12px 24px;font-size:26px;letter-spacing:.1em}
+.sig-chip.pos{background:var(--signal-positive-soft);color:var(--signal-positive-ink)}
+.sig-chip.neg{background:var(--signal-negative-soft);color:var(--signal-negative-ink)}
+.sig-chip.cau{background:var(--signal-caution-soft);color:var(--signal-caution-ink)}
+
+/* ── styles.css ── */
+
+/* ── tokens/wrap.css ── */
+/* Orphans and widows.
+ *
+ * A widow is a single word left alone on the last line of a block; an orphan
+ * is a single line stranded from its paragraph across a page break. Both are
+ * failures of composition, not of copy, so they are handled here once rather
+ * than by rewriting sentences board by board.
+ *
+ * Two different browser mechanisms, for two different jobs:
+ *
+ *   text-wrap: balance  — display roles (claim, statement, reel hook). The
+ *     browser evens the line lengths across the block, which is exactly what
+ *     a two-line claim at 74px needs. It applies to blocks of a few lines
+ *     only, which is all these roles ever are. Authored <br> still wins as a
+ *     hard break, so a deliberate rag survives.
+ *
+ *   text-wrap: pretty   — reading roles (body, lead, list items). Keeps the
+ *     line lengths as they are but refuses to leave a short last line, which
+ *     is the widow case in running copy.
+ *
+ *   orphans / widows: 3 — print only. These properties do nothing on screen;
+ *     they instruct the paginator to keep at least three lines together
+ *     either side of a page break in a handout or a doc.
+ *
+ * The one thing CSS cannot do is bind a specific pair of words. Where a
+ * particular last line must never break — a name, a unit, a citation — the
+ * copy carries a non-breaking space, per TYPESETTING.md §1.
+ */
+
+/* display roles — even the lines */
+.claim,.cl,.statement,.st,.sub,.sb,.a-hook,.hook,.a-quote,.a-mid,.a-sub,.a-h,
+h1,h2,h3,h4{text-wrap:balance}
+
+/* reading roles — no short last line */
+.body,.bd,.lead,.li,.p,p,li,figcaption,.cap,.note,.a-body{text-wrap:pretty}
+
+/* a figure or a mono kicker is one line by definition; balancing them is
+   wasted work and can introduce a break where none was wanted */
+.figure,.fig,.num,.mono,.k,.kicker,.a-fig,.a-mono,.a-kick,.ref,.pg{text-wrap:nowrap}
+
+@media print{
+  p,li,.body,.bd,.lead,.p{orphans:3;widows:3}
+  h1,h2,h3,h4,.claim,.cl,.statement,.st{break-after:avoid-page;orphans:3;widows:3}
+  figure,table,.card,.panel{break-inside:avoid}
+}
+
+/* ── styles.css ── */
+
+/* ── tokens/base.css ── */
+/* The reading ground and the shared surface classes every kit composes from.
+   Lifted verbatim from tv-web/src/styles/base.css so a consuming project and
+   the real site cannot drift apart. */
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scrollbar-color:var(--rule) transparent}
+body{background:var(--surface);color:var(--ink);font-family:var(--font-body);font-size:19px;line-height:1.62;caret-color:var(--accent);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+svg{display:block}
+::selection{background:var(--accent);color:var(--onacc)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--accent)}
+.prose a,.link{color:var(--accent);text-decoration:underline;text-underline-offset:.15em;text-decoration-thickness:1px}
+.prose a:hover,.link:hover{color:var(--accent);text-decoration-thickness:2px}
+.mono,.meta,.eyebrow{font-variant-numeric:tabular-nums}
+
+/* shell, sections, bands */
+.shell{width:100%;max-width:var(--shell);margin:0 auto;padding:0 var(--gut)}
+.sec{padding:var(--sec) 0}
+.sec-tight{padding:var(--sec-tight) 0}
+.band{background:var(--band)}
+.dark{background:var(--surface);color:var(--ink)}
+.sheet{background:#FFFFFF}
+body.tinted{background:var(--band)}
+body.tinted .band{background:transparent}
+.center{text-align:center}
+.measure{max-width:var(--measure)}
+.measure-tight{max-width:var(--measure-tight)}
+.center .measure,.center .measure-tight{margin-left:auto;margin-right:auto}
+.muted{color:var(--muted)}
+
+/* type roles beyond typography.css */
+.eyebrow{font-family:var(--font-mono);font-weight:500;font-size:15px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);display:block}
+.meta{font-family:var(--font-mono);font-weight:400;font-size:15px;letter-spacing:.02em;color:var(--muted)}
+.eyebrow + .display,.eyebrow + .h1,.eyebrow + .h2{margin-top:18px}
+.h2 + .measure,.h1 + .measure,.display + .measure{margin-top:24px}
+
+/* PILLS, CARDS AND THE ACCORDION LIFT ARE RETIRED (14 Sep 2026).
+   The site now runs on tokens/web.css: a square accent block for the one ask,
+   mono links with marks for everything else, hairline rows instead of cards,
+   and no shadow on any surface. The rules below are kept only so an older
+   consuming page does not break mid-migration; nothing new uses them, and
+   they are scheduled for removal at 1.0.0.
+   DEPRECATED BELOW THIS LINE */
+.pill{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--accent);color:var(--onacc);border:1.5px solid var(--accent);border-radius:var(--radius-pill);padding:14px 24px;min-height:56px;font-family:var(--font-display);font-weight:500;font-size:18px;line-height:1.2;cursor:pointer;transition:transform var(--dur) var(--ease),box-shadow var(--dur) var(--ease),border-color var(--dur) var(--ease),color var(--dur) var(--ease)}
+.pill svg{flex:none;transition:transform var(--dur) var(--ease)}
+.pill:hover{color:var(--onacc)}
+.pill:hover svg{transform:translateX(var(--nudge))}
+.pill-ghost{background:transparent;color:var(--accent);border-color:var(--rule)}
+.pill-ghost:hover{border-color:var(--accent);color:var(--accent)}
+.pill-sm{padding:11px 20px;min-height:46px;font-size:17px}
+.pill-block{width:100%}
+.action-row{display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px}
+.center .action-row{justify-content:center}
+.action-link{display:inline-flex;align-items:center;gap:10px;min-height:56px;font-family:var(--font-display);font-weight:500;font-size:18px;color:var(--ink);text-decoration:underline;text-underline-offset:.22em;text-decoration-thickness:1px;text-decoration-color:var(--rule);transition:color var(--dur-fast) var(--ease),text-decoration-color var(--dur-fast) var(--ease)}
+.action-link:hover{color:var(--accent);text-decoration-color:var(--accent)}
+.action-link svg{flex:none;color:var(--accent)}
+
+/* cards */
+.card{position:relative;background:#FFFFFF;border:1px solid var(--rule);padding:var(--card-pad);overflow:hidden}
+.card-flat:hover{transform:none;box-shadow:none;border-color:var(--rule)}
+.card-pad-0{padding:0}
+.grid{display:grid;gap:var(--gap)}
+.grid-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.grid-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grid-topics{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:1200px){.grid-topics{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:1023px){.grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:767px){.grid-topics{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:679px){.grid-3,.grid-2{grid-template-columns:minmax(0,1fr)}}
+
+/* photographs */
+.photo{position:relative;width:100%;overflow:hidden;background:var(--band)}
+.photo img{width:100%;height:100%;object-fit:cover}
+/* No text over a photograph without a real background-colour scrim: a
+   gradient alone computes as transparent and under-measures on contrast. */
+.scrim{position:absolute;inset:0;background-color:rgba(15,53,87,.50);background-image:linear-gradient(180deg,rgba(15,53,87,0) 40%,rgba(15,53,87,.26))}
+
+/* accordion */
+details.faq{background:#FFFFFF;border:1px solid var(--rule)}
+details.faq + details.faq{margin-top:12px}
+details.faq[open]{border-color:var(--accent)}
+details.faq summary{list-style:none;cursor:pointer;display:flex;gap:20px;align-items:center;justify-content:space-between;padding:20px 24px;min-height:56px;font-family:var(--font-display);font-weight:500;font-size:20px;line-height:1.3;color:var(--ink)}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary:hover{color:var(--accent)}
+details.faq .answer{padding:0 24px 24px;color:var(--muted);max-width:64ch}
+.plus{flex:none;color:var(--accent)}
+.plus .bar-v{transform-origin:12px 12px;transition:transform var(--dur) var(--ease)}
+details[open] .plus .bar-v{transform:scaleY(0)}
+
+/* ── styles.css ── */
+
+/* ── tokens/web.css ── */
+/* THE WEB LAYER — the deck's grammar, made fluid.
+   Decided 14 Sep 2026: the site is rebuilt on the deck's editorial grid, and
+   the healthcare-template inheritance (rounded cards, alternating tinted
+   bands, pill-button rhythm, hover lift) is gone. What a board does with
+   fixed pixels, a page does with clamp().
+
+   Five rules the whole layer obeys:
+   1. A claim is a full sentence at display scale. Fluid, and it steps down one
+      role on a phone rather than reflowing to reading size.
+   2. Structure is stated with a 1px hairline, never with a card.
+   3. Nothing has a radius. A board has no rounded corners and neither does a
+      page: photographs, blocks and bands are square.
+   4. Nothing moves on hover except a mark. Surfaces stay put; no shadow, ever.
+   5. Sections are separated by a rule and by air, not by a change of ground.
+      A dark band is punctuation and appears at most twice a page. */
+
+:root{ /* @kind font */
+
+  /* air — airier than the template it replaces */
+  --w-sec:clamp(88px,9.6vw,164px); /* @kind spacing */
+  --w-sec-tight:clamp(56px,6vw,96px); /* @kind spacing */
+  --w-block:clamp(28px,3vw,48px); /* @kind spacing */
+  --w-measure:64ch;
+  --w-measure-tight:52ch;
+}
+
+/* ---- rules and sections -------------------------------------------------
+   A section is bounded by a hairline at its top edge, drawn inside the shell
+   so it reads as a rule on the page and not as the edge of a container. */
+.w-sec{padding:var(--w-sec) 0}
+.w-sec-tight{padding:var(--w-sec-tight) 0}
+.w-ruled{border-top:1px solid var(--rule)}
+.w-rule{height:1px;background:var(--rule);border:0}
+.w-rule-ink{height:2px;background:var(--ink);border:0}
+.w-rule-acc{height:2px;background:var(--accent);border:0}
+
+/* ---- type roles --------------------------------------------------------- */
+.w-kicker{font-family:var(--font-mono);font-weight:500;font-size:var(--w-kicker);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);display:block;font-variant-numeric:tabular-nums}
+.w-kicker-muted{color:var(--muted)}
+.w-claim{font-family:var(--font-display);font-weight:400;font-size:var(--w-claim);line-height:1.1;letter-spacing:-.024em;max-width:22ch;text-wrap:balance}
+.w-claim-n{font-size:var(--w-claim-n);line-height:1.14;letter-spacing:-.018em;max-width:26ch}
+/* A page statement is Geist 400, not the deck's 300. The weight floor
+   (TYPESETTING.md §4 rule 4: 300 needs >= 60px on light, >= 100px on a dark
+   ground) is reachable on a 1920 board and not on a page — this clamp tops
+   out at 68px, so 300 could never qualify at any viewport. Weight 400 is the
+   role here; the statement is distinguished by size and air, as it should be. */
+.w-statement{font-family:var(--font-display);font-weight:400;font-size:var(--w-statement);line-height:1.06;letter-spacing:-.028em;max-width:24ch;text-wrap:balance}
+.w-sub{font-family:var(--font-display);font-weight:500;font-size:var(--w-sub);line-height:1.2;letter-spacing:-.012em;text-wrap:balance}
+.w-lead{font-family:var(--font-body);font-weight:400;font-size:var(--w-lead);line-height:1.5;max-width:var(--w-measure)}
+.w-body{font-family:var(--font-body);font-weight:400;font-size:var(--w-body);line-height:1.62;max-width:var(--w-measure)}
+.w-body b,.w-lead b{color:var(--ink);font-weight:600}
+.w-meta{font-family:var(--font-mono);font-weight:400;font-size:var(--w-meta);letter-spacing:.02em;color:var(--muted);font-variant-numeric:tabular-nums}
+/* Figures follow the same floor as the statement: on a board a figure is
+   190-380px and takes Geist 300, but on a page instances step it down (a
+   webinar price at 57px, a fact-panel row at 42px), which is under the
+   60px light-ground floor. Weight 400 across the web layer. */
+.w-figure{font-family:var(--font-display);font-weight:400;font-size:var(--w-figure);line-height:.92;letter-spacing:-.04em;font-variant-numeric:tabular-nums;color:var(--accent)}
+.w-figure .unit{font-size:.5em;font-weight:400;letter-spacing:-.02em;margin-left:.06em}
+.w-kicker + .w-claim,.w-kicker + .w-statement,.w-kicker + .w-sub{margin-top:clamp(14px,1.4vw,22px)}
+.w-claim + .w-lead,.w-statement + .w-lead,.w-sub + .w-body{margin-top:clamp(18px,1.8vw,28px)}
+
+/* ---- the ask -----------------------------------------------------------
+   Pills are gone. The primary ask is a square accent block, the same shape
+   as the deck's highlight run; everything else is a mono link with a mark. */
+.w-ask{display:inline-flex;align-items:center;gap:14px;min-height:60px;padding:16px 28px;background:var(--accent);color:var(--onacc);border:0;cursor:pointer;font-family:var(--font-display);font-weight:500;font-size:19px;line-height:1.2;transition:background var(--dur-fast) var(--ease)}
+.w-ask svg{flex:none;transition:transform var(--dur) var(--ease)}
+.w-ask:hover{color:var(--onacc);background:color-mix(in oklab,var(--accent) 88%,var(--ink))}
+.w-ask:hover svg{transform:translateX(4px)}
+.w-ask-ghost{background:transparent;color:var(--accent);border-bottom:2px solid var(--accent);padding:14px 0;min-height:52px}
+.w-ask-ghost:hover{background:transparent;color:var(--accent)}
+.w-link{display:inline-flex;align-items:center;gap:10px;min-height:44px;font-family:var(--font-mono);font-weight:500;font-size:var(--w-kicker);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.w-link svg{flex:none;transition:transform var(--dur) var(--ease)}
+.w-link:hover svg{transform:translateX(4px)}
+.w-link-out:hover svg{transform:translate(3px,-3px)}
+.w-actions{display:flex;flex-wrap:wrap;align-items:center;gap:20px 32px}
+
+/* ---- rows: what replaces the card --------------------------------------
+   A list of things is a stack of rows on hairlines. The row itself never
+   moves, never lifts and never gains a border colour; its mark responds. */
+.w-rows{display:grid;border-top:1px solid var(--rule)}
+.w-row{display:grid;gap:clamp(16px,2vw,40px);padding:clamp(26px,2.8vw,44px) 0;border-bottom:1px solid var(--rule);align-items:start}
+.w-row-2{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}
+.w-row-3{grid-template-columns:auto minmax(0,1fr) auto}
+.w-row-mark{flex:none;width:52px;height:52px;display:flex;align-items:center;justify-content:center;border:1px solid var(--rule);color:var(--accent);transition:border-color var(--dur) var(--ease),color var(--dur) var(--ease)}
+a.w-row:hover .w-row-mark,.w-row a:hover .w-row-mark{border-color:var(--accent)}
+.w-cols{display:grid;gap:clamp(28px,3vw,56px)}
+.w-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.w-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.w-col-ruled{border-top:2px solid var(--ink);padding-top:clamp(18px,1.8vw,26px)}
+.w-col-ruled-acc{border-top-color:var(--accent)}
+
+/* ---- photographs: square, duotoned, with a real scrim ------------------
+   Public mode is a contract on the ASSET: every photograph in assets/img is
+   pre-tinted to shadow #0F3557 / highlight #8FC9F5 at a 60% blend, audited
+   14 Sep 2026 (hue spread <= 15 degrees, median 203-208 across all eight —
+   hero-kitchen and about-food were re-tinted to meet it).
+
+   A CSS filter stack is NOT the enforcement: hue-rotate applied on top of a
+   file that is already tinted double-shifts it off the pair (it turned the
+   blue hero mauve), so the layer cannot safely "finish" a tint it cannot
+   measure. Where a document needs to guarantee the treatment for an asset it
+   does not control, it ships the deck's own SVG duotone and opts in with
+   .w-photo-duo — feComponentTransfer maps luminance onto the exact pair
+   whatever the input, and it is the same filter the boards use:
+
+     <svg width="0" height="0"><defs>
+       <filter id="w-duo" color-interpolation-filters="sRGB">
+         <feColorMatrix type="matrix" values="0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0 0 0 1 0"/>
+         <feComponentTransfer>
+           <feFuncR type="table" tableValues="0.059 0.561"/>
+           <feFuncG type="table" tableValues="0.208 0.788"/>
+           <feFuncB type="table" tableValues="0.341 0.961"/>
+         </feComponentTransfer>
+       </filter></defs></svg>
+
+   Clinical mode (talks to clinicians) is natural colour and takes neither. */
+.w-photo{position:relative;width:100%;overflow:hidden;background:var(--band)}
+.w-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.w-photo-duo img{filter:url(#w-duo)}
+.w-photo-clinical img{filter:none}
+.w-scrim{position:absolute;inset:0;background-color:rgba(15,53,87,.52);background-image:linear-gradient(180deg,rgba(15,53,87,0) 36%,rgba(15,53,87,.34))}
+.w-scrim-strong{background-color:rgba(15,53,87,.82)}
+.w-photo-cap{font-family:var(--font-mono);font-weight:400;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:12px}
+
+/* ---- bands: punctuation, at most twice a page -------------------------- */
+.w-band-dark{background:var(--surface);color:var(--ink)}
+.w-band-tint{background:var(--band)}
+
+/* ---- the scale strip: topic pages only, static in the footer ----------- */
+.w-scale{display:grid;gap:10px}
+.w-scale-hd{display:flex;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.w-scale-hd b{color:var(--accent);font-weight:500}
+.w-scale-row{display:flex;justify-content:space-between;align-items:flex-end;height:18px}
+.w-scale-row i{display:block;width:2px;height:8px;background:var(--rule)}
+.w-scale-row i.on{width:3px;height:18px;background:var(--accent)}
+.w-scale-maj{display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:13px;letter-spacing:.04em;color:var(--muted);font-variant-numeric:tabular-nums}
+
+/* ---- accordion: a rule, an open state, no shadow ---------------------- */
+.w-faq{border-top:1px solid var(--rule)}
+.w-faq details{border-bottom:1px solid var(--rule)}
+.w-faq summary{list-style:none;cursor:pointer;display:flex;gap:24px;align-items:center;justify-content:space-between;padding:clamp(20px,2vw,28px) 0;min-height:60px;font-family:var(--font-display);font-weight:500;font-size:clamp(19px,1.5vw,24px);line-height:1.3;color:var(--ink)}
+.w-faq summary::-webkit-details-marker{display:none}
+.w-faq summary:hover{color:var(--accent)}
+.w-faq details[open] summary{color:var(--accent)}
+.w-faq .w-answer{padding:0 0 clamp(24px,2.4vw,32px);color:var(--muted);max-width:var(--w-measure)}
+
+/* ---- responsive: claims step down one role, they do not reflow -------- */
+@media (max-width:1023px){.w-cols-3{grid-template-columns:repeat(2,minmax(0,1fr))}.w-row-2{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:679px){.w-cols-3,.w-cols-2{grid-template-columns:minmax(0,1fr)}.w-row-3{grid-template-columns:auto minmax(0,1fr)}.w-claim{max-width:none}}
+
+/* ── styles.css ── */
+
+/* ── tokens/components.css ── */
+/* Interaction states for the React components. Static styling is inline or in
+   tokens/web.css; hover, open and current-page states cannot be expressed
+   inline, so they live here. Names are prefixed tv- so nothing collides with
+   a consuming project's own classes.
+
+   ONE HOVER LANGUAGE, decided 14 Sep 2026: marks respond, surfaces do not.
+   An arrow slides 4px, an outward mark leaves at 45 degrees, a mark's hairline
+   takes the accent, ink goes to accent. Nothing translates, nothing scales,
+   nothing casts a shadow — on a board a surface cannot lift, so on a page it
+   does not either. */
+
+/* marks */
+.tv-more svg{transition:transform var(--dur) var(--ease)}
+a:hover .tv-more svg,.tv-more:hover svg{transform:translateX(4px)}
+.tv-more-out svg{transition:transform var(--dur) var(--ease)}
+a:hover .tv-more-out svg{transform:translate(3px,-3px)}
+
+/* rows: the mark's rule takes the accent, the row itself is still */
+.tv-topic:hover .tv-topic-mark,.tv-inst:hover .tv-inst-mark{border-color:var(--accent);color:var(--accent)}
+.tv-topic:hover .tv-topic-name,.tv-inst:hover .tv-inst-name{color:var(--accent)}
+.tv-talk:hover .tv-talk-title{color:var(--accent)}
+.tv-entry-link:hover .tv-entry-title{color:var(--accent)}
+
+/* publications */
+.tv-pub-link:hover .tv-pub-title{color:var(--accent)}
+.tv-pub-link:hover .tv-pub-go{transform:translate(3px,-3px)}
+@media (max-width:767px){.tv-pub{grid-template-columns:1fr auto!important;gap:8px 16px!important}}
+
+/* contact routes: a row on a rule, not a card */
+.tv-route:hover .tv-route-subject{color:var(--accent)}
+.tv-route:hover .tv-route-go{transform:translateX(4px)}
+@media (max-width:959px){.tv-contact{grid-template-columns:1fr!important}}
+
+/* nav: mono links on a hairline. No utility bar, no pill. */
+.tv-links{display:flex;align-items:center;gap:clamp(18px,2vw,34px)}
+.tv-links a{font-family:var(--font-mono);font-weight:500;font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding:8px 0;border-bottom:2px solid transparent;transition:color var(--dur-fast) var(--ease),border-color var(--dur-fast) var(--ease)}
+.tv-links a:hover{color:var(--accent)}
+.tv-links a[aria-current='page']{color:var(--ink);border-bottom-color:var(--accent)}
+.tv-lang{font-family:var(--font-mono);font-weight:500;font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tv-lang:hover{color:var(--accent)}
+.tv-menu-btn{display:none;cursor:pointer;align-items:center;justify-content:center;width:52px;height:52px;margin-left:auto;border:1px solid var(--rule);background:transparent;color:var(--ink);transition:border-color var(--dur-fast) var(--ease),color var(--dur-fast) var(--ease)}
+.tv-menu-btn:hover{border-color:var(--accent);color:var(--accent)}
+.tv-panel{background:var(--surface);border-bottom:1px solid var(--rule);padding:4px 0 20px}
+[data-menu='closed'] .tv-panel{display:none}
+/* The panel is the one surface that has genuinely left the page, so it is the
+   one place a strong elevation is correct. */
+[data-menu='open'] .tv-panel{display:block;position:absolute;left:0;right:0;top:100%;box-shadow:var(--lift-strong);z-index:1}
+.tv-panel-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:62px;padding:8px 0;border-bottom:1px solid var(--rule);font-family:var(--font-display);font-weight:500;font-size:21px;color:var(--ink)}
+.tv-panel-row svg{color:var(--accent);transition:transform var(--dur) var(--ease)}
+.tv-panel-row:hover{color:var(--accent)}
+.tv-panel-row:hover svg{transform:translateX(4px)}
+@media (min-width:1024px){.tv-panel{display:none}}
+@media (max-width:1023px){.tv-links,.tv-nav-ask{display:none}.tv-menu-btn{display:flex}}
+
+/* footer: four columns, mono heads, hairline above */
+.tv-connect-item{display:inline-flex;align-items:center;gap:11px;min-height:44px;color:var(--ink);font-size:18px}
+.tv-connect-item svg{color:var(--accent);flex:none}
+.tv-connect-item:hover{color:var(--accent)}
+.tv-foot-cols{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:clamp(28px,3vw,48px)}
+.tv-col-h{font-family:var(--font-mono);font-weight:500;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:20px}
+.tv-foot-cols ul{list-style:none}
+.tv-foot-cols li{margin-top:12px}
+.tv-foot-cols li:first-child{margin-top:0}
+.tv-foot-cols a{color:var(--muted);font-size:18px;line-height:1.5}
+.tv-foot-cols a:hover{color:var(--accent)}
+.tv-ig{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;margin-top:24px;border:1px solid var(--rule);color:var(--accent);background:transparent;transition:border-color var(--dur-fast) var(--ease)}
+.tv-ig:hover{border-color:var(--accent)}
+@media (max-width:1023px){.tv-foot-cols{grid-template-columns:1fr 1fr;gap:36px 32px}.tv-foot-about{grid-column:1 / -1}}
+@media (max-width:559px){.tv-foot-cols{grid-template-columns:1fr}}
+
+/* the booking facts stay in view beside a long description */
+@media (min-width:1024px){.tv-fact-panel{position:sticky;top:32px}}
+
+/* ── styles.css ── */
+
+
+/* ── tokens/fonts.css ── */
+
+/* ── tokens/colors.css ── */
+
+/* ── tokens/typography.css ── */
+
+/* ── tokens/spacing.css ── */
+
+/* ── tokens/motion.css ── */
+
+/* ── tokens/dataviz.css ── */
+
+/* ── tokens/signal.css ── */
+
+/* ── tokens/wrap.css ── */
+
+/* ── tokens/base.css ── */
+
+/* ── tokens/web.css ── */
+
+/* ── tokens/components.css ── */
+

@@ -1,4 +1,4 @@
-# Research: what the best presentations and reels do, and where ours stands
+# Research: what the best presentations and reels do — and where ours stands
 
 Working note, Sept 2026. Sources: observed Apple keynote conventions (Apple does
 not publish its slide files; what exists is analysis of the keynotes and
@@ -12,12 +12,12 @@ style" is reverse-engineered from the broadcasts. The observed conventions
 are consistent enough to act on: one idea per slide, a sentence where others
 put a paragraph, a number so large it needs no chart, a single accent used
 once per slide, and roughly 60% of every slide left empty. Former Apple
-staff add: **bullet points are the last resort**: if the points are
+staff add: **bullet points are the last resort** — if the points are
 sequential, split the slide; if they are additive, draw the relationship.
 
 ## The five findings that matter for her
 
-### 1. Sentence headlines beat topic headlines: measurably
+### 1. Sentence headlines beat topic headlines — measurably
 Alley's controlled studies: two audiences heard the *same words* with
 different slides. The group shown a **sentence-assertion headline supported
 by visual evidence** understood and remembered significantly more (p < .01)
@@ -39,7 +39,7 @@ largest family (13 of 72) and the palliative deck leans on it. The source
 README already warns "never run three STACKs together"; the palliative deck
 runs slides 12–13 and 15–16 as consecutive dense STACKs.
 
-### 3. Picture superiority: when the picture is the evidence
+### 3. Picture superiority — when the picture is the evidence
 Recall for pictures beats words once more than ~30 seconds has passed, and
 the effect is strongest when the picture shows a concrete thing and text
 reinforces the same message. Reynolds: real photographs, never clip art.
@@ -66,7 +66,7 @@ depth is available without slowing the narrative.
 (29). **Gap:** no backup section; the question lists (26, 27) and the
 mechanism detail (15 right column) are backup material sitting in the core.
 
-## Reels: what the 2026 guidance agrees on
+## Reels — what the 2026 guidance agrees on
 - **The hook is the first 0.5–3 seconds**, and it must work with sound off
   (~40% of mobile viewing is muted). Frame one carries a text hook of
   **≤7 words**, large and high-contrast.
@@ -79,7 +79,7 @@ mechanism detail (15 right column) are backup material sitting in the core.
   change. Static frames lose retention.
 - **Lead with the payoff, not the setup.** No intro, no logo animation, no
   "today I'll talk about". Context goes in the caption.
-- **Say, show and write the keyword** in the first 3 seconds: Instagram
+- **Say, show and write the keyword** in the first 3 seconds — Instagram
   transcribes audio; the on-screen text and the first caption line should
   repeat the topic word.
 - **Length**: 15–90s for reach; 21–34s is a productive zone for one hook,
@@ -98,7 +98,7 @@ myth/fact frame is a natural pattern-interrupt.
 3. **No caption-first-line rule** to mirror the on-screen keyword.
 4. **The CTA frame (R8)** competes with Instagram's own follow/profile UI at
    the bottom; the ask belongs mid-frame.
-5. **No cover-frame rule for the 3:4 profile grid**: R1 has a 4:5 guide but
+5. **No cover-frame rule for the 3:4 profile grid** — R1 has a 4:5 guide but
    the grid is now 3:4.
 
 ## Proposed improvements, in priority order
@@ -113,11 +113,11 @@ myth/fact frame is a natural pattern-interrupt.
 3. **Photograph every section opener** in the case study, from the Clinical
    library (nurse-doctor-bedside for O, doctor-consult-desk for A,
    gloved-hands-chart for P).
-4. **One number, one slide**: give the 30-day PEG mortality its own Big
+4. **One number, one slide** — give the 30-day PEG mortality its own Big
    number slide before the risk stack.
 5. **Rhythm rule as a lint**: flag three consecutive STACK/list layouts.
 6. **Reference footer** on every evidence slide (author, year, journal in
-   mono, bottom left): the layout exists (Evidence, 20); apply it.
+   mono, bottom left) — the layout exists (Evidence, 20); apply it.
 
 **Reels**
 7. **Hook budget**: ≤7 words / ≤42 chars; enforce like the claim measure.

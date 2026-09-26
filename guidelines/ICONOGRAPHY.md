@@ -1,13 +1,13 @@
 # Iconography
 
-## Her own set: `Icon`
+## Her own set — `Icon`
 17 marks: eight topics (prehled, medicina, zenske-zdravi, dlouhovekost,
 spanek, fitness, vyziva, lifestyle) and nine interface glyphs, copied
 verbatim from `tv-web`'s `Icon.astro`. One 24px grid, **1.5px stroke**, round
 caps and joins, `currentColor`. A topic mark *means* that topic, so it is
 never borrowed for decoration.
 
-## The companion set: Lucide
+## The companion set — Lucide
 A clinical talk needs pictures of things: a stethoscope, a pill, a moon.
 **Lucide** fills that gap, and it is the right pack rather than a convenient
 one: same **24px grid, round caps and joins**, so at `stroke-width: 1.5` its
@@ -18,7 +18,7 @@ commercial, no attribution), ~1,600 icons.
 Healthicons is CC0 and purpose-built for health programmes, with far deeper
 clinical coverage. It is **solid filled**, and a filled glyph beside her
 1.5px strokes reads as a second voice on the slide. If a concept genuinely
-has no line equivalent, a specific device, a WHO cadre, take that one icon
+has no line equivalent — a specific device, a WHO cadre — take that one icon
 from Healthicons and note the exception; never mix the sets on one board.
 
 ### How to use it
@@ -47,7 +47,7 @@ glyph. Shown on the `Clinical icons` card.
 
 ## Rules
 - An icon never replaces a number or a claim. It labels; it does not argue.
-- One icon per idea. Six icons with six captions is a list in costume: use
+- One icon per idea. Six icons with six captions is a list in costume — use
   the list.
 - **Never draw a new glyph by hand.** If Lucide lacks the concept, use a
   photograph from the Clinical library or state it in words.

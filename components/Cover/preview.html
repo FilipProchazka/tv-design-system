@@ -1,0 +1,57 @@
+<!-- @dsCard height=336 -->
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><style>
+html,body{margin:0;background:var(--surface)}
+.cv{position:relative;width:960px;height:336px;overflow:hidden;background:var(--surface)}
+.cv svg{position:absolute;left:0;top:0}
+.deep{fill:var(--blue-dark)}
+[data-theme$="dark"] .deep{fill:var(--blue-dark-rule)}
+.brand{fill:var(--blue-accent)}
+.petrol{fill:var(--petrol-accent)}
+.violet{fill:var(--violet-accent)}
+.tintb{fill:var(--blue-tint)}
+.tick{fill:var(--paper)}
+.name{position:absolute;left:44px;top:156px;white-space:nowrap;margin:0;font-family:var(--font-display);font-weight:500;font-size:64px;line-height:.95;letter-spacing:-0.024em;color:var(--ink)}
+.tag{position:absolute;left:44px;top:292px;max-width:872px;margin:0;font-family:var(--font-body);font-size:14px;line-height:1.5;color:var(--muted)}
+</style></head><body><div class="cv">
+  <!--
+  blocks: blue-dark 0-360, blue-accent 360-672, petrol-accent 672-792, violet-accent 792-864, blue-tint 864-960, all 112 tall, radius 0 (nothing on the web has a radius)
+  arrangement: top-band skeleton, one strip of unequal bands weighted to blue, her chrome; the name is too wide for the 440px zone at 64px
+  pattern: the deck footer scale, 26 ticks cut out in paper, 17 on (40 tall) and 9 off (16 tall), because the tick scale and the evidence ladder are the one motif every surface of hers repeats
+  scales: tick pitch s-24, tick width 3 (the Grade tick), baseline s-24 above the band edge, name inset s-44, tagline gap s-14
+  -->
+  <svg width="960" height="112" viewBox="0 0 960 112" aria-hidden="true">
+    <rect class="deep" x="0" y="0" width="360" height="112"/>
+    <rect class="brand" x="360" y="0" width="312" height="112"/>
+    <rect class="petrol" x="672" y="0" width="120" height="112"/>
+    <rect class="violet" x="792" y="0" width="72" height="112"/>
+    <rect class="tintb" x="864" y="0" width="96" height="112"/>
+    <rect class="tick" x="24" y="48" width="3" height="40"/>
+    <rect class="tick" x="48" y="48" width="3" height="40"/>
+    <rect class="tick" x="72" y="48" width="3" height="40"/>
+    <rect class="tick" x="96" y="48" width="3" height="40"/>
+    <rect class="tick" x="120" y="48" width="3" height="40"/>
+    <rect class="tick" x="144" y="48" width="3" height="40"/>
+    <rect class="tick" x="168" y="48" width="3" height="40"/>
+    <rect class="tick" x="192" y="48" width="3" height="40"/>
+    <rect class="tick" x="216" y="48" width="3" height="40"/>
+    <rect class="tick" x="240" y="48" width="3" height="40"/>
+    <rect class="tick" x="264" y="48" width="3" height="40"/>
+    <rect class="tick" x="288" y="48" width="3" height="40"/>
+    <rect class="tick" x="312" y="48" width="3" height="40"/>
+    <rect class="tick" x="336" y="48" width="3" height="40"/>
+    <rect class="tick" x="360" y="48" width="3" height="40"/>
+    <rect class="tick" x="384" y="48" width="3" height="40"/>
+    <rect class="tick" x="408" y="48" width="3" height="40"/>
+    <rect class="tick" x="432" y="72" width="3" height="16"/>
+    <rect class="tick" x="456" y="72" width="3" height="16"/>
+    <rect class="tick" x="480" y="72" width="3" height="16"/>
+    <rect class="tick" x="504" y="72" width="3" height="16"/>
+    <rect class="tick" x="528" y="72" width="3" height="16"/>
+    <rect class="tick" x="552" y="72" width="3" height="16"/>
+    <rect class="tick" x="576" y="72" width="3" height="16"/>
+    <rect class="tick" x="600" y="72" width="3" height="16"/>
+    <rect class="tick" x="624" y="72" width="3" height="16"/>
+  </svg>
+  <p class="name">Tereza Vágnerová<br>Design System</p>
+  <p class="tag">Everything she puts her name to reads as one hand and states its evidence.</p>
+</div></body></html>

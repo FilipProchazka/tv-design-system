@@ -1,4 +1,4 @@
-# UI kit: the website
+# UI kit — the website
 
 The site rebuilt on the deck's grammar (0.8.0). It composes the design
 system's own components; nothing is re-implemented here.
@@ -11,13 +11,13 @@ system's own components; nothing is re-implemented here.
    rules; sections are separated by a rule and by air, not by a change of
    ground.
 3. **Nothing has a radius.** A board has no rounded corners and neither does a
-   page: photographs, blocks and bands are square.
+   page — photographs, blocks and bands are square.
 4. **Nothing moves on hover except a mark.** The arrow slides 4px, a mark's
    hairline takes the accent, ink goes to accent. No lift, no shadow, ever.
 5. **A dark band is punctuation**, at most twice a page.
 
 What this replaced: the composition borrowed from the `astra-template-plum`
-healthcare template: rounded cards on hairlines, alternating tinted bands,
+healthcare template — rounded cards on hairlines, alternating tinted bands,
 the pill-button rhythm and the hover lift. The palette, the voice and the
 sourcing rules were always hers and did not change.
 
