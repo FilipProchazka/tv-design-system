@@ -1,0 +1,33 @@
+---
+// src/pages/handout.astro — add this file to tv-web.
+// Builds to /handout/ because astro.config.mjs sets build.format: 'directory',
+// so the QR on the deck can point at https://terezavagnerova.cz/handout for good.
+// Put the PDF at public/handout.pdf and replace it whenever the talk changes:
+// the URL, and therefore the printed QR, never has to change again.
+import Base from '../layouts/Base.astro';
+const title = 'Co si odnést domů';
+const description = 'Shrnutí přednášky Women\'s Health: vitalita v kontextu longevity medicíny.';
+---
+
+<Base title={title} description={description}>
+  <section class="w-sec">
+    <div class="w-shell">
+      <p class="kicker">Ženské zdraví · Dlouhověkost</p>
+      <h1 class="h1">Co si odnést domů</h1>
+      <p class="lead">
+        Shrnutí přednášky do sedmi bloků: porce podle ruky, cíle pro bílkoviny,
+        suplementy seřazené podle jistoty důkazů, Super Shake, co si nechat
+        změřit a s čím jít k lékaři.
+      </p>
+
+      <p class="w-actions">
+        <a class="pill" href="/handout.pdf" download>Stáhnout PDF</a>
+      </p>
+
+      <p class="small">
+        Materiál je vzdělávací, nenahrazuje vyšetření ani individuální
+        doporučení. Aktualizováno po každé přednášce.
+      </p>
+    </div>
+  </section>
+</Base>

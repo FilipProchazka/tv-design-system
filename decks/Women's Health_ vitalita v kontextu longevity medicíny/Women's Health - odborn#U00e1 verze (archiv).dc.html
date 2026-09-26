@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/fonts.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/colors.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/typography.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/spacing.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/motion.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/dataviz.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/signal.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/wrap.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/base.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/components.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/styles.css">
+<script src="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/_ds_bundle.js"></script>
+<script>document.documentElement.lang='cs';</script>
+<style>
+html,body{margin:0;background:#0B0810}
+a{color:var(--accent)}a:hover{color:var(--ink)}
+.slide{background:var(--surface);color:var(--ink);overflow:hidden;-webkit-font-smoothing:antialiased}
+.a{position:absolute}
+.k{font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}
+.st{font-family:var(--font-display);font-weight:300;font-size:102px;line-height:1.06;letter-spacing:-.028em}
+.st.long{font-size:84px;line-height:1.08}
+.cl{font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1400px}
+.cl.n{font-size:58px;line-height:1.14;letter-spacing:-.018em}
+.cl.long{font-size:60px;line-height:1.14;letter-spacing:-.018em}
+.sb{font-family:var(--font-display);font-weight:400;font-size:34px;line-height:1.22}
+.ld{font-family:var(--font-body);font-size:30px;line-height:1.5;text-wrap:pretty}
+.ld b{font-weight:500;color:var(--ink)}
+.bd{font-family:var(--font-body);font-size:26px;line-height:1.56;color:var(--muted);text-wrap:pretty}
+.bd b{color:var(--ink);font-weight:500}
+.bd i{font-style:italic}
+.zone{left:120px;top:352px;width:1680px;height:576px;display:flex;flex-direction:column;justify-content:center}
+.li{display:grid;gap:18px;list-style:none;margin:0;padding:0}
+.li li{display:block;position:relative;padding-left:32px}
+.li li::before{content:"";position:absolute;left:0;top:14px;width:12px;height:12px;border-radius:50%;background:var(--accent)}
+.num{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.fig{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-weight:500;letter-spacing:-.03em;color:var(--accent)}
+.pg{right:120px;bottom:88px;font-family:var(--font-mono);font-size:19px;letter-spacing:.06em;color:var(--muted)}
+.ref{left:120px;bottom:88px;font-family:var(--font-mono);font-size:19px;line-height:1.55;letter-spacing:.04em;color:var(--muted);width:1300px;white-space:normal;text-wrap:pretty}
+.img{position:absolute;left:0;top:0;width:1920px;height:1080px;object-fit:cover}
+.split-img{position:absolute;left:1200px;top:0;width:720px;height:1080px;object-fit:cover}
+.card{background:var(--surface-card);border:1px solid var(--rule);border-radius:16px;padding:44px}
+.axis{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:21px;color:var(--muted)}
+.swatch{flex:none;width:34px;height:10px;border-radius:2px}
+.tm{display:inline-block;width:15px;height:15px;margin-right:14px;position:relative;top:1px}
+.tm.sym{background:var(--accent)}
+.tm.prev{border:3px solid var(--accent);border-radius:50%}
+.tm.tool{border:2px dashed var(--accent);border-radius:4px}
+.ev{position:absolute;right:120px;top:126px}
+.slide.dark .ev{--cert-scrim:rgba(64,18,82,.95);right:104px;top:112px}
+.evc{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
+.evc>div{padding-right:52px;border-right:1px solid var(--rule)}
+.evc>div+div{padding-left:52px}
+.evc>div:last-child{border-right:none;padding-right:0}
+.evc .lab{font-family:var(--font-mono);font-size:18px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.evc>div:nth-child(2) .lab{color:var(--accent)}
+.evc .txt{font-family:var(--font-body);font-size:24px;line-height:1.5;color:var(--muted);margin-top:22px;text-wrap:pretty}
+.evc .txt b{color:var(--ink);font-weight:500}
+</style>
+</helmet>
+
+<x-import component-from-global-scope="deck-stage" from="./deck-stage.js" width="1920" height="1080" hint-size="100%,100%">
+
+<section class="slide t-violet dark" data-label="Titul" data-screen-label="01" data-speaker-notes="Přivítání. Rámec dneška: nebudeme mluvit o menopauze jako o hormonální krizi. Budeme mluvit o středním věku jako o období, kdy se zdravotní trajektorie stávají viditelnými a zároveň ovlivnitelnými. Postup: co se děje, co je medicínsky důležité, co skutečně funguje, co můžete začít zítra. Otázky na konci.">
+<img class="img" src="assets/duo/photo-midlife.jpg" alt="Žena ve středním věku opřená o zeď" style="object-position:60% 30%">
+<div class="a" style="inset:0;background:linear-gradient(99deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.92) 36%,rgba(64,18,82,.58) 64%,rgba(64,18,82,.14) 100%)"></div>
+<img src="assets/sig-violet.png" class="a" alt="Monogram Tv" style="left:120px;top:96px;width:196px;filter:brightness(0) invert(1)">
+<div class="a" style="left:120px;bottom:104px;width:1360px">
+<div class="k">Ženské zdraví · Dlouhověkost</div>
+<div class="st" style="margin-top:40px;font-size:92px">Women's Health: vitalita v&nbsp;kontextu longevity medicíny</div>
+<div class="sb" style="margin-top:28px;font-size:36px;color:var(--muted)">Střední věk jako okno prevence, ne jako hormonální krize</div>
+<div class="ld" style="margin-top:40px;font-weight:500;font-size:28px">Mgr. Ing. Tereza Vágnerová, Ph.D.</div>
+</div>
+</section>
+
+<section class="slide t-violet" data-label="Čtyři otázky" data-screen-label="02" data-speaker-notes="Slibte publiku přesně tohle a na konci se k tomu vraťte. Čtyři otázky jsou zároveň struktura přednášky. Nejdůležitější je čtvrtá: bez ní je to přednáška o biologii, ne o zdraví.">
+<div class="a k" style="left:120px;top:140px">Co si dnes odnesete</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Čtyři otázky. Na každou odpověď s&nbsp;uvedenou jistotou.</div>
+<div class="a" style="left:120px;top:520px;width:1680px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:72px">
+<div><div class="fig" style="font-size:56px">01</div><div class="sb" style="margin-top:22px;font-size:32px">Co se děje?</div><div class="bd" style="margin-top:16px;font-size:23px">Fyziologie přechodu, bez dramatizace.</div></div>
+<div><div class="fig" style="font-size:56px">02</div><div class="sb" style="margin-top:22px;font-size:32px">Co je medicínsky důležité?</div><div class="bd" style="margin-top:16px;font-size:23px">Kde se mění dlouhodobé riziko.</div></div>
+<div><div class="fig" style="font-size:56px">03</div><div class="sb" style="margin-top:22px;font-size:32px">Co skutečně funguje?</div><div class="bd" style="margin-top:16px;font-size:23px">A co se prodává, ale nefunguje.</div></div>
+<div><div class="fig" style="font-size:56px">04</div><div class="sb" style="margin-top:22px;font-size:32px">Co můžu začít zítra?</div><div class="bd" style="margin-top:16px;font-size:23px">Nástroje, jasně odlišené od&nbsp;doporučení.</div></div>
+</div>
+<div class="a pg">02</div>
+</section>
+
+<section class="slide t-violet" data-label="Tři různé věci" data-screen-label="03" data-speaker-notes="Tenhle slide je klíč k celé přednášce. Většina zmatku ve veřejné debatě o menopauze vzniká tím, že se tyto tři věci míchají. Hormonální léčba je léčba příznaků, ne prevence chronických nemocí. Pohyb je prevence, ale na návaly horka podle přehledů nefunguje. Porce podle ruky je koučovací nástroj, ne doporučený postup. Tvary u každého nadpisu se budou opakovat v celé přednášce, takže poznáte, ve které ze tří kategorií právě jsme.">
+<div class="a k" style="left:120px;top:140px">Rámec</div>
+<div class="a cl long" style="left:120px;top:190px;width:1560px">Tři věci, které se v&nbsp;debatě o&nbsp;menopauze míchají.</div>
+<div class="a" style="left:120px;top:500px;width:1680px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:56px">
+<div class="card">
+<div class="k"><span class="tm sym"></span>Léčba příznaků</div>
+<div class="sb" style="margin-top:26px;font-size:32px">Zmírnit to, co teď obtěžuje</div>
+<div class="bd" style="margin-top:20px;font-size:23px">Návaly, spánek, vaginální suchost, nálada. Cílem je kvalita života teď.</div>
+</div>
+<div class="card">
+<div class="k"><span class="tm prev"></span>Prevence nemocí</div>
+<div class="sb" style="margin-top:26px;font-size:32px">Ovlivnit riziko na&nbsp;dalších 30&nbsp;let</div>
+<div class="bd" style="margin-top:20px;font-size:23px">Srdce, metabolismus, kost a&nbsp;sval, mozek. Cílem jsou roky ve&nbsp;zdraví.</div>
+</div>
+<div class="card">
+<div class="k"><span class="tm tool"></span>Nástroje chování</div>
+<div class="sb" style="margin-top:26px;font-size:32px">Jak to vůbec zavést</div>
+<div class="bd" style="margin-top:20px;font-size:23px">Koučovací pomůcky. Pomáhají s&nbsp;realizací, samy nejsou léčbou ani doporučením.</div>
+</div>
+</div>
+<div class="a pg">03</div>
+</section>
+
+<section class="slide t-violet" data-label="Jak číst jistotu" data-screen-label="04" data-speaker-notes="Tohle je moje pojistka proti tomu, abych všechno tvrdila stejně silně. Značka je v pravém horním rohu každého slidu. A znamená doporučený postup nebo vysoká jistota. B střední. C vznikající nebo nejisté, tedy zajímavé, ale nic, na čem bych stavěla rozhodnutí. P vůbec není důkaz, je to praktický nástroj. Když na slidu chybí značka, jde o rámec nebo o definici, ne o tvrzení.">
+<div class="a k" style="left:120px;top:140px">Rámec</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Každé tvrzení dnes nese svou míru jistoty.</div>
+<div class="a" style="left:120px;top:470px;width:1680px;display:grid;gap:40px">
+<div style="display:grid;grid-template-columns:96px 460px 1fr;gap:44px;align-items:center;border-bottom:1px solid var(--rule);padding-bottom:34px">
+<div class="ev tv-cert tv-cert-a" style="position:static"><div class="tv-cert-mark">A</div></div>
+<div class="sb" style="font-size:30px">Doporučený postup</div>
+<div class="bd" style="font-size:23px">Shoda guidelines nebo vysoká jistota důkazů. Podle tohoto se rozhoduje.</div>
+</div>
+<div style="display:grid;grid-template-columns:96px 460px 1fr;gap:44px;align-items:center;border-bottom:1px solid var(--rule);padding-bottom:34px">
+<div class="ev tv-cert tv-cert-b" style="position:static"><div class="tv-cert-mark">B</div></div>
+<div class="sb" style="font-size:30px">Přiměřená jistota</div>
+<div class="bd" style="font-size:23px">Konzistentní data, ale slabší design nebo menší efekt. Rozumný postup.</div>
+</div>
+<div style="display:grid;grid-template-columns:96px 460px 1fr;gap:44px;align-items:center;border-bottom:1px solid var(--rule);padding-bottom:34px">
+<div class="ev tv-cert tv-cert-c" style="position:static"><div class="tv-cert-mark">C</div></div>
+<div class="sb" style="font-size:30px;color:var(--muted)">Vznikající, nejisté</div>
+<div class="bd" style="font-size:23px">Zajímavé, ale nestavte na&nbsp;tom rozhodnutí. Data se mohou obrátit.</div>
+</div>
+<div style="display:grid;grid-template-columns:96px 460px 1fr;gap:44px;align-items:center">
+<div class="ev tv-cert tv-cert-p" style="position:static"><div class="tv-cert-mark">P</div></div>
+<div class="sb" style="font-size:30px;font-style:italic">Praktický nástroj</div>
+<div class="bd" style="font-size:23px">Koučovací pomůcka. Není to důkaz ani zdravotnické doporučení.</div>
+</div>
+</div>
+<div class="a pg">04</div>
+</section>
+
+<section class="slide t-violet dark" data-label="Část 1 · Co se děje" data-screen-label="05" data-speaker-notes="Přechod do první části. Klíčová věta: trajektorie se ve středním věku nezakládá, ona se zviditelní. Rizikový profil se ve čtyřicátých letech začíná měřitelně rozbíhat a právě proto je to nejlepší období, kdy zasáhnout.">
+<img class="img" src="assets/duo/photo-walk.jpg" alt="Žena jde lesní cestou" style="object-position:50% 45%">
+<div class="a" style="inset:0;background:linear-gradient(90deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.91) 48%,rgba(64,18,82,.42) 80%,rgba(64,18,82,.14) 100%)"></div>
+<div class="a k" style="left:120px;top:140px">Část první · Co se děje</div>
+<div class="a zone" style="width:1340px">
+<div class="st">Střední věk trajektorie nezakládá. Zviditelňuje je.</div>
+<div class="ld" style="margin-top:44px;color:var(--muted);max-width:1200px">A&nbsp;to, co je vidět, se dá ovlivnit. Proto je tohle období prevenční okno, ne porucha.</div>
+</div>
+<div class="a pg">05</div>
+</section>
+
+<section class="slide t-violet" data-label="Přechod je proces" data-screen-label="06" data-speaker-notes="Fáze podle stagingu: pozdní reprodukční období, kdy se cyklus ještě jeví pravidelný, ale mění se jeho délka a kvalita luteální fáze. Časná perimenopauza, definovaná změnou délky cyklu o 7 a více dní mezi po sobě jdoucími cykly. Pozdní perimenopauza, tedy interval bez menstruace 60 a více dní. Menopauza je retrospektivní diagnóza, 12 měsíců po poslední menstruaci. Postmenopauza je zbytek života. Pointa: pacientka přichází obvykle v časné perimenopauze a v tu dobu ještě neví, že v ní je.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Staging</div>
+<div class="a cl" style="left:120px;top:190px;width:1460px">Menopauza je jeden den. Přechod je několik let.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Staging podle klinických kritérií</div></div>
+<div class="a" style="left:120px;top:480px;width:1680px">
+<div style="display:flex;gap:8px;align-items:flex-end;height:124px">
+<div style="width:26%;height:80px;border-radius:6px;background:var(--chart-series-1-a25);display:flex;align-items:center;padding-left:26px"><span class="k" style="font-size:17px;color:var(--violet-ink)">Pozdní reprodukční</span></div>
+<div style="width:17%;height:104px;border-radius:6px;background:var(--chart-series-1-a50);display:flex;align-items:center;padding-left:26px"><span class="k" style="font-size:17px;color:var(--violet-ink)">Časná peri</span></div>
+<div style="width:11%;height:124px;border-radius:6px;background:var(--accent);display:flex;align-items:center;padding-left:22px"><span class="k" style="font-size:17px;color:#FFFFFF">Pozdní peri</span></div>
+<div style="width:46%;height:80px;border-radius:6px;background:var(--chart-series-1-a25);display:flex;align-items:center;padding-left:26px"><span class="k" style="font-size:17px;color:var(--violet-ink)">Postmenopauza</span></div>
+</div>
+<div style="display:grid;grid-template-columns:26% 17% 11% 46%;margin-top:18px;border-top:1px solid var(--rule);padding-top:24px;gap:0">
+<div class="bd" style="font-size:22px;padding-right:40px">Cyklus působí pravidelně, mění se ale jeho délka.</div>
+<div class="bd" style="font-size:22px;padding-right:40px">Změna délky cyklu o&nbsp;<b>7 a&nbsp;více dní</b>.</div>
+<div class="bd" style="font-size:22px;padding-right:40px">Pauza <b>60 a&nbsp;více dní</b>.</div>
+<div class="bd" style="font-size:22px">Menopauza je diagnóza zpětná: <b>12&nbsp;měsíců</b> po&nbsp;poslední menstruaci.</div>
+</div>
+</div>
+<div class="a ref">Kritéria stagingu dle ESE Clinical Practice Guideline 2025 a&nbsp;NICE NG23, aktualizace 4/2026</div>
+<div class="a pg">06</div>
+</section>
+
+<section class="slide t-violet" data-label="Čísla přechodu" data-screen-label="07" data-speaker-notes="Perimenopauza začíná přibližně ve 47 letech a trvá 4,5 až 8,5 roku. Medián menopauzy je 51,4 let, běžné rozmezí 45 až 55. Menopauza mezi 40 a 45 rokem je časná menopauza, pod 40 let primární ovariální insuficience. Obojí je samostatná indikace k hormonální léčbě, právě kvůli dlouhodobému riziku pro kost, srdce a kognici.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Časování</div>
+<div class="a cl" style="left:120px;top:190px;width:1460px">Kdy to začíná a&nbsp;jak dlouho to trvá.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Kohortová data, široký rozptyl</div></div>
+<div class="a" style="left:120px;top:480px;width:1680px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0">
+<div style="padding-right:72px;border-right:1px solid var(--rule)">
+<div class="fig" style="font-size:104px;line-height:1">~47 let</div>
+<div class="k" style="margin-top:22px;color:var(--muted)">začátek perimenopauzy</div>
+<div class="bd" style="margin-top:24px;font-size:23px">První bývá změna délky cyklu, ne návaly.</div>
+</div>
+<div style="padding:0 72px;border-right:1px solid var(--rule)">
+<div class="fig" style="font-size:104px;line-height:1">4,5–8,5</div>
+<div class="k" style="margin-top:22px;color:var(--muted)">roku trvá přechod</div>
+<div class="bd" style="margin-top:24px;font-size:23px">Nejobtížnější je kolísání, ne samotný pokles.</div>
+</div>
+<div style="padding-left:72px">
+<div class="fig" style="font-size:104px;line-height:1">51,4</div>
+<div class="k" style="margin-top:22px;color:var(--muted)">medián menopauzy (let), běžně 45&ndash;55</div>
+<div class="bd" style="margin-top:24px;font-size:23px">Pod 45&nbsp;let časná menopauza, pod 40&nbsp;let ovariální insuficience.</div>
+</div>
+</div>
+<div class="a ref">Časná menopauza a&nbsp;primární ovariální insuficience jsou samostatnou indikací k&nbsp;léčbě · ESE Clinical Practice Guideline 2025</div>
+<div class="a pg">07</div>
+</section>
+
+<section class="slide t-violet" data-label="Třetina života" data-screen-label="08" data-speaker-notes="Prostá aritmetika, ale publikum ji zpravidla nikdy neslyšelo. Medián menopauzy 51,4 let, naděje dožití žen v Česku 82,0 let podle Eurostatu. To je asi 30 let života po menopauze, tedy více než třetina. Zdravá délka života žen v Česku je přitom 63,4 roku, rozdíl 18,6 roku je život s omezením. O to se dnes hraje: ne o přidané roky, ale o roky ve zdraví.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Proč teď</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Po&nbsp;menopauze žijete víc než třetinu života.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Populační data, Eurostat</div></div>
+<div class="a" style="left:120px;top:392px;width:1680px;display:grid;grid-template-columns:max-content minmax(0,1fr);column-gap:48px;align-items:baseline">
+<div class="fig" style="font-size:152px;line-height:.9">~30&nbsp;let</div>
+<div class="k" style="color:var(--muted);padding-bottom:18px">života po&nbsp;menopauze</div>
+</div>
+<div class="a" style="left:120px;top:628px;width:1680px">
+<div style="position:relative;height:38px">
+<div class="k" style="position:absolute;left:62.7%;top:0;transform:translateX(-50%);font-size:17px;color:var(--muted);white-space:nowrap">menopauza 51,4</div>
+</div>
+<div style="position:relative;display:flex;height:104px;border-radius:6px;overflow:hidden">
+<div style="width:77.3%;background:var(--chart-series-1-a25);display:flex;align-items:center;padding-left:30px"><span class="k" style="font-size:18px;color:var(--violet-ink)">63,4&nbsp;roku ve&nbsp;zdraví</span></div>
+<div style="width:22.7%;background:var(--accent);display:flex;align-items:center;padding-left:26px"><span class="k" style="font-size:18px;color:#FFFFFF">18,6&nbsp;roku s&nbsp;omezením</span></div>
+<div style="position:absolute;left:62.7%;top:-12px;bottom:-12px;width:2px;background:var(--ink)"></div>
+</div>
+<div class="bd" style="margin-top:30px">Naděje dožití žen v&nbsp;ČR je <b>82,0&nbsp;roku</b>. O&nbsp;ty roky s&nbsp;omezením se hraje: prevence je nemá odložit, ale <b>zkrátit</b>.</div>
+</div>
+<div class="a ref">Eurostat 2018, Czechia: ženy 82,0 roku naděje dožití, 63,4 roku healthy life years at birth · medián menopauzy 51,4 roku</div>
+<div class="a pg">08</div>
+</section>
+
+<section class="slide t-violet" data-label="Z rytmu do kolísání" data-screen-label="09" data-speaker-notes="Vlevo premenopauzální cyklus: estrogen roste k ovulačnímu vrcholu, progesteron stoupá po ovulaci a drží se do menstruace. Předvídatelný vzorec, na který se dá plánovat zátěž i regenerace. Vpravo perimenopauza: estradiol kolísá nepravidelně, v části cyklů chybí ovulace, takže chybí i progesteronová fáze. FSH stoupá, ale kolísá také, proto jedno laboratorní vyšetření hormonů perimenopauzu nepotvrdí ani nevyloučí. Diagnóza je klinická. Právě nepředvídatelnost, ne nízká hladina, vysvětluje většinu obtíží v tomto období.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Fyziologie</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Problémem není nízký estrogen. Problémem je nepředvídatelnost.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Longitudinální hormonální data</div></div>
+<div class="a" style="left:120px;top:450px;width:1680px;display:grid;grid-template-columns:1fr 1fr;gap:80px">
+<div>
+<div class="k" style="color:var(--muted)">Reprodukční období</div>
+<svg viewBox="0 0 760 260" width="760" height="260" role="img" aria-label="Pravidelné křivky estrogenu a progesteronu v premenopauzálním cyklu" style="margin-top:20px">
+<line x1="20" y1="230" x2="740" y2="230" stroke="var(--chart-axis)" stroke-width="1"></line>
+<path d="M20 210 C 120 200 220 120 340 40 C 400 90 430 150 470 160 C 560 140 640 170 740 216" fill="none" stroke="var(--accent)" stroke-width="5" stroke-linecap="round"></path>
+<path d="M20 224 C 160 222 300 220 400 214 C 480 150 540 70 600 66 C 660 90 700 180 740 218" fill="none" stroke="var(--data-sand)" stroke-width="5" stroke-linecap="round"></path>
+</svg>
+<div class="bd" style="margin-top:24px;font-size:23px">Vzorec se opakuje. Dá se na&nbsp;něj plánovat zátěž i&nbsp;regenerace.</div>
+</div>
+<div>
+<div class="k" style="color:var(--muted)">Perimenopauza</div>
+<svg viewBox="0 0 760 260" width="760" height="260" role="img" aria-label="Nepravidelně kolísající estradiol v perimenopauze s chybějící progesteronovou fází" style="margin-top:20px">
+<line x1="20" y1="230" x2="740" y2="230" stroke="var(--chart-axis)" stroke-width="1"></line>
+<path d="M20 150 C 70 40 110 30 150 110 C 190 200 230 210 270 150 C 310 80 350 24 400 60 C 450 100 470 200 520 206 C 570 212 600 120 650 96 C 700 74 720 190 740 200" fill="none" stroke="var(--accent)" stroke-width="5" stroke-linecap="round"></path>
+<path d="M20 226 C 200 224 380 222 560 224 C 640 224 700 226 740 226" fill="none" stroke="var(--data-sand)" stroke-width="5" stroke-linecap="round" stroke-dasharray="14 12"></path>
+</svg>
+<div class="bd" style="margin-top:24px;font-size:23px">Část cyklů je bez ovulace, takže <b>chybí progesteronová fáze</b>. Vzorec se neopakuje.</div>
+</div>
+</div>
+<div class="a ref"><span class="swatch" style="display:inline-block;background:var(--accent);vertical-align:2px"></span> estradiol &nbsp;·&nbsp; <span class="swatch" style="display:inline-block;background:var(--data-sand);vertical-align:2px"></span> progesteron &nbsp;·&nbsp; jedno vyšetření hormonů perimenopauzu nepotvrdí ani nevyloučí, diagnóza je klinická</div>
+<div class="a pg">09</div>
+</section>
+
+<section class="slide t-violet dark" data-label="Co je časté" data-screen-label="10" data-speaker-notes="Vazomotorické symptomy, tedy návaly horka a noční pocení, uvádí 75 až 80 procent žen, přesný podíl závisí na kohortě a definici. Dále poruchy spánku, výkyvy nálad, urogenitální obtíže včetně vaginální suchosti a snížené libido, bolesti kloubů, potíže se soustředěním a změna tělesného složení. Důležité pro laické publikum: tohle není seznam nemocí, je to seznam běžných projevů přechodu. Pojmenování obtíže je první krok k tomu, aby se dala léčit.">
+<div class="a" style="inset:0;background:#401252"></div>
+<div class="a k" style="left:120px;top:140px"><span class="tm sym"></span>Léčba příznaků · Co je časté</div>
+<div class="a cl" style="left:120px;top:190px;width:1440px">Návaly nejsou výjimka. Má je většina žen.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Podíl závisí na kohortě a&nbsp;definici</div></div>
+<div class="a" style="left:120px;top:372px;width:1680px;display:grid;grid-template-columns:840px 1fr;gap:80px;align-items:start">
+<div>
+<div class="fig" style="font-size:200px;line-height:.88">80&nbsp;%</div>
+<div class="k" style="margin-top:24px;color:var(--muted)">žen má návaly v&nbsp;pozdní fázi přechodu, podle kohorty 75 až 80&nbsp;%</div>
+<div style="margin-top:40px;display:grid;grid-template-columns:max-content minmax(0,1fr);column-gap:28px;row-gap:18px;align-items:baseline">
+<div class="fig" style="font-size:48px">7,4</div><div class="bd" style="font-size:22px">roku medián trvání, z&nbsp;toho 4,5&nbsp;roku po&nbsp;poslední menstruaci</div>
+<div class="fig" style="font-size:48px">20–30&nbsp;%</div><div class="bd" style="font-size:22px">kvůli nim vyhledá lékaře</div>
+</div>
+</div>
+<div>
+<div class="k" style="color:var(--muted)">Co se hlásí dále</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:18px 56px;margin-top:28px">
+<div class="bd" style="font-size:23px">přerušovaný spánek</div>
+<div class="bd" style="font-size:23px">výkyvy nálad, úzkost</div>
+<div class="bd" style="font-size:23px">vaginální suchost, snížené libido</div>
+<div class="bd" style="font-size:23px">bolesti kloubů</div>
+<div class="bd" style="font-size:23px">zapomnětlivost, potíže se soustředěním</div>
+<div class="bd" style="font-size:23px">změna tělesného složení</div>
+</div>
+<div class="bd" style="margin-top:36px;font-size:23px">Je to seznam <b>běžných projevů přechodu</b>, ne seznam nemocí. Pojmenovat je znamená umět je léčit.</div>
+</div>
+</div>
+<div class="a ref">SWAN, medián trvání vazomotorických příznaků 7,4&nbsp;roku, u&nbsp;žen s&nbsp;raným začátkem i&nbsp;přes 11&nbsp;let · UpToDate, Menopausal hot flashes, 2026</div>
+<div class="a pg">10</div>
+</section>
+
+<section class="slide t-violet" data-label="Zatěžující příznaky" data-screen-label="11" data-speaker-notes="Tohle je kalibrační slide, aby přednáška nedramatizovala. Podle ESE guideline 2025 prochází přechodem většina žen s obtížemi mírnými, u přibližně 25 procent jsou příznaky skutečně zatěžující, tedy narušují práci, spánek a vztahy. To je zároveň skupina, kde je aktivní léčba jednoznačně na místě. Neříkáme tedy nikomu, že musí něco léčit. Říkáme, že kdo trpí, má nárok na účinnou léčbu, a že se nemusí spoléhat na doplňky.">
+<div class="a k" style="left:120px;top:140px"><span class="tm sym"></span>Léčba příznaků · Kalibrace</div>
+<div class="a zone" style="width:1600px">
+<div class="st long" style="max-width:1560px">Příznaky má většina. Zatěžující jsou u&nbsp;asi čtvrtiny žen.</div>
+<div class="ld" style="margin-top:48px;color:var(--muted);max-width:1420px">Nikdo nemusí nic léčit jen proto, že mu je 50. Kdo ale trpí, má nárok na&nbsp;<b style="color:var(--ink);font-weight:500">účinnou léčbu</b>, a&nbsp;nemusí se spoléhat na&nbsp;doplňky.</div>
+</div>
+<div class="ev tv-cert tv-cert-a"><div class="tv-cert-mark">A</div><div class="tv-cert-label">ESE guideline 2025</div></div>
+<div class="a ref">Lumsden MA et&nbsp;al., European Society of Endocrinology Clinical Practice Guideline, Eur J Endocrinol 2025;193(4):G49&ndash;G81: přibližně 25&nbsp;% žen má zatěžující příznaky</div>
+<div class="a pg">11</div>
+</section>
+
+<section class="slide t-violet" data-label="Evidence · spánek" data-screen-label="12" data-speaker-notes="První ze pěti evidenčních kartiček. Formát je vždy stejný: otázka, zjištění, interpretace, limit. Účel je odnaučit publikum čtení nadpisů v médiích. Zde: poruchy spánku se v přechodu skutečně kumulují, 30 až 60 procent žen ve středním věku uvádí obtíže, 15 až 25 procent splňuje diagnostická kritéria insomnie. Data jsou ale převážně observační a nelze v nich dobře oddělit vliv věku, stresu a sociální situace. Praktický důsledek: spánek je třeba léčit jako samostatný problém, nejen čekat, že se spraví s návaly.">
+<div class="a k" style="left:120px;top:140px"><span class="tm sym"></span>Léčba příznaků · Evidenční karta</div>
+<div class="a cl" style="left:120px;top:190px;width:1440px">Zhoršuje přechod spánek?</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Převážně observační data</div></div>
+<div class="a" style="left:120px;top:450px;width:1680px">
+<div class="evc">
+<div><div class="lab">Otázka</div><div class="txt">Je horší spánek v&nbsp;přechodu důsledek hormonů, nebo prostě věku a&nbsp;života?</div></div>
+<div><div class="lab">Zjištění</div><div class="txt">Obtíže se spánkem uvádí <b>30&ndash;60&nbsp;%</b> žen ve&nbsp;středním věku, <b>15&ndash;25&nbsp;%</b> splňuje kritéria insomnie.</div></div>
+<div><div class="lab">Interpretace</div><div class="txt">Spánek je potřeba léčit jako <b>samostatný problém</b>, ne čekat, že se spraví s&nbsp;návaly.</div></div>
+<div><div class="lab">Limit</div><div class="txt">Observační data. Vliv věku, stresu a&nbsp;sociální situace nelze spolehlivě oddělit.</div></div>
+</div>
+</div>
+<div class="a pg">12</div>
+</section>
+
+<section class="slide t-violet" data-label="Složení těla" data-screen-label="13" data-speaker-notes="Tady se vyvrací dva mýty v jednom. Metabolismus se v menopauze nezhroutí, klidový energetický výdej klesá v tomto období pozvolna a hlavně kvůli ztrátě svalové hmoty. Co se skutečně mění měřitelně, je složení těla a rozložení tuku: podle studie SWAN ubývá tukuprosté masy průměrně 0,2 kg za rok a tukové hmoty přibývá asi 0,45 kg za rok, k tomu se tuk přesouvá z boků do oblasti pasu. Důsledek pro praxi: váha je špatný ukazatel. Sledujte obvod pasu, sílu a to, co zvládnete.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Složení těla</div>
+<div class="a cl long" style="left:120px;top:190px;width:1520px">Metabolismus se nezhroutí. Mění se ale složení těla, a&nbsp;to měřitelně.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Longitudinální kohorta SWAN</div></div>
+<div class="a" style="left:120px;top:500px;width:1680px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0">
+<div style="padding-right:72px;border-right:1px solid var(--rule)">
+<div class="fig" style="font-size:88px;line-height:1">&minus;0,2 kg</div>
+<div class="k" style="margin-top:20px;color:var(--muted)">tukuprosté masy za&nbsp;rok</div>
+<div class="bd" style="margin-top:22px;font-size:23px">Ztráta svalu je ta část, která opravdu snižuje energetický výdej.</div>
+</div>
+<div style="padding:0 72px;border-right:1px solid var(--rule)">
+<div class="fig" style="font-size:88px;line-height:1">+0,45 kg</div>
+<div class="k" style="margin-top:20px;color:var(--muted)">tukové hmoty za&nbsp;rok</div>
+<div class="bd" style="margin-top:22px;font-size:23px">A&nbsp;přesouvá se: ubývá na&nbsp;bocích, přibývá v&nbsp;pase.</div>
+</div>
+<div style="padding-left:72px">
+<div class="sb" style="font-size:32px">Váha je slabý ukazatel</div>
+<div class="bd" style="margin-top:22px;font-size:23px">Sledujte <b>obvod pasu, sílu a&nbsp;funkci</b>. Ty se mohou zlepšovat i&nbsp;při stejné hmotnosti.</div>
+<div class="bd" style="margin-top:22px;font-size:23px">Ztráta svalu ale <b>není automatická</b>. Mění se citlivost svalu na&nbsp;zátěž a&nbsp;bílkovinu, a&nbsp;<b>síla klesá dřív než hmota</b>.</div>
+</div>
+</div>
+<div class="a ref">SWAN, Study of Women's Health Across the Nation: průměrná roční změna v&nbsp;přechodu, tukuprostá masa &minus;0,5&nbsp;%, tuková hmota +1,7&nbsp;%</div>
+<div class="a pg">13</div>
+</section>
+
+<section class="slide t-violet dark" data-label="Část 2 · Co je důležité" data-screen-label="14" data-speaker-notes="Přechod do druhé části. Citace z přehledu v Clinical Nutrition ESPEN 2026: přechod představuje okno zranitelnosti pro akceleraci dlouhodobého rizika chronických nemocí, nezávisle na chronologickém stárnutí. Tohle je nejdůležitější věta celé přednášky z medicínského hlediska. Zranitelnost je totéž jako ovlivnitelnost.">
+<img class="img" src="assets/duo/photo-clinic.jpg" alt="Lékařka v hovoru s pacientkou" style="object-position:40% 40%">
+<div class="a" style="inset:0;background:linear-gradient(90deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.91) 48%,rgba(64,18,82,.40) 80%,rgba(64,18,82,.12) 100%)"></div>
+<div class="a k" style="left:120px;top:140px">Část druhá · Co je medicínsky důležité</div>
+<div class="a zone" style="width:1400px">
+<div class="st">Přechod není jen období příznaků. Je to období, kdy se mění riziko.</div>
+<div class="ld" style="margin-top:44px;color:var(--muted);max-width:1260px">Akcelerace dlouhodobého rizika <b style="color:var(--ink);font-weight:500">nezávisle na&nbsp;chronologickém stárnutí</b>. Okno zranitelnosti je zároveň okno ovlivnitelnosti.</div>
+</div>
+<div class="a pg">14</div>
+</section>
+
+<section class="slide t-violet" data-label="Pět systémů" data-screen-label="15" data-speaker-notes="Mapa druhé části. Pět oblastí, kde se v přechodu mění dlouhodobé riziko: srdce a cévy, metabolismus, kost a sval, mozek a duševní zdraví, urogenitální a sexuální zdraví. Projdeme je v tomto pořadí. Upozorněte publikum, že ani jedna z nich není záležitost jednoho orgánu, všechny se prolínají přes spánek, zátěž a stravu.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Mapa</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Pět oblastí, kde se mění dlouhodobé riziko.</div>
+<svg class="a" style="left:0;top:0" width="1920" height="1080" aria-hidden="true">
+<line x1="878" y1="504" x2="700" y2="438" style="stroke:var(--rule);stroke-width:2"></line>
+<line x1="842" y1="580" x2="700" y2="602" style="stroke:var(--rule);stroke-width:2"></line>
+<line x1="878" y1="656" x2="700" y2="766" style="stroke:var(--rule);stroke-width:2"></line>
+<line x1="1042" y1="504" x2="1220" y2="470" style="stroke:var(--rule);stroke-width:2"></line>
+<line x1="1042" y1="656" x2="1220" y2="700" style="stroke:var(--rule);stroke-width:2"></line>
+</svg>
+<div class="a" style="left:842px;top:462px;width:236px;height:236px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center">
+<span class="sb" style="font-size:34px;color:#FFFFFF">Estrogen</span>
+</div>
+<div class="a" style="left:160px;top:382px;width:500px;text-align:right">
+<div class="fig" style="font-size:34px">01</div><div class="sb" style="margin-top:10px;font-size:29px">Srdce a&nbsp;cévy</div><div class="bd" style="margin-top:10px;font-size:22px">Lipidy, tlak, riziko aterosklerózy.</div>
+</div>
+<div class="a" style="left:1260px;top:414px;width:500px">
+<div class="fig" style="font-size:34px">02</div><div class="sb" style="margin-top:10px;font-size:29px">Metabolismus</div><div class="bd" style="margin-top:10px;font-size:22px">Viscerální tuk, inzulinová rezistence.</div>
+</div>
+<div class="a" style="left:160px;top:546px;width:500px;text-align:right">
+<div class="fig" style="font-size:34px">03</div><div class="sb" style="margin-top:10px;font-size:29px">Kost a&nbsp;sval</div><div class="bd" style="margin-top:10px;font-size:22px">Osteoporóza, síla, riziko pádů.</div>
+</div>
+<div class="a" style="left:1260px;top:644px;width:500px">
+<div class="fig" style="font-size:34px">04</div><div class="sb" style="margin-top:10px;font-size:29px">Mozek a&nbsp;psychika</div><div class="bd" style="margin-top:10px;font-size:22px">Spánek, nálada, kognice.</div>
+</div>
+<div class="a" style="left:160px;top:710px;width:500px;text-align:right">
+<div class="fig" style="font-size:34px">05</div><div class="sb" style="margin-top:10px;font-size:29px">Urogenitál</div><div class="bd" style="margin-top:10px;font-size:22px">Suchost, bolest, kontinence, libido.</div>
+</div>
+<div class="a ref">Všech pět se prolíná přes spánek, pohybovou zátěž a&nbsp;stravu. Proto se prevence nedělá po&nbsp;jednotlivých orgánech.</div>
+<div class="a pg">15</div>
+</section>
+
+<section class="slide t-violet" data-label="Evidence · lipidy" data-screen-label="16" data-speaker-notes="Druhá evidenční karta a klíčový argument pro kardiovaskulární prevenci v tomto období. Přehled v Current Nutrition Reports 2026 popisuje posun k aterogennějšímu lipidovému profilu: stoupá celkový a LDL cholesterol a triglyceridy, klesá HDL, a tento vzorec přetrvává i po adjustaci na věk a adipozitu. Mechanismy: estrogen-dependentní změny aktivity hepatální lipázy a lipoproteinové lipázy a zvýšený tok volných mastných kyselin z viscerální tukové tkáně. Limit: jde o observační data, kauzalita není prokázána randomizací. Praktický důsledek: lipidy měřit už v přechodu, ne až po menopauze, protože screeningové prahy jsou nastavené na postmenopauzální ženy a včasné riziko unikne.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Evidenční karta</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Mění cholesterol menopauza, nebo jen věk?</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Konzistentní observační data</div></div>
+<div class="a" style="left:120px;top:450px;width:1680px">
+<div class="evc">
+<div><div class="lab">Otázka</div><div class="txt">Zhoršuje se lipidový profil kvůli přechodu, nebo by se zhoršil i&nbsp;tak?</div></div>
+<div><div class="lab">Zjištění</div><div class="txt">Stoupá celkový a&nbsp;LDL cholesterol a&nbsp;triglyceridy, klesá HDL. Vzorec <b>přetrvává i&nbsp;po&nbsp;adjustaci na&nbsp;věk a&nbsp;adipozitu</b>.</div></div>
+<div><div class="lab">Interpretace</div><div class="txt">Lipidy měřit <b>už v&nbsp;přechodu</b>. Prahy nastavené na&nbsp;postmenopauzu riziko odhalí pozdě.</div></div>
+<div><div class="lab">Limit</div><div class="txt">Observační data, ne randomizace. Kauzalita zůstává pravděpodobná, ne prokázaná.</div></div>
+</div>
+</div>
+<div class="a ref">Bonnes SLR et&nbsp;al., 2026 and Nutritional Advice, Curr Nutr Rep 2026;15:69</div>
+<div class="a pg">16</div>
+</section>
+
+<section class="slide t-violet" data-label="Metabolismus" data-screen-label="17" data-speaker-notes="Metabolická část. Viscerální tuk přibývá a zhoršuje se inzulinová senzitivita, to je konzistentní a klinicky významné. Novější a mnohem nejistější je metabolomický nález: v perimenopauze se objevuje signatura zvýšených rozvětvených aminokyselin, tedy leucinu, izoleucinu a valinu, a aromatických aminokyselin, která přetrvává do postmenopauzy. Vyšší rozvětvené aminokyseliny byly spojeny s budoucí inzulinovou rezistencí a diabetem 2. typu nezávisle na klasických rizikových faktorech. Zdůrazněte: tohle je zajímavý výzkumný signál, ne důvod k jakémukoli opatření, a rozhodně ne důvod omezovat bílkoviny.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Metabolismus</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Riziko se posouvá dřív, než se posunou laboratorní prahy.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Jedno tvrzení na slidu je pouze C</div></div>
+<div class="a" style="left:120px;top:490px;width:1680px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0">
+<div style="padding-right:72px;border-right:1px solid var(--rule)">
+<div class="k" style="color:var(--muted)">Co je konzistentní <span class="tv-cert-chip tv-cert-chip-b">B</span></div>
+<div class="bd" style="margin-top:26px">Přibývá <b>viscerální tuk</b> a&nbsp;zhoršuje se <b>inzulinová senzitivita</b>. Obojí je klinicky významné a&nbsp;ovlivnitelné.</div>
+</div>
+<div style="padding:0 72px;border-right:1px solid var(--rule)">
+<div class="k" style="color:var(--muted)">Co je jen signál <span class="tv-cert-chip tv-cert-chip-c">C</span></div>
+<div class="bd" style="margin-top:26px">Metabolomická signatura vyšších <b>rozvětvených aminokyselin</b>. Zajímavé, ale <i>žádné opatření z&nbsp;toho dnes nevyplývá</i>.</div>
+</div>
+<div style="padding-left:72px">
+<div class="k" style="color:var(--muted)">Co z&nbsp;toho plyne</div>
+<div class="bd" style="margin-top:26px">Screening dělat dřív. Rozhodně <b>ne omezovat bílkoviny</b> kvůli nálezu z&nbsp;metabolomiky.</div>
+</div>
+</div>
+<div class="a ref">Curr Nutr Rep 2026;15:69 · vyšší rozvětvené aminokyseliny byly spojeny s&nbsp;budoucí inzulinovou rezistencí nezávisle na&nbsp;klasických rizikových faktorech</div>
+<div class="a pg">17</div>
+</section>
+
+<section class="slide t-violet" data-label="Kost" data-screen-label="18" data-speaker-notes="Úbytek kostní hmoty má dvě fáze. První v perimenopauze, kdy nedostatek estrogenu zvyšuje kostní resorpci. Druhá 4 až 8 let po tranzici, kdy se zpomaluje novotvorba. Klinický důsledek: první fáze je z hlediska prevence nejcennější a zpravidla se prošvihne, protože v ní nikdo denzitometrii neindikuje. Proto se bavíme o zátěži a o příjmu bílkovin, vápníku a vitaminu D ve čtyřiceti, ne v šedesáti.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Kost</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Kost neubývá plynule. Ubývá ve&nbsp;dvou vlnách.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Kohortová a&nbsp;mechanistická data</div></div>
+<div class="a" style="left:120px;top:430px;width:1680px">
+<svg viewBox="0 0 1680 340" width="1680" height="340" role="img" aria-label="Graf dvoufázového úbytku kostní hmoty v perimenopauze a po menopauzální tranzici">
+<rect x="420" y="20" width="340" height="248" fill="var(--chart-series-1-a25)" opacity=".55"></rect>
+<rect x="760" y="20" width="520" height="248" fill="var(--chart-series-1-a25)" opacity=".28"></rect>
+<line x1="60" y1="268" x2="1640" y2="268" stroke="var(--chart-axis)" stroke-width="1"></line>
+<line x1="760" y1="20" x2="760" y2="280" stroke="var(--ink)" stroke-width="2" stroke-dasharray="6 8"></line>
+<path d="M60 56 C 200 60 320 64 420 70 C 520 100 660 172 760 194 C 900 218 1080 238 1280 250 C 1400 256 1520 258 1640 260" fill="none" stroke="var(--accent)" stroke-width="6" stroke-linecap="round"></path>
+<text x="590" y="314" text-anchor="middle" style="font-family:var(--font-mono)" font-size="21" fill="var(--muted)">PERIMENOPAUZA</text>
+<text x="1020" y="314" text-anchor="middle" style="font-family:var(--font-mono)" font-size="21" fill="var(--muted)">4–8 LET PO TRANZICI</text>
+<text x="760" y="14" text-anchor="middle" style="font-family:var(--font-mono)" font-size="21" fill="var(--ink)">MENOPAUZA</text>
+<text x="70" y="40" style="font-family:var(--font-mono)" font-size="21" fill="var(--muted)">KOSTNÍ HMOTA</text>
+</svg>
+<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:80px;margin-top:36px;border-top:1px solid var(--rule);padding-top:30px">
+<div class="bd" style="font-size:22px"><b>1.&nbsp;fáze, perimenopauza.</b> Nedostatek estrogenu zvyšuje odbourávání kosti.</div>
+<div class="bd" style="font-size:22px"><b>2.&nbsp;fáze, 4 až 8&nbsp;let po&nbsp;tranzici.</b> Zpomaluje se novotvorba kostní hmoty.</div>
+<div class="bd" style="font-size:22px"><b>První vlna se zpravidla prošvihne.</b> Denzitometrii v&nbsp;ní nikdo neindikuje.</div>
+</div>
+</div>
+<div class="a pg">18</div>
+</section>
+
+<section class="slide t-violet dark" data-label="Mozek a spánek" data-screen-label="19" data-speaker-notes="Menopauzu lze chápat i jako neurologický přechod: mozek jinak hospodaří s energií. Estrogen kognitivní funkce chrání a Alzheimerova choroba je u žen častější než u mužů. Zároveň je třeba být opatrná: to, že poruchy spánku jsou popisovány jako rizikový a patogenetický faktor rozvoje demence, neznamená, že jeden špatný rok spánku někomu způsobí demenci. Data jsou observační a spánek je v nich propletený s depresí, stresem a cévním rizikem. Co z toho plyne prakticky: léčit spánek se vyplatí, a to bez ohledu na to, jak silný je ten kognitivní argument.">
+<img class="img" src="assets/duo/photo-rest.jpg" alt="Žena sedí na posteli" style="object-position:50% 40%">
+<div class="a" style="inset:0;background:linear-gradient(90deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.92) 46%,rgba(64,18,82,.44) 80%,rgba(64,18,82,.14) 100%)"></div>
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Mozek</div>
+<div class="a zone" style="width:1320px">
+<div class="st long" style="max-width:1300px">Spánek není komfort. Je to intervence do&nbsp;mozku.</div>
+<div class="ld" style="margin-top:44px;color:var(--muted);max-width:1240px">Poruchy spánku jsou popisovány jako rizikový faktor rozvoje demence. Souvislost je ale <b style="color:var(--ink);font-weight:500">observační a&nbsp;propletená</b> s&nbsp;depresí, stresem a&nbsp;cévním rizikem.</div>
+</div>
+<div class="ev tv-cert tv-cert-c tv-cert-scrim"><div class="tv-cert-mark">C</div><div class="tv-cert-label">Kauzalita nejistá, opatrně</div></div>
+<div class="a ref">Léčit spánek se vyplatí i&nbsp;bez kognitivního argumentu: nálada, tlak, glykemie, chuť k&nbsp;jídlu, výkon</div>
+<div class="a pg">19</div>
+</section>
+
+<section class="slide t-violet" data-label="Duševní zdraví" data-screen-label="20" data-speaker-notes="Perimenopauza je popisována jako období zvýšené zranitelnosti pro depresivní epizodu, uváděné riziko je 2 až 4krát vyšší, zejména u žen s depresí v anamnéze a s výraznými vazomotorickými symptomy. Důležité rozlišení pro publikum: mírná rozladěnost z nevyspání není depresivní porucha. Pokud ale obtíže trvají a berou funkci, je to diagnóza, která má účinnou léčbu. Kognitivně behaviorální terapie je doporučovaná i na vazomotorické symptomy a na insomnii, takže je v tomto období mimořádně užitečný nástroj.">
+<div class="a k" style="left:120px;top:140px"><span class="tm sym"></span>Léčba příznaků · Psychika</div>
+<div class="a" style="left:120px;top:210px;width:840px;height:700px;display:flex;flex-direction:column;justify-content:center">
+<div class="cl n">Perimenopauza je období zvýšené zranitelnosti, ne diagnóza sama.</div>
+<div class="bd" style="margin-top:36px">Rozladěnost z&nbsp;nevyspání není depresivní porucha. Pokud ale obtíže trvají a&nbsp;berou funkci, jde o&nbsp;diagnózu, která má účinnou léčbu.</div>
+</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Kohortová data, silná u&nbsp;rizikových žen</div></div>
+<div class="a" style="left:1080px;top:210px;width:720px;height:700px;display:flex;flex-direction:column;justify-content:center">
+<div class="fig" style="font-size:132px;line-height:1">2&ndash;4×</div>
+<div class="k" style="margin-top:24px;color:var(--muted)">vyšší riziko depresivní epizody v&nbsp;přechodu</div>
+<div class="bd" style="margin-top:34px">Nejvíc u&nbsp;žen s&nbsp;<b>depresí v&nbsp;anamnéze</b> a&nbsp;s&nbsp;výraznými návaly a&nbsp;nočním pocením.</div>
+</div>
+<div class="a ref">Kognitivně behaviorální terapie je doporučovaná jak na&nbsp;vazomotorické symptomy, tak na&nbsp;insomnii</div>
+<div class="a pg">20</div>
+</section>
+
+<section class="slide t-violet" data-label="Urogenitální zdraví" data-screen-label="21" data-speaker-notes="Genitourinární syndrom menopauzy je jediná skupina obtíží, která se s časem spontánně nezlepšuje, ale progreduje. Patří sem suchost, bolest při sexu, pálení, urgence a opakované infekce močových cest. Lokální estrogen v nízké dávce je účinný, má minimální systémovou absorpci a podle guidelines jej lze užívat dlouhodobě. Tohle je téma, na které se ženy nejméně ptají a které má přitom nejlepší poměr účinku a rizika v celé menopauzální medicíně. Řekněte to na plná ústa a bez eufemismů.">
+<div class="a k" style="left:120px;top:140px"><span class="tm sym"></span>Léčba příznaků · Urogenitál</div>
+<div class="a zone" style="width:1600px">
+<div class="st long" style="max-width:1520px">Jediná skupina obtíží, která se sama nespraví. Naopak progreduje.</div>
+<div class="ld" style="margin-top:48px;color:var(--muted);max-width:1440px">Suchost, bolest při sexu, urgence, opakované infekce. <b style="color:var(--ink);font-weight:500">Lokální estrogen v&nbsp;nízké dávce</b> je účinný, má minimální systémovou absorpci a&nbsp;lze ho užívat dlouhodobě.</div>
+</div>
+<div class="ev tv-cert tv-cert-a"><div class="tv-cert-mark">A</div><div class="tv-cert-label">NICE NG23 · ESE 2025</div></div>
+<div class="a ref">Nejlepší poměr účinku a&nbsp;rizika v&nbsp;celé menopauzální medicíně, a&nbsp;zároveň téma, na&nbsp;které se ženy ptají nejméně</div>
+<div class="a pg">21</div>
+</section>
+
+<section class="slide t-violet" data-label="Co si nechat měřit" data-screen-label="22" data-speaker-notes="Praktický slide, na který se publikum bude ptát. Tlak měřit pravidelně, ideálně i doma. Lipidy alespoň každé dva roky, dřív a častěji při rodinné anamnéze. Glykemie nalačno nebo HbA1c. Obvod pasu jako jednoduchý ukazatel viscerálního tuku, ten se dá měřit doma. Denzitometrie ne rutinně, ale při rizikových faktorech: časná menopauza, fraktura v anamnéze, kortikoidy, nízká hmotnost, rodinná anamnéza, kouření. Konkrétní intervaly se liší podle národních doporučení, proto to patří k praktickému lékaři nebo gynekologovi, ne na slide jako dogma.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Co měřit</div>
+<div class="a cl" style="left:120px;top:190px;width:1460px">Prevence začíná u&nbsp;čísel, která znáte.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Intervaly se liší podle doporučení</div></div>
+<div class="a" style="left:120px;top:404px;width:1680px;border:1px solid var(--rule);border-radius:12px;overflow:hidden">
+<div style="display:grid;grid-template-columns:520px 380px minmax(0,1fr);gap:32px;padding:20px 34px;background:var(--band)">
+<div class="k" style="font-size:17px;color:var(--muted)">Parametr</div><div class="k" style="font-size:17px;color:var(--muted)">Jak často</div><div class="k" style="font-size:17px;color:var(--muted)">Proč právě teď</div>
+</div>
+<div style="display:grid;grid-template-columns:520px 380px minmax(0,1fr);gap:32px;padding:15px 34px;border-top:1px solid var(--rule)">
+<div class="bd" style="font-size:22px"><b>krevní tlak</b></div><div class="bd" style="font-size:22px;color:var(--muted)">ročně, ideálně i&nbsp;doma</div><div class="bd" style="font-size:22px;color:var(--muted)">domácí měření předpovídá riziko lépe než jedno v&nbsp;ordinaci</div>
+</div>
+<div style="display:grid;grid-template-columns:520px 380px minmax(0,1fr);gap:32px;padding:15px 34px;border-top:1px solid var(--rule)">
+<div class="bd" style="font-size:22px"><b>lipidy</b></div><div class="bd" style="font-size:22px;color:var(--muted)">alespoň každé 2&nbsp;roky</div><div class="bd" style="font-size:22px;color:var(--muted)">v&nbsp;přechodu se mění nezávisle na&nbsp;věku</div>
+</div>
+<div style="display:grid;grid-template-columns:520px 380px minmax(0,1fr);gap:32px;padding:15px 34px;border-top:1px solid var(--rule)">
+<div class="bd" style="font-size:22px"><b>glykemie nalačno nebo HbA1c</b></div><div class="bd" style="font-size:22px;color:var(--muted)">podle rizika</div><div class="bd" style="font-size:22px;color:var(--muted)">u&nbsp;rizikových žen bývá citlivější HOMA-IR</div>
+</div>
+<div style="display:grid;grid-template-columns:520px 380px minmax(0,1fr);gap:32px;padding:15px 34px;border-top:1px solid var(--rule)">
+<div class="bd" style="font-size:22px"><b>obvod pasu</b></div><div class="bd" style="font-size:22px;color:var(--muted)">doma, kdykoli</div><div class="bd" style="font-size:22px;color:var(--muted)">mění se dřív než hmotnost</div>
+</div>
+<div style="padding:13px 34px;border-top:1px solid var(--rule);background:var(--band)">
+<div class="k" style="font-size:17px;color:var(--muted)">Podle rizika, ne rutinně</div>
+</div>
+<div style="display:grid;grid-template-columns:520px 380px minmax(0,1fr);gap:32px;padding:15px 34px;border-top:1px solid var(--rule)">
+<div class="bd" style="font-size:22px"><b>denzitometrie</b></div><div class="bd" style="font-size:22px;color:var(--muted)">při indikaci</div><div class="bd" style="font-size:22px;color:var(--muted)">časná menopauza, fraktura, kortikoidy, nízká hmotnost</div>
+</div>
+<div style="display:grid;grid-template-columns:520px 380px minmax(0,1fr);gap:32px;padding:15px 34px;border-top:1px solid var(--rule)">
+<div class="bd" style="font-size:22px"><b>štítná žláza</b></div><div class="bd" style="font-size:22px;color:var(--muted)">při obtížích</div><div class="bd" style="font-size:22px;color:var(--muted)">příznaky se s&nbsp;přechodem překrývají</div>
+</div>
+</div>
+<div class="a ref">Konkrétní intervaly patří k&nbsp;vašemu lékaři, tenhle slide je vodítko, ne předpis · HOMA-IR jako citlivější marker: Curr Nutr Rep 2026;15:69</div>
+<div class="a pg">22</div>
+</section>
+
+<section class="slide t-violet" data-label="Evidence · MHT a prevence" data-screen-label="23" data-speaker-notes="Třetí evidenční karta a nejcitlivější téma přednášky. Hormonální léčba je nejúčinnější léčbou vazomotorických symptomů a je účinná i na kost. Indikací jsou příznaky, respektive časná menopauza a ovariální insuficience. Prevence chronických nemocí sama o sobě indikací není, guidelines ji v této roli nedoporučují. Poměr přínosu a rizika je nejpříznivější u žen, které začínají do 60 let věku nebo do 10 let od menopauzy. Riziko závisí na formě, dávce a cestě podání, transdermální estrogen má nižší tromboembolické riziko než perorální. Rozhodnutí je vždy individuální a patří do ordinace, ne na webinář.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Evidenční karta</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Chrání hormonální léčba srdce a&nbsp;kosti?</div>
+<div class="ev tv-cert tv-cert-a"><div class="tv-cert-mark">A</div><div class="tv-cert-label">Shoda guidelines 2025 a&nbsp;2026</div></div>
+<div class="a" style="left:120px;top:450px;width:1680px">
+<div class="evc">
+<div><div class="lab">Otázka</div><div class="txt">Má se hormonální léčba brát kvůli prevenci chronických nemocí?</div></div>
+<div><div class="lab">Zjištění</div><div class="txt">Je <b>nejúčinnější léčbou návalů</b> a&nbsp;je účinná na&nbsp;kost. Jako <b>samostatná primární prevence se nedoporučuje</b>.</div></div>
+<div><div class="lab">Interpretace</div><div class="txt">Indikací jsou <b>příznaky</b>, časná menopauza a&nbsp;ovariální insuficience. Poměr přínosu a&nbsp;rizika je nejlepší <b>do 60&nbsp;let nebo do 10&nbsp;let od&nbsp;menopauzy</b>.</div></div>
+<div><div class="lab">Limit</div><div class="txt">Riziko závisí na&nbsp;formě, dávce a&nbsp;cestě podání. Rozhodnutí je individuální a&nbsp;patří do&nbsp;ordinace.</div></div>
+</div>
+</div>
+<div class="a ref">NICE NG23, aktualizace 4/2026 · ESE Clinical Practice Guideline, Eur J Endocrinol 2025;193(4):G49&ndash;G81 · The Menopause Society, position statements</div>
+<div class="a pg">23</div>
+</section>
+
+<section class="slide t-violet dark" data-label="Část 3 · Co funguje" data-screen-label="24" data-speaker-notes="Přechod do třetí části. Zásadní věta: léčba příznaků a prevence nemocí nejsou totéž a nepoužívají stejné nástroje. Pohyb je vynikající prevence a na návaly podle přehledů nefunguje. Hormonální léčba je vynikající na návaly a není nástroj prevence. Když se to mísí, vznikají jak zbytečná zklamání, tak zbytečná rizika.">
+<img class="img" src="assets/duo/photo-bar.jpg" alt="Ruce na osě při silovém tréninku" style="object-position:50% 45%">
+<div class="a" style="inset:0;background:linear-gradient(90deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.91) 46%,rgba(64,18,82,.42) 80%,rgba(64,18,82,.12) 100%)"></div>
+<div class="a k" style="left:120px;top:140px">Část třetí · Co skutečně funguje</div>
+<div class="a zone" style="width:1360px">
+<div class="st">Na&nbsp;příznaky a&nbsp;na&nbsp;prevenci fungují jiné nástroje.</div>
+<div class="ld" style="margin-top:44px;color:var(--muted);max-width:1240px">Když se to mísí, vznikají zbytečná zklamání i&nbsp;zbytečná rizika. Teď je rozdělíme.</div>
+</div>
+<div class="a pg">24</div>
+</section>
+
+<section class="slide t-violet" data-label="Nejúčinnější na návaly" data-screen-label="25" data-speaker-notes="Formulace musí být přesná: hormonální léčba je nejúčinnější dostupná léčba vazomotorických symptomů. To není reklama, to je shrnutí guidelines. Zároveň není pro každou: kontraindikace zahrnují hormonálně dependentní karcinom prsu, aktivní tromboembolickou nemoc a některé jaterní stavy, u řady dalších stavů rozhoduje forma a cesta podání. Pro ženy, které ji nemohou nebo nechtějí, existují dnes účinné nehormonální možnosti a to je obsah dalšího slidu.">
+<div class="a k" style="left:120px;top:140px"><span class="tm sym"></span>Léčba příznaků · Hormonální léčba</div>
+<div class="a zone" style="width:1600px">
+<div class="st long" style="max-width:1500px">Na&nbsp;návaly je nejúčinnější hormonální léčba. Není ale pro každou.</div>
+<div class="ld" style="margin-top:48px;color:var(--muted);max-width:1440px">Kontraindikace a&nbsp;volba formy patří do&nbsp;ordinace. Pro ženy, které ji nemohou nebo nechtějí, <b style="color:var(--ink);font-weight:500">dnes existují účinné nehormonální možnosti</b>.</div>
+</div>
+<div class="ev tv-cert tv-cert-a"><div class="tv-cert-mark">A</div><div class="tv-cert-label">NICE NG23 · ESE 2025</div></div>
+<div class="a pg">25</div>
+</section>
+
+<section class="slide t-violet" data-label="Evidence · lokální estrogen" data-screen-label="26" data-speaker-notes="Tohle je slide, který v přednáškách nejčastěji chybí, a přitom jde o nejlepší poměr účinku a rizika v celé menopauzální medicíně. Nízkodávkovaný vaginální estrogen je u středně těžkých a těžkých urogenitálních obtíží nejúčinnější léčba. Sérové hladiny estradiolu po něm stoupnou, ale jen do nízkého postmenopauzálního rozmezí, ne do premenopauzálního, takže systémová expozice je minimální. Prakticky to znamená, že je to jiné rozhodnutí než tablety nebo náplasti: neléčí návaly, neřeší prevenci, ale řeší to, co samo neodejde. Limit říkejte nahlas: dlouhodobé randomizované studie chybí. Observační data s mediánem užívání do tří let neukázala vyšší riziko nádoru prsu ani dělohy, koronární příhody, cévní mozkové příhody ani trombózy. Mnoho žen ho užívá i současně se systémovou léčbou.">
+<div class="a k" style="left:120px;top:140px"><span class="tm sym"></span>Léčba příznaků · Evidenční karta</div>
+<div class="a cl long" style="left:120px;top:190px;width:1500px">Lokální estrogen není systémová hormonální léčba.</div>
+<div class="ev tv-cert tv-cert-a"><div class="tv-cert-mark">A</div><div class="tv-cert-label">Krátkodobě RCT, dlouhodobě jen observace</div></div>
+<div class="a" style="left:120px;top:450px;width:1680px">
+<div class="evc">
+<div><div class="lab">Otázka</div><div class="txt">Je vaginální estrogen stejné rozhodnutí jako tablety nebo náplasti?</div></div>
+<div><div class="lab">Zjištění</div><div class="txt">U&nbsp;středně těžkých a&nbsp;těžkých urogenitálních obtíží je nízkodávkovaný vaginální estrogen <b>nejúčinnější léčbou</b>. Hladina estradiolu stoupne jen do&nbsp;<b>nízkého postmenopauzálního rozmezí</b>, ne do&nbsp;premenopauzálního.</div></div>
+<div><div class="lab">Interpretace</div><div class="txt">Jiné rozhodnutí než systémová léčba: <b>minimální systémová expozice</b>. Neléčí návaly ani neřeší prevenci. Řeší to, co samo neodejde.</div></div>
+<div><div class="lab">Limit</div><div class="txt">Dlouhodobé randomizované studie <b>chybí</b>. Observační data do&nbsp;tří let neukázala vyšší riziko nádoru prsu ani dělohy, koronární příhody, mozkové příhody ani trombózy.</div></div>
+</div>
+</div>
+<div class="a ref">UpToDate, Genitourinary syndrome of menopause: Treatment of vulvovaginal atrophy, 2026 · lze užívat i&nbsp;současně se systémovou léčbou</div>
+<div class="a pg">26</div>
+</section>
+
+<section class="slide t-violet" data-label="Časná menopauza a POI" data-screen-label="27" data-speaker-notes="Oddělte tuto skupinu jasně, protože se na ni celá debata o rizicích hormonální léčby nevztahuje. Primární ovariální insuficience je primární hypogonadismus před čtyřicátým rokem. Není vzácná: přibližně jedna z dvou set padesáti žen do třiceti pěti let a jedna ze sta do čtyřiceti let. Časná menopauza je mezi čtyřiceti a čtyřiceti pěti lety. U těchto žen se data z WHI nepoužívají, protože ta studie sledovala ženy nad šedesát let. Léčba se zahajuje v jiném věku a s jiným cílem: nahradit roky estrogenu, které by žena normálně měla, a předejít předčasné ztrátě kosti a kardiovaskulárnímu riziku. Guidelines se shodují, že se pokračuje přibližně do věku průměrné menopauzy, tedy asi do padesáti až padesáti jedna let. Pro tyto ženy je to prevence, ne volba mezi komfortem a rizikem.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Časná menopauza</div>
+<div class="a cl long" style="left:120px;top:190px;width:1520px">Před čtyřicátým rokem je hormonální léčba prevence, ne volba.</div>
+<div class="ev tv-cert tv-cert-a"><div class="tv-cert-mark">A</div><div class="tv-cert-label">Shoda guidelines, data z&nbsp;jiné populace</div></div>
+<div class="a" style="left:120px;top:480px;width:1680px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0">
+<div style="padding-right:72px;border-right:1px solid var(--rule)">
+<div class="fig" style="font-size:96px;line-height:1">1&nbsp;z&nbsp;250</div>
+<div class="k" style="margin-top:22px;color:var(--muted)">žen do&nbsp;35 let</div>
+<div class="bd" style="margin-top:24px;font-size:23px">Primární ovariální insuficience není vzácnost.</div>
+</div>
+<div style="padding:0 72px;border-right:1px solid var(--rule)">
+<div class="fig" style="font-size:96px;line-height:1">1&nbsp;z&nbsp;100</div>
+<div class="k" style="margin-top:22px;color:var(--muted)">žen do&nbsp;40 let</div>
+<div class="bd" style="margin-top:24px;font-size:23px">Mezi 40 a&nbsp;45&nbsp;lety jde o&nbsp;časnou menopauzu.</div>
+</div>
+<div style="padding-left:72px">
+<div class="fig" style="font-size:96px;line-height:1">do&nbsp;51&nbsp;let</div>
+<div class="k" style="margin-top:22px;color:var(--muted)">trvání léčby</div>
+<div class="bd" style="margin-top:24px;font-size:23px">Cílem je <b>nahradit chybějící roky estrogenu</b>, ne zmírnit příznaky.</div>
+</div>
+</div>
+<div class="a ref">Data z&nbsp;WHI se na&nbsp;tuto skupinu nepřenášejí, ta studie sledovala ženy nad&nbsp;60&nbsp;let · UpToDate, Management of primary ovarian insufficiency, 2026 · ESE Clinical Practice Guideline 2025</div>
+<div class="a pg">27</div>
+</section>
+
+<section class="slide t-violet" data-label="Nehormonální možnosti" data-screen-label="28" data-speaker-notes="Nejdůležitější slide celé třetí části. Vychází z position statementu The Menopause Society k nehormonální léčbě, doplněného o novější léky. Doporučeno na úrovni I: kognitivně behaviorální terapie, klinická hypnóza, SSRI a SNRI, gabapentin a fezolinetant. Slabší doporučení: oxybutynin, redukce hmotnosti, stelátní blokáda. Nedoporučeno, protože účinek nebyl prokázán: doplňky a bylinné přípravky, sójové extrakty a metabolit equol, dechová cvičení, chladicí techniky, vyhýbání se spouštěčům, jóga, mindfulness, akupunktura a úprava jídelníčku. Zdůrazněte, že nedoporučeno na návaly neznamená nesmyslné obecně. Pohyb, jóga i strava mají výborné důvody, jen ne tento.">
+<div class="a k" style="left:120px;top:140px"><span class="tm sym"></span>Léčba příznaků · Nehormonální</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Nehormonální možnosti, seřazené podle jistoty.</div>
+<div class="ev tv-cert tv-cert-a"><div class="tv-cert-mark">A</div><div class="tv-cert-label">Position statement, úrovně důkazů</div></div>
+<div class="a" style="left:120px;top:460px;width:1680px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:72px">
+<div>
+<div class="sig-chip pos">Doporučeno, úroveň I</div>
+<ul class="li bd" style="margin-top:32px;font-size:23px">
+<li>kognitivně behaviorální terapie</li>
+<li>klinická hypnóza</li>
+<li>SSRI a&nbsp;SNRI</li>
+<li>gabapentin</li>
+<li>fezolinetant</li>
+</ul>
+</div>
+<div>
+<div class="sig-chip cau">Slabší doporučení</div>
+<ul class="li bd" style="margin-top:32px;font-size:23px">
+<li>oxybutynin</li>
+<li>redukce hmotnosti</li>
+<li>stelátní blokáda</li>
+</ul>
+</div>
+<div>
+<div class="sig-chip neg">Nedoporučeno na&nbsp;návaly</div>
+<ul class="li bd" style="margin-top:32px;font-size:23px">
+<li>doplňky a&nbsp;bylinné přípravky</li>
+<li>sójové extrakty a&nbsp;equol</li>
+<li>dechová cvičení, chlazení, vyhýbání se spouštěčům</li>
+<li>jóga, mindfulness, akupunktura</li>
+<li>úprava jídelníčku</li>
+</ul>
+</div>
+</div>
+<div class="a ref">The Menopause Society, nonhormone therapy position statement · <i>nedoporučeno na&nbsp;návaly neznamená nesmyslné obecně:</i> pohyb, jóga i&nbsp;strava mají jiné a&nbsp;silné důvody</div>
+<div class="a pg">28</div>
+</section>
+
+<section class="slide t-violet" data-label="Evidence · NK antagonisté" data-screen-label="29" data-speaker-notes="Čtvrtá evidenční karta. Neurokininové receptorové antagonisty cílí na KNDy neurony v hypotalamu, tedy přímo na neurální mechanismus návalů, bez hormonálního působení. Fezolinetant v dávce 45 mg denně snížil frekvenci vazomotorických symptomů ve studiích SKYLIGHT 1 a 2 o 50 až 65 procent, nástup účinku do týdne. Elinzanetant, dvojitý antagonista, v programu OASIS snížil středně těžké až těžké symptomy o 74 procent ve 12. týdnu a zlepšil spánek, přičemž více než polovina zlepšení spánku byla nezávislá na úlevě od návalů. Byl schválen FDA v říjnu 2025. Limity: chybí dlouhodobá data nad dvě léta, odpověď je variabilní a u fezolinetantu se monitorují jaterní testy. Dostupnost a úhrada v Česku se mohou lišit, to ověřujte aktuálně.">
+<div class="a k" style="left:120px;top:140px"><span class="tm sym"></span>Léčba příznaků · Evidenční karta</div>
+<div class="a cl long" style="left:120px;top:190px;width:1500px">Nová nehormonální léčba: cílí přímo na&nbsp;mechanismus návalů.</div>
+<div class="ev tv-cert tv-cert-a"><div class="tv-cert-mark">A</div><div class="tv-cert-label">Studie fáze III, krátký horizont</div></div>
+<div class="a" style="left:120px;top:450px;width:1680px">
+<div class="evc">
+<div><div class="lab">Otázka</div><div class="txt">Existuje účinná léčba návalů bez hormonů?</div></div>
+<div><div class="lab">Zjištění</div><div class="txt">Fezolinetant snížil frekvenci návalů o&nbsp;<b>50&ndash;65&nbsp;%</b>. Elinzanetant o&nbsp;<b>74&nbsp;%</b> ve&nbsp;12.&nbsp;týdnu, navíc zlepšil spánek.</div></div>
+<div><div class="lab">Interpretace</div><div class="txt">Reálná možnost tam, kde hormony nejde použít. Blokují <b>neurální mechanismus</b>, ne hormonální dráhu.</div></div>
+<div><div class="lab">Limit</div><div class="txt">Chybí data nad 2&nbsp;roky, odpověď je variabilní. Dostupnost a&nbsp;úhrada v&nbsp;ČR se mohou lišit.</div></div>
+</div>
+</div>
+<div class="a ref">SKYLIGHT 1 a&nbsp;2, fezolinetant 45&nbsp;mg denně · OASIS 1 a&nbsp;2, elinzanetant, schválen FDA 10/2025 · u&nbsp;fezolinetantu se monitorují jaterní testy</div>
+<div class="a pg">29</div>
+</section>
+
+<section class="slide t-violet" data-label="Pohyb · co umí" data-screen-label="30" data-speaker-notes="Tenhle slide je jádro celé přednášky a zároveň nejlepší ilustrace tří kategorií. Pohyb podle přehledů nesnižuje frekvenci ani intenzitu návalů, proto je v position statementu v kategorii nedoporučeno pro tuto konkrétní indikaci. Současně je to jedna z nejsilnějších intervencí, které v tomto období máme, ale na jiné cíle: kardiovaskulární riziko, inzulinová senzitivita, kostní hustota, síla a funkce, spánek a nálada. Pointa pro publikum: když vám cvičení nezabralo na návaly, neznamená to, že nefunguje. Znamená to, že jste od něj chtěli něco, co neumí.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence versus léčba příznaků</div>
+<div class="a cl long" style="left:120px;top:190px;width:1540px">Pohyb na&nbsp;návaly nezabírá. Na&nbsp;téměř všechno ostatní ano.</div>
+<div class="ev tv-cert tv-cert-a"><div class="tv-cert-mark">A</div><div class="tv-cert-label">Přehledy pro obě tvrzení</div></div>
+<div class="a" style="left:120px;top:480px;width:1680px;display:grid;grid-template-columns:1fr 1fr;gap:0">
+<div style="padding-right:80px;border-right:1px solid var(--rule)">
+<div class="k" style="color:var(--muted)"><span class="tm sym"></span>Na&nbsp;návaly</div>
+<div class="sb" style="margin-top:26px;font-size:34px;color:var(--muted)">Nedoporučeno pro tuto indikaci</div>
+<div class="bd" style="margin-top:22px">Frekvenci ani intenzitu návalů pohyb v&nbsp;přehledech nesnížil. Nemá cenu od&nbsp;něj tohle čekat.</div>
+</div>
+<div style="padding-left:80px">
+<div class="k" style="color:var(--muted)"><span class="tm prev"></span>Na&nbsp;dlouhodobé zdraví</div>
+<div class="sb" style="margin-top:26px;font-size:34px">Jedna z&nbsp;nejsilnějších intervencí, které máme</div>
+<div class="bd" style="margin-top:22px">Kardiovaskulární riziko, inzulinová senzitivita, kostní hustota, síla a&nbsp;funkce, spánek, nálada.</div>
+</div>
+</div>
+<div class="a ref">Když vám cvičení nezabralo na&nbsp;návaly, nefungovalo špatně. Chtěli jste od&nbsp;něj něco, co neumí.</div>
+<div class="a pg">30</div>
+</section>
+
+<section class="slide t-violet" data-label="Kolik pohybu" data-screen-label="31" data-speaker-notes="Doporučení WHO pro dospělé: 150 až 300 minut středně intenzivní aerobní aktivity týdně, nebo 75 až 150 minut vysoce intenzivní, nebo kombinace. K tomu posilování velkých svalových skupin alespoň dva dny v týdnu. Pro ženy v tomto období je právě ta druhá věta ta důležitá a nejčastěji vynechávaná. Praktický překlad pro publikum: chůze se počítá, ale chůze nestačí. Odporový trénink není doplněk, je to samostatná povinná složka.">
+<img class="split-img" src="assets/duo/photo-lift.jpg" alt="Žena zvedá osu nad hlavu" style="object-position:50% 40%">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Dávka pohybu</div>
+<div class="a cl n" style="left:120px;top:190px;width:960px">Chůze se počítá. Chůze ale nestačí.</div>
+<div class="a" style="left:120px;top:440px;width:960px;display:grid;grid-template-columns:max-content minmax(0,1fr);column-gap:32px;align-items:baseline;row-gap:34px">
+<div class="fig" style="font-size:60px">150–300</div><div class="bd">minut <b>středně intenzivní aerobní aktivity</b> týdně, nebo 75–150&nbsp;minut vysoce intenzivní</div>
+<div class="fig" style="font-size:60px">2×</div><div class="bd">a&nbsp;více týdně <b>posilování velkých svalových skupin</b>. Tohle je věta, která se nejčastěji vynechává</div>
+<div class="bd" style="grid-column:1/-1;margin-top:6px">Odporový trénink není doplněk k&nbsp;chůzi. Je to <b>samostatná povinná složka</b>.</div>
+</div>
+<div class="ev tv-cert tv-cert-a" style="right:840px"><div class="tv-cert-mark">A</div><div class="tv-cert-label">Doporučení WHO</div></div>
+<div class="a pg" style="right:840px">31</div>
+</section>
+
+<section class="slide t-violet" data-label="Zátěž a kost" data-screen-label="32" data-speaker-notes="Silový, aerobní i kombinovaný trénink zvyšuje minerální hustotu kostí u zdravých postmenopauzálních žen, efekt je dávkově závislý a intenzita a zátěž jsou důležitější než délka trvání. Praktické parametry z její přednášky: dvě série po 8 až 12 opakováních, nejvýše 8 až 10 cviků na lekci, dvakrát až třikrát týdně. K tomu progrese zátěže, protože bez progrese kost nemá důvod se přestavovat. Jóga, pilates, chůze a tai-či snižují závažnost insomnie, to je jiný cíl a jiná dávka.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Kost a&nbsp;sval</div>
+<div class="a cl" style="left:120px;top:190px;width:1460px">Kost reaguje na&nbsp;zátěž, ne na&nbsp;čas strávený cvičením.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Metaanalýzy intervenčních studií</div></div>
+<div class="a" style="left:120px;top:500px;width:1680px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0">
+<div style="padding-right:72px;border-right:1px solid var(--rule)">
+<div class="fig" style="font-size:80px;line-height:1">2 × 8–12</div>
+<div class="k" style="margin-top:20px;color:var(--muted)">série a&nbsp;opakování</div>
+<div class="bd" style="margin-top:22px;font-size:23px">Nejvýše 8–10 cviků na&nbsp;lekci, 2–3× týdně.</div>
+</div>
+<div style="padding:0 72px;border-right:1px solid var(--rule)">
+<div class="sb" style="font-size:32px">Progrese, ne rutina</div>
+<div class="bd" style="margin-top:22px;font-size:23px">Bez rostoucí zátěže nemá kost důvod se přestavovat. Přidávejte kilogramy, ne minuty.</div>
+</div>
+<div style="padding-left:72px">
+<div class="sb" style="font-size:32px">Na&nbsp;spánek jiná dávka</div>
+<div class="bd" style="margin-top:22px;font-size:23px">Jóga, pilates, chůze a&nbsp;tai-či snižují závažnost insomnie. Jiný cíl, jiný recept.</div>
+</div>
+</div>
+<div class="a ref">Efekt na&nbsp;kostní denzitu je dávkově závislý: intenzita a&nbsp;zátěž jsou důležitější než délka trvání</div>
+<div class="a pg">32</div>
+</section>
+
+<section class="slide t-violet" data-label="Spánek jako léčba" data-screen-label="33" data-speaker-notes="Pokud je hlavním problémem nespavost, první volbou je kognitivně behaviorální terapie insomnie, tedy KBT-I. Účinek je srovnatelný s léky a na rozdíl od nich přetrvává po ukončení. Dostupná je i v digitální podobě. Hypnotika mají místo krátkodobě a cíleně. Melatonin má doloženou roli spíš u poruch cirkadiánního rytmu než u klasické insomnie. A pokud spánek boří noční pocení, pak má smysl léčit primárně ty, tedy vazomotorické symptomy, protože bez toho KBT-I naráží.">
+<div class="a k" style="left:120px;top:140px"><span class="tm sym"></span>Léčba příznaků · Spánek</div>
+<div class="a zone" style="width:1600px">
+<div class="st long" style="max-width:1500px">U&nbsp;nespavosti je první volbou terapie, ne tableta.</div>
+<div class="ld" style="margin-top:48px;color:var(--muted);max-width:1420px">Kognitivně behaviorální terapie insomnie má účinek srovnatelný s&nbsp;léky a&nbsp;<b style="color:var(--ink);font-weight:500">na&nbsp;rozdíl od&nbsp;nich vydrží i&nbsp;po&nbsp;ukončení</b>. Existuje i&nbsp;v&nbsp;digitální podobě.</div>
+</div>
+<div class="ev tv-cert tv-cert-a"><div class="tv-cert-mark">A</div><div class="tv-cert-label">První volba u&nbsp;insomnie</div></div>
+<div class="a ref">Pokud spánek boří noční pocení, léčte primárně ty. Bez toho KBT-I naráží.</div>
+<div class="a pg">33</div>
+</section>
+
+<section class="slide t-violet" data-label="Spánek a složení těla" data-screen-label="34" data-speaker-notes="Studie Nedeltcheva a kolektiv, Annals of Internal Medicine 2010. Randomizovaná zkřížená studie, deset dospělých s nadváhou, z toho tři ženy. Čtrnáct dní kalorické restrikce při spánku 5,5 hodiny versus 8,5 hodiny. Úbytek hmotnosti byl v obou režimech stejný, 2,9 až 3 kilogramy. Při krátkém spánku ale ubylo jen 0,6 kg tuku a 2,4 kg tukuprosté hmoty, při dlouhém 1,4 kg tuku a 1,5 kg tukuprosté hmoty. Samostatně: Covassin a kolektiv, JACC 2022, po čtrnácti dnech spánku 4 hodiny versus 9 hodin při stravě ad libitum vzrostl příjem o 308 kcal denně a viscerální tuk o 11 procent. Limity obou: velmi malé vzorky, krátká doba, převážně mladší muži. Pointa je proto kvalitativní, ne kvantitativní: bez spánku hubnete spíš ze svalů než z tuku.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Spánek a&nbsp;složení těla</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Stejný úbytek na&nbsp;váze. Úplně jiný výsledek.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Randomizováno, ale velmi malý vzorek</div></div>
+<div class="a" style="left:120px;top:440px;width:1680px">
+<div style="display:grid;grid-template-columns:280px 1fr;gap:36px 40px;align-items:center">
+<div><div class="sb" style="font-size:30px">5,5&nbsp;h spánku</div><div class="k" style="margin-top:10px;color:var(--muted)">14 dní</div></div>
+<div style="display:flex;height:92px;border-radius:8px;overflow:hidden">
+<div style="width:20%;background:var(--data-sand);display:flex;align-items:center;padding-left:32px"><span class="num" style="font-size:26px;color:var(--violet-ink)">0,6&nbsp;kg</span></div>
+<div style="flex:1;background:var(--accent);display:flex;align-items:center;padding-left:32px"><span class="num" style="font-size:26px;color:#FFFFFF">2,4&nbsp;kg tukuprosté hmoty</span></div>
+</div>
+<div><div class="sb" style="font-size:30px">8,5&nbsp;h spánku</div><div class="k" style="margin-top:10px;color:var(--muted)">14 dní</div></div>
+<div style="display:flex;height:92px;border-radius:8px;overflow:hidden">
+<div style="width:48.3%;background:var(--data-sand);display:flex;align-items:center;padding-left:32px"><span class="num" style="font-size:26px;color:var(--violet-ink)">1,4&nbsp;kg tuku</span></div>
+<div style="width:51.7%;background:var(--accent);display:flex;align-items:center;padding-left:32px"><span class="num" style="font-size:26px;color:#FFFFFF">1,5&nbsp;kg tukuprosté hmoty</span></div>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:280px 1fr;gap:40px;margin-top:34px">
+<div></div>
+<div style="display:flex;gap:56px;align-items:center">
+<div style="display:flex;gap:16px;align-items:center"><span class="swatch" style="background:var(--data-sand)"></span><span class="bd" style="font-size:22px">úbytek tukové hmoty</span></div>
+<div style="display:flex;gap:16px;align-items:center"><span class="swatch" style="background:var(--accent)"></span><span class="bd" style="font-size:22px">úbytek tukuprosté hmoty</span></div>
+<div class="bd" style="font-size:22px">Celkem <b>2,9&ndash;3,0&nbsp;kg</b> v&nbsp;obou skupinách.</div>
+</div>
+</div>
+</div>
+<div class="a ref">Nedeltcheva et&nbsp;al., Ann Intern Med 2010, n&nbsp;=&nbsp;10 (3 ženy), 14 dní kalorické restrikce · Covassin et&nbsp;al., JACC 2022, n&nbsp;=&nbsp;12: příjem +308&nbsp;kcal/den, viscerální tuk +11&nbsp;% · <i>malé vzorky, pointa je kvalitativní</i></div>
+<div class="a pg">34</div>
+</section>
+
+<section class="slide t-violet dark" data-label="Část 4 · Výživa" data-screen-label="35" data-speaker-notes="Přechod do čtvrté části. Nejdůležitější věta: menopauzální dieta neexistuje. Neexistuje jídelníček, který by cílil na hormony. Existuje strava, která chrání srdce a cévy, udrží sval a kost a pokryje mikronutrienty. To je jiná, méně atraktivní, ale pravdivější nabídka. Vliv stravy na samotné návaly je skromný a nekonzistentní, a právě proto ho nebudu nadsazovat.">
+<img class="img" src="assets/duo/photo-food.jpg" alt="Ryby, ořechy, avokádo a zelenina" style="object-position:50% 50%">
+<div class="a" style="inset:0;background:linear-gradient(90deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.91) 48%,rgba(64,18,82,.40) 80%,rgba(64,18,82,.12) 100%)"></div>
+<div class="a k" style="left:120px;top:140px">Část čtvrtá · Výživa</div>
+<div class="a zone" style="width:1340px">
+<div class="st">Menopauzální dieta neexistuje.</div>
+<div class="ld" style="margin-top:44px;color:var(--muted);max-width:1240px">Existuje strava pro <b style="color:var(--ink);font-weight:500">srdce, sval, kost a&nbsp;nutriční adekvátnost</b>. Méně atraktivní nabídka, ale pravdivější.</div>
+</div>
+<div class="a pg">35</div>
+</section>
+
+<section class="slide t-violet" data-label="Čtyři cíle výživy" data-screen-label="36" data-speaker-notes="Takhle rámuji výživové poradenství v tomto období. Čtyři cíle: kardiometabolické zdraví, udržení svalu a kosti, tělesné složení a nutriční adekvátnost. Ani jeden z nich nezní jako marketing a každý z nich má měřitelný výstup. Vliv stravy na vazomotorické symptomy do tohoto seznamu nepatří jako hlavní cíl, protože je skromný a nekonzistentní. Tohle je nejlepší ochrana proti tomu, aby klientka utrácela za doplňky.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Rámec výživy</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Výživa má v&nbsp;tomto období čtyři cíle. Hormony mezi nimi nejsou.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Přehledy 2026</div></div>
+<div class="a" style="left:120px;top:520px;width:1680px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:64px">
+<div><div class="fig" style="font-size:48px">01</div><div class="sb" style="margin-top:20px;font-size:30px">Kardiometabolické zdraví</div><div class="bd" style="margin-top:16px;font-size:22px">Lipidy, tlak, glykemie.</div></div>
+<div><div class="fig" style="font-size:48px">02</div><div class="sb" style="margin-top:20px;font-size:30px">Sval a&nbsp;kost</div><div class="bd" style="margin-top:16px;font-size:22px">Bílkoviny, vápník, vitamin D.</div></div>
+<div><div class="fig" style="font-size:48px">03</div><div class="sb" style="margin-top:20px;font-size:30px">Tělesné složení</div><div class="bd" style="margin-top:16px;font-size:22px">Obvod pasu, ne váha.</div></div>
+<div><div class="fig" style="font-size:48px">04</div><div class="sb" style="margin-top:20px;font-size:30px">Nutriční adekvátnost</div><div class="bd" style="margin-top:16px;font-size:22px">Pokrytí toho, co bývá nízké.</div></div>
+</div>
+<div class="a ref">Curr Nutr Rep 2026;15:69 · Baraut MC, Nutrition during the menopausal transition, Clin Nutr ESPEN 2026;75:103405</div>
+<div class="a pg">36</div>
+</section>
+
+<section class="slide t-violet" data-label="Vzorec, ne superpotraviny" data-screen-label="37" data-speaker-notes="Nejlépe podložený je celkový vzorec stravování středomořského typu: zelenina, ovoce, celozrnné obiloviny, luštěniny, olivový olej, ryby, málo ultrazpracovaných potravin a málo červeného masa. Účinek na kardiometabolické ukazatele je konzistentní. Účinek na samotné návaly je skromný a nekonzistentní a nesmí se prezentovat jako řešení. Alkohol je zvláštní kategorie: na návaly je vyhýbání se spouštěčům slabě podloženo, ale alkohol má prokázané riziko pro nádory prsu a pro spánek, takže o něm mluvím z jiného důvodu, ne jako o léčbě návalů.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Vzorec stravování</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Funguje vzorec stravování, ne jednotlivé potraviny.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Silné na metabolismus, slabé na návaly</div></div>
+<div class="a" style="left:120px;top:480px;width:1680px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0">
+<div style="padding-right:72px;border-right:1px solid var(--rule)">
+<div class="k" style="color:var(--muted)">Co je podložené <span class="tv-cert-chip tv-cert-chip-b">B</span></div>
+<div class="bd" style="margin-top:26px">Středomořský vzorec: zelenina, luštěniny, celozrnné, olivový olej, ryby. Konzistentní efekt na&nbsp;<b>lipidy, tlak a&nbsp;glykemii</b>.</div>
+</div>
+<div style="padding:0 72px;border-right:1px solid var(--rule)">
+<div class="k" style="color:var(--muted)">Co je skromné <span class="tv-cert-chip tv-cert-chip-c">C</span></div>
+<div class="bd" style="margin-top:26px">Vliv stravy na&nbsp;<b>samotné návaly</b>. Efekt je malý a&nbsp;nekonzistentní. Neslibujte si od&nbsp;jídelníčku úlevu od&nbsp;návalů.</div>
+</div>
+<div style="padding-left:72px">
+<div class="k" style="color:var(--muted)">Alkohol zvlášť</div>
+<div class="bd" style="margin-top:26px">Na&nbsp;návaly nejasné. Na&nbsp;<b>riziko nádoru prsu a&nbsp;na&nbsp;spánek</b> ale jasné. Mluvím o&nbsp;něm z&nbsp;tohoto důvodu.</div>
+</div>
+</div>
+<div class="a pg">37</div>
+</section>
+
+<section class="slide t-violet" data-label="Bílkoviny" data-screen-label="38" data-speaker-notes="Tady je potřeba být poctivá o tom, kde končí guideline a kde začíná rozumný odhad. ESPEN a ESCEO doporučují pro zdravé starší dospělé 1,0 až 1,2 g bílkovin na kilogram hmotnosti denně, s rozložením 20 až 25 g kvalitní bílkoviny na jídlo. To je úroveň A až B. Vyšší cíl 1,2 až 1,6 g na kilogram se v praxi používá u žen, které aktivně posilují a chtějí udržet svalovou hmotu, a to je úroveň B, tedy rozumné, ne prokázané guidelinem. Klíčová je kombinace: bílkovina sama sval neudrží, anabolická odpověď na bílkovinu se zvyšuje odporovým tréninkem. Leucinem bohaté zdroje jsou mléčné výrobky, vejce, luštěniny a ryby.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Bílkoviny</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Bílkovina sama sval neudrží. Drží ho spolu se zátěží.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Guideline 1,0–1,2 · vyšší cíl je odhad</div></div>
+<div class="a" style="left:120px;top:436px;width:1680px">
+<div style="position:relative;height:136px">
+<div style="position:absolute;left:20%;width:20%;top:0;height:136px;border-radius:8px 0 0 8px;background:var(--chart-series-1-a50);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px">
+<div class="fig" style="font-size:44px;color:var(--violet-ink)">1,0–1,2</div>
+<div class="k" style="font-size:17px;color:var(--violet-ink)">guideline <span class="tv-cert-chip tv-cert-chip-b">B</span></div>
+</div>
+<div style="position:absolute;left:40%;width:40%;top:0;height:136px;border-radius:0 8px 8px 0;border:2px dashed var(--accent);border-left:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px">
+<div class="fig" style="font-size:44px">1,2–1,6</div>
+<div class="k" style="font-size:17px;color:var(--muted)">praxe u&nbsp;aktivně posilujících <span class="tv-cert-chip tv-cert-chip-c">C</span></div>
+</div>
+</div>
+<div style="height:1px;background:var(--rule)"></div>
+<div style="position:relative;height:46px">
+<div class="k" style="position:absolute;left:0;top:14px;font-size:17px;color:var(--muted)">0,8</div>
+<div class="k" style="position:absolute;left:20%;top:14px;transform:translateX(-50%);font-size:17px;color:var(--muted)">1,0</div>
+<div class="k" style="position:absolute;left:40%;top:14px;transform:translateX(-50%);font-size:17px;color:var(--muted)">1,2</div>
+<div class="k" style="position:absolute;left:80%;top:14px;transform:translateX(-50%);font-size:17px;color:var(--muted)">1,6</div>
+<div class="k" style="position:absolute;right:0;top:14px;font-size:17px;color:var(--muted)">1,8 g/kg denně</div>
+</div>
+<div style="margin-top:26px;display:grid;grid-template-columns:max-content minmax(0,1fr);column-gap:36px;align-items:baseline">
+<div class="fig" style="font-size:56px">20–25&nbsp;g</div>
+<div class="bd">kvalitní bílkoviny <b>na&nbsp;jídlo</b>, rozložené do&nbsp;dne. Zdroje bohaté na&nbsp;leucin: mléčné výrobky, vejce, luštěniny, ryby. Doporučení ESPEN a&nbsp;ESCEO pro&nbsp;zdravé starší dospělé, cíl 1,2–1,6 je praxe, ne prokázaná hranice.</div>
+</div>
+</div>
+<div class="a ref">Doporučení ESPEN a&nbsp;ESCEO, citovaná v&nbsp;Curr Nutr Rep 2026;15:69 · anabolická odpověď na&nbsp;bílkovinu se zvyšuje odporovým tréninkem</div>
+<div class="a pg">38</div>
+</section>
+
+<section class="slide t-violet" data-label="Kost a mikronutrienty" data-screen-label="39" data-speaker-notes="Pro kost: vápník především z jídla, zakysané mléčné výrobky, sýry, sardinky s kostí, mák, sezam, tvrdé minerální vody. Vitamin D suplementovat, protože v našich zeměpisných šířkách se z jídla a ze slunce nedá pokrýt. Bílkoviny a odporový trénink jsou stejně důležité jako minerály. Vitamin K2 ve formě MK-4 a kreatin monohydrát jsou oblasti se slibnými, ale nejistými daty, proto úroveň C, a mluvím o nich jako o možnosti, ne jako o doporučení. Pozor na jednu věc, kterou publikum často nevím: potřeba železa po menopauze klesá, takže rutinní suplementace železa bez vyšetření je chyba.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Prevence · Kost a&nbsp;mikronutrienty</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Pro kost nejde jen o&nbsp;vápník.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Dva prvky na slidu jsou pouze C</div></div>
+<div class="a" style="left:120px;top:470px;width:1680px;display:grid;grid-template-columns:1fr 1fr;gap:0">
+<div style="padding-right:80px;border-right:1px solid var(--rule)">
+<div class="k" style="color:var(--muted)">Co má oporu</div>
+<ul class="li bd" style="margin-top:28px;font-size:23px">
+<li><b>vápník 1 000–1 200&nbsp;mg denně</b>, přednostně z&nbsp;jídla: zakysané výrobky, sýry, sardinky s&nbsp;kostí, mák, sezam, tvrdé vody</li>
+<li><b>vitamin D 600–1 000&nbsp;IU denně</b>, u&nbsp;nás ho ze slunce a&nbsp;jídla nepokryjete</li>
+<li><b>bílkoviny a&nbsp;odporový trénink</b>, stejně důležité jako minerály</li>
+</ul>
+<div class="bd" style="margin-top:26px;font-size:22px">Samotná suplementace vápníku a&nbsp;vitaminu D ale <b>zlomeniny u&nbsp;všech žen nezabrání</b>. Je to podmínka, ne intervence.</div>
+</div>
+<div style="padding-left:80px">
+<div class="k" style="color:var(--muted)">Co je nejisté a&nbsp;co už neprošlo</div>
+<ul class="li bd" style="margin-top:28px;font-size:23px">
+<li><b>kreatin monohydrát</b> <span class="tv-cert-chip tv-cert-chip-c">C</span>, slibný na&nbsp;sílu a&nbsp;kognici</li>
+<li><b>magnezium</b> <span class="tv-cert-chip tv-cert-chip-c">C</span>: vyšší příjem souvisí s&nbsp;vyšší denzitou, ale v&nbsp;kohortách <b>nesnížil riziko zlomenin</b></li>
+<li><b>vitamin K2</b> <span class="tv-cert-chip tv-cert-chip-b">B</span>: menachinon-7 v&nbsp;dávce 375&nbsp;µg denně přidaný k&nbsp;vápníku a&nbsp;vitaminu D <b>úbytku denzity nezabránil</b> ve&nbsp;tříleté randomizované studii</li>
+</ul>
+<div class="bd" style="margin-top:26px;font-size:22px"><b>Pozor:</b> potřeba železa po&nbsp;menopauze klesá. Rutinní suplementace bez vyšetření je chyba.</div>
+</div>
+</div>
+<div class="a ref">Curr Nutr Rep 2026;15:69 · Clin Nutr ESPEN 2026;75:103405 · u&nbsp;K2 jde o&nbsp;negativní nález v&nbsp;randomizované studii, ne o&nbsp;chybějící data</div>
+<div class="a pg">39</div>
+</section>
+
+<section class="slide t-violet" data-label="Evidence · fytoestrogeny" data-screen-label="40" data-speaker-notes="Pátá evidenční karta a nejčastější dotaz z publika. Izoflavony ze sóji: efekt na návaly je v metaanalýzách malý a nekonzistentní, sójové extrakty a metabolit equol jsou v position statementu v kategorii nedoporučeno pro léčbu vazomotorických symptomů. To neznamená, že sója je špatná, sójové potraviny jsou naopak dobrým zdrojem bílkoviny v kardioprotektivním jídelníčku. Probiotika: metaanalýza v Clinical Nutrition ESPEN nalezla příznivé efekty na menopauzální symptomy, urogenitální a kostní zdraví, ale sama uvádí vysoké riziko bias a heterogenitu zahrnutých studií, takže výsledek je slibný signál, nikoli podklad k doporučení. Zdůrazněte rozdíl mezi potravinou a extraktem a mezi slibným a prokázaným.">
+<div class="a k" style="left:120px;top:140px"><span class="tm sym"></span>Léčba příznaků · Evidenční karta</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Zmírní fytoestrogeny nebo probiotika návaly?</div>
+<div class="ev tv-cert tv-cert-c"><div class="tv-cert-mark">C</div><div class="tv-cert-label">Slibné, ne prokázané</div></div>
+<div class="a" style="left:120px;top:450px;width:1680px">
+<div class="evc">
+<div><div class="lab">Otázka</div><div class="txt">Mají izoflavony ze&nbsp;sóji nebo probiotika nahradit léčbu návalů?</div></div>
+<div><div class="lab">Zjištění</div><div class="txt">Izoflavony: efekt <b>malý a&nbsp;nekonzistentní</b>, extrakty a&nbsp;equol nedoporučeny. Probiotika: příznivé nálezy, ale <b>vysoké riziko bias</b>.</div></div>
+<div><div class="lab">Interpretace</div><div class="txt">Sójové <b>potraviny</b> ano, jako dobrý zdroj bílkoviny. Sójové <b>extrakty</b> jako léčba návalů ne.</div></div>
+<div><div class="lab">Limit</div><div class="txt">Heterogenní studie, krátké trvání, malé vzorky. Rozdíl mezi potravinou a&nbsp;extraktem je zásadní.</div></div>
+</div>
+</div>
+<div class="a ref">The Menopause Society, nonhormone therapy position statement · metaanalýza probiotik, Clin Nutr ESPEN, sedm studií, vysoké riziko bias</div>
+<div class="a pg">40</div>
+</section>
+
+<section class="slide t-violet dark" data-label="Část 5 · Nástroje" data-screen-label="41" data-speaker-notes="Přechod do poslední části a nejdůležitější disclaimer celé přednášky. To, co teď přijde, nejsou zdravotnická doporučení. Jsou to koučovací nástroje z metodiky Precision Nutrition, tedy pomůcky, jak vůbec začít a jak vydržet. Mají jinou povahu než guideline: neříkají, co je správné, ale jak to zavést. Proto mají svou vlastní značku P a proto jsou až na konci, ne na začátku.">
+<img class="img" src="assets/duo/photo-kitchen.jpg" alt="Zelenina na kuchyňské desce" style="object-position:50% 50%">
+<div class="a" style="inset:0;background:linear-gradient(90deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.91) 46%,rgba(64,18,82,.40) 80%,rgba(64,18,82,.12) 100%)"></div>
+<div class="a k" style="left:120px;top:140px">Část pátá · Co můžu začít zítra</div>
+<div class="a zone" style="width:1360px">
+<div class="st">Tohle už nejsou doporučení. Jsou to nástroje.</div>
+<div class="ld" style="margin-top:44px;color:var(--muted);max-width:1260px">Koučovací pomůcky z&nbsp;metodiky Precision Nutrition. Neříkají, <i>co je správné</i>. Říkají, <b style="color:var(--ink);font-weight:500">jak to zavést a&nbsp;jak vydržet</b>.</div>
+</div>
+<div class="ev tv-cert tv-cert-p tv-cert-scrim"><div class="tv-cert-mark">P</div><div class="tv-cert-label">Praktický nástroj, ne doporučení</div></div>
+<div class="a pg">41</div>
+</section>
+
+<section class="slide t-violet" data-label="Proč vytrvat" data-screen-label="42" data-speaker-notes="Tohle je důvod, proč má pátá část decku vůbec smysl. Observační data říkají, že čtyřicet až padesát procent žen, které začnou hormonální léčbu, ji do roka ukončí, a šedesát pět až sedmdesát pět procent do dvou let, často bez konzultace s lékařem. Nejsou to čísla o účinnosti, jsou to čísla o vytrvání. Platí to samozřejmě i pro pohyb, spánkovou hygienu a stravu. Proto nemá cenu mít dokonalé doporučení a nemít nástroj na jeho zavedení.">
+<div class="a k" style="left:120px;top:140px"><span class="tm tool"></span>Nástroj · Vytrvání</div>
+<div class="a cl long" style="left:120px;top:190px;width:1500px">Léčba, kterou žena po&nbsp;roce nebere, nefunguje.</div>
+<div class="ev tv-cert tv-cert-b"><div class="tv-cert-mark">B</div><div class="tv-cert-label">Observační data, ne randomizovaná</div></div>
+<div class="a" style="left:120px;top:470px;width:1680px;display:grid;grid-template-columns:max-content minmax(0,1fr);column-gap:40px;row-gap:34px;align-items:baseline">
+<div class="fig" style="font-size:76px">40–50&nbsp;%</div><div class="bd">žen, které začnou hormonální léčbu, ji <b>ukončí do&nbsp;jednoho roku</b></div>
+<div class="fig" style="font-size:76px">65–75&nbsp;%</div><div class="bd">ji ukončí <b>do&nbsp;dvou let</b>, často bez konzultace s&nbsp;lékařem</div>
+<div class="bd" style="grid-column:1/-1;margin-top:6px">Nejsou to čísla o&nbsp;účinnosti. Jsou to čísla o&nbsp;vytrvání. Stejně to platí pro&nbsp;pohyb, spánek i&nbsp;stravu.</div>
+</div>
+<div class="a ref">UpToDate, Treatment of menopausal symptoms with hormone therapy, 2026, oddíl Stopping hormone therapy</div>
+<div class="a pg">42</div>
+</section>
+
+<section class="slide t-violet" data-label="Jedna změna" data-screen-label="43" data-speaker-notes="Nejúčinnější nástroj z celé metodiky a zároveň nejméně atraktivní: jedna změna v čase, dokud nedrží sama. Typicky dva až čtyři týdny na jeden návyk. Důvod je prozaický: většina lidí nezvládne v lednu změnit spánek, jídlo i trénink, a v únoru je zpátky u ničeho. Praktické vodítko, které používám: vyberte návyk, o kterém si na stupnici od 1 do 10 troufnete říct alespoň 9, že ho zvládnete. Pokud je odpověď 7, návyk je moc velký a je potřeba ho zmenšit, ne se víc snažit.">
+<div class="a k" style="left:120px;top:140px"><span class="tm tool"></span>Nástroj · Zavádění</div>
+<div class="a" style="left:120px;top:210px;width:860px;height:700px;display:flex;flex-direction:column;justify-content:center">
+<div class="cl n">Jedna změna v&nbsp;čase, dokud nedrží sama.</div>
+<div class="bd" style="margin-top:36px">Typicky dva až čtyři týdny na&nbsp;jeden návyk. Kdo v&nbsp;lednu mění spánek, jídlo i&nbsp;trénink, má v&nbsp;únoru zpátky nic.</div>
+</div>
+<div class="ev tv-cert tv-cert-p"><div class="tv-cert-mark">P</div><div class="tv-cert-label">Koučovací nástroj</div></div>
+<div class="a" style="left:1080px;top:210px;width:720px;height:700px;display:flex;flex-direction:column;justify-content:center">
+<div class="k" style="color:var(--muted)">Test velikosti návyku</div>
+<div class="ld" style="margin-top:28px">Na&nbsp;stupnici 1 až 10: <b>jak jistě to zvládnu každý den?</b></div>
+<div style="margin-top:36px;display:grid;grid-template-columns:max-content minmax(0,1fr);column-gap:32px;align-items:baseline;column-gap:28px;row-gap:22px">
+<div class="fig" style="font-size:52px">9–10</div><div class="bd" style="font-size:23px">Začněte.</div>
+<div class="fig" style="font-size:52px">&#8804;&nbsp;8</div><div class="bd" style="font-size:23px">Návyk je moc velký. <b>Zmenšete ho</b>, nesnažte se víc.</div>
+</div>
+</div>
+<div class="a pg">43</div>
+</section>
+
+<section class="slide t-violet" data-label="Porce podle ruky" data-screen-label="44" data-speaker-notes="Stejný průvodce, jaký máme na webu v sekci Porce podle ruky, jen ve fialové a v deckovém měřítku. Dlaň je míra bílkovinné potraviny, u masa nebo tofu jde o plochu a tloušťku dlaně, prsty se nepočítají. Pěst je objemová míra zeleniny. Hrst, tedy dlaň prohnutá do mističky se spojenými prsty, je míra sacharidové přílohy. Palec od kořene ke špičce je míra tuků. Výhoda je, že ruka roste s tělem a je vždycky s sebou, takže to funguje bez vážení a bez aplikace. Dvě věci řekněte nahlas: ilustrace není kalibrované měřítko a počet kusů jídla na obrázku není návod k odměřování. A pořád jde o koučovací nástroj, ne o doporučený postup ani o individuální jídelníček.">
+<div class="a k" style="left:120px;top:140px"><span class="tm tool"></span>Nástroj · Porce podle ruky</div>
+<div class="a cl" style="left:120px;top:190px;width:1460px">Čtyři míry, které máte po&nbsp;ruce.</div>
+<div class="ev tv-cert tv-cert-p"><div class="tv-cert-mark">P</div><div class="tv-cert-label">Koučovací nástroj, ne dávkování</div></div>
+<div class="a" style="left:120px;top:388px;width:1680px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:48px;align-items:start">
+<div style="display:flex;flex-direction:column;align-items:center;text-align:center">
+<img src="assets/portions/hand-palm-violet.png" alt="Ilustrace ruky: dlaň" style="width:232px;height:232px;object-fit:contain">
+<div class="sb" style="margin-top:20px;font-size:34px">Dlaň</div>
+<div class="k" style="margin-top:12px;color:var(--muted)">Bílkoviny</div>
+<div class="bd" style="margin-top:18px;font-size:22px;max-width:340px">U&nbsp;masa nebo tofu je porcí plocha a&nbsp;tloušťka dlaně. Prsty se nepočítají.</div>
+<div class="bd" style="margin-top:14px;font-size:22px;font-style:italic;max-width:340px">maso, ryby, tofu</div>
+</div>
+<div style="display:flex;flex-direction:column;align-items:center;text-align:center">
+<img src="assets/portions/hand-fist-violet.png" alt="Ilustrace ruky: pěst" style="width:232px;height:232px;object-fit:contain">
+<div class="sb" style="margin-top:20px;font-size:34px">Pěst</div>
+<div class="k" style="margin-top:12px;color:var(--muted)">Zelenina</div>
+<div class="bd" style="margin-top:18px;font-size:22px;max-width:340px">Objem sevřené pěsti slouží jako orientační míra porce zeleniny.</div>
+<div class="bd" style="margin-top:14px;font-size:22px;font-style:italic;max-width:340px">brokolice, mrkev, květák</div>
+</div>
+<div style="display:flex;flex-direction:column;align-items:center;text-align:center">
+<img src="assets/portions/hand-cupped-violet.png" alt="Ilustrace ruky: hrst" style="width:232px;height:232px;object-fit:contain">
+<div class="sb" style="margin-top:20px;font-size:34px">Hrst</div>
+<div class="k" style="margin-top:12px;color:var(--muted)">Sacharidy</div>
+<div class="bd" style="margin-top:18px;font-size:22px;max-width:340px">Prohněte dlaň do&nbsp;mističky a&nbsp;spojte prsty. Co se do&nbsp;ní vejde, je porce přílohy.</div>
+<div class="bd" style="margin-top:14px;font-size:22px;font-style:italic;max-width:340px">rýže, brambory, těstoviny</div>
+</div>
+<div style="display:flex;flex-direction:column;align-items:center;text-align:center">
+<img src="assets/portions/hand-thumb-violet.png" alt="Ilustrace ruky: palec" style="width:232px;height:232px;object-fit:contain">
+<div class="sb" style="margin-top:20px;font-size:34px">Palec</div>
+<div class="k" style="margin-top:12px;color:var(--muted)">Tuky</div>
+<div class="bd" style="margin-top:18px;font-size:22px;max-width:340px">Objem celého palce od&nbsp;kořene ke&nbsp;špičce.</div>
+<div class="bd" style="margin-top:14px;font-size:22px;font-style:italic;max-width:340px">ořechy, olej, ořechové máslo</div>
+</div>
+</div>
+<div class="a ref">Stejný průvodce jako na&nbsp;webu, sekce Porce podle ruky · metoda hand measures dle Precision Nutrition · ilustrace nejsou kalibrovaná měřítka a&nbsp;počet kusů jídla na&nbsp;nich není návod k&nbsp;odměřování</div>
+<div class="a pg">44</div>
+</section>
+
+<section class="slide t-violet" data-label="Sytost a tempo" data-screen-label="45" data-speaker-notes="Druhý koučovací nástroj. Jíst do osmdesáti procent sytosti a věnovat jídlu přibližně dvacet minut. Ani jedno nemá stanovenou dávku v guidelines, obojí funguje především tím, že zpomalí a zviditelní jídlo. V praxi je to nejlepší první návyk pro ženu, která má pocit, že musí začít vážit a počítat: nemusí, a přesto se něco změní.">
+<div class="a k" style="left:120px;top:140px"><span class="tm tool"></span>Nástroj · Sytost a&nbsp;tempo</div>
+<div class="a zone" style="width:1600px">
+<div class="st long" style="max-width:1480px">Jíst do&nbsp;80&nbsp;% sytosti a&nbsp;dát jídlu 20&nbsp;minut.</div>
+<div class="ld" style="margin-top:48px;color:var(--muted);max-width:1400px">Funguje hlavně tím, že <b>zpomalí a&nbsp;zviditelní jídlo</b>. Není to dávkování ani dieta. Nejlepší první návyk pro ženu, která má pocit, že musí začít vážit a&nbsp;počítat.</div>
+</div>
+<div class="ev tv-cert tv-cert-p"><div class="tv-cert-mark">P</div><div class="tv-cert-label">Koučovací nástroj, ne dávkování</div></div>
+<div class="a pg">45</div>
+</section>
+
+<section class="slide t-violet" data-label="Dva týdny" data-screen-label="46" data-speaker-notes="Konkrétní odpověď na otázku co zítra. Tři sloupce záměrně míchají všechny tři kategorie, protože v reálném životě se dělají současně. Změřit: tlak, obvod pasu a týden spánku. Zavést: jeden návyk, dva odporové tréninky týdně a bílkovinu do každého jídla. Probrat s lékařem: příznaky, které berou funkci, lipidy, a pokud jsou návaly zatěžující, možnosti léčby včetně nehormonálních. Nevyžaduje to žádné doplňky a žádnou dietu.">
+<div class="a k" style="left:120px;top:140px">Co konkrétně zítra</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Dva týdny. Tři sloupce. Žádný doplněk.</div>
+<div class="a" style="left:120px;top:480px;width:1680px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:56px">
+<div class="card">
+<div class="k"><span class="tm prev"></span>Změřit</div>
+<ul class="li bd" style="margin-top:28px;font-size:23px"><li>krevní tlak</li><li>obvod pasu</li><li>týden spánku, jen zapisovat</li></ul>
+</div>
+<div class="card">
+<div class="k"><span class="tm tool"></span>Zavést</div>
+<ul class="li bd" style="margin-top:28px;font-size:23px"><li>jeden návyk, ne pět</li><li>dva odporové tréninky týdně</li><li>bílkovina do&nbsp;každého jídla</li></ul>
+</div>
+<div class="card" style="border-color:var(--accent)">
+<div class="k"><span class="tm sym"></span>Probrat s&nbsp;lékařem</div>
+<ul class="li bd" style="margin-top:28px;font-size:23px"><li>příznaky, které berou funkci</li><li>lipidy a&nbsp;glykemii</li><li>možnosti léčby návalů</li></ul>
+</div>
+</div>
+<div class="a pg">46</div>
+</section>
+
+<section class="slide t-violet" data-label="Kam patří co" data-screen-label="47" data-speaker-notes="Rekapitulace tří kategorií na konkrétních příkladech, ať to publiku zůstane. Léčba příznaků: hormonální léčba, lokální estrogen, KBT, nehormonální léky. Prevence: pohyb a odporový trénink, vzorec stravování, spánek, měření tlaku a lipidů. Nástroje: jeden návyk v čase, porce podle ruky, osmdesát procent sytosti. Poslední řádek je nejdůležitější: doplňky nepatří ani do jedné z těch tří kategorií jako první volba.">
+<div class="a k" style="left:120px;top:140px">Rekapitulace</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Kam patří co.</div>
+<div class="a" style="left:120px;top:440px;width:1680px;display:grid;gap:0">
+<div style="display:grid;grid-template-columns:480px 1fr;gap:60px;align-items:start;border-bottom:1px solid var(--rule);padding-bottom:34px">
+<div class="k"><span class="tm sym"></span>Léčba příznaků</div>
+<div class="bd" style="font-size:24px">hormonální léčba · lokální estrogen · kognitivně behaviorální terapie · nehormonální léky</div>
+</div>
+<div style="display:grid;grid-template-columns:480px 1fr;gap:60px;align-items:start;border-bottom:1px solid var(--rule);padding:34px 0">
+<div class="k"><span class="tm prev"></span>Prevence nemocí</div>
+<div class="bd" style="font-size:24px">odporový trénink a&nbsp;aerobní zátěž · vzorec stravování · bílkoviny, vápník, vitamin D · spánek · tlak a&nbsp;lipidy</div>
+</div>
+<div style="display:grid;grid-template-columns:480px 1fr;gap:60px;align-items:start;border-bottom:1px solid var(--rule);padding:34px 0">
+<div class="k"><span class="tm tool"></span>Nástroje chování</div>
+<div class="bd" style="font-size:24px">jeden návyk v&nbsp;čase · porce podle ruky · 80&nbsp;% sytosti a&nbsp;pomalé jedení</div>
+</div>
+<div style="display:grid;grid-template-columns:480px 1fr;gap:60px;align-items:start;padding-top:34px">
+<div class="k" style="color:var(--muted)">Nikam jako první volba</div>
+<div class="bd" style="font-size:24px"><b>doplňky a&nbsp;bylinné přípravky na&nbsp;návaly.</b> Mají místo při doloženém nedostatku, ne jako léčba přechodu.</div>
+</div>
+</div>
+<div class="a pg">47</div>
+</section>
+
+<section class="slide t-violet dark" data-label="Závěr" data-screen-label="48" data-speaker-notes="Závěr. Zdravé stárnutí nezačíná po menopauze. Střední věk je prevenční okno pro srdce, metabolismus, kost a sval, psychiku i sexuální zdraví, a to okno je otevřené právě teď. Dvě věty, které chci, aby si publikum odneslo: příznaky se dají léčit a mají se léčit, pokud berou funkci. A dlouhodobé riziko se dá ovlivnit, a to nástroji, které nikdo neprodává v lahvičce.">
+<img class="img" src="assets/duo/photo-lift.jpg" alt="Žena zvedá osu nad hlavu" style="object-position:50% 40%">
+<div class="a" style="inset:0;background:linear-gradient(90deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.91) 46%,rgba(64,18,82,.42) 80%,rgba(64,18,82,.12) 100%)"></div>
+<div class="a zone" style="width:1340px">
+<div class="st">Zdravé stárnutí nezačíná po&nbsp;menopauze.</div>
+<div class="ld" style="margin-top:48px;color:var(--muted);max-width:1240px">Příznaky se dají léčit, pokud berou funkci. Dlouhodobé riziko se dá ovlivnit, a&nbsp;to nástroji, které <b style="color:var(--ink);font-weight:500">nikdo neprodává v&nbsp;lahvičce</b>.</div>
+</div>
+<div class="a pg">48</div>
+</section>
+
+<section class="slide t-violet" data-label="Zdroje" data-screen-label="49" data-speaker-notes="Zdroje. Doporučení a position statements vlevo, přehledové práce a klinické zdroje vpravo. Každé tvrzení v decku nese stupeň jistoty podle toho, z čeho pochází, takže když se někdo zeptá na konkrétní číslo, dá se dohledat.">
+<div class="a k" style="left:120px;top:140px"><span class="tm prev"></span>Zdroje</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Z&nbsp;čeho tato přednáška vychází.</div>
+<div class="a" style="left:120px;top:348px;width:1680px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));column-gap:40px;row-gap:24px">
+<div style="border-top:1px solid var(--rule);padding-top:18px">
+<div class="fig" style="font-size:26px;color:var(--muted)">01</div>
+<div class="sb" style="margin-top:10px;font-size:23px">NICE NG23</div>
+<div class="bd" style="margin-top:8px;font-size:20px;line-height:1.45;color:var(--muted)">Menopause: identification and management, 2026</div>
+</div>
+<div style="border-top:1px solid var(--rule);padding-top:18px">
+<div class="fig" style="font-size:26px;color:var(--muted)">02</div>
+<div class="sb" style="margin-top:10px;font-size:23px">ESE Clinical Practice Guideline</div>
+<div class="bd" style="margin-top:8px;font-size:20px;line-height:1.45;color:var(--muted)">Eur J Endocrinol 2025;193(4):G49&ndash;G81</div>
+</div>
+<div style="border-top:1px solid var(--rule);padding-top:18px">
+<div class="fig" style="font-size:26px;color:var(--muted)">03</div>
+<div class="sb" style="margin-top:10px;font-size:23px">The Menopause Society</div>
+<div class="bd" style="margin-top:8px;font-size:20px;line-height:1.45;color:var(--muted)">nonhormone therapy position statement 2023</div>
+</div>
+<div style="border-top:1px solid var(--rule);padding-top:18px">
+<div class="fig" style="font-size:26px;color:var(--muted)">04</div>
+<div class="sb" style="margin-top:10px;font-size:23px">The Menopause Society</div>
+<div class="bd" style="margin-top:8px;font-size:20px;line-height:1.45;color:var(--muted)">position statements k&nbsp;hormonální léčbě</div>
+</div>
+<div style="border-top:1px solid var(--rule);padding-top:18px">
+<div class="fig" style="font-size:26px;color:var(--muted)">05</div>
+<div class="sb" style="margin-top:10px;font-size:23px">Curr Nutr Rep 2026;15:69</div>
+<div class="bd" style="margin-top:8px;font-size:20px;line-height:1.45;color:var(--muted)">Bonnes SLR et&nbsp;al., 2026</div>
+</div>
+<div style="border-top:1px solid var(--rule);padding-top:18px">
+<div class="fig" style="font-size:26px;color:var(--muted)">06</div>
+<div class="sb" style="margin-top:10px;font-size:23px">Clin Nutr ESPEN 2026;75:103405</div>
+<div class="bd" style="margin-top:8px;font-size:20px;line-height:1.45;color:var(--muted)">Baraut MC, Nutrition during the menopausal transition</div>
+</div>
+<div style="border-top:1px solid var(--rule);padding-top:18px">
+<div class="fig" style="font-size:26px;color:var(--muted)">07</div>
+<div class="sb" style="margin-top:10px;font-size:23px">UpToDate 2026</div>
+<div class="bd" style="margin-top:8px;font-size:20px;line-height:1.45;color:var(--muted)">Menopause: Clinical features and diagnosis</div>
+</div>
+<div style="border-top:1px solid var(--rule);padding-top:18px">
+<div class="fig" style="font-size:26px;color:var(--muted)">08</div>
+<div class="sb" style="margin-top:10px;font-size:23px">UpToDate 2026</div>
+<div class="bd" style="margin-top:8px;font-size:20px;line-height:1.45;color:var(--muted)">Menopausal hot flashes</div>
+</div>
+<div style="border-top:1px solid var(--rule);padding-top:18px">
+<div class="fig" style="font-size:26px;color:var(--muted)">09</div>
+<div class="sb" style="margin-top:10px;font-size:23px">UpToDate 2026</div>
+<div class="bd" style="margin-top:8px;font-size:20px;line-height:1.45;color:var(--muted)">Treatment of menopausal symptoms</div>
+</div>
+<div style="border-top:1px solid var(--rule);padding-top:18px">
+<div class="fig" style="font-size:26px;color:var(--muted)">10</div>
+<div class="sb" style="margin-top:10px;font-size:23px">UpToDate 2026</div>
+<div class="bd" style="margin-top:8px;font-size:20px;line-height:1.45;color:var(--muted)">Benefits and risks of MHT</div>
+</div>
+<div style="border-top:1px solid var(--rule);padding-top:18px">
+<div class="fig" style="font-size:26px;color:var(--muted)">11</div>
+<div class="sb" style="margin-top:10px;font-size:23px">UpToDate 2026</div>
+<div class="bd" style="margin-top:8px;font-size:20px;line-height:1.45;color:var(--muted)">Genitourinary syndrome of menopause</div>
+</div>
+<div style="border-top:1px solid var(--rule);padding-top:18px">
+<div class="fig" style="font-size:26px;color:var(--muted)">12</div>
+<div class="sb" style="margin-top:10px;font-size:23px">UpToDate 2026</div>
+<div class="bd" style="margin-top:8px;font-size:20px;line-height:1.45;color:var(--muted)">Management of primary ovarian insufficiency</div>
+</div>
+
+</div>
+<div class="a ref">Studie citované jmenovitě: SWAN · WHI · SKYLIGHT 1 a&nbsp;2 · OASIS 1 a&nbsp;2 · Nedeltcheva 2010 · Covassin 2022 · každé tvrzení nese stupeň jistoty A, B, C nebo P podle zdroje, ze kterého pochází</div>
+<div class="a pg">49</div>
+</section>
+
+<section class="slide t-violet dark" data-label="Děkuji" data-screen-label="50" data-speaker-notes="Děkuji. Prostor pro otázky. Kontakt je na slidu. Pokud se někdo ptá na konkrétní léčbu nebo dávkování, odkazuji do ordinace, na webináři to nejde rozhodovat.">
+<img class="img" src="assets/duo/photo-midlife.jpg" alt="Žena ve středním věku" style="object-position:70% 30%">
+<div class="a" style="inset:0;background:linear-gradient(90deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.90) 46%,rgba(64,18,82,.38) 80%,rgba(64,18,82,.12) 100%)"></div>
+<img src="assets/sig-violet.png" class="a" alt="Monogram Tv" style="left:120px;top:96px;width:196px;filter:brightness(0) invert(1)">
+<div class="a" style="left:120px;top:352px;width:1240px;height:576px;display:flex;flex-direction:column;justify-content:center">
+<div class="st" style="font-size:96px">Děkuji za&nbsp;pozornost.</div>
+<div class="ld" style="margin-top:52px;color:var(--muted)">Mgr. Ing. Tereza Vágnerová, Ph.D.<br>Healthy Longevity Clinic<br>Klinika geriatrie a&nbsp;interní medicíny 1.&nbsp;LF UK a&nbsp;VFN<br>Klinika endokrinologie a&nbsp;metabolismu 1.&nbsp;LF UK a&nbsp;VFN<br>EFAD – European Federation of the Associations of Dietitians</div>
+<div class="k" style="margin-top:40px;text-transform:none;letter-spacing:.04em">tereza.vagnerova@lf1.cuni.cz · +420&nbsp;774&nbsp;355&nbsp;768</div>
+</div>
+</section>
+
+</x-import>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showEvidenceMarks&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Deck&quot;},&quot;showTrackMarks&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Deck&quot;},&quot;showSources&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Deck&quot;},&quot;showPageNumbers&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Deck&quot;},&quot;showPhotos&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Deck&quot;}}">
+class Component extends DCLogic {
+  componentDidMount() { this._apply(); }
+  componentDidUpdate() { this._apply(); }
+  _apply() {
+    let st = document.getElementById('deck-tweaks');
+    if (!st) { st = document.createElement('style'); st.id = 'deck-tweaks'; document.head.appendChild(st); }
+    const r = [];
+    if (this.props.showEvidenceMarks === false) r.push('.tv-cert{display:none}', '.tv-cert-chip{display:none}');
+    if (this.props.showTrackMarks === false) r.push('.tm{display:none}');
+    if (this.props.showPageNumbers === false) r.push('.pg{display:none}');
+    if (this.props.showPhotos === false) r.push('.slide .img,.slide .split-img{display:none}');
+    if (this.props.showSources === false) r.push('.ref{display:none}');
+    st.textContent = r.join('\n');
+  }
+}
+</script>
+</body>
+</html>

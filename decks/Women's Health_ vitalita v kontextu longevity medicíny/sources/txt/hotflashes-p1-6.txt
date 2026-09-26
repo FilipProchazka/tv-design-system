@@ -1,0 +1,226 @@
+Official reprint from UpToDate
+www.uptodate.com © 2026 UpToDate, Inc. and/or its affiliates. All Rights Reserved.
+Menopausal hot flashes
+INTRODUCTION
+Hot flashes occur in approximately 75 to 80 percent of menopausal women in the United
+States. The flashes most often begin in the perimenopausal period, although, in some
+women, they do not begin until after menopause. Hot flashes are almost always due to
+menopause. Other causes, including carcinoid syndrome, are uncommon ( table 1).
+The prevalence, pathophysiology, and treatment of hot flashes will be reviewed here. Other
+menopausal symptoms and the risks, benefits, and practical aspects of menopausal hormone
+therapy (MHT) are reviewed separately. (See "Menopause: Clinical features and diagnosis" and
+"Menopausal hormone therapy: Benefits and risks" and "Treatment of menopausal symptoms
+with hormone therapy" and "Genitourinary syndrome of menopause: Treatment of
+vulvovaginal atrophy".)
+EPIDEMIOLOGY
+Symptoms become far more common during the menopausal transition, with a frequency of
+approximately 40 percent in the early transition and increasing to 60 to 80 percent in the late
+menopausal transition and early postmenopausal stage ( figure 1) [1-5].
+Prevalence and natural history — Vasomotor symptoms (VMS) or "hot flashes" are the most
+common complaint during the menopausal transition, occurring in up to 80 percent of
+women [2,6-8], although the frequency appears to vary by culture and ethnicity [9,10] (see
+'Risk factors' below). Many to most women describe their symptoms as severe, but only
+approximately 20 to 30 percent of women seek medical attention for treatment [1,11,12].
+®
+AUTHOR: Robert F Casper, MD
+SECTION EDITOR: Robert L Barbieri, MD
+DEPUTY EDITOR: Jean E Mulder, MD
+All topics are updated as new evidence becomes available and our peer review process is complete.
+Literature review current through: Aug 2026.
+This topic last updated: Jan 06, 2026.
+
+-- 1 of 38 --
+
+Some women first develop hot flashes that cluster around menses during their late
+reproductive years, but symptoms are typically mild and do not require treatment.
+Symptoms become far more common during the menopausal transition, with a frequency of
+approximately 40 percent in the early transition and increasing to 60 to 80 percent in the late
+menopausal transition and early postmenopausal stage ( figure 1) [1-5].
+Four different trajectories of menopausal symptoms occur with nearly equal frequency: early
+onset 18.4 percent; onset near final menstrual period with later decline 29.0 percent; early
+onset with persistently high frequency 25.6 percent; and persistently low frequency 27.0
+percent ( figure 2) [13].
+Risk factors
+Duration — It had been thought that VMS diminishes and stops within a few years of onset in
+most women [12]. However, accumulating data suggest that symptoms typically last far
+longer [19-22]:
+Obesity – Obese postmenopausal women have higher serum estrone concentrations than
+lean women due to increased peripheral conversion of androstenedione in adipose tissue
+[14,15], but paradoxically, these women are more likely to have hot flashes [16,17]. Weight
+loss may help reduce their hot flashes [18]. (See 'Complementary and alternative therapies'
+below.)
+●
+Smoking [16,17].	●
+Reduced physical activity.	●
+Socioeconomic factors – Obtaining less than a high school education and having difficulty
+paying for basics are associated with a higher frequency of hot flashes [16].
+●
+Hormonal concentrations – Annual serum follicle-stimulating hormone (FSH) levels, but not
+other hormones (estradiol, testosterone, dehydroepiandrosterone sulfate [DHEAS]), when
+collectively modeled longitudinally, are associated with both the prevalence and frequency
+of VMS [1].
+●
+Ethnic factors – African American women report more frequent hot flashes than Caucasian
+women, and Japanese and Chinese women report less [8,16].
+●
+In the Penn Ovarian Aging Study, the mean duration of moderate/severe hot flashes was
+4.9 years, but one-third of women continued to experience moderate/severe hot flashes for
+10 years after the final menstrual period (FMP) [21].
+●
+Nine percent of women were still experiencing hot flashes at age 72 years in one study [20].
+In a second study, 8 percent of women continued to have hot flashes into their late
+●
+
+-- 2 of 38 --
+
+The long duration of hot flashes raises treatment challenges for many women (typically no
+more than four to five years to avoid excess breast cancer risk). Therefore, many women will
+continue to be symptomatic after their MHT is discontinued. (See "Treatment of menopausal
+symptoms with hormone therapy", section on 'Our preferred regimens'.)
+PATHOPHYSIOLOGY
+Thermoregulatory dysfunction — Hot flashes are mediated by thermoregulatory
+dysfunction at the level of the hypothalamus and are induced by estrogen withdrawal [23].
+The thermoneutral zone is narrowed in women with hot flashes [24]. While premenopausal
+women initiate mechanisms to dissipate heat when the core body temperature increases by
+0.4°C, this happens with much lower increases in temperature in menopausal women [25].
+The feeling of warmth results from inappropriate peripheral vasodilatation with increased
+digital and cutaneous blood flow. Perspiration results in rapid heat loss and a decrease in core
+body temperature below normal. Shivering may then occur as a normal mechanism to restore
+the core temperature to normal [23]. Estrogen administration restores the "thermoneutral
+zone" to normal and largely abolishes hot flashes.
+Role of hypoestrogenemia — The observation that prepubertal girls, whose endogenous
+estrogen levels are very low, do not experience hot flashes provides evidence that
+hypoestrogenemia alone is not adequate for hot flashes to occur. Data from patients with
+Turner syndrome and functional hypothalamic amenorrhea suggest that exposure to adult
+levels of estrogen followed by withdrawal are necessary for hot flashes to occur. (See
+"Functional hypothalamic amenorrhea: Pathophysiology and clinical manifestations", section
+on 'Clinical manifestations'.)
+Evidence for central mediation of the changes in temperature comes from studies
+demonstrating that hot flashes occur simultaneously with, but are not caused by, pulses of
+luteinizing hormone (LH) [26,27]. The close proximity of the medial preoptic area (the major
+menopausal years (≥20 years beyond menopause) [19].
+The best estimate of total VMS duration comes from the Study of Women across the Nation
+(SWAN) [22]. Among 1449 women with VMS, the median total VMS duration was 7.4 years,
+with symptoms persisting for a median of 4.5 years after the FMP. Women who were
+premenopausal or early perimenopausal when they first experienced VMS had the longest
+total duration (>11.8 years, post-FMP median duration 9.4 years). When compared with
+other racial/ethnic groups, African American women had the longest total VMS duration
+(10.1 years), while Chinese and Hispanic women had the shortest (approximately five years).
+The different trajectories of menopausal symptoms are described above ( figure 2). (See
+'Prevalence and natural history' above.)
+●
+
+-- 3 of 38 --
+
+thermoregulatory area in mammals) and a high density of gonadotropin-releasing hormone
+(GnRH)-containing neurons suggest the possibility of simultaneous activation of a burst of
+GnRH release and thermoregulatory changes.
+Neuroendocrine and genetic basis — One hypothesis, now supported by increasing
+evidence, suggests that KNDy (kisspeptin, neurokinin B, and dynorphin) neurons mediate the
+LH and thermoregulatory changes [28] observed in menopausal women. Estrogen withdrawal
+affects hypothalamic KNDy neurons, causing dysregulated thermoregulation that results in
+hot flashes and night sweats. Neurokinin B (NKB) (a hypothalamic neuropeptide) and its
+receptor (NK3R) are also thought to be associated with vasomotor symptoms as TACR3 is the
+gene that encodes NK3R, and peripheral infusion of NKB induces hot flashes in
+postmenopausal women [29]. In addition, women who have variations in the gene that codes
+for tachykinin receptor 3 (TACR3) are more likely to experience hot flashes than women
+without those variations [30]. (See 'Neurokinin 3 receptor antagonists' below.)
+TYPICAL FEATURES
+Hot flashes typically begin as the sudden sensation of heat centered on the upper chest and
+face that rapidly becomes generalized. The sensation of heat often lasts from two to four
+minutes, is often associated with profuse perspiration and occasionally palpitations, and is
+sometimes followed by chills, shivering, and a feeling of anxiety. Hot flashes may range from
+an average of less than one each day to as many as one per hour during the day and night.
+Hot flashes have a negative impact on quality of life as well as an association with adverse
+health indicators (increased cardiovascular risk and greater bone loss/increased bone
+turnover) [31,32].
+Although several grading scales have been reported, a practical classification of hot flashes
+and night sweats utilizes a four-point scale [33]:
+It had been thought that vasomotor symptoms diminish and stop within a few years of onset
+in most women. However, vasomotor symptoms can persist for as long as 20 years past the
+final menstrual period (FMP) and may be variable between racial/ethnic groups [34]. (See
+"Menopause: Clinical features and diagnosis", section on 'Hot flashes'.)
+Not present.	●
+Mild – Present but not interfering with sleep, daily activities, or work.	●
+Moderate – Interfere somewhat with sleep and daily activities.	●
+Severe – More frequent, severe, and bothersome hot flashes that interfere with sleep, daily
+activities, and work. So bothersome that usual activities cannot be performed.
+●
+
+-- 4 of 38 --
+
+Other causes of sweating — Other causes of sweating may mimic hot flashes or night
+sweats, including the carcinoid syndrome, medications, hyperthyroidism, infection, and
+malignancy, all of which are reviewed in detail separately ( table 2 and table 3). (See
+"Evaluation of the patient with night sweats or generalized hyperhidrosis".)
+Effect on sleep — When hot flashes occur at night, women typically describe them as "night
+sweats." Vasomotor symptoms (VMS) at night can cause significant sleep disturbances in
+many women [35-37]. In one study of 34 symptomatic perimenopausal women undergoing
+one to five overnight polysomnographic (PSG) recordings, 69 percent of hot flashes were
+associated with awakening [38]. Hot flashes, although not the only cause of sleep
+disturbance, accounted for 27 percent of wakefulness during the night in these women. The
+estimated prevalence of difficulty sleeping based upon two longitudinal cohort studies was 32
+to 40 percent in the early menopausal transition, increasing to 38 to 46 percent in the late
+transition [7,39].
+PSG studies suggest that nocturnal hot flashes are more common during the first four hours
+of sleep, whereas rapid eye movement (REM) sleep in the subsequent four hours suppresses
+hot flashes, arousals, and awakenings [35].
+Other sleep problems — VMS can disrupt sleep in peri- and postmenopausal women, but
+there are many other issues that disturb sleep in this population including primary sleep
+disorders, anxiety, and depression. Menopausal sleep disturbances are discussed separately.
+(See "Menopause: Clinical features and diagnosis", section on 'Sleep disturbance'.)
+Women with seven or more daily moderate to severe VMS (defined as with sweating or
+affecting function) report interference with sleep (94 percent), concentration (84 percent),
+mood (69 percent) and sexual activity (40 percent) [40]. The more severe the VMS, the more
+daily activities are impacted.
+MENOPAUSAL HORMONE THERAPY
+General principles — The approach to management of hot flashes is based upon a number
+of factors, including:
+The patient's assessment of her hot flashes and their impact on function.	●
+Medical history – Is the patient a candidate for menopausal hormone therapy (MHT)? (See
+"Treatment of menopausal symptoms with hormone therapy", section on 'Is my patient a
+candidate for MHT?'.)
+●
+Personal choice – Is the patient interested in MHT?	●
+
+-- 5 of 38 --
+
+Women with mild symptoms — Women with mild flashes (hot flashes that do not interfere
+with sleep, daily activities, or work) may not seek pharmacotherapy (see 'Typical features'
+above). However, many do eventually seek help if symptoms worsen.
+In the past, behavioral measures such as lowering room temperature, using fans, dressing in
+layers of clothing that can be easily shed, and avoiding triggers (such as spicy foods and
+stressful situations) were recommended. However, the efficacy of these approaches is not well
+established, and the Menopause Society does not recommend them [41].
+Some clinicians recommend vitamin E to women with mild hot flashes because, at low doses,
+it is well-tolerated and not associated with toxicity [42]. In one report, vitamin E and placebo
+were associated with reductions in hot flash frequencies of 32 and 29 percent, respectively, a
+marginal difference that is not clinically important [43].
+Other nonhormonal options that are often used but not recommended by the Menopause
+Society include paced respiration, supplements/herbal remedies, exercise, yoga, mindfulness-
+based intervention, relaxation, soy, cannabinoids, acupuncture, and clonidine [41].
+Moderate to severe hot flashes — Hormonal or other pharmacotherapy is usually needed
+for women with more bothersome hot flashes. For most women with moderate to very severe
+hot flashes and no contraindications, we suggest menopausal hormone therapy (MHT). MHT
+is the broad term used to describe both unopposed estrogen use for women who have
+undergone hysterectomy and estrogen combined with progestogen therapy to prevent
+estrogen-associated endometrial hyperplasia in women with an intact uterus.
+The management of menopausal women who choose to take hormone therapy and the
+available estrogen and progestin preparations are discussed in detail separately. (See
+"Treatment of menopausal symptoms with hormone therapy" and "Preparations for
+menopausal hormone therapy" and "Menopausal hormone therapy: Benefits and risks".)
+The majority of perimenopausal and recently menopausal women are good candidates for
+hormone therapy for symptom relief. However, for women with a history of breast cancer,
+coronary heart disease (CHD), a previous venous thromboembolic event (VTE) or stroke, or
+those at moderate or high risk for these complications, alternatives to hormone therapy
+should be suggested [44,45]. (See 'Special considerations' below and "Treatment of
+menopausal symptoms with hormone therapy", section on 'Is my patient a candidate for
+MHT?'.)
+Coexistence of other menopausal symptoms, such as depression, as these women often
+require treatment with both MHT and antidepressants (usually selective serotonin reuptake
+inhibitors [SSRIs]). (See "Treatment of menopausal symptoms with hormone therapy",
+section on 'Perimenopausal mood disorders'.)
+●
+
+-- 6 of 38 --
+

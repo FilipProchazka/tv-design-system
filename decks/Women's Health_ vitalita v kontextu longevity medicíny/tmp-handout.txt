@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/fonts.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/colors.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/typography.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/signal.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/styles.css">
+<script>document.documentElement.lang='cs';</script>
+<style>
+body{margin:0}
+a{color:var(--accent);text-decoration:none}
+a:hover{color:var(--ink)}
+</style>
+</helmet>
+<div class="t-violet" style="background:var(--surface);color:var(--ink);font-family:var(--font-body);min-height:100vh;padding:clamp(28px,5vw,72px) clamp(20px,5vw,40px)">
+<div style="max-width:780px;margin:0 auto">
+
+<div style="font-family:var(--font-mono);font-weight:500;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)">Ženské zdraví · Dlouhověkost</div>
+<h1 style="font-family:var(--font-display);font-weight:400;font-size:clamp(32px,5.4vw,46px);line-height:1.12;letter-spacing:-.024em;margin:16px 0 0;text-wrap:pretty">Co si odnést domů</h1>
+<div style="font-size:clamp(17px,2.2vw,19px);line-height:1.62;margin-top:20px;max-width:62ch">Shrnutí přednášky do&nbsp;sedmi bloků. Čísla, která si můžete ověřit, a&nbsp;kroky, které unese běžný den.</div>
+<img src="assets/handout/cover.jpg" alt="Žena ve středním věku" style="display:block;width:100%;height:clamp(200px,32vw,330px);object-fit:cover;object-position:50% 32%;margin-top:36px">
+
+<div style="margin-top:clamp(72px,10vw,120px);border-top:2px solid var(--rule);padding-top:clamp(56px,7vw,80px)">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)">01 · Porce podle ruky</div>
+<h2 style="font-family:var(--font-display);font-weight:400;font-size:clamp(25px,3.6vw,32px);line-height:1.2;letter-spacing:-.022em;margin:14px 0 0;text-wrap:pretty">Měřítkem je vaše vlastní ruka.</h2>
+<div style="display:grid;gap:30px;margin-top:36px">
+<div style="display:grid;grid-template-columns:104px minmax(0,1fr);gap:26px;align-items:start;border-top:1px solid var(--rule);padding-top:26px">
+<img src="assets/handout/hand-palm.png" alt="Dlaň" style="width:104px;height:auto;flex:none">
+<div><div style="font-family:var(--font-display);font-weight:500;font-size:20px">Dlaň</div><div style="font-size:16px;line-height:1.55;color:var(--muted);margin-top:8px;max-width:58ch">bílkoviny: maso, ryby, tofu, řecký jogurt, cottage · plocha a&nbsp;tloušťka dlaně bez prstů</div></div>
+</div>
+<div style="display:grid;grid-template-columns:104px minmax(0,1fr);gap:26px;align-items:start;border-top:1px solid var(--rule);padding-top:26px">
+<img src="assets/handout/hand-fist.png" alt="Pěst" style="width:104px;height:auto;flex:none">
+<div><div style="font-family:var(--font-display);font-weight:500;font-size:20px">Pěst</div><div style="font-size:16px;line-height:1.55;color:var(--muted);margin-top:8px;max-width:58ch">neškrobová zelenina: brokolice, paprika, cuketa, květák</div></div>
+</div>
+<div style="display:grid;grid-template-columns:104px minmax(0,1fr);gap:26px;align-items:start;border-top:1px solid var(--rule);padding-top:26px">
+<img src="assets/handout/hand-cupped.png" alt="Hrst" style="width:104px;height:auto;flex:none">
+<div><div style="font-family:var(--font-display);font-weight:500;font-size:20px">Hrst</div><div style="font-size:16px;line-height:1.55;color:var(--muted);margin-top:8px;max-width:58ch">sacharidy: rýže, brambory, těstoviny, hlízy</div></div>
+</div>
+<div style="display:grid;grid-template-columns:104px minmax(0,1fr);gap:26px;align-items:start;border-top:1px solid var(--rule);padding-top:26px">
+<img src="assets/handout/hand-thumb.png" alt="Palec" style="width:104px;height:auto;flex:none">
+<div><div style="font-family:var(--font-display);font-weight:500;font-size:20px">Palec</div><div style="font-size:16px;line-height:1.55;color:var(--muted);margin-top:8px;max-width:58ch">tuky: olej, ořechy, semena, ořechové máslo, avokádo · celý palec od&nbsp;kořene ke&nbsp;špičce</div></div>
+</div>
+</div>
+<div style="font-size:14px;line-height:1.6;color:var(--muted);margin-top:24px">Obrázky ukazují princip, ne skutečnou velikost porce.</div>
+</div>
+
+<div style="margin-top:clamp(72px,10vw,120px);border-top:2px solid var(--rule);padding-top:clamp(56px,7vw,80px)">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)">02 · Bílkoviny a&nbsp;strava</div>
+<h2 style="font-family:var(--font-display);font-weight:400;font-size:clamp(25px,3.6vw,32px);line-height:1.2;letter-spacing:-.022em;margin:14px 0 0;text-wrap:pretty">Pro sval nestačí protein. Potřebuje i&nbsp;mechanický stimul.</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:28px;margin-top:36px">
+<div><div style="font-family:var(--font-display);font-weight:300;font-variant-numeric:tabular-nums;font-size:42px;line-height:1;letter-spacing:-.03em;color:var(--accent);white-space:nowrap">1,0–1,2</div><div style="font-size:15px;line-height:1.5;margin-top:10px">g/kg a&nbsp;den podle doporučení</div></div>
+<div><div style="font-family:var(--font-display);font-weight:300;font-variant-numeric:tabular-nums;font-size:42px;line-height:1;letter-spacing:-.03em;color:var(--accent);white-space:nowrap">1,4–2,0</div><div style="font-size:15px;line-height:1.5;margin-top:10px">g/kg při intenzivním silovém tréninku</div></div>
+<div><div style="font-family:var(--font-display);font-weight:300;font-variant-numeric:tabular-nums;font-size:42px;line-height:1;letter-spacing:-.03em;color:var(--accent);white-space:nowrap">20–30 g</div><div style="font-size:15px;line-height:1.5;margin-top:10px">na&nbsp;každé hlavní jídlo</div></div>
+</div>
+<div style="font-size:17px;line-height:1.62;margin-top:32px">Bílkovina sama sval neudrží. Anabolickou odpověď na&nbsp;ni zvyšuje odporový trénink. Praktický „sweet spot“ je 1,2 až 1,6&nbsp;g/kg. Zdroje bohaté na&nbsp;leucin: mléčné výrobky, vejce, luštěniny, ryby.</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:36px;margin-top:40px;border-top:1px solid var(--rule);padding-top:32px;align-items:start">
+<div style="display:grid;gap:26px">
+<div><div style="font-family:var(--font-display);font-weight:300;font-variant-numeric:tabular-nums;font-size:36px;line-height:1;letter-spacing:-.03em;color:var(--accent)">5</div><div style="font-size:15px;line-height:1.5;margin-top:8px">porcí zeleniny a&nbsp;ovoce denně</div></div>
+<div><div style="font-family:var(--font-display);font-weight:300;font-variant-numeric:tabular-nums;font-size:36px;line-height:1;letter-spacing:-.03em;color:var(--accent);white-space:nowrap">25–34 g</div><div style="font-size:15px;line-height:1.5;margin-top:8px">vlákniny denně</div></div>
+<div><div style="font-family:var(--font-display);font-weight:300;font-variant-numeric:tabular-nums;font-size:36px;line-height:1;letter-spacing:-.03em;color:var(--accent)">2–3×</div><div style="font-size:15px;line-height:1.5;margin-top:8px">denně zdroj vápníku a&nbsp;vitaminu D</div></div>
+</div>
+<img src="assets/handout/plate.jpg" alt="Talíř s lososem, brokolicí a ovesnými vločkami" style="display:block;width:100%;height:clamp(240px,30vw,340px);object-fit:cover;object-position:50% 50%">
+</div>
+<div style="font-size:17px;line-height:1.62;margin-top:28px">Nejlépe doložený je <b style="font-weight:600">středomořský vzorec</b>: hodně zeleniny, luštěnin, celozrnných obilovin, olivový olej, ryby, málo červeného a&nbsp;zpracovaného masa.</div>
+</div>
+
+<div style="margin-top:clamp(72px,10vw,120px);border-top:2px solid var(--rule);padding-top:clamp(56px,7vw,80px)">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)">03 · Suplementy</div>
+<h2 style="font-family:var(--font-display);font-weight:400;font-size:clamp(25px,3.6vw,32px);line-height:1.2;letter-spacing:-.022em;margin:14px 0 0;text-wrap:pretty">Kost potřebuje výživu i&nbsp;mechanické zatížení.</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:36px;margin-top:34px;align-items:start">
+<div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)">Co má silnou oporu</div>
+<div style="font-size:17px;line-height:1.6;border-top:1px solid var(--rule);padding-top:16px;margin-top:12px"><b style="font-weight:600">Vápník 1&nbsp;000–1&nbsp;200&nbsp;mg denně</b>, přednostně z&nbsp;jídla</div>
+<div style="font-size:17px;line-height:1.6;border-top:1px solid var(--rule);padding-top:16px;margin-top:16px"><b style="font-weight:600">Vitamin D 800–2&nbsp;000&nbsp;IU denně</b>, podle laboratorních hodnot</div>
+<div style="font-size:17px;line-height:1.6;border-top:1px solid var(--rule);padding-top:16px;margin-top:16px"><b style="font-weight:600">Bílkoviny a&nbsp;odporový trénink</b>, stejně důležité jako minerály</div>
+</div>
+<div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)">Co je možné doplnit</div>
+<div style="font-size:17px;line-height:1.6;border-top:1px solid var(--rule);padding-top:16px;margin-top:12px"><b style="font-weight:600">Kreatin monohydrát</b> pro sval, slibný i&nbsp;pro kognici</div>
+<div style="font-size:17px;line-height:1.6;border-top:1px solid var(--rule);padding-top:16px;margin-top:16px"><b style="font-weight:600">Magnezium</b>, jeho adekvátní příjem je součástí zdraví kosti</div>
+<div style="font-size:17px;line-height:1.6;border-top:1px solid var(--rule);padding-top:16px;margin-top:16px"><b style="font-weight:600">Vitamin K2</b>, jeho klinický přínos pro kostní denzitu není spolehlivě prokázán</div>
+</div>
+</div>
+<img src="assets/handout/strength.jpg" alt="Žena s osou na ramenech při silovém tréninku" style="display:block;width:100%;height:clamp(140px,20vw,200px);object-fit:cover;object-position:50% 40%;margin-top:34px">
+<div style="background:var(--band);padding:22px 24px;margin-top:32px;font-size:16px;line-height:1.6"><b style="font-weight:600">Pozor na&nbsp;železo.</b> Po&nbsp;ukončení menstruace jeho potřeba klesá. Při silném krvácení naopak nechte vyšetřit krevní obraz a&nbsp;ferritin.</div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin-top:34px">Rostlinné přípravky</div>
+<div style="font-size:17px;line-height:1.6;border-top:1px solid var(--rule);padding-top:16px;margin-top:12px">Nejvíc dat má <b style="font-weight:600">ploštičník hroznatý</b>, a&nbsp;i&nbsp;u&nbsp;něj je jistota jen střední a&nbsp;platí pro standardizované extrakty. Sója, pískavice, ashwagandha, šafrán a&nbsp;drmek jsou na&nbsp;úrovni nízké jistoty.</div>
+<div style="font-size:17px;line-height:1.6;border-top:1px solid var(--rule);padding-top:16px;margin-top:16px">Pro sval a&nbsp;metabolismus mají oporu <b style="font-weight:600">kreatin</b> (3 až 5&nbsp;g denně) a&nbsp;při konkrétní metabolické indikaci <b style="font-weight:600">berberin</b>. Melatonin není univerzální přípravek na&nbsp;spánek.</div>
+<div style="background:var(--band);padding:22px 24px;margin-top:32px;font-size:16px;line-height:1.6"><b style="font-weight:600">Suplement není strategie.</b> Nejdřív pojmenujte cíl, teprve potom hledejte nástroj.</div>
+</div>
+
+<div style="margin-top:clamp(72px,10vw,120px);border-top:2px solid var(--rule);padding-top:clamp(56px,7vw,80px)">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)">04 · Návaly</div>
+<h2 style="font-family:var(--font-display);font-weight:400;font-size:clamp(25px,3.6vw,32px);line-height:1.2;letter-spacing:-.022em;margin:14px 0 0;text-wrap:pretty">Na&nbsp;návaly funguje něco jiného než na&nbsp;dlouhodobé riziko.</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:36px;margin-top:32px;align-items:start">
+<img src="assets/handout/sleep.jpg" alt="Budík na posteli, žena spí v pozadí" style="display:block;width:100%;height:clamp(220px,28vw,300px);object-fit:cover;object-position:50% 45%">
+<div>
+<div style="font-size:17px;line-height:1.62"><b style="font-weight:600">Co má oporu.</b> Nejúčinnější je hormonální léčba. Z&nbsp;nehormonálních možností mají oporu menopause-specific KBT, klinická hypnóza, fezolinetant, gabapentin a&nbsp;SSRI či SNRI, které ale nejsou první volbou.</div>
+<div style="font-size:17px;line-height:1.62;margin-top:22px"><b style="font-weight:600">Co zvážit individuálně.</b> Oxybutynin, redukce hmotnosti, stelátní blokáda.</div>
+<div style="font-size:17px;line-height:1.62;margin-top:22px"><b style="font-weight:600">Co na&nbsp;ně nezabírá.</b> Úprava stravy, pohyb, jóga, relaxace, sója ani doplňky stravy nemají pro úlevu od&nbsp;návalů dostatečnou oporu.</div>
+</div>
+</div>
+<div style="background:var(--band);padding:22px 24px;margin-top:28px;font-size:16px;line-height:1.6">Neznamená to, že nemají smysl. Pohyb i&nbsp;strava mění dlouhodobé riziko, jen ne návaly. Po&nbsp;hormonálně senzitivním nádoru jsou nehormonální možnosti zpravidla první volbou, ve&nbsp;spolupráci s&nbsp;onkologem.</div>
+</div>
+
+<div style="margin-top:clamp(72px,10vw,120px);border-top:2px solid var(--rule);padding-top:clamp(56px,7vw,80px)">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)">05 · Super Shake</div>
+<h2 style="font-family:var(--font-display);font-weight:400;font-size:clamp(25px,3.6vw,32px);line-height:1.2;letter-spacing:-.022em;margin:14px 0 0;text-wrap:pretty">Když na&nbsp;jídlo není čas, ať je aspoň komplexní.</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:36px;margin-top:32px;align-items:start">
+<div style="display:grid;gap:16px">
+<div style="display:flex;gap:16px;align-items:baseline">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:14px;color:var(--accent);flex:0 0 26px">01</div>
+<div style="font-size:17px;line-height:1.5;flex:1;min-width:0"><b style="font-weight:600">Bílkovina</b> · řecký jogurt, cottage, proteinový prášek</div>
+</div>
+<div style="display:flex;gap:16px;align-items:baseline">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:14px;color:var(--accent);flex:0 0 26px">02</div>
+<div style="font-size:17px;line-height:1.5;flex:1;min-width:0"><b style="font-weight:600">Zelenina</b>, hrst · špenát, okurka, celer, mrkev</div>
+</div>
+<div style="display:flex;gap:16px;align-items:baseline">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:14px;color:var(--accent);flex:0 0 26px">03</div>
+<div style="font-size:17px;line-height:1.5;flex:1;min-width:0"><b style="font-weight:600">Ovoce</b>, hrst, ideálně mražené · bobule, banán, jablko</div>
+</div>
+<div style="display:flex;gap:16px;align-items:baseline">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:14px;color:var(--accent);flex:0 0 26px">04</div>
+<div style="font-size:17px;line-height:1.5;flex:1;min-width:0"><b style="font-weight:600">Tuk</b>, palec · ořechové máslo, semena, avokádo</div>
+</div>
+<div style="display:flex;gap:16px;align-items:baseline">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:14px;color:var(--accent);flex:0 0 26px">05</div>
+<div style="font-size:17px;line-height:1.5;flex:1;min-width:0"><b style="font-weight:600">Tekutina</b> · mléko, kefír, neslazené rostlinné mléko, voda</div>
+</div>
+</div>
+<img src="assets/handout/shake.jpg" alt="Sklenice s banánovým shakem, ovesné vločky a med" style="display:block;width:100%;height:clamp(240px,32vw,360px);object-fit:cover;object-position:64% 50%">
+</div>
+<div style="margin-top:28px;border-top:1px solid var(--rule);padding-top:24px">
+<div style="font-family:var(--font-display);font-weight:300;font-variant-numeric:tabular-nums;font-size:48px;line-height:1;letter-spacing:-.03em;color:var(--accent)">20–30 g</div>
+<div style="font-size:15px;line-height:1.5;margin-top:10px;color:var(--muted)">bílkoviny na&nbsp;jednu dávku</div>
+<div style="font-size:17px;line-height:1.6;margin-top:12px;max-width:62ch">Stejný cíl jako u&nbsp;hlavního jídla. V&nbsp;tekutém jídle se na&nbsp;bílkoviny často zapomíná, proto je dávkujeme první.</div>
+</div>
+<div style="font-size:15px;line-height:1.6;color:var(--muted);margin-top:22px">Míry hrst a&nbsp;palec navazují na&nbsp;porce podle ruky. Sestava dle Precision Nutrition.</div>
+</div>
+
+<div style="margin-top:clamp(72px,10vw,120px);border-top:2px solid var(--rule);padding-top:clamp(56px,7vw,80px)">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)">06 · Co si nechat změřit</div>
+<h2 style="font-family:var(--font-display);font-weight:400;font-size:clamp(25px,3.6vw,32px);line-height:1.2;letter-spacing:-.022em;margin:14px 0 0;text-wrap:pretty">Riziko se mění dřív, než vznikne nemoc.</h2>
+<div style="margin-top:32px;border-top:1px solid var(--rule)">
+<div style="display:flex;flex-wrap:wrap;gap:6px 20px;border-bottom:1px solid var(--rule);padding:18px 0"><div style="font-size:17px;font-weight:600;flex:1 1 200px">krevní tlak</div><div style="font-size:16px;color:var(--muted);flex:1 1 240px;line-height:1.5">ročně, ideálně i&nbsp;doma</div></div>
+<div style="display:flex;flex-wrap:wrap;gap:6px 20px;border-bottom:1px solid var(--rule);padding:18px 0"><div style="font-size:17px;font-weight:600;flex:1 1 200px">lipidy</div><div style="font-size:16px;color:var(--muted);flex:1 1 240px;line-height:1.5">alespoň každé 2 roky</div></div>
+<div style="display:flex;flex-wrap:wrap;gap:6px 20px;border-bottom:1px solid var(--rule);padding:18px 0"><div style="font-size:17px;font-weight:600;flex:1 1 200px">glykemie nebo HbA1c</div><div style="font-size:16px;color:var(--muted);flex:1 1 240px;line-height:1.5">podle rizika</div></div>
+<div style="display:flex;flex-wrap:wrap;gap:6px 20px;border-bottom:1px solid var(--rule);padding:18px 0"><div style="font-size:17px;font-weight:600;flex:1 1 200px">obvod pasu</div><div style="font-size:16px;color:var(--muted);flex:1 1 240px;line-height:1.5">doma, kdykoli, mění se dřív než hmotnost</div></div>
+<div style="display:flex;flex-wrap:wrap;gap:6px 20px;border-bottom:1px solid var(--rule);padding:18px 0"><div style="font-size:17px;font-weight:600;flex:1 1 200px">denzitometrie</div><div style="font-size:16px;color:var(--muted);flex:1 1 240px;line-height:1.5">při indikaci: časná menopauza, zlomenina, kortikoidy</div></div>
+</div>
+<div style="font-size:16px;line-height:1.6;color:var(--muted);margin-top:22px">Hodnotu má vývoj v&nbsp;čase, ne jedno číslo.</div>
+</div>
+
+<div style="margin-top:clamp(72px,10vw,120px);border-top:2px solid var(--rule);padding-top:clamp(56px,7vw,80px)">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)">07 · Jedna změna</div>
+<h2 style="font-family:var(--font-display);font-weight:400;font-size:clamp(25px,3.6vw,32px);line-height:1.2;letter-spacing:-.022em;margin:14px 0 0;text-wrap:pretty">Začněte tím, co unese běžný den.</h2>
+<div style="font-size:17px;line-height:1.62;margin-top:32px">Vyberte jednu věc. Na&nbsp;škále 1 až 10 si odpovězte: <b style="font-weight:600">jak jistá jste si, že to zvládnete i&nbsp;ve&nbsp;špatný den?</b> Při devítce nebo desítce začněte. Při osmičce a&nbsp;níž zmenšete krok. Ne větší úsilí, menší překážka.</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:28px;margin-top:32px;border-top:1px solid var(--rule);padding-top:28px">
+<div><div style="font-family:var(--font-display);font-weight:500;font-size:19px">Jídlo</div><div style="font-size:15px;color:var(--muted);margin-top:10px;line-height:1.6">bílkovina ke&nbsp;každému hlavnímu jídlu · zelenina ke&nbsp;dvěma jídlům denně</div></div>
+<div><div style="font-family:var(--font-display);font-weight:500;font-size:19px">Pohyb</div><div style="font-size:15px;color:var(--muted);margin-top:10px;line-height:1.6">150 až 300 minut středně intenzivní aktivity týdně · nejméně dvakrát týdně posilování velkých svalových skupin</div></div>
+<div><div style="font-family:var(--font-display);font-weight:500;font-size:19px">Spánek</div><div style="font-size:15px;color:var(--muted);margin-top:10px;line-height:1.6">stejný čas vstávání · chladná ložnice · bez obrazovky poslední půlhodinu</div></div>
+</div>
+<img src="assets/handout/fruit.jpg" alt="Krabičky s ovocem připravené s sebou" style="display:block;width:100%;height:clamp(140px,20vw,200px);object-fit:cover;object-position:50% 45%;margin-top:36px">
+</div>
+
+<div style="margin-top:clamp(72px,10vw,120px);border-top:2px solid var(--accent);padding-top:44px">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)">S&nbsp;čím jít k&nbsp;lékaři</div>
+<div style="margin-top:18px;border-top:1px solid var(--rule)">
+<div style="font-size:17px;line-height:1.55;border-bottom:1px solid var(--rule);padding:14px 0">Jakékoli krvácení po&nbsp;menopauze.</div>
+<div style="font-size:17px;line-height:1.55;border-bottom:1px solid var(--rule);padding:14px 0">Návaly, které vám berou spánek nebo výkonnost.</div>
+<div style="font-size:17px;line-height:1.55;border-bottom:1px solid var(--rule);padding:14px 0">Bolest při sexu, opakované záněty močových cest, urgentní močení.</div>
+<div style="font-size:17px;line-height:1.55;border-bottom:1px solid var(--rule);padding:14px 0">Menopauza před 45.&nbsp;rokem, a&nbsp;zvlášť před 40.&nbsp;rokem.</div>
+<div style="font-size:17px;line-height:1.55;border-bottom:1px solid var(--rule);padding:14px 0">Nespavost, která trvá déle než měsíc.</div>
+<div style="font-size:17px;line-height:1.55;border-bottom:1px solid var(--rule);padding:14px 0">Úvaha o&nbsp;hormonální léčbě, pokud jste prodělala nádorové onemocnění.</div>
+</div>
+</div>
+
+<div style="margin-top:48px;border-top:1px solid var(--rule);padding-top:22px;font-size:13px;line-height:1.65;color:var(--muted)">
+Zdroje: NICE NG23 (2026) · ESE Clinical Practice Guideline (Eur J Endocrinol 2025) · EMAS Healthy menopause (Maturitas 2026) · The Menopause Society, position statements · Curr Nutr Rep 2026 · Clin Nutr ESPEN 2026 · UpToDate 2026 · metoda porcí podle ruky dle Precision Nutrition.<br>
+Tento list je vzdělávací materiál, ne individuální doporučení. Nenahrazuje vyšetření ani konzultaci s&nbsp;vaším lékařem.<br>
+Mgr. Ing. Tereza Vágnerová, Ph.D. · <a href="mailto:tereza.vagnerova@lf1.cuni.cz">tereza.vagnerova@lf1.cuni.cz</a>
+</div>
+
+</div>
+</div>
+</x-dc>
+</body>
+</html>
