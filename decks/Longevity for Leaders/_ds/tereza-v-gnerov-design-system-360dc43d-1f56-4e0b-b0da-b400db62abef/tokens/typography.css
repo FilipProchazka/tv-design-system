@@ -1,0 +1,63 @@
+/* Three faces, three jobs, no overlap (14 Sep 2026; supersedes the 13 Sep
+   decision, recorded in CHANGELOG 0.7.0).
+
+   Geist 300/400/500/600: display, claims, statements, headings and display
+   figures. Its Czech diacritics are fully drawn at 74-380px, where most
+   geometric faces thin the caron and the ring out.
+
+   Inter 400/500/600: body, lead, small and every affiliation line: anything
+   read as running text. At 19px Inter's larger x-height and open apertures
+   read more evenly than Geist, which is drawn for display.
+
+   Geist Mono 400 (data) / 500 (kicker): every label, kicker, unit, citation,
+   price, axis and tabular figure. Same family as the headings, so a kicker
+   above a claim shares its skeleton. Figures at display size (>= 100px) are
+   Geist 300, never mono. */
+:root{
+  --font-display:Geist,system-ui,sans-serif;
+  --font-body:Inter,system-ui,sans-serif;
+  --font-mono:'Geist Mono',ui-monospace,Menlo,monospace;
+
+  /* web scale (fluid) */
+  --f-display:clamp(40px,6.6vw,96px); /* @kind font */
+  --f-h1:clamp(32px,4.2vw,58px); /* @kind font */
+  --f-h2:clamp(25px,2.8vw,38px); /* @kind font */
+  --f-lead:clamp(19px,1.6vw,24px); /* @kind font */
+  --f-body:18px; /* @kind font */
+  --f-small:15px; /* @kind font */
+  --f-kicker:15px; /* @kind font */
+  --f-figure:clamp(48px,8vw,132px); /* @kind font */
+
+  /* deck scale (fixed, 1920x1080). Claim to body is 2.8x, which is what
+     makes a claim carry a lecture theatre. */
+  --d-statement:102px;
+  --d-claim:74px;
+  --d-sub:34px;
+  --d-lead:30px;
+  --d-body:28px;
+  --d-body-min:24px;
+  --d-mono:19px;
+
+  /* reel scale (fixed, 1080x1920). At 1080 wide on a ~390pt phone,
+     1px = 0.36pt, so anything under 46px reads as fine print in a feed. */
+  --r-hook:150px;--r-quote:112px;--r-mid:92px;--r-body:48px;--r-fig:380px;
+
+  --lh-display:1.05; /* @kind other */
+  --lh-h1:1.10; /* @kind other */
+  --lh-h2:1.16; /* @kind other */
+  --lh-lead:1.55; /* @kind other */
+  --lh-body:1.68; /* @kind other */
+  --ls-display:-.028em; /* @kind other */
+  --ls-h1:-.024em; /* @kind other */
+  --ls-h2:-.018em; /* @kind other */
+  --ls-kicker:.13em; /* @kind other */
+}
+.display{font-family:var(--font-display);font-weight:400;font-size:var(--f-display);line-height:1.05;letter-spacing:-.028em}
+.h1{font-family:var(--font-display);font-weight:400;font-size:var(--f-h1);line-height:1.10;letter-spacing:-.024em}
+.h2{font-family:var(--font-display);font-weight:500;font-size:var(--f-h2);line-height:1.16;letter-spacing:-.018em}
+.lead{font-family:var(--font-body);font-weight:400;font-size:var(--f-lead);line-height:1.55}
+.body{font-family:var(--font-body);font-weight:400;font-size:var(--f-body);line-height:1.68}
+.small{font-family:var(--font-body);font-weight:400;font-size:var(--f-small);line-height:1.55}
+.kicker{font-family:var(--font-mono);font-weight:500;font-size:var(--f-kicker);letter-spacing:.13em;text-transform:uppercase;font-variant-numeric:tabular-nums}
+.figure{font-family:var(--font-display);font-weight:300;font-size:var(--f-figure);line-height:.92;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.card-title{font-family:var(--font-display);font-weight:500;font-size:clamp(21px,1.6vw,24px);line-height:1.22;letter-spacing:-.014em}
