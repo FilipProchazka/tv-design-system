@@ -1,0 +1,35 @@
+<!-- @dsCard group="Components" viewport="1240x620" name="Cards" subtitle="Topic, talk, institution, webinar, entry, publication, fact panel" -->
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css"><style>body{background:#FFFFFF;padding:28px}.lbl{font-family:var(--font-mono);font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin:26px 0 12px}.lbl:first-child{margin-top:0}.g4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}.g3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:start}</style></head><body><div id="root"></div>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<script type="text/babel">
+const { TopicCard, TalkCard, InstitutionCard, WebinarCard, EntryCard, PublicationRow, FactPanel } = window.TerezaVGnerovDesignSystem_360dc4;
+function Card(){return (<div>
+<div className="lbl">TopicCard · the eight subjects, each on its own theme tint</div>
+<div className="g4">
+<TopicCard slug="prehled" theme="blue" name="Přehled" summary="Jak vyhodnotit sílu důkazu za konkrétním tvrzením, od mechanismu až po metaanalýzu." />
+<TopicCard slug="zenske-zdravi" theme="violet" name="Ženské zdraví" summary="Cyklus, hormonální změny a energetická dostupnost. Co se mění v jednotlivých fázích." />
+<TopicCard slug="spanek" theme="petrol" name="Spánek" summary="Spánek jako biologický proces, který ovlivňuje chuť k jídlu, regeneraci a metabolismus." />
+<TopicCard slug="dlouhovekost" theme="petrol" name="Dlouhověkost" summary="Úbytek svalové hmoty a síly s přibývajícím věkem a jeho dopad na soběstačnost." />
+</div>
+<div className="lbl">TalkCard · InstitutionCard · WebinarCard</div>
+<div className="g3">
+<TalkCard title="Obezita a výživa" abstract="Rizika obezity, cíle redukční diety a proč jo-jo efekt není selhání vůle." meta="25 min · prezenčně i online" topicName="Výživa" image="../../assets/img/talk-bar.jpg" alt="" />
+<InstitutionCard name="Klinika geriatrie a interní medicíny 1. LF UK a VFN" role="Odborná asistentka a nutriční terapeutka" url="#" />
+<WebinarCard title="Výživa v nemoci" when="14. října 2026, 18:00" duration="90 min" price="890 Kč" />
+</div>
+<div className="lbl">EntryCard · linked and inert · PublicationRow · FactPanel</div>
+<div className="g3">
+<EntryCard title="Deep Talks 151" meta="Podcast · 2025" href="#" external cta="Otevřít" />
+<EntryCard title="Publikační seznam připravuji." meta="Zatím nedodáno" />
+<FactPanel rows={[{label:'Termín',value:'14. října 2026, 18:00'},{label:'Délka',value:'90 minut'},{label:'Cena',value:'890 Kč',big:true}]} price="890 Kč" />
+</div>
+<div style={{marginTop:20}}>
+<PublicationRow year="2024" title="Sarkopenická obezita u geriatrických pacientů" journal="Česká geriatrická revue" authors="Vágnerová T." grade="kohorta" href="#" />
+<PublicationRow year="2022" title="Nutriční screening na iktovém centru" journal="Interní medicína" />
+</div>
+</div>);}
+ReactDOM.createRoot(document.getElementById('root')).render(<Card />);
+</script></body></html>

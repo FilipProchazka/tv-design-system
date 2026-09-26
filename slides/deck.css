@@ -1,0 +1,119 @@
+/* The deck surface: a fixed 1920x1080 board, scaled to fit its frame. Copied
+   from tv-deck-template/canvas/*.dc.html so a sample slide and a real
+   artboard are the same object. */
+html:has(.board),html:has(.board) body{overflow-x:hidden;margin:0;background:#FFFFFF}
+.board{width:1920px;height:1080px;transform-origin:0 0}
+.slide{position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+.a{position:absolute}
+
+/* deck type scale: six sizes, no more, all from tokens/typography.css (--d-*).
+   Body is 24px on every board and is also the floor (22 Sep 2026).
+   WEIGHT RULES (TYPESETTING.md §4): four real cuts, each with a job:
+     300  display only: statement, figure, ghost. >= 60px light, >= 100px dark
+     400  everything read: claim, lead, body, mono data
+     500  a role at a different SIZE: sub/column head, diagram label, mono kicker
+     600  same-size emphasis only: <b> in body, reel a-h beside a-body
+   Hierarchy is size first, weight second, colour last. Two roles at the same
+   size never differ by one weight step (400/500 reads as a mistake): they
+   skip a weight. Never 700, never faux bold, never bold mono.
+   Diagram labels in SVG use var(--font-display), never a literal family:
+   Inter at 500 is denser than Geist at 500, which is what made some
+   boards feel heavier than others. */
+.d-statement{font-family:var(--font-display);font-weight:300;font-size:var(--d-statement);line-height:1.06;letter-spacing:-.028em}
+.d-claim{font-family:var(--font-display);font-weight:400;font-size:var(--d-claim);line-height:1.11;letter-spacing:-.024em}
+.d-sub{font-family:var(--font-display);font-weight:500;font-size:var(--d-sub);line-height:1.2;letter-spacing:-.012em}
+.d-lead{font-family:var(--font-body);font-weight:400;font-size:var(--d-lead);line-height:1.45;letter-spacing:-.006em}
+.d-body{font-family:var(--font-body);font-weight:400;font-size:var(--d-body);line-height:1.45;letter-spacing:-.004em}
+.d-mono{font-family:var(--font-mono);font-weight:500;font-size:22px;line-height:1;letter-spacing:.12em;text-transform:uppercase}
+.d-figure{font-family:var(--font-display);font-weight:300;line-height:.92;letter-spacing:-.04em;white-space:nowrap;font-variant-numeric:tabular-nums}
+.acc{color:var(--accent)}
+.sft{color:var(--soft)}
+
+/* the content zone: top 352, height 576, vertically centred */
+.zone{left:120px;top:352px;width:1680px;height:576px;display:flex;flex-direction:column;justify-content:center}
+
+/* source vocabulary */
+.slide .statement,.reel .statement{font-family:var(--font-display);font-weight:300;font-size:102px;line-height:1.06;letter-spacing:-.028em}
+.slide .claim{font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em}
+.slide .sub{font-family:var(--font-display);font-weight:500;font-size:var(--d-sub);line-height:1.2;letter-spacing:-.012em}
+.slide .lead{font-family:var(--font-body);font-weight:400;font-size:var(--d-lead);line-height:1.45;letter-spacing:-.006em}
+.slide .body{font-family:var(--font-body);font-weight:400;font-size:var(--d-body);line-height:1.45;letter-spacing:-.004em}
+.slide .mono,.reel .mono{font-family:var(--font-mono);font-weight:500;font-size:22px;line-height:1;letter-spacing:.12em;text-transform:uppercase}
+.slide .num,.reel .num{font-family:var(--font-mono);font-weight:400;font-size:24px;line-height:1.4;letter-spacing:.01em;font-variant-numeric:tabular-nums}
+/* figures at display size are Geist 300, not mono: mono at 190px reads as a
+   terminal. Mono stays for the unit and the label beside the figure. */
+.slide .figure,.reel .figure{font-family:var(--font-display);font-weight:300;line-height:.92;letter-spacing:-.04em;white-space:nowrap;font-variant-numeric:tabular-nums}
+.slide .figure .unit,.reel .figure .unit{font-size:.5em;font-weight:400;letter-spacing:-.02em;margin-left:.06em}
+/* diagram scale: nothing in a diagram thinner than the claim's stem */
+.slide svg .node{r:22px}.slide svg .edge{stroke-width:4px}.slide svg .lbl{font-family:var(--font-display);font-weight:500;font-size:30px}
+.slide .muted,.reel .muted{color:var(--muted)}
+.slide .acc,.reel .acc{color:var(--accent)}
+.slide .soft,.reel .soft{color:var(--soft)}
+.slide .ink,.reel .ink,.slide .body b,.reel .a-body b{color:var(--ink);font-weight:600}
+.light{}
+.paper{--surface:#FFFFFF;--ink:#14211F;--muted:#5C6C69;--soft:#687672;--rule:#C2D0CD;--accent:#0B6A63;--onacc:#FFFFFF}
+.petrol{--surface:#0E3A36;--ink:#FFFFFF;--muted:#9CBCB6;--soft:#93B5AF;--rule:#2E5F59;--accent:#8FE3D9;--onacc:#0E3A36}
+
+/* reels 1080x1920. Safe text zone x 80-960, y 280-1250; the frame itself is always filled. */
+.reel{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--surface);color:var(--ink);-webkit-font-smoothing:antialiased}
+.reel .a-hook{font-family:var(--font-display);font-weight:500;font-size:150px;line-height:.98;letter-spacing:-.038em}
+.reel .a-quote{font-family:var(--font-display);font-weight:400;font-size:112px;line-height:1.06;letter-spacing:-.032em}
+.reel .a-mid{font-family:var(--font-display);font-weight:500;font-size:92px;line-height:1.08;letter-spacing:-.028em}
+.reel .a-sub{font-family:var(--font-display);font-weight:400;font-size:62px;line-height:1.14;color:var(--muted)}
+.reel .a-h{font-family:var(--font-display);font-weight:600;font-size:56px;line-height:1.16}
+.reel .a-body{font-family:var(--font-body);font-weight:400;font-size:48px;line-height:1.38;color:var(--muted)}
+.reel .a-fig{font-family:var(--font-display);font-weight:300;font-size:380px;line-height:.86;letter-spacing:-.04em;color:var(--accent);white-space:nowrap;font-variant-numeric:tabular-nums}
+.reel .a-fig .unit{font-size:.42em;font-weight:400;letter-spacing:-.02em}
+.reel .a-mono{font-family:var(--font-mono);font-weight:500;font-size:32px;letter-spacing:.04em;color:var(--muted)}
+.reel .a-kick{font-family:var(--font-mono);font-weight:500;font-size:34px;letter-spacing:.11em;text-transform:uppercase}
+/* ghost glyph: the faded oversized character behind a frame. Allowed on at
+   most one frame per reel (R3 Big number, R21 Word); everywhere else it sat
+   under Instagram's caption UI and read as the 2019 faded-number trope. */
+.reel .ghost{display:none}.reel.keep-ghost .ghost{display:block}
+.reel .hl,.slide .hl{color:var(--accent)}
+.reel .hlb,.slide .hlb{background:var(--accent);color:var(--onacc);padding:.02em .16em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.board-reel{width:1080px;height:1920px;transform-origin:0 0}
+
+/* measure rule. A claim is two lines, a statement three; the measure, not
+   the author, enforces it. Claim column 1400px at 74px = ~36 characters a
+   line, so a claim is 70 characters or fewer. In a BESIDE column (760–820px)
+   the claim steps DOWN to 58px. Over the limit, the size steps down, never
+   the column up: .cl.long 60px, .st.long 84px. */
+.slide .claim,.slide .cl{max-width:1400px}
+.slide .claim.n,.slide .cl.n{font-size:58px;line-height:1.14;letter-spacing:-.018em}
+.slide .claim.long,.slide .cl.long{font-size:60px;line-height:1.14;letter-spacing:-.018em}
+.slide .statement.long,.slide .st.long{font-size:84px;line-height:1.08}
+
+/* hook budget. A reel hook is 7 words or 42 characters at 150px in the
+   920px safe column: two lines, readable with sound off in the first
+   0.5 s. Over the budget it is a .a-mid (92px), not a smaller hook. */
+.reel .a-hook{max-width:920px}
+
+/* TEMPLATE VOCABULARY (22 Sep 2026). The short classes every deck template in
+   templates/ writes. One definition here, on the tokens; a template keeps only
+   rules no other deck needs. No text-wrap:pretty/balance (RENDERING.md). */
+.a{position:absolute}
+.k{font-family:var(--font-mono);font-weight:500;font-size:22px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}
+.st{font-family:var(--font-display);font-weight:300;font-size:var(--d-statement);line-height:1.06;letter-spacing:-.028em}
+.st.long{font-size:84px;line-height:1.08}
+.cl{font-family:var(--font-display);font-weight:400;font-size:var(--d-claim);line-height:1.11;letter-spacing:-.024em;max-width:1400px}
+.cl.n{font-size:58px;line-height:1.14;letter-spacing:-.018em}
+.cl.long{font-size:60px;line-height:1.14;letter-spacing:-.018em}
+.sb{font-family:var(--font-display);font-weight:500;font-size:var(--d-sub);line-height:1.2;letter-spacing:-.012em}
+.ld{font-family:var(--font-body);font-weight:400;font-size:var(--d-lead);line-height:1.46}
+.ld b{font-weight:600;color:var(--ink)}
+.bd{font-family:var(--font-body);font-weight:400;font-size:var(--d-body);line-height:1.5;color:var(--muted)}
+.bd b{color:var(--ink);font-weight:600}
+.bd i{font-style:italic}
+.li{display:grid;gap:18px;list-style:none;margin:0;padding:0}
+.li li{display:block;position:relative;padding-left:32px}
+.li li::before{content:"";position:absolute;left:0;top:.55em;width:12px;height:12px;border-radius:50%;background:var(--accent)}
+.num{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.fig{font-family:var(--font-display);font-weight:300;line-height:.92;letter-spacing:-.04em;white-space:nowrap;font-variant-numeric:tabular-nums}
+.fig .unit{font-size:.5em;font-weight:400;letter-spacing:-.02em}
+.pg{right:120px;bottom:88px;font-family:var(--font-mono);font-size:20px;letter-spacing:.06em;color:var(--muted)}
+.ref{left:120px;bottom:88px;width:1300px;font-family:var(--font-mono);font-size:21px;line-height:1.55;letter-spacing:.04em;color:var(--muted)}
+.img{position:absolute;left:0;top:0;width:1920px;height:1080px;object-fit:cover}
+.split-img{position:absolute;left:1200px;top:0;width:720px;height:1080px;object-fit:cover}
+.ev{position:absolute;right:120px;top:126px}
+.slide.dark .ev{--cert-scrim:color-mix(in srgb,var(--surface) 95%,transparent);right:104px;top:112px}

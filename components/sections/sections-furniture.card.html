@@ -1,0 +1,18 @@
+<!-- @dsCard group="Components" viewport="1240x1650" name="Sections · page furniture" subtitle="FAQ on hairlines, three mail routes, the one closing ask" -->
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css"><style>body{background:#FFFFFF}.lbl{font-family:var(--font-mono);font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin:26px 28px 12px}</style></head><body><div id="root"></div>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<script type="text/babel">
+const { SplitHero, PageHero, ClaimBand, FaqList, ContactBlock, CtaClose } = window.TerezaVGnerovDesignSystem_360dc4;
+function Card(){return (<div>
+<div className="lbl">FaqList</div>
+<div className="shell" style={{maxWidth:760}}><FaqList items={[{q:'Přednášíte i anglicky?',a:'Ano. Na 1. LF UK učím výživu v geriatrii a gerontologii česky i anglicky, v lékařských i nelékařských studijních programech.'},{q:'Jak se přihlásím na webinář?',a:'Platba jde přes Stripe, mimo tento web. Po zaplacení vám pošlu potvrzení a odkaz na připojení e-mailem.'},{q:'Kde vás najdu?',a:'Na Klinice geriatrie a interní medicíny 1. LF UK a VFN a v nutriční ambulanci.'}]} /></div>
+<div className="lbl">ContactBlock</div>
+<div className="shell"><ContactBlock eyebrow="Kontakt" heading="Napište mi." routes={[{subject:'Konzultace',hint:'Napište, koho se to týká, jaký je aktuální zdravotní stav a jaký je cíl.',href:'#'},{subject:'Přednáška',hint:'Napište, pro koho to má být, jak dlouho má trvat a v jakém formátu.',href:'#'},{subject:'Média',hint:'Napište, o jaké téma jde a do kdy potřebujete odpověď.',href:'#'}]} phone="225 003 211" phoneHref="#" clinic="Klinika geriatrie a interní medicíny VFN" email="klbikovt@gmail.com" emailHref="#" /></div>
+<div className="lbl">CtaClose</div>
+<CtaClose phone="225 003 211" phoneHref="#" sig="../../assets/sig-mint.png" />
+</div>);}
+ReactDOM.createRoot(document.getElementById('root')).render(<Card />);
+</script></body></html>

@@ -1,0 +1,16 @@
+<!-- @dsCard group="Components" viewport="700x390" name="Clinical icons (Lucide)" subtitle="Curated set for clinic, women's health, longevity: 1.5px stroke, her hand" -->
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><link rel="stylesheet" href="../../styles.css"><style>body{margin:0;padding:18px 20px;background:#FFFFFF;font-family:var(--font-body)}h5{margin:0 0 10px;font-family:var(--font-mono);font-weight:500;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}.grp{margin-bottom:16px}.row{display:flex;flex-wrap:wrap;gap:18px}.it{display:flex;flex-direction:column;align-items:center;gap:5px;width:62px}.nm{font-family:var(--font-mono);font-size:9px;color:var(--muted);text-align:center;line-height:1.2}.it svg{color:var(--ink)}</style></head><body>
+<div class="grp"><h5>Klinika</h5><div class="row" data-set="stethoscope,pill,syringe,thermometer,microscope,test-tube,clipboard-list,hospital,bed,bandage,activity,heart-pulse"></div></div>
+<div class="grp"><h5>Ženské zdraví</h5><div class="row" data-set="venus,baby,calendar-heart,droplet,hand-heart,circle-dashed"></div></div>
+<div class="grp"><h5>Výživa</h5><div class="row" data-set="apple,salad,egg,fish,wheat,utensils,glass-water,scale"></div></div>
+<div class="grp"><h5>Pohyb a spánek</h5><div class="row" data-set="dumbbell,footprints,bike,moon,sun,timer,bed-double,person-standing"></div></div>
+<div class="grp"><h5>Data a důkazy</h5><div class="row" data-set="trending-up,trending-down,chart-line,chart-column,book-open,file-text,search,shield-check"></div></div>
+<script src="https://unpkg.com/lucide@0.544.0/dist/umd/lucide.min.js"></script>
+<script>
+document.querySelectorAll('.row').forEach(row => {
+  row.innerHTML = row.dataset.set.split(',').map(n =>
+    `<div class="it"><i data-lucide="${n}" style="width:26px;height:26px"></i><span class="nm">${n}</span></div>`).join('');
+});
+if (window.lucide) lucide.createIcons({ attrs: { 'stroke-width': 1.5, width: 26, height: 26 } });
+</script>
+</body></html>

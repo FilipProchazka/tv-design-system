@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{overflow:hidden}
+.slide{position:relative;width:1920px;height:1080px;overflow:hidden;
+  background:var(--surface);color:var(--ink);
+  -webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+.a{position:absolute}
+
+/* ── themes ─────────────────────────────────────────────────────────
+   Sampled from her own Canva decks. Every muted/soft value clears 4.5:1
+   on its surface, every accent clears 4.5:1, so a theme swap can never
+   quietly break legibility.                                            */
+.t-petrol.light{--surface:#FFFFFF;--ink:#14211F;--muted:#5C6C69;--soft:#687672;--rule:#C2D0CD;--accent:#0B6A63;--onacc:#FFFFFF}
+.t-petrol.dark {--surface:#0E3A36;--ink:#FFFFFF;--muted:#9CBCB6;--soft:#93B5AF;--rule:#2E5F59;--accent:#8FE3D9;--onacc:#0E3A36}
+.t-violet.light{--surface:#FBF5FE;--ink:#401252;--muted:#6B4B7D;--soft:#7C5E8D;--rule:#CDB3DC;--accent:#6D2A8C;--onacc:#FFFFFF}
+.t-violet.dark {--surface:#401252;--ink:#FFFFFF;--muted:#C9AEDA;--soft:#B49BC6;--rule:#5E2E73;--accent:#D8A6F5;--onacc:#401252}
+.t-blue.light  {--surface:#FFFFFF;--ink:#0F2C47;--muted:#4A6884;--soft:#5C7890;--rule:#AFC4D6;--accent:#1D5994;--onacc:#FFFFFF}
+.t-blue.dark   {--surface:#0F3557;--ink:#FFFFFF;--muted:#A6C2DB;--soft:#8CA9C4;--rule:#2A5480;--accent:#8FC9F5;--onacc:#0F3557}
+
+/* legacy aliases: the original boards were written before themes existed */
+.paper {--surface:#FFFFFF;--ink:#14211F;--muted:#5C6C69;--soft:#687672;--rule:#C2D0CD;--accent:#0B6A63;--onacc:#FFFFFF}
+.petrol{--surface:#0E3A36;--ink:#FFFFFF;--muted:#9CBCB6;--soft:#93B5AF;--rule:#2E5F59;--accent:#8FE3D9;--onacc:#0E3A36}
+
+/* type scale: six sizes, no more. Claim to body is 2.9x so it carries a room. */
+.statement{font-family:Manrope,system-ui,sans-serif;font-weight:300;font-size:102px;line-height:1.06;letter-spacing:-.028em}
+.claim    {font-family:Manrope,system-ui,sans-serif;font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em}
+.sub      {font-family:Manrope,system-ui,sans-serif;font-weight:400;font-size:34px;line-height:1.22;letter-spacing:-.010em}
+.lead     {font-family:Inter,system-ui,sans-serif;font-weight:400;font-size:30px;line-height:1.50;letter-spacing:-.004em}
+.body     {font-family:Inter,system-ui,sans-serif;font-weight:400;font-size:26px;line-height:1.56;letter-spacing:-.002em}
+.mono     {font-family:'JetBrains Mono',ui-monospace,Menlo,monospace;font-weight:500;font-size:19px;line-height:1;letter-spacing:.13em;text-transform:uppercase}
+.num      {font-family:'JetBrains Mono',ui-monospace,Menlo,monospace;font-weight:400;font-size:20px;line-height:1.4;letter-spacing:.02em}
+.figure   {font-family:'JetBrains Mono',ui-monospace,Menlo,monospace;font-weight:400;line-height:.92;letter-spacing:-.045em;white-space:nowrap}
+
+.muted{color:var(--muted)}
+.acc  {color:var(--accent)}
+.soft {color:var(--soft)}
+.ink  {color:var(--ink);font-weight:600}
+
+/* ── Instagram reels · 1080×1920 ────────────────────────────────────
+   Two different rules, and conflating them is what makes a reel look
+   unfinished:
+     · SAFE TEXT ZONE  x 80–960, y 280–1250. Critical words go here so
+       Instagram's own chrome never covers them.
+     · THE FRAME       0–1080, 0–1920, and it must be FILLED. The chrome
+       overlays content, it does not require blank space. A background
+       always bleeds to all four edges.
+   At 1080 wide on a ~390pt phone, 1px ≈ 0.36pt, so a 150px hook reads
+   at ~54pt and 48px body at ~17pt. Anything smaller is fine print.    */
+.reel{width:1080px;height:1920px}
+.a-hook {font-family:Manrope,system-ui,sans-serif;font-weight:500;font-size:150px;line-height:.98;letter-spacing:-.038em}
+.a-quote{font-family:Manrope,system-ui,sans-serif;font-weight:400;font-size:112px;line-height:1.06;letter-spacing:-.032em}
+.a-mid  {font-family:Manrope,system-ui,sans-serif;font-weight:500;font-size:92px;line-height:1.08;letter-spacing:-.028em}
+.a-sub  {font-family:Manrope,system-ui,sans-serif;font-weight:300;font-size:62px;line-height:1.14;color:var(--muted)}
+.a-h    {font-family:Manrope,system-ui,sans-serif;font-weight:600;font-size:56px;line-height:1.16}
+.a-body {font-family:Inter,system-ui,sans-serif;font-weight:400;font-size:48px;line-height:1.38;color:var(--muted)}
+.a-fig  {font-family:'JetBrains Mono',ui-monospace,monospace;font-weight:400;font-size:380px;line-height:.86;letter-spacing:-.05em;color:var(--accent);white-space:nowrap}
+.a-mono {font-family:'JetBrains Mono',ui-monospace,monospace;font-weight:500;font-size:32px;letter-spacing:.05em;color:var(--muted)}
+.a-kick {font-family:'JetBrains Mono',ui-monospace,monospace;font-weight:500;font-size:34px;letter-spacing:.12em;text-transform:uppercase}
+/* emphasis, which social copy needs and a lecture slide does not */
+.hl{color:var(--accent)}
+.hlb{background:var(--accent);color:var(--onacc);padding:.02em .16em;
+     box-decoration-break:clone;-webkit-box-decoration-break:clone}
+
+  a{color:#0B6A63} a:hover{color:#08514C}
+  </style>
+</helmet>
+<div class="slide t-violet dark">
+  <svg width="0" height="0" style="position:absolute"><defs>
+    <filter id="duo-violet" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values="0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0 0 0 1 0"></feColorMatrix>
+      <feComponentTransfer>
+        <feFuncR type="table" tableValues="0.184 0.706"></feFuncR>
+        <feFuncG type="table" tableValues="0.055 0.482"></feFuncG>
+        <feFuncB type="table" tableValues="0.278 0.839"></feFuncB>
+      </feComponentTransfer>
+    </filter></defs></svg>
+  <img src="photo-midlife.jpg" class="a" style="left:0;top:0;width:1920px;height:1080px;object-fit:cover;object-position:54% 26%;filter:url(#duo-violet)">
+  <div class="a" style="inset:0;background:linear-gradient(99deg,rgba(40,12,60,0.97) 0%,rgba(40,12,60,0.94) 28%,rgba(40,12,60,0.62) 52%,rgba(40,12,60,0.1) 78%,rgba(40,12,60,0) 100%)"></div>
+  <div class="a" style="left:0;bottom:0;width:1920px;height:560px;background:linear-gradient(0deg,rgba(40,12,60,0.84) 0%,rgba(40,12,60,0.28) 55%,rgba(40,12,60,0) 100%)"></div>
+  <div class="a" style="left:120px;bottom:104px;width:1160px">
+    <div class="mono acc">Hormony &nbsp;·&nbsp; Mozek &nbsp;·&nbsp; Přechod</div>
+    <div class="statement" style="margin-top:40px;font-size:108px">Menopauza<br>a&nbsp;mozek</div>
+    <div class="sub" style="margin-top:32px;font-size:38px;color:var(--muted)">Neurologický přechod, ne porucha</div>
+    <div class="lead" style="margin-top:42px;font-weight:500;font-size:28px;color:var(--ink)">Mgr. Ing. Tereza Vágnerová, Ph.D.</div>
+  </div></div>
+</x-dc>
+</body>
+</html>

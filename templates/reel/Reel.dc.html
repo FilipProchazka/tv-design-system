@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Reel: timing sheet + animated preview" description="A 9:16 reel as timed frames with role-named placeholders: hook ≤7 words, safe zone, centre CTA, caption template. Two structures (claim-led, number-led); no subject content." -->
+<helmet>
+<script src="./ds-base.js"></script>
+<script>document.documentElement.lang='cs';</script>
+<style>html,body{margin:0;background:#EDEFF1}.wrap{display:grid;grid-template-columns:420px minmax(0,1fr);gap:40px;padding:32px;align-items:start}.phone{position:relative;width:420px;height:747px;border-radius:44px;overflow:hidden;box-shadow:0 18px 44px rgba(15,44,71,.13)}.ui{position:absolute;left:0;right:0;pointer-events:none}.ui.top{top:0;height:13%;background:linear-gradient(180deg,rgba(0,0,0,.28),transparent)}.ui.bot{bottom:0;height:18%;background:linear-gradient(0deg,rgba(0,0,0,.36),transparent)}.k{font-family:var(--font-mono);font-weight:500;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted)}.hook{font-family:var(--font-display);font-weight:500;font-size:58px;line-height:.98;letter-spacing:-.038em}.mid{font-family:var(--font-display);font-weight:500;font-size:36px;line-height:1.08;letter-spacing:-.028em}.bd{font-family:var(--font-body);font-size:19px;line-height:1.38;color:var(--muted)}.fig{font-family:var(--font-display);font-weight:300;font-size:150px;line-height:.86;letter-spacing:-.04em;color:var(--accent);font-variant-numeric:tabular-nums}table{width:100%;border-collapse:collapse;font-size:15px}th{text-align:left;font-family:var(--font-mono);font-weight:500;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);padding:0 12px 10px 0;border-bottom:1px solid var(--rule)}td{padding:12px 12px 12px 0;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--ink)}tr.on td{background:var(--tint)}.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}.bar{height:4px;background:var(--rule);border-radius:0;overflow:hidden}.bar>div{height:100%;background:var(--accent);transition:width .25s linear}</style>
+</helmet>
+<div class="wrap">
+<div>
+<div class="phone {{ themeClass }}" style="background:var(--surface);color:var(--ink)">
+<div style="position:absolute;left:31px;right:31px;top:109px;bottom:262px;display:flex;flex-direction:column;justify-content:center">
+<sc-if value="{{ frame.kicker }}" hint-placeholder-val="{{ true }}"><div class="k" style="color:var(--accent);margin-bottom:18px">{{ frame.kicker }}</div></sc-if>
+<sc-if value="{{ frame.fig }}" hint-placeholder-val="{{ false }}"><div class="fig">{{ frame.fig }}</div></sc-if>
+<sc-if value="{{ frame.hook }}" hint-placeholder-val="{{ true }}"><div class="hook">{{ frame.hook }}</div></sc-if>
+<sc-if value="{{ frame.mid }}" hint-placeholder-val="{{ false }}"><div class="mid" style="margin-top:14px">{{ frame.mid }}</div></sc-if>
+<sc-if value="{{ frame.body }}" hint-placeholder-val="{{ true }}"><div class="bd" style="margin-top:18px">{{ frame.body }}</div></sc-if>
+<sc-if value="{{ frame.grade }}" hint-placeholder-val="{{ false }}"><div style="display:flex;align-items:center;gap:10px;margin-top:22px"><span class="k">{{ frame.grade }}</span><span style="display:inline-flex;align-items:flex-end;gap:4px;height:14px"><span style="width:3px;height:14px;background:var(--accent)"></span><span style="width:3px;height:14px;background:var(--accent)"></span><span style="width:3px;height:14px;background:var(--accent)"></span><span style="width:3px;height:14px;background:var(--accent)"></span><span style="width:3px;height:6px;background:var(--rule)"></span></span></div></sc-if>
+<sc-if value="{{ frame.cta }}" hint-placeholder-val="{{ false }}"><div style="margin-top:22px;display:inline-flex;align-self:flex-start;align-items:center;gap:8px;background:var(--accent);color:var(--onacc);border-radius:0;padding:12px 20px;font-family:var(--font-display);font-weight:500;font-size:17px">{{ frame.cta }}</div></sc-if>
+</div>
+<div style="position:absolute;left:31px;right:31px;top:506px;display:flex;align-items:center;justify-content:space-between"><span class="k" style="text-transform:none;letter-spacing:.04em">@tvagnerova_clinicaldietitian</span><img src="../../assets/sig-blue.png" alt="" style="width:44px;opacity:.9"></div>
+<div class="ui top"></div><div class="ui bot"></div>
+<div style="position:absolute;left:31px;right:31px;top:109px;bottom:262px;border:1px dashed rgba(127,127,127,.45);border-radius:0;pointer-events:none"></div>
+</div>
+<div style="display:flex;align-items:center;gap:12px;margin-top:16px"><button onClick="{{ toggle }}" style="min-height:40px;padding:8px 18px;font-size:15px;font-family:var(--font-mono);font-weight:500;letter-spacing:.06em;border:1px solid var(--accent);background:var(--accent);color:var(--onacc);cursor:pointer">{{ playLabel }}</button><button onClick="{{ swap }}" style="min-height:40px;padding:8px 18px;font-size:15px;font-family:var(--font-mono);font-weight:500;letter-spacing:.06em;border:1px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer">{{ swapLabel }}</button><div class="bar" style="flex:1"><div ref="{{ barRef }}" style="width:0%"></div></div><span class="mono" style="font-size:13px;color:var(--muted)">{{ clock }}</span></div>
+<p class="bd" style="font-size:13px;margin-top:10px">Dashed box = safe text zone (x 80–960, y 280–1250 at 1080×1920). Shaded bands = Instagram UI. Everything readable lives inside the box; the frame itself is always filled to the edges.</p>
+</div>
+<div>
+<div class="k">Timing sheet · {{ setName }} · {{ total }} s · {{ count }} frames</div>
+<table style="margin-top:14px"><thead><tr><th style="width:36px">#</th><th style="width:56px">s</th><th>On screen</th><th>Change</th><th>Spoken line</th></tr></thead><tbody>
+<sc-for list="{{ rows }}" as="r" hint-placeholder-count="7"><tr class="{{ r.cls }}"><td class="mono">{{ r.n }}</td><td class="mono">{{ r.dur }}</td><td><b style="font-weight:600">{{ r.on }}</b><br><span style="color:var(--muted)">{{ r.sub }}</span></td><td style="color:var(--muted)">{{ r.change }}</td><td style="color:var(--muted)">{{ r.say }}</td></tr></sc-for>
+</tbody></table>
+<div class="k" style="margin-top:32px">Caption template</div>
+<pre style="margin-top:12px;font-family:var(--font-mono);font-size:14px;line-height:1.6;color:var(--ink);white-space:pre-wrap;background:#FFFFFF;border:1px solid var(--rule);border-radius:0;padding:18px">{{ caption }}</pre>
+<div class="k" style="margin-top:32px">Rules this set obeys</div>
+<ul class="bd" style="margin-top:12px;padding-left:18px;font-size:15px;display:grid;gap:6px"><li>Čísla nad 100px jsou <b style="font-weight:600;color:var(--ink)">Geist 300</b>, jednotka a&nbsp;popisek <b style="font-weight:600;color:var(--ink)">IBM Plex Mono</b>.</li><li>Váhy 300 / 400 / 500 / 600; zvýraznění ve&nbsp;stejné velikosti přeskakuje stupeň (400 → 600).</li><li>Každý text je <b style="font-weight:600;color:var(--ink)">role</b>, ne obsah: nahraďte ji, strukturu ponechte.</li><li>Hook ≤ 7 words / 42 characters on frame 1, readable muted. Check: <b style="font-weight:600;color:var(--ink)">{{ hookCheck }}</b></li><li>Every frame stays long enough to be read aloud twice.</li><li>Something changes every 2–4 s: a cut, a figure, a highlight.</li><li>Payoff before setup; context goes to the caption.</li><li>The keyword is spoken, shown, and written in the caption's first line.</li><li>CTA sits mid-frame; the bottom 340 px carries only ground.</li><li>Cover frame keeps the claim inside the 3:4 grid crop (y 240–1680).</li></ul>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1240,&quot;height&quot;:900}}">
+class Component extends DCLogic {
+  state = { set: 'tvrzeni', i: 0, playing: false, t: 0 };
+  /* Two STRUCTURES, not two subjects. Every string names the role it fills so
+     the sheet can be copied into a talk without inheriting anyone's content.
+     Rules each frame obeys: hook <= 7 words / 42 chars; one idea per frame;
+     the figure owns its frame; grade ticks only where a source exists; CTA
+     mid-frame, never in the bottom 480px. */
+  sets = {
+    tvrzeni: { name: 'Struktura A · tvrzení → doklad → CTA', theme: 't-blue', keyword: 'klíčové slovo',
+      caption: 'Řádek 1: klíčové slovo a tvrzení z prvního rámečku.\nŘádek 2: tvrzení rozvedené do dvou vět, s mezí platnosti.\nŘádek 3: Zdroj: autor, rok, časopis nebo identifikátor\n#klicoveslovo #tema #bezdiakritiky',
+      frames: [
+        { dur: 3, kicker: 'Klíčové slovo', hook: 'Hák do sedmi slov.', body: 'Jedna věta, co uvidí dál.', change: 'cut in; hook on frame 1', say: 'Řekni klíčové slovo v první větě.' },
+        { dur: 4, hook: 'Druhé tvrzení.', body: 'Jedna věta, která ho podpírá. Druhá už je další rámeček.', change: 'hook shrinks, body enters', say: 'Mluvená věta k rámečku 2.' },
+        { dur: 4, kicker: 'Co číslo měří', fig: '42', body: 'jednotka a kontext čísla', change: 'figure fills frame', say: 'Číslo řečeno slovy, s jednotkou.' },
+        { dur: 4, hook: 'Tvrzení se zdrojem.', body: 'Věta, kterou zdroj skutečně říká, včetně meze.', grade: 'Stupeň důkazu', change: 'grade ticks enter', say: 'Co zdroj našel, jednou větou.' },
+        { dur: 4, kicker: 'Kicker', mid: 'Střední myšlenka', body: 'Jedna věta doplnění.', change: 'kicker + title', say: 'Mluvená věta k rámečku 5.' },
+        { dur: 4, hook: 'Otázka divákovi?', body: 'Jedna věta, proč na ní záleží.', change: 'question, hard cut', say: 'Položená otázka, pauza.' },
+        { dur: 4, kicker: 'Kam dál', mid: 'Název celku', body: 'Kde to najít.', cta: 'Uložit a poslat dál', change: 'CTA mid-frame', say: 'Jedna věta výzvy.' },
+      ] },
+    cislo: { name: 'Struktura B · číslo → proč → co s tím', theme: 't-petrol', keyword: 'klíčové slovo',
+      caption: 'Řádek 1: klíčové slovo a číslo z prvního rámečku.\nŘádek 2: co číslo znamená a co neznamená.\nŘádek 3: Zdroj: autor, rok, identifikátor\n#klicoveslovo #tema',
+      frames: [
+        { dur: 3, kicker: 'Klíčové slovo', hook: 'Hák s číslem: 42.', body: 'Jedna věta, o čem to je.', change: 'cut in; hook on frame 1', say: 'Klíčové slovo a číslo v první větě.' },
+        { dur: 4, kicker: 'Co číslo měří', fig: '+42', body: 'jednotka, podmínka měření', change: 'figure fills frame', say: 'Číslo slovy, s podmínkou.' },
+        { dur: 4, hook: 'Proč to tak je.', body: 'Mechanismus jednou větou.', change: 'hook + body', say: 'Vysvětlení jednou větou.' },
+        { dur: 4, hook: 'Co to neznamená.', body: 'Mez platnosti jednou větou.', grade: 'Stupeň důkazu', change: 'grade ticks enter', say: 'Hedge, jednou větou.' },
+        { dur: 4, kicker: 'Co s tím', mid: 'Jeden konkrétní krok.', body: 'Proč právě ten.', change: 'tip frame', say: 'Jeden krok, který lze udělat dnes.' },
+        { dur: 4, kicker: 'Další díl', mid: 'Název dalšího dílu', cta: 'Sledovat', change: 'CTA mid-frame', say: 'Jedna věta, co bude příště.' },
+      ] },
+  };
+  barRef = React.createRef();
+  componentDidMount() { this.tick = setInterval(() => this.step(), 250); this.paintBar(); }
+  componentDidUpdate() { this.paintBar(); }
+  paintBar() { const fr = this.sets[this.state.set].frames, total = fr.reduce((a, b) => a + b.dur, 0), before = fr.slice(0, this.state.i).reduce((a, b) => a + b.dur, 0) + this.state.t; if (this.barRef.current) this.barRef.current.style.width = Math.round(before / total * 100) + '%'; }
+  componentWillUnmount() { clearInterval(this.tick); }
+  step() {
+    if (!this.state.playing) return;
+    const fr = this.sets[this.state.set].frames;
+    let { i, t } = this.state; t += 0.25;
+    if (t >= fr[i].dur) { t = 0; i = (i + 1) % fr.length; }
+    this.setState({ i, t });
+  }
+  renderVals() {
+    const s = this.sets[this.state.set], fr = s.frames, i = this.state.i, f = fr[i];
+    const total = fr.reduce((a, b) => a + b.dur, 0);
+    const before = fr.slice(0, i).reduce((a, b) => a + b.dur, 0) + this.state.t;
+    const hookWords = fr[0].hook.split(/\s+/).length, hookChars = fr[0].hook.length;
+    return {
+      frame: f, themeClass: s.theme, setName: s.name, total, count: fr.length,
+      rows: fr.map((x, n) => ({ n: n + 1, dur: x.dur, on: x.hook || x.mid || x.fig || '', sub: [x.kicker, x.body, x.cta].filter(Boolean).join(' · '), change: x.change, say: x.say, cls: n === i ? 'on' : '' })),
+      caption: s.caption,
+      hookCheck: `${hookWords} words / ${hookChars} chars: ${hookWords <= 7 && hookChars <= 42 ? 'OK' : 'OVER BUDGET'}`,
+      barRef: this.barRef, clock: `${before.toFixed(1)} / ${total} s`,
+      playLabel: this.state.playing ? 'Pause' : 'Play', swapLabel: this.state.set === 'tvrzeni' ? 'Show structure B (number-led)' : 'Show structure A (claim-led)',
+      toggle: () => this.setState(st => ({ playing: !st.playing })),
+      swap: () => this.setState(st => ({ set: st.set === 'tvrzeni' ? 'cislo' : 'tvrzeni', i: 0, t: 0, playing: false })),
+    };
+  }
+}
+</script>
+</body>
+</html>

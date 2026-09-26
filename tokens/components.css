@@ -1,0 +1,72 @@
+/* Interaction states for the React components. Static styling is inline or in
+   tokens/web.css; hover, open and current-page states cannot be expressed
+   inline, so they live here. Names are prefixed tv- so nothing collides with
+   a consuming project's own classes.
+
+   ONE HOVER LANGUAGE, decided 14 Sep 2026: marks respond, surfaces do not.
+   An arrow slides 4px, an outward mark leaves at 45 degrees, a mark's hairline
+   takes the accent, ink goes to accent. Nothing translates, nothing scales,
+   nothing casts a shadow: on a board a surface cannot lift, so on a page it
+   does not either. */
+
+/* marks */
+.tv-more svg{transition:transform var(--dur) var(--ease)}
+a:hover .tv-more svg,.tv-more:hover svg{transform:translateX(4px)}
+.tv-more-out svg{transition:transform var(--dur) var(--ease)}
+a:hover .tv-more-out svg{transform:translate(3px,-3px)}
+
+/* rows: the mark's rule takes the accent, the row itself is still */
+.tv-topic:hover .tv-topic-mark,.tv-inst:hover .tv-inst-mark{border-color:var(--accent);color:var(--accent)}
+.tv-topic:hover .tv-topic-name,.tv-inst:hover .tv-inst-name{color:var(--accent)}
+.tv-talk:hover .tv-talk-title{color:var(--accent)}
+.tv-entry-link:hover .tv-entry-title{color:var(--accent)}
+
+/* publications */
+.tv-pub-link:hover .tv-pub-title{color:var(--accent)}
+.tv-pub-link:hover .tv-pub-go{transform:translate(3px,-3px)}
+@media (max-width:767px){.tv-pub{grid-template-columns:1fr auto!important;gap:8px 16px!important}}
+
+/* contact routes: a row on a rule, not a card */
+.tv-route:hover .tv-route-subject{color:var(--accent)}
+.tv-route:hover .tv-route-go{transform:translateX(4px)}
+@media (max-width:959px){.tv-contact{grid-template-columns:1fr!important}}
+
+/* nav: mono links on a hairline. No utility bar, no pill. */
+.tv-links{display:flex;align-items:center;gap:clamp(18px,2vw,34px)}
+.tv-links a{font-family:var(--font-mono);font-weight:500;font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding:8px 0;border-bottom:2px solid transparent;transition:color var(--dur-fast) var(--ease),border-color var(--dur-fast) var(--ease)}
+.tv-links a:hover{color:var(--accent)}
+.tv-links a[aria-current='page']{color:var(--ink);border-bottom-color:var(--accent)}
+.tv-lang{font-family:var(--font-mono);font-weight:500;font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.tv-lang:hover{color:var(--accent)}
+.tv-menu-btn{display:none;cursor:pointer;align-items:center;justify-content:center;width:52px;height:52px;margin-left:auto;border:1px solid var(--rule);background:transparent;color:var(--ink);transition:border-color var(--dur-fast) var(--ease),color var(--dur-fast) var(--ease)}
+.tv-menu-btn:hover{border-color:var(--accent);color:var(--accent)}
+.tv-panel{background:var(--surface);border-bottom:1px solid var(--rule);padding:4px 0 20px}
+[data-menu='closed'] .tv-panel{display:none}
+/* The panel is the one surface that has genuinely left the page, so it is the
+   one place a strong elevation is correct. */
+[data-menu='open'] .tv-panel{display:block;position:absolute;left:0;right:0;top:100%;box-shadow:var(--lift-strong);z-index:1}
+.tv-panel-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:62px;padding:8px 0;border-bottom:1px solid var(--rule);font-family:var(--font-display);font-weight:500;font-size:21px;color:var(--ink)}
+.tv-panel-row svg{color:var(--accent);transition:transform var(--dur) var(--ease)}
+.tv-panel-row:hover{color:var(--accent)}
+.tv-panel-row:hover svg{transform:translateX(4px)}
+@media (min-width:1024px){.tv-panel{display:none}}
+@media (max-width:1023px){.tv-links,.tv-nav-ask{display:none}.tv-menu-btn{display:flex}}
+
+/* footer: four columns, mono heads, hairline above */
+.tv-connect-item{display:inline-flex;align-items:center;gap:11px;min-height:44px;color:var(--ink);font-size:18px}
+.tv-connect-item svg{color:var(--accent);flex:none}
+.tv-connect-item:hover{color:var(--accent)}
+.tv-foot-cols{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:clamp(28px,3vw,48px)}
+.tv-col-h{font-family:var(--font-mono);font-weight:500;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:20px}
+.tv-foot-cols ul{list-style:none}
+.tv-foot-cols li{margin-top:12px}
+.tv-foot-cols li:first-child{margin-top:0}
+.tv-foot-cols a{color:var(--muted);font-size:18px;line-height:1.5}
+.tv-foot-cols a:hover{color:var(--accent)}
+.tv-ig{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;margin-top:24px;border:1px solid var(--rule);color:var(--accent);background:transparent;transition:border-color var(--dur-fast) var(--ease)}
+.tv-ig:hover{border-color:var(--accent)}
+@media (max-width:1023px){.tv-foot-cols{grid-template-columns:1fr 1fr;gap:36px 32px}.tv-foot-about{grid-column:1 / -1}}
+@media (max-width:559px){.tv-foot-cols{grid-template-columns:1fr}}
+
+/* the booking facts stay in view beside a long description */
+@media (min-width:1024px){.tv-fact-panel{position:sticky;top:32px}}

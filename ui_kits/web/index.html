@@ -1,0 +1,69 @@
+<!-- @dsCard group="Web" viewport="1440x900" name="Web: tereza-vagnerova.cz" subtitle="The site on the deck's grammar: claim-as-sentence, mono kickers, hairlines, square corners, marks-only hover" -->
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><title>Tereza Vágnerová · klinická nutriční terapeutka</title><link rel="icon" href="../../assets/favicon.svg"><link rel="stylesheet" href="../../styles.css"><style>
+/* BESIDE layouts: a claim column and its evidence column, the deck's own
+   proportions. Nothing here is a card; the rules come from tokens/web.css. */
+.tv-about{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(32px,4.5vw,80px);align-items:start}
+.tv-faq-layout{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(32px,4.5vw,80px);align-items:start}
+@media (max-width:959px){.tv-about,.tv-faq-layout{grid-template-columns:1fr;gap:40px}.tv-webinar-layout{grid-template-columns:1fr!important}.w-hero-split{grid-template-columns:1fr!important}.w-hero-split>div:first-child{padding:clamp(44px,7vw,72px) var(--gut)!important}}
+</style></head><body><div id="root"></div>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<script src="./data.js"></script>
+<script type="text/babel" src="./HomeScreen.jsx"></script>
+<script type="text/babel" src="./Screens.jsx"></script>
+<script type="text/babel" data-presets="react">
+const { Nav: TvNav, Foot: TvFoot } = window.TerezaVGnerovDesignSystem_360dc4;
+const APP_D = window.TV_DATA;
+
+function useHash() {
+  const [h, setH] = React.useState(window.location.hash || '#/');
+  React.useEffect(() => {
+    const on = () => { setH(window.location.hash || '#/'); window.scrollTo(0, 0); };
+    window.addEventListener('hashchange', on);
+    return () => window.removeEventListener('hashchange', on);
+  }, []);
+  return h;
+}
+
+function App() {
+  const hash = useHash();
+  const parts = hash.replace(/^#\//, '').split('/');
+  /* The scale strip is a continuum, so it only appears where the subject has
+     one: a topic page, static in the footer, never fixed to the viewport. */
+  const SCALES = {
+    'zenske-zdravi': { unit: 'Den', right: 'Cyklus', majors: ['1', '7', '14', '21', '28'], on: 12 },
+    dlouhovekost: { unit: 'Věk', right: 'Život', majors: ['10', '30', '50', '70', '100'], on: 16 },
+    spanek: { unit: 'Hodina', right: 'Den', majors: ['0', '6', '12', '18', '24'], on: 7 },
+    vyziva: { unit: 'g/kg/den', right: 'Dávka', majors: ['0', '0,75', '1,5', '2,25', '3'], on: 14 },
+  };
+  const root = parts[0] || '';
+  let screen, current = root ? `#/${root}` : '#/';
+  const topicScale = root === 'temata' && parts[1] ? SCALES[parts[1]] : undefined;
+  if (root === 'temata' && parts[1]) screen = <TopicScreen slug={parts[1]} />;
+  else if (root === 'temata') screen = <TopicsScreen />;
+  else if (root === 'prednasky') screen = <TalksScreen />;
+  else if (root === 'webinare') screen = <WebinarsScreen />;
+  else if (root === 'o-mne') screen = <AboutScreen />;
+  else if (root === 'kontakt') screen = <ContactScreen />;
+  else screen = <HomeScreen />;
+
+  return (
+    <>
+      <TvNav wordmark={APP_D.wordmark} links={APP_D.nav} current={current} cta="Kontakt" ctaHref="#/kontakt"
+        phone={APP_D.phone} phoneHref={APP_D.phoneHref} clinic={APP_D.clinic}
+        email={APP_D.email} emailHref={APP_D.emailHref}
+        instagram={APP_D.instagram} instagramUrl={APP_D.instagramUrl} langLabel="EN" langHref="#/" />
+      {screen}
+      <TvFoot wordmark={APP_D.wordmark} role="Klinická nutriční terapeutka a odborná asistentka 1. LF UK"
+        scale={topicScale} sig="../../assets/sig-blue.png"
+        phone={APP_D.phone} phoneHref={APP_D.phoneHref} email={APP_D.email} emailHref={APP_D.emailHref}
+        instagramUrl={APP_D.instagramUrl} clinic={APP_D.clinic} links={APP_D.nav}
+        topics={APP_D.topics.map((t) => ({ href: `#/temata/${t.slug}`, label: t.name }))}
+        copyright="© 2026 Tereza Vágnerová" />
+    </>
+  );
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script></body></html>

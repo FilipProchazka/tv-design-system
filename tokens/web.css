@@ -1,0 +1,159 @@
+/* THE WEB LAYER: the deck's grammar, made fluid.
+   Decided 14 Sep 2026: the site is rebuilt on the deck's editorial grid, and
+   the healthcare-template inheritance (rounded cards, alternating tinted
+   bands, pill-button rhythm, hover lift) is gone. What a board does with
+   fixed pixels, a page does with clamp().
+
+   Five rules the whole layer obeys:
+   1. A claim is a full sentence at display scale. Fluid, and it steps down one
+      role on a phone rather than reflowing to reading size.
+   2. Structure is stated with a 1px hairline, never with a card.
+   3. Nothing has a radius. A board has no rounded corners and neither does a
+      page: photographs, blocks and bands are square.
+   4. Nothing moves on hover except a mark. Surfaces stay put; no shadow, ever.
+   5. Sections are separated by a rule and by air, not by a change of ground.
+      A dark band is punctuation and appears at most twice a page. */
+
+:root{
+  /* type: anchored so the desktop maximum IS the deck size */
+  --w-statement:clamp(46px,7.1vw,102px); /* @kind font */
+  --w-claim:clamp(34px,5.2vw,74px); /* @kind font */
+  --w-claim-n:clamp(28px,3.6vw,58px); /* @kind font */
+  --w-sub:clamp(24px,2.3vw,40px); /* @kind font */
+  --w-lead:clamp(20px,1.6vw,26px); /* @kind font */
+  --w-body:19px; /* @kind font */
+  --w-kicker:15px; /* @kind font */
+  --w-meta:15px; /* @kind font */
+  --w-figure:clamp(64px,9vw,148px); /* @kind font */
+
+  /* air: airier than the template it replaces */
+  --w-sec:clamp(88px,9.6vw,164px); /* @kind spacing */
+  --w-sec-tight:clamp(56px,6vw,96px); /* @kind spacing */
+  --w-block:clamp(28px,3vw,48px); /* @kind spacing */
+  --w-measure:64ch;
+  --w-measure-tight:52ch;
+}
+
+/* ---- rules and sections -------------------------------------------------
+   A section is bounded by a hairline at its top edge, drawn inside the shell
+   so it reads as a rule on the page and not as the edge of a container. */
+.w-sec{padding:var(--w-sec) 0}
+.w-sec-tight{padding:var(--w-sec-tight) 0}
+.w-ruled{border-top:1px solid var(--rule)}
+.w-rule{height:1px;background:var(--rule);border:0}
+.w-rule-ink{height:2px;background:var(--ink);border:0}
+.w-rule-acc{height:2px;background:var(--accent);border:0}
+
+/* ---- type roles --------------------------------------------------------- */
+.w-kicker{font-family:var(--font-mono);font-weight:500;font-size:var(--w-kicker);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);display:block;font-variant-numeric:tabular-nums}
+.w-kicker-muted{color:var(--muted)}
+.w-claim{font-family:var(--font-display);font-weight:400;font-size:var(--w-claim);line-height:1.1;letter-spacing:-.024em;max-width:22ch;text-wrap:balance}
+.w-claim-n{font-size:var(--w-claim-n);line-height:1.14;letter-spacing:-.018em;max-width:26ch}
+/* A page statement is Geist 400, not the deck's 300. The weight floor
+   (TYPESETTING.md §4 rule 4: 300 needs >= 60px on light, >= 100px on a dark
+   ground) is reachable on a 1920 board and not on a page: this clamp tops
+   out at 68px, so 300 could never qualify at any viewport. Weight 400 is the
+   role here; the statement is distinguished by size and air, as it should be. */
+.w-statement{font-family:var(--font-display);font-weight:400;font-size:var(--w-statement);line-height:1.06;letter-spacing:-.028em;max-width:24ch;text-wrap:balance}
+.w-sub{font-family:var(--font-display);font-weight:500;font-size:var(--w-sub);line-height:1.2;letter-spacing:-.012em;text-wrap:balance}
+.w-lead{font-family:var(--font-body);font-weight:400;font-size:var(--w-lead);line-height:1.5;max-width:var(--w-measure)}
+.w-body{font-family:var(--font-body);font-weight:400;font-size:var(--w-body);line-height:1.62;max-width:var(--w-measure)}
+.w-body b,.w-lead b{color:var(--ink);font-weight:600}
+.w-meta{font-family:var(--font-mono);font-weight:400;font-size:var(--w-meta);letter-spacing:.02em;color:var(--muted);font-variant-numeric:tabular-nums}
+/* Figures follow the same floor as the statement: on a board a figure is
+   190-380px and takes Geist 300, but on a page instances step it down (a
+   webinar price at 57px, a fact-panel row at 42px), which is under the
+   60px light-ground floor. Weight 400 across the web layer. */
+.w-figure{font-family:var(--font-display);font-weight:400;font-size:var(--w-figure);line-height:.92;letter-spacing:-.04em;font-variant-numeric:tabular-nums;color:var(--accent)}
+.w-figure .unit{font-size:.5em;font-weight:400;letter-spacing:-.02em;margin-left:.06em}
+.w-kicker + .w-claim,.w-kicker + .w-statement,.w-kicker + .w-sub{margin-top:clamp(14px,1.4vw,22px)}
+.w-claim + .w-lead,.w-statement + .w-lead,.w-sub + .w-body{margin-top:clamp(18px,1.8vw,28px)}
+
+/* ---- the ask -----------------------------------------------------------
+   Pills are gone. The primary ask is a square accent block, the same shape
+   as the deck's highlight run; everything else is a mono link with a mark. */
+.w-ask{display:inline-flex;align-items:center;gap:14px;min-height:60px;padding:16px 28px;background:var(--accent);color:var(--onacc);border:0;cursor:pointer;font-family:var(--font-display);font-weight:500;font-size:19px;line-height:1.2;transition:background var(--dur-fast) var(--ease)}
+.w-ask svg{flex:none;transition:transform var(--dur) var(--ease)}
+.w-ask:hover{color:var(--onacc);background:color-mix(in oklab,var(--accent) 88%,var(--ink))}
+.w-ask:hover svg{transform:translateX(4px)}
+.w-ask-ghost{background:transparent;color:var(--accent);border-bottom:2px solid var(--accent);padding:14px 0;min-height:52px}
+.w-ask-ghost:hover{background:transparent;color:var(--accent)}
+.w-link{display:inline-flex;align-items:center;gap:10px;min-height:44px;font-family:var(--font-mono);font-weight:500;font-size:var(--w-kicker);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.w-link svg{flex:none;transition:transform var(--dur) var(--ease)}
+.w-link:hover svg{transform:translateX(4px)}
+.w-link-out:hover svg{transform:translate(3px,-3px)}
+.w-actions{display:flex;flex-wrap:wrap;align-items:center;gap:20px 32px}
+
+/* ---- rows: what replaces the card --------------------------------------
+   A list of things is a stack of rows on hairlines. The row itself never
+   moves, never lifts and never gains a border colour; its mark responds. */
+.w-rows{display:grid;border-top:1px solid var(--rule)}
+.w-row{display:grid;gap:clamp(16px,2vw,40px);padding:clamp(26px,2.8vw,44px) 0;border-bottom:1px solid var(--rule);align-items:start}
+.w-row-2{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}
+.w-row-3{grid-template-columns:auto minmax(0,1fr) auto}
+.w-row-mark{flex:none;width:52px;height:52px;display:flex;align-items:center;justify-content:center;border:1px solid var(--rule);color:var(--accent);transition:border-color var(--dur) var(--ease),color var(--dur) var(--ease)}
+a.w-row:hover .w-row-mark,.w-row a:hover .w-row-mark{border-color:var(--accent)}
+.w-cols{display:grid;gap:clamp(28px,3vw,56px)}
+.w-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.w-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.w-col-ruled{border-top:2px solid var(--ink);padding-top:clamp(18px,1.8vw,26px)}
+.w-col-ruled-acc{border-top-color:var(--accent)}
+
+/* ---- photographs: square, duotoned, with a real scrim ------------------
+   Public mode is a contract on the ASSET: every photograph in assets/img is
+   pre-tinted to shadow #0F3557 / highlight #8FC9F5 at a 60% blend, audited
+   14 Sep 2026 (hue spread <= 15 degrees, median 203-208 across all eight –
+   hero-kitchen and about-food were re-tinted to meet it).
+
+   A CSS filter stack is NOT the enforcement: hue-rotate applied on top of a
+   file that is already tinted double-shifts it off the pair (it turned the
+   blue hero mauve), so the layer cannot safely "finish" a tint it cannot
+   measure. Where a document needs to guarantee the treatment for an asset it
+   does not control, it ships the deck's own SVG duotone and opts in with
+   .w-photo-duo: feComponentTransfer maps luminance onto the exact pair
+   whatever the input, and it is the same filter the boards use:
+
+     <svg width="0" height="0"><defs>
+       <filter id="w-duo" color-interpolation-filters="sRGB">
+         <feColorMatrix type="matrix" values="0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0 0 0 1 0"/>
+         <feComponentTransfer>
+           <feFuncR type="table" tableValues="0.059 0.561"/>
+           <feFuncG type="table" tableValues="0.208 0.788"/>
+           <feFuncB type="table" tableValues="0.341 0.961"/>
+         </feComponentTransfer>
+       </filter></defs></svg>
+
+   Clinical mode (talks to clinicians) is natural colour and takes neither. */
+.w-photo{position:relative;width:100%;overflow:hidden;background:var(--band)}
+.w-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.w-photo-duo img{filter:url(#w-duo)}
+.w-photo-clinical img{filter:none}
+.w-scrim{position:absolute;inset:0;background-color:rgba(15,53,87,.52);background-image:linear-gradient(180deg,rgba(15,53,87,0) 36%,rgba(15,53,87,.34))}
+.w-scrim-strong{background-color:rgba(15,53,87,.82)}
+.w-photo-cap{font-family:var(--font-mono);font-weight:400;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:12px}
+
+/* ---- bands: punctuation, at most twice a page -------------------------- */
+.w-band-dark{background:var(--surface);color:var(--ink)}
+.w-band-tint{background:var(--band)}
+
+/* ---- the scale strip: topic pages only, static in the footer ----------- */
+.w-scale{display:grid;gap:10px}
+.w-scale-hd{display:flex;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.w-scale-hd b{color:var(--accent);font-weight:500}
+.w-scale-row{display:flex;justify-content:space-between;align-items:flex-end;height:18px}
+.w-scale-row i{display:block;width:2px;height:8px;background:var(--rule)}
+.w-scale-row i.on{width:3px;height:18px;background:var(--accent)}
+.w-scale-maj{display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:13px;letter-spacing:.04em;color:var(--muted);font-variant-numeric:tabular-nums}
+
+/* ---- accordion: a rule, an open state, no shadow ---------------------- */
+.w-faq{border-top:1px solid var(--rule)}
+.w-faq details{border-bottom:1px solid var(--rule)}
+.w-faq summary{list-style:none;cursor:pointer;display:flex;gap:24px;align-items:center;justify-content:space-between;padding:clamp(20px,2vw,28px) 0;min-height:60px;font-family:var(--font-display);font-weight:500;font-size:clamp(19px,1.5vw,24px);line-height:1.3;color:var(--ink)}
+.w-faq summary::-webkit-details-marker{display:none}
+.w-faq summary:hover{color:var(--accent)}
+.w-faq details[open] summary{color:var(--accent)}
+.w-faq .w-answer{padding:0 0 clamp(24px,2.4vw,32px);color:var(--muted);max-width:var(--w-measure)}
+
+/* ---- responsive: claims step down one role, they do not reflow -------- */
+@media (max-width:1023px){.w-cols-3{grid-template-columns:repeat(2,minmax(0,1fr))}.w-row-2{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:679px){.w-cols-3,.w-cols-2{grid-template-columns:minmax(0,1fr)}.w-row-3{grid-template-columns:auto minmax(0,1fr)}.w-claim{max-width:none}}

@@ -1,0 +1,81 @@
+/* Three palettes, sampled from her own Canva decks, not invented. Each has a
+   light and a dark mode; every muted/soft/accent value clears 4.5:1 on its own
+   surface, so a theme swap can never quietly break legibility.
+
+   BLUE is the brand/chrome colour: buttons, links, focus, nav state, the
+   utility bar: and the CLINICAL / MEDICAL topic colour. PETROL is
+   LONGEVITY (dlouhověkost, výživa, fitness, spánek, lifestyle). VIOLET is
+   WOMEN'S HEALTH. Petrol and violet never become page furniture. --tint is the theme's own card ground (the topic index);
+   --band is the tinted section stripe. */
+:root{
+  /* base ink + surface, blue (the default theme) */
+  --blue-accent:#1D5994;--blue-ink:#0F2C47;--blue-dark:#0F3557;--blue-tint:#F2F6FA;
+  --blue-rule:#AFC4D6;--blue-muted:#4A6884;--blue-soft:#5C7890;
+  --blue-dark-muted:#A6C2DB;--blue-dark-soft:#8CA9C4;--blue-dark-rule:#2A5480;--blue-dark-accent:#8FC9F5;
+  --petrol-accent:#0B6A63;--petrol-ink:#14211F;--petrol-dark:#0E3A36;--petrol-tint:#F3F7F6;
+  --petrol-rule:#C2D0CD;--petrol-muted:#5C6C69;--petrol-soft:#687672;
+  --petrol-dark-muted:#9CBCB6;--petrol-dark-soft:#93B5AF;--petrol-dark-rule:#2E5F59;--petrol-dark-accent:#8FE3D9;
+  --violet-accent:#6D2A8C;--violet-ink:#401252;--violet-dark:#401252;--violet-tint:#FBF5FE;
+  --violet-rule:#CDB3DC;--violet-muted:#6B4B7D;--violet-soft:#7C5E8D;
+  --violet-dark-muted:#C9AEDA;--violet-dark-soft:#B49BC6;--violet-dark-rule:#5E2E73;--violet-dark-accent:#D8A6F5;
+  --paper:#FFFFFF;
+  /* the one second data colour: the progesterone stroke on the cycle chart.
+     Sand is never page furniture and never a fill behind content. */
+  --data-sand:#F0D2A2;
+  /* the blue duotone every site photograph passes through */
+  --duo-shadow:#0F3557;--duo-highlight:#8FC9F5;
+  /* the deck's petrol duotone (feComponentTransfer, not a CSS filter stack) */
+  --duo-deck-shadow:#062020;--duo-deck-highlight:#73BFB4;
+  color-scheme:light;
+}
+/* Semantic aliases. Everything downstream reads these, never a raw hex. */
+:root,.t-blue{--surface:#FFFFFF;--ink:#0F2C47;--muted:#4A6884;--soft:#5C7890;--rule:#AFC4D6;--accent:#1D5994;--onacc:#FFFFFF;--tint:#F2F6FA;--band:#F2F6FA;--chart-axis:var(--rule);--chart-grid:var(--rule);--chart-label:var(--muted);--chart-series-1:var(--accent);--chart-series-2:var(--data-sand);--chart-series-1-a75:color-mix(in srgb,var(--accent) 75%,transparent);--chart-series-1-a50:color-mix(in srgb,var(--accent) 50%,transparent);--chart-series-1-a25:color-mix(in srgb,var(--accent) 25%,transparent);--chart-emphasis:var(--ink)}
+.t-petrol{--surface:#FFFFFF;--ink:#14211F;--muted:#5C6C69;--soft:#687672;--rule:#C2D0CD;--accent:#0B6A63;--onacc:#FFFFFF;--tint:#F3F7F6;--band:#F3F7F6;--chart-axis:var(--rule);--chart-grid:var(--rule);--chart-label:var(--muted);--chart-series-1:var(--accent);--chart-series-2:var(--data-sand);--chart-series-1-a75:color-mix(in srgb,var(--accent) 75%,transparent);--chart-series-1-a50:color-mix(in srgb,var(--accent) 50%,transparent);--chart-series-1-a25:color-mix(in srgb,var(--accent) 25%,transparent);--chart-emphasis:var(--ink)}
+/* Violet's pinned light tint IS its page surface, so its band steps one shade
+   deeper: on a violet topic page a band at #FBF5FE would be invisible. */
+.t-violet{--surface:#FBF5FE;--ink:#401252;--muted:#6B4B7D;--soft:#7C5E8D;--rule:#CDB3DC;--accent:#6D2A8C;--onacc:#FFFFFF;--tint:#FBF5FE;--band:#F4ECFA;--chart-axis:var(--rule);--chart-grid:var(--rule);--chart-label:var(--muted);--chart-series-1:var(--accent);--chart-series-2:var(--data-sand);--chart-series-1-a75:color-mix(in srgb,var(--accent) 75%,transparent);--chart-series-1-a50:color-mix(in srgb,var(--accent) 50%,transparent);--chart-series-1-a25:color-mix(in srgb,var(--accent) 25%,transparent);--chart-emphasis:var(--ink)}
+/* .dark is punctuation, not a mode: the utility bar, a photo scrim, a closing
+   CTA band. There is no dark-mode toggle and no prefers-color-scheme flip. */
+.t-blue.dark{--surface:#0F3557;--ink:#FFFFFF;--muted:#A6C2DB;--soft:#8CA9C4;--rule:#2A5480;--accent:#8FC9F5;--onacc:#0F3557;--chart-axis:var(--rule);--chart-grid:var(--rule);--chart-label:var(--muted);--chart-series-1:var(--accent);--chart-series-2:var(--data-sand);--chart-series-1-a75:color-mix(in srgb,var(--accent) 75%,transparent);--chart-series-1-a50:color-mix(in srgb,var(--accent) 50%,transparent);--chart-series-1-a25:color-mix(in srgb,var(--accent) 25%,transparent);--chart-emphasis:var(--ink)}
+.t-petrol.dark{--surface:#0E3A36;--ink:#FFFFFF;--muted:#9CBCB6;--soft:#93B5AF;--rule:#2E5F59;--accent:#8FE3D9;--onacc:#0E3A36;--chart-axis:var(--rule);--chart-grid:var(--rule);--chart-label:var(--muted);--chart-series-1:var(--accent);--chart-series-2:var(--data-sand);--chart-series-1-a75:color-mix(in srgb,var(--accent) 75%,transparent);--chart-series-1-a50:color-mix(in srgb,var(--accent) 50%,transparent);--chart-series-1-a25:color-mix(in srgb,var(--accent) 25%,transparent);--chart-emphasis:var(--ink)}
+.t-violet.dark{--surface:#401252;--ink:#FFFFFF;--muted:#C9AEDA;--soft:#B49BC6;--rule:#5E2E73;--accent:#D8A6F5;--onacc:#401252;--chart-axis:var(--rule);--chart-grid:var(--rule);--chart-label:var(--muted);--chart-series-1:var(--accent);--chart-series-2:var(--data-sand);--chart-series-1-a75:color-mix(in srgb,var(--accent) 75%,transparent);--chart-series-1-a50:color-mix(in srgb,var(--accent) 50%,transparent);--chart-series-1-a25:color-mix(in srgb,var(--accent) 25%,transparent);--chart-emphasis:var(--ink)}
+/* NOTE: dark values live on compound single-element selectors, so a theme
+   class and `dark` must sit on the SAME element (`class="slide t-blue dark"`).
+   `.dark` nested inside a themed ancestor keeps the light surface by design –
+   that is what keeps the token scopes registerable. */
+
+/* Canonical semantic roles. These are the names a consumer should reach for
+   first; the short names above (--ink, --muted, --rule, --accent) remain as
+   the working vocabulary the components were written in. Both resolve to the
+   same value under every theme, so they can never disagree. Naming follows
+   category-property-role: what it is, then what it is for. */
+:root,.t-blue,.t-petrol,.t-violet,.dark{
+  --text-body:var(--ink);
+  --text-muted:var(--muted);
+  --text-subtle:var(--soft);
+  --text-link:var(--accent);
+  --text-on-action:var(--onacc);
+  --text-inverse:var(--surface);
+  --surface-page:var(--surface);
+  --surface-band:var(--band);
+  --surface-card:#FFFFFF;
+  --surface-tint:var(--tint);
+  --surface-dark:var(--blue-dark);
+  --border-default:var(--rule);
+  --border-active:var(--accent);
+  --border-focus:var(--accent);
+  --action-primary:var(--accent);
+  --action-primary-text:var(--onacc);
+  --action-ghost-border:var(--rule);
+  --action-ghost-text:var(--accent);
+  --icon-default:var(--accent);
+  --icon-muted:var(--muted);
+  --scrim-photo:rgba(15,53,87,.50);
+  --shadow-lift:var(--lift);
+  --shadow-float:var(--lift-strong);
+}
+.t-petrol .dark,.t-petrol.dark{--surface-dark:#0E3A36}
+.t-violet .dark,.t-violet.dark{--surface-dark:#401252}
+/* On a dark band the card surface is the band itself: nothing floats white
+   on punctuation. */
+.dark{--surface-card:var(--surface)}

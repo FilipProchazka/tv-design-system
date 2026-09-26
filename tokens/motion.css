@@ -1,0 +1,17 @@
+/* One easing curve. Three entrances, each doing a different job, and most
+   sections with none at all. Everything is armed by script, so the page
+   renders complete with no script and under reduced motion. */
+:root{
+  --ease:cubic-bezier(.22,1,.36,1); /* @kind other */
+  --dur-fast:.25s; /* @kind other */   /* colour changes on links and marks */
+  --dur:.3s; /* @kind other */         /* pill lift, accordion, icon nudge */
+  --dur-card:.35s; /* @kind other */   /* card lift + border shift */
+  --dur-photo:.6s; /* @kind other */   /* a photograph scaling inside its frame */
+  --dur-reveal:.75s; /* @kind other */ /* entrance */
+  --nudge:4px; /* @kind spacing */       /* how far an arrow slides on hover */
+  --lift-y:-4px; /* @kind spacing */     /* how far a card rises */
+  --lift-y-pill:-2px; /* @kind spacing */
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
