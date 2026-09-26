@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>body{margin:0;background:#666;display:grid;grid-template-columns:repeat(3,1fr);gap:4px}figure{margin:0;position:relative}canvas{width:100%;display:block}b{position:absolute;top:4px;left:6px;color:#e00;font:bold 20px sans-serif}</style></head>
+<body>
+<script type="module">
+import * as pdfjs from 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/build/pdf.min.mjs';
+pdfjs.GlobalWorkerOptions.workerSrc='https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/build/pdf.worker.min.mjs';
+const doc = await pdfjs.getDocument('../uploads/Vogue.pptx').promise;
+window.__n = doc.numPages;
+for (let i=1;i<=doc.numPages;i++){
+  const page = await doc.getPage(i);
+  const vp = page.getViewport({scale:0.45});
+  const fig=document.createElement('figure');
+  const c=document.createElement('canvas');
+  c.width=vp.width; c.height=vp.height;
+  fig.appendChild(c);
+  const b=document.createElement('b'); b.textContent=i; fig.appendChild(b);
+  document.body.appendChild(fig);
+  await page.render({canvasContext:c.getContext('2d'), viewport:vp}).promise;
+}
+window.__done=true;
+</script>
+</body></html>

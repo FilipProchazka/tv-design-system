@@ -1,0 +1,44 @@
+BLUE  ·  chrome rozhraní + klinické obory (Medicína, Přehled)
+#1D5994   accent
+#0F2C47   ink
+#4A6884   muted
+#5C7890   soft
+#AFC4D6   rule
+#F2F6FA   tint / band
+#0F3557   dark band
+#8FC9F5   dark accent
+
+PETROL  ·  dlouhověkost (Dlouhověkost, Výživa, Fitness, Spánek, Lifestyle)
+#0B6A63   accent
+#14211F   ink
+#5C6C69   muted
+#687672   soft
+#C2D0CD   rule
+#F3F7F6   tint / band
+#0E3A36   dark band
+#8FE3D9   dark accent
+
+VIOLET  ·  ženské zdraví
+#6D2A8C   accent
+#401252   ink / dark band
+#6B4B7D   muted
+#7C5E8D   soft
+#CDB3DC   rule
+#FBF5FE   surface / tint
+#F4ECFA   band
+#D8A6F5   dark accent
+
+SPOLEČNÉ
+#FFFFFF   paper
+#F0D2A2   sand, jediná druhá datová barva
+#0F3557   duotone shadow (web)
+#8FC9F5   duotone highlight (web)
+#062020   duotone shadow (deck petrol)
+#73BFB4   duotone highlight (deck petrol)
+
+Pravidla
+Modrá je jediná barva rozhraní. Petrol a violet jsou výhradně barvy témat
+a nikdy se nedotknou tlačítek, odkazů ani navigace.
+Barva tématu je vždy doprovázena názvem tématu v textu.
+Sand se používá jen tam, kde se musí odlišit dvě křivky v jednom grafu.
+Tmavé pásmo je interpunkce, nejvýše dvakrát na stránku.
