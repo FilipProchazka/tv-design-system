@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<title>Ženská dlouhověkost v éře longevity medicíny</title>
+
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/fonts.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/colors.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/typography.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/spacing.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/motion.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/dataviz.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/signal.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/base.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/components.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/styles.css">
+<script src="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/_ds_bundle.js"></script>
+<script>document.documentElement.lang='cs';</script>
+<style>
+html,body{margin:0;background:#0B0810}
+a{color:var(--accent)}a:hover{color:var(--ink)}
+.slide{background:var(--surface);color:var(--ink);overflow:hidden;-webkit-font-smoothing:antialiased}
+.a{position:absolute}
+.k{font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}
+.st{font-family:var(--font-display);font-weight:300;font-size:102px;line-height:1.06;letter-spacing:-.028em}
+.st.long{font-size:84px;line-height:1.08}
+.cl{font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1400px}
+.cl.n{font-size:58px;line-height:1.14;letter-spacing:-.018em}
+.cl.long{font-size:60px;line-height:1.14;letter-spacing:-.018em}
+.sb{font-family:var(--font-display);font-weight:400;font-size:34px;line-height:1.22}
+.ld{font-family:var(--font-body);font-size:30px;line-height:1.5;text-wrap:pretty}
+.bd{font-family:var(--font-body);font-size:26px;line-height:1.56;color:var(--muted);text-wrap:pretty}
+.bd b{color:var(--ink);font-weight:500}
+.bd i{font-style:italic}
+.zone{left:120px;top:352px;width:1680px;height:576px;display:flex;flex-direction:column;justify-content:center}
+.li{display:grid;gap:18px;list-style:none;margin:0;padding:0}
+.li li{display:block;position:relative;padding-left:32px}
+.li li::before{content:"";position:absolute;left:0;top:14px;width:12px;height:12px;border-radius:50%;background:var(--accent)}
+.num{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.fig{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-weight:500;letter-spacing:-.03em;color:var(--accent)}
+.pg{right:120px;bottom:88px;font-family:var(--font-mono);font-size:19px;letter-spacing:.06em;color:var(--muted)}
+.ref{left:120px;bottom:88px;font-family:var(--font-mono);font-size:19px;line-height:1.55;letter-spacing:.04em;color:var(--muted);width:1300px;white-space:normal;text-wrap:pretty}
+.img{position:absolute;left:0;top:0;width:1920px;height:1080px;object-fit:cover}
+.split-img{position:absolute;left:1200px;top:0;width:720px;height:1080px;object-fit:cover}
+.grade{position:absolute;right:120px;top:128px;text-align:right}
+.grade .ticks{display:flex;justify-content:flex-end;align-items:flex-end;gap:20px;height:26px;margin-top:14px}
+.tk{width:5px;height:10px;background:var(--grade-1)}
+.tk.on{height:26px;background:var(--accent)}
+.card{background:var(--surface-card);border:1px solid var(--rule);border-radius:16px;padding:44px}
+.axis{font-family:var(--font-mono);font-variant-numeric:tabular-nums;font-size:21px;color:var(--muted)}
+.swatch{flex:none;width:34px;height:10px;border-radius:2px}
+</style>
+
+<style>
+html,body{margin:0;background:#FFFFFF}
+.slide{position:relative;display:block;width:1920px;height:1080px;margin:0 auto}
+</style>
+</head>
+<body>
+<template id="__bundler_thumbnail">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><rect width="120" height="120" fill="#6D2A8C"/><text x="60" y="74" text-anchor="middle" font-family="Manrope, sans-serif" font-size="40" font-weight="500" fill="#FFFFFF">ŽD</text></svg>
+</template>
+
+
+<section data-document-role="page" class="slide t-violet dark" data-label="Titul" data-screen-label="01" data-speaker-notes="Přivítání. Rámec: dnes nemluvíme o menopauze jako o události, ale o celoživotním rytmu. Webinář pro ženy, 45 až 60 minut, otázky na konci.">
+<img class="img" src="assets/duo/photo-midlife.jpg" alt="Žena ve středním věku opřená o zeď" style="object-position:60% 30%">
+<div class="a" style="inset:0;background:linear-gradient(99deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.92) 36%,rgba(64,18,82,.58) 64%,rgba(64,18,82,.14) 100%)"></div>
+<img src="assets/sig-violet.png" class="a" alt="Monogram Tv" style="left:120px;top:96px;width:196px;filter:brightness(0) invert(1)">
+<div class="a" style="left:120px;top:212px;width:820px;font-family:var(--font-body);font-size:22px;line-height:1.62;color:var(--muted)">Klinika geriatrie a&nbsp;interní medicíny 1.&nbsp;LF UK<br>Healthy Longevity Clinic · Česká asociace nutričních terapeutů, z.s.</div>
+<div class="a" style="left:120px;bottom:104px;width:1320px">
+<div class="k">Ženské zdraví · Dlouhověkost</div>
+<div class="st" style="margin-top:40px;font-size:96px">Ženská dlouhověkost v&nbsp;éře longevity medicíny</div>
+<div class="sb" style="margin-top:28px;font-size:38px;color:var(--muted)">Měsíční i&nbsp;celoživotní rytmus, a&nbsp;co s&nbsp;ním umíme dělat</div>
+<div class="ld" style="margin-top:44px;font-weight:500;font-size:28px">Mgr. Ing. Tereza Vágnerová, Ph.D.</div>
+</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet dark" data-label="Stárnutí" data-screen-label="02" data-speaker-notes="Stárnutí jako rizikový faktor: neléčíme jednu nemoc, ovlivňujeme půdu, na které nemoci vznikají. Proto má smysl mluvit o prevenci ve 30 a ne až v 55.">
+<img class="img" src="assets/duo/photo-walk.jpg" alt="Žena jde lesní cestou" style="object-position:50% 45%">
+<div class="a" style="inset:0;background:linear-gradient(90deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.91) 48%,rgba(64,18,82,.42) 80%,rgba(64,18,82,.14) 100%)"></div>
+<div class="a k" style="left:120px;top:140px">Proč vůbec</div>
+<div class="a zone" style="width:1340px">
+<div class="st" style="max-width:1360px">Stárnutí je největším rizikovým faktorem většiny chronických onemocnění.</div>
+<div class="ld" style="margin-top:44px;color:var(--muted);max-width:1200px">Začíná dávno předtím, než ho poznáme na sobě. Proto se o&nbsp;něm bavíme ve&nbsp;třiceti, ne až v&nbsp;padesáti pěti.</div>
+</div>
+<div class="a pg">02</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="82 vs 63,4 let" data-screen-label="03" data-speaker-notes="Eurostat 2018, Česko: naděje dožití žen 82,0 let, healthy life years at birth u žen 63,4 let. Rozdíl 18,6 roku je život s omezením nebo zhoršeným zdravím. ČSÚ 2021: ženy 50,7 % populace ČR, muži 49,3 %. Pointa: cílem není přidat roky, ale přidat roky ve zdraví.">
+<div class="a k" style="left:120px;top:140px">Délka versus kvalita</div>
+<div class="a cl" style="left:120px;top:190px;width:1400px">Ženy se dožívají déle. Delší část života ale prožijí ve&nbsp;zhoršeném zdraví.</div>
+<div class="grade"><div class="k" style="color:var(--muted)">Kohortová studie</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk"></span></div></div>
+<div class="a" style="left:120px;top:440px;width:1680px;height:440px;display:grid;grid-template-columns:820px 1fr;gap:120px;align-items:center">
+<div>
+<div class="fig" style="font-size:216px;line-height:.92">18,6</div>
+<div class="k" style="margin-top:28px;color:var(--muted)">let s&nbsp;aktivním omezením nebo zhoršeným zdravím</div>
+</div>
+<div style="display:grid;gap:34px">
+<div style="display:grid;grid-template-columns:200px 1fr;gap:28px;align-items:baseline"><div class="fig" style="font-size:64px">82,0</div><div class="bd">let naděje dožití žen v&nbsp;ČR</div></div>
+<div style="display:grid;grid-template-columns:200px 1fr;gap:28px;align-items:baseline"><div class="fig" style="font-size:64px">63,4</div><div class="bd">let z&nbsp;toho <b>ve&nbsp;zdraví</b> (healthy life years at birth)</div></div>
+<div style="display:grid;grid-template-columns:200px 1fr;gap:28px;align-items:baseline"><div class="fig" style="font-size:64px">50,7</div><div class="bd">% populace ČR tvoří ženy</div></div>
+</div>
+</div>
+<div class="a ref">Eurostat 2018, Czechia (ženy: 82,0 / 63,4 roku) · ČSÚ, 2021. Hodnota 62,7 roku je zdravá délka života celé populace ČR, ne žen.</div>
+<div class="a pg">03</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet dark" data-label="Část 1 · Bias" data-screen-label="04" data-speaker-notes="Přechod do první části. Nejde o obviňování medicíny, jde o vysvětlení, proč u řady doporučení pro ženy chybí data.">
+<img class="img" src="assets/duo/photo-archive.jpg" alt="Archivní fotografie skupiny žen" style="object-position:50% 35%">
+<div class="a" style="inset:0;background:linear-gradient(0deg,rgba(64,18,82,.96) 0%,rgba(64,18,82,.66) 42%,rgba(64,18,82,.16) 100%)"></div>
+<div class="a k" style="left:120px;top:140px">Část první</div>
+<div class="a" style="left:120px;bottom:120px;width:1500px">
+<div class="st">Medicína ženy dlouho nestudovala.</div>
+<div class="ld" style="margin-top:40px;color:var(--muted);max-width:1200px">Proto u&nbsp;části doporučení pro ženy dodnes chybí data.</div>
+</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Osa biasu" data-screen-label="05" data-speaker-notes="1940 až 70: ženy z klinických studií téměř vyloučeny, obava z těhotenství a z „nestabilních hormonů“. 1977: FDA zakazuje účast žen ve fertilním věku v raných fázích studií. 1980s: většina kardiovaskulárních, onkologických i hormonálních studií jen s muži. 1990: National Cancer Institute publikuje report o vlivu diety na estrogenový metabolismus a jeho souvislost s rakovinou prsu a dělohy. Všichni účastníci byli muži. Argument doby: rozdíl jsou jen „pesky hormones“, takže nejlepší způsob, jak studovat ženy, je studovat muže. 1993: NIH Revitalization Act, povinné zapojení žen a menšin.">
+<div class="a k" style="left:120px;top:140px">Bias v&nbsp;medicíně</div>
+<div class="a cl long" style="left:120px;top:190px;width:1500px">Ženy byly z&nbsp;klinických studií systematicky vylučovány přibližně do&nbsp;roku&nbsp;1993.</div>
+<div class="a" style="left:120px;top:520px;width:1680px">
+<div style="position:relative">
+<div style="position:absolute;left:9px;right:9px;top:53px;height:2px;background:var(--rule)"></div>
+<div style="position:relative;display:grid;grid-template-columns:repeat(5,1fr);gap:40px">
+<div><div class="num" style="font-size:30px;color:var(--accent);height:44px">1940–70</div><div style="width:18px;height:18px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 6px var(--surface)"></div><div class="bd" style="margin-top:30px;font-size:21px">Ženy jsou z&nbsp;klinických studií téměř vyloučeny. Důvod: obavy z&nbsp;těhotenství a&nbsp;z&nbsp;„nestabilních hormonů“.</div></div>
+<div><div class="num" style="font-size:30px;color:var(--accent);height:44px">1977</div><div style="width:18px;height:18px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 6px var(--surface)"></div><div class="bd" style="margin-top:30px;font-size:21px">FDA zakazuje účast žen ve&nbsp;fertilním věku v&nbsp;raných fázích klinických studií.</div></div>
+<div><div class="num" style="font-size:30px;color:var(--accent);height:44px">80. léta</div><div style="width:18px;height:18px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 6px var(--surface)"></div><div class="bd" style="margin-top:30px;font-size:21px">Většina studií, včetně kardiovaskulárních, onkologických a&nbsp;hormonálních, jen s&nbsp;muži.</div></div>
+<div><div class="num" style="font-size:30px;color:var(--accent);height:44px">1990</div><div style="width:18px;height:18px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 6px var(--surface)"></div><div class="bd" style="margin-top:30px;font-size:21px"><b>Report o&nbsp;vlivu diety na&nbsp;estrogenový metabolismus.</b> Všichni účastníci byli muži.</div></div>
+<div><div class="num" style="font-size:30px;color:var(--accent);height:44px">1993</div><div style="width:18px;height:18px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 6px var(--surface)"></div><div class="bd" style="margin-top:30px;font-size:21px"><b>NIH Revitalization Act.</b> Zapojení žen a&nbsp;menšin do&nbsp;studií se stává povinným.</div></div>
+</div>
+</div>
+</div>
+<div class="a ref">National Cancer Institute, 1990 · NIH Revitalization Act, 1993 · podreprezentace přetrvává v&nbsp;kardiologii a&nbsp;farmakokinetice</div>
+<div class="a pg">05</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Infarkt u žen" data-screen-label="06" data-speaker-notes="Muži: aterosklerotické pláty v epikardiálních tepnách, tedy ve velkých koronárních tepnách hned po odstupu z aorty. „Widow-maker“ je přední sestupná větev levé věnčité tepny, její uzávěr bývá fatální. Ženy: častěji difuzní mikrovaskulární postižení, nejde o jeden velký plát, ale o narušení endotelu a mikrocirkulace v menších cévách hluboko ve svalovině myokardu. Důsledek: netypické symptomy, pozdější diagnostika a léčba, protože diagnostická i prognostická kritéria byla vyvinuta na mužských kohortách.">
+<div class="a k" style="left:120px;top:140px">Rozdíly mezi pohlavími</div>
+<div class="a" style="left:120px;top:200px;width:800px;height:728px;display:flex;flex-direction:column;justify-content:center">
+<div class="cl n">Infarkt u&nbsp;ženy vypadá jinak než u&nbsp;muže.</div>
+<div class="bd" style="margin-top:36px">Dobrým příkladem, proč je nutné rozdíly studovat, je samotné „nemocnění“: jak muži a&nbsp;ženy stonají.</div>
+</div>
+<div class="grade"><div class="k" style="color:var(--muted)">Kohortová studie</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk"></span></div></div>
+<div class="a" style="left:1000px;top:200px;width:800px;height:728px;display:flex;flex-direction:column;justify-content:center;gap:40px">
+<div class="sig-row cau"><div class="k" style="color:var(--muted)">U&nbsp;mužů</div><div class="bd" style="margin-top:18px">Pláty ve&nbsp;<b>velkých koronárních tepnách</b> hned po&nbsp;odstupu z&nbsp;aorty. Uzávěr přední sestupné větve bývá fatální.</div></div>
+<div class="sig-row pos"><div class="k" style="color:var(--muted)">U&nbsp;žen</div><div class="bd" style="margin-top:18px">Častěji <b>difuzní mikrovaskulární postižení</b>: narušený endotel a&nbsp;mikrocirkulace v&nbsp;malých cévách hluboko ve&nbsp;svalovině srdce.</div></div>
+<div class="bd"><b>Důsledek:</b> netypické příznaky, a&nbsp;proto pozdější diagnóza i&nbsp;léčba. Kritéria vznikla na&nbsp;mužských kohortách.</div>
+</div>
+<div class="a pg">06</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet dark" data-label="Část 2 · Cykly" data-screen-label="07" data-speaker-notes="Přechod do druhé části. Klíčová myšlenka celé přednášky: ženská fyziologie je předvídatelná. Předvídatelnost je to, co dovoluje plánovat zátěž, výživu a regeneraci.">
+<img class="img" src="assets/duo/photo-rest.jpg" alt="Žena sedí na posteli, ruce na podbřišku" style="object-position:50% 40%">
+<div class="a" style="inset:0;background:linear-gradient(90deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.91) 46%,rgba(64,18,82,.40) 78%,rgba(64,18,82,.12) 100%)"></div>
+<div class="a k" style="left:120px;top:140px">Část druhá</div>
+<div class="a zone" style="width:1240px">
+<div class="st">Ženské tělo pracuje v&nbsp;cyklech. Měsíčních i&nbsp;celoživotních.</div>
+<div class="ld" style="margin-top:44px;color:var(--muted);max-width:1140px">Hormonální změny ovlivňují metabolismus, imunitu, mozkové funkce, regeneraci i&nbsp;výkonnost. Jsou předvídatelné, a&nbsp;proto se s&nbsp;nimi dá pracovat.</div>
+</div>
+<div class="a pg">07</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Životní fáze" data-screen-label="08" data-speaker-notes="Menarché přibližně ve 13 letech. Reprodukční období, tedy premenopauza, je nejdelší fáze. Perimenopauza začíná přibližně ve 47 letech a trvá 4,5 až 8,5 roku. Menopauza je definována 12 měsíci od poslední menstruace, medián 51,4 let. Postmenopauza je zbytek života, tedy u dnešních žen klidně 35 let. Pointa: to není krátká epizoda na konci, to je třetina života.">
+<div class="a k" style="left:120px;top:140px">Celoživotní cyklus</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Od menarché po&nbsp;postmenopauzu jde o&nbsp;jednu kontinuitu, ne o&nbsp;řadu krizí.</div>
+<div class="a" style="left:120px;top:500px;width:1680px">
+<div style="display:flex;gap:6px;align-items:flex-end;height:118px">
+<div style="width:5.56%;height:76px;border-radius:6px;background:var(--chart-series-1-a25)"></div>
+<div style="width:33.3%;height:118px;border-radius:6px;background:var(--accent);display:flex;align-items:center;padding-left:28px"><span class="k" style="font-size:18px;color:#FFFFFF">Reprodukční období</span></div>
+<div style="width:6.67%;height:96px;border-radius:6px;background:var(--chart-series-1-a50)"></div>
+<div style="width:54.4%;height:76px;border-radius:6px;background:var(--chart-series-1-a25);display:flex;align-items:center;padding-left:28px"><span class="k" style="font-size:18px;color:var(--violet-ink)">Postmenopauza</span></div>
+</div>
+<div style="display:flex;justify-content:space-between;margin-top:18px;border-top:1px solid var(--rule);padding-top:14px">
+<span class="axis">10</span><span class="axis">20</span><span class="axis">30</span><span class="axis">40</span><span class="axis">50</span><span class="axis">60</span><span class="axis">70</span><span class="axis">80</span><span class="axis">90</span><span class="axis">100 let</span>
+</div>
+<div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:56px;margin-top:52px">
+<div style="display:flex;gap:18px;align-items:flex-start"><span class="swatch" style="margin-top:10px;background:var(--chart-series-1-a25)"></span><div class="bd" style="font-size:22px"><b>Puberta</b><br>první menstruace ~13&nbsp;let</div></div>
+<div style="display:flex;gap:18px;align-items:flex-start"><span class="swatch" style="margin-top:10px;background:var(--accent)"></span><div class="bd" style="font-size:22px"><b>Reprodukční období</b><br>premenopauza, nejdelší fáze</div></div>
+<div style="display:flex;gap:18px;align-items:flex-start"><span class="swatch" style="margin-top:10px;background:var(--chart-series-1-a50)"></span><div class="bd" style="font-size:22px"><b>Perimenopauza</b><br>začátek ~47&nbsp;let, trvá 4,5–8,5&nbsp;roku</div></div>
+<div style="display:flex;gap:18px;align-items:flex-start"><span class="swatch" style="margin-top:10px;background:var(--chart-series-1-a25)"></span><div class="bd" style="font-size:22px"><b>Postmenopauza</b><br>od&nbsp;menopauzy, medián 51,4&nbsp;let</div></div>
+</div>
+</div>
+<div class="a pg">08</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Kolo cyklu" data-screen-label="09" data-speaker-notes="Délka cyklu 25 až 35 dní je normální rozptyl. Folikulární fáze začíná prvním dnem menstruace a končí ovulací, přibližně den 14. Luteální fáze trvá 12 až 14 dní a je nejstabilnější částí cyklu. Menstruace je den 1 až 5.">
+<div class="a k" style="left:120px;top:140px">Premenopauzální cyklus</div>
+<div class="a cl" style="left:120px;top:190px;width:1400px">Cyklus trvá 25 až 35&nbsp;dní a&nbsp;má tři fáze.</div>
+<div class="a" style="left:120px;top:400px;width:1680px;height:540px;display:grid;grid-template-columns:540px 1fr;gap:120px;align-items:center">
+<svg viewBox="0 0 540 540" width="540" height="540" role="img" aria-label="Kruhový diagram cyklu: folikulární fáze den 1 až 13, ovulace přibližně den 14, luteální fáze den 15 až 28">
+<g transform="rotate(-90 270 270)" fill="none" stroke-linecap="butt">
+<circle cx="270" cy="270" r="220" stroke="var(--chart-series-1-a25)" stroke-width="56" stroke-dasharray="637 745"></circle>
+<circle cx="270" cy="270" r="220" stroke="var(--accent)" stroke-width="56" stroke-dasharray="49 1333" stroke-dashoffset="-641"></circle>
+<circle cx="270" cy="270" r="220" stroke="var(--chart-series-1-a75)" stroke-width="56" stroke-dasharray="687 695" stroke-dashoffset="-695"></circle>
+</g>
+<text x="270" y="258" text-anchor="middle" font-family="var(--font-mono)" font-weight="500" font-size="58" fill="var(--accent)">25–35</text>
+<text x="270" y="304" text-anchor="middle" font-family="var(--font-mono)" font-size="26" letter-spacing="3" fill="var(--muted)">DNÍ</text>
+</svg>
+<div style="display:grid;gap:40px">
+<div style="display:flex;gap:28px;align-items:flex-start"><span class="swatch" style="margin-top:18px;background:var(--chart-series-1-a25)"></span><div><div class="sb">Folikulární fáze</div><div class="num" style="margin-top:10px;font-size:22px;color:var(--accent)">PŘIBLIŽNĚ DEN 1–13</div><div class="bd" style="margin-top:12px;font-size:23px">Rostou a&nbsp;dozrávají folikuly. Estrogen postupně stoupá, progesteron zůstává nízký.</div></div></div>
+<div style="display:flex;gap:28px;align-items:flex-start"><span class="swatch" style="margin-top:18px;background:var(--accent)"></span><div><div class="sb">Ovulace</div><div class="num" style="margin-top:10px;font-size:22px;color:var(--accent)">PŘIBLIŽNĚ DEN 14</div><div class="bd" style="margin-top:12px;font-size:23px">Vrchol estrogenu. Subjektivně bývá nejlepší výkon.</div></div></div>
+<div style="display:flex;gap:28px;align-items:flex-start"><span class="swatch" style="margin-top:18px;background:var(--chart-series-1-a75)"></span><div><div class="sb">Luteální fáze</div><div class="num" style="margin-top:10px;font-size:22px;color:var(--accent)">PŘIBLIŽNĚ DEN 15–28</div><div class="bd" style="margin-top:12px;font-size:23px">Progesteron stoupá a&nbsp;drží se vysoko. Trvá 12 až 14&nbsp;dní.</div></div></div>
+</div>
+</div>
+<div class="a pg">09</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Hormonální křivky" data-screen-label="10" data-speaker-notes="Estrogen: nízký v prvních dnech, roste k ovulačnímu vrcholu, po ovulaci propad, pak druhý menší vzestup a před menstruací pokles. Progesteron: nízký celou folikulární fázi, po ovulaci stoupá, vrchol kolem dne 21, před menstruací klesá. Progesteron zvyšuje bazální teplotu o 0,3 až 0,7 stupně. Sand je v systému vyhrazená právě pro druhou křivku.">
+<div class="a k" style="left:120px;top:140px">Co se v&nbsp;cyklu mění</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Estrogen a&nbsp;progesteron se nestřídají náhodně.</div>
+<div class="a" style="left:120px;top:396px;width:1680px">
+<svg viewBox="0 0 1680 400" width="1680" height="400" role="img" aria-label="Graf hladin estrogenu a progesteronu v průběhu cyklu">
+<g stroke="var(--chart-grid)" stroke-width="1" opacity=".7">
+<line x1="60" y1="360" x2="1640" y2="360"></line>
+<line x1="60" y1="40" x2="60" y2="360"></line>
+<line x1="811" y1="40" x2="811" y2="360" stroke-dasharray="6 10"></line>
+</g>
+<path d="M60 330 C 240 322 420 250 540 170 C 640 104 730 56 811 50 C 850 120 880 200 930 214 C 1010 200 1090 158 1170 150 C 1300 148 1420 210 1640 336" fill="none" stroke="var(--accent)" stroke-width="6" stroke-linecap="round"></path>
+<path d="M60 348 C 300 346 560 344 811 342 C 900 320 1020 200 1170 132 C 1290 128 1380 210 1470 292 C 1530 326 1580 336 1640 342" fill="none" stroke="var(--data-sand)" stroke-width="6" stroke-linecap="round"></path>
+<text x="548" y="94" text-anchor="end" font-family="var(--font-body)" font-size="26" font-weight="500" fill="var(--ink)">Estrogen</text>
+<text x="1248" y="94" font-family="var(--font-body)" font-size="26" font-weight="500" fill="var(--ink)">Progesteron</text>
+<text x="805" y="28" text-anchor="middle" font-family="var(--font-mono)" font-size="21" fill="var(--muted)">OVULACE</text>
+</svg>
+<div style="display:flex;justify-content:space-between;margin-top:8px;padding:0 46px">
+<span class="axis">Den 1</span><span class="axis">7</span><span class="axis">14</span><span class="axis">21</span><span class="axis">28</span>
+</div>
+<div style="display:flex;gap:64px;margin-top:40px;border-top:1px solid var(--rule);padding-top:30px">
+<div class="bd" style="font-size:23px;max-width:520px"><b>Menstruace, den 1–5.</b> Nejnižší estrogen, subjektivně nejhorší výkon i&nbsp;spánek.</div>
+<div class="bd" style="font-size:23px;max-width:440px"><b>Ovulace, den 14.</b> Vrchol estrogenu, nejlepší tolerance zátěže.</div>
+<div class="bd" style="font-size:23px;max-width:520px"><b>Pozdní luteální fáze.</b> Vyšší bazální teplota, o&nbsp;0,3–0,7&nbsp;°C.</div>
+</div>
+</div>
+<div class="a pg">10</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Menstruace je zdravá" data-screen-label="11" data-speaker-notes="Nejdůležitější věta pro laické publikum. Amenorea u ženy v reprodukčním věku není „optimalizace“ ani výhoda ve sportu. Bývá znakem energetického deficitu nebo endokrinní dysbalance a nese vysoká rizika: kosti, srdce, plodnost. Pravidelný cyklus vyžaduje adekvátní energetickou dostupnost.">
+<div class="a k" style="left:120px;top:140px">Folikulární fáze</div>
+<div class="a zone">
+<div class="st long" style="max-width:1560px">Menstruace je fyziologicky zdravý projev hormonální rovnováhy.</div>
+<div class="ld" style="margin-top:48px;max-width:1400px;color:var(--muted)">Absence menstruace v&nbsp;reprodukčním věku není optimalizace. Bývá znakem <b style="color:var(--ink);font-weight:500">energetického deficitu nebo endokrinní nerovnováhy</b>, a&nbsp;nese vysoká rizika.</div>
+</div>
+<div class="grade"><div class="k" style="color:var(--muted)">Odborný konsenzus</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk"></span><span class="tk"></span></div></div>
+<div class="a pg">11</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="První polovina cyklu" data-screen-label="12" data-speaker-notes="Fyzická zdatnost: střední až pozdní folikulární fáze a ovulace jsou mírně výhodnější pro sílu a výkon, malý benefit u dynamické i izometrické síly. Objektivní testy, tedy VO2max, sprint, síla, velké rozdíly mezi fázemi neukazují, ale trend je patrný. Spánek: nejhorší subjektivní kvalita v pozdní luteální fázi a při menstruaci, pozdní folikulární fáze je klidnější období. Většina studií nachází větší rozdíly v kvalitě než v délce spánku. Inzulinová senzitivita je ve folikulární fázi vyšší, změna je malá, ale konzistentní. CAVE: vysoká interindividuální variabilita.">
+<div class="a k" style="left:120px;top:140px">Co se v&nbsp;první polovině cyklu děje</div>
+<div class="a cl" style="left:120px;top:190px;width:1400px">Tělo se po&nbsp;menstruaci regeneruje a&nbsp;připravuje na&nbsp;ovulaci.</div>
+<div class="grade"><div class="k" style="color:var(--muted)">Kohortová studie</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk"></span></div></div>
+<div class="a" style="left:120px;top:470px;width:1680px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:80px">
+<div>
+<div class="k" style="color:var(--muted)">Síla a&nbsp;výkon</div>
+<div class="bd" style="margin-top:24px">Střední až pozdní folikulární fáze a&nbsp;ovulace jsou <b>mírně výhodnější pro sílu</b>. Estrogen působí antikatabolicky a&nbsp;podporuje syntézu svalových bílkovin. Vhodné období pro progresi zátěže a&nbsp;pro náročnější kognitivní úkoly.</div>
+</div>
+<div>
+<div class="k" style="color:var(--muted)">Spánek</div>
+<div class="bd" style="margin-top:24px">Pozdní folikulární fáze je v&nbsp;průměru <b>klidnější období</b>: méně probouzení, méně nespavosti. Rozdíly jsou větší v&nbsp;kvalitě spánku než v&nbsp;jeho délce.</div>
+</div>
+<div>
+<div class="k" style="color:var(--muted)">Metabolismus</div>
+<div class="bd" style="margin-top:24px">Vyšší <b>inzulinová senzitivita</b> v&nbsp;periferních tkáních i&nbsp;v&nbsp;mozku. Změna je malá, ale konzistentní. Tělo efektivněji využívá glukózu.</div>
+</div>
+</div>
+<div class="a ref"><i>CAVE:</i> vysoká interindividuální variabilita. Platí vzorec, ne předpis.</div>
+<div class="a pg">12</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Výživa · 1. polovina" data-screen-label="13" data-speaker-notes="Energie: ne pod 30 kcal na kg tukuprosté masy na den. Bílkoviny 1,2 až 1,6 g na kg, podle stavu až 2,2 g na kg. U 1,2 g/kg už vrcholí maximální efekt. Preference rostlinných zdrojů, luštěniny, tofu, ořechy, semena, celozrnné, poté libové živočišné. Bílkoviny nejsou samospásná živina ani primární zdroj energie. K mTOR: chronická hyperaktivace je přítomná v nádorech, ale vyšší příjem bílkovin sám rakovinu nezpůsobuje. V kalorickém nadbytku je mTOR chronicky aktivní a potlačuje autofagii, v rovnováze nebo mírném deficitu se zapíná pulsně. Sacharidy 45 až 55 % energie. Proestrogenní potraviny jako lněná semínka nebo kimchi účinnost ve studiích neprokázaly.">
+<img class="split-img" src="assets/duo/photo-food.jpg" alt="Ryby, ořechy, avokádo a zelenina" style="object-position:50% 50%">
+<div class="a k" style="left:120px;top:140px">Výživa v&nbsp;první polovině cyklu</div>
+<div class="a cl n" style="left:120px;top:190px;width:960px">Základ je dost energie, ne dokonalý jídelníček.</div>
+<div class="a" style="left:120px;top:420px;width:960px;display:grid;gap:30px">
+<div class="sig-row pos"><div class="bd"><b>Energie.</b> Ne pod 30&nbsp;kcal/kg tukuprosté masy za&nbsp;den. Pravidelný cyklus vyžaduje dostupnou energii.</div></div>
+<div class="sig-row pos"><div class="bd"><b>Bílkoviny 1,2–1,6&nbsp;g/kg,</b> podle stavu až 2,2&nbsp;g/kg. Maximální efekt vrcholí už u&nbsp;1,2&nbsp;g/kg. Nejsou samospásná živina ani hlavní zdroj energie.</div></div>
+<div class="sig-row pos"><div class="bd"><b>Sacharidy 45–55&nbsp;% energie.</b> Tělo je v&nbsp;této fázi využívá efektivněji.</div></div>
+<div class="sig-row neg"><div class="bd"><b>„Proestrogenní“ potraviny</b> jako lněná semínka nebo kimchi účinnost ve&nbsp;studiích neprokázaly.</div></div>
+</div>
+<div class="grade" style="right:840px"><div class="k" style="color:var(--muted)">Odborný konsenzus</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk"></span><span class="tk"></span></div></div>
+<div class="a pg" style="right:840px">13</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Mikronutrienty" data-screen-label="14" data-speaker-notes="Vitamin D: tučné ryby, žloutky, suplementace. Magnesium: ořechy kešu, para, lískové, dýňová a slunečnicová semínka, celozrnné, kakao, minerální vody, bisglycinát. Vitamin B1 a B6: banány, avokádo, oves, brambory. Vápník: zakysané mléčné výrobky, sýry, sardinky s kostí, mák, sezam, snižuje nadýmání, cravings a bolest. Zinek: dýňová a sezamová semínka, vejce, zlepšení kvality spánku. Selen: para ořechy, ryby, vejce. Omega-3: tučné ryby, lněné semínko, řasy, vlašské ořechy. Vitamin E: olivový olej, avokádo. Zázvor ve formě čaje. Železo při silné menstruaci. Doplňky: drmek obecný normalizuje luteální fázi a zmírňuje PMS a napětí v prsou, lze i v perimenopauze. Kurkumin protizánětlivě a analgeticky. Inositol na ovulaci a citlivost na inzulin, u PMS, PMDD a PCOS. N-acetylcystein mírně zvyšuje FSH u PCOS. Kreatin monohydrát zvyšuje průměrný i kognitivní výkon. Vynechávání jídel, redukční diety a nízký příjem antioxidantů zvyšují riziko menstruačních křečí. Trénink uzpůsobit příznakům.">
+<div class="a k" style="left:120px;top:140px">Při menstruaci</div>
+<div class="a cl" style="left:120px;top:190px;width:1400px">Nastavení stravování je vysoce individuální.</div>
+<div class="grade"><div class="k" style="color:var(--muted)">Mechanistické</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk"></span><span class="tk"></span><span class="tk"></span></div></div>
+<div class="a" style="left:120px;top:450px;width:1680px;display:grid;grid-template-columns:1fr 1fr;gap:0">
+<div style="padding-right:80px;border-right:1px solid var(--rule)">
+<div class="k" style="color:var(--muted)">Z&nbsp;jídla</div>
+<ul class="li bd" style="margin-top:26px;font-size:23px">
+<li><b>Vitamin D</b> a&nbsp;<b>omega-3</b>: tučné ryby, žloutky, lněné semínko, vlašské ořechy</li>
+<li><b>Magnesium</b>: ořechy, dýňová a&nbsp;slunečnicová semínka, celozrnné, kakao</li>
+<li><b>Vápník</b>: zakysané výrobky, sardinky s&nbsp;kostí, mák, sezam</li>
+<li><b>Zinek</b> a&nbsp;<b>selen</b>: semínka, vejce, para ořechy</li>
+<li><b>Vitamin B1, B6, E</b>: oves, banány, avokádo, olivový olej</li>
+<li><b>Železo</b> při silné menstruaci nebo nízkém příjmu</li>
+</ul>
+</div>
+<div style="padding-left:80px">
+<div class="k" style="color:var(--muted)">Případná suplementace</div>
+<ul class="li bd" style="margin-top:26px;font-size:23px">
+<li><b>Drmek obecný</b> normalizuje luteální fázi, zmírňuje PMS a&nbsp;napětí v&nbsp;prsou</li>
+<li><b>Kurkumin</b> působí protizánětlivě a&nbsp;analgeticky</li>
+<li><b>Inositol</b> pomáhá u&nbsp;PMS, PMDD a&nbsp;PCOS</li>
+<li><b>Kreatin monohydrát</b> zvyšuje fyzický i&nbsp;kognitivní výkon</li>
+</ul>
+<div class="bd" style="margin-top:34px;font-size:23px">Vynechávání jídel, redukční diety a&nbsp;nízký příjem antioxidantů naopak zvyšují riziko menstruačních křečí.</div>
+</div>
+</div>
+<div class="a pg">14</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Luteální fáze" data-screen-label="15" data-speaker-notes="Progesteron stoupá, vrcholí po ovulaci a drží se až do menstruace. Estrogen také stoupá, před menstruací klesá. Vyšší progesteron zvyšuje bazální teplotu o 0,3 až 0,7 stupně, zvyšuje dechovou a srdeční frekvenci, mírně snižuje toleranci tepla. Regenerace není prokazatelně ovlivněna, ale roste subjektivní únava. Snížená inzulinová citlivost, mírně vyšší glykemie, efekt je malý. Katabolický účinek progesteronu může zvyšovat potřebu bílkovin. Otoky přes RAAS, ale progesteron má natriuretický efekt, retence je individuální a přechodná. Progesteron a jeho metabolit ovlivňují GABA a serotonin, odtud PMS a PMDD. Mírně zvýšené riziko svalově-šlachových zranění v pozdní luteální a časné menstruační fázi.">
+<div class="a k" style="left:120px;top:140px">Druhá část cyklu</div>
+<div class="a" style="left:120px;top:200px;width:820px;height:728px;display:flex;flex-direction:column;justify-content:center">
+<div class="cl n">V&nbsp;druhé polovině cyklu jde tělo do&nbsp;jiného režimu.</div>
+<div class="bd" style="margin-top:36px">Výkon zůstává stabilní. Mění se to, jak namáhavý se vám zdá.</div>
+</div>
+<div class="grade"><div class="k" style="color:var(--muted)">Kohortová studie</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk"></span></div></div>
+<div class="a" style="left:1060px;top:200px;width:740px;height:728px;display:flex;flex-direction:column;justify-content:center">
+<ul class="li bd">
+<li>Bazální teplota vyšší o&nbsp;<b>0,3–0,7&nbsp;°C</b>, vyšší dechová i&nbsp;srdeční frekvence, nižší tolerance tepla</li>
+<li><b>Nižší inzulinová citlivost</b> a&nbsp;mírně vyšší glykemie, efekt je ale malý</li>
+<li>Vyšší <b>vnímání námahy</b> bez skutečného poklesu výkonu</li>
+<li>Katabolický účinek progesteronu <b>zvyšuje potřebu bílkovin</b></li>
+<li>Progesteron ovlivňuje GABA a&nbsp;serotonin: <b>PMS, PMDD, podrážděnost.</b> Účinek je vysoce individuální</li>
+</ul>
+</div>
+<div class="a pg">15</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Luteální · co funguje" data-screen-label="16" data-speaker-notes="Výživa: tělo více rozkládá bílkoviny a využívá tuk jako hlavní zdroj energie, mírně roste bazální metabolismus. Vhodnější spíše vyšší hranice příjmu bílkovin. Zdravé tuky: ořechy, slunečnicová a sezamová semena, avokádo, olivový a lněný olej, tučné ryby. Potraviny vyrovnávající glykemii a podporující progesteron: komplexní sacharidy, avokádo, tofu, hořká čokoláda, dýňová semínka. Vláknina, minerály, antioxidanty. Trénink: některým ženám prospěje nižší intenzita nebo frekvence, zajistit tekutiny a při silném pocení elektrolyty. Spánek: ashwagandha snižuje kortizol a přes GABA zlepšuje spánek, melatonin u narušeného spánku. Ložnici držet chladnější kvůli vyšší teplotě.">
+<div class="a k" style="left:120px;top:140px">Luteální fáze v&nbsp;praxi</div>
+<div class="a cl" style="left:120px;top:190px;width:1400px">Tělo v&nbsp;této fázi sahá víc po&nbsp;tucích. Vyjděte mu vstříc.</div>
+<div class="grade"><div class="k" style="color:var(--muted)">Odborný konsenzus</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk"></span><span class="tk"></span></div></div>
+<div class="a" style="left:120px;top:470px;width:1680px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:80px">
+<div>
+<div class="k" style="color:var(--muted)">Výživa</div>
+<div class="bd" style="margin-top:24px">Bílkoviny spíše u&nbsp;<b>vyšší hranice 1,2–1,6&nbsp;g/kg</b>. Zdravé tuky: ořechy, semena, avokádo, olivový a&nbsp;lněný olej, tučné ryby. Komplexní sacharidy vyrovnávají glykemii.</div>
+</div>
+<div>
+<div class="k" style="color:var(--muted)">Trénink</div>
+<div class="bd" style="margin-top:24px">Některým ženám prospěje <b>nižší intenzita nebo frekvence</b> a&nbsp;důraz na&nbsp;regeneraci. Dbejte na&nbsp;tekutiny, při silném pocení na&nbsp;elektrolyty. Vysledujte to na&nbsp;sobě.</div>
+</div>
+<div>
+<div class="k" style="color:var(--muted)">Spánek</div>
+<div class="bd" style="margin-top:24px">Relaxační rutina před spaním, pravidelný režim a&nbsp;<b>chladnější ložnice</b>, protože tělesná teplota je vyšší.</div>
+</div>
+</div>
+<div class="a pg">16</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Doplňky u PMS" data-screen-label="17" data-speaker-notes="Většina zkoumaných doplňků je účinná pouze u mírných až středně závažných obtíží, případně v kombinaci s jinými terapiemi nebo při nápravě nutričního deficitu. Zkoumané byly myo-inositol, vápník, vitamin E, vitamin D, třezalka tečkovaná, šafrán, hořčík, rybí olej, kurkumin, vitamin B6, drmek obecný, olej z pupalky dvouleté. Ashwagandha má doložený účinek na kortizol, stres a úzkost a přes GABA na spánek. Melatonin zlepšuje kvalitu spánku u poruch spánku. Pozor na interakce, zejména třezalka s hormonální antikoncepcí a antidepresivy.">
+<div class="a k" style="left:120px;top:140px">PMS a&nbsp;PMDD</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Doplňky pomáhají jen u&nbsp;mírných až středně závažných obtíží.</div>
+<div class="grade"><div class="k" style="color:var(--muted)">Mechanistické</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk"></span><span class="tk"></span><span class="tk"></span></div></div>
+<div class="a" style="left:120px;top:470px;width:1680px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:72px">
+<div>
+<div class="sig-chip pos">Má oporu</div>
+<ul class="li bd" style="margin-top:32px;font-size:23px"><li>myo-inositol</li><li>vápník, magnesium</li><li>vitamin B6, vitamin D</li><li>drmek obecný</li><li>kurkumin, rybí olej</li></ul>
+</div>
+<div>
+<div class="sig-chip cau">Nejednotné</div>
+<ul class="li bd" style="margin-top:32px;font-size:23px"><li>šafrán</li><li>vitamin E</li><li>olej z&nbsp;pupalky dvouleté</li><li>třezalka tečkovaná</li></ul>
+</div>
+<div>
+<div class="sig-chip neg">Pozor</div>
+<div class="bd" style="margin-top:32px;font-size:23px">Doplňky nenahradí režim ani nápravu nutričního deficitu. <b>Třezalka má klinicky významné interakce</b> s&nbsp;hormonální antikoncepcí a&nbsp;antidepresivy. Vždy konzultujte.</div>
+</div>
+</div>
+<div class="a ref">Ashwagandha: doložený efekt na&nbsp;kortizol a&nbsp;úzkost · melatonin: kvalita spánku u&nbsp;poruch spánku</div>
+<div class="a pg">17</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Najdi svou normu" data-screen-label="18" data-speaker-notes="Norma není fixní číslo, ale biologický rytmus. Cílem není ideální křivka hormonů, ale rozumět své oscilaci a tomu, jak na ni tělo reaguje. Sleduj s laskavostí a zvědavostí. Zapisuj délku cyklu, intenzitu krvácení, PMS symptomy, energii, výkon ve sportu, spánek, náladu, ideálně bazální teplotu a HRV. Porovnávej cykly mezi sebou, ne se sebou navzájem s jinými ženami. Zaznamenávej reakci na trénink, stres a spánek, tím poznáš, zda hormonální rytmus funguje fyziologicky.">
+<div class="a k" style="left:120px;top:140px">Premenopauzální období</div>
+<div class="a" style="left:120px;top:200px;width:820px;height:728px;display:flex;flex-direction:column;justify-content:center">
+<div class="cl n">Neporovnávejte se. Sledujte odchylky od&nbsp;své vlastní normy.</div>
+<div class="bd" style="margin-top:36px">Norma není fixní číslo, ale rytmus. Cílem není ideální křivka hormonů, ale rozumět své oscilaci.</div>
+</div>
+<div class="a" style="left:1060px;top:200px;width:740px;height:728px;display:flex;flex-direction:column;justify-content:center">
+<div class="k" style="color:var(--muted)">Co si zapisovat</div>
+<ul class="li bd" style="margin-top:28px">
+<li>délku cyklu a&nbsp;intenzitu krvácení</li>
+<li>příznaky PMS</li>
+<li>energii, náladu, spánek</li>
+<li>výkon ve&nbsp;sportu a&nbsp;vnímanou námahu</li>
+<li>ideálně bazální teplotu a&nbsp;HRV</li>
+</ul>
+<div class="bd" style="margin-top:36px">Pak porovnávejte <b>cykly mezi sebou</b>: kdy máte nejvíc energie, kdy se zhoršuje spánek nebo nálada.</div>
+</div>
+<div class="a pg">18</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet dark" data-label="Část 3 · Perimenopauza" data-screen-label="19" data-speaker-notes="Přechod do třetí části. Perimenopauza trvá 4,5 až 8,5 roku a začíná přibližně ve 47 letech. Časná fáze: změna délky cyklu o 7 a více dní mezi cykly. Pozdní fáze: interval amenorey 60 a více dní. Menopauza mezi 40 a 45 rokem je časná menopauza, pod 40 let primární ovariální insuficience, obojí je spojeno s vyšším rizikem kardiovaskulárních onemocnění, ztráty kostní hmoty a kognitivních poruch.">
+<img class="img" src="assets/duo/photo-clinic.jpg" alt="Lékařka v hovoru s pacientkou" style="object-position:40% 40%">
+<div class="a" style="inset:0;background:linear-gradient(90deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.91) 48%,rgba(64,18,82,.40) 80%,rgba(64,18,82,.12) 100%)"></div>
+<div class="a k" style="left:120px;top:140px">Část třetí</div>
+<div class="a zone" style="width:1300px">
+<div class="st">Perimenopauza není porucha. Je to přechod, který trvá roky.</div>
+<div class="ld" style="margin-top:44px;color:var(--muted);max-width:1180px">A&nbsp;protože trvá roky, dá se na&nbsp;něj připravit. Nejlépe předtím, než začne.</div>
+</div>
+<div class="a pg">19</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Čísla přechodu" data-screen-label="20" data-speaker-notes="Perimenopauza: přechodné období před menopauzou, hormonální výkyvy, může být s výraznými symptomy, délka 4,5 až 8,5 roku, začátek přibližně ve 47 letech. Menopauza: trvalé ustání menstruačního krvácení bez jiné příčiny, odráží kompletní či téměř kompletní depleci folikulů, definována 12 měsíci od poslední menstruace, 50 až 52 let, medián 51,4. Časná fáze perimenopauzy: změna délky cyklu o 7 a více dní. Pozdní fáze: amenorea 60 a více dní. Projevuje se hypoestrogenémií a zvýšeným FSH.">
+<div class="a k" style="left:120px;top:140px">Co kdy začíná</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Přechod je dlouhý. Menopauza je jen jeden den v&nbsp;něm.</div>
+<div class="grade"><div class="k" style="color:var(--muted)">Kohortová studie</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk"></span></div></div>
+<div class="a" style="left:120px;top:470px;width:1680px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0">
+<div style="padding-right:72px;border-right:1px solid var(--rule)">
+<div class="fig" style="font-size:104px;line-height:1">~47 let</div>
+<div class="k" style="margin-top:22px;color:var(--muted)">začátek perimenopauzy</div>
+<div class="bd" style="margin-top:24px;font-size:23px">Časná fáze: změna délky cyklu o&nbsp;7 a&nbsp;více dní. Pozdní fáze: interval bez menstruace 60 a&nbsp;více dní.</div>
+</div>
+<div style="padding:0 72px;border-right:1px solid var(--rule)">
+<div class="fig" style="font-size:104px;line-height:1">4,5–8,5</div>
+<div class="k" style="margin-top:22px;color:var(--muted)">roku trvá přechod</div>
+<div class="bd" style="margin-top:24px;font-size:23px">Hormonální výkyvy, které mohou být doprovázeny výraznými příznaky. Nejtěžší je právě toto kolísání.</div>
+</div>
+<div style="padding-left:72px">
+<div class="fig" style="font-size:104px;line-height:1">51,4</div>
+<div class="k" style="margin-top:22px;color:var(--muted)">medián menopauzy (let), běžně 45&ndash;55</div>
+<div class="bd" style="margin-top:24px;font-size:23px">Definována 12&nbsp;měsíci od&nbsp;poslední menstruace. Projevuje se hypoestrogenémií a&nbsp;zvýšeným FSH.</div>
+</div>
+</div>
+<div class="a ref">Menopauza mezi 40.–45. rokem: „časná menopauza“ · pod 40 let: primární ovariální insuficience. Obojí zvyšuje riziko KVO, ztráty kostní hmoty a&nbsp;kognitivních poruch.</div>
+<div class="a pg">20</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Příznaky" data-screen-label="21" data-speaker-notes="Vazomotorické symptomy, tedy návaly horka, má 75 až 80 procent žen. Dále noční pocení, vaginální suchost, nespavost, potíže se soustředěním a zapomnětlivost, výkyvy nálad, změny tělesného složení, bolest prsou, bolesti kloubů, menstruační migrény, snížené libido, řídnutí vlasů. Rizika období: 2 až 4krát vyšší riziko depre­se, zvýšené riziko demence, růst kardiovaskulárního rizika po menopauze kvůli poklesu estrogenu a nárůstu tlaku, LDL, triglyceridů, hmotnosti a viscerálního tuku, výrazně vyšší riziko osteoporózy, snížení kolagenu v kůži, a u žen s těžkými symptomy výrazně vyšší riziko snížené pracovní schopnosti. U tohoto posledního údaje jsem v literatuře nenašel primární zdroj pro číslo osmkrát, proto je na slidu uveden bez něj.">
+<div class="a k" style="left:120px;top:140px">Běžné příznaky</div>
+<div class="a cl" style="left:120px;top:190px;width:1400px">Návaly horka nejsou výjimka. Má je většina žen.</div>
+<div class="grade"><div class="k" style="color:var(--muted)">Kohortová studie</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk"></span></div></div>
+<div class="a" style="left:120px;top:450px;width:1680px;display:grid;grid-template-columns:620px 1fr;gap:100px;align-items:start">
+<div>
+<div class="fig" style="font-size:118px;line-height:1">75&ndash;80 %</div>
+<div class="k" style="margin-top:24px;color:var(--muted)">žen má vazomotorické symptomy</div>
+<div class="bd" style="margin-top:32px;font-size:23px">Náhlé pocity tepla, často s&nbsp;pocením a&nbsp;zrudnutím. K&nbsp;tomu noční pocení.</div>
+</div>
+<div>
+<div class="k" style="color:var(--muted)">Co dál se mění</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:18px 56px;margin-top:28px">
+<div class="bd" style="font-size:23px">nespavost a&nbsp;časté probouzení</div>
+<div class="bd" style="font-size:23px">výkyvy nálad</div>
+<div class="bd" style="font-size:23px">zapomnětlivost, potíže se soustředěním</div>
+<div class="bd" style="font-size:23px">vaginální suchost, snížené libido</div>
+<div class="bd" style="font-size:23px">změna tělesného složení: méně svalů, více tuku</div>
+<div class="bd" style="font-size:23px">bolesti kloubů a&nbsp;prsou</div>
+<div class="bd" style="font-size:23px">menstruační migrény</div>
+<div class="bd" style="font-size:23px">řídnutí vlasů, sušší kůže</div>
+</div>
+<div class="bd" style="margin-top:36px;font-size:23px"><b>Rizika období:</b> 2–4× vyšší riziko depresí, vyšší riziko demence a&nbsp;osteoporózy, po&nbsp;menopauze rostoucí kardiovaskulární riziko. U&nbsp;žen s&nbsp;těžkými symptomy výrazně vyšší riziko snížené pracovní schopnosti.</div>
+</div>
+</div>
+<div class="a ref">Podíl 75&ndash;80&nbsp;% podle kohorty a&nbsp;definice symptomu · <i>údaj o&nbsp;8násobném riziku snížené pracovní schopnosti čeká na&nbsp;doplnění zdroje</i></div>
+<div class="a pg">21</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Dominový efekt" data-screen-label="22" data-speaker-notes="Dominový efekt perimenopauzy přes vazomotorickou symptomatologii. Prerekvizity: návaly horka a noční pocení. Hlavní předmět: spánková deprivace a výkyvy nálad. Důsledky: narušené stravování a změna tělesné kompozice. Spánková deprivace přináší vyšší příjem, o 308 kcal na den. Při stravě ad libitum vzrostl viscerální tuk o 11 procent, zatímco celkový tělesný tuk se mezi skupinami nelišil. Citace: perimenopauza je věrohodným determinantem snižující se kvality spánku u žen ve středním věku, poruchy spánku ovlivňují 30 až 60 procent žen ve středním věku, 15 až 25 procent splňuje diagnostická kritéria insomnie.">
+<div class="a k" style="left:120px;top:140px">Jak to na&nbsp;sebe navazuje</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Návaly nejsou jen nepohodlí. Spouštějí řetěz.</div>
+<div class="a" style="left:120px;top:440px;width:1680px;display:grid;grid-template-columns:1fr 60px 1fr 60px 1fr;gap:0;align-items:center">
+<div class="card" style="background:var(--band);border-color:transparent">
+<div class="k" style="color:var(--muted)">Prerekvizita</div>
+<div class="sb" style="margin-top:20px;font-size:30px">Návaly horka a&nbsp;noční pocení</div>
+<div class="bd" style="margin-top:18px;font-size:22px">Vazomotorické symptomy, 75&ndash;80&nbsp;% žen.</div>
+</div>
+<div class="num" style="font-size:44px;color:var(--accent);text-align:center">&#8594;</div>
+<div class="card" style="border-color:var(--accent)">
+<div class="k">Hlavní předmět</div>
+<div class="sb" style="margin-top:20px;font-size:30px">Spánková deprivace a&nbsp;výkyvy nálad</div>
+<div class="bd" style="margin-top:18px;font-size:22px">Poruchy spánku má 30–60&nbsp;% žen ve&nbsp;středním věku, 15–25&nbsp;% splňuje kritéria insomnie.</div>
+</div>
+<div class="num" style="font-size:44px;color:var(--accent);text-align:center">&#8594;</div>
+<div class="card" style="background:var(--band);border-color:transparent">
+<div class="k" style="color:var(--muted)">Důsledek</div>
+<div class="sb" style="margin-top:20px;font-size:30px">Narušené stravování a&nbsp;změna složení těla</div>
+<div class="bd" style="margin-top:18px;font-size:22px">Příjem o&nbsp;<b>308&nbsp;kcal/den</b> vyšší a&nbsp;při stravě ad libitum nárůst <b>viscerálního tuku o&nbsp;11&nbsp;%</b>.</div>
+</div>
+</div>
+<div class="a ref">Covassin et&nbsp;al., JACC 2022, 14 dní spánku 4&nbsp;h vs&nbsp;9&nbsp;h, n&nbsp;=&nbsp;12 zdravých dospělých, strava ad libitum. Menopauza mění i&nbsp;rozložení tuku: ubývá na&nbsp;bocích, přibývá v&nbsp;pase.</div>
+<div class="a pg">22</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Spánek a složení těla" data-screen-label="23" data-speaker-notes="Studie Nedeltcheva a kolektiv, Annals of Internal Medicine 2010. Randomizovaná zkřížená studie, deset dospělých s nadváhou, z toho tři ženy. Čtrnáct dní kalorické restrikce při spánku 5,5 hodiny versus 8,5 hodiny. Úbytek hmotnosti byl v obou režimech stejný, 2,9 až 3 kilogramy. Při krátkém spánku ale ubylo jen 0,6 kg tuku a 2,4 kg svalové hmoty, při dlouhém 1,4 kg tuku a 1,5 kg svalů. Samostatná studie, Lamon a kolektiv 2021, popsala po jedné noci bez spánku o 18 procent nižší svalovou proteosyntézu. Pointa pro publikum: bez spánku hubnete ze svalů, nikoli z tuku.">
+<div class="a k" style="left:120px;top:140px">Spánek a&nbsp;hubnutí</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Stejný úbytek na&nbsp;váze. Úplně jiný výsledek.</div>
+<div class="grade"><div class="k" style="color:var(--muted)">Randomizovaná studie</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span></div></div>
+<div class="a" style="left:120px;top:440px;width:1680px">
+<div style="display:grid;grid-template-columns:280px 1fr;gap:36px 40px;align-items:center">
+<div><div class="sb" style="font-size:30px">5,5&nbsp;h spánku</div><div class="k" style="margin-top:10px;color:var(--muted)">14 dní</div></div>
+<div style="display:flex;height:92px;border-radius:8px;overflow:hidden">
+<div style="width:20%;background:var(--data-sand);display:flex;align-items:center;padding-left:32px"><span class="num" style="font-size:26px;color:var(--violet-ink)">0,6&nbsp;kg</span></div>
+<div style="flex:1;background:var(--accent);display:flex;align-items:center;padding-left:32px"><span class="num" style="font-size:26px;color:#FFFFFF">2,4&nbsp;kg svalové hmoty</span></div>
+</div>
+<div><div class="sb" style="font-size:30px">8,5&nbsp;h spánku</div><div class="k" style="margin-top:10px;color:var(--muted)">14 dní</div></div>
+<div style="display:flex;height:92px;border-radius:8px;overflow:hidden">
+<div style="width:48.3%;background:var(--data-sand);display:flex;align-items:center;padding-left:32px"><span class="num" style="font-size:26px;color:var(--violet-ink)">1,4&nbsp;kg tuku</span></div>
+<div style="width:51.7%;background:var(--accent);display:flex;align-items:center;padding-left:32px"><span class="num" style="font-size:26px;color:#FFFFFF">1,5&nbsp;kg svalové hmoty</span></div>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:280px 1fr;gap:40px;margin-top:36px">
+<div></div>
+<div style="display:flex;gap:56px;align-items:center">
+<div style="display:flex;gap:16px;align-items:center"><span class="swatch" style="background:var(--data-sand)"></span><span class="bd" style="font-size:22px">úbytek tukové hmoty</span></div>
+<div style="display:flex;gap:16px;align-items:center"><span class="swatch" style="background:var(--accent)"></span><span class="bd" style="font-size:22px">úbytek svalové hmoty</span></div>
+<div class="bd" style="font-size:22px">Celkem <b>2,9&ndash;3,0&nbsp;kg</b> v&nbsp;obou skupinách.</div>
+</div>
+</div>
+</div>
+<div class="a ref">Nedeltcheva et&nbsp;al., Ann Intern Med 2010, randomizovaná zkřížená studie, n&nbsp;=&nbsp;10 (3 ženy), 14 dní kalorické restrikce · jedna noc bez spánku snížila svalovou proteosyntézu o&nbsp;18&nbsp;% (Lamon et&nbsp;al., 2021)</div>
+<div class="a pg">23</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet dark" data-label="Mozek a spánek" data-screen-label="24" data-speaker-notes="Menopauzu lze chápat jako neurologický přechod: mozek jinak hospodaří s energií a jinak se zásobuje. Období perimenopauzy je kvůli kolísání hormonů nejtěžší. Estrogen preservuje kognitivní funkce. Alzheimerova choroba je častější u žen než u mužů. Poruchy spánku jsou běžné během menopauzy i po ní a představují rizikový a patogenetický faktor rozvoje demence. Ztráta ovariálních hormonů může ovlivňovat kognici přímo, ale pravděpodobně i nepřímo, prostřednictvím poruch spánku. Konzistentně vysoká úroveň rekreační fyzické aktivity, nikoli pohyb spojený s domácností, souvisí s lepším spánkem u žen ve středním věku.">
+<div class="a k" style="left:120px;top:140px">Neurologický přechod</div>
+<div class="a zone" style="width:1680px">
+<div class="st long" style="max-width:1560px">Menopauza je i&nbsp;přechod mozku. Jinak hospodaří s&nbsp;energií.</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:56px">
+<div class="sb" style="font-size:32px;line-height:1.34;color:var(--ink)">„Poruchy spánku představují rizikový a&nbsp;patogenetický faktor rozvoje demence.“</div>
+<div class="sb" style="font-size:32px;line-height:1.34;color:var(--ink)">„Ztráta ovariálních hormonů může ovlivňovat kognici přímo, ale pravděpodobně i&nbsp;nepřímo, prostřednictvím poruch spánku.“</div>
+</div>
+<div class="ld" style="margin-top:52px;color:var(--muted);max-width:1500px">Estrogen kognitivní funkce chrání. Alzheimerova choroba je u&nbsp;žen častější než u&nbsp;mužů. Nejtěžší je právě perimenopauzální kolísání.</div>
+</div>
+<div class="grade"><div class="k" style="color:var(--muted)">Kohortová studie</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk"></span></div></div>
+<div class="a pg">24</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Kostní hmota" data-screen-label="25" data-speaker-notes="Úbytek kostní hmoty probíhá ve dvou fázích. První fáze nastává v perimenopauze, kdy se vlivem nedostatku estrogenu zvyšuje odbourávání kosti, tedy resorpce. Druhá fáze přichází 4 až 8 let po menopauzální tranzici, kdy se zpomaluje novotvorba kostní hmoty. Riziko osteoporózy se v menopauze významně zvyšuje. Estrogenový deficit přispívá i k rozvoji osteoartrózy. Proto silové cvičení plus vápník, vitamin D, K2 ve formě MK-4, bílkoviny a kreatin monohydrát.">
+<div class="a k" style="left:120px;top:140px">Kosti</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Kost neubývá plynule. Ubývá ve&nbsp;dvou vlnách.</div>
+<div class="grade"><div class="k" style="color:var(--muted)">Kohortová studie</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk"></span></div></div>
+<div class="a" style="left:120px;top:430px;width:1680px">
+<svg viewBox="0 0 1680 360" width="1680" height="360" role="img" aria-label="Graf dvoufázového úbytku kostní hmoty v perimenopauze a po menopauzální tranzici">
+<rect x="420" y="20" width="340" height="268" fill="var(--chart-series-1-a25)" opacity=".55"></rect>
+<rect x="760" y="20" width="520" height="268" fill="var(--chart-series-1-a25)" opacity=".28"></rect>
+<line x1="60" y1="288" x2="1640" y2="288" stroke="var(--chart-axis)" stroke-width="1"></line>
+<line x1="760" y1="20" x2="760" y2="300" stroke="var(--ink)" stroke-width="2" stroke-dasharray="6 8"></line>
+<path d="M60 56 C 200 60 320 66 420 72 C 520 104 660 182 760 206 C 900 232 1080 254 1280 268 C 1400 274 1520 278 1640 280" fill="none" stroke="var(--accent)" stroke-width="6" stroke-linecap="round"></path>
+<text x="590" y="336" text-anchor="middle" font-family="var(--font-mono)" font-size="21" fill="var(--muted)">PERIMENOPAUZA</text>
+<text x="1020" y="336" text-anchor="middle" font-family="var(--font-mono)" font-size="21" fill="var(--muted)">4–8 LET PO TRANZICI</text>
+<text x="760" y="14" text-anchor="middle" font-family="var(--font-mono)" font-size="21" fill="var(--ink)">MENOPAUZA</text>
+<text x="70" y="40" font-family="var(--font-mono)" font-size="21" fill="var(--muted)">KOSTNÍ HMOTA</text>
+</svg>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:80px;margin-top:44px;border-top:1px solid var(--rule);padding-top:32px">
+<div class="bd" style="font-size:23px"><b>1. fáze, perimenopauza.</b> Nedostatek estrogenu zvyšuje odbourávání kosti.</div>
+<div class="bd" style="font-size:23px"><b>2. fáze, 4 až 8&nbsp;let po&nbsp;tranzici.</b> Zpomaluje se novotvorba kostní hmoty.</div>
+<div class="bd" style="font-size:23px"><b>Proto zátěž a&nbsp;materiál.</b> Silový trénink, vápník, vitamin D, K2 (MK-4), bílkoviny, kreatin.</div>
+</div>
+</div>
+<div class="a pg">25</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Výživa v menopauze" data-screen-label="26" data-speaker-notes="Změna běžného způsobu stravování může snížit příznaky. Častý omyl: když žena užívá HRT, dieta prý nehraje roli. Ať už je HRT užívána nebo ne, to co jíte a pijete ovlivňuje každodenní stav i dlouhodobá rizika. Ke snížení návalů vedl vyšší příjem celozrnných obilovin, tedy oves, žito, ječmen, pohanka, hnědá rýže, quinoa, brukvovité a listové a barevné zeleniny, sójových bobů a zdrojů isoflavonoidů, tedy tofu, tempeh, edamame, bobulového ovoce, citrusů a peckovin, a omezení procesovaných tuků. Efekt byl větší u žen, které zredukovaly hmotnost. Kvalita a diverzita mikrobiomu ovlivňuje i hormonální hladiny, proto alespoň 30 různých druhů rostlinných potravin týdně. Cholesterol nechat měřit minimálně každé 2 roky. Rostlinné steroly a stanoly, olivový olej, avokádo, omega-3. Maca nebo směs fytoestrogenů s melatoninem přináší zlepšení části příznaků. Zhoršovat návaly mohou kofein, alkohol, pálivá jídla a kari. Vyvarovat se ultrazpracovaným potravinám, velkému množství cukru a zbytečně vysokému sodíku. Rutinu si adaptovat ideálně PŘED vstupem do menopauzy.">
+<div class="a k" style="left:120px;top:140px">Jakou roli hraje výživa</div>
+<div class="a cl" style="left:120px;top:190px;width:1500px">Změna jídelníčku dokáže návaly zmírnit. I&nbsp;při HRT.</div>
+<div class="grade"><div class="k" style="color:var(--muted)">Randomizovaná studie</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span></div></div>
+<div class="a" style="left:120px;top:450px;width:1680px;display:grid;grid-template-columns:1fr 1fr;gap:0">
+<div style="padding-right:80px;border-right:1px solid var(--rule)">
+<div class="sig-chip pos">Více toho</div>
+<ul class="li bd" style="margin-top:30px;font-size:23px">
+<li><b>celozrnné obiloviny</b>: oves, žito, ječmen, pohanka, hnědá rýže, quinoa</li>
+<li><b>brukvovitá, listová a&nbsp;barevná zelenina</b></li>
+<li><b>sója a&nbsp;zdroje isoflavonoidů</b>: tofu, tempeh, edamame</li>
+<li><b>bobulové ovoce, citrusy, peckoviny</b></li>
+<li><b>30 různých druhů rostlin týdně</b> kvůli mikrobiomu</li>
+</ul>
+</div>
+<div style="padding-left:80px">
+<div class="sig-chip neg">Méně toho</div>
+<ul class="li bd" style="margin-top:30px;font-size:23px">
+<li><b>procesované tuky</b></li>
+<li><b>kofein</b> a&nbsp;<b>alkohol</b>: alkohol zhoršuje návaly i&nbsp;noční pocení</li>
+<li><b>pálivá jídla a&nbsp;kari</b></li>
+<li><b>ultrazpracované potraviny,</b> velké množství cukru a&nbsp;sodíku</li>
+</ul>
+<div class="bd" style="margin-top:34px;font-size:23px">Efekt byl větší u&nbsp;žen, které současně zredukovaly hmotnost. Cholesterol si nechte změřit <b>minimálně každé 2&nbsp;roky</b>.</div>
+</div>
+</div>
+<div class="a ref">Rutinu si ideálně nastavte <i>před</i> vstupem do&nbsp;menopauzy. Se zvyšujícím se věkem význam jídelníčku dále roste.</div>
+<div class="a pg">26</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet" data-label="Zátěž a materiál" data-screen-label="27" data-speaker-notes="Aerobní cvičení: alespoň 150 minut středně až vysoce intenzivní aktivity týdně, postupně minimálně 30 minut středně intenzivního cvičení 4 až 5 dní v týdnu. Odporový trénink alespoň 2krát týdně, postupně 2 série po 8 až 12 opakováních na cvik, nejvýše 8 až 10 cviků na lekci, frekvence 2 až 3 dny v týdnu. Protahování: 2 až 4 série statického strečinku, výdrž 10 až 30 sekund, ideálně 5 až 7 dní v týdnu. Silový, aerobní i kombinovaný trénink prokazatelně zvyšuje minerální hustotu kostí u zdravých postmenopauzálních žen. Jóga, pilates, silový trénink, chůze, aerobní trénink a tai-či snižují závažnost insomnie. Efekt je dávkově závislý, intenzita a zátěž jsou důležitější než délka trvání. Pokles estrogenu urychluje ztrátu kalcia a minerálů z kostí.">
+<img class="split-img" src="assets/duo/photo-bar.jpg" alt="Ruce na osě při silovém tréninku" style="object-position:50% 45%">
+<div class="a k" style="left:120px;top:140px">Pohyb a&nbsp;stavební materiál</div>
+<div class="a cl n" style="left:120px;top:190px;width:960px">Odporový trénink není doplněk. Je to léčba.</div>
+<div class="a" style="left:120px;top:410px;width:960px;display:grid;gap:26px">
+<div style="display:grid;grid-template-columns:180px 1fr;gap:32px;align-items:baseline"><div class="fig" style="font-size:60px">150</div><div class="bd">minut středně až vysoce intenzivní <b>aerobní aktivity týdně</b>, postupně 30&nbsp;minut 4–5&nbsp;dní v&nbsp;týdnu</div></div>
+<div style="display:grid;grid-template-columns:180px 1fr;gap:32px;align-items:baseline"><div class="fig" style="font-size:60px">2×</div><div class="bd">týdně <b>odporový trénink</b>: 2&nbsp;série po&nbsp;8–12 opakováních, nejvýše 8–10 cviků na&nbsp;lekci</div></div>
+<div style="display:grid;grid-template-columns:180px 1fr;gap:32px;align-items:baseline"><div class="fig" style="font-size:60px">10–30</div><div class="bd">sekund výdrž ve&nbsp;statickém strečinku, 2–4&nbsp;série, ideálně 5–7&nbsp;dní v&nbsp;týdnu</div></div>
+<div class="bd" style="margin-top:6px"><b>Efekt je dávkově závislý:</b> intenzita a&nbsp;zátěž jsou důležitější než délka trvání. K&nbsp;tomu vápník, vitamin D, K2 (MK-4), bílkoviny 1,2–1,6&nbsp;g/kg a&nbsp;kreatin monohydrát.</div>
+</div>
+<div class="grade" style="right:840px"><div class="k" style="color:var(--muted)">Metaanalýza a&nbsp;RCT</div><div class="ticks"><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span><span class="tk on"></span></div></div>
+<div class="a pg" style="right:840px">27</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet dark" data-label="Závěr" data-screen-label="28" data-speaker-notes="Závěr. Chápat ženské cykly znamená chápat biologii života samotného. Každá fáze od menarché po postmenopauzu je součástí kontinuity, ne krize. Cyklus je proces přeměny, který si zaslouží pozornost a péči. Výživa není jen o makroživinách, je to informační jazyk, kterým komunikujeme se svými buňkami, hormony a mikrobiomem. A právě příprava, tedy znalost vlastního těla, prevence, doplnění zásob a porozumění rytmu, rozhoduje o tom, jak hladce projdeme každou další kapitolou.">
+<img class="img" src="assets/duo/photo-lift.jpg" alt="Žena zvedá osu nad hlavu" style="object-position:50% 40%">
+<div class="a" style="inset:0;background:linear-gradient(90deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.91) 46%,rgba(64,18,82,.42) 80%,rgba(64,18,82,.12) 100%)"></div>
+<div class="a zone" style="width:1300px">
+<div class="st">Dlouhověkost nezačíná v&nbsp;menopauze. Začíná dávno před&nbsp;ní.</div>
+<div class="ld" style="margin-top:48px;color:var(--muted);max-width:1180px">Každá fáze, od&nbsp;menarché po&nbsp;postmenopauzu, je součástí kontinuity, ne krize. Rozhoduje příprava: znalost vlastního těla, prevence a&nbsp;porozumění rytmu.</div>
+</div>
+<div class="a pg">28</div>
+</section>
+
+<section data-document-role="page" class="slide t-violet dark" data-label="Děkuji" data-screen-label="29" data-speaker-notes="Děkuji. Prostor pro otázky. Kontakt na slidu.">
+<img class="img" src="assets/duo/photo-kitchen.jpg" alt="Zelenina na kuchyňské desce" style="object-position:50% 50%">
+<div class="a" style="inset:0;background:linear-gradient(90deg,rgba(64,18,82,.97) 0%,rgba(64,18,82,.90) 46%,rgba(64,18,82,.38) 80%,rgba(64,18,82,.12) 100%)"></div>
+<img src="assets/sig-violet.png" class="a" alt="Monogram Tv" style="left:120px;top:96px;width:196px;filter:brightness(0) invert(1)">
+<div class="a" style="left:120px;top:352px;width:1240px;height:576px;display:flex;flex-direction:column;justify-content:center">
+<div class="st" style="font-size:96px">Děkuji za&nbsp;pozornost.</div>
+<div class="ld" style="margin-top:56px;color:var(--muted)">Mgr. Ing. Tereza Vágnerová, Ph.D.<br>Klinika geriatrie a&nbsp;interní medicíny 1.&nbsp;LF UK<br>Česká asociace nutričních terapeutů, z.s. · Healthy Longevity Clinic, s.r.o.</div>
+<div class="k" style="margin-top:44px;text-transform:none;letter-spacing:.04em">tereza.vagnerova@lf1.cuni.cz · +420&nbsp;774&nbsp;355&nbsp;768</div>
+</div>
+</section>
+
+
+</body>
+</html>

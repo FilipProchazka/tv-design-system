@@ -1,0 +1,68 @@
+/* Interaction states for the React components. The components carry their
+   static styling inline; hover, open and current-page states cannot be
+   expressed inline, so they live here. Names are prefixed tv- so nothing
+   collides with a consuming project's own classes. */
+
+/* an arrow that nudges on hover; an outward mark that leaves at 45 degrees */
+.tv-more svg{transition:transform var(--dur) var(--ease)}
+a:hover .tv-more svg,.tv-more:hover svg{transform:translateX(var(--nudge))}
+.tv-more-out svg{transition:transform var(--dur) var(--ease)}
+a:hover .tv-more-out svg{transform:translate(3px,-3px)}
+
+/* marks invert to accent-filled when their card is hovered */
+.tv-topic:hover .tv-topic-mark{background:var(--accent);color:var(--onacc)}
+.tv-inst:hover .tv-inst-mark{background:var(--accent);color:var(--onacc)}
+.tv-talk:hover img{transform:scale(1.04)}
+.tv-entry:not(.tv-entry-link):hover{transform:none;box-shadow:none;border-color:var(--rule)}
+
+/* publications */
+.tv-pub-link:hover .tv-pub-title{color:var(--accent)}
+.tv-pub-link:hover .tv-pub-go{transform:translate(3px,-3px)}
+@media (max-width:767px){.tv-pub{grid-template-columns:1fr auto!important;gap:8px 16px!important}}
+
+/* contact routes */
+.tv-route:hover{border-color:var(--accent);transform:translateY(-3px);box-shadow:var(--lift)}
+.tv-route:hover .tv-route-go{background:var(--accent);color:var(--onacc)}
+@media (max-width:959px){.tv-contact{grid-template-columns:1fr!important}}
+
+/* nav */
+.tv-util-item{display:inline-flex;align-items:center;gap:9px;color:var(--ink);min-height:32px}
+.tv-util-item:hover{color:var(--accent)}
+.tv-util-item svg{color:var(--accent)}
+.tv-links{display:flex;align-items:center;gap:30px}
+.tv-links a{font-size:17px;color:var(--ink);padding:6px 0;border-bottom:2px solid transparent;transition:color var(--dur-fast) var(--ease),border-color var(--dur-fast) var(--ease)}
+.tv-links a:hover{color:var(--accent)}
+.tv-links a[aria-current='page']{font-weight:600;border-bottom-color:var(--accent);color:var(--accent)}
+.tv-lang{font-family:var(--font-mono);font-size:15px;letter-spacing:.08em;color:var(--muted)}
+.tv-cta{margin-left:4px}
+.tv-menu-btn{display:none;cursor:pointer;align-items:center;justify-content:center;width:52px;height:52px;margin-left:auto;border:1px solid var(--rule);border-radius:var(--radius-pill);background:transparent;color:var(--ink);transition:border-color var(--dur-fast) var(--ease),color var(--dur-fast) var(--ease)}
+.tv-menu-btn:hover{border-color:var(--accent);color:var(--accent)}
+.tv-panel{background:var(--surface);border-bottom:1px solid var(--rule);padding:12px 0 24px}
+[data-menu='closed'] .tv-panel{display:none}
+/* The panel floats over the page rather than responding in place, so it is
+   the one place --lift-strong is correct. */
+[data-menu='open'] .tv-panel{display:block;position:absolute;left:0;right:0;top:100%;box-shadow:var(--lift-strong);z-index:1}
+.tv-panel-row{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:60px;padding:8px 0;border-bottom:1px solid var(--rule);font-family:var(--font-display);font-weight:500;font-size:20px;color:var(--ink)}
+.tv-panel-row svg{color:var(--accent)}
+.tv-panel-row:hover{color:var(--accent)}
+@media (min-width:1024px){.tv-panel{display:none}}
+@media (max-width:1023px){.tv-links,.tv-cta{display:none}.tv-menu-btn{display:flex}}
+
+/* footer */
+.tv-connect-item{display:inline-flex;align-items:center;gap:11px;min-height:44px;color:var(--ink);font-size:18px}
+.tv-connect-item svg{color:var(--accent);flex:none}
+.tv-connect-item:hover{color:var(--accent)}
+.tv-foot-cols{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:40px}
+.tv-col-h{font-family:var(--font-display);font-weight:600;font-size:19px;letter-spacing:-.01em;color:var(--ink);margin-bottom:18px}
+.tv-foot-cols ul{list-style:none}
+.tv-foot-cols li{margin-top:11px}
+.tv-foot-cols li:first-child{margin-top:0}
+.tv-foot-cols a{color:var(--muted);font-size:18px;line-height:1.5}
+.tv-foot-cols a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:.15em}
+.tv-ig{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;margin-top:22px;border:1px solid var(--rule);border-radius:var(--radius-pill);color:var(--accent);background:#FFFFFF;transition:border-color var(--dur-fast) var(--ease),transform var(--dur-fast) var(--ease)}
+.tv-ig:hover{border-color:var(--accent);transform:translateY(-2px)}
+@media (max-width:1023px){.tv-foot-cols{grid-template-columns:1fr 1fr;gap:36px 32px}.tv-foot-about{grid-column:1 / -1}}
+@media (max-width:559px){.tv-foot-cols{grid-template-columns:1fr}}
+
+/* the booking panel stays in view beside a long webinar description */
+@media (min-width:1024px){.tv-fact-panel{position:sticky;top:32px}}
