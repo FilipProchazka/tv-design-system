@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/fonts.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/colors.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/typography.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/spacing.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/motion.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/base.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/tokens/components.css">
+<link rel="stylesheet" href="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/styles.css">
+<script src="_ds/tereza-v-gnerov-design-system-360dc43d-1f56-4e0b-b0da-b400db62abef/_ds_bundle.js"></script>
+<script src="./image-slot.js"></script>
+<style>html,body{margin:0;background:#EDEFF1;font-family:var(--font-body)} a{color:var(--accent)} a:hover{color:var(--ink)}</style>
+<script src="https://unpkg.com/lucide@0.544.0/dist/umd/lucide.min.js"></script>
+<script>
+(function(){var pending=false,obs;
+function paint(){pending=false;
+  if(!window.lucide||!document.querySelector('i[data-lucide]'))return;
+  obs.disconnect();
+  try{window.lucide.createIcons({attrs:{'stroke-width':1.5}})}catch(e){}
+  document.querySelectorAll('svg[data-lucide]').forEach(function(s){s.removeAttribute('data-lucide')});
+  obs.observe(document.documentElement,{childList:true,subtree:true});}
+function schedule(){if(pending)return;pending=true;setTimeout(paint,60)}
+obs=new MutationObserver(schedule);obs.observe(document.documentElement,{childList:true,subtree:true});schedule();})();
+</script>
+</helmet>
+<x-import component-from-global-scope="deck-stage" from="./deck-stage.js" width="1920" height="1080" hint-size="100%,100%">
+<section data-label="01 Titul" data-screen-label="01" data-speaker-notes="Úvodní snímek. Představit se a téma." class="t-blue dark" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body)">
+<img src="assets/sig-blue-light.png" style="position:absolute;left:120px;top:96px;width:196px">
+<div style="position:absolute;right:120px;top:100px;width:660px;text-align:right;font-size:22px;line-height:1.62;color:var(--muted)">Klinika geriatrie a&nbsp;interní medicíny 1.&nbsp;LF UK a&nbsp;VFN</div>
+<div style="position:absolute;left:120px;bottom:104px;width:1300px">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Paliativní péče</div>
+<div style="font-family:var(--font-display);font-weight:300;font-size:104px;line-height:1.06;letter-spacing:-.028em;margin-top:40px">Výživa u&nbsp;pacientů<br>s&nbsp;demencí</div>
+<div style="font-family:var(--font-display);font-weight:400;font-size:40px;line-height:1.22;margin-top:32px;color:var(--muted)">Mezi evidencí, etikou a&nbsp;realitou péče</div>
+<div style="font-weight:500;font-size:28px;margin-top:44px">Mgr. Ing. Tereza Vágnerová, Ph.D.</div>
+</div></section>
+
+<section data-label="02 Úvod" data-screen-label="02" data-speaker-notes="Rámec tématu: výživa a hydratace v paliativní medicíně." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 912px 152px 120px;box-sizing:border-box">
+<img src="assets/hands-held-bedside.png" style="position:absolute;right:0;top:0;width:760px;height:1080px;object-fit:cover;object-position:50% 45%;display:block">
+<div style="position:absolute;right:0;top:0;width:760px;height:1080px;background:linear-gradient(90deg,var(--surface) 0%,var(--surface) 5%,transparent 54%)"></div>
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">I</span><span>Rámec a etika</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>02 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:52px;line-height:1.14;letter-spacing:-.02em;text-wrap:pretty">Rozhodnutí o&nbsp;podávání či ukončení nutriční podpory nebývá snadné.</div>
+</div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center">
+<div style="font-size:34px;line-height:1.5">Otázka výživy a&nbsp;hydratace v&nbsp;paliativní medicíně je široce diskutována.</div>
+<div style="font-size:30px;line-height:1.5;margin-top:44px;color:var(--muted)">Indikace musí být součástí <strong style="color:var(--ink);font-weight:600">komplexní, holistické péče</strong>, realizované multidisciplinárním týmem.</div>
+</div></section>
+
+<section data-label="03 Úvod" data-screen-label="03" data-speaker-notes="Včasná indikace, reálné cíle." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">I</span><span>Rámec a etika</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>03 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:60px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Nutriční podporu indikujeme včas a&nbsp;jen tam, kde přináší prokazatelný benefit.</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:96px;align-content:center">
+<div><div style="font-family:var(--font-display);font-size:34px;line-height:1.22">Hodnocení stavu výživy</div><div style="font-size:28px;line-height:1.56;margin-top:26px;color:var(--muted)">Při poskytování paliativní péče je nutné věnovat zvláštní pozornost hodnocení stavu výživy pacienta a&nbsp;včas indikovat nutriční podporu v&nbsp;situaci, kdy pacientovi přináší prokazatelný benefit.</div></div>
+<div><div style="font-family:var(--font-display);font-size:34px;line-height:1.22">Reálné cíle</div><div style="font-size:28px;line-height:1.56;margin-top:26px;color:var(--muted)">Zároveň je nezbytné, aby <strong style="color:var(--ink);font-weight:600">cíle intervence byly reálné</strong>.</div></div>
+</div></section>
+
+<section data-label="04 Doporučení ESPEN" data-screen-label="04" data-speaker-notes="Rámec evidence: ESPEN 2024, 40 doporučení, stupně A až GPP." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">I</span><span>Rámec a etika</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>04 / 42</div>
+</div>
+
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:60px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Doporučení pro výživu a&nbsp;hydrataci u&nbsp;demence ESPEN aktualizoval v&nbsp;roce 2024.</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-content:center">
+<div>
+<div style="display:flex;align-items:baseline;gap:28px"><span style="font-family:var(--font-display);font-weight:300;font-size:150px;line-height:.92;letter-spacing:-.04em;font-variant-numeric:tabular-nums;color:var(--accent)">40</span><span style="font-size:28px;line-height:1.4;color:var(--muted)">doporučení v&nbsp;tomto postupu</span></div>
+<div style="display:flex;flex-direction:column;margin-top:36px;font-size:26px;line-height:1.5">
+<div style="border-top:1px solid var(--rule);padding:15px 0">7 na úrovni organizace, která péči poskytuje</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">33 na úrovni jednotlivého klienta</div>
+</div>
+<div style="font-family:var(--font-mono);font-size:20px;line-height:1.6;margin-top:36px;color:var(--muted);font-variant-numeric:tabular-nums">Volkert D, et&nbsp;al. Clin Nutr 2024;43(6):1599–1626</div>
+</div>
+<div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Stupně doporučení</div>
+<div style="display:flex;flex-direction:column;margin-top:24px;font-size:24px;line-height:1.45">
+<div style="display:grid;grid-template-columns:150px 1fr;gap:28px;border-top:1px solid var(--rule);padding:18px 0"><span style="font-family:var(--font-mono);font-size:20px;letter-spacing:.08em;color:var(--accent);font-variant-numeric:tabular-nums">A</span><span>metaanalýza, systematický přehled či RCT přímo aplikovatelné na populaci</span></div>
+<div style="display:grid;grid-template-columns:150px 1fr;gap:28px;border-top:1px solid var(--rule);padding:18px 0"><span style="font-family:var(--font-mono);font-size:20px;letter-spacing:.08em;color:var(--accent);font-variant-numeric:tabular-nums">B</span><span>konzistentní studie nižší úrovně nebo extrapolace</span></div>
+<div style="display:grid;grid-template-columns:150px 1fr;gap:28px;border-top:1px solid var(--rule);padding:18px 0"><span style="font-family:var(--font-mono);font-size:20px;letter-spacing:.08em;color:var(--accent);font-variant-numeric:tabular-nums">0</span><span>úroveň 3–4 nebo extrapolace</span></div>
+<div style="display:grid;grid-template-columns:150px 1fr;gap:28px;border-top:1px solid var(--rule);padding:18px 0"><span style="font-family:var(--font-mono);font-size:20px;letter-spacing:.08em;color:var(--accent);font-variant-numeric:tabular-nums">GPP</span><span>konsenzus expertů. Pro tuto oblast většina doporučení, protože kvalitní studie chybí</span></div>
+</div>
+<div style="font-size:24px;line-height:1.5;margin-top:28px;color:var(--muted);font-style:italic">To, že je doporučení GPP, neznamená, že je téma méně důležité.</div>
+</div></div></section>
+
+<section data-label="05 Cíle péče" data-screen-label="05" data-speaker-notes="Čtyři etické principy. Vienna Declaration 2022." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">I</span><span>Rámec a etika</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>05 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:60px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Cíle péče následují hlavní etické principy. Platí i&nbsp;pro indikaci nutriční podpory.</div>
+</div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:52px">
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:52px 96px">
+<div style="border-top:2px solid var(--accent);padding-top:26px;display:flex;flex-direction:column;gap:22px">
+<div style="font-family:var(--font-mono);font-size:20px;letter-spacing:.13em;font-variant-numeric:tabular-nums;color:var(--accent)">01</div>
+<div style="font-family:var(--font-display);font-weight:400;font-size:56px;line-height:1.06;letter-spacing:-.022em">Autonomie</div>
+</div>
+<div style="border-top:2px solid var(--accent);padding-top:26px;display:flex;flex-direction:column;gap:22px">
+<div style="font-family:var(--font-mono);font-size:20px;letter-spacing:.13em;font-variant-numeric:tabular-nums;color:var(--accent)">02</div>
+<div style="font-family:var(--font-display);font-weight:400;font-size:56px;line-height:1.06;letter-spacing:-.022em">Činit dobro</div>
+</div>
+<div style="border-top:2px solid var(--accent);padding-top:26px;display:flex;flex-direction:column;gap:22px">
+<div style="font-family:var(--font-mono);font-size:20px;letter-spacing:.13em;font-variant-numeric:tabular-nums;color:var(--accent)">03</div>
+<div style="font-family:var(--font-display);font-weight:400;font-size:56px;line-height:1.06;letter-spacing:-.022em">Neškodit</div>
+</div>
+<div style="border-top:2px solid var(--accent);padding-top:26px;display:flex;flex-direction:column;gap:22px">
+<div style="font-family:var(--font-mono);font-size:20px;letter-spacing:.13em;font-variant-numeric:tabular-nums;color:var(--accent)">04</div>
+<div style="font-family:var(--font-display);font-weight:400;font-size:56px;line-height:1.06;letter-spacing:-.022em">Rozhodovat spravedlivě</div>
+</div>
+</div>
+<div style="font-family:var(--font-mono);font-size:22px;line-height:1.5;color:var(--muted);font-variant-numeric:tabular-nums">Vienna Declaration 2022 &nbsp;·&nbsp; nutriční péče jako lidské právo</div>
+</div>
+</section>
+
+<section data-label="06 Cíle intervence" data-screen-label="06" data-speaker-notes="Pět vlastností dobrého cíle intervence." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">I</span><span>Rámec a etika</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>06 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Cíl intervence musí být konkrétní, měřitelný a&nbsp;časově ohraničený.</div>
+</div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center">
+<div style="display:grid;grid-template-columns:92px 1fr 420px;gap:32px;align-items:baseline;border-top:1px solid var(--rule);padding:24px 0">
+<div style="font-family:var(--font-mono);font-size:24px;letter-spacing:.1em;font-variant-numeric:tabular-nums;color:var(--accent)">01</div>
+<div style="font-family:var(--font-display);font-weight:400;font-size:44px;line-height:1.1;letter-spacing:-.02em">konkrétní</div>
+<div style="font-size:26px;line-height:1.4;color:var(--muted);font-style:italic"></div>
+</div>
+<div style="display:grid;grid-template-columns:92px 1fr 420px;gap:32px;align-items:baseline;border-top:1px solid var(--rule);padding:24px 0">
+<div style="font-family:var(--font-mono);font-size:24px;letter-spacing:.1em;font-variant-numeric:tabular-nums;color:var(--accent)">02</div>
+<div style="font-family:var(--font-display);font-weight:400;font-size:44px;line-height:1.1;letter-spacing:-.02em">měřitelné</div>
+<div style="font-size:26px;line-height:1.4;color:var(--muted);font-style:italic"></div>
+</div>
+<div style="display:grid;grid-template-columns:92px 1fr 420px;gap:32px;align-items:baseline;border-top:1px solid var(--rule);padding:24px 0">
+<div style="font-family:var(--font-mono);font-size:24px;letter-spacing:.1em;font-variant-numeric:tabular-nums;color:var(--accent)">03</div>
+<div style="font-family:var(--font-display);font-weight:400;font-size:44px;line-height:1.1;letter-spacing:-.02em">dosažitelné</div>
+<div style="font-size:26px;line-height:1.4;color:var(--muted);font-style:italic">realistické</div>
+</div>
+<div style="display:grid;grid-template-columns:92px 1fr 420px;gap:32px;align-items:baseline;border-top:1px solid var(--rule);padding:24px 0">
+<div style="font-family:var(--font-mono);font-size:24px;letter-spacing:.1em;font-variant-numeric:tabular-nums;color:var(--accent)">04</div>
+<div style="font-family:var(--font-display);font-weight:400;font-size:44px;line-height:1.1;letter-spacing:-.02em">časově ohraničené</div>
+<div style="font-size:26px;line-height:1.4;color:var(--muted);font-style:italic">revidovatelné</div>
+</div>
+<div style="display:grid;grid-template-columns:92px 1fr 420px;gap:32px;align-items:baseline;border-top:1px solid var(--rule);padding:24px 0">
+<div style="font-family:var(--font-mono);font-size:24px;letter-spacing:.1em;font-variant-numeric:tabular-nums;color:var(--accent)">05</div>
+<div style="font-family:var(--font-display);font-weight:400;font-size:44px;line-height:1.1;letter-spacing:-.02em">v&nbsp;souladu s&nbsp;přáním pacienta či blízkých</div>
+<div style="font-size:26px;line-height:1.4;color:var(--muted);font-style:italic"></div>
+</div>
+</div>
+</section>
+
+<section data-label="07 Právo odmítnout" data-screen-label="07" data-speaker-notes="Právo informovaného pacienta odmítnout léčbu, včetně nutriční péče." class="t-blue dark" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body)">
+<div style="position:absolute;left:120px;top:64px;width:1680px;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">I</span><span>Rámec a etika</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>07 / 42</div>
+</div>
+<div style="position:absolute;left:120px;top:352px;width:1680px;font-family:var(--font-display);font-weight:300;font-size:104px;line-height:1.06;letter-spacing:-.028em">Adekvátně informovaný pacient má právo léčbu odmítnout.</div>
+<div style="position:absolute;left:120px;top:720px;width:1200px;font-size:30px;line-height:1.5;color:var(--muted)">I&nbsp;když by odmítnutí poskytované péče vedlo ke smrti. Včetně nutriční péče.</div>
+<img src="assets/sig-blue-light.png" style="position:absolute;right:120px;bottom:120px;width:168px;opacity:.9">
+</section>
+
+<section data-label="08 Rozhodování o péči" data-screen-label="08" data-speaker-notes="Nutriční stav jako prognostický faktor." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">II</span><span>Hodnocení výživy</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>08 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:60px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Nutriční stav je významný prognostický faktor v&nbsp;době diagnózy i&nbsp;v&nbsp;průběhu onemocnění.</div>
+</div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:44px">
+<div style="font-size:32px;line-height:1.5;max-width:1400px">Malnutrice, ve smyslu podvýživy i&nbsp;obezity, stejně jako přidružené nutriční poruchy (sarkopenie, křehkost, onemocněním či orgánově specifická kachexie) ovlivňují <strong style="font-weight:600">délku dožití, účinnost léčby, funkční stav i&nbsp;kvalitu života</strong> nemocného.</div>
+</div></section>
+
+<section data-label="09 Čím dříve, tím lépe" data-screen-label="09" data-speaker-notes="Předběžné plánování péče u demence; 75 % hospitalizací zbytečných." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">II</span><span>Hodnocení výživy</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>09 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Předběžné plánování péče mění průběh posledních let života.</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:640px 1fr;gap:120px;align-items:center">
+<div>
+<div style="font-family:var(--font-display);font-weight:300;font-size:240px;line-height:.92;letter-spacing:-.045em;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--accent)">75<span style="letter-spacing:0;margin-left:.05em">%</span></div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;margin-top:32px;color:var(--muted);line-height:1.6;font-variant-numeric:tabular-nums">zbytečných hospitalizací<br>bez předem stanovených směrnic</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:32px">
+<div style="font-size:28px;line-height:1.5">Hrubé seznámení s&nbsp;průběhem onemocnění a&nbsp;možnými komplikacemi (např. u&nbsp;m. Alzheimer) je spojeno s&nbsp;<strong style="font-weight:600">plynulejším průběhem, méně agresivními zákroky v&nbsp;posledních 3&nbsp;letech života</strong> a&nbsp;celkově lepší kvalitou života.</div>
+<div style="font-size:26px;line-height:1.56;color:var(--muted)">Naopak absence směrnic u&nbsp;dementních pacientů zvyšuje počet hospitalizací a&nbsp;invazivních výkonů, je pro pacienty traumatizující a&nbsp;z&nbsp;velké části nenaplňuje předpokládané cíle (komfort).</div>
+<div style="font-size:26px;line-height:1.56;color:var(--muted)">Progrese malnutrice je v&nbsp;pokročilejším stádiu onemocnění charakteristický znak.</div>
+</div></div></section>
+
+<section data-label="10 Hodnocení nutričního stavu" data-screen-label="10" data-speaker-notes="Akutní stresová malnutrice vs. chronická kachexie. Věk jako prognostický faktor." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">II</span><span>Hodnocení výživy</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>10 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Stresová malnutrice a&nbsp;kachexie nejsou totéž.</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:96px;align-content:center">
+<div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Akutní</div>
+<div style="font-family:var(--font-display);font-size:38px;line-height:1.2;margin-top:20px">Stresová malnutrice</div>
+<div style="font-size:26px;line-height:1.56;margin-top:26px;color:var(--muted)">Rozlišujeme akutní či chronické projevy malnutrice. Zaměřujeme se na výchozí funkční, kognitivní a&nbsp;celkové zdravotní parametry nemocného. Bereme v&nbsp;potaz sociální, resp. rodinnou situaci.</div>
+<div style="font-size:26px;line-height:1.56;margin-top:26px;color:var(--muted);font-style:italic">Věk je významný prognostický faktor, který je třeba pečlivě posuzovat.</div>
+</div>
+<div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Chronická</div>
+<div style="font-family:var(--font-display);font-size:38px;line-height:1.2;margin-top:20px">Kachexie</div>
+<div style="font-size:26px;line-height:1.56;margin-top:26px;color:var(--muted)">Velmi častá u&nbsp;pokročilých stádií onemocnění (rakovina, nemoci ledvin, demence, srdeční selhání). Komplexní problém, <strong style="color:var(--ink);font-weight:600">není řešitelná pouze „jezením více jídla“</strong>.</div>
+<div style="font-size:26px;line-height:1.56;margin-top:26px;color:var(--muted)">Významný nekontrolovatelný úbytek na hmotnosti napovídá end-of-life situaci.</div>
+</div></div></section>
+
+<section data-label="11 Algoritmus rozhodování" data-screen-label="11" data-speaker-notes="Algoritmus rozhodování v klinické výživě. Každý výstup z algoritmu vede ke komfortnímu krmení a paliativní péči." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">II</span><span>Hodnocení výživy</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>11 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:60px;line-height:1.11;letter-spacing:-.022em;max-width:1560px;text-wrap:pretty">Nutriční terapii podáváme jen tehdy, projde-li rozhodnutí všemi šesti otázkami.</div>
+</div>
+<div style="flex:1;min-height:0;position:relative">
+<div style="position:absolute;left:26px;top:96px;width:2px;height:10px;background:var(--accent)"></div>
+<div style="position:absolute;left:26px;top:106px;width:66px;height:2px;background:var(--accent)"></div>
+<div style="position:absolute;left:90px;top:106px;width:2px;height:14px;background:var(--accent)"></div>
+<div style="position:absolute;left:90px;top:168px;width:2px;height:10px;background:var(--accent)"></div>
+<div style="position:absolute;left:90px;top:178px;width:66px;height:2px;background:var(--accent)"></div>
+<div style="position:absolute;left:154px;top:178px;width:2px;height:14px;background:var(--accent)"></div>
+<div style="position:absolute;left:154px;top:240px;width:2px;height:10px;background:var(--accent)"></div>
+<div style="position:absolute;left:154px;top:250px;width:66px;height:2px;background:var(--accent)"></div>
+<div style="position:absolute;left:218px;top:250px;width:2px;height:14px;background:var(--accent)"></div>
+<div style="position:absolute;left:218px;top:312px;width:2px;height:10px;background:var(--accent)"></div>
+<div style="position:absolute;left:218px;top:322px;width:66px;height:2px;background:var(--accent)"></div>
+<div style="position:absolute;left:282px;top:322px;width:2px;height:14px;background:var(--accent)"></div>
+<div style="position:absolute;left:282px;top:384px;width:2px;height:10px;background:var(--accent)"></div>
+<div style="position:absolute;left:282px;top:394px;width:66px;height:2px;background:var(--accent)"></div>
+<div style="position:absolute;left:346px;top:394px;width:2px;height:14px;background:var(--accent)"></div>
+<div style="position:absolute;left:346px;top:456px;width:2px;height:10px;background:var(--accent)"></div>
+<div style="position:absolute;left:346px;top:466px;width:66px;height:2px;background:var(--accent)"></div>
+<div style="position:absolute;left:410px;top:466px;width:2px;height:14px;background:var(--accent)"></div>
+<div style="position:absolute;left:0px;top:48px;width:520px;height:48px;box-sizing:border-box;display:flex;align-items:center;padding:0 24px;background:var(--surface);border:1px solid var(--rule);border-radius:14px;font-family:var(--font-display);font-size:26px;line-height:1.2"><span style="font-family:var(--font-mono);font-size:19px;letter-spacing:.1em;color:var(--accent);margin-right:18px;font-variant-numeric:tabular-nums">01</span>Screening rizika malnutrice</div>
+<div style="position:absolute;left:528px;top:71px;width:594px;height:2px;background:var(--rule)"></div>
+<div style="position:absolute;left:540px;top:46px;font-family:var(--font-mono);font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">Ne</div>
+<div style="position:absolute;left:64px;top:120px;width:520px;height:48px;box-sizing:border-box;display:flex;align-items:center;padding:0 24px;background:var(--surface);border:1px solid var(--rule);border-radius:14px;font-family:var(--font-display);font-size:26px;line-height:1.2"><span style="font-family:var(--font-mono);font-size:19px;letter-spacing:.1em;color:var(--accent);margin-right:18px;font-variant-numeric:tabular-nums">02</span>Bylo riziko zjištěno?</div>
+<div style="position:absolute;left:592px;top:143px;width:530px;height:2px;background:var(--rule)"></div>
+<div style="position:absolute;left:604px;top:118px;font-family:var(--font-mono);font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">Ne</div>
+<div style="position:absolute;left:128px;top:192px;width:520px;height:48px;box-sizing:border-box;display:flex;align-items:center;padding:0 24px;background:var(--surface);border:1px solid var(--rule);border-radius:14px;font-family:var(--font-display);font-size:26px;line-height:1.2"><span style="font-family:var(--font-mono);font-size:19px;letter-spacing:.1em;color:var(--accent);margin-right:18px;font-variant-numeric:tabular-nums">03</span>Malnutrice potvrzena podle GLIM?</div>
+<div style="position:absolute;left:656px;top:215px;width:466px;height:2px;background:var(--rule)"></div>
+<div style="position:absolute;left:668px;top:190px;font-family:var(--font-mono);font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">Ne</div>
+<div style="position:absolute;left:192px;top:264px;width:520px;height:48px;box-sizing:border-box;display:flex;align-items:center;padding:0 24px;background:var(--surface);border:1px solid var(--rule);border-radius:14px;font-family:var(--font-display);font-size:26px;line-height:1.2"><span style="font-family:var(--font-mono);font-size:19px;letter-spacing:.1em;color:var(--accent);margin-right:18px;font-variant-numeric:tabular-nums">04</span>Je medicínská indikace?</div>
+<div style="position:absolute;left:720px;top:287px;width:402px;height:2px;background:var(--rule)"></div>
+<div style="position:absolute;left:732px;top:262px;font-family:var(--font-mono);font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">Ne</div>
+<div style="position:absolute;left:256px;top:336px;width:520px;height:48px;box-sizing:border-box;display:flex;align-items:center;padding:0 24px;background:var(--surface);border:1px solid var(--rule);border-radius:14px;font-family:var(--font-display);font-size:26px;line-height:1.2"><span style="font-family:var(--font-mono);font-size:19px;letter-spacing:.1em;color:var(--accent);margin-right:18px;font-variant-numeric:tabular-nums">05</span>Je cíl dosažitelný?</div>
+<div style="position:absolute;left:784px;top:359px;width:338px;height:2px;background:var(--rule)"></div>
+<div style="position:absolute;left:796px;top:334px;font-family:var(--font-mono);font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">Ne</div>
+<div style="position:absolute;left:320px;top:408px;width:520px;height:48px;box-sizing:border-box;display:flex;align-items:center;padding:0 24px;background:var(--surface);border:1px solid var(--rule);border-radius:14px;font-family:var(--font-display);font-size:26px;line-height:1.2"><span style="font-family:var(--font-mono);font-size:19px;letter-spacing:.1em;color:var(--accent);margin-right:18px;font-variant-numeric:tabular-nums">06</span>Známe přání pacienta?</div>
+<div style="position:absolute;left:848px;top:431px;width:274px;height:2px;background:var(--rule)"></div>
+<div style="position:absolute;left:860px;top:406px;font-family:var(--font-mono);font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">Ne</div>
+<div style="position:absolute;left:1120px;top:32px;width:2px;height:184px;background:var(--rule)"></div>
+<div style="position:absolute;left:1120px;top:288px;width:2px;height:196px;background:var(--rule)"></div>
+<div style="position:absolute;left:1120px;top:31px;width:40px;height:2px;background:var(--rule)"></div>
+<div style="position:absolute;left:1120px;top:483px;width:40px;height:2px;background:var(--rule)"></div>
+<div style="position:absolute;left:1160px;top:0px;width:520px;min-height:64px;box-sizing:border-box;display:flex;align-items:center;padding:16px 26px;background:var(--tint);border:1px solid var(--rule);border-radius:16px;font-size:26px;line-height:1.3">Rescreening za 7–10 dní</div>
+<div style="position:absolute;left:1160px;top:440px;width:520px;min-height:88px;box-sizing:border-box;display:flex;align-items:center;padding:16px 26px;background:var(--tint);border:1px solid var(--rule);border-radius:16px;font-size:26px;line-height:1.3">Komfortní krmení a&nbsp;paliativní péče</div>
+<div style="position:absolute;left:384px;top:480px;height:48px;box-sizing:border-box;display:inline-flex;align-items:center;gap:18px;padding:0 30px;background:var(--accent);color:var(--onacc);border-radius:999px"><span style="font-family:var(--font-mono);font-size:19px;letter-spacing:.13em;text-transform:uppercase;font-variant-numeric:tabular-nums">Ano</span><span style="font-family:var(--font-display);font-size:26px;line-height:1.2">Podání nutriční terapie</span></div>
+<div style="position:absolute;left:0;top:542px;font-family:var(--font-mono);font-size:20px;line-height:1.5;color:var(--muted);font-variant-numeric:tabular-nums">Podle algoritmu rozhodování v&nbsp;klinické výživě &nbsp;·&nbsp; <span style="font-style:italic">citaci zdroje doplnit</span></div>
+</div>
+</section>
+
+<section data-label="12 Kazuistika" data-screen-label="12" data-speaker-notes="Předěl: kazuistika." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 912px 152px 120px;box-sizing:border-box">
+<img src="assets/carer-elderly-woman-embrace.png" style="position:absolute;right:0;top:0;width:760px;height:1080px;object-fit:cover;object-position:50% 40%;display:block">
+<div style="position:absolute;right:0;top:0;width:760px;height:1080px;background:linear-gradient(90deg,var(--surface) 0%,var(--surface) 5%,transparent 54%)"></div>
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">III</span><span>Kazuistiky</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>12 / 42</div>
+</div>
+<div style="flex:none;height:48px"></div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center">
+<div style="font-family:var(--font-display);font-weight:300;font-size:88px;line-height:1.07;letter-spacing:-.028em">Pacient s&nbsp;těžkou demencí</div>
+<div style="font-size:30px;line-height:1.5;margin-top:44px;color:var(--muted)">Dva příběhy z&nbsp;rezidenční péče a&nbsp;otázky, které před pečující kladou.</div>
+</div></section>
+
+<section data-label="13 Pan Jaroslav" data-screen-label="13" data-speaker-notes="Kazuistika 1: pan Jaroslav, 88 let, DZR." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 912px 152px 120px;box-sizing:border-box">
+<img src="assets/elderly-man-dual-blur.png" style="position:absolute;right:0;top:0;width:760px;height:1080px;object-fit:cover;object-position:50% 40%;display:block">
+<div style="position:absolute;right:0;top:0;width:760px;height:1080px;background:linear-gradient(90deg,var(--surface) 0%,var(--surface) 5%,transparent 54%)"></div>
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">III</span><span>Kazuistiky</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>13 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:60px;line-height:1.12;letter-spacing:-.022em;text-wrap:pretty">Je pro pana Jaroslava optimálním způsobem „comfort feeding“?</div>
+</div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center">
+<div style="font-size:28px;line-height:1.56">Pan Jaroslav, 88letý klient žijící v&nbsp;DZR s&nbsp;dg. m. Alzheimer ve stádiu pokročilé demence, s&nbsp;poruchou polykání (často absentující nebo závažně opožděný polykací reflex, drooling). Podávána MUS a&nbsp;zahuštěné tekutiny, příjem stravy 0–25&nbsp;% kvůli obtížím. Manželka je přítomná při obědě a&nbsp;akcentuje obavy o&nbsp;jeho hmotnost.</div>
+<div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;margin-top:48px">
+<div style="border-top:1px solid var(--rule);padding-top:20px"><div style="font-family:var(--font-mono);font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">Věk</div><div style="font-family:var(--font-mono);font-size:24px;line-height:1.3;margin-top:14px;font-variant-numeric:tabular-nums">88</div></div>
+<div style="border-top:1px solid var(--rule);padding-top:20px"><div style="font-family:var(--font-mono);font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">Prostředí</div><div style="font-family:var(--font-mono);font-size:24px;line-height:1.3;margin-top:14px;font-variant-numeric:tabular-nums">DZR</div></div>
+<div style="border-top:1px solid var(--rule);padding-top:20px"><div style="font-family:var(--font-mono);font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">Příjem stravy</div><div style="font-family:var(--font-mono);font-size:24px;line-height:1.3;margin-top:14px;font-variant-numeric:tabular-nums">0–25&nbsp;%</div></div>
+<div style="border-top:1px solid var(--rule);padding-top:20px"><div style="font-family:var(--font-mono);font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">Strava</div><div style="font-family:var(--font-mono);font-size:24px;line-height:1.3;margin-top:14px;font-variant-numeric:tabular-nums">MUS, zahuštěné tekutiny</div></div>
+</div>
+</div></section>
+
+<section data-label="14 Paní Jaroslava" data-screen-label="14" data-speaker-notes="Kazuistika 2: paní Jaroslava a její dcera." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 912px 152px 120px;box-sizing:border-box">
+<img src="assets/nurse-elderly-woman-bedside.png" style="position:absolute;right:0;top:0;width:760px;height:1080px;object-fit:cover;object-position:50% 40%;display:block">
+<div style="position:absolute;right:0;top:0;width:760px;height:1080px;background:linear-gradient(90deg,var(--surface) 0%,var(--surface) 5%,transparent 54%)"></div>
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">III</span><span>Kazuistiky</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>14 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:60px;line-height:1.12;letter-spacing:-.022em;text-wrap:pretty">Pro koho paní Jaroslava jí?</div>
+</div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center">
+<div style="font-size:34px;line-height:1.5">Paní Jaroslava je klientka s&nbsp;těžkou demencí institucionalizovaná ve Vašem zařízení.</div>
+<div style="font-size:30px;line-height:1.5;margin-top:44px;color:var(--muted)">Dcera trvá na krmení bez ohledu na to, že paní Jaroslava stravu opakovaně odmítá a&nbsp;má velmi malou chuť k&nbsp;jídlu.</div>
+</div></section>
+
+<section data-label="15 Co je demence" data-screen-label="15" data-speaker-notes="Vysvětlit, co je demence, a jak mění jídlo a polykání." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">III</span><span>Kazuistiky</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>15 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Demence postupně zhoršuje paměť, myšlení, jazyk, plánování i&nbsp;osobnost.</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:96px;align-content:center">
+<div>
+<div style="font-size:26px;line-height:1.56;color:var(--muted)">Nejčastější příčinou je Alzheimerova choroba. Onemocnění je progresivní a&nbsp;obvykle se v&nbsp;horizontu několika let u&nbsp;většiny lidí rozvinou problémy se žvýkáním a&nbsp;polykáním.</div>
+<div style="display:flex;flex-direction:column;margin-top:28px;font-size:26px;line-height:1.5">
+<div style="border-top:1px solid var(--rule);padding:16px 0">problémy s&nbsp;pamětí</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">problémy s&nbsp;myšlením a&nbsp;plánováním</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">problémy s&nbsp;vyjadřováním</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">neschopnost rozpoznávat lidi či věci</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">změna osobnosti</div>
+</div></div>
+<div>
+<div style="font-family:var(--font-display);font-size:34px;line-height:1.22">Tělo se postupně zpomaluje, jeho nároky se mění.</div>
+<div style="display:flex;flex-direction:column;margin-top:28px;font-size:26px;line-height:1.5">
+<div style="border-top:1px solid var(--rule);padding:16px 0">potíže s&nbsp;polykáním některých druhů potravin</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">nemusí cítit hlad, přestávají jíst a&nbsp;pít (i&nbsp;bez dysfagie)</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">zapomínají jíst či jak jíst</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">usínají u&nbsp;jídla</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">zvýšená námaha při jídle, nutná asistence</div>
+</div>
+<div style="font-size:24px;line-height:1.5;margin-top:24px;color:var(--muted);font-style:italic">Změny v&nbsp;příjmu stravy, polykání a&nbsp;funkčním stavu napovídají přirozené deterioraci.</div>
+</div></div></section>
+
+<section data-label="16 Aspirace" data-screen-label="16" data-speaker-notes="Porucha polykání, aspirace, varovné známky a dvě cesty." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">III</span><span>Kazuistiky</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>16 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Kdy je třeba se o&nbsp;výběr jídla či jiné formy výživy zajímat?</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-content:center">
+<div>
+<div style="font-size:26px;line-height:1.56;color:var(--muted)">Pacient s&nbsp;poruchou polykání může nechtěně vdechnout jídlo či pití do plic. Tomu se říká <strong style="color:var(--ink);font-weight:600">aspirace</strong> a&nbsp;může způsobit zápal plic. Porucha polykání je způsobena neschopností kontrolovat svaly hrdla. Dále je vhodné si všímat:</div>
+<div style="display:flex;flex-direction:column;margin-top:24px;font-size:25px;line-height:1.5">
+<div style="border-top:1px solid var(--rule);padding:14px 0">úbytku na hmotnosti</div>
+<div style="border-top:1px solid var(--rule);padding:14px 0">kašle či sípání během jídla a&nbsp;pití</div>
+<div style="border-top:1px solid var(--rule);padding:14px 0">vytékání jídla či pití z&nbsp;úst</div>
+<div style="border-top:1px solid var(--rule);padding:14px 0">částí sousta v&nbsp;ústní dutině i&nbsp;po polknutí</div>
+<div style="border-top:1px solid var(--rule);padding:14px 0">dlouhé doby strávené jídlem</div>
+<div style="border-top:1px solid var(--rule);padding:14px 0">nejistoty, zda je pacient hladový či žíznivý</div>
+</div></div>
+<div style="display:flex;flex-direction:column;gap:20px">
+<div style="font-size:25px;line-height:1.5;color:var(--muted)">U&nbsp;pacientů s&nbsp;demencí si nikdy nejste jisti, zda cítí hlad či žízeň. Pacienti s&nbsp;velmi těžkou formou demence toto referují pouze zřídka.</div>
+<div style="background:var(--tint);border:1px solid var(--rule);border-radius:16px;padding:24px 32px"><div style="font-family:var(--font-mono);font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Možnost A</div><div style="font-family:var(--font-display);font-size:29px;line-height:1.2;margin-top:12px">Úprava konzistence stravy a&nbsp;tekutin, asistence u&nbsp;jídla a&nbsp;pití</div></div>
+<div style="background:var(--tint);border:1px solid var(--rule);border-radius:16px;padding:24px 32px"><div style="font-family:var(--font-mono);font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Možnost B</div><div style="font-family:var(--font-display);font-size:29px;line-height:1.2;margin-top:12px">Živení pomocí vyživovací sondy či stomie (vývodu)</div></div>
+<div style="display:flex;flex-direction:column;gap:14px"><div style="font-size:24px;line-height:1.45;color:var(--muted);font-style:italic">Bezpečnou konzistenci nechte otestovat klinickým logopedem. Texturu upravujte tak zřídka, jak je možné.</div><div><span style="display:inline-flex;align-items:center;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);border:1px solid var(--rule);border-radius:999px;padding:9px 20px;font-variant-numeric:tabular-nums">Doporučení 26 · GPP · 94&nbsp;%</span></div></div>
+</div></div></section>
+
+<section data-label="17 Netrpí" data-screen-label="17" data-speaker-notes="Klíčové sdělení: klient, který přestává jíst, netrpí." class="t-blue dark" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body)">
+<div style="position:absolute;left:120px;top:64px;width:1680px;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">IV</span><span>Konec života</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>17 / 42</div>
+</div>
+<div style="position:absolute;left:120px;top:140px;width:1300px;font-size:30px;line-height:1.5;color:var(--muted)">Nároky klientů v&nbsp;rezidenční péči se mění s&nbsp;blížícím se koncem života.</div>
+<div style="position:absolute;left:120px;top:352px;width:1680px;font-family:var(--font-display);font-weight:300;font-size:104px;line-height:1.06;letter-spacing:-.028em">Pokud klient přestává jíst, netrpí.<br>Neumírá hlady.</div>
+<div style="position:absolute;left:120px;bottom:124px"><span style="display:inline-flex;align-items:center;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);border:1px solid var(--rule);border-radius:999px;padding:9px 20px;font-variant-numeric:tabular-nums">Doporučení 35 · GPP · 96&nbsp;%</span></div>
+<img src="assets/sig-blue-light.png" style="position:absolute;right:120px;bottom:120px;width:168px;opacity:.9">
+</section>
+
+<section data-label="18 Hlad a žízeň" data-screen-label="18" data-speaker-notes="Metabolické tlumení hladu a žízně na konci života." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">IV</span><span>Konec života</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>18 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Hlad a&nbsp;žízeň jsou na konci života spontánně tlumeny.</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-content:center">
+<div style="display:flex;flex-direction:column;gap:24px;font-size:26px;line-height:1.56;color:var(--muted)">
+<div>Je to součást metabolických změn. Tím tělo zajišťuje, že hladovění není bolestivé. <strong style="color:var(--ink);font-weight:600">U&nbsp;zdravého hladovějícího člověka to neplatí stejně.</strong></div>
+<div>Hladovění skrze specifické metabolické dráhy aktivuje produkci ketolátek, které indukují pocity sytosti.</div>
+<div>Zvyšuje se produkce endogenních opioidů (např. β-endorfin, enkefaliny), které mohou být významně potentnější než morfin. Tím je zajištěna relaxace a&nbsp;úleva od bolesti.</div>
+</div>
+<div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Přesněji</div>
+<div style="display:flex;flex-direction:column;margin-top:20px;font-size:25px;line-height:1.5">
+<div style="border-top:1px solid var(--rule);padding:16px 0">ketolátky: anorektický efekt, možný mírně sedativní či euforický centrální efekt</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">metabolická acidóza a&nbsp;hypernatremie: mírná otupělost vědomí</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">akumulace endogenních opioidů</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">snížená sekrece u&nbsp;dehydratace: méně dušnosti, méně nauzey</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">uremie a&nbsp;další metabolity v&nbsp;terminálním stadiu</div>
+</div></div></div></section>
+
+<section data-label="19 Hydratace" data-screen-label="19" data-speaker-notes="Žízeň na konci života řešíme ústy. Podkožní hydratace před infuzí." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">IV</span><span>Konec života</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>19 / 42</div>
+</div>
+
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box;display:flex;flex-direction:row-reverse;justify-content:space-between;align-items:flex-start;gap:56px">
+<span style="display:flex;flex:none;width:64px;height:64px;color:var(--muted)"><i data-lucide="droplet" aria-hidden="true" style="width:64px;height:64px"></i></span>
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Žízeň na konci života tlumíme ústy, ne infuzí.</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-content:center">
+<div style="display:flex;flex-direction:column;gap:24px;font-size:26px;line-height:1.56;color:var(--muted)">
+<div>Pocit hladu u&nbsp;umírajícího klienta obvykle není přítomen. Je-li strava nabídnuta, přijme velmi malé množství.</div>
+<div><strong style="color:var(--ink);font-weight:600">Hlavním diskomfortem je žízeň</strong>, a&nbsp;tu lze uspokojivě zvládnout popíjením po malých dávkách, kousky ledu, tvrdým bonbonem a&nbsp;dobrou péčí o&nbsp;dutinu ústní.</div>
+<div>Mezi pocitem žízně v&nbsp;terminální fázi a&nbsp;skutečným příjmem tekutin je jen malá souvislost, a&nbsp;to i&nbsp;při podání nitrožilně.</div>
+</div>
+<div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Když je hydratace indikována</div>
+<div style="display:flex;flex-direction:column;margin-top:20px;font-size:25px;line-height:1.5">
+<div style="border-top:1px solid var(--rule);padding:15px 0">Parenterální tekutiny lze podat dočasně, k&nbsp;překlenutí krizové situace</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">U&nbsp;mírné a&nbsp;střední dehydratace preferujeme podkožní cestu (hypodermoklýza), zvlášť může-li klient zůstat v&nbsp;zařízení</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Roztoky izotonické, do 3&nbsp;000&nbsp;ml/den a&nbsp;1&nbsp;500&nbsp;ml na jedno místo vpichu. Ve většině případů nepřekročí 1&nbsp;000&nbsp;ml</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">U&nbsp;těžké dehydratace a&nbsp;větších objemů nitrožilní cesta</div>
+</div>
+<div style="margin-top:28px"><span style="display:inline-flex;align-items:center;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);border:1px solid var(--rule);border-radius:999px;padding:9px 20px;font-variant-numeric:tabular-nums">Doporučení 39 · GPP · 100&nbsp;% konsenzus</span></div>
+</div></div></section>
+
+<section data-label="20 Komfortní krmení" data-screen-label="20" data-speaker-notes="Vysvětlení komfortního krmení a otázky rodiny." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">IV</span><span>Konec života</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>20 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Jak bude vypadat, když zvolím úpravu konzistence a&nbsp;asistované krmení?</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-content:center">
+<div style="display:flex;flex-direction:column;gap:24px">
+<div style="font-size:26px;line-height:1.56;color:var(--muted)">Vysvětlení možností úpravy stravy a&nbsp;tekutin (kdo o&nbsp;ni rozhoduje), popsání principu asistovaného krmení, rizik (vyšší riziko aspirace) i&nbsp;benefitů spojených s&nbsp;krmením (socializace, péče ze strany rodiny), popř. postupu krmení ve zdravotnickém či sociálním zařízení.</div>
+<div style="font-size:30px;line-height:1.5">Klient bude živen, dokud a&nbsp;pokud mu krmení nezpůsobuje stres. <strong style="font-weight:600">Jen tolik, kolik sám chce.</strong> Hmatatelná alternativa k&nbsp;sondové výživě.</div>
+</div>
+<div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Otázky, které přijdou</div>
+<div style="display:flex;flex-direction:column;margin-top:20px;font-size:26px;line-height:1.5">
+<div style="border-top:1px solid var(--rule);padding:18px 0">Mohou být všichni pacienti s&nbsp;demencí asistovaně krmeni?</div>
+<div style="border-top:1px solid var(--rule);padding:18px 0">Jak funkční asistované krmení je?</div>
+<div style="border-top:1px solid var(--rule);padding:18px 0">Co se stane, pokud můj příbuzný nebude schopen nic ústy sníst?</div>
+<div style="border-top:1px solid var(--rule);padding:18px 0">Co mohu udělat, abych pomohl, když nebude moci jíst či pít?</div>
+</div>
+<div style="margin-top:28px"><span style="display:inline-flex;align-items:center;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);border:1px solid var(--rule);border-radius:999px;padding:9px 20px;font-variant-numeric:tabular-nums">Doporučení 16 · GPP · 100&nbsp;%</span></div>
+<div style="display:none">
+</div></div></div></section>
+
+<section data-label="21 Cvičení" data-screen-label="21" data-speaker-notes="Krátké cvičení pro publikum. Nechat chvíli ticho." class="t-blue dark" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body)">
+<div style="position:absolute;left:120px;top:64px;width:1680px;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">IV</span><span>Konec života</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>21 / 42</div>
+</div>
+<div style="position:absolute;left:120px;top:352px;width:1300px;height:576px;display:flex;flex-direction:column;justify-content:center">
+<div style="font-family:var(--font-display);font-weight:300;font-size:72px;line-height:1.12;letter-spacing:-.024em">Zavřete oči. Máte pokročilou demenci a&nbsp;nemůžete říct, že nechcete jíst.</div>
+<div style="font-size:34px;line-height:1.5;margin-top:56px;color:var(--muted)">Co uděláte, když se Vás někdo bude snažit nakrmit?</div>
+</div></section>
+
+<section data-label="22 Odpověď" data-screen-label="22" data-speaker-notes="Chování, které pečující čtou jako odmítání, je komunikace." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 912px 152px 120px;box-sizing:border-box">
+<img src="assets/carer-feeding-man.png" style="position:absolute;right:0;top:0;width:760px;height:1080px;object-fit:cover;object-position:50% 45%;display:block">
+<div style="position:absolute;right:0;top:0;width:760px;height:1080px;background:linear-gradient(90deg,var(--surface) 0%,var(--surface) 5%,transparent 54%)"></div>
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">IV</span><span>Konec života</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>22 / 42</div>
+</div>
+<div style="flex:none;height:48px"></div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center">
+<div style="font-family:var(--font-display);font-weight:300;font-size:52px;line-height:1.16;letter-spacing:-.02em;text-wrap:pretty">Plivu. Odvracím hlavu. Pevně zavírám ústa. Bráním se ruce s&nbsp;příborem. Zlobím se. Křičím. Chci odejít z&nbsp;místnosti. Odstrkuji talíř. <span style="color:var(--muted)">Tvářím se útrpně, bolestivě…</span></div>
+</div></section>
+
+<section data-label="23 Úzkost" data-screen-label="23" data-speaker-notes="Snížený příjem stravy neakceleruje smrt." class="t-blue dark" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body)">
+<div style="position:absolute;left:120px;top:64px;width:1680px;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">IV</span><span>Konec života</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>23 / 42</div>
+</div>
+<div style="position:absolute;left:120px;top:140px;width:1240px;font-size:30px;line-height:1.5;color:var(--muted)">Nepřijímání stravy se stává významným zdrojem úzkosti všech osob zapojených do péče.</div>
+<div style="position:absolute;left:120px;top:352px;width:1240px;font-family:var(--font-display);font-weight:300;font-size:104px;line-height:1.06;letter-spacing:-.028em">Snížený příjem stravy neakceleruje smrt klienta.</div>
+<img src="assets/sig-blue-light.png" style="position:absolute;left:120px;bottom:120px;width:168px;opacity:.9">
+</section>
+
+<section data-label="24 Na co myslet" data-screen-label="24" data-speaker-notes="Snížený příjem je symptom. Co zvažovat s rodinou." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">V</span><span>Rozhodování</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>24 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Snížený příjem stravy je pouze symptom. K&nbsp;úmrtí vede onemocnění samo.</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-content:center">
+<div style="display:flex;flex-direction:column;gap:24px;font-size:26px;line-height:1.56;color:var(--muted)">
+<div style="font-family:var(--font-display);font-size:34px;line-height:1.22;color:var(--ink)">Nutnost informací</div>
+<div>Lidé s&nbsp;pokročilou demencí se blíží ke konci života. Sledovat je a&nbsp;jejich nemoc může být těžké pro každého, kdo se o&nbsp;ně stará.</div>
+<div>Důležité je znát, co si přeje (by si přál) pacient a&nbsp;poté jeho příbuzní. Tyto informace jsou klíčové při dalším rozhodování o&nbsp;péči.</div>
+<div><strong style="color:var(--ink);font-weight:600">Rodina je často ve větší úzkosti z&nbsp;nízkého příjmu stravy než samotný klient.</strong></div>
+</div>
+<div style="display:flex;flex-direction:column;font-size:25px;line-height:1.5">
+<div style="border-top:1px solid var(--rule);padding:16px 0">Pro příbuzné může být velmi stresující a&nbsp;bolestivé vidět svého blízkého odmítat stravu či pití.</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">Strava i&nbsp;pití je spojováno s&nbsp;„životní sílou“ a&nbsp;je silným socializačním prostředkem. Je těžké přijmout, že osoba blízká „přirozeně“ přestane jíst.</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">Zvažujeme více aspektů: dříve vyslovená přání, náboženské a&nbsp;kulturní hodnoty, co jídlo pro danou osobu představovalo, blízkost druhé osoby a&nbsp;samotná péče, trávení času.</div>
+<div style="border-top:1px solid var(--rule);padding:16px 0">Pečlivé zvážení pro a&nbsp;proti individuálně v&nbsp;závislosti na pacientovi.</div>
+</div></div></section>
+
+<section data-label="25 Finger food" data-screen-label="25" data-speaker-notes="Finger food a svačiny: doporučení 19, GPP 100 %. Nahrazuje původní obrázkový snímek se seznamem finger foods." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">V</span><span>Rozhodování</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>25 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box;display:flex;flex-direction:row-reverse;justify-content:space-between;align-items:flex-start;gap:56px">
+<span style="display:flex;flex:none;width:64px;height:64px;color:var(--muted)"><i data-lucide="apple" aria-hidden="true" style="width:64px;height:64px"></i></span>
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.022em;max-width:1560px;text-wrap:pretty">Když příbor přestane fungovat, nabídneme jídlo do ruky.</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-content:center">
+<div style="display:flex;flex-direction:column;gap:24px">
+<div style="font-size:28px;line-height:1.5">Klientům s&nbsp;demencí a&nbsp;malnutricí či dehydratací nebo jejich rizikem <strong style="font-weight:600">často nabízíme nápoje, svačiny a&nbsp;jídlo do ruky</strong>, abychom příjem usnadnili.</div>
+<div style="font-size:26px;line-height:1.56;color:var(--muted)">Přímá evidence je velmi omezená. Doporučení stojí na tom, že náklady jsou minimální, riziko újmy žádné a&nbsp;možný přínos reálný. V&nbsp;jedné studii se u&nbsp;deseti z&nbsp;dvanácti klientů zastavil úbytek hmotnosti a&nbsp;zlepšila se samostatnost při jídle.</div>
+<div><span style="display:inline-flex;align-items:center;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);border:1px solid var(--rule);border-radius:999px;padding:9px 20px;font-variant-numeric:tabular-nums">Doporučení 19 · GPP · 100&nbsp;%</span></div>
+</div>
+<div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Co se osvědčuje</div>
+<div style="display:flex;flex-direction:column;margin-top:20px;font-size:25px;line-height:1.5">
+<div style="border-top:1px solid var(--rule);padding:15px 0">Kousky ovoce a&nbsp;zeleniny, které drží formu: jahody, mandarinka, okurka, vařená brambora</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Vejce na tvrdo, kousky sýra, malé sendviče a&nbsp;wrapy</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Muffin, tvarohový či ovesný pruh, energetická tyčinka</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Dostupná svačina i&nbsp;mimo jídelní dobu a&nbsp;delší čas na jídlo</div>
+</div>
+<div style="font-size:24px;line-height:1.5;margin-top:24px;color:var(--muted);font-style:italic">Pozor na dysfagii. Jídlo do ruky nenahrazuje bezpečnou konzistenci.</div>
+</div></div></section>
+
+<section data-label="26 Modifikovaná konzistence" data-screen-label="26" data-speaker-notes="Původní snímek 22: jídlo s upravenou konzistencí, tvarované do podoby původní potraviny." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 912px 152px 120px;box-sizing:border-box">
+<img src="assets/texture-modified-meal.png" style="position:absolute;right:0;top:0;width:760px;height:1080px;object-fit:cover;object-position:50% 50%;display:block">
+<div style="position:absolute;right:0;top:0;width:760px;height:1080px;background:linear-gradient(90deg,var(--surface) 0%,var(--surface) 5%,transparent 54%)"></div>
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">V</span><span>Rozhodování</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>26 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:60px;line-height:1.11;letter-spacing:-.022em;max-width:1560px;text-wrap:pretty">Upravená konzistence nemusí vypadat jako rozmixovaná strava.</div>
+</div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:28px">
+<div style="font-size:28px;line-height:1.5">Tvarovaná strava zachovává podobu původní potraviny, a&nbsp;tím i&nbsp;její rozpoznatelnost, chuť k&nbsp;jídlu a&nbsp;důstojnost jídla jako události.</div>
+<div style="font-size:25px;line-height:1.56;color:var(--muted)">Modifikovaná strava bývá spojena s&nbsp;nižším příjmem energie i&nbsp;tekutin, proto ji <strong style="color:var(--ink);font-weight:600">obohacujeme</strong> a&nbsp;klienta klinicky sledujeme. Upravujeme tak, jak je nutné pro bezpečné polknutí, ale tak zřídka, jak je možné.</div>
+<div><span style="display:inline-flex;align-items:center;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);border:1px solid var(--rule);border-radius:999px;padding:9px 20px;font-variant-numeric:tabular-nums">Doporučení 26 · GPP · 94&nbsp;%</span></div>
+</div></section>
+
+<section data-label="27 Efektivita intervencí" data-screen-label="27" data-speaker-notes="Intervence přestanou být efektivní; kdy suplementaci nevysazovat." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 912px 152px 120px;box-sizing:border-box">
+<img src="assets/product-fresubin-creme.png" style="position:absolute;right:0;top:0;width:760px;height:1080px;object-fit:contain;object-position:50% 50%;display:block;background:var(--tint)">
+<div style="position:absolute;right:0;top:0;width:760px;height:1080px;background:linear-gradient(90deg,var(--surface) 0%,var(--surface) 5%,transparent 54%)"></div>
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">V</span><span>Rozhodování</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>27 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:60px;line-height:1.12;letter-spacing:-.022em;text-wrap:pretty">Intervence v&nbsp;jeden moment přestanou být efektivní.</div>
+</div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center">
+<div style="background:var(--tint);border:1px solid var(--rule);border-radius:16px;padding:44px 48px">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Ale</div>
+<div style="font-size:30px;line-height:1.5;margin-top:24px">Pokud je pro klienta suplementace bezpečná, užívá si jí (byť malé množství), je na ni zvyklý, preferuje ji více než stravu a&nbsp;poskytuje alespoň minimální komfort pro rodinu, <strong style="font-weight:600">nevysazujeme ji automaticky</strong>.</div>
+</div>
+</div></section>
+
+<section data-label="28 Sipping a co nefunguje" data-screen-label="28" data-speaker-notes="Sipping má stupeň A pro výživu, ne pro kognici. Co se nedoporučuje." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">V</span><span>Rozhodování</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>28 / 42</div>
+</div>
+
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box;display:flex;flex-direction:row-reverse;justify-content:space-between;align-items:flex-start;gap:56px">
+<span style="display:flex;flex:none;width:64px;height:64px;color:var(--muted)"><i data-lucide="glass-water" aria-hidden="true" style="width:64px;height:64px"></i></span>
+<div style="font-family:var(--font-display);font-weight:400;font-size:60px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Sipping má nejsilnější evidenci v&nbsp;celém doporučení. Pro výživu, ne pro kognici.</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-content:center">
+<div style="display:flex;flex-direction:column;gap:32px">
+<div>
+<div style="font-size:28px;line-height:1.5">Klientům s&nbsp;demencí a&nbsp;malnutricí či jejím rizikem <strong style="font-weight:600">má být nabídnut sipping</strong>, aby se zvýšil příjem energie a&nbsp;bílkovin a&nbsp;udržel se stav výživy.</div>
+<div style="margin-top:20px"><span style="display:inline-flex;align-items:center;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);border:1px solid var(--rule);border-radius:999px;padding:9px 20px;font-variant-numeric:tabular-nums">Stupeň A&nbsp;· 100&nbsp;% konsenzus</span></div>
+</div>
+<div>
+<div style="font-size:28px;line-height:1.5;color:var(--muted)">Sipping se <strong style="color:var(--ink);font-weight:600">nemá používat k&nbsp;úpravě kognitivního deficitu</strong> ani k&nbsp;prevenci dalšího kognitivního a&nbsp;funkčního poklesu.</div>
+<div style="margin-top:20px"><span style="display:inline-flex;align-items:center;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);border:1px solid var(--rule);border-radius:999px;padding:9px 20px;font-variant-numeric:tabular-nums">Stupeň B · 100&nbsp;% konsenzus</span></div>
+</div></div>
+<div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Co se nedoporučuje</div>
+<div style="display:flex;flex-direction:column;margin-top:20px;font-size:24px;line-height:1.45">
+<div style="display:grid;grid-template-columns:150px 1fr;gap:28px;border-top:1px solid var(--rule);padding:18px 0"><span style="font-family:var(--font-mono);font-size:20px;letter-spacing:.08em;color:var(--accent);font-variant-numeric:tabular-nums">A</span><span>omega-3 k&nbsp;úpravě kognice</span></div>
+<div style="display:grid;grid-template-columns:150px 1fr;gap:28px;border-top:1px solid var(--rule);padding:18px 0"><span style="font-family:var(--font-mono);font-size:20px;letter-spacing:.08em;color:var(--accent);font-variant-numeric:tabular-nums">B</span><span>sipping určený speciálně pro demenci, ketogenní intervence, probiotika</span></div>
+<div style="display:grid;grid-template-columns:150px 1fr;gap:28px;border-top:1px solid var(--rule);padding:18px 0"><span style="font-family:var(--font-mono);font-size:20px;letter-spacing:.08em;color:var(--accent);font-variant-numeric:tabular-nums">GPP</span><span>léky stimulující apetit (89&nbsp;%), alkohol a&nbsp;bylinné přípravky (87&nbsp;%), mikronutrienty bez prokázaného deficitu (100&nbsp;%)</span></div>
+<div style="display:grid;grid-template-columns:150px 1fr;gap:28px;border-top:1px solid var(--rule);padding:18px 0"><span style="font-family:var(--font-mono);font-size:20px;letter-spacing:.08em;color:var(--accent);font-variant-numeric:tabular-nums">GPP</span><span>rutinní zvýrazňovače chuti (73&nbsp;% konsenzus, tedy jen většinová shoda)</span></div>
+</div>
+<div style="font-size:24px;line-height:1.5;margin-top:24px;color:var(--muted);font-style:italic">Restrikce ve stravě, které omezují příjem, jsou u&nbsp;demence potenciálně škodlivé a&nbsp;mají se vynechat.</div>
+</div></div></section>
+
+<section data-label="29 Sonda / stomie" data-screen-label="29" data-speaker-notes="Vysvětlení sondy či stomie a otázky rodiny." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">V</span><span>Rozhodování</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>29 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Jak bude vypadat, když bude zvolena sonda či stomie?</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-content:center">
+<div style="display:flex;flex-direction:column;gap:24px">
+<div style="font-size:28px;line-height:1.56;color:var(--muted)">Vysvětlení principu zavedení, funkčnosti systému, podávání výživy a&nbsp;péče o&nbsp;výživový vstup.</div>
+<div style="font-family:var(--font-mono);font-size:22px;line-height:1.6;color:var(--muted);font-variant-numeric:tabular-nums">peg.freseniuskabiforum.eu</div>
+<div style="font-size:26px;line-height:1.56">Enterální výživa se <strong style="font-weight:600">u&nbsp;těžké demence nezavádí</strong>. Zavedení v&nbsp;pokročilém stadiu má být velmi vzácnou výjimkou, které vždy předchází etická konzultace.</div>
+<div><span style="display:inline-flex;align-items:center;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);border:1px solid var(--rule);border-radius:999px;padding:9px 20px;font-variant-numeric:tabular-nums">Doporučení 37 · GPP · 100&nbsp;%</span></div>
+</div>
+<div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Otázky, které přijdou</div>
+<div style="display:flex;flex-direction:column;margin-top:20px;font-size:26px;line-height:1.5">
+<div style="border-top:1px solid var(--rule);padding:18px 0">Musí být pacient upoutaný na lůžko po celý den?</div>
+<div style="border-top:1px solid var(--rule);padding:18px 0">Dá se sonda či stomie odstranit?</div>
+<div style="border-top:1px solid var(--rule);padding:18px 0">Bude můj příbuzný žít déle, pokud se rozhodnu pro tento způsob živení?</div>
+<div style="border-top:1px solid var(--rule);padding:18px 0">Bude mít se sondou či stomií menší pravděpodobnost, že bude aspirovat?</div>
+</div></div></div></section>
+
+<section data-label="30 Úmrtnost po PEG" data-screen-label="30" data-speaker-notes="Úmrtnost po zavedení PEG, benefity a rizika." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">V</span><span>Rozhodování</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>30 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Je zavádění NGS či PEG na místě?</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-content:center">
+<div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Úmrtnost po zavedení PEG <span style="text-transform:none;letter-spacing:0;color:var(--muted);font-style:italic">zdroj doplnit</span></div>
+<div style="display:flex;flex-direction:column;margin-top:24px">
+<div style="display:grid;grid-template-columns:300px 1fr;gap:24px;align-items:baseline;border-top:1px solid var(--rule);padding:22px 0"><span style="font-family:var(--font-mono);font-size:56px;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums;color:var(--accent)">10–43<span style="letter-spacing:0;margin-left:.18em">%</span></span><span style="font-size:26px;line-height:1.4;color:var(--muted)">30denní úmrtnost</span></div>
+<div style="display:grid;grid-template-columns:300px 1fr;gap:24px;align-items:baseline;border-top:1px solid var(--rule);padding:22px 0"><span style="font-family:var(--font-mono);font-size:56px;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums;color:var(--accent)">60–65<span style="letter-spacing:0;margin-left:.18em">%</span></span><span style="font-size:26px;line-height:1.4;color:var(--muted)">v&nbsp;následujících 12–18 měsících</span></div>
+<div style="display:grid;grid-template-columns:300px 1fr;gap:24px;align-items:baseline;border-top:1px solid var(--rule);padding:22px 0"><span style="font-family:var(--font-mono);font-size:56px;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums;color:var(--accent)">73–81<span style="letter-spacing:0;margin-left:.18em">%</span></span><span style="font-size:26px;line-height:1.4;color:var(--muted)">déle než 36–48 měsíců</span></div>
+</div></div>
+<div style="display:flex;flex-direction:column;gap:32px">
+<div><div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Benefity</div><div style="font-size:26px;line-height:1.5;margin-top:16px">Přístup pro hydrataci a&nbsp;medikaci (snížení bolesti pomocí vstupu).</div></div>
+<div><div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Rizika</div>
+<div style="display:flex;flex-direction:column;margin-top:8px;font-size:24px;line-height:1.45">
+<div style="border-top:1px solid var(--rule);padding:9px 0">v&nbsp;případě přežití alespoň 60 dní u&nbsp;70&nbsp;% nezaznamenáno žádné funkční zlepšení</div>
+<div style="border-top:1px solid var(--rule);padding:9px 0">vyšší zátěž pro pečovatele a&nbsp;rodinu</div>
+<div style="border-top:1px solid var(--rule);padding:9px 0">zvýšené riziko dekubitů, pneumonie a&nbsp;dalších komplikací</div>
+<div style="border-top:1px solid var(--rule);padding:9px 0">pneumonie OR 3,56 a&nbsp;dekubity OR 2,25 proti klientům bez sondy, bez rozdílu v&nbsp;přežití či stavu výživy <span style="font-family:var(--font-mono);font-size:20px;color:var(--muted);font-variant-numeric:tabular-nums">Lee 2021</span></div>
+<div style="border-top:1px solid var(--rule);padding:9px 0">u&nbsp;36&nbsp;492 klientů s&nbsp;pokročilou demencí nenalezen rozdíl v&nbsp;přežití <span style="font-family:var(--font-mono);font-size:20px;color:var(--muted);font-variant-numeric:tabular-nums">Teno 2012</span></div>
+</div></div></div></div></section>
+
+<section data-label="31 Jaké otázky si klást" data-screen-label="31" data-speaker-notes="Otázky pro rozhodující osobu." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">V</span><span>Rozhodování</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>31 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Co by si přál Váš příbuzný, kdyby mohl volit sám?</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-content:center;font-size:25px;line-height:1.5">
+<div style="display:flex;flex-direction:column">
+<div style="border-top:1px solid var(--rule);padding:15px 0">Sdělil Vám příbuzný někdy svá přání ohledně léčby pro případ vážné nemoci?</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Má závěť, nebo vyslovil přání či preference ohledně umělé výživy?</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Jaké jsou jeho přesvědčení a&nbsp;hodnoty ohledně péče při závažné a&nbsp;nevyléčitelné nemoci?</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Kdyby se mohl podívat na výhody a&nbsp;nevýhody, co by si přál nebo vybral?</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">A&nbsp;konečně, co je podle Vás v&nbsp;jeho nejlepším zájmu?</div>
+</div>
+<div style="display:flex;flex-direction:column">
+<div style="border-top:1px solid var(--rule);padding:15px 0">Očekává lékař či specialista, že se příčina problémů s&nbsp;jídlem a&nbsp;pitím zlepší?</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Jak je pravděpodobné, že se příbuzný s&nbsp;demencí rozruší kvůli „hadičce“ a&nbsp;bude potřebovat omezovací prostředky nebo uklidňující léky?</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Bude se sondou či stomií limitován v&nbsp;péči?</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Má jiné onemocnění, které ovlivňuje rozhodnutí?</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Zdá se, že preferuje příjem potravy ústy?</div>
+</div></div></section>
+
+<section data-label="32 Jak se rozhodující cítí" data-screen-label="32" data-speaker-notes="Pocity rozhodující osoby. Empatie." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 912px 152px 120px;box-sizing:border-box">
+<img src="assets/doctor-consult-desk.png" style="position:absolute;right:0;top:0;width:760px;height:1080px;object-fit:cover;object-position:50% 45%;display:block">
+<div style="position:absolute;right:0;top:0;width:760px;height:1080px;background:linear-gradient(90deg,var(--surface) 0%,var(--surface) 5%,transparent 54%)"></div>
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">V</span><span>Rozhodování</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>32 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:60px;line-height:1.12;letter-spacing:-.022em;text-wrap:pretty">Empatie je v&nbsp;komunikaci nezbytná.</div>
+</div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center">
+<div style="font-size:24px;line-height:1.45">
+<div style="border-top:1px solid var(--rule);padding:14px 0">Cítíte se pod tlakem ostatních?</div>
+<div style="border-top:1px solid var(--rule);padding:14px 0">Cítíte se rozpolceni mezi vlastním přesvědčením a&nbsp;přesvědčením pacienta?</div>
+<div style="border-top:1px solid var(--rule);padding:14px 0">Máte nezodpovězené otázky a&nbsp;potřebujete více informací, než se rozhodnete?</div>
+<div style="border-top:1px solid var(--rule);padding:14px 0">Jaký je Váš celkový pocit ze správné volby?</div>
+</div>
+<div style="font-size:24px;line-height:1.56;margin-top:32px;color:var(--muted)">Rozhodující osoba by měla vědět, že může sdílet své obavy a&nbsp;pocity, může se informovat i&nbsp;své rozhodnutí v&nbsp;čase změnit. Měla by znát veškerá rizika i&nbsp;benefity obou možností a&nbsp;<strong style="color:var(--ink);font-weight:600">zůstat v&nbsp;plném zapojení plánu péče</strong>.</div>
+</div></section>
+
+<section data-label="33 Citace" data-screen-label="33" data-speaker-notes="Citace závěru systematického přehledu. Doplnit zdroj." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">V</span><span>Rozhodování</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>33 / 42</div>
+</div>
+<div style="flex:1;min-height:0;margin-top:48px;display:flex;flex-direction:column;justify-content:center;gap:40px">
+<div style="font-family:var(--font-display);font-weight:300;font-size:38px;line-height:1.36;letter-spacing:-.01em;text-wrap:pretty">„Nenašli jsme žádné důkazy o&nbsp;tom, že by živení sondou či stomií zlepšovalo přežití, zlepšovalo kvalitu života, snižovalo bolest, snižovalo úmrtnost, snižovalo behaviorální a&nbsp;psychologické příznaky demence, vedlo k&nbsp;lepší výživě, zlepšovalo psychologické symptomy rodiny nebo pečovatelů, jako jsou deprese, úzkost, zátěž pečovatelů nebo spokojenost s&nbsp;péčí, a&nbsp;žádné náznaky škodlivosti. Našli jsme určité důkazy o&nbsp;tom, že existuje klinicky významné riziko vzniku dekubitů při enterálním živení. Budoucí výzkum by se měl zaměřit na hodnotnější výzkum a&nbsp;porovnávání kontrolních a&nbsp;intervenčních skupin a&nbsp;na jasně definované intervence a&nbsp;měření všech zde uvedených výsledků.“</div>
+<div style="font-family:var(--font-mono);font-size:22px;line-height:1.6;color:var(--muted);font-variant-numeric:tabular-nums">Davies N, Barrado-Martín Y, Vickerstaff V, et&nbsp;al. Enteral tube feeding for people with severe dementia. Cochrane Database Syst Rev 2021;8:CD013503. <span style="font-style:italic">Zdroj ověřit před přednáškou.</span></div>
+</div></section>
+
+<section data-label="34 Postup u pana Jaroslava" data-screen-label="34" data-speaker-notes="Konkrétní postup v péči o pana Jaroslava." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">V</span><span>Rozhodování</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>34 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Jak budeme postupovat u&nbsp;pana Jaroslava v&nbsp;péči?</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-content:center;font-size:25px;line-height:1.5">
+<div style="display:flex;flex-direction:column;justify-content:center">
+<div style="display:grid;grid-template-columns:56px 1fr;gap:16px;border-top:1px solid var(--rule);padding:16px 0"><span style="font-family:var(--font-mono);color:var(--accent);font-variant-numeric:tabular-nums">01</span><span>Informujeme ošetřujícího lékaře o&nbsp;stávající situaci.</span></div>
+<div style="display:grid;grid-template-columns:56px 1fr;gap:16px;border-top:1px solid var(--rule);padding:16px 0"><span style="font-family:var(--font-mono);color:var(--accent);font-variant-numeric:tabular-nums">02</span><span>Zavoláme zákonnému zástupci a&nbsp;vysvětlíme, co se v&nbsp;příjmu stravy u&nbsp;klienta změnilo.</span></div>
+<div style="display:grid;grid-template-columns:56px 1fr;gap:16px;border-top:1px solid var(--rule);padding:16px 0"><span style="font-family:var(--font-mono);color:var(--accent);font-variant-numeric:tabular-nums">03</span><span>Vysvětlíme, že změny v&nbsp;příjmu stravy napovídají progresi demence a&nbsp;jsou očekávané.</span></div>
+<div style="display:grid;grid-template-columns:56px 1fr;gap:16px;border-top:1px solid var(--rule);padding:16px 0"><span style="font-family:var(--font-mono);color:var(--accent);font-variant-numeric:tabular-nums">04</span><span>Vysvětlíme rodině i&nbsp;pečujícím zdravotníkům koncept „comfort feeding“.</span></div>
+</div>
+<div style="display:flex;flex-direction:column;justify-content:center">
+<div style="display:grid;grid-template-columns:56px 1fr;gap:16px;border-top:1px solid var(--rule);padding:16px 0"><span style="font-family:var(--font-mono);color:var(--accent);font-variant-numeric:tabular-nums">05</span><span>Ujistíme se, že rodina i&nbsp;pečující chápou, že tento koncept nezajistí nutriční nároky (energetické ani v&nbsp;příjmu makro- a&nbsp;mikronutrientů).</span></div>
+<div style="display:grid;grid-template-columns:56px 1fr;gap:16px;border-top:1px solid var(--rule);padding:16px 0"><span style="font-family:var(--font-mono);color:var(--accent);font-variant-numeric:tabular-nums">06</span><span>Odpovíme rodině na otázky, které mají.</span></div>
+<div style="display:grid;grid-template-columns:56px 1fr;gap:16px;border-top:1px solid var(--rule);padding:16px 0"><span style="font-family:var(--font-mono);color:var(--accent);font-variant-numeric:tabular-nums">07</span><span>Nabídneme jim možnost informování o&nbsp;změně hmotnosti.</span></div>
+<div style="display:grid;grid-template-columns:56px 1fr;gap:16px;border-top:1px solid var(--rule);padding:16px 0"><span style="font-family:var(--font-mono);color:var(--accent);font-variant-numeric:tabular-nums">08</span><span>Informujeme pečující tým, že EOL lze očekávat v&nbsp;blízké budoucnosti.</span></div>
+</div></div></section>
+
+<section data-label="35 Úroveň zařízení" data-screen-label="35" data-speaker-notes="Sedm doporučení na úrovni organizace. Actionable část pro rezidenční péči." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">V</span><span>Rozhodování</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>35 / 42</div>
+</div>
+
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box;display:flex;flex-direction:row-reverse;justify-content:space-between;align-items:flex-start;gap:56px">
+<span style="display:flex;flex:none;width:64px;height:64px;color:var(--muted)"><i data-lucide="hospital" aria-hidden="true" style="width:64px;height:64px"></i></span>
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.11;letter-spacing:-.024em;max-width:1560px;text-wrap:pretty">Sedm ze čtyřiceti doporučení nemíří na jednotlivce, ale na zařízení.</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-content:center;font-size:25px;line-height:1.5">
+<div style="display:flex;flex-direction:column">
+<div style="border-top:1px solid var(--rule);padding:15px 0">Písemně zpracovaná koncepce nutriční péče, v&nbsp;souladu s&nbsp;filozofií organizace</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Standardní operační postupy, které přidělují odpovědnost za nutriční péči konkrétním rolím</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Dostatek kvalifikovaného personálu, včetně času na asistenci u&nbsp;jídla a&nbsp;na doprovod na toaletu</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Funkční jídelna s&nbsp;atmosférou, která k&nbsp;jídlu a&nbsp;pití vybízí</div>
+</div>
+<div style="display:flex;flex-direction:column">
+<div style="border-top:1px solid var(--rule);padding:15px 0">Přitažlivé jídlo a&nbsp;tekutiny s&nbsp;možností volby, včetně svačin a&nbsp;nápojů</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Vzdělávání zdravotnických pracovníků v&nbsp;nutriční péči</div>
+<div style="border-top:1px solid var(--rule);padding:15px 0">Nabídka vzdělávání i&nbsp;neformálním pečujícím, tedy rodině</div>
+<div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:32px"><span style="display:inline-flex;align-items:center;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);border:1px solid var(--rule);border-radius:999px;padding:9px 20px;font-variant-numeric:tabular-nums">GPP · 100&nbsp;%</span><span style="display:inline-flex;align-items:center;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);border:1px solid var(--rule);border-radius:999px;padding:9px 20px;font-variant-numeric:tabular-nums">Vzdělávání · stupeň B</span></div>
+</div></div></section>
+
+<section data-label="36 Doporučení k nahlédnutí" data-screen-label="36" data-speaker-notes="Původní snímek 30 byl plakát seriálu A Man on the Inside. Plakát nereprodukujeme, doporučení zůstává." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">V</span><span>Rozhodování</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>36 / 42</div>
+</div>
+<div style="flex:none;height:48px"></div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:44px">
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-variant-numeric:tabular-nums">Na konec něco k&nbsp;nahlédnutí</div>
+<div style="font-family:var(--font-display);font-weight:300;font-size:72px;line-height:1.1;letter-spacing:-.024em;max-width:1400px">A&nbsp;Man on the Inside</div>
+<div style="font-size:30px;line-height:1.5;max-width:1200px;color:var(--muted)">Komediální série o&nbsp;životě v&nbsp;rezidenčním zařízení. Užitečná jako obraz toho, jak prostředí, vztahy a&nbsp;všední den vypadají očima klienta, ne systému.</div>
+</div></section>
+
+<section data-label="37 Závěr" data-screen-label="37" data-speaker-notes="Závěr a poděkování." class="t-blue dark" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body)">
+<div style="position:absolute;left:120px;top:64px;width:1680px;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">V</span><span>Rozhodování</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--rule)"></span></span></div>
+<div>37 / 42</div>
+</div>
+<img src="assets/sig-blue-light.png" style="position:absolute;left:120px;top:96px;width:196px">
+<div style="position:absolute;left:120px;top:352px;width:1300px;height:576px;display:flex;flex-direction:column;justify-content:center">
+<div style="font-family:var(--font-display);font-weight:300;font-size:72px;line-height:1.12;letter-spacing:-.024em">Rozhodování o&nbsp;výživě vyžaduje transdisciplinární přístup.</div>
+<div style="font-size:34px;line-height:1.5;margin-top:40px;color:var(--muted)">Základní principy musí vždy zůstat zachovány.</div>
+<div style="font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;margin-top:44px;color:var(--accent);font-variant-numeric:tabular-nums">Autonomie &nbsp;·&nbsp; Činit dobro &nbsp;·&nbsp; Neškodit &nbsp;·&nbsp; Rozhodovat spravedlivě</div>
+<div style="font-size:28px;line-height:1.5;margin-top:48px;color:var(--muted)">Děkuji za pozornost.<br>Mgr. Ing. Tereza Vágnerová, Ph.D. &nbsp;·&nbsp; tereza.vagnerova@lf1.cuni.cz</div>
+</div></section>
+
+<section data-label="38 Příloha ESPEN" data-screen-label="38" data-speaker-notes="Příloha: doporučení ESPEN, na kterých přednáška stojí. Úplný katalog je na espen.org." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">VI</span><span>Příloha</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span></span></div>
+<div>38 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.12;letter-spacing:-.022em;max-width:1560px;text-wrap:pretty">Přednáška stojí na osmi doporučených postupech ESPEN.</div>
+</div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:36px">
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:34px 96px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:24px;line-height:1.35;text-wrap:pretty">Výživa a&nbsp;hydratace u&nbsp;demence, aktualizace 2024</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.45;color:var(--muted);font-variant-numeric:tabular-nums">Volkert D, et al. Clin Nutr 2024;43(6):1599–1626</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:24px;line-height:1.35;text-wrap:pretty">Klinická výživa a&nbsp;hydratace v&nbsp;geriatrii</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.45;color:var(--muted);font-variant-numeric:tabular-nums">Volkert D, et al. Clin Nutr 2019;38:10–47</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:24px;line-height:1.35;text-wrap:pretty">Praktické doporučení: klinická výživa a&nbsp;hydratace v&nbsp;geriatrii</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.45;color:var(--muted);font-variant-numeric:tabular-nums">Volkert D, et al. Clin Nutr 2022;41:958–989</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:24px;line-height:1.35;text-wrap:pretty">Klinická výživa v&nbsp;neurologii, včetně dysfagie</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.45;color:var(--muted);font-variant-numeric:tabular-nums">Burgos R, et al. Clin Nutr 2018;37:354–396</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:24px;line-height:1.35;text-wrap:pretty">Etické aspekty nutriční terapie</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.45;color:var(--muted);font-variant-numeric:tabular-nums">Cardenas D, et al. Clin Nutr 2026;60:106622</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:24px;line-height:1.35;text-wrap:pretty">Nutriční péče v&nbsp;nemocnici</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.45;color:var(--muted);font-variant-numeric:tabular-nums">Thibault R, et al. Clin Nutr 2021;40:5684–5709</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:24px;line-height:1.35;text-wrap:pretty">Mikronutrienty</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.45;color:var(--muted);font-variant-numeric:tabular-nums">Berger MM, et al. Clin Nutr 2022;41:1357–1424</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:24px;line-height:1.35;text-wrap:pretty">Definice a&nbsp;terminologie klinické výživy</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.45;color:var(--muted);font-variant-numeric:tabular-nums">Cederholm T, et al. Clin Nutr 2017;36:149–164</div>
+</div>
+</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.5;color:var(--muted);font-variant-numeric:tabular-nums">Kritéria GLIM: Cederholm T, et al. Clin Nutr 2019;38:1–9 &nbsp;·&nbsp; úplný katalog ESPEN na následujících třech stranách</div>
+</div></section>
+
+<section data-label="39 Katalog ESPEN, napříč péčí" data-screen-label="39" data-speaker-notes="Příloha: úplný katalog ESPEN, první část. Sedm doporučených postupů platných napříč péčí." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">VI</span><span>Příloha</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span></span></div>
+<div>39 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:60px;line-height:1.12;letter-spacing:-.022em;max-width:1560px;text-wrap:pretty">Katalog ESPEN má dvacet jedna doporučených postupů. Sedm platí napříč péčí.</div>
+</div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:32px">
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 96px">
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Etické aspekty nutriční terapie</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Cardenas D, et al. Clin Nutr 2026;60:106622</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Definice a&nbsp;terminologie klinické výživy</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Cederholm T, et al. Clin Nutr 2017;36:149–164</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Mikronutrienty</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Berger MM, et al. Clin Nutr 2022;41:1357–1424</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Nutriční péče v&nbsp;nemocnici</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Thibault R, et al. Clin Nutr 2021;40:5684–5709</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Domácí enterální výživa</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Bischoff SC, et al. Clin Nutr 2020;39:5–22</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Domácí parenterální výživa</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Pironi L, et al. Clin Nutr 2020;39:1645–1666</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Nutriční podpora u&nbsp;polymorbidních hospitalizovaných, aktualizace 2023</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Wunderle C, et al. Clin Nutr 2023;42:1545–1568</div>
+</div>
+</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.5;color:var(--muted);font-variant-numeric:tabular-nums">Stav k&nbsp;30.&nbsp;8.&nbsp;2026 &nbsp;·&nbsp; espen.org/guidelines &nbsp;·&nbsp; praktické verze a&nbsp;position papers vycházejí zvlášť</div>
+</div></section>
+
+<section data-label="40 Katalog ESPEN, věk a intenzivní péče" data-screen-label="40" data-speaker-notes="Příloha: druhá část katalogu. Věk, neurologie, intenzivní a chirurgická péče." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">VI</span><span>Příloha</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span></span></div>
+<div>40 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:60px;line-height:1.12;letter-spacing:-.022em;max-width:1560px;text-wrap:pretty">Sedm postupů míří na věk, neurologii, intenzivní a&nbsp;chirurgickou péči.</div>
+</div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:32px">
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 96px">
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Výživa a&nbsp;hydratace u&nbsp;demence, aktualizace 2024</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Volkert D, et al. Clin Nutr 2024;43:1599–1626</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Klinická výživa a&nbsp;hydratace v&nbsp;geriatrii</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Volkert D, et al. Clin Nutr 2019;38:10–47</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Klinická výživa v&nbsp;neurologii</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Burgos R, et al. Clin Nutr 2018;37:354–396</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Klinická výživa na jednotce intenzivní péče</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Singer P, et al. Clin Nutr 2019;38:48–79</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Klinická výživa v&nbsp;chirurgii, aktualizace 2025</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Weimann A, et al. Clin Nutr 2025;53:222–261</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Parenterální výživa u&nbsp;dětí, společně s&nbsp;ESPGHAN, ESPR a&nbsp;CSPEN</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Clin Nutr 2018;37:2306–2459</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Nutriční péče u&nbsp;cystické fibrózy, aktualizace 2024, s&nbsp;ESPGHAN a&nbsp;ECFS</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Wilschanski M, et al. Clin Nutr 2024;43:413–445</div>
+</div>
+</div>
+</div></section>
+
+<section data-label="41 Katalog ESPEN, onemocnění" data-screen-label="41" data-speaker-notes="Příloha: třetí část katalogu. Jednotlivá onemocnění." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">VI</span><span>Příloha</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span></span></div>
+<div>41 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:74px;line-height:1.12;letter-spacing:-.022em;max-width:1560px;text-wrap:pretty">Sedm postupů míří na jednotlivá onemocnění.</div>
+</div>
+<div style="flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:32px">
+<div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 96px">
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Výživa u&nbsp;onkologických pacientů</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Arends J, et al. Clin Nutr 2017;36:11–48</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Nespecifické střevní zánětlivé onemocnění, aktualizace 2023</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Bischoff SC, et al. Clin Nutr 2023;42:352–379</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Chronické intestinální selhání u&nbsp;dospělých, aktualizace 2023</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Pironi L, et al. Clin Nutr 2023;42:1940–2021</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Onemocnění jater</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Plauth M, et al. Clin Nutr 2019;38:485–521</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Akutní a&nbsp;chronická pankreatitida</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Arvanitakis M, et al. Clin Nutr 2020;39:612–631</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Akutní a&nbsp;chronické onemocnění ledvin u&nbsp;hospitalizovaných</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Fiaccadori E, et al. Clin Nutr 2021;40:1644–1668</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="font-size:24px;line-height:1.3;text-wrap:pretty">Obezita u&nbsp;gastrointestinálních a&nbsp;jaterních onemocnění, s&nbsp;UEG</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.4;color:var(--muted);font-variant-numeric:tabular-nums">Bischoff SC, et al. Clin Nutr 2022;41:2364–2405</div>
+</div>
+</div>
+</div></section>
+
+<section data-label="42 Příloha EFAD" data-screen-label="42" data-speaker-notes="Příloha: EFAD nevydává klinická doporučení pro paliativní péči. Vydává stanoviska k roli nutričního terapeuta." class="t-blue" style="position:relative;width:1920px;height:1080px;overflow:hidden;background:var(--surface);color:var(--ink);font-family:var(--font-body);display:flex;flex-direction:column;padding:64px 120px 152px;box-sizing:border-box">
+<div style="flex:none;height:28px;display:flex;align-items:center;justify-content:space-between;font-family:var(--font-mono);font-weight:500;font-size:19px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-variant-numeric:tabular-nums">
+<div style="display:flex;align-items:center;gap:22px"><span style="color:var(--accent)">VI</span><span>Příloha</span><span style="display:flex;align-items:center;gap:5px"><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span><span style="width:22px;height:3px;border-radius:2px;background:var(--accent)"></span></span></div>
+<div>42 / 42</div>
+</div>
+<div style="flex:none;height:260px;padding-top:48px;box-sizing:border-box">
+<div style="font-family:var(--font-display);font-weight:400;font-size:60px;line-height:1.12;letter-spacing:-.022em;max-width:1560px;text-wrap:pretty">EFAD nevydává klinická doporučení pro paliativní péči. Vydává stanoviska k&nbsp;roli nutričního terapeuta.</div>
+</div>
+<div style="flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-content:center">
+<div style="display:flex;flex-direction:column;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:24px;line-height:1.35;text-wrap:pretty">ESDN Older Adults: Role of the Dietitian in the Prevention and Management of Nutrition-related Disorders in Older Adults</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.45;color:var(--muted);font-variant-numeric:tabular-nums">Stanovisko, 2017</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:24px;line-height:1.35;text-wrap:pretty">Briefing paper k&nbsp;roli nutričního terapeuta u&nbsp;starších dospělých</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.45;color:var(--muted);font-variant-numeric:tabular-nums">EFAD briefing papers</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:24px;line-height:1.35;text-wrap:pretty">EASO a&nbsp;EFAD: dietetická léčba nadváhy a&nbsp;obezity u&nbsp;dospělých</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.45;color:var(--muted);font-variant-numeric:tabular-nums">2025 &nbsp;·&nbsp; podrobnou citaci doplnit</div>
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:28px">
+<div style="font-size:26px;line-height:1.5;color:var(--muted)">Stanovisko ESDN Older Adults výslovně uvádí, že nutriční terapeut <strong style="color:var(--ink);font-weight:600">si má být vědom etických aspektů</strong> nutriční péče o&nbsp;starší dospělé.</div>
+<div style="font-size:26px;line-height:1.5;color:var(--muted)">Zdroje sítě ESDN Older Adults odkazují v&nbsp;otázce demence na doporučení ESPEN. Klinickou oporu tedy hledáme tam.</div>
+<div style="font-family:var(--font-mono);font-size:19px;line-height:1.5;color:var(--muted);font-variant-numeric:tabular-nums">efad.org &nbsp;·&nbsp; EFAD spolupracuje s&nbsp;iniciativou ONCA, Optimal Nutritional Care for All</div>
+</div></div></section>
+</x-import>
+</x-dc>
+</body>
+</html>
