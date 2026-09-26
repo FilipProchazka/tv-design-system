@@ -1,0 +1,619 @@
+{
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "rules": {
+    "react/forbid-elements": [
+      "warn",
+      {
+        "forbid": []
+      }
+    ],
+    "no-restricted-imports": [
+      "warn",
+      {
+        "patterns": [
+          {
+            "group": [
+              "components/cards/**",
+              "components/core/**",
+              "components/icons/**",
+              "components/navigation/**",
+              "components/sections/**",
+              "slides/**",
+              "ui_kits/web/**"
+            ],
+            "message": "Import design-system components from 'index.js', not component internals."
+          }
+        ]
+      }
+    ],
+    "no-restricted-syntax": [
+      "warn",
+      {
+        "selector": "Literal[value=/#[0-9a-fA-F]{3,8}\\b/]",
+        "message": "Raw hex color — use a design-system color token via var()."
+      },
+      {
+        "selector": "Literal[value=/\\b\\d+px\\b/]",
+        "message": "Raw px value — use a design-system spacing token via var()."
+      },
+      {
+        "selector": "Literal[value=/font-family\\s*:\\s*(?!['\\\"]?(?:Geist|Geist Mono|Inter))/i]",
+        "message": "Font not provided by the design system. Available: Geist, Geist Mono, Inter."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='ClaimBand'] > JSXAttribute > JSXIdentifier[name!=/^(?:claim|image|alt|key|ref|className|style|children)$/]",
+        "message": "<ClaimBand> doesn't accept that prop. Declared props: claim, image, alt."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='ClinicalIcon'] > JSXAttribute > JSXIdentifier[name!=/^(?:name|size|strokeWidth|className|title|style|key|ref|className|style|children)$/]",
+        "message": "<ClinicalIcon> doesn't accept that prop. Declared props: name, size, strokeWidth, className, title, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='ContactRoute'] > JSXAttribute > JSXIdentifier[name!=/^(?:subject|hint|href|key|ref|className|style|children)$/]",
+        "message": "<ContactRoute> doesn't accept that prop. Declared props: subject, hint, href."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='CtaClose'] > JSXAttribute > JSXIdentifier[name!=/^(?:theme|heading|ctaLabel|ctaHref|phone|phoneHref|sig|key|ref|className|style|children)$/]",
+        "message": "<CtaClose> doesn't accept that prop. Declared props: theme, heading, ctaLabel, ctaHref, phone, phoneHref, sig."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='EntryCard'] > JSXAttribute > JSXIdentifier[name!=/^(?:title|meta|href|external|cta|key|ref|className|style|children)$/]",
+        "message": "<EntryCard> doesn't accept that prop. Declared props: title, meta, href, external, cta."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='FactRow'] > JSXAttribute > JSXIdentifier[name!=/^(?:label|value|big|key|ref|className|style|children)$/]",
+        "message": "<FactRow> doesn't accept that prop. Declared props: label, value, big."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='FaqItem'] > JSXAttribute > JSXIdentifier[name!=/^(?:q|a|key|ref|className|style|children)$/]",
+        "message": "<FaqItem> doesn't accept that prop. Declared props: q, a."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='FootLink'] > JSXAttribute > JSXIdentifier[name!=/^(?:href|label|key|ref|className|style|children)$/]",
+        "message": "<FootLink> doesn't accept that prop. Declared props: href, label."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Grade'] > JSXAttribute > JSXIdentifier[name!=/^(?:level|className|key|ref|className|style|children)$/]",
+        "message": "<Grade> doesn't accept that prop. Declared props: level, className."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Icon'] > JSXAttribute > JSXIdentifier[name!=/^(?:name|size|className|title|style|key|ref|className|style|children)$/]",
+        "message": "<Icon> doesn't accept that prop. Declared props: name, size, className, title, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='InstitutionCard'] > JSXAttribute > JSXIdentifier[name!=/^(?:name|role|url|cta|key|ref|className|style|children)$/]",
+        "message": "<InstitutionCard> doesn't accept that prop. Declared props: name, role, url, cta."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='NavLink'] > JSXAttribute > JSXIdentifier[name!=/^(?:href|label|key|ref|className|style|children)$/]",
+        "message": "<NavLink> doesn't accept that prop. Declared props: href, label."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='PageHero'] > JSXAttribute > JSXIdentifier[name!=/^(?:eyebrow|heading|lead|icon|align|key|ref|className|style|children)$/]",
+        "message": "<PageHero> doesn't accept that prop. Declared props: eyebrow, heading, lead, icon, align."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='PageHero'] > JSXAttribute[name.name='align'] > Literal[value!=/^(?:center|start)$/]",
+        "message": "<PageHero> align must be one of 'center' | 'start'."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='Pill'] > JSXAttribute > JSXIdentifier[name!=/^(?:href|label|ghost|small|external|block|className|onClick|children|key|ref|className|style|children)$/]",
+        "message": "<Pill> doesn't accept that prop. Declared props: href, label, ghost, small, external, block, className, onClick, children."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='PublicationRow'] > JSXAttribute > JSXIdentifier[name!=/^(?:year|title|authors|journal|href|grade|key|ref|className|style|children)$/]",
+        "message": "<PublicationRow> doesn't accept that prop. Declared props: year, title, authors, journal, href, grade."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='ScaleStrip'] > JSXAttribute > JSXIdentifier[name!=/^(?:unit|right|majors|on|total|key|ref|className|style|children)$/]",
+        "message": "<ScaleStrip> doesn't accept that prop. Declared props: unit, right, majors, on, total."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='SplitHero'] > JSXAttribute > JSXIdentifier[name!=/^(?:eyebrow|heading|lead|image|alt|sig|actions|key|ref|className|style|children)$/]",
+        "message": "<SplitHero> doesn't accept that prop. Declared props: eyebrow, heading, lead, image, alt, sig, actions."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='TalkCard'] > JSXAttribute > JSXIdentifier[name!=/^(?:title|abstract|meta|topicName|image|alt|href|cta|key|ref|className|style|children)$/]",
+        "message": "<TalkCard> doesn't accept that prop. Declared props: title, abstract, meta, topicName, image, alt, href, cta."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='TopicCard'] > JSXAttribute > JSXIdentifier[name!=/^(?:slug|name|summary|theme|href|more|key|ref|className|style|children)$/]",
+        "message": "<TopicCard> doesn't accept that prop. Declared props: slug, name, summary, theme, href, more."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='WebinarCard'] > JSXAttribute > JSXIdentifier[name!=/^(?:title|when|duration|price|href|cta|key|ref|className|style|children)$/]",
+        "message": "<WebinarCard> doesn't accept that prop. Declared props: title, when, duration, price, href, cta."
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/index.js"
+      ],
+      "rules": {
+        "no-restricted-imports": "off"
+      }
+    }
+  ],
+  "x-omelette": {
+    "components": {
+      "ClaimBand": {
+        "replaces": []
+      },
+      "ClinicalIcon": {
+        "replaces": []
+      },
+      "ContactRoute": {
+        "replaces": []
+      },
+      "CtaClose": {
+        "replaces": []
+      },
+      "EntryCard": {
+        "replaces": []
+      },
+      "FactRow": {
+        "replaces": []
+      },
+      "FaqItem": {
+        "replaces": []
+      },
+      "FootLink": {
+        "replaces": []
+      },
+      "Grade": {
+        "replaces": []
+      },
+      "Icon": {
+        "replaces": []
+      },
+      "InstitutionCard": {
+        "replaces": []
+      },
+      "NavLink": {
+        "replaces": []
+      },
+      "PageHero": {
+        "replaces": []
+      },
+      "Pill": {
+        "replaces": []
+      },
+      "PublicationRow": {
+        "replaces": []
+      },
+      "ScaleStrip": {
+        "replaces": []
+      },
+      "SplitHero": {
+        "replaces": []
+      },
+      "TalkCard": {
+        "replaces": []
+      },
+      "TopicCard": {
+        "replaces": []
+      },
+      "WebinarCard": {
+        "replaces": []
+      }
+    },
+    "tokens": [
+      "--accent",
+      "--action-ghost-border",
+      "--action-ghost-text",
+      "--action-primary",
+      "--action-primary-text",
+      "--band",
+      "--blue-accent",
+      "--blue-dark",
+      "--blue-dark-accent",
+      "--blue-dark-muted",
+      "--blue-dark-rule",
+      "--blue-dark-soft",
+      "--blue-ink",
+      "--blue-muted",
+      "--blue-rule",
+      "--blue-soft",
+      "--blue-tint",
+      "--border-active",
+      "--border-default",
+      "--border-focus",
+      "--card-pad",
+      "--chart-axis",
+      "--chart-emphasis",
+      "--chart-grid",
+      "--chart-label",
+      "--chart-marker",
+      "--chart-series-1",
+      "--chart-series-1-a25",
+      "--chart-series-1-a50",
+      "--chart-series-1-a75",
+      "--chart-series-2",
+      "--chart-stroke",
+      "--chart-stroke-thin",
+      "--chart-tick",
+      "--chart-tick-off",
+      "--d-body",
+      "--d-claim",
+      "--d-lead",
+      "--d-mono",
+      "--d-statement",
+      "--d-sub",
+      "--data-sand",
+      "--deck-base-y",
+      "--deck-claim-y",
+      "--deck-col-r",
+      "--deck-h",
+      "--deck-live",
+      "--deck-margin",
+      "--deck-photo-l",
+      "--deck-w",
+      "--deck-zone-h",
+      "--deck-zone-top",
+      "--duo-deck-highlight",
+      "--duo-deck-shadow",
+      "--duo-highlight",
+      "--duo-shadow",
+      "--dur",
+      "--dur-card",
+      "--dur-fast",
+      "--dur-photo",
+      "--dur-reveal",
+      "--ease",
+      "--f-body",
+      "--f-display",
+      "--f-figure",
+      "--f-h1",
+      "--f-h2",
+      "--f-kicker",
+      "--f-lead",
+      "--f-small",
+      "--font-body",
+      "--font-display",
+      "--font-mono",
+      "--gap",
+      "--grade-1",
+      "--grade-2",
+      "--grade-3",
+      "--grade-4",
+      "--grade-5",
+      "--gut",
+      "--icon-default",
+      "--icon-muted",
+      "--ink",
+      "--lh-body",
+      "--lh-display",
+      "--lh-h1",
+      "--lh-h2",
+      "--lh-lead",
+      "--lift",
+      "--lift-strong",
+      "--lift-y",
+      "--lift-y-pill",
+      "--ls-display",
+      "--ls-h1",
+      "--ls-h2",
+      "--ls-kicker",
+      "--measure",
+      "--measure-tight",
+      "--muted",
+      "--nudge",
+      "--onacc",
+      "--paper",
+      "--petrol-accent",
+      "--petrol-dark",
+      "--petrol-dark-accent",
+      "--petrol-dark-muted",
+      "--petrol-dark-rule",
+      "--petrol-dark-soft",
+      "--petrol-ink",
+      "--petrol-muted",
+      "--petrol-rule",
+      "--petrol-soft",
+      "--petrol-tint",
+      "--r-body",
+      "--r-fig",
+      "--r-hook",
+      "--r-mid",
+      "--r-quote",
+      "--radius",
+      "--radius-lg",
+      "--radius-mark",
+      "--radius-mark-lg",
+      "--radius-pill",
+      "--rule",
+      "--s-12",
+      "--s-14",
+      "--s-18",
+      "--s-2",
+      "--s-20",
+      "--s-24",
+      "--s-26",
+      "--s-32",
+      "--s-36",
+      "--s-44",
+      "--s-6",
+      "--s-64",
+      "--s-8",
+      "--scrim-photo",
+      "--sec",
+      "--sec-tight",
+      "--shadow-float",
+      "--shadow-lift",
+      "--shell",
+      "--signal-caution-edge",
+      "--signal-caution-ink",
+      "--signal-caution-on-dark",
+      "--signal-caution-soft",
+      "--signal-negative-edge",
+      "--signal-negative-ink",
+      "--signal-negative-on-dark",
+      "--signal-negative-soft",
+      "--signal-neutral-edge",
+      "--signal-neutral-ink",
+      "--signal-neutral-on-dark",
+      "--signal-neutral-soft",
+      "--signal-positive-edge",
+      "--signal-positive-ink",
+      "--signal-positive-on-dark",
+      "--signal-positive-soft",
+      "--soft",
+      "--surface",
+      "--surface-0",
+      "--surface-1",
+      "--surface-2",
+      "--surface-3",
+      "--surface-band",
+      "--surface-card",
+      "--surface-dark",
+      "--surface-page",
+      "--surface-tint",
+      "--text-body",
+      "--text-inverse",
+      "--text-link",
+      "--text-muted",
+      "--text-on-action",
+      "--text-subtle",
+      "--tint",
+      "--violet-accent",
+      "--violet-dark",
+      "--violet-dark-accent",
+      "--violet-dark-muted",
+      "--violet-dark-rule",
+      "--violet-dark-soft",
+      "--violet-ink",
+      "--violet-muted",
+      "--violet-rule",
+      "--violet-soft",
+      "--violet-tint",
+      "--w-block",
+      "--w-body",
+      "--w-claim",
+      "--w-claim-n",
+      "--w-figure",
+      "--w-kicker",
+      "--w-lead",
+      "--w-measure",
+      "--w-measure-tight",
+      "--w-meta",
+      "--w-sec",
+      "--w-sec-tight",
+      "--w-statement",
+      "--w-sub"
+    ],
+    "tokenKinds": {
+      "--blue-accent": "color",
+      "--blue-ink": "color",
+      "--blue-dark": "color",
+      "--blue-tint": "color",
+      "--blue-rule": "color",
+      "--blue-muted": "color",
+      "--blue-soft": "color",
+      "--blue-dark-muted": "color",
+      "--blue-dark-soft": "color",
+      "--blue-dark-rule": "color",
+      "--blue-dark-accent": "color",
+      "--petrol-accent": "color",
+      "--petrol-ink": "color",
+      "--petrol-dark": "color",
+      "--petrol-tint": "color",
+      "--petrol-rule": "color",
+      "--petrol-muted": "color",
+      "--petrol-soft": "color",
+      "--petrol-dark-muted": "color",
+      "--petrol-dark-soft": "color",
+      "--petrol-dark-rule": "color",
+      "--petrol-dark-accent": "color",
+      "--violet-accent": "color",
+      "--violet-ink": "color",
+      "--violet-dark": "color",
+      "--violet-tint": "color",
+      "--violet-rule": "color",
+      "--violet-muted": "color",
+      "--violet-soft": "color",
+      "--violet-dark-muted": "color",
+      "--violet-dark-soft": "color",
+      "--violet-dark-rule": "color",
+      "--violet-dark-accent": "color",
+      "--paper": "color",
+      "--data-sand": "color",
+      "--duo-shadow": "shadow",
+      "--duo-highlight": "color",
+      "--duo-deck-shadow": "shadow",
+      "--duo-deck-highlight": "color",
+      "--surface": "color",
+      "--ink": "color",
+      "--muted": "color",
+      "--soft": "color",
+      "--rule": "color",
+      "--accent": "color",
+      "--onacc": "color",
+      "--tint": "color",
+      "--band": "color",
+      "--chart-axis": "color",
+      "--chart-grid": "color",
+      "--chart-label": "color",
+      "--chart-series-1": "color",
+      "--chart-series-2": "color",
+      "--chart-series-1-a75": "color",
+      "--chart-series-1-a50": "color",
+      "--chart-series-1-a25": "color",
+      "--chart-emphasis": "color",
+      "--text-body": "font",
+      "--text-muted": "font",
+      "--text-subtle": "font",
+      "--text-link": "font",
+      "--text-on-action": "font",
+      "--text-inverse": "font",
+      "--surface-page": "color",
+      "--surface-band": "color",
+      "--surface-card": "color",
+      "--surface-tint": "color",
+      "--surface-dark": "color",
+      "--border-default": "color",
+      "--border-active": "color",
+      "--border-focus": "color",
+      "--action-primary": "color",
+      "--action-primary-text": "font",
+      "--action-ghost-border": "color",
+      "--action-ghost-text": "font",
+      "--icon-default": "color",
+      "--icon-muted": "color",
+      "--scrim-photo": "color",
+      "--shadow-lift": "shadow",
+      "--shadow-float": "shadow",
+      "--font-display": "font",
+      "--font-body": "font",
+      "--font-mono": "font",
+      "--f-display": "font",
+      "--f-h1": "font",
+      "--f-h2": "font",
+      "--f-lead": "font",
+      "--f-body": "font",
+      "--f-small": "font",
+      "--f-kicker": "font",
+      "--f-figure": "font",
+      "--d-statement": "spacing",
+      "--d-claim": "spacing",
+      "--d-sub": "spacing",
+      "--d-lead": "spacing",
+      "--d-body": "spacing",
+      "--d-mono": "spacing",
+      "--r-hook": "spacing",
+      "--r-quote": "spacing",
+      "--r-mid": "spacing",
+      "--r-body": "spacing",
+      "--r-fig": "spacing",
+      "--lh-display": "other",
+      "--lh-h1": "other",
+      "--lh-h2": "other",
+      "--lh-lead": "other",
+      "--lh-body": "other",
+      "--ls-display": "other",
+      "--ls-h1": "other",
+      "--ls-h2": "other",
+      "--ls-kicker": "other",
+      "--s-2": "spacing",
+      "--s-6": "spacing",
+      "--s-8": "spacing",
+      "--s-12": "spacing",
+      "--s-14": "spacing",
+      "--s-18": "spacing",
+      "--s-20": "spacing",
+      "--s-24": "spacing",
+      "--s-26": "spacing",
+      "--s-32": "spacing",
+      "--s-36": "spacing",
+      "--s-44": "spacing",
+      "--s-64": "spacing",
+      "--shell": "spacing",
+      "--gut": "spacing",
+      "--gap": "spacing",
+      "--sec": "spacing",
+      "--sec-tight": "spacing",
+      "--card-pad": "spacing",
+      "--radius": "radius",
+      "--radius-lg": "radius",
+      "--radius-mark": "radius",
+      "--radius-mark-lg": "radius",
+      "--radius-pill": "radius",
+      "--lift": "shadow",
+      "--lift-strong": "shadow",
+      "--surface-0": "color",
+      "--surface-1": "color",
+      "--surface-2": "color",
+      "--surface-3": "color",
+      "--measure": "spacing",
+      "--measure-tight": "spacing",
+      "--deck-w": "spacing",
+      "--deck-h": "spacing",
+      "--deck-margin": "spacing",
+      "--deck-live": "spacing",
+      "--deck-claim-y": "spacing",
+      "--deck-col-r": "spacing",
+      "--deck-photo-l": "spacing",
+      "--deck-zone-top": "spacing",
+      "--deck-zone-h": "spacing",
+      "--deck-base-y": "spacing",
+      "--ease": "other",
+      "--dur-fast": "other",
+      "--dur": "other",
+      "--dur-card": "other",
+      "--dur-photo": "other",
+      "--dur-reveal": "other",
+      "--nudge": "spacing",
+      "--lift-y": "spacing",
+      "--lift-y-pill": "spacing",
+      "--chart-stroke": "spacing",
+      "--chart-stroke-thin": "spacing",
+      "--chart-marker": "spacing",
+      "--chart-tick": "spacing",
+      "--chart-tick-off": "spacing",
+      "--signal-positive-ink": "color",
+      "--signal-positive-soft": "color",
+      "--signal-positive-edge": "color",
+      "--signal-positive-on-dark": "color",
+      "--signal-negative-ink": "color",
+      "--signal-negative-soft": "color",
+      "--signal-negative-edge": "color",
+      "--signal-negative-on-dark": "color",
+      "--signal-caution-ink": "color",
+      "--signal-caution-soft": "color",
+      "--signal-caution-edge": "color",
+      "--signal-caution-on-dark": "color",
+      "--signal-neutral-ink": "color",
+      "--signal-neutral-soft": "color",
+      "--signal-neutral-edge": "color",
+      "--signal-neutral-on-dark": "color",
+      "--grade-5": "color",
+      "--grade-4": "color",
+      "--grade-3": "color",
+      "--grade-2": "color",
+      "--grade-1": "color",
+      "--w-statement": "font",
+      "--w-claim": "font",
+      "--w-claim-n": "font",
+      "--w-sub": "font",
+      "--w-lead": "font",
+      "--w-body": "font",
+      "--w-kicker": "font",
+      "--w-meta": "font",
+      "--w-figure": "font",
+      "--w-sec": "spacing",
+      "--w-sec-tight": "spacing",
+      "--w-block": "spacing",
+      "--w-measure": "spacing",
+      "--w-measure-tight": "spacing"
+    },
+    "fontFamilies": [
+      "Geist",
+      "Geist Mono",
+      "Inter"
+    ]
+  }
+}

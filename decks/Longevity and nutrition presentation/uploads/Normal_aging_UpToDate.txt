@@ -1,0 +1,2471 @@
+Official reprint from UpToDate
+www.uptodate.com © 2026 UpToDate, Inc. and/or its affiliates. All Rights Reserved.
+Normal aging
+INTRODUCTION
+Aging is characterized by progressive and broadly predictable changes associated with
+increased susceptibility to many diseases. Aging is not a homogenous process. Rather, organs
+in the same person age at different rates influenced by multiple factors, including genetic
+makeup, lifestyle choices, and environmental exposures. As an example, mutations
+accumulate in stem cells with aging but are different depending on the organ [1]. Epigenetic
+deoxyribonucleic acid (DNA) modifications with age are also highly tissue specific [2]. A Danish
+twin study found that genetics accounted for approximately 25 percent of the variation in
+longevity among twins and environmental factors accounted for approximately 50 percent [3].
+However, with greater longevity (to age 90 or 100), genetic influences became more
+important.
+This topic will present an overview of normal aging. Effects of aging on the immune systems
+and abnormal aging are discussed in more detail separately. (See "Immune function in older
+adults".)
+AGE-ASSOCIATED PHYSIOLOGIC CHANGES
+Physiologic rhythms — The organization of rhythmic physiologic processes is altered by
+aging. Age impacts the circadian pattern of body temperature, plasma cortisol, and sleep and
+can cause desynchronization or "internal phase drift." Phase advances can lead to the
+occurrence of some rhythmic functions (eg, the 24-hour body temperature trough and sleep
+onset) one to two hours earlier in older adults as well as decreases in the magnitude of the
+®
+AUTHOR: George E Taffet, MD
+SECTION EDITOR: Kenneth E Schmader, MD
+DEPUTY EDITOR: Jane Givens, MD, MSCE
+All topics are updated as new evidence becomes available and our peer review process is complete.
+Literature review current through: Aug 2026.
+This topic last updated: Sep 09, 2025.
+
+-- 1 of 66 --
+
+oscillations. In addition, age may delay the ability to reset physiologic rhythms to a new
+photoperiod.
+The pulsatile secretion of gonadotropins, growth hormone, thyrotropin, melatonin, and
+adrenocorticotropic hormone (ACTH) are attenuated with age [4]. The diurnal rhythmicity of
+cortisol is preserved in older age but with a decreased amplitude and delayed elevation [5].
+One source of this dysfunction appears to be neuronal loss in the suprachiasmatic nucleus in
+the hypothalamus [6].
+Loss of complexity — Loss of complexity, a concept derived from the field of nonlinear
+dynamics, may be a general principle of all aging systems [7]. This loss of complexity may
+result in decreased heart rate variability, blood pressure variability, electroencephalographic
+frequencies, response to auditory frequencies, and response to stress. Age-related loss of
+complexity may not be immutable, however; as an example, senior athletes show greater
+heart rate variability than sedentary age-matched controls [8].
+Homeostenosis — Homeostenosis refers to the concept that, from maturity to senescence,
+diminishing physiologic reserves are available to meet challenges to homeostasis. This
+concept was first recognized by Walter Cannon in the 1940s [9]. Homeostenosis leads to the
+increased vulnerability to disease that occurs with aging.
+A figure graphically displays the traditional thinking about homeostenosis ( figure 1). The
+endpoint of this process is frailty, where even the smallest challenge overwhelms the available
+reserves and results in disaster. The "precipice" may be variably defined: death, cardiac arrest,
+hospital admission, or onset of a symptom such as confusion or incontinence. Aging itself
+brings the individual closer to the precipice by the loss of physiologic reserves. With aging,
+the area in which the older person can bring themselves back to homeostasis by invoking
+their reserves narrows or becomes stenotic.
+Evidence for this model is plentiful. As an example, the Acute Physiologic and Chronic Health
+Evaluation (APACHE) severity of illness scales, used to predict prognosis for patients in
+intensive care, have a correction for age. The Acute Physiologic Assessment, a component of
+the APACHE score, indicates deviation from homeostatic values for 12 variables, including vital
+signs, oxygenation, pH, electrolytes, hematocrit, white blood count, and creatinine. A zero
+score indicates homeostasis, and a greater point total indicates a larger deviation from
+homeostasis [10,11]. In a comparison of young and old patients who had a cardiac arrest, the
+younger group (mean age 59) had significantly higher Acute Physiologic Assessment scores in
+the 24 hours pre-arrest than the older group (mean age 75) [12]. These data indicate that the
+deviation from homeostasis needed to cross a critical threshold (cardiac arrest) is less in the
+old. In practical terms, the creators of the APACHE scales recognize this by giving "age points"
+so that total scores are equalized between the groups. (See "Predictive scoring systems in the
+intensive care unit", section on 'Acute Physiologic and Chronic Health Evaluation (APACHE)'.)
+
+-- 2 of 66 --
+
+Maintaining homeostasis is a dynamic, active process. Frailty is the state when physiologic
+reserves are maximally invoked just to maintain homeostasis and the most modest challenge
+impels them across some threshold. Physiologic and functional measures are more likely to
+be out of "normal range" with normal aging, and the fraction of measures that are out of
+normal constitutes the Frailty Index [13]. The Frailty Index increases with age. Increased
+severity of illness and frailty have independent effects on patient outcomes [14]. Physical
+resilience is defined as the ability to withstand or recover from the functional impact caused
+by acute health stressors. It is not the opposite of frailty nor homeostenosis but, because late-
+life stressors are inevitable, may define successful aging [15]. (See "Frailty".)
+The "family of precipices" concept is useful in understanding altered presentations of disease
+in older adults ( figure 1). As an example, delirium is a common presentation of a wide
+variety of illness in the older individual, a marker of the uneasy truce that the old brain
+maintains with the environment. A given older person may have the same presentation
+(confusion) for a urinary tract infection, gastrointestinal bleeding, or a myocardial infarction.
+The systemic responses to these differing illnesses may be similar, involving catecholamines
+and mediators of inflammation. The "anti-confusion reserves" are exhausted, so the distance
+from homeostasis to this "precipice" is easily crossed.
+In summary, an apparent loss of physiologic reserves in older adults leads to intolerance to
+challenges to their homeostasis. This increased vulnerability is in part because the older
+person is continually expending reserves to compensate for primary age changes as well as
+other processes that are absent or trivial in the younger individual. Thus, older adults have
+increased frailty and vulnerability as well as decreased robustness and resilience.
+Nonlinearity of aging — Aging is not linear and occurs at a faster rate at different ages. An
+analysis of plasma markers reveals distinct patterns of dysregulated molecules, indicating two
+peak ages where major dysregulation in aging occurs: at 44 years old, and again at 60 years
+old [16].
+HEMATOPOIETIC SYSTEM
+In the absence of additional challenges, the hematopoietic system maintains adequate
+function throughout an individual's lifespan [17]. Red cell lifespan, iron turnover, and blood
+volume are unchanged with age. However, bone marrow mass decreases and fat in the bone
+marrow increases with age [18,19]. This increase in fat is not uniform; it is more extensive in
+the femoral head than the shaft [20]. Hematopoietic functional reserves are reduced with age.
+Thus, advanced age may be an important consideration for determining suitability as a donor
+for hematopoietic cell transplantation [21] or tolerance of chemotherapy.
+
+-- 3 of 66 --
+
+The compensatory hematopoietic response to phlebotomy, hypoxia, and other challenges is
+delayed and less vigorous in the older person [22]. This is due to changes to populations of
+progenitor cells, and to the bone marrow environmental matrix [23]. As an example, studies
+comparing the bone marrow of healthy older and younger patients found a 35 percent
+decrease in the colony size of the stimulated erythroid progenitor (colony-forming unit-
+erythroid [CFU-E]) cells in older individuals [24]. Another study suggests that inability to
+produce critical stimulatory hormones (stem cell factor, granulocyte macrophage colony-
+stimulating factor [GM-CSF], and interleukin 3 [IL-3]) is the major factor accounting for
+functional difference between bone marrow from older and younger people [25].
+Analysis of hematopoietic precursor cells from older adults reveals a dramatic decrease in
+genetic diversity, possibly related to genetic drift or environmental changes [26]. The
+frequency of clonal hematopoiesis of indeterminate potential (CHIP) and its associated
+mutations reaches 50 percent in those over 90 [27]. In addition to having an increased risk
+(0.5 percent per year) of development of hematologic malignancies [28], age-related CHIP is
+associated with increased mortality from many causes [26]. One relatively common finding in
+older men is loss of the Y chromosome from a proportion of leukocytes as a clone marker
+[29]. The presence of this clone, as with many of the other mutations defining age-related
+CHIP, is associated with increased mortality from both cancers and nononcologic processes
+[30,31].
+While physiologic aging does not result in anemia, the risk of anemia is increased by a
+number of mechanisms with age. Hepcidin, an iron regulatory hormone, is stimulated by
+inflammatory cytokines. Hepcidin blocks iron release from macrophages and hepatocytes
+(which recycle it from hemophagocytosis) and inhibits iron transport from enterocytes in the
+gut to the plasma. Thus, inflammaging, the persistent low-level proinflammatory state in
+normal older adults, impairs their response to erythropoietin or similar stimuli [32].
+Total circulating white cell counts do not change with age in healthy older people, but the
+function of several cell types is reduced. Age-related changes in the immune system are
+discussed separately. (See 'Immune system' below and "Immune function in older adults".)
+Age is a significant risk factor for myelotoxicity due to chemotherapy regimens for
+malignancies [33]. However, consistent with many other changes, heightened sensitivity to
+chemotherapy and impaired recovery of the bone marrow is not a uniform finding in all older
+adults. (See "Systemic chemotherapy for cancer in older adults".)
+Though the number of platelets is unchanged with age, platelet responsiveness to a number
+of thrombotic stimulators is increased. Reduced availability of nitric oxide and increased
+oxidative damage have been implicated in age-associated platelet hyperresponsiveness [34].
+This results in a small but consistent decrease in bleeding time with age. Fibrinogen, factor V,
+factor VII, factor VIII, factor IX, high molecular-weight kininogen, and prekallikrein increase
+
+-- 4 of 66 --
+
+with age in healthy humans, possibly related to the low-grade inflammation that is part of
+normal aging [35]. Fibrin degradation fragments (D-dimers) are elevated twofold in healthy
+older subjects with no evidence of thrombosis and may be even higher in hospitalized older
+adults, such that an age-incorporating formula for D-dimer interpretation has been
+suggested [36]. Plasminogen activator inhibitor 1, the major inhibitor of fibrinolysis, increases
+dramatically with aging [37-39]. Thus, old age should be considered a procoagulant state, and
+age is an important risk factor for deep venous thrombosis.
+GASTROINTESTINAL TRACT
+The overall effects of aging on the gastrointestinal system are modest; aging itself does not
+cause malnourishment. Nonetheless, age-related changes in gastrointestinal systems affect
+the incidence and presentation of multiple gastrointestinal problems in older adults.
+Oropharynx — The epithelial lining of the oral mucosa thins with age. The gums recede,
+exposing the tooth cementum, which is more prone to decay, and predisposing older persons
+to root caries and incomplete mastication [40]. Edentate patients are at greater risk for
+inadequate nutritional intake compared with those with partial or full retention of their teeth
+[41].
+Modest age-associated changes occur in the salivary glands, including a small decrease in the
+number of acinar cells, and up to a 50 percent decrease in maximal saliva production from
+parotid salivary glands [42]. Although accessory salivary gland production is unchanged, fatty
+infiltration of these glands increases with age [43], making the discrimination between
+Sjögren's disease and age-associated dry mouth more dependent on the extent of fibrosis
+than fat [44]. Up to 50 percent of older patients have subjective complaints of dry mouth,
+which can impact chewing and swallowing. Age-related changes in the composition of saliva
+will modify the adhesion and viscosity of the oral salivary film [45]. However, some of these
+complaints may be attributed to medication side effects rather than aging itself [46].
+Transfer of the food bolus to the pharynx is altered in the majority of older patients. Loss of
+esophageal muscle compliance results in increased resistance to flow across the upper
+esophageal sphincter [47]. Up to 60 percent of older patients without dysphagia have
+abnormal transfer to the pharynx on videofluoroscopy [48]. The strength and coordination of
+the tongue is impaired in healthy 80-year-old individuals [49]. Less effective mastication and
+decreased food clearance from the pharynx lead to increased aspiration risk in older adults.
+Additionally, protective aerodigestive reflexes in the pharynx stimulated by injecting water
+into the mouth are frequently absent in older people [50].
+Structural and functional changes in the oropharynx may impact the mechanisms of
+obstruction in patients with sleep apnea. Older patients had high incidence of collapse in the
+
+-- 5 of 66 --
+
+velum region and much lower oropharyngeal lateral wall collapse compared with younger
+patients [51].
+Esophagus — Anatomic changes in the esophagus include hypertrophy of the skeletal muscle
+at the upper third, decrease in myenteric ganglion cells that coordinate peristalsis, and
+perhaps increased smooth muscle thickness [40]. The amplitude of esophageal contractions
+during peristalsis decreases, but the movement of food is not impaired. However, using
+advanced manometric techniques, more subtle abnormalities in liquid propagation into the
+stomach can be seen in 40 percent of older adults [52]. Upper esophageal sphincter and
+esophageal body pressure responses to large-volume simulated reflux are preserved in
+healthy 70-year-olds, but responses to lower-volume, slowly applied reflux fluid and
+associated postreflux residue are reduced in elderly individuals, with significant implications
+for aspiration risk [53]. Abnormal peristalsis after swallowing and non-peristaltic repetitive
+contractions, at one time attributed to old age and called "presbyesophagus," are now
+thought to be due to disease processes.
+Secondary contractions contribute to clearance of refluxed food or acid. Diminution of these
+contractions, combined with decreased lower esophageal sphincter tone, results in increased
+gastric acid exposure [40]. Secondary esophageal contractions induced by esophageal
+distention and acid infusion into the esophagus appear to be greatly reduced with age
+[40,53]. Sensation of distention, and possibly tissue damage, in the distal esophagus is also
+impaired with age [54]. Thus, many older patients with severe reflux esophagitis seen at
+endoscopy have surprisingly little symptomatology.
+Stomach — Early studies suggested that gastric acid production decreased dramatically with
+age, with a decrease in parietal cells and an increase in interstitial leukocytes [55]. Subsequent
+studies challenge those findings and suggest that 90 percent of people aged 65 and over are
+able to acidify gastric contents in the basal unstimulated state [56,57]. Helicobacter pylori
+infection may account for the discrepancies between early and more recent work [58]. Over
+50 percent of older people are infected with H. pylori, with the prevalence increasing with
+advancing age [59]. (See "Helicobacter pylori: Epidemiology, pathophysiology, and overview of
+disease associations", section on 'Prevalence'.)
+Increased rates of gastritis and increased sensitivity to gastric irritants, such as nonsteroidal
+antiinflammatory medications or bisphosphonates, in older adults may be related to several
+age-related physiologic changes: decreased prostaglandin synthesis, decreased bicarbonate
+and nonparietal fluid secretion, delayed gastric emptying, and impaired microcirculation [60].
+In addition to an increased sensitivity to gastric insults, rates of healing are impaired by a host
+of mechanisms in older people [61]. Gastric motility is determined by the combined effects of
+the enteric nerves, smooth muscle, and the interstitial cells of Cajal. The number and volume
+of the interstitial cells of Cajal bodies decreases by over 10 percent per decade in normal
+
+-- 6 of 66 --
+
+people without motility complaints [62]. In aging rat models, sensory neural function is
+decreased, delaying recognition of experimentally induced mucosal injury [40].
+The stomach also has critical endocrine functions. Serum levels of ghrelin and gastrin, as well
+as ghrelin signaling, are reduced in healthy older adults [63,64].
+Small intestine — The small intestine undergoes modest anatomic changes, including
+moderate villus atrophy and coarsening of the mucosae. The absorption of several
+micronutrients (eg, xylose, folic acid, B12, copper) may decrease with age but remain
+adequate for homeostasis [65]. The efficiency of calcium absorption from the gut lumen
+decreases because of decreased vitamin D receptors in the gut and decreased levels of
+circulating 25(OH) vitamin D. Typically, women over age 75 absorb 25 percent less of a given
+dose of calcium than younger women, especially if there is reduced acid secretion [66]. Iron
+may also be less well-absorbed, but overall aging impacts the absorption of macronutrients
+minimally [65].
+Consumed carbohydrates result in significantly more hydrogen excretion in the older adults,
+suggesting malabsorption and subsequent bacterial metabolism of the carbohydrate in the
+aging gut [67]. Up to 15 percent of residents in senior congregate housing have evidence of
+bacterial overgrowth as assessed by breath hydrogen testing [68]. Bacterial overgrowth and
+associated malabsorption can affect nutritional status and micronutrient absorption.
+Additionally, the barrier function of the small intestine may be compromised and local
+inflammation activated in response [69].
+Decreases in sensory and myenteric neurons contribute to the increased frequency of
+painless ulcers with increased age [40,70]. Interestingly, in several animal studies, caloric
+restriction has been shown to decrease myenteric neuronal loss with age [71]. Small intestinal
+transit time (measured with capsule endoscopy) seems to be unchanged by age [72].
+Older people require lower radiation doses to develop acute radiation syndrome or to die
+from radiation, due to increased sensitivity of the small bowel to radiation [73].
+Large intestine — Anatomic changes with aging in the large intestine include mucosal
+atrophy, cellular and structural abnormalities in the mucosal glands, hypertrophy of the
+muscularis mucosa, and atrophy of the muscularis externa. Functional changes include
+altered coordination of contraction and increased opioid sensitivity that may predispose the
+older person to drug-induced constipation.
+Studies have not been consistent regarding alterations in colonic motility, but the general
+consensus is that colonic propulsive motility is reduced with age, with colonic transit time
+measured by capsule endoscopy being almost doubled in community-dwelling older adults
+compared with young people [74]. Approximately one-fourth of those over 65 years old suffer
+from chronic constipation [41]. One factor contributing to reduced motility is an age-related
+
+-- 7 of 66 --
+
+reduction in myenteric plexus neurons and a decline in the interstitial cells of Cajal similar to
+that seen in the stomach. Intrinsic sensory neurons that respond to physicochemical changes
+may degenerate disproportionately compared with motor enteric neurons. The loss of
+sensory input into local reflex pathways could contribute to reduced propulsive motility [75].
+(See "Etiology and evaluation of chronic constipation in adults".)
+The loss of intrinsic sensory neurons may also contribute to the decreased visceral response,
+including decrease in perceived pain with bowel perforation, distention, or ischemia [76]. As
+an example, the rigid surgical abdomen after appendiceal perforation is a less frequent
+finding in those over 75, leading to delayed diagnosis [77].
+Older women may be more predisposed to fecal incontinence than older men as the resting
+pressure and squeeze pressure decrease with age, resulting in decreased anal sphincter tone
+[78]. In one study, both male and female patients aged greater than 70 years had 30 to 40
+percent decreases in sphincter pressures compared with controls less than 30 years of age
+[79]. The internal anal sphincter of continent older people is thickened, perhaps to
+compensate for decreased resting and maximum pressures in the anal canal with age.
+However, thinning of the external sphincter correlated with fecal incontinence more than age
+[80].
+Diverticula are common in Western populations over age 65, with prevalence ≥65 percent
+[81]. The prevalence of diverticula is lower in other populations, presumably with other diets,
+but nonetheless there remains a strong age-dependence [82]. The formation of colonic
+diverticula is attributed to decreased muscle wall strength, decreased bowel wall compliance,
+and increased intraabdominal pressure required for stool excretion [81]. Slower large bowel
+transit and increased segmental contractions (as opposed to propulsive contractions) result in
+increased water reabsorption, leaving harder stools and increasing the likelihood of wall
+failure [40]. (See "Colonic diverticulosis and diverticular disease: Epidemiology, risk factors,
+and pathogenesis".)
+The risk of colon cancer increases with age. In addition to prolonged exposure to potential
+carcinogens, aging is associated with increased proliferation and decreased apoptosis in the
+colonic mucosa [83]. The biology of these changes is a rich area for exploration. (See
+"Epidemiology and risk factors for colorectal cancer".)
+The barrier function of colonic epithelium may be compromised and has been implicated in
+promoting the proinflammatory state, "inflammaging." Isolated specimens from normal
+aging baboon colon showed increased permeability to potential toxins, decreases in the key
+structural components of the tight junctions, and enhanced downstream inflammatory
+responses [84]. The deterioration in the barrier function of the intestine with age appears to
+occur across species and has been implicated in primary aging changes like thymic evolution
+[85,86]. By contrast, barrier function for lactulose and sucrose is preserved in healthy 65- to
+
+-- 8 of 66 --
+
+75-year-old persons [87] but, for many other chemicals, the effects of age in healthy older
+adults are unknown.
+The gut microbiome changes with healthy aging and with age-associated diseases. Some
+have proposed a "healthy signature" based on stool analysis [88], while others suggest that it
+is the gut biome through its effect of metabolites and inflammation that promotes healthy
+aging [89]. The immune system of the intestinal mucosa, a barrier for many products of the
+microbiome, is compromised with aging [90]. Thus, the extent with which an older adult
+interacts with their microbiome may be increased.
+Hepatobiliary system — Liver mass decreases between 20 and 40 percent with age, and liver
+perfusion and blood flow decreases up to 50 percent between the 3 and 10 decades of life
+[91]. Lipofuscin accumulates in hepatocytes with age and is also seen in young patients with
+severe malnutrition, accounting for an appearance that has been described as "brown
+atrophy." Older livers have more macrohepatocytes (large cells) and increased polyploidy [92].
+The number of mitochondria per cell increases with age [93]. The older liver is less tolerant of
+ischemia which increases the risk of using older livers for transplantation [94]. However, with
+adequate screening criteria, livers from those over 80 can have excellent outcomes after
+transplant [95].
+The following findings are relevant to liver function in older adults:
+rd 	th
+Although many liver functions decline (diminished erythromycin demethylation, galactose
+elimination, and reduced caffeine clearance), standard "liver function tests" (transaminases,
+alkaline phosphatase) are minimally affected by age [40,96].
+●
+Findings are contradictory regarding albumin synthesis in older livers; animal studies found
+reductions consistent with a loss of liver mass [97], although this was not confirmed in a
+study in healthy older people [98]. Serum albumin declines slightly with normal human
+aging [99]. Interestingly, studies have shown that mortality of nursing home residents
+correlates with albumin levels, even within the normal range [100].
+●
+The metabolism of low-density lipoprotein (LDL) cholesterol decreases with a reduction in
+LDL receptors in older patients [101], which could contribute to the higher serum LDL levels
+in older adults [97].
+●
+Cytochrome P450 content decreases with age, with one study finding a 32 percent
+decrement comparing individuals over 70 years with a group 20 to 29 years of age [102].
+This may account for the finding that metabolic clearance of many drugs is 20 to 40 percent
+slower in older people [103]. (See "Drug prescribing for older adults".)
+●
+The lower amounts of vitamin K antagonists needed to anticoagulate older people are
+consistent with age-related decreased synthesis of vitamin K-dependent clotting factors
+●
+
+-- 9 of 66 --
+
+Younger livers show a robust regenerative response to liver injury characterized by mitogen-
+activated protein kinase activity, which declines with age [101]. One consequence of this
+impaired liver regeneration is that a larger remaining liver is required for older people after
+major hepatectomy [106].
+Exocrine pancreas — The exocrine pancreas undergoes only modest alterations with age.
+Minor atrophic and fibrotic changes have essentially no impact on pancreatic exocrine
+function [67]. The fat fraction of the pancreas increases with age in healthy women [107].
+Noninvasive pancreatography indicates main pancreatic duct dilatation, greater incidence of
+cysts and side branches of the pancreatic ducts [108], and a decrease in stimulated pancreatic
+flow with advancing age [109]. Aged animals showed decreased output of lipase and amylase
+in response to meals that were high in fat or carbohydrates [40].
+RENAL SYSTEM
+There are multiple effects of aging on the renal system ( table 1). Kidney mass decreases by
+25 to 30 percent between the ages of 30 and 80 years, with the steepest decline after age 50.
+In addition, fat and fibrosis replace some of the remaining functional parenchyma. Loss
+occurs primarily in the cortex and preferentially affects those nephrons most important to
+maximal urine concentration. Senescent cells are more common with increasing age in donor
+kidney cortexes [110], suggesting that senolytic agents may have a potential role in improving
+age-related declines in renal function [111]. As the senescent cells produce proinflammatory
+as well as profibrotic signals, the extent of fibrosis, extracellular matrix, and inflammation
+increases with age [112].
+Normal aging is associated with a reduction in functional glomeruli of almost 50 percent, as
+found in a comparison of kidneys from donors aged 18 to 29 with those aged 70 to 75 years.
+The number of sclerotic glomeruli increased almost 10-fold across the same groups [113].
+Atrophy and resorption of nephrons may contribute to the age effect more than diffuse
+sclerosis of glomeruli [114]. The remaining glomeruli have impaired filtering ability, though
+single nephron studies showed preserved filtration rate until age 70 [115]. Intrarenal vascular
+changes include spiraling of the afferent arterioles, narrowing of the larger arteries, intimal
+fibrosis [116], and shunts between afferent and efferent arterioles allowing blood flow to
+bypass the glomeruli [117]. Nephrosclerosis (global glomerulosclerosis, interstitial fibrosis,
+and arteriosclerosis) was identified in donor kidneys to be used for transplantation in 3
+[104].
+Although function and anatomy of the gall bladder are well preserved in old age, the bile
+composition has a higher lithogenic index, predisposing the older person to cholesterol
+gallstone formation [105].
+●
+
+-- 10 of 66 --
+
+percent of donors 18 to 29 years old and in 73 percent of donors 70 to 77 years old [118].
+Evidence of age-associated renal remodeling is confirmed with proteomic studies of urine
+from healthy individuals [119].
+At baseline, kidney plasma blood flow is 40 percent lower in healthy normotensive older men
+than in young men, and this difference is magnified under conditions that stimulate renal
+vasodilation [120]. Studies suggest that older kidneys may be maintained in a state of
+vasodilation to compensate for loss of vasculature [120,121]. Vasodilating prostaglandins are
+increased at baseline in normal older adults [122], and this contributes to the increased
+(roughly doubled) risk of kidney injury with use of nonsteroidal antiinflammatory drugs
+(NSAIDs) in older people [123,124].
+Creatinine clearance decreases with age (7.5 to 10 mL per minute per decade), although there
+is wide variability in decline seen in longitudinal studies of healthy older adults [125]. As many
+as one-third of older adults monitored for over a decade have no change at all (half those
+actually improve) in the glomerular filtration rate (GFR), one-third have a slight decline, and
+one-third have a more marked decline. Creatinine production also decreases with age and
+tubular secretion of creatinine increases, so that the serum creatinine may remain stable
+despite decreases in the GFR [126]. Hypertrophied and compensating nephrons are often less
+tolerant of additional insults thus more prone to acute kidney injury [127]. All of the
+commonly used equations for estimating creatinine clearance factor age into the formulae;
+however, the estimated GFR (eGFR) provided by some electronic health records need to be
+utilized cautiously, especially with those over 90 [128,129].
+Cystatin C-based estimates of kidney function may be useful when accurate assessment in an
+older person is necessary [130]. In healthy older people, an increase of roughly 50 percent in
+cystatin C levels is seen from age 40 to age 80 [131] (see "Calculation of the creatinine
+clearance"). Increases in cystatin C track robustly with functional decline in longitudinal
+studies [132]. More physically active older men had greater preservation of GFR [133].
+Fluid and electrolyte homeostasis are maintained relatively well with aging, in the absence of
+challenges. However, the ability to maximally dilute urine and excrete a water load is impaired
+and compromises volume regulation under conditions of stress. In the setting of dehydration,
+the minimum urine flow rate is twice as great in those over 70 compared with those under 40,
+and the maximum urine osmolality is also reduced with age [134]. In addition to this impaired
+ability to retain water and solute, the older kidney also is impaired in its ability to retain amino
+acids and glucose.
+Other functional changes in the renal system are a reduction of urine acidification and
+impairment in excreting an acid load. The older kidney is more prone to nephrotoxicity related
+to medications, chemotherapy, or intravenous contrast [135,136]. Additionally, the injured
+older kidney is less likely to recover from acute insult [137]. The older kidney is also more
+
+-- 11 of 66 --
+
+vulnerable to ischemic insult, with a greater number of cells undergoing apoptosis following
+ischemia than in the young kidney. Tubular cells appear to have diminished ability to entirely
+repopulate the tubules after an acute ischemic insult, potentially an effect of the increasing
+senescent cell population of the aging kidney [111].
+Hormonal functions of the kidney are affected by aging, including decreased hydroxylation of
+vitamin D [138,139]. In older women, the vitamin D response to parathyroid hormone infusion
+is attenuated [140]. Downregulation of the renin-angiotensin aldosterone system is seen in
+normal and hypertensive older people [141-143]. However, the autonomous release of
+aldosterone by aldosterone-producing cell clusters is increasingly common with age, at least
+to age 70 [144]. This leads to lack of suppression of aldosterone, with salt loading and
+inadequate increases in response to sodium restriction [144]. The production of
+erythropoietin in response to hemoglobin, however, appears to be unchanged with age [145].
+However, others have reported the circulating erythropoietin levels in older adults with
+anemia is lower than young adults with the same level of anemia [146]. Finally, the kidney is a
+primary source for klotho, a membrane protein involved in phosphate metabolism that may
+have important implications for aging [147]. The kidneys' production of klotho decreases with
+increasing age and genetic polymorphisms that increase its level are associated with
+increased longevity [148].
+CARDIOVASCULAR SYSTEM
+Advancing age increases the risk for hypertension and coronary artery disease. The
+prevalence of coronary artery disease at autopsy may reach 75 percent after the sixth decade
+in men and two decades later in women [149]. Therefore, to isolate age-related cardiovascular
+change from disease-related change, studies must carefully select older individuals with no
+underlying cardiovascular condition. The Baltimore Longitudinal study studied highly
+screened older individuals and found only a minimal impact of aging on resting
+cardiovascular function such as left ventricular ejection fraction (LVEF) [150]. This reflects the
+adequacy of the compensatory strategies used by the old heart (and vascular system) to
+counteract subtle and gradual age-associated physiologic, molecular, and biochemical
+changes. However, by invoking available compensatory mechanisms to maintain resting
+function, the older person is less able to compensate for subsequent challenges [151]. (See
+'Homeostenosis' above.)
+Many older people perform little physical activity. Typical age changes may therefore also
+reflect the impact of factors related to lifestyle and comorbidity, and the contribution of age
+alone may be difficult to determine. Physical exercise may mitigate some of the age-related
+changes.
+
+-- 12 of 66 --
+
+Modest anatomic changes occur in the right side of the heart. Right atrial volume increases
+modestly; however, mean and peak systolic blood flow in the superior and inferior vena cavae
+decrease with age [152]. By contrast, the left atrium enlarges, and the left ventricle stiffens
+with aging. Left atrial volume, corrected for body size, increases roughly 50 percent from the
+third decade to the eighth [153]. The larger left atrium becomes stiffer, less able to perform as
+a reservoir [154,155]. Age also increases the risk of left atrial cardiomyopathy significantly
+[156]. The left ventricle also hypertrophies with age, with an average increase in left
+ventricular wall thickness of 10 percent [157]. In healthy women, the left ventricle end
+diastolic volume decreases by 10 to 15 percent from age 20 to age 80 [158]. A group of highly
+screened, healthy older people had more modest changes with age. With exercise, at the
+same filling pressures, older adults had smaller left ventricular volumes, suggesting the
+diastolic stiffness is also important in limiting maximum cardiac output [159].
+Both the aortic valve and mitral annulus thicken and develop calcific deposits [160]. Mitral
+annular calcification may predispose the older person to cardiac conduction problems. (See
+"Valvular heart disease in older adults".)
+Ventricular cardiomyocytes hypertrophy, in part as a response to the increased afterload
+produced by large artery stiffening [161,162]. The largest myocytes are also the most
+vulnerable to challenge [162]. Loss of myocytes with age has been reported to occur by both
+apoptosis and necrosis; the total number of cardiomyocytes may be reduced significantly in
+healthy human hearts [161,163,164]. The loss of myocytes is compensated for by cell
+hypertrophy, with no net loss in cardiac mass. As well, substantial cellular dropout occurs in
+the sinoatrial (SA) node and more modest cellular loss at the atrioventricular node. This may
+underlie increased sensitivity of the older SA node to calcium channel blockers [165].
+There is a negligible age-related decrease in the resting heart rate but a marked decrease in
+the maximum heart rate in response to exertion or other stressors. The intrinsic heart rate
+(the rate without sympathetic or parasympathetic input to the heart) decreases by five to six
+beats per minute each decade. The response to both parasympathetic antagonists (atropine)
+and beta-adrenergic agonists (isoproterenol) is decreased in healthy older people [166]. The
+energy state (phosphocreatine to ATP ratio) of the older heart is diminished, and correlates
+with poorer diastolic function and lower peak work [167]. Cannabinoid receptors, both CB1
+and CB2, are reduced in hearts from people older than 50 [168], which may attenuate some of
+the cardiovascular effects of cannabinoids in older people [168,169].
+Heart rate reflects the combined effects of sympathetic and parasympathetic tones. The
+target maximum heart rate is calculated as "220 – age." Women may have a more gradual
+decline and a correction factor of 0.85 to 0.90 may adjust the target heart rate for women.
+Exercise training does not modify the age-associated decline in maximum heart rate [170].
+Heart rate variability, perhaps due to decreased parasympathetic tone and decreased
+sympathetic responsiveness, also decreases with age [171].
+
+-- 13 of 66 --
+
+The prevalence of premature atrial complex (also referred to a premature atrial beat,
+premature supraventricular complex, or premature supraventricular beat) increases with age
+but is not associated with increased cardiac risk [172]. An increase in isolated ventricular
+ectopic beats is also seen in healthy older individuals [173].
+The culmination of age-associated cardiovascular changes is a decrease in maximum work,
+measured as maximum oxygen utilization (VO2max) on exercise testing. Exercise training in
+sedentary older individuals can improve this parameter, but a decline with age in parameters
+such as maximum heart rate is seen even in highly fit individuals [170].
+Resting LVEF is not changed in healthy older people, but there are smaller increases in LVEF in
+response to exercise [174]. At maximum effort, LVEF in the young is above 80 percent, while
+by age 80 it is 70 percent [150]. Older hearts also have impaired early left ventricular filling
+with a compensatory greater contribution from atrial systole than younger hearts [175]. This
+impairment in diastolic function reflects multiple age-related changes from decreased
+sarcoplasmic reticulum calcium uptake due to alterations of the pump protein (SERCA 2a)
+[176], increased sarcoplasmic reticulum leak, reduced energetics [177], and increased cardiac
+interstitial fibrosis [178,179].
+This diastolic dysfunction and increased reliance on atrial systole may in part explain why
+atrial fibrillation is more likely to precipitate heart failure in older adults. An atrial gallop (S4) is
+a normal finding on physical examination in individuals in sinus rhythm over 75, a
+manifestation of the increased contribution of left atrial systole to ventricular filling. Perhaps
+as a marker of the increased filling pressure at rest, brain natriuretic peptide (BNP) is
+increased with age in healthy people [180]. With exertion, healthy older people have a greater
+increase in pulmonary capillary wedge pressure, reflecting a reliance on Starling's law to
+increase cardiac output [181].
+The old heart is a vulnerable heart. For example, mortality and the probability of developing
+heart failure after a myocardial infarction increase dramatically with age. While myocardial
+infarction is not a part of normal aging, response to this systemic challenge is impaired
+because of the aging process. Similarly, doxorubicin-related heart failure occurs with greater
+frequency and at a lower cumulative dose in those over 65 [182].
+Large arteries are altered with age. The aorta increases in diameter, with the upper limits of
+normal increasing by approximately 5 mm from age 20 to 40 compared with those over 60
+[183]. Length increases a few cm from age 20 to 80 [184]. The aorta increases stiffness as
+measured by pulse wave velocity (PWV) two- to threefold. This means that pressure waves
+generated when the aortic valve opens are reflected and return to the heart before the aortic
+valve is closed, thus increasing the load on the heart. In youth, the reflected waves return
+after the aortic valve is closed and help perfuse the coronary arteries. In serial studies using
+four-dimensional magnetic resonance imaging (MRI), the increases in aortic PWV were
+
+-- 14 of 66 --
+
+greater in the older groups (70 to 80) of males and females up to 10 percent over six years
+[185]. While PWV requires special equipment to measure, a similar pattern is found in pulse
+pressure (systolic-diastolic) [186]. Critically the increase in arterial stiffness, especially in the
+carotids, correlates with decreasing cerebral blood flow in cognitively normal older adults
+[187]. The effects of disease such as hypertension can double the rate of stiffening [188] and
+chronic exercise can attenuate it. The ability of the brachial artery to dilate in response to a
+heat load is relatively preserved while the lower extremity in the older person is diminished
+[189].
+RESPIRATORY SYSTEM
+Aging, in the absence of additional challenges, does not result in hypoxia or pneumonia.
+However, age-related anatomic and functional changes in the respiratory system contribute
+to the increased frequency of pneumonia, increased likelihood of hypoxia, and decreased
+maximum oxygen uptake in the older person.
+The lung undergoes a number of anatomic changes [190]. Alveolar ducts enlarge due to loss
+of elastic tissue and alterations in the supporting network of collagen fibers, resulting in a
+decreased surface area for gas exchange. Overall, approximately one-third of the surface area
+per volume of lung tissue is lost over the life span, and anatomic dead space increases [191].
+The loss of lung elastic tissue decreases recoil and results in modest reduction in the
+expiratory boundary of the maximal flow-volume envelope. The changes in elastic recoil are
+not uniform and therefore contribute to the heterogeneity in ventilation and the VQ
+mismatch described below [192]. During maximal exercise, this may limit expiratory airflow
+and produce dynamic lung hyperinflation [193]. Surfactant composition is also altered by age
+[194], and alveolar fluid has a greater content of proinflammatory proteins and a reduced
+antiinflammatory profile [195]. Lung angiotensin-converting enzyme 2 (ACE2) expression (the
+severe acute respiratory syndrome coronavirus 2 [SARS-CoV-2] virus receptor) increases with
+age [196]. Many of these changes in lung function are driven by senescent cells [197]. Carbon
+monoxide diffusion studies find that diffusion capacity decreases approximately 5 percent per
+decade [198], although this may be less in highly fit older individuals [199].
+Age increases ventilation-perfusion mismatching because airways in dependent portions of
+the older lung, areas that are better perfused than elsewhere, are closed during all or part of
+the respiratory cycle. This is a critical factor in the declining arterial PO with age. Alveolar PO
+does not change with age, but age increases the alveolar-arterial (A-a) oxygen gradient. The
+effect of the ventilation-perfusion mismatch is more marked in the supine than sitting
+position because of positional changes in thoracic mechanics [200]. The decrease in arterial
+PO (PaO ) may not be linear but appears to decline from age 30 until 70 or 75 and thereafter
+remains almost constant. While age-related changes do not result in hypoxia at sea level,
+older adults may approach hypoxia at altitude [201]. The fall on PaO is slightly greater in
+2 	2
+2 	2
+2
+
+-- 15 of 66 --
+
+women than men [200,202]. Older people may have little reserve for further decrements in
+pulmonary function before important hemoglobin desaturation occurs.
+In contrast to the decrease in PaO and increase in the A-a oxygen gradient, carbon dioxide
+excretion is not impaired with age; changes in PaCO are due to disease and should not be
+attributed to age alone [203].
+The chest wall also changes with age; increased stiffness of the chest wall predominates over
+an increase in compliance of the lung parenchyma. Overall chest wall compliance decreases
+by one-third from age 30 to 75 [204]. Intercostal muscle contraction accounts for less chest
+expansion in older individuals, with a relatively greater contribution from abdominal muscles.
+Abdominal muscles are only partially effective in ventilating in the seated (or supine) position.
+Thus, full airway expansion occurs only in the standing position in older adults. Atelectasis
+can result in an increased A-a gradient.
+As the chest remodels with age, the diaphragm flattens and becomes less efficient. The
+diaphragmatic changes likely contribute to the increase in the work of breathing during
+exercise, which can increase 30 percent [205]. Using simulations that model mechanical
+ventilation, the older person has to work harder to breathe, which may contribute to difficulty
+in weaning from the ventilator [206].
+The effect of age on traditional pulmonary function tests is shown in the graph ( figure 2).
+With advancing age, functional reserves decrease. In nonsmoking men, forced vital capacity
+(FVC) decreases between 0.15 and 0.3 liters per decade, and forced expiratory volume in one
+second (FEV ) decreases by 0.2 to 0.3 liters per decade, with steeper decline in the seventh
+and eight decades [207,208]. Age-related changes in women decline less steeply. The
+decreases in pulmonary function tests correlate with decreases in skeletal muscle strength, as
+measured by grip strength [209]. The decrease in FEV is accelerated after menopause [210]
+and may be reduced by long-term hormone replacement therapy [211] and has been reduced
+by a decrease in second-hand smoke exposure [212]. Total lung capacity (proportional to
+height) does not change significantly with age; however, the residual volume (air left in the
+lung at the end of full expiration) increases by as much as 10 percent per decade because of a
+higher closing volume. Of note, however, the ability to properly perform pulmonary function
+tests (and use inhalers) decreases in older adult patients [213]. Finally, the correlations
+between spirometry and diffusion parameters is poor in healthy older people, suggesting that
+lung aging is not a uniform process [214].
+The Cardiovascular Health Study population experienced age-related decreases in maximal
+inspiratory pressure (MIP) or force, and a smaller decrement in maximal expiratory force
+parameters [215]. The decline in MIP is linear until age 65 but appears to accelerate
+afterwards [216]. Both the inspiratory force and expiratory force are significantly greater in
+physically active older people than sedentary ones. Diaphragm thickness was also greater in
+2
+2
+1
+1
+
+-- 16 of 66 --
+
+the active old group [217], but some of the apparent decrease in diaphragm strength may be
+due to the loss of curvature, the result of the chest wall changes described above [218].
+Nevertheless, some of the decrements described above are due to sedentary lifestyle.
+Older persons have decreased responses to hypoxemia, hypercapnia, and mechanical
+loading, such as breathing through a small-diameter endotracheal tube [219]. The central
+drive to the respiratory muscles is decreased [220]. Many of these changes are minimized
+with exercise; the implication is that central or peripheral receptor hypo-responsiveness may
+be due in part to deconditioning, and that exercise training can induce compensation for age-
+related changes. Older adults recover more slowly from insults that damage or destroy lung
+tissue [221].
+Cough is less vigorous in the older person because of the age effects on respiratory muscle
+strength and greater closing volumes that prevent clearing of increasing proportions of the
+lungs [215]. Mucociliary clearance is slower and less effective [222], and recovery of
+mucociliary clearance after insult (typically viral infection) is slowed with age. In addition to
+impaired clearance from large airways, clearance of inhaled particles from the small
+conducting airways is also impaired with age [223]. This may lead to changes in the lung
+microbiome as loss of diversity correlates with lower FEV in middle aged and older people
+[224]. The cellular changes in the lung epithelium, especially those prompted by chronic
+inflammation, lead to a thinner epithelial layer and altered receptor expression, both
+increasing the risk of pneumonia [225].
+The rate of decline in the peak aerobic capacity in healthy older persons with age, especially
+men, is not constant. The Baltimore Longitudinal Study of Aging found a 3 to 6 percent
+decrease in peak aerobic capacity per decade in the 30s and more than 20 percent decrease
+in peak aerobic capacity per decade in the 70s and beyond [226]. The decrease in FEV with
+age correlates strongly with the worsening peak aerobic performance [227].
+GENITOURINARY SYSTEM
+Aging changes in the genitourinary system increase the older person's risk of urinary
+incontinence, urinary tract infection, erectile dysfunction, and dyspareunia.
+Bladder — The prevalence of urinary incontinence increases with age. Until age 80,
+incontinence is more common in women than men, but the prevalence differences by sex
+subside after age 80 [228]. In healthy men aged 70 to 90, peak urine flow rate was unchanged
+over a five-year period while postvoid residual (PVR) bladder volume increased about 25
+percent [229]. Urinary incontinence is related to decreases in detrusor muscle contractility,
+maximum bladder capacity, maximum flow rate, and the ability to withhold voiding, and an
+increase in PVR [230]. In cross-sectional data, the detrusor power decreased 30 percent in
+1
+1
+
+-- 17 of 66 --
+
+healthy older women; a smaller decrease was seen in men [231]. These functional changes
+are due in part to decreased innervation of the detrusor muscle [232] and in part due to
+changes in the brain [233]. The common triad of increased PVR, reduced ability to withhold
+voiding, and nocturia have been attributed to decreased central nervous system dopamine
+rather than a local bladder-centric issue [234]. (See "Urinary incontinence in males" and
+"Female urinary incontinence: Evaluation".)
+Beta-3 adrenergic agonists are used to reduce bladder contractions. When bladder smooth
+muscle from older adults is compared with middle-aged adults, there was no alteration in
+number of beta-3 receptors, but the response to CL316,243 was attenuated in the old muscle
+[235]. Whether this finding is applicable to the approved beta-3 agonists like mirabegron is
+unclear.
+Withdrawal of estrogen in women results in decline in urethral length as well as decreased
+maximal urethral closure pressure. The urethra becomes a less effective barrier from bacterial
+contamination with age, especially in women [236]. Topical estrogens, especially in addition to
+pelvic floor exercises, may lead to restoration of urethral function [237].
+It is increasingly clear that the urinary bladder supports as rich a microbiome as the gut. The
+urine is not truly sterile and, in women, the species of this microbiome are altered with
+menopause [238]. Whether the bladder microbiome has causative roles in age-related
+changes in bladder function is unclear.
+Male reproductive system — Surveys of sexual activity among older men have found varying
+rates of activity. In one multinational survey, over 80 percent of men aged 60 to 69 and 70
+percent of those aged 70 to 79 reported that they were sexually active [239]. By contrast, two
+representative samples from the United States found that 39 percent of men aged 75 to 85
+years reported sexual activity [240]. The older penis needs greater stimulation to attain an
+erection, spontaneous erections are less frequent, erections are less firm, refractory times
+between erections (or ejaculations) become prolonged, and ejaculation is less forceful with
+smaller ejaculate volumes. These changes are the sum of age-related neurologic, vascular,
+and endocrinologic changes [241]. (See "Epidemiology and etiologies of male sexual
+dysfunction".)
+A gradual decline in male reproductive ability occurs with age. Germ cells are formed
+continually, but sperm production decreases. The sperm from older testes have an increased
+frequency of chromosomal abnormalities and impaired motility and decreased ability to
+fertilize even when administered by intrauterine artificial insemination [242]. The
+seminiferous tubules also degenerate and Leydig cell number decreases. Changes in the
+epididymis and seminal vesicles are characterized by deposition of pigmented granules in the
+epithelial walls and amyloid in the seminal vesicle wall, which may be associated with amyloid
+deposition elsewhere in the body [243].
+
+-- 18 of 66 --
+
+Enlargement of the prostate gland occurs with age. Prostate gland hyperplasia is discussed in
+detail separately. (See "Epidemiology and pathophysiology of benign prostatic hyperplasia"
+and "Clinical manifestations and diagnostic evaluation of benign prostatic hyperplasia".)
+Female reproductive system — The ovary ages with a decline in oocyte numbers as women
+enter their late fourth decade, and menopause (amenorrhea for 12 months after the final
+menstrual period) ensues at an average age of 51 years. In women of advanced age
+undergoing in vitro fertilization (IVF) treatment (defined here as after 45), the implantation,
+clinical pregnancy, and live birth rates all occur at reduced frequency [244]. Changes related
+to menopause and estrogen depletion are discussed separately. (See "Menopause: Clinical
+features and diagnosis".)
+Once menopause has occurred, more gradual age-related postmenopausal processes are
+seen. The vagina loses elasticity. The clitoris, like the older penis, needs greater stimulation
+and becomes less engorged [245]. Subcutaneous fat in the pelvis is lost. Vaginal dryness and
+atrophy are mostly estrogen-dependent but may be compounded by age-related diminished
+blood flow to the vagina. Cervicovaginal secretions, especially during arousal, become
+sparser. Vaginal pH rises, allowing colonization by enteric microflora and a loss of
+lactobacillus bacteria among other changes in the microbiome correlating with a decrease in
+amino acid availability in the post-menopausal vagina. The vaginal environment becomes
+much more proinflammatory using both cellular and cytokine markers [246]. (See "Overview
+of sexual dysfunction in females: Epidemiology, risk factors, and evaluation".)
+MUSCULOSKELETAL SYSTEM
+Muscle — Although there is great variability, muscle mass decreases in relation to body
+weight by approximately 30 to 50 percent in adults. The loss is not linear, but it accelerates
+with increasing age. Sarcopenia, age-related loss of muscle mass and strength, is defined as a
+decrease in appendicular muscle mass two standard deviations below the mean for young
+healthy adults [247]. Sarcopenia is an independent risk factor for mortality in longitudinal
+studies [248] and is found in as many as 50 percent of those over 80, depending on the
+population assessed and the definition of sarcopenia applied [249].
+In addition to muscle mass loss, muscle quality decreases with infiltration of fat and
+connective tissue into the old muscle [250]. The presence of intramuscular and intermuscular
+fat has been termed "myosteatosis." Myosteatosis at the thigh has been associated with
+decreased strength, slower gait speed, and decreased survival in the AGES-Reykjavik study
+[251,252]; a mortality relationship was not seen with the calf myosteatosis [253]. Critically,
+myosteatosis needs to be taken in context, as exercise-trained individuals acquire muscle fat
+as a ready energy supply [254], and in that setting increased muscle fat is associated with
+better performance and exercise training in older people [255].
+
+-- 19 of 66 --
+
+The loss of muscle mass is not uniform; in general, the loss from the legs is greater than from
+the arms. Type I slow-twitch fibers are less affected by age than fast-twitch fibers. The loss of
+fast twitch muscle with age can be prevented by lifelong strength training, but not endurance
+training [256]. In any muscle bundle, the size of the myofibrils decreases, followed by the
+number of myofibrils. Innervation of skeletal muscle decreases in men over 50; the number of
+motor units in any given muscle decreases with a compensatory increase in motor unit size.
+While this synaptic remodeling occurs at all ages, the "new" neuromuscular innervations are
+unstable [257]. An inability to finely modulate the stimulation rate may contribute to the loss
+of strength [258]. Some have implicated motor neuron changes as the primary cause of
+sarcopenia [259]. The loss of muscle contributes to age-related insulin resistance, age-related
+changes in body composition, and volumes of distribution for water-soluble drugs.
+The presence of atrophied or partially or completely denervated muscle fibers can be seen on
+cross-section examination of muscle from an older person. Time to peak tension with ankle
+dorsiflexion is slowed, as is time to muscle relaxation [260]. Strength also decreases
+dramatically with age, partially explained by loss in muscle mass. From age 30 to age 80, a
+typical person's grip strength decreases 60 percent; however, activity plays an important
+mitigating role. Overall, lower-extremity strength is lost at a faster rate than upper-extremity
+strength; activity may decrease the rate of decline but will not completely prevent it [250]. The
+net result is that strength loss is greater than muscle mass loss, with strength loss being a
+better predictor of disability and mortality [261]. The older muscle is more easily fatigued as
+well [262].
+The recovery of older muscle after injury is slowed, and frequently incomplete [263], perhaps
+related to a defect in satellite cells' ability to repopulate muscle [264]. This satellite cell defect
+is equally apparent in trained and sedentary older people [265]. Some of this impairment in
+recovery is locally mediated, perhaps by nerve regeneration, as old muscles transplanted into
+young animals regenerate fairly well, while muscles taken from young animals and
+transplanted into old ones do not regain mass or generate force as effectively [266].
+Additionally, myostatin may be increased, but no age effect on circulating myostatin levels
+were seen with a highly specific assay in healthy men aged up to 85 [267]. Myostatin, a
+member of the myokine family, has a potent effect to decrease muscle protein synthesis and
+neutralizing antibodies to myostatin have been administered to people over 75 who were
+weak and had recent falls [268]. Although the antibody increased lean body mass, there was
+no effect on functional measures at 24 weeks.
+Skeletal muscle from older adults shows altered energetics [269]. The decrease in enzyme
+activity of glycolytic enzymes is greater than that of oxidative enzymes. Physical activity plays
+a significant role in the decrease in these enzyme activities, and older adults with high
+physical activity have isolated mitochondrial function that is not significantly different from
+25-year-olds [270]. Similarly, the in situ, noninvasive assessment of recovery of
+
+-- 20 of 66 --
+
+phosphocreatine was reduced in typical older adults and was not different from the young in
+the physically active older adults [270]. In older animals, an acute bout of exercise is
+associated with relative hypoperfusion of the most oxidatively active exercising muscles [271].
+Age-related hormonal changes in growth hormone, androgen, and possibly others may
+contribute to the age-associated alterations muscle mass and function. Parabiosis studies
+(where old and young syngenic mice are connected so that they share circulations) suggest
+circulating factors may restore many of these age-associated decrements in muscle [272,273].
+Additionally, proinflammatory cytokines increase with age and stimulate the rate of skeletal
+muscle protein degradation [250]. The effects of agents that stimulate muscle growth,
+especially insulin-like growth factor 1 (IGF-1), may be mediated by neuromuscular effects,
+suggesting that both hormonal and neuronal approaches to preventing sarcopenia may be
+efficacious [259].
+Bone — Aging increases the probability of fracture and the rate of repair is slowed, once
+fracture occurs. The increased proinflammatory environment in healthy older adults
+promotes bone loss. Anatomically, the weightbearing cortical bones lose substance from the
+endosteal surface. Computed tomography (CT) or MRI indicate that the marrow lumen of the
+femur is larger, the cortex thins, and fat fills much of the marrow cavities. The aging loss of
+mineral occurs in both cortical (peripheral skeleton) and trabecular (axial skeleton) bone.
+Trabecular number decreases and the distance between trabeculae increases with age in
+healthy aging women [274]. There is a progressive decline in osteoblast number and activity,
+but osteoclasts remain unchanged with age. Precursor cells for osteoblasts remain constant
+in number after age 30, but their function declines [275], with an enhanced tendency to
+become adipocytes rather than bone forming [276]. Whether or not the fundamental defect is
+in the bone marrow microenvironment or the precursor cells themselves remains uncertain
+[277].
+Overall, the decline in bone mass is approximately 0.5 percent per year in healthy older
+people [278]. Age-related changes in women are compounded by menopausal changes in
+bone mass and function. Vitamin D deficiency including the impaired 1-alpha-hydroxylation of
+vitamin D by the aging kidney, common in older people, further accelerates bone loss.
+Perhaps because of shared mechanisms, osteoporosis and sarcopenia occur together with
+high frequency [279]. Their cooccurrence, osteosarcopenia, is increasingly recognized in older
+adult populations. Weightbearing exercise (walking) appears to have beneficial impact on
+both, but walking plus resistance exercise had a greater benefit [280]. (See "Pathogenesis of
+osteoporosis".)
+Weightbearing exercise is frequently reduced in older adults, contributing to a negative
+calcium balance and loss of bone mineral [281]. Increasing weightbearing time or increasing
+loading forces may increase bone mineral and prevent age-related bone loss [282].
+
+-- 21 of 66 --
+
+Bones from older adults have microanatomical changes that make them weaker than the
+amount of mineralization would predict. These changes include widening of the Haversian
+canals and thinning of the osteon wall [283]. Once bones fracture, the repair mechanisms are
+also impaired in aging. In older animals, fractures produce less local blood vessel formation
+and less osteogenic differentiation of progenitor cells and require at least twice as long to
+regain prefracture biomechanical properties, including strength, than in younger adult
+animals [284]. Cells isolated from old bones are less responsive to vitamin D than young ones.
+The matrix in old individuals may stimulate less bone formation than that of younger people.
+This suggests that growth factors (eg, IGF-1) may be deficient or inhibitory factors may be
+present in the old matrix. Supplementation with vascular endothelial growth factor (VEGF),
+parathyroid hormone, vitamin D and calcium, statins, and some of the bone morphogenic
+proteins have all shown promise in facilitating bone healing in various experimental
+paradigms [285]. This is true not only for clinically apparent fractures but also for the micro-
+cracks (microscopic disruptions in mineral or organic matrix), which increase dramatically with
+age. This micro-damage stimulates the repair mechanisms and further accentuates the age-
+related imbalance between bone deposition and resorption [286]. The microdefects may also
+make bone weaker than would be expected from just the bone density [287].
+CENTRAL NERVOUS SYSTEM
+Anatomical and physiologic changes — The volume of the brain decreases approximately 7
+cm per year after age 65, with greatest loss in the frontal and temporal lobes [288] and
+greater loss of white matter than grey matter in cognitively normal older adults [289].
+Cerebral blood flow decreases heterogeneously by 5 to 20 percent, with deterioration of
+mechanisms that maintain cerebral blood flow with fluctuation in blood pressure [290]. In
+addition to older age, males have higher cerebrovascular impedance measured noninvasively,
+which may promote brain hypoperfusion [291].
+Age-related neuronal loss is most prominent in the largest neurons in the cerebellum and
+cerebral cortex. The hypothalamus, the pons [292], and the medulla [293,294] have modest if
+any neuron or volume losses with normal aging. Age-related neuron dropout is likely due to
+apoptosis (ie, programmed cell death) rather than inflammation, ischemia, or another
+mechanism [295]. Age also affects neurons that persist, with loss of the dendritic tree,
+shrinkage of processes, and decrease of synapses [296]. Such changes may contribute more
+to the age-related loss of brain volume than the loss of neurons. In some areas, however, the
+dendritic connections may increase, perhaps as a result of repatterning of the brain invoked
+to compensate for cellular dropout. Neurons continue to form new synapses, and new
+neurons are formed throughout the lifespan, but the rates of loss are greater than the gains
+[297].
+3
+
+-- 22 of 66 --
+
+Lipofuscin accumulates in certain areas of the brain, particularly the hippocampus and frontal
+cortex, but the impact of lipofuscin on function is unknown [298]. Neurofibrillary tangles and
+senile plaques occur in certain areas of the brain in normal aging but to a lesser extent than
+in Alzheimer disease. More than 50 percent of cognitively normal individuals over age 85 have
+sufficient plaques/tangle burden to make a pathologic diagnosis of Alzheimer disease [299].
+Thus, interpretation of beta amyloid seen on amyloid imaging in individuals of advanced age
+poses a challenge [300]. Similar issues may be raised for tau imaging [301]. For both beta
+amyloid and tau, there were thought to be brain regions where their accumulation started
+but, with more recent studies, there is evidence of multiple brain regions with tau and beta
+amyloid signals in cognitively unimpaired older adults, correlating with age more than
+cognition [302].
+Multiple nonhomogenous changes in brain enzymes, receptors, and neurotransmitters occur
+with age. Acetylcholine availability decreases due to decrease in cholinergic and muscarinic
+neurons, and reduced release and synthesis of acetylcholine [296,303]. As well, dopamine and
+corresponding receptors in the striatum and substantia nigra may be decreased in normal
+aging [304]. Interestingly, dopamine may facilitate episodic memory persistence [305], and
+providing dopamine as L-DOPA to normal old brains can improve performance on some
+cognitive tasks [306].
+Age-related changes seen on functional brain scanning with fluorodeoxyglucose positron
+emission tomography (FDG-PET) are heterogeneous [307]. For many tasks, the old brain
+seems to work harder than the young one, recruiting more neurons and with higher
+energetic expense as shown by PET scan [308]. For a simple recall test of letters, a greater
+volume of activation was seen in old brains. The amount of brain activated for a given task,
+including bilateral activation, may be an insight into cognitive reserve, brain vulnerability, and
+tradeoffs in efficiency made to maintain cognitive function with age.
+Brain connectivity, as assessed with functional MRI, is altered by normal aging. The default
+mode network is modified so that the connections are less robust but are still greater than
+the changes seen in Alzheimer disease [309]. In the absence of disease, the loss of default
+mode connectivity is associated with decreased memory performance [310]. In contrast to the
+decreased within-network connectivity, there is increased between-network connectivity
+which may contribute to decreased efficiency [311].
+Cognitive and behavioral changes associated with normal aging — Certain memory
+performances on cognitive testing, like procedural, primary, and semantic memory, are well
+preserved with age [312]. Skills, ability, and knowledge that are overlearned, well-practiced,
+and familiar, like vocabulary or general knowledge, remain stable or improve up to 0.2
+standard deviations per decade through the seventh decades, but even these processes can
+begin to decrease with further aging [313]. Older people may be more accurate in judging
+
+-- 23 of 66 --
+
+distances than younger people [314]. The ability to recognize familiar objects and faces, as
+well as to maintain appropriate visual perception of objects, remains stable over the lifetime.
+Episodic and working memory and executive function are the specific domains of cognition
+most affected by "normal" aging [315]. These are late-life changes, occurring after the sixth
+decade, and have a linear or accelerating decline with further aging [316]. Processing speed
+decreases with age and can have a global effect on the testing performance of other
+neurocognitive domains in any timed test [317]. This may contribute to the slower speech
+production of older adults [318].
+Executive function, the higher-level organizational abilities such as planning, monitoring,
+inhibition, and control of action, is critical to engagement in purposeful, independent, and
+self-preserving behavior and is necessary for an older person to successfully manage their
+own medical illnesses. Executive function declines with age and more dramatically after age
+70 [319].
+Attention span decreases with even simple attentive tasks [320]. In particular, there is a
+decrease in the ability to focus on a task in a busy environment and the ability to perform
+multiple tasks at one time [319]. For example, asking an older person to say the alphabet or
+count backwards slows their gait speed by 10 to 20 percent and may increase their fall risk
+[321]. These impairments, similar to processing speed, may lead to decreased testing
+performance in other neurocognitive domains.
+Problem-solving, reasoning about unfamiliar things, processing and learning new
+information, and attending to and manipulating one's environment show a steady decline (by
+approximately -0.02 standard deviations per year) after peaking around age 30. Language
+abilities (verbal fluency and the ability to name objects) demonstrate some late-life decline,
+particularly after age 70.
+The magnitude of aging is tempered by the effects of social deprivation, environmental
+changes, smoking, alcohol, education, and other aspects of the exposome [322]. One of the
+less recognized is the effect of sleep on long-term cognition [323]. An article studied a
+Scottish population in Lothian, retesting them at age 70 on tests that they took as 11- or 12-
+year-olds. The comparison of their young age scores with those more than 50 years later are
+shown in the brush plot [324]. A sizeable minority scored better than they did when they were
+younger, but the heterogeneity is great.
+Despite measurable changes seen on cognitive testing with normal cognitive aging, the
+successfully aging 95-year-old individual remains able to function in society, the workplace,
+and/or at home. Few real-life situations require performance at maximum levels, especially
+with time pressure or acquired knowledge. The impact of cognitive loss can often be
+compensated by noncognitive factors that do not decline with age [313].
+
+-- 24 of 66 --
+
+Cognitive retraining — Novel neural challenges increase recruitment of additional brain
+regions in young healthy subjects; with repetition of the challenge, recruitment of these brain
+regions subsides and activity is seen in skill-specific regions [325-327]. Neural recruitment in
+the aging brain is used to accomplish less novel tasks. This process, referred to as
+"compensatory scaffolding," may be a strategy the brain uses to maintain function and
+cognition [328].
+Repeated use of "compensatory scaffolding" by engaging in social, leisure, and cognitive
+activities (learning a new language, pursuing higher education) may decrease the risk of
+Alzheimer disease or delay its onset [329] and slow the progress of normal aging changes
+[330]. Specifically designed cognitive training activities for older adults have also been shown
+to decrease decline in ability to perform instrumental activities of daily living, per subject self-
+reports compared with controls [331]. In healthy volunteers, cognitive training can lead to
+gray matter volume increases in the "exercised" areas [332]. Whether these efforts improve
+compensation or prevent age-related decline in neurologic processes is uncertain.
+SKIN
+The normal aging of the skin leads to atrophy, decreased elasticity, and impaired metabolic
+and reparative responses. These changes are separate from those due to sun exposure, so-
+called "photoaging."
+The epidermis becomes thinner, and the dermoepidermal junction flattens, resulting in
+increased fragility of the skin to shear stress [333]. Removing an adhesive dressing from an
+older person may dislodge the epidermis because the dermoepidermal junction is weaker
+than the bond between the skin and the dressing. Bleeding into the space between the
+dermis and epidermis occurs more frequently.
+Loss of undulations at the dermoepidermal junction decreases the area available for nutrient
+transfer, including protective lipids in the stratum corneum. This results in dry skin (xerosis)
+and a compromise in the barrier function of the skin [334]. Epidermal turnover is slowed due
+to decreased division of keratinocytes and longer migration from the basal layer to the skin
+surface [335]. The epidermal cellular composition changes, with decreases in melanocytes
+and immunologically active Langerhans cells, and a 50 percent overall reduction in nail
+growth and reductions in sweat and sebaceous gland activity [336].
+Additional changes associated with age rather than sun damage include the following:
+The dermis thins with decrease in vascularity and in the biosynthetic capacity of the
+resident fibroblasts [337]. These changes contribute to delayed wound healing. The amount
+of dermal collagen may be decreased by 75 percent with age [338], and the remaining
+collagen is fragmented and disarrayed.
+●
+
+-- 25 of 66 --
+
+Topical administration of all-trans-retinoic acid (tretinoin) appears to reverse many of the age-
+related changes in sun-protected skin (inner thigh). After nine months of daily treatment with
+topical tretinoin cream 0.025 percent, the epidermis thickens, rete ridges become deeper,
+capillaries reappear, matrix proteins are redeposited, and collagen and elastin increased
+[352]. Thus, these age-related changes appear to be mutable.
+The skin has its own microbiome with diversity in part dictated by the immune system,
+moisture, and sebum production. In older women, the diversity was greater than those 21 to
+37 for the cheek and forehead [353]. The dominant organisms change as well, with older
+individuals having less Propionibacterium, for example.
+Photoaging is the result of chronic sun exposure and recurrent damage by the sun's
+ultraviolet light. Photoaging, not physiologic aging, produces most of the cosmetically
+The elastic fiber network degenerates as elastin biosynthesis declines significantly after the
+fourth decade. Elastin fibers in aging abdominal skin are reduced in number, fiber diameter,
+volume fraction, and network connectivity [339]. Changes in the glycosaminoglycan
+macromolecules in the dermis lead to loss of hydration and decreased skin resilience [340].
+●
+The ability to deliver heat to the skin for excretion is impaired, especially during exercise
+[341]. With the loss of rete pegs at the dermoepidermal junction and loss of dermal
+capillarity, the area for heat transfer to the epidermis is decreased. Loss of subdermal fat
+decreases insulation and the ability of older people to conserve heat. Tonic vasoconstriction
+in many older adults, as well as decreases in the amount of sweat produced by sweat
+glands and higher core temperature before sweat is produced, all contributing to impaired
+thermoregulation with age [342-344].
+●
+Sensory perception of the skin decreases, particularly in the lower extremities [345].
+Decreased sensation involves both touch, due to decreased Meissner's corpuscles [346],
+and low-frequency vibration, mediated by the Pacinian corpuscles [347].
+●
+The skin plays a critical role in vitamin D synthesis. Ultraviolet rays convert 7-
+dehydrocholesterol to pre-vitamin D3 in the epidermis. Levels of 7-dehydrocholesterol
+decreased with age, thus decreasing the older person's capacity for vitamin D synthesis
+[348].
+●
+Senescent cells accumulate in the skin of older people [349].	●
+The microbiome of the skin changes with age such that increased diversity is seen on the
+older skin [338] and age can be predicted from the microbiome with a mean absolute error
+of about five years [350].
+●
+There is a decrease in subdermal fat. This loss of support contributes to the skin wrinkling
+and sagging as well as to increased susceptibility to trauma [351].
+●
+
+-- 26 of 66 --
+
+undesirable changes in skin. Cellular dysplasia, atypical cells, a loss of polarity of the
+keratinocytes, and a significant disorganization in the epidermis are the result of photoaging.
+In the dermis, photoaging leads to elastosis, aggregates of amorphous elastic fibers, a
+decrease in collagen content, an increase in glycosaminoglycans, and a modest inflammatory
+infiltrate localized to the perivascular areas. The photoaged skin looks wrinkled, lax, yellowed,
+rough, and sometimes leathery. Photoaged skin has a higher tendency toward
+telangiectasias, and it is spottily hyperpigmented and hypopigmented. Photoaging changes
+are also partially reversible by topical treatment with retinoic acid.
+SENSORY SYSTEM
+Eye — The structure of the eye changes with age. Periorbital tissues atrophy; eyelids become
+more relaxed. The lower lid flaccidity may lead to ectropion (eyelid turns outward) or
+entropion (eyelid turns inward). Lacrimal gland function, tear production, and goblet cell
+function all decrease [354]. Even though tear production decreases, watering eyes becomes
+more common because tissue atrophy leads to displacement of the lacrimal punctum and
+less effective drainage.
+The conjunctiva atrophies and yellows. The sensitivity of the cornea to touch declines by 50
+percent. Deposition of cholesterol esters, cholesterol, and neutral fat in the cornea causes
+arcus senilis, an annular yellow-white deposit on the peripheral cornea. The presence of arcus
+senilis correlated with shorter lifespans in women in the Copenhagen City Heart Study [355].
+The iris becomes more rigid, yielding a smaller, more sluggishly responsive pupil. The lens
+yellows, in part because of photo-oxidation in lens protein and an accumulation of insoluble
+protein. The yellowing of the lens causes decreased transmission of blue light [356].
+Production of aqueous humor decreases and the vitreous humor and body also shrink.
+Separation between the liquid and solid components of the vitreous may be due to collagen
+changes and manifest as flashes of light [357]. The retina becomes thinner because of a loss
+of neurons. The retina may also become more inflammatory with increasing infiltration of
+macrophages and activation of glia cells [358]. Retinal blood flow also decreases with age in
+healthy adults over 65 by 20 percent compared with younger adults [359]. The relationship
+between the blood flow and the loss of neurons is unclear.
+The changes in lens and iris lead to "presbyopia." The distance needed to focus near objects
+increases because of decreased lens elasticity and, to a lesser extent, weakening and loss of
+an effective angle of the ciliary muscle [360]. Presbyopia has gradual onset in the fourth
+decade with steady deterioration in static acuity (object at rest) and a more pronounced loss
+of dynamic visual acuity (ie, objects in motion). (See "Visual impairment in adults: Refractive
+disorders and presbyopia".)
+
+-- 27 of 66 --
+
+The older eye adapts more slowly to changes in lighting conditions; the pupil becomes rigid
+and the lens more opaque. The rate of synthesis of photopigment slows with age, adding to
+slowed adaptation to lower light conditions [361]. The absorption of photons by
+photoreceptors is also decreased with age [362]. The retina becomes thinner, especially in the
+retinal nerve fiber layer. By contrast, the retinal pigment epithelium (RPE) thickens with age
+[363]. Lens alterations increase light scattering, making the older person more sensitive to
+glare. After lens removal, the glare threshold becomes normal.
+Finally, contrast sensitivity declines, so older persons need increased color contrast to
+discriminate between target and background. This factor should be taken into account in the
+design of living environments.
+Hearing — Age-related changes in the auditory system produce decrements in high-
+frequency hearing acuity and impaired speech recognition in noisy environments. The loss of
+hearing acuity may result in social isolation and increases risk for delirium during
+hospitalization, but there is uncertainty about the risk of dementia [364,365]. The cumulative
+effects of environmental or occupational noise confound interpretation of age effects. (See
+"Etiology of hearing loss in adults".)
+With age, the walls of the external auditory canal thin. The cerumen becomes drier and more
+tenacious, increasing the risk of cerumen impaction in older people. Although the ossicular
+joints degenerate with age, sound transmission by the ossicles is well preserved.
+The inner ear experiences at least five distinct changes that occur to varying degrees:
+Which of these five changes is dominant will define subgroups of age-related hearing. The net
+results are loss of hearing acuity, especially at higher frequencies (presbycusis); difficulty with
+speech discrimination; and problems localizing the sources of sound [366,367].
+Some older individuals who say they cannot hear in fact are having difficulty understanding
+what is said. Many of the consonant sounds are in the higher frequencies (t, k, ch), and
+patients may not comprehend speech if they cannot appreciate those sounds. Strategically
+and practically, it may be better to rephrase a question that is not understood by an older
+person rather than repeat it in a louder voice, especially because pitch (frequency) is often
+raised when volume is increased. Additionally, older people may have difficulty discriminating
+target sound from background noise, adding to challenges of communicating in social
+Hair cells in the organ of Corti are lost, initially affecting those in the basal end of the
+cochlea that respond to the highest frequencies
+●
+Neurons innervating the cochlear and in the auditory centers of the brain are lost	●
+The basilar membrane underlying the sensory apparatus stiffens and may calcify	●
+The capillaries of the stria vascularis (the source of endolymph) thicken	●
+The spiral ligament degenerates	●
+
+-- 28 of 66 --
+
+situations or noisy emergency departments [368]. In these patients, amplification of sound
+alone is not effective because both target and background are amplified. Finally, as hearing
+relies so much on cognitive processing, older adults, when they have their hearing restored
+(by cochlear implant), have initial gains but are less likely to have the subsequent gains in
+speech recognition that younger adults experience. This is attributed to a lack of neural
+plasticity [369]. Despite that, a small prospective study found that after cochlear implant, 38
+percent of older adults with mild cognitive impairment improved and no longer tested as
+cognitively impaired [370].
+Taste and smell — There are visible changes in the taste buds with age, though they have
+modest impact on the sense. Although the number of papillae on the tongue decreases with
+aging, neurophysiologic responses of individual papillae are minimally altered, and there is no
+relation between gustatory acuity and number of taste buds.
+Loss of taste in older patients is in large part due to decreased olfaction rather than taste
+itself [40]. However, taste sensitivity also decreases with age, as shown by a study in which
+older patients required 30 percent higher concentrations of aspartame to detect this artificial
+sweetener [371,372].
+Similarly, more salt (two- to threefold) needs to be added to tomato soup before it can be
+appreciated by an older person [373]. The effects of age on the tongue need not be uniform,
+with regions of deficient gustatory sense becoming more common with age.
+The acuity of olfaction declines significantly with age. Detection thresholds are increased by
+more than 50 percent in healthy people by age 80; recognition of familiar smells decreases
+similarly, including the recognition of spoiled food and of a gas stove left on. The decrease in
+olfactory acuity after exposure to an odorant (habituation) is prolonged and of greater extent
+in older adults [374]. The cause of the decreased olfactory sense is unclear, but the sensation
+area decreases, the number of sensing neurons decreases, and the ability of the older person
+to replenish dying olfactory receptor neurons is compromised [373].
+Decreased taste and smell sensation may result in decreased enjoyment of food and an age-
+related difficulty in sorting tastes of mixed or combined foods. The role of olfaction in
+maintaining appetite is critical; for example, some people with anosmia forget to eat. This is
+especially important because the sensation of hunger after an overnight fast is roughly 25
+percent lower in older adults than in young adults [375].
+IMMUNE SYSTEM
+Of all the changes that occur with age, decrements in immune functions are among the most
+critical, contributing to the increased frequency of infections, malignancies, and autoimmune
+
+-- 29 of 66 --
+
+disorders. These changes are mentioned briefly here and reviewed in more detail separately.
+(See "Immune function in older adults".)
+Immunosenescence, or the aging of the immune system, does not impact all immune
+processes equally. Some of the responses that are most affected by age include the ability of
+lymphocytes (both B and T cells) to work in concert to generate effective immune responses
+upon exposure to new antigens, in the form of either infections or vaccinations.
+An important concept in immunosenescence is that of loss of precise regulation of
+inflammatory processes. Older adults display cytokine profiles that are consistent with a
+chronic, low-level inflammatory state, which is sometimes referred to as "inflammaging"
+[376]. This chronic low-grade inflammatory state contributes to age-associated morbidity and
+mortality and many of the age-related changes described above. (See "Immune function in
+older adults".)
+MOLECULAR BASIS OF AGING
+The molecular basis for age-related physiologic changes is a subject of intense active
+investigation. The process of natural selection (in which genes that promote beneficial
+conditions in early or reproductive years are selected for, and genes associated with harmful
+conditions are selected against), does not play a significant role in later life. Despite the lack of
+selection for late-life genes, some processes that may provide benefit early in life could be
+detrimental later in life, so-called antagonist pleiotropy.
+For more than 50 years, the most robust means to increase survival and modify many age-
+related changes was to use caloric restriction. Reducing caloric intake by 20 to 40 percent in
+some of the most common strains of laboratory mice and rats increased median and
+maximum lifespan by 20 to 50 percent but did not increase survival in approximately 50
+percent of tested mouse strains [377]. Studies with nonhuman primates have been less
+promising, and, despite having lower cholesterol, better insulin sensitivity, etc, survival has
+not been increased in one primate study and not another, leading to the conclusion that
+dietary composition is an additional critical factor [378-380].
+Several findings suggest that shortening of the telomere (nucleoprotein end caps on
+chromosomes) is involved in increased vulnerability of aging cells to DNA damage and
+dysregulation [381-383]. The shortened telomeres, as well as other replicative dysregulation,
+may lead to inadequate replacement of damaged or dead cells from their respective
+precursor cell populations. Interestingly, many of these resting precursors cells start to
+differentiate along adipocyte-like pathways, rather than into other tissue types [18].
+Subpopulations of adipocytes, hepatocytes, fibroblasts, and other cells may enter senescence
+with aging and develop the senescence associated secretory phenotype (SASP) [384]. SASP
+
+-- 30 of 66 --
+
+cells have the potential to release proinflammatory cytokines and other potentially harmful
+factors as well as modify the activity of local normal cells [385]. The SASP may contribute to
+"inflammaging" [386]. Agents that kill the senescent cells (senolytics) or attenuate their
+adverse effects ("senomorphics") improve various aspects of aging in animal models and early
+studies in humans [387,388]. T cells have been engineered to target and destroy senescent
+cells [389]. Other hypotheses implicate the p53 gene that is activated when DNA is damaged.
+This gene activation may mediate several molecular processes affecting cell function and
+viability: normal cell growth and division is halted, with apoptosis for cells that rapidly
+turnover; peroxisome proliferator-activated receptor gamma coactivators PGC 	and
+PGC 	are repressed and lead to loss of muscle mitochondria and buildup of free radicals
+with loss of antioxidant defenses [390]. Importantly, replicative senescence is not the only nor
+even dominant path to senescence; chromosomal damage and certain signaling pathways
+lead to senescent cells that may have relatively long telomeres.
+The mammalian target of rapamycin (mTOR) pathway regulates nutrient distribution and is
+believed to play an important role in the ability of caloric restriction to extend lifespan.
+Rapamycin has been shown to produce longevity in mice [391].
+The processes common to aging in people as well as animal models have been called the
+pillars or hallmarks of aging [392]. Lopez-Otin expanded the hallmarks to 12: genomic
+instability, telomere attrition, epigenetic alterations, loss of proteostasis, disabled
+macroautophagy, deregulated nutrient sensing, mitochondrial dysfunction, cellular
+senescence, stem cell exhaustion, altered intercellular communication, chronic inflammation,
+and dysbiosis. This has allowed researchers to organize their approaches with the expectation
+that modifying one pillar will have a multitude of effects across the other pillars. As an
+example, most cardiovascular diseases of the older adult have strong association with
+abnormalities or dysfunction for every one of the pillars of aging [393].
+LONGEVITY
+Longevity predictions are important in many aspects of medical care. Limited survival will
+impact the benefits of initiating medications or performing procedures or screening tests.
+Decision-making regarding the appropriateness of a specific intervention (eg, "Should this
+older person be given a bisphosphonate to prevent osteoporosis?") requires recognition of
+both the likely survival time for an individual and how long it may take for the intervention to
+have effect.
+One classic study provides survival data on individuals in the United States, stratified into
+quartiles by survival for each five-year period above age 65 years [394]. The absence of
+significant comorbid conditions, or the presence of superior functional status for age,
+identifies older adults who are likely to live longer than average. Conversely, individuals with
+1-alpha
+1-beta
+
+-- 31 of 66 --
+
+functional dependencies in activities of daily living and/or significant comorbidity (eg, heart
+failure, end-stage kidney disease, oxygen-dependent chronic obstructive lung disease) have a
+life expectancy substantially below the average for their age.
+Age-related modification of risk-benefit
+relationships has broad applicability. In addition to
+the documentation of the broad range of life
+expectancy for a given age, a table has been
+developed to measure the likely benefit against the
+potential risk ( table 2).
+For example, a typical 85-year-old man who has a
+symptomatic inguinal hernia is likely to have the
+problem for another 4.7 years and thus may
+warrant a discussion of surgical repair. Note that
+the tables are based on a United States White
+population and may not be generalizable to other
+groups. Also, the tables do not account quality of
+life for the specified years. Both of these issues may critically modify the interpretation of the
+tabular data. These concepts are integrated into tools at "eprognosis," which makes the data
+more specific to the individual [395].
+Successful aging — The term "successful aging" is used to identify older individuals who are
+free from chronic disease and continue to function well into old age, both physically and
+cognitively. The term "essentially healthy" identifies those with no acute disease, no recent
+history of cancer, and well-controlled chronic disease. "Exceptionally healthy" identifies older
+adults who take no medications, have no chronic disease, are normotensive, and have a
+normal body weight. Psychosocial and genetic factors contribute to successful aging as well
+as longevity.
+Predictors of high functional status in both physical and cognitive domains were evaluated in
+the longitudinal Cardiovascular Health Study, following 1677 participants for 14 years (median
+age 85, range 77 to 102, at study endpoint) [396]. Although all participants showed functional
+decline over time, 53 percent remained functionally intact, and this group had a higher
+baseline health profile and lower vascular disease risk. Greater physical impairment was
+found in women and in those with greater weight. Cardiovascular disease and hypertension
+were predictors for both cognitive and physical impairment.
+In another longitudinal study of nearly 6000 British civil service employees followed for 17
+years, successful aging was identified in 12.8 percent of men and 14.6 percent of women at
+follow-up [397]. The strongest predictor of successful aging was socioeconomic status at
+Life expectancy by age
+Table 2 - larger image below
+
+-- 32 of 66 --
+
+midlife. After adjustment for socioeconomics, not smoking, diet, exercise, moderate alcohol
+intake (in women), and work support (in men) predicted healthy aging.
+The effect of genetics on longevity and life expectancy has been explored in observational
+studies and in animal experiments. As noted above, twin studies suggest that 25 percent of
+longevity is genetic [3]. However, the importance of genetics is substantially larger at the
+extremes of longevity and may be greater for men than for women. In the New England
+Centenarian Study, male siblings of centenarians had a 17 times greater chance of living to
+age 100 compared with birth cohorts, compared with eight times greater for females [398].
+A polymorphism in the Cholesterol Ester Transfer Protein gene has been identified that is
+associated with successful aging, increased longevity, preserved cognition, less cardiovascular
+disease, and larger-sized high-density lipoprotein (HDL) particles in Ashkenazi Jews [399].
+Animal models suggest the potential for gene manipulation to prolong longevity. For
+example, the median and maximum survival of the nematode Caenorhabditis elegans can be
+increased threefold by mutating the daf-16 gene, a key regulator of insulin/insulin-like growth
+factor (IGF)-like pathways in the worm [400].
+Environmental factors are likely to interact with genetics. In Italy, the ratio of female to male
+centenarians is quite variable, ranging from 2:1 in Sardinia to 7:1 in Northern Italy, suggesting
+a gene-environment interaction [401]. Okinawa, Japan has the highest concentration of
+centenarians in the world. The longevity there has been attributed to a "caloric restriction with
+optimal nutrition" diet, similar to diets that increase longevity by 50 percent in mice and rats
+[402]. A genetic component is also possible, based on family studies of Okinawan
+centenarians [403]. Extreme female longevity may be less dependent on genetics than male
+longevity and more related to a healthier lifestyle and more favorable environmental
+conditions [401].
+The heterogeneity of older people is remarkable and important to consider when reading this
+chapter. The rates of changes and compensations for the multitude of processes altered by
+aging are very variable, and, similarly, the extents and interactions of the pillars of aging are
+also variable. The classic saying "when you have seen one 85-year-old, you have seen one 85-
+year-old" encapsulates that variability.
+Finally, one reason for the heterogeneity described above is the differences in aging between
+males and females. This has been underemphasized in this chapter for brevity, but, at least
+for cardiovascular aging, there are important and fundamental differences between aging in
+males and in females [404]. The differences lead to heart failure with preserved ejection
+fraction being a much greater risk for females. Similarly, for agents given to mice to increase
+their longevity, many of them have had sex specificity, increasing survival of males, not
+females, and vice versa [405,406]. The mechanisms and implications of these differences need
+to be addressed.
+
+-- 33 of 66 --
+
+INFORMATION FOR PATIENTS
+UpToDate offers two types of patient education materials, "The Basics" and "Beyond the
+Basics." The Basics patient education pieces are written in plain language, at the 5 to 6
+grade reading level, and they answer the four or five key questions a patient might have
+about a given condition. These articles are best for patients who want a general overview and
+who prefer short, easy-to-read materials. Beyond the Basics patient education pieces are
+longer, more sophisticated, and more detailed. These articles are written at the 10 to 12
+grade reading level and are best for patients who want in-depth information and are
+comfortable with some medical jargon.
+Here are the patient education articles that are relevant to this topic. We encourage you to
+print or e-mail these topics to your patients. (You can also locate patient education articles on
+a variety of subjects by searching on "patient info" and the keyword(s) of interest.)
+SUMMARY AND RECOMMENDATIONS
+th 	th
+th 	th
+Basics topic (see "Patient education: Sex as you get older (The Basics)")	●
+Physiologic changes – Aging, characterized by progressive changes associated with
+increased susceptibility to many diseases, is influenced by genetic factors, lifestyle choices,
+and environmental exposures. Several overarching physiologic principles characterize
+aging: loss of complexity as seen in less variability in heart rate responses, altered circadian
+patterns, and loss of physiologic reserves needed to cope with challenges to homeostasis.
+(See 'Age-associated physiologic changes' above.)
+●
+Hematopoietic system – Functional bone marrow reserves are reduced, with delayed
+response to blood loss or hypoxia. White blood cell function is impaired and myelotoxicity
+from chemotherapy is often increased. Advancing age leads to a procoagulant state, with
+increased platelet responsiveness and levels of clotting factors. (See 'Hematopoietic
+system' above.)
+•
+Gastrointestinal system – Reflux esophagitis, due to altered contractions and sphincter
+tone, is common with age and may affect nutrition. Helicobacter pylori infection is
+common, and sensitivity to gastric irritants such as nonsteroidal antiinflammatory drugs
+(NSAIDs) is increased. Colonic changes include motility changes resulting in constipation,
+decreased visceral response to bowel perforation or ischemia, colon diverticula, and
+increased risk for colon cancer. (See 'Gastrointestinal tract' above.)
+•
+Renal system – Kidney mass and function decline, with decrease in creatinine clearance
+and ability to maximally dilute urine or excrete an acid load. The older kidney is more
+•
+
+-- 34 of 66 --
+
+prone to nephrotoxicity related to medications or intravenous contrast. (See 'Renal
+system' above.)
+Cardiovascular system – It is difficult to isolate the impact of age alone on the
+cardiovascular system, since age increases risk for hypertension, coronary artery disease,
+and a more sedentary lifestyle. There is an age-related decrease in maximum heart rate,
+as well as the compensatory response of left ventricular ejection fraction (LVEF) to
+exercise. The annulus of both the aortic and mitral valve thicken, with development of
+valvular calcific deposits. (See 'Cardiovascular system' above.)
+•
+Respiratory system – Approximately one-third of surface area per volume of lung tissue
+is lost over the lifespan, with increase in anatomic dead space increases and decrease in
+functional reserves. Age increases the alveolar-arterial (A-a) oxygen gradient, more
+marked in the supine than sitting position. Cough is less vigorous in the older person and
+mucociliary clearance is slower. (See 'Respiratory system' above.)
+•
+Genitourinary system – Aging changes in the genitourinary system increase the older
+person's risk of urinary incontinence, urinary tract infection, erectile dysfunction, and
+dyspareunia. (See 'Genitourinary system' above.)
+•
+Musculoskeletal system – With aging, muscle mass decreases in relation to body
+weight, leading to impaired motility and balance, as well as age-related increased insulin
+resistance and changes in the volume of distribution for water soluble drugs. Aging
+increases the probability of fracture and slows the rate of fracture repair. Increasing
+weightbearing may increase bone mineral and prevent age-related bone loss. (See
+'Musculoskeletal system' above.)
+•
+Skin – The normal aging of the skin leads to atrophy, decreased elasticity, and impaired
+metabolic and reparative responses. Photoaging, not physiologic aging, produces 90
+percent of the cosmetically undesirable changes in skin. (See 'Skin' above.)
+•
+Sensory system – Presbyopia is due to age-related changes in the lens and iris. Age-
+related changes in the auditory system produce decrements in high-frequency hearing
+acuity and impaired speech recognition in noisy environments. Loss of taste in older
+patients is in large part due to decreased olfaction rather than taste itself. Decreased
+taste and smell sensation may result in decreased enjoyment of food and result in
+nutritional deficiencies. (See 'Sensory system' above.)
+•
+Immune function – Decrements in immune functions with aging are among the most
+critical changes, contributing to the increased frequency of infections, and malignancies.
+Immunosenescence is associated with loss of regulation of inflammatory processes.
+Older adults display cytokine profiles that are consistent with a chronic, low-level
+•
+
+-- 35 of 66 --
+
+ACKNOWLEDGMENT
+We wish to acknowledge the input of Nicolin Neal, MD, in the preparation of sections in this
+topic content.
+Use of UpToDate is subject to the Terms of Use.
+REFERENCES
+1. Blokzijl F, de Ligt J, Jager M, et al. Tissue-specific mutation accumulation in human adult
+stem cells during life. Nature 2016; 538:260.
+2. Slieker RC, Relton CL, Gaunt TR, et al. Age-related DNA methylation changes are tissue-
+specific with ELOVL2 promoter methylation as exception. Epigenetics Chromatin 2018;
+11:25.
+3. vB Hjelmborg J, Iachine I, Skytthe A, et al. Genetic influence on human lifespan and
+longevity. Hum Genet 2006; 119:312.
+4. Veldhuis JD. Altered pulsatile and coordinate secretion of pituitary hormones in aging:
+evidence of feedback disruption. Aging (Milano) 1997; 9:19.
+5. Van Cauter E, Leproult R, Kupfer DJ. Effects of gender and age on the levels and circadian
+rhythmicity of plasma cortisol. J Clin Endocrinol Metab 1996; 81:2468.
+6. Hofman MA, Swaab DF. Living by the clock: the circadian pacemaker in older people.
+Ageing Res Rev 2006; 5:33.
+7. Lipsitz LA, Goldberger AL. Loss of 'complexity' and aging. Potential applications of fractals
+and chaos theory to senescence. JAMA 1992; 267:1806.
+8. Galetta F, Franzoni F, Femia FR, et al. Lifelong physical training prevents the age-related
+impairment of heart rate variability and exercise capacity in elderly people. J Sports Med
+Phys Fitness 2005; 45:217.
+9. Cowdry EV. Problems of ageing: biological and medical aspects, 2nd ed, Williams & Wilkin
+s, Baltimore 1942.
+10. Knaus WA, Draper EA, Wagner DP, Zimmerman JE. APACHE II: a severity of disease
+classification system. Crit Care Med 1985; 13:818.
+11. Knaus WA, Wagner DP, Draper EA, et al. The APACHE III prognostic system. Risk
+prediction of hospital mortality for critically ill hospitalized adults. Chest 1991; 100:1619.
+inflammatory state, sometimes referred to as "inflammaging." (See "Immune function in
+older adults".)
+
+-- 36 of 66 --
+
+12. Beer RJ, Teasdale TA, Ghusn HF, Taffet GE. Estimation of severity of illness with APACHE II:
+age-related implications in cardiac arrest outcomes. Resuscitation 1994; 27:189.
+13. Rockwood K, Song X, Mitnitski A. Changes in relative fitness and frailty across the adult
+lifespan: evidence from the Canadian National Population Health Survey. CMAJ 2011;
+183:E487.
+14. Romero-Ortuno R, Wallis S, Biram R, Keevil V. Clinical frailty adds to acute illness severity
+in predicting mortality in hospitalized older adults: An observational study. Eur J Intern
+Med 2016; 35:24.
+15. Whitson HE, Cohen HJ, Schmader KE, et al. Physical Resilience: Not Simply the Opposite of
+Frailty. J Am Geriatr Soc 2018; 66:1459.
+16. Shen X, Wang C, Zhou X, et al. Nonlinear dynamics of multi-omics profiles during human
+aging. Nat Aging 2024; 4:1619.
+17. Sansoni P, Cossarizza A, Brianti V, et al. Lymphocyte subsets and natural killer cell activity
+in healthy old people and centenarians. Blood 1993; 82:2767.
+18. Kirkland JL, Tchkonia T, Pirtskhalava T, et al. Adipogenesis and aging: does aging make fat
+go MAD? Exp Gerontol 2002; 37:757.
+19. French RA, Broussard SR, Meier WA, et al. Age-associated loss of bone marrow
+hematopoietic cells is reversed by GH and accompanies thymic reconstitution.
+Endocrinology 2002; 143:690.
+20. Tuljapurkar SR, McGuire TR, Brusnahan SK, et al. Changes in human bone marrow fat
+content associated with changes in hematopoietic stem cell numbers and cytokine levels
+with aging. J Anat 2011; 219:574.
+21. Artz AS. From biology to clinical practice: aging and hematopoietic cell transplantation.
+Biol Blood Marrow Transplant 2012; 18:S40.
+22. Boggs DR, Patrene KD. Hematopoiesis and aging III: Anemia and a blunted erythropoietic
+response to hemorrhage in aged mice. Am J Hematol 1985; 19:327.
+23. Albright JW, Makinodan T. Decline in the growth potential of spleen-colonizing bone
+marrow stem cells of long-lived aging mice. J Exp Med 1976; 144:1204.
+24. Lipschitz DA, Udupa KB, Milton KY, Thompson CO. Effect of age on hematopoiesis in man.
+Blood 1984; 63:502.
+25. Bagnara GP, Bonsi L, Strippoli P, et al. Hemopoiesis in healthy old people and
+centenarians: well-maintained responsiveness of CD34+ cells to hemopoietic growth
+factors and remodeling of cytokine network. J Gerontol A Biol Sci Med Sci 2000; 55:B61.
+26. Shlush LI. Age-related clonal hematopoiesis. Blood 2018; 131:496.
+27. Buscarlet M, Provost S, Zada YF, et al. DNMT3A and TET2 dominate clonal hematopoiesis
+and demonstrate benign phenotypes and different genetic predispositions. Blood 2017;
+
+-- 37 of 66 --
+
+130:753.
+28. Jaiswal S, Fontanillas P, Flannick J, et al. Age-related clonal hematopoiesis associated with
+adverse outcomes. N Engl J Med 2014; 371:2488.
+29. Forsberg LA, Rasi C, Malmqvist N, et al. Mosaic loss of chromosome Y in peripheral blood
+is associated with shorter survival and higher risk of cancer. Nat Genet 2014; 46:624.
+30. Forsberg LA, Halvardson J, Rychlicka-Buniowska E, et al. Mosaic loss of chromosome Y in
+leukocytes matters. Nat Genet 2019; 51:4.
+31. Loftfield E, Zhou W, Graubard BI, et al. Predictors of mosaic chromosome Y loss and
+associations with mortality in the UK Biobank. Sci Rep 2018; 8:12316.
+32. Romano AD, Paglia A, Bellanti F, et al. Molecular Aspects and Treatment of Iron Deficiency
+in the Elderly. Int J Mol Sci 2020; 21.
+33. Pinto A, De Filippi R, Frigeri F, et al. Aging and the hemopoietic system. Crit Rev Oncol
+Hematol 2003; 48:S3.
+34. Fuentes E, Palomo I. Role of oxidative stress on platelet hyperreactivity during aging. Life
+Sci 2016; 148:17.
+35. Franchini M. Hemostasis and aging. Crit Rev Oncol Hematol 2006; 60:144.
+36. Isaia G, Greppi F, Ausiello L, et al. D-dimer plasma concentrations in an older hospitalized
+population. J Am Geriatr Soc 2011; 59:2385.
+37. Mehta J, Mehta P, Lawson D, Saldeen T. Plasma tissue plasminogen activator inhibitor
+levels in coronary artery disease: correlation with age and serum triglyceride
+concentrations. J Am Coll Cardiol 1987; 9:263.
+38. Yamamoto K, Takeshita K, Kojima T, et al. Aging and plasminogen activator inhibitor-1
+(PAI-1) regulation: implication in the pathogenesis of thrombotic disorders in the elderly.
+Cardiovasc Res 2005; 66:276.
+39. Yamamoto K, Takeshita K, Shimokawa T, et al. Plasminogen activator inhibitor-1 is a
+major stress-regulated gene: implications for stress-induced thrombosis in aged
+individuals. Proc Natl Acad Sci U S A 2002; 99:890.
+40. Hall KE, Proctor DD, Fisher L, Rose S. American gastroenterological association future
+trends committee report: effects of aging of the population on gastroenterology practice,
+education, and research. Gastroenterology 2005; 129:1305.
+41. Dunn-Walters DK, Howard WA, Bible JM. The Aeging Gut. Mech Ageing Dev 2004; 125:851.
+42. Smith CH, Boland B, Daureeawoo Y, et al. Effect of aging on stimulated salivary flow in
+adults. J Am Geriatr Soc 2013; 61:805.
+43. Leehan KM, Pezant NP, Rasmussen A, et al. Fatty infiltration of the minor salivary glands
+is a selective feature of aging but not Sjögren's syndrome. Autoimmunity 2017; 50:451.
+
+-- 38 of 66 --
+
+44. Leehan KM, Pezant NP, Rasmussen A, et al. Minor salivary gland fibrosis in Sjögren's
+syndrome is elevated, associated with focus score and not solely a consequence of aging.
+Clin Exp Rheumatol 2018; 36 Suppl 112:80.
+45. Rogus-Pulia NM, Gangnon R, Kind A, et al. A Pilot Study of Perceived Mouth Dryness,
+Perceived Swallowing Effort, and Saliva Substitute Effects in Healthy Adults Across the
+Age Range. Dysphagia 2018; 33:200.
+46. Nagler RM, Hershkovich O. Age-related changes in unstimulated salivary function and
+composition and its relations to medications and oral sensorial complaints. Aging Clin
+Exp Res 2005; 17:358.
+47. Fulp SR, Dalton CB, Castell JA, Castell DO. Aging-related alterations in human upper
+esophageal sphincter function. Am J Gastroenterol 1990; 85:1569.
+48. Frederick MG, Ott DJ, Grishaw EK, et al. Functional abnormalities of the pharynx: a
+prospective analysis of radiographic abnormalities relative to age and symptoms. AJR Am
+J Roentgenol 1996; 166:353.
+49. Iyota K, Mizutani S, Oku S, et al. A Cross-Sectional Study of Age-Related Changes in Oral
+Function in Healthy Japanese Individuals. Int J Environ Res Public Health 2020; 17.
+50. Dua KS, Surapaneni SN, Kuribayashi S, et al. Effect of aging on hypopharyngeal safe
+volume and the aerodigestive reflexes protecting the airways. Laryngoscope 2014;
+124:1862.
+51. Vicini C, De Vito A, Iannella G, et al. The aging effect on upper airways collapse of patients
+with obstructive sleep apnea syndrome. Eur Arch Otorhinolaryngol 2018; 275:2983.
+52. Cock C, Besanko L, Kritas S, et al. Impaired bolus clearance in asymptomatic older adults
+during high-resolution impedance manometry. Neurogastroenterol Motil 2016; 28:1890.
+53. Mei L, Dua A, Kern M, et al. Older Age Reduces Upper Esophageal Sphincter and
+Esophageal Body Responses to Simulated Slow and Ultraslow Reflux Events and Post-
+Reflux Residue. Gastroenterology 2018; 155:760.
+54. Lasch H, Castell DO, Castell JA. Evidence for diminished visceral pain with aging: studies
+using graded intraesophageal balloon distension. Am J Physiol 1997; 272:G1.
+55. Kekki M, Samloff IM, Ihamäki T, et al. Age- and sex-related behaviour of gastric acid
+secretion at the population level. Scand J Gastroenterol 1982; 17:737.
+56. Feldman M, Cryer B, McArthur KE, et al. Effects of aging and gastritis on gastric acid and
+pepsin secretion in humans: a prospective study. Gastroenterology 1996; 110:1043.
+57. Hurwitz A, Brady DA, Schaal SE, et al. Gastric acidity in older adults. JAMA 1997; 278:659.
+58. Haruma K, Kamada T, Kawaguchi H, et al. Effect of age and Helicobacter pylori infection
+on gastric acid secretion. J Gastroenterol Hepatol 2000; 15:277.
+59. Marshall BJ. Helicobacter pylori. Am J Gastroenterol 1994; 89:S116.
+
+-- 39 of 66 --
+
+60. Guslandi M, Pellegrini A, Sorghi M. Gastric mucosal defences in the elderly. Gerontology
+1999; 45:206.
+61. Tarnawski AS, Ahluwalia A, Jones MK. Increased susceptibility of aging gastric mucosa to
+injury: the mechanisms and clinical implications. World J Gastroenterol 2014; 20:4467.
+62. Gomez-Pinilla PJ, Gibbons SJ, Sarr MG, et al. Changes in interstitial cells of cajal with age
+in the human stomach and colon. Neurogastroenterol Motil 2011; 23:36.
+63. Yin Y, Zhang W. The Role of Ghrelin in Senescence: A Mini-Review. Gerontology 2016;
+62:155.
+64. Goldschmiedt M, Barnett CC, Schwarz BE, et al. Effect of age on gastric acid secretion and
+serum gastrin concentrations in healthy men and women. Gastroenterology 1991;
+101:977.
+65. Saltzman JR, Russell RM. The aging gut. Nutritional issues. Gastroenterol Clin North Am
+1998; 27:309.
+66. Salles N. Basic mechanisms of the aging gastrointestinal tract. Dig Dis 2007; 25:112.
+67. Drozdowski L, Thomson AB. Aging and the intestine. World J Gastroenterol 2006; 12:7578.
+68. Parlesak A, Klein B, Schecher K, et al. Prevalence of small bowel bacterial overgrowth and
+its association with nutrition intake in nonhospitalized older adults. J Am Geriatr Soc
+2003; 51:768.
+69. Man AL, Bertelli E, Rentini S, et al. Age-associated modifications of intestinal permeability
+and innate immunity in human small intestine. Clin Sci (Lond) 2015; 129:515.
+70. Hilton D, Iman N, Burke GJ, et al. Absence of abdominal pain in older persons with
+endoscopic ulcers: a prospective study. Am J Gastroenterol 2001; 96:380.
+71. Cowen T, Johnson RJ, Soubeyre V, Santer RM. Restricted diet rescues rat enteric motor
+neurones from age related cell death. Gut 2000; 47:653.
+72. Fischer M, Fadda HM. The Effect of Sex and Age on Small Intestinal Transit Times in
+Humans. J Pharm Sci 2016; 105:682.
+73. Li H, Kucharavy HC, Hajj C, et al. Radiation-induced gastrointestinal (GI) syndrome as a
+function of age. Cell Death Discov 2023; 9:31.
+74. Edwina AE, Koziolek M, Steenackers N, et al. Tracking the journey: Gastrointestinal transit
+and intraluminal pH dynamics in aging populations using wireless motility capsule. Int J
+Pharm 2025; 669:125016.
+75. Wade PR, Hornby PJ. Age-related neurodegenerative changes and how they affect the
+gut. Sci Aging Knowledge Environ 2005; 2005:pe8.
+76. Lagier E, Delvaux M, Vellas B, et al. Influence of age on rectal tone and sensitivity to
+distension in healthy subjects. Neurogastroenterol Motil 1999; 11:101.
+
+-- 40 of 66 --
+
+77. Lyon C, Clark DC. Diagnosis of acute abdominal pain in older patients. Am Fam Physician
+2006; 74:1537.
+78. Gundling F, Seidl H, Scalercio N, et al. Influence of gender and age on anorectal function:
+normal values from anorectal manometry in a large caucasian population. Digestion
+2010; 81:207.
+79. Bitar KN, Patil SB. Aging and gastrointestinal smooth muscle. Mech Ageing Dev 2004;
+125:907.
+80. Lewicky-Gaupp C, Hamilton Q, Ashton-Miller J, et al. Anal sphincter structure and function
+relationships in aging and fecal incontinence. Am J Obstet Gynecol 2009; 200:559.e1.
+81. Comparato G, Pilotto A, Franzè A, et al. Diverticular disease in the elderly. Dig Dis 2007;
+25:151.
+82. Commane DM, Arasaradnam RP, Mills S, et al. Diet, ageing and genetic factors in the
+pathogenesis of diverticular disease. World J Gastroenterol 2009; 15:2479.
+83. Xiao ZQ, Moragoda L, Jaszewski R, et al. Aging is associated with increased proliferation
+and decreased apoptosis in the colonic mucosa. Mech Ageing Dev 2001; 122:1849.
+84. Tran L, Greenwood-Van Meerveld B. Age-associated remodeling of the intestinal
+epithelial barrier. J Gerontol A Biol Sci Med Sci 2013; 68:1045.
+85. Salazar AM, Aparicio R, Clark RI, et al. Intestinal barrier dysfunction: an evolutionarily
+conserved hallmark of aging. Dis Model Mech 2023; 16.
+86. Conway J, De Jong EN, White AJ, et al. Age-related loss of intestinal barrier integrity plays
+an integral role in thymic involution and T cell ageing. Aging Cell 2025; 24:e14401.
+87. Wilms E, Troost FJ, Elizalde M, et al. Intestinal barrier function is maintained with aging - a
+comprehensive study in healthy subjects and irritable bowel syndrome patients. Sci Rep
+2020; 10:475.
+88. Kim S, Jazwinski SM. The Gut Microbiota and Healthy Aging: A Mini-Review. Gerontology
+2018; 64:513.
+89. Ragonnaud E, Biragyn A. Gut microbiota as the key controllers of "healthy" aging of
+elderly people. Immun Ageing 2021; 18:2.
+90. Mabbott NA, Kobayashi A, Sehgal A, et al. Aging and the mucosal immune system in the
+intestine. Biogerontology 2015; 16:133.
+91. McLean AJ, Le Couteur DG. Aging biology and geriatric clinical pharmacology. Pharmacol
+Rev 2004; 56:163.
+92. Schmucker DL. Aging and the liver: an update. J Gerontol A Biol Sci Med Sci 1998;
+53:B315.
+93. Wachsmuth M, Hübner A, Li M, et al. Age-Related and Heteroplasmy-Related Variation in
+Human mtDNA Copy Number. PLoS Genet 2016; 12:e1005939.
+
+-- 41 of 66 --
+
+94. de Boer JD, Koopman JJ, Metselaar HJ, et al. Liver transplantation with geriatric liver
+allografts: the current situation in Eurotransplant. Transpl Int 2017; 30:432.
+95. Jiménez-Romero C, Cambra F, Caso O, et al. Octogenarian liver grafts: Is their use for
+transplant currently justified? World J Gastroenterol 2017; 23:3099.
+96. Rahmioglu N, Andrew T, Cherkas L, et al. Epidemiology and genetic epidemiology of the
+liver function test proteins. PLoS One 2009; 4:e4435.
+97. Anantharaju A, Feller A, Chedid A. Aging Liver. A review. Gerontology 2002; 48:343.
+98. Fu A, Nair KS. Age effect on fibrinogen and albumin synthesis in humans. Am J Physiol
+1998; 275:E1023.
+99. Tietz NW, Shuey DF, Wekstein DR. Laboratory values in fit aging individuals--
+sexagenarians through centenarians. Clin Chem 1992; 38:1167.
+100. Rudman D, Feller AG, Nagraj HS, et al. Relation of serum albumin concentration to death
+rate in nursing home men. JPEN J Parenter Enteral Nutr 1987; 11:360.
+101. Schmucker DL. Age-related changes in liver structure and function: Implications for
+disease ? Exp Gerontol 2005; 40:650.
+102. Sotaniemi EA, Arranto AJ, Pelkonen O, Pasanen M. Age and cytochrome P450-linked drug
+metabolism in humans: an analysis of 226 subjects with equal histopathologic conditions.
+Clin Pharmacol Ther 1997; 61:331.
+103. Turnheim K. When drug therapy gets old: pharmacokinetics and pharmacodynamics in
+the elderly. Exp Gerontol 2003; 38:843.
+104. Froom P, Miron E, Barak M. Oral anticoagulants in the elderly. Br J Haematol 2003;
+120:526.
+105. Valdivieso V, Palma R, Wünkhaus R, et al. Effect of aging on biliary lipid composition and
+bile acid metabolism in normal Chilean women. Gastroenterology 1978; 74:871.
+106. Watanabe Y, Kuboki S, Shimizu H, et al. A New Proposal of Criteria for the Future
+Remnant Liver Volume in Older Patients Undergoing Major Hepatectomy for Biliary Tract
+Cancer. Ann Surg 2018; 267:338.
+107. Yang W, Xie Y, Song B, et al. Effects of aging and menopause on pancreatic fat fraction in
+healthy women population: A strobe-compliant article. Medicine (Baltimore) 2019;
+98:e14451.
+108. Löhr JM, Panic N, Vujasinovic M, Verbeke CS. The ageing pancreas: a systematic review of
+the evidence and analysis of the consequences. J Intern Med 2018; 283:446.
+109. Bülow R, Simon P, Thiel R, et al. Anatomic variants of the pancreatic duct and their clinical
+relevance: an MR-guided study in the general population. Eur Radiol 2014; 24:3142.
+110. Chkhotua AB, Gabusi E, Altimari A, et al. Increased expression of p16(INK4a) and
+p27(Kip1) cyclin-dependent kinase inhibitor genes in aging human kidney and chronic
+
+-- 42 of 66 --
+
+allograft nephropathy. Am J Kidney Dis 2003; 41:1303.
+111. Sturmlechner I, Durik M, Sieben CJ, et al. Cellular senescence in renal ageing and disease.
+Nat Rev Nephrol 2017; 13:77.
+112. Wang WJ, Chen XM, Cai GY. Cellular senescence and the senescence-associated secretory
+phenotype: Potential therapeutic targets for renal fibrosis. Exp Gerontol 2021;
+151:111403.
+113. Denic A, Lieske JC, Chakkera HA, et al. The Substantial Loss of Nephrons in Healthy
+Human Kidneys with Aging. J Am Soc Nephrol 2017; 28:313.
+114. Nyengaard JR, Bendtsen TF. Glomerular number and size in relation to age, kidney
+weight, and body surface in normal man. Anat Rec 1992; 232:194.
+115. Denic A, Mathew J, Lerman LO, et al. Single-Nephron Glomerular Filtration Rate in Healthy
+Adults. N Engl J Med 2017; 376:2349.
+116. Tracy RE, Velez-Duran M, Heigle T, Oalmann MC. Two variants of nephrosclerosis
+separately related to age and blood pressure. Am J Pathol 1988; 131:270.
+117. Long DA, Mu W, Price KL, Johnson RJ. Blood vessels and the aging kidney. Nephron Exp
+Nephrol 2005; 101:e95.
+118. Rule AD, Amer H, Cornell LD, et al. The association between age and nephrosclerosis on
+renal biopsy among healthy adults. Ann Intern Med 2010; 152:561.
+119. Nkuipou-Kenfack E, Bhat A, Klein J, et al. Identification of ageing-associated naturally
+occurring peptides in human urine. Oncotarget 2015; 6:34106.
+120. Fuiano G, Sund S, Mazza G, et al. Renal hemodynamic response to maximal vasodilating
+stimulus in healthy older subjects. Kidney Int 2001; 59:1052.
+121. Esposito C, Plati A, Mazzullo T, et al. Renal function and functional reserve in healthy
+elderly individuals. J Nephrol 2007; 20:617.
+122. Ungar A, Cristofari C, Torrini M, et al. Changes in renal autacoids in aged human
+hypertensives. J Physiol Pharmacol 2000; 51:619.
+123. Field TS, Gurwitz JH, Glynn RJ, et al. The renal effects of nonsteroidal anti-inflammatory
+drugs in older people: findings from the Established Populations for Epidemiologic
+Studies of the Elderly. J Am Geriatr Soc 1999; 47:507.
+124. Whelton A. Nephrotoxicity of nonsteroidal anti-inflammatory drugs: physiologic
+foundations and clinical implications. Am J Med 1999; 106:13S.
+125. Lindeman RD. Overview: renal physiology and pathophysiology of aging. Am J Kidney Dis
+1990; 16:275.
+126. Giannelli SV, Patel KV, Windham BG, et al. Magnitude of underascertainment of impaired
+kidney function in older adults with normal serum creatinine. J Am Geriatr Soc 2007;
+55:816.
+
+-- 43 of 66 --
+
+127. Schmitt R, Melk A. Molecular mechanisms of renal aging. Kidney Int 2017; 92:569.
+128. Fliser D. Assessment of renal function in elderly patients. Curr Opin Nephrol Hypertens
+2008; 17:604.
+129. Lopes MB, Araújo LQ, Passos MT, et al. Estimation of glomerular filtration rate from
+serum creatinine and cystatin C in octogenarians and nonagenarians. BMC Nephrol 2013;
+14:265.
+130. Christensson A, Elmståhl S. Estimation of the age-dependent decline of glomerular
+filtration rate from formulas based on creatinine and cystatin C in the general elderly
+population. Nephron Clin Pract 2011; 117:c40.
+131. Odden MC, Tager IB, Gansevoort RT, et al. Age and cystatin C in healthy adults: a
+collaborative study. Nephrol Dial Transplant 2010; 25:463.
+132. Newman AB, Sanders JL, Kizer JR, et al. Trajectories of function and biomarkers with age:
+the CHS All Stars Study. Int J Epidemiol 2016; 45:1135.
+133. Parsons TJ, Sartini C, Ash S, et al. Objectively measured physical activity and kidney
+function in older men; a cross-sectional population-based study. Age Ageing 2017;
+46:1010.
+134. Sands JM. Urine concentrating and diluting ability during aging. J Gerontol A Biol Sci Med
+Sci 2012; 67:1352.
+135. Pucelikova T, Dangas G, Mehran R. Contrast-induced nephropathy. Catheter Cardiovasc
+Interv 2008; 71:62.
+136. Toprak O. Risk markers for contrast-induced nephropathy. Am J Med Sci 2007; 334:283.
+137. Schmitt R, Cantley LG. The impact of aging on kidney repair. Am J Physiol Renal Physiol
+2008; 294:F1265.
+138. Ishida M, Bulos B, Takamoto S, Sacktor B. Hydroxylation of 25-hydroxyvitamin D3 by renal
+mitochondria from rats of different ages. Endocrinology 1987; 121:443.
+139. Tsai KS, Heath H 3rd, Kumar R, Riggs BL. Impaired vitamin D metabolism with aging in
+women. Possible role in pathogenesis of senile osteoporosis. J Clin Invest 1984; 73:1668.
+140. Kinyamu HK, Gallagher JC, Petranick KM, Ryschon KL. Effect of parathyroid hormone
+(hPTH[1-34]) infusion on serum 1,25-dihydroxyvitamin D and parathyroid hormone in
+normal women. J Bone Miner Res 1996; 11:1400.
+141. Noth RH, Lassman MN, Tan SY, et al. Age and the renin-aldosterone system. Arch Intern
+Med 1977; 137:1414.
+142. Weidmann P, De Myttenaere-Bursztein S, Maxwell MH, de Lima J. Effect on aging on
+plasma renin and aldosterone in normal man. Kidney Int 1975; 8:325.
+143. Diz DI. Lewis K. Dahl memorial lecture: the renin-angiotensin system and aging.
+Hypertension 2008; 52:37.
+
+-- 44 of 66 --
+
+144. Nanba K, Vaidya A, Williams GH, et al. Age-Related Autonomous Aldosteronism.
+Circulation 2017; 136:347.
+145. Powers JS, Krantz SB, Collins JC, et al. Erythropoietin response to anemia as a function of
+age. J Am Geriatr Soc 1991; 39:30.
+146. Ferrucci L, Guralnik JM, Bandinelli S, et al. Unexplained anaemia in older persons is
+characterised by low erythropoietin and low levels of pro-inflammatory markers. Br J
+Haematol 2007; 136:849.
+147. Drew DA, Katz R, Kritchevsky S, et al. Association between Soluble Klotho and Change in
+Kidney Function: The Health Aging and Body Composition Study. J Am Soc Nephrol 2017;
+28:1859.
+148. Arking DE, Krebsova A, Macek M Sr, et al. Association of human aging with a functional
+variant of klotho. Proc Natl Acad Sci U S A 2002; 99:856.
+149. White N. The relationship of the degree of coronary atherosclerosis with age in men.
+Circulation 1950; 1:645.
+150. Fleg JL, O'Connor F, Gerstenblith G, et al. Impact of age on the cardiovascular response to
+dynamic upright exercise in healthy men and women. J Appl Physiol (1985) 1995; 78:890.
+151. Taffet GE, Lakatta EG. Aging of the Cardiovascular System. In: Principles of Geriatric Medi
+cine and Gerontology, 5th ed, Hazzard WR, Blass JP, Halter JB, et al (Eds), McGraw-Hill, Ne
+w York 2003. p.403.
+152. Wehrum T, Lodemann T, Hagenlocher P, et al. Age-related changes of right atrial
+morphology and inflow pattern assessed using 4D flow cardiovascular magnetic
+resonance: results of a population-based study. J Cardiovasc Magn Reson 2018; 20:38.
+153. Van de Veire NR, De Backer J, Ascoop AK, et al. Echocardiographically estimated left
+ventricular end-diastolic and right ventricular systolic pressure in normotensive healthy
+individuals. Int J Cardiovasc Imaging 2006; 22:633.
+154. Yoshida Y, Nakanishi K, Daimon M, et al. Alteration of Cardiac Performance and Serum B-
+Type Natriuretic Peptide Level in Healthy Aging. J Am Coll Cardiol 2019; 74:1789.
+155. Singh A, Carvalho Singulane C, Miyoshi T, et al. Normal Values of Left Atrial Size and
+Function and the Impact of Age: Results of the World Alliance Societies of
+Echocardiography Study. J Am Soc Echocardiogr 2022; 35:154.
+156. Goette A, Kalman JM, Aguinaga L, et al. EHRA/HRS/APHRS/SOLAECE expert consensus on
+atrial cardiomyopathies: Definition, characterization, and clinical implication. Heart
+Rhythm 2017; 14:e3.
+157. Gates PE, Tanaka H, Graves J, Seals DR. Left ventricular structure and diastolic function
+with human ageing. Relation to habitual exercise and arterial stiffness. Eur Heart J 2003;
+24:2213.
+
+-- 45 of 66 --
+
+158. Hagström L, Henein MY, Karp K, et al. Impact of age and sex on normal left heart
+structure and function. Clin Physiol Funct Imaging 2017; 37:759.
+159. Pandey A, Kraus WE, Brubaker PH, Kitzman DW. Healthy Aging and
+Cardiovascular Function: Invasive Hemodynamics During Rest and Exercise in
+104 Healthy Volunteers. JACC Heart Fail 2020; 8:111.
+160. Kitzman DW, Scholz DG, Hagen PT, et al. Age-related changes in normal human hearts
+during the first 10 decades of life. Part II (Maturity): A quantitative anatomic study of 765
+specimens from subjects 20 to 99 years old. Mayo Clin Proc 1988; 63:137.
+161. Bergmann O, Bhardwaj RD, Bernard S, et al. Evidence for cardiomyocyte renewal in
+humans. Science 2009; 324:98.
+162. Olivetti G, Melissari M, Capasso JM, Anversa P. Cardiomyopathy of the aging human
+heart. Myocyte loss and reactive cellular hypertrophy. Circ Res 1991; 68:1560.
+163. Zhang XP, Vatner SF, Shen YT, et al. Increased apoptosis and myocyte enlargement with
+decreased cardiac mass; distinctive features of the aging male, but not female, monkey
+heart. J Mol Cell Cardiol 2007; 43:487.
+164. Kajstura J, Cheng W, Sarangarajan R, et al. Necrotic and apoptotic myocyte cell death in
+the aging heart of Fischer 344 rats. Am J Physiol 1996; 271:H1215.
+165. Jones SA, Boyett MR, Lancaster MK. Declining into failure: the age-dependent loss of the
+L-type calcium channel within the sinoatrial node. Circulation 2007; 115:1183.
+166. Stratton JR, Cerqueira MD, Schwartz RS, et al. Differences in cardiovascular responses to
+isoproterenol in relation to age and exercise training in healthy men. Circulation 1992;
+86:504.
+167. Nathania M, Hollingsworth KG, Bates M, et al. Impact of age on the association between
+cardiac high-energy phosphate metabolism and cardiac power in women. Heart 2018;
+104:111.
+168. Piotrowska Ż, Niezgoda M, Łebkowski W, et al. Sex differences in distribution of
+cannabinoid receptors (CB1 and CB2), S100A6 and CacyBP/SIP in human ageing hearts.
+Biol Sex Differ 2018; 9:50.
+169. Pacher P, Steffens S, Haskó G, et al. Cardiovascular effects of marijuana and synthetic
+cannabinoids: the good, the bad, and the ugly. Nat Rev Cardiol 2018; 15:151.
+170. Ozemek C, Whaley MH, Finch WH, Kaminsky LA. High Cardiorespiratory Fitness Levels
+Slow the Decline in Peak Heart Rate with Age. Med Sci Sports Exerc 2016; 48:73.
+171. Parati G, Di Rienzo M. Determinants of heart rate and heart rate variability. J Hypertens
+2003; 21:477.
+172. Fleg JL, Kennedy HL. Long-term prognostic significance of ambulatory
+electrocardiographic findings in apparently healthy subjects greater than or equal to 60
+years of age. Am J Cardiol 1992; 70:748.
+
+-- 46 of 66 --
+
+173. Busby MJ, Shefrin EA, Fleg JL. Prevalence and long-term significance of exercise-induced
+frequent or repetitive ventricular ectopic beats in apparently healthy volunteers. J Am Coll
+Cardiol 1989; 14:1659.
+174. Stratton JR, Levy WC, Cerqueira MD, et al. Cardiovascular responses to exercise. Effects of
+aging and exercise training in healthy men. Circulation 1994; 89:1648.
+175. Swinne CJ, Shapiro EP, Lima SD, Fleg JL. Age-associated changes in left ventricular
+diastolic performance during isometric exercise in normal subjects. Am J Cardiol 1992;
+69:823.
+176. Cain BS, Meldrum DR, Joo KS, et al. Human SERCA2a levels correlate inversely with age in
+senescent human myocardium. J Am Coll Cardiol 1998; 32:458.
+177. Hollingsworth KG, Blamire AM, Keavney BD, Macgowan GA. Left ventricular torsion,
+energetics, and diastolic function in normal human aging. Am J Physiol Heart Circ Physiol
+2012; 302:H885.
+178. Liu CY, Liu YC, Wu C, et al. Evaluation of age-related interstitial myocardial fibrosis with
+cardiac magnetic resonance contrast-enhanced T1 mapping: MESA (Multi-Ethnic Study of
+Atherosclerosis). J Am Coll Cardiol 2013; 62:1280.
+179. Gazoti Debessa CR, Mesiano Maifrino LB, Rodrigues de Souza R. Age related changes of
+the collagen network of the human heart. Mech Ageing Dev 2001; 122:1049.
+180. Hamada M, Shigematsu Y, Takezaki M, et al. Plasma levels of atrial and brain natriuretic
+peptides in apparently healthy subjects: Effects of sex, age, and hemoglobin
+concentration. Int J Cardiol 2017; 228:599.
+181. Wolsk E, Bakkestrøm R, Thomsen JH, et al. The Influence of Age on Hemodynamic
+Parameters During Rest and Exercise in Healthy Individuals. JACC Heart Fail 2017; 5:337.
+182. Swain SM, Whaley FS, Ewer MS. Congestive heart failure in patients treated with
+doxorubicin: a retrospective analysis of three trials. Cancer 2003; 97:2869.
+183. Mao SS, Ahmadi N, Shah B, et al. Normal thoracic aorta diameter on cardiac computed
+tomography in healthy asymptomatic adults: impact of age and gender. Acad Radiol
+2008; 15:827.
+184. Adriaans BP, Heuts S, Gerretsen S, et al. Aortic elongation part I: the normal aortic ageing
+process. Heart 2018; 104:1772.
+185. Loose S, Solou D, Strecker C, et al. Characterization of aortic aging using 3D multi-
+parametric MRI-long-term follow-up in a population study. Sci Rep 2023; 13:6285.
+186. Avolio AP, Kuznetsova T, Heyndrickx GR, et al. Arterial Flow, Pulse Pressure and Pulse
+Wave Velocity in Men and Women at Various Ages. Adv Exp Med Biol 2018; 1065:153.
+187. Ashley J, Pasha EP, Tarumi T, et al. Lower diastolic velocity in the internal carotid artery
+mediates lower cerebral blood flow with age. J Appl Physiol (1985) 2025; 138:1385.
+
+-- 47 of 66 --
+
+188. Baldo MP, Cunha RS, Molina MDCB, et al. Carotid-femoral pulse wave velocity in a healthy
+adult sample: The ELSA-Brasil study. Int J Cardiol 2018; 251:90.
+189. Oue A, Asashima C, Oizumi R, et al. Age-related attenuation of conduit artery blood flow
+response to passive heating differs between the arm and leg. Eur J Appl Physiol 2018;
+118:2307.
+190. Gillooly M, Lamb D. Airspace size in lungs of lifelong non-smokers: effect of age and sex.
+Thorax 1993; 48:39.
+191. Janssens JP. Aging of the respiratory system: impact on pulmonary function tests and
+adaptation to exertion. Clin Chest Med 2005; 26:469.
+192. Cho SJ, Stout-Delgado HW. Aging and Lung Disease. Annu Rev Physiol 2020; 82:433.
+193. Taylor BJ, Johnson BD. The pulmonary circulation and exercise responses in the elderly.
+Semin Respir Crit Care Med 2010; 31:528.
+194. Tagaram HR, Wang G, Umstead TM, et al. Characterization of a human surfactant protein
+A1 (SP-A1) gene-specific antibody; SP-A1 content variation among individuals of varying
+age and pulmonary health. Am J Physiol Lung Cell Mol Physiol 2007; 292:L1052.
+195. Moliva JI, Rajaram MV, Sidiki S, et al. Molecular composition of the alveolar lining fluid in
+the aging lung. Age (Dordr) 2014; 36:933.
+196. Santesmasses D, Castro JP, Zenin AA, et al. COVID-19 is an emergent disease of aging.
+Aging Cell 2020; 19:e13230.
+197. Calhoun C, Shivshankar P, Saker M, et al. Senescent Cells Contribute to the Physiological
+Remodeling of Aged Lungs. J Gerontol A Biol Sci Med Sci 2016; 71:153.
+198. Stam H, Hrachovina V, Stijnen T, Versprille A. Diffusing capacity dependent on lung
+volume and age in normal subjects. J Appl Physiol (1985) 1994; 76:2356.
+199. Update on Blue Cross and Blue Shield of Maryland. Md Med J 1993; 42:487.
+200. Hardie JA, Mørkve O, Ellingsen I. Effect of body position on arterial oxygen tension in the
+elderly. Respiration 2002; 69:123.
+201. Crapo RO, Jensen RL, Hegewald M, Tashkin DP. Arterial blood gas reference values for sea
+level and an altitude of 1,400 meters. Am J Respir Crit Care Med 1999; 160:1525.
+202. Cerveri I, Zoia MC, Fanfulla F, et al. Reference values of arterial oxygen tension in the
+middle-aged and elderly. Am J Respir Crit Care Med 1995; 152:934.
+203. Hardie JA, Vollmer WM, Buist AS, et al. Reference values for arterial blood gases in the
+elderly. Chest 2004; 125:2053.
+204. Estenne M, Yernault JC, De Troyer A. Rib cage and diaphragm-abdomen compliance in
+humans: effects of age and posture. J Appl Physiol (1985) 1985; 59:1842.
+205. Polkey MI, Harris ML, Hughes PD, et al. The contractile properties of the elderly human
+diaphragm. Am J Respir Crit Care Med 1997; 155:1560.
+
+-- 48 of 66 --
+
+206. Aghasafari P, Heise RL, Reynolds A, Pidaparti RM. Aging Effects on Alveolar Sacs Under
+Mechanical Ventilation. J Gerontol A Biol Sci Med Sci 2019; 74:139.
+207. Kuster SP, Kuster D, Schindler C, et al. Reference equations for lung function screening of
+healthy never-smoking adults aged 18-80 years. Eur Respir J 2008; 31:860.
+208. Xu X, Laird N, Dockery DW, et al. Age, period, and cohort effects on pulmonary function in
+a 24-year longitudinal study. Am J Epidemiol 1995; 141:554.
+209. Petraglia L, Komici K, Bencivenga L, et al. The association between muscle strength and z
+scores of pulmonary function. Sci Rep 2025; 15:27662.
+210. Triebner K, Matulonga B, Johannessen A, et al. Menopause Is Associated with Accelerated
+Lung Function Decline. Am J Respir Crit Care Med 2017; 195:1058.
+211. Triebner K, Accordini S, Calciano L, et al. Exogenous female sex steroids may reduce lung
+ageing after menopause: A 20-year follow-up study of a general population sample
+(ECRHS). Maturitas 2019; 120:29.
+212. Sato Y, Onoue A, Machida K, et al. Seventeen-year cumulative incidence of airflow
+limitation and lung function decline in two independent cohorts: The Japanese Red Cross
+Kumamoto study. Respir Investig 2025; 63:844.
+213. Taffet GE, Donohue JF, Altman PR. Considerations for managing chronic obstructive
+pulmonary disease in the elderly. Clin Interv Aging 2014; 9:23.
+214. Karrasch S, Behr J, Huber RM, et al. Heterogeneous pattern of differences in respiratory
+parameters between elderly with either good or poor FEV1. BMC Pulm Med 2018; 18:27.
+215. Enright PL, Kronmal RA, Manolio TA, et al. Respiratory muscle strength in the elderly.
+Correlates and reference values. Cardiovascular Health Study Research Group. Am J
+Respir Crit Care Med 1994; 149:430.
+216. Enright PL, Adams AB, Boyle PJ, Sherrill DL. Spirometry and maximal respiratory pressure
+references from healthy Minnesota 65- to 85-year-old women and men. Chest 1995;
+108:663.
+217. Summerhill EM, Angov N, Garber C, McCool FD. Respiratory muscle strength in the
+physically active elderly. Lung 2007; 185:315.
+218. Skloot GS. The Effects of Aging on Lung Structure and Function. Clin Geriatr Med 2017;
+33:447.
+219. Kronenberg RS, Drage CW. Attenuation of the ventilatory and heart rate responses to
+hypoxia and hypercapnia with aging in normal men. J Clin Invest 1973; 52:1812.
+220. Pack AI, Millman RP. Changes in control of ventilation, awake and asleep, in the elderly. J
+Am Geriatr Soc 1986; 34:533.
+221. Han S, Budinger GRS, Gottardi CJ. Alveolar epithelial regeneration in the aging lung. J Clin
+Invest 2023; 133.
+
+-- 49 of 66 --
+
+222. Ho JC, Chan KN, Hu WH, et al. The effect of aging on nasal mucociliary clearance, beat
+frequency, and ultrastructure of respiratory cilia. Am J Respir Crit Care Med 2001;
+163:983.
+223. Svartengren M, Falk R, Philipson K. Long-term clearance from small airways decreases
+with age. Eur Respir J 2005; 26:609.
+224. Lee SY, Mac Aogáin M, Fam KD, et al. Airway microbiome composition correlates with
+lung function and arterial stiffness in an age-dependent manner. PLoS One 2019;
+14:e0225636.
+225. Torrelles JB, Restrepo BI, Bai Y, et al. The Impact of Aging on the Lung Alveolar
+Environment, Predetermining Susceptibility to Respiratory Infections. Front Aging 2022;
+3:818700.
+226. Fleg JL, Morrell CH, Bos AG, et al. Accelerated longitudinal decline of aerobic capacity in
+healthy older adults. Circulation 2005; 112:674.
+227. Hollenberg M, Yang J, Haight TJ, Tager IB. Longitudinal changes in aerobic capacity:
+implications for concepts of aging. J Gerontol A Biol Sci Med Sci 2006; 61:851.
+228. Hu TW, Wagner TH, Bentkover JD, et al. Costs of urinary incontinence and overactive
+bladder in the United States: a comparative study. Urology 2004; 63:461.
+229. Losco G, Chan L, Esler R, et al. Natural history of lower urinary tract symptoms and
+voiding parameters in ageing men with 5-year follow-up-the concord health and ageing
+in men project (CHAMP). Age Ageing 2025; 54.
+230. Elbadawi A, Diokno AC, Millard RJ. The aging bladder: morphology and urodynamics.
+World J Urol 1998; 16 Suppl 1:S10.
+231. Rosier PFWM, Ten Donkelaar CS, de Kort LMO. Clinical Epidemiology: Detrusor Voiding
+Contraction Maximum Power, Related to Ageing. Urology 2019; 124:72.
+232. Gilpin SA, Gilpin CJ, Dixon JS, et al. The effect of age on the autonomic innervation of the
+urinary bladder. Br J Urol 1986; 58:378.
+233. Tadic SD, Griffiths D, Schaefer W, et al. Brain activity underlying impaired continence
+control in older women with overactive bladder. Neurourol Urodyn 2012; 31:652.
+234. Haddad R, Panicker JN, Verbakel I, et al. The low dopamine hypothesis: A plausible
+mechanism underpinning residual urine, overactive bladder and nocturia (RON)
+syndrome in older patients. Prog Urol 2023; 33:155.
+235. Petereit C, Porath K, Rackow S, et al. Age-dependent effects of the β3 adrenoceptor
+agonist CL316,243 on human and rat detrusor muscle strips. Pflugers Arch 2024;
+476:243.
+236. Dubeau CE. The aging lower urinary tract. J Urol 2006; 175:S11.
+237. Capobianco G, Donolo E, Borghero G, et al. Effects of intravaginal estriol and pelvic floor
+rehabilitation on urogenital aging in postmenopausal women. Arch Gynecol Obstet 2012;
+
+-- 50 of 66 --
+
+285:397.
+238. Curtiss N, Balachandran A, Krska L, et al. Age, menopausal status and the bladder
+microbiome. Eur J Obstet Gynecol Reprod Biol 2018; 228:126.
+239. Rosen R, Altwein J, Boyle P, et al. Lower urinary tract symptoms and male sexual
+dysfunction: the multinational survey of the aging male (MSAM-7). Eur Urol 2003; 44:637.
+240. Lindau ST, Gavrilova N. Sex, health, and years of sexually active life gained due to good
+health: evidence from two US population based cross sectional surveys of ageing. BMJ
+2010; 340:c810.
+241. Seftel AD. From aspiration to achievement: assessment and noninvasive treatment of
+erectile dysfunction in aging men. J Am Geriatr Soc 2005; 53:119.
+242. Harris ID, Fronczak C, Roth L, Meacham RB. Fertility and the aging male. Rev Urol 2011;
+13:e184.
+243. Hermann M, Untergasser G, Rumpold H, Berger P. Aging of the male reproductive
+system. Exp Gerontol 2000; 35:1267.
+244. Tarlatzis BC, Zepiridis L. Perimenopausal conception. Ann N Y Acad Sci 2003; 997:93.
+245. Kingsberg SA. The impact of aging on sexual function in women and their partners. Arch
+Sex Behav 2002; 31:431.
+246. Dang HT, Noel-Romas L, Knodel S, et al. Aging Is Associated With Decreased Lactobacillus
+and Increased Cervicovaginal Inflammation in Canadian Women. Am J Reprod Immunol
+2025; 93:e70058.
+247. Baumgartner RN, Waters DL, Gallagher D, et al. Predictors of skeletal muscle mass in
+elderly men and women. Mech Ageing Dev 1999; 107:123.
+248. Pasco JA, Mohebbi M, Holloway KL, et al. Musculoskeletal decline and mortality:
+prospective data from the Geelong Osteoporosis Study. J Cachexia Sarcopenia Muscle
+2016.
+249. Baumgartner RN, Koehler KM, Gallagher D, et al. Epidemiology of sarcopenia among the
+elderly in New Mexico. Am J Epidemiol 1998; 147:755.
+250. Ryall JG, Schertzer JD, Lynch GS. Cellular and molecular mechanisms underlying age-
+related skeletal muscle wasting and weakness. Biogerontology 2008; 9:213.
+251. Reinders I, Murphy RA, Brouwer IA, et al. Muscle Quality and Myosteatosis: Novel
+Associations With Mortality Risk: The Age, Gene/Environment Susceptibility (AGES)-
+Reykjavik Study. Am J Epidemiol 2016; 183:53.
+252. Reinders I, Murphy RA, Koster A, et al. Muscle Quality and Muscle Fat Infiltration in
+Relation to Incident Mobility Disability and Gait Speed Decline: the Age,
+Gene/Environment Susceptibility-Reykjavik Study. J Gerontol A Biol Sci Med Sci 2015;
+70:1030.
+
+-- 51 of 66 --
+
+253. Cesari M, Pahor M, Lauretani F, et al. Skeletal muscle and mortality results from the
+InCHIANTI Study. J Gerontol A Biol Sci Med Sci 2009; 64:377.
+254. Goodpaster BH, He J, Watkins S, Kelley DE. Skeletal muscle lipid content and insulin
+resistance: evidence for a paradox in endurance-trained athletes. J Clin Endocrinol Metab
+2001; 86:5755.
+255. Pruchnic R, Katsiaras A, He J, et al. Exercise training increases intramyocellular lipid and
+oxidative capacity in older adults. Am J Physiol Endocrinol Metab 2004; 287:E857.
+256. Tøien T, Nielsen JL, Berg OK, et al. The impact of life-long strength versus endurance
+training on muscle fiber morphology and phenotype composition in older men. J Appl
+Physiol (1985) 2023; 135:1360.
+257. Faulkner JA, Larkin LM, Claflin DR, Brooks SV. Age-related changes in the structure and
+function of skeletal muscles. Clin Exp Pharmacol Physiol 2007; 34:1091.
+258. Watanabe K, Holobar A, Kouzaki M, et al. Age-related changes in motor unit firing pattern
+of vastus lateralis muscle during low-moderate contraction. Age (Dordr) 2016; 38:48.
+259. Delbono O. Neural control of aging skeletal muscle. Aging Cell 2003; 2:21.
+260. Brooks SV, Faulkner JA. Contractile properties of skeletal muscles from young, adult and
+aged mice. J Physiol 1988; 404:71.
+261. Newman AB, Kupelian V, Visser M, et al. Strength, but not muscle mass, is associated with
+mortality in the health, aging and body composition study cohort. J Gerontol A Biol Sci
+Med Sci 2006; 61:72.
+262. Degens H. Age-related skeletal muscle dysfunction: causes and mechanisms. J
+Musculoskelet Neuronal Interact 2007; 7:246.
+263. Snijders T, Verdijk LB, Smeets JS, et al. The skeletal muscle satellite cell response to a
+single bout of resistance-type exercise is delayed with aging in men. Age (Dordr) 2014;
+36:9699.
+264. Bechshøft CJL, Jensen SM, Schjerling P, et al. Age and prior exercise in vivo determine the
+subsequent in vitro molecular profile of myoblasts and nonmyogenic cells derived from
+human skeletal muscle. Am J Physiol Cell Physiol 2019; 316:C898.
+265. Balan E, De Groote E, Bouillon M, et al. No effect of the endurance training status on
+senescence despite reduced inflammation in skeletal muscle of older individuals. Am J
+Physiol Endocrinol Metab 2020; 319:E447.
+266. Carlson BM, Faulkner JA. Muscle transplantation between young and old rats: age of host
+determines recovery. Am J Physiol 1989; 256:C1262.
+267. Peng L, Gagliano-Jucá T, Pencina KM, et al. Age Trends in Growth and Differentiation
+Factor-11 and Myostatin Levels in Healthy Men, and Differential Response to
+Testosterone, Measured Using Liquid Chromatography-Tandem Mass Spectrometry. J
+Gerontol A Biol Sci Med Sci 2022; 77:763.
+
+-- 52 of 66 --
+
+268. Becker C, Lord SR, Studenski SA, et al. Myostatin antibody (LY2495655) in older weak
+fallers: a proof-of-concept, randomised, phase 2 trial. Lancet Diabetes Endocrinol 2015;
+3:948.
+269. Johnson ML, Robinson MM, Nair KS. Skeletal muscle aging and the mitochondrion.
+Trends Endocrinol Metab 2013; 24:247.
+270. Grevendonk L, Connell NJ, McCrum C, et al. Impact of aging and exercise on skeletal
+muscle mitochondrial capacity, energy metabolism, and physical function. Nat Commun
+2021; 12:4773.
+271. Musch TI, Eklund KE, Hageman KS, Poole DC. Altered regional blood flow responses to
+submaximal exercise in older rats. J Appl Physiol (1985) 2004; 96:81.
+272. Sinha M, Jang YC, Oh J, et al. Restoring systemic GDF11 levels reverses age-related
+dysfunction in mouse skeletal muscle. Science 2014; 344:649.
+273. Brun CE, Rudnicki MA. GDF11 and the Mythical Fountain of Youth. Cell Metab 2015; 22:54.
+274. Yokota K, Chiba K, Okazaki N, et al. Deterioration of bone microstructure by aging and
+menopause in Japanese healthy women: analysis by HR-pQCT. J Bone Miner Metab 2020;
+38:826.
+275. Ganguly P, El-Jawhari JJ, Giannoudis PV, et al. Age-related Changes in Bone Marrow
+Mesenchymal Stromal Cells: A Potential Impact on Osteoporosis and Osteoarthritis
+Development. Cell Transplant 2017; 26:1520.
+276. Stolzing A, Jones E, McGonagle D, Scutt A. Age-related changes in human bone marrow-
+derived mesenchymal stem cells: consequences for cell therapies. Mech Ageing Dev
+2008; 129:163.
+277. Kassem M, Marie PJ. Senescence-associated intrinsic mechanisms of osteoblast
+dysfunctions. Aging Cell 2011; 10:191.
+278. Chan GK, Duque G. Age-related bone loss: old bone, new facts. Gerontology 2002; 48:62.
+279. Kirk B, Feehan J, Lombardi G, Duque G. Muscle, Bone, and Fat Crosstalk: the Biological
+Role of Myokines, Osteokines, and Adipokines. Curr Osteoporos Rep 2020; 18:388.
+280. Lee S, Kim JS, Park KS, et al. Daily Walking Accompanied with Intermittent Resistance
+Exercise Prevents Osteosarcopenia: A Large Cohort Study. J Bone Metab 2022; 29:255.
+281. Giangregorio L, Blimkie CJ. Skeletal adaptations to alterations in weight-bearing activity: a
+comparison of models of disuse osteoporosis. Sports Med 2002; 32:459.
+282. Schwab P, Klein RF. Nonpharmacological approaches to improve bone health and reduce
+osteoporosis. Curr Opin Rheumatol 2008; 20:213.
+283. Yadav RN, Uniyal P, Sihota P, et al. Effect of ageing on microstructure and fracture
+behavior of cortical bone as determined by experiment and Extended Finite Element
+Method (XFEM). Med Eng Phys 2021; 93:100.
+
+-- 53 of 66 --
+
+284. Meyer RA Jr, Desai BR, Heiner DE, et al. Young, adult, and old rats have similar changes in
+mRNA expression of many skeletal genes after fracture despite delayed healing with age.
+J Orthop Res 2006; 24:1933.
+285. Gruber R, Koch H, Doll BA, et al. Fracture healing in the elderly patient. Exp Gerontol
+2006; 41:1080.
+286. Boros K, Freemont T. Physiology of ageing of the musculoskeletal system. Best Pract Res
+Clin Rheumatol 2017; 31:203.
+287. Gray M, Boughton O, Wiles C, et al. Runaway resorption of microcracks contributes to
+age-related hip-fracture patients. Sci Rep 2025; 15:28894.
+288. Driscoll I, Davatzikos C, An Y, et al. Longitudinal pattern of regional brain volume change
+differentiates normal aging from MCI. Neurology 2009; 72:1906.
+289. Salat DH, Kaye JA, Janowsky JS. Prefrontal gray and white matter volumes in healthy aging
+and Alzheimer disease. Arch Neurol 1999; 56:338.
+290. Wagner M, Jurcoane A, Volz S, et al. Age-related changes of cerebral autoregulation: new
+insights with quantitative T2'-mapping and pulsed arterial spin-labeling MR imaging.
+AJNR Am J Neuroradiol 2012; 33:2081.
+291. Sugawara J, Tarumi T, Xing C, et al. Older age and male sex are associated with higher
+cerebrovascular impedance. J Appl Physiol (1985) 2021; 130:172.
+292. Moreno-Torres A, Pujol J, Soriano-Mas C, et al. Age-related metabolic changes in the
+upper brainstem tegmentum by MR spectroscopy. Neurobiol Aging 2005; 26:1051.
+293. Walhovd KB, Westlye LT, Amlien I, et al. Consistent neuroanatomical age-related volume
+differences across multiple samples. Neurobiol Aging 2011; 32:916.
+294. Lee NJ, Park IS, Koh I, et al. No volume difference of medulla oblongata between young
+and old Korean people. Brain Res 2009; 1276:77.
+295. Sastry PS, Rao KS. Apoptosis and the nervous system. J Neurochem 2000; 74:1.
+296. Dorszewska J. Cell biology of normal brain aging: synaptic plasticity-cell death. Aging Clin
+Exp Res 2013; 25:25.
+297. van der Zee EA. Synapses, spines and kinases in mammalian learning and memory, and
+the impact of aging. Neurosci Biobehav Rev 2015; 50:77.
+298. Terman A, Brunk UT. Lipofuscin: mechanisms of formation and increase with age. APMIS
+1998; 106:265.
+299. Corrada MM, Berlau DJ, Kawas CH. A population-based clinicopathological study in the
+oldest-old: the 90+ study. Curr Alzheimer Res 2012; 9:709.
+300. Mountz JM, Laymon CM, Cohen AD, et al. Comparison of qualitative and quantitative
+imaging characteristics of [11C]PiB and [18F]flutemetamol in normal control and
+Alzheimer's subjects. Neuroimage Clin 2015; 9:592.
+
+-- 54 of 66 --
+
+301. Schöll M, Lockhart SN, Schonhaut DR, et al. PET Imaging of Tau Deposition in the Aging
+Human Brain. Neuron 2016; 89:971.
+302. Wuestefeld A, Pichet Binette A, Berron D, et al. Age-related and amyloid-beta-
+independent tau deposition and its downstream effects. Brain 2023; 146:3192.
+303. Schliebs R, Arendt T. The cholinergic system in aging and neuronal degeneration. Behav
+Brain Res 2011; 221:555.
+304. Anglade P, Vyas S, Javoy-Agid F, et al. Apoptosis and autophagy in nigral neurons of
+patients with Parkinson's disease. Histol Histopathol 1997; 12:25.
+305. Klostermann EC, Braskie MN, Landau SM, et al. Dopamine and frontostriatal networks in
+cognitive aging. Neurobiol Aging 2012; 33:623.e15.
+306. Chowdhury R, Guitart-Masip M, Lambert C, et al. Dopamine restores reward prediction
+errors in old age. Nat Neurosci 2013; 16:648.
+307. Fjell AM, McEvoy L, Holland D, et al. What is normal in normal aging? Effects of aging,
+amyloid and Alzheimer's disease on the cerebral cortex and the hippocampus. Prog
+Neurobiol 2014; 117:20.
+308. Reuter-Lorenz PA, Jonides J, Smith EE, et al. Age differences in the frontal lateralization of
+verbal and spatial working memory revealed by PET. J Cogn Neurosci 2000; 12:174.
+309. Dennis EL, Thompson PM. Functional brain connectivity using fMRI in aging and
+Alzheimer's disease. Neuropsychol Rev 2014; 24:49.
+310. Bernard C, Dilharreguy B, Helmer C, et al. PCC characteristics at rest in 10-year memory
+decliners. Neurobiol Aging 2015; 36:2812.
+311. Damoiseaux JS. Effects of aging on functional and structural brain connectivity.
+Neuroimage 2017; 160:32.
+312. Wilson RS, Beckett LA, Barnes LL, et al. Individual differences in rates of change in
+cognitive abilities of older persons. Psychol Aging 2002; 17:179.
+313. Salthouse T. Consequences of age-related cognitive declines. Annu Rev Psychol 2012;
+63:201.
+314. Bian Z, Andersen GJ. Aging and the perception of egocentric distance. Psychol Aging
+2013; 28:813.
+315. Cognitive Neuroscience of Aging: Linking Cognitive and Cerebral Aging, Cabeza R, Nyber
+g L, Park D (Eds), Oxford University Press, New York 2004.
+316. Draganski B, Lutti A, Kherif F. Impact of brain aging and neurodegeneration on cognition:
+evidence from MRI. Curr Opin Neurol 2013; 26:640.
+317. Tam HM, Lam CL, Huang H, et al. Age-related difference in relationships between
+cognitive processing speed and general cognitive status. Appl Neuropsychol Adult 2015;
+22:94.
+
+-- 55 of 66 --
+
+318. Tremblay P, Poulin J, Martel-Sauvageau V, Denis C. Age-related deficits in speech
+production: From phonological planning to motor implementation. Exp Gerontol 2019;
+126:110695.
+319. Harada CN, Natelson Love MC, Triebel KL. Normal cognitive aging. Clin Geriatr Med 2013;
+29:737.
+320. Yang AC, Huang CC, Yeh HL, et al. Complexity of spontaneous BOLD activity in default
+mode network is correlated with cognitive function in normal male elderly: a multiscale
+entropy analysis. Neurobiol Aging 2013; 34:428.
+321. Smith E, Cusack T, Blake C. The effect of a dual task on gait speed in community dwelling
+older adults: A systematic review and meta-analysis. Gait Posture 2016; 44:250.
+322. Gow AJ, Johnson W, Pattie A, et al. Stability and change in intelligence from age 11 to
+ages 70, 79, and 87: the Lothian Birth Cohorts of 1921 and 1936. Psychol Aging 2011;
+26:232.
+323. Aribisala BS, Valdés Hernández MDC, Okely JA, et al. Sleep quality, perivascular spaces
+and brain health markers in ageing - A longitudinal study in the Lothian Birth Cohort
+1936. Sleep Med 2023; 106:123.
+324. Underwood E. Starting young. Science 2014; 346:568.
+325. Petersen SE, van Mier H, Fiez JA, Raichle ME. The effects of practice on the functional
+anatomy of task performance. Proc Natl Acad Sci U S A 1998; 95:853.
+326. Reuter-Lorenz PA, Lustig C. Brain aging: reorganizing discoveries about the aging mind.
+Curr Opin Neurobiol 2005; 15:245.
+327. Reuter-Lorenz PA, Cappell KA. Neurocognitive aging and the compensation hypothesis.
+Curr Dir Psychol Sci 2008; 17:177.
+328. Reuter-Lorenz PA, Park DC. How does it STAC up? Revisiting the scaffolding theory of
+aging and cognition. Neuropsychol Rev 2014; 24:355.
+329. Amieva H, Stoykova R, Matharan F, et al. What aspects of social network are protective for
+dementia? Not the quantity but the quality of social interactions is protective up to 15
+years later. Psychosom Med 2010; 72:905.
+330. Middleton LE, Yaffe K. Promising strategies for the prevention of dementia. Arch Neurol
+2009; 66:1210.
+331. Ball K, Edwards JD, Ross LA. The impact of speed of processing training on cognitive and
+everyday functions. J Gerontol B Psychol Sci Soc Sci 2007; 62 Spec No 1:19.
+332. Engvig A, Fjell AM, Westlye LT, et al. Effects of cognitive training on gray matter volumes
+in memory clinic patients with subjective memory impairment. J Alzheimers Dis 2014;
+41:779.
+333. Moragas A, Castells C, Sans M. Mathematical morphologic analysis of aging-related
+
+-- 56 of 66 --
+
+epidermal changes. Anal Quant Cytol Histol 1993; 15:75.
+334. Montagna W, Carlisle K. Structural changes in ageing skin. Br J Dermatol 1990; 122 Suppl
+35:61.
+335. Ashcroft GS, Mills SJ, Ashworth JJ. Ageing and wound healing. Biogerontology 2002; 3:337.
+336. Yaar M, Gilchrest BA. Skin aging: postulated mechanisms and consequent changes in
+structure and function. Clin Geriatr Med 2001; 17:617.
+337. Varani J, Dame MK, Rittie L, et al. Decreased collagen production in chronologically aged
+skin: roles of age-dependent alteration in fibroblast function and defective mechanical
+stimulation. Am J Pathol 2006; 168:1861.
+338. Russell-Goldman E, Murphy GF. The Pathobiology of Skin Aging: New Insights into an Old
+Dilemma. Am J Pathol 2020; 190:1356.
+339. Jiang F, Tohgasaki T, Kami M, et al. Influence of aging on dermal elastin fiber architecture
+and skin firmness assessed by finite element modeling. Sci Rep 2025; 15:28598.
+340. Uitto J. The role of elastin and collagen in cutaneous aging: intrinsic aging versus
+photoexposure. J Drugs Dermatol 2008; 7:s12.
+341. McGinn R, Poirier MP, Louie JC, et al. Increasing age is a major risk factor for susceptibility
+to heat stress during physical activity. Appl Physiol Nutr Metab 2017; 42:1232.
+342. Anderson RK, Kenney WL. Effect of age on heat-activated sweat gland density and flow
+during exercise in dry heat. J Appl Physiol (1985) 1987; 63:1089.
+343. Inbar O, Morris N, Epstein Y, Gass G. Comparison of thermoregulatory responses to
+exercise in dry heat among prepubertal boys, young adults and older males. Exp Physiol
+2004; 89:691.
+344. McKenna ZJ, Atkins WC, Sarma S, et al. Evaluating low-energy cooling strategies on
+thermal and cardiac strain in older adults exposed to very hot and dry heat with
+accompanying activities of daily living. J Appl Physiol (1985) 2025; 139:206.
+345. Perry SD. Evaluation of age-related plantar-surface insensitivity and onset age of
+advanced insensitivity in older adults using vibratory and touch sensation tests. Neurosci
+Lett 2006; 392:62.
+346. Matsuoka S, Suzuki H, Morioka S, et al. Quantitative and qualitative studies of Meissner's
+corpuscles in human skin, with special reference to alterations caused by aging. J
+Dermatol 1983; 10:205.
+347. Gescheider GA, Bolanowski SJ, Hall KL, et al. The effects of aging on information-
+processing channels in the sense of touch: I. Absolute sensitivity. Somatosens Mot Res
+1994; 11:345.
+348. Holick MF, Matsuoka LY, Wortsman J. Age, vitamin D, and solar ultraviolet. Lancet 1989;
+2:1104.
+
+-- 57 of 66 --
+
+349. Ressler S, Bartkova J, Niederegger H, et al. p16INK4A is a robust in vivo biomarker of
+cellular aging in human skin. Aging Cell 2006; 5:379.
+350. Myers T, Song SJ, Chen Y, et al. Chronological age estimation from human microbiomes
+with transformer-based Robust Principal Component Analysis. Commun Biol 2025;
+8:1159.
+351. McCullough JL, Kelly KM. Prevention and treatment of skin aging. Ann N Y Acad Sci 2006;
+1067:323.
+352. Griffiths CE. The role of retinoids in the prevention and repair of aged and photoaged
+skin. Clin Exp Dermatol 2001; 26:613.
+353. Shibagaki N, Suda W, Clavaud C, et al. Aging-related changes in the diversity of women's
+skin microbiomes associated with oral bacteria. Sci Rep 2017; 7:10567.
+354. Van Haeringen NJ. Aging and the lacrimal system. Br J Ophthalmol 1997; 81:824.
+355. Schnohr P, Nyboe J, Lange P, Jensen G. Longevity and gray hair, baldness, facial wrinkles,
+and arcus senilis in 13,000 men and women: the Copenhagen City Heart Study. J Gerontol
+A Biol Sci Med Sci 1998; 53:M347.
+356. Salvi SM, Akhtar S, Currie Z. Ageing changes in the eye. Postgrad Med J 2006; 82:581.
+357. Bishop PN, Holmes DF, Kadler KE, et al. Age-related changes on the surface of vitreous
+collagen fibrils. Invest Ophthalmol Vis Sci 2004; 45:1041.
+358. Wang JH, Wong RCB, Liu GS. Retinal Aging Transcriptome and Cellular Landscape in
+Association With the Progression of Age-Related Macular Degeneration. Invest
+Ophthalmol Vis Sci 2023; 64:32.
+359. Allaf AM, Wang J, Simms AG, Jiang H. Age-related alterations in retinal capillary function.
+Microvasc Res 2023; 148:104508.
+360. Strenk SA, Strenk LM, Koretz JF. The mechanism of presbyopia. Prog Retin Eye Res 2005;
+24:379.
+361. Liem AT, Keunen JE, van Norren D, van de Kraats J. Rod densitometry in the aging human
+eye. Invest Ophthalmol Vis Sci 1991; 32:2676.
+362. Silvestre D, Arleo A, Allard R. Healthy Aging Impairs Photon Absorption Efficiency of
+Cones. Invest Ophthalmol Vis Sci 2019; 60:544.
+363. McKendrick AM, Chan YM, Nguyen BN. Spatial vision in older adults: perceptual changes
+and neural bases. Ophthalmic Physiol Opt 2018; 38:363.
+364. Brewster KK, Deal JA, Lin FR, Rutherford BR. Considering hearing loss as a modifiable risk
+factor for dementia. Expert Rev Neurother 2022; 22:805.
+365. Marinelli JP, Lohse CM, Fussell WL, et al. Association between hearing loss and
+development of dementia using formal behavioural audiometric testing within the Mayo
+
+-- 58 of 66 --
+
+Clinic Study of Aging (MCSA): a prospective population-based study. Lancet Healthy
+Longev 2022; 3:e817.
+366. Gates GA, Mills JH. Presbycusis. Lancet 2005; 366:1111.
+367. Howarth A, Shone GR. Ageing and the auditory system. Postgrad Med J 2006; 82:166.
+368. Martin JS, Jerger JF. Some effects of aging on central auditory processing. J Rehabil Res
+Dev 2005; 42:25.
+369. Lazard DS, Doelling KB, Arnal LH. Plasticity After Hearing Rehabilitation in the Aging
+Brain. Trends Hear 2023; 27:23312165231156412.
+370. Andries E, Bosmans J, Engelborghs S, et al. Evaluation of Cognitive Functioning Before
+and After Cochlear Implantation in Adults Aged 55 Years and Older at Risk for Mild
+Cognitive Impairment. JAMA Otolaryngol Head Neck Surg 2023; 149:310.
+371. Mojet J, Christ-Hazelhof E, Heidema J. Taste perception with age: generic or specific losses
+in threshold sensitivity to the five basic tastes? Chem Senses 2001; 26:845.
+372. Gudziol H, Hummel T. Normative values for the assessment of gustatory function using
+liquid tastants. Acta Otolaryngol 2007; 127:658.
+373. Boyce JM, Shone GR. Effects of ageing on smell and taste. Postgrad Med J 2006; 82:239.
+374. Stevens JC, Cain WS, Schiet FT, Oatley MW. Olfactory adaptation and recovery in old age.
+Perception 1989; 18:265.
+375. Giezenaar C, Chapman I, Luscombe-Marsh N, et al. Ageing Is Associated with Decreases
+in Appetite and Energy Intake--A Meta-Analysis in Healthy Adults. Nutrients 2016; 8.
+376. Franceschi C. Inflammaging as a major characteristic of old people: can it be prevented
+or cured? Nutr Rev 2007; 65:S173.
+377. Liao CY, Rikke BA, Johnson TE, et al. Genetic variation in the murine lifespan response to
+dietary restriction: from life extension to life shortening. Aging Cell 2010; 9:92.
+378. Mattison JA, Roth GS, Beasley TM, et al. Impact of caloric restriction on health and
+survival in rhesus monkeys from the NIA study. Nature 2012; 489:318.
+379. Colman RJ, Anderson RM, Johnson SC, et al. Caloric restriction delays disease onset and
+mortality in rhesus monkeys. Science 2009; 325:201.
+380. Aon MA, Bernier M, Mitchell SJ, et al. Untangling Determinants of Enhanced Health and
+Lifespan through a Multi-omics Approach in Mice. Cell Metab 2020; 32:100.
+381. Lee HW, Blasco MA, Gottlieb GJ, et al. Essential role of mouse telomerase in highly
+proliferative organs. Nature 1998; 392:569.
+382. Rudolph KL, Chang S, Lee HW, et al. Longevity, stress response, and cancer in aging
+telomerase-deficient mice. Cell 1999; 96:701.
+383. Salpea KD, Humphries SE. Telomere length in atherosclerosis and diabetes.
+Atherosclerosis 2010; 209:35.
+
+-- 59 of 66 --
+
+384. Zhu Y, Armstrong JL, Tchkonia T, Kirkland JL. Cellular senescence and the senescent
+secretory phenotype in age-related chronic diseases. Curr Opin Clin Nutr Metab Care
+2014; 17:324.
+385. Hoare M, Narita M. Transmitting senescence to the cell neighbourhood. Nat Cell Biol
+2013; 15:887.
+386. Schafer MJ, Haak AJ, Tschumperlin DJ, LeBrasseur NK. Targeting Senescent Cells in
+Fibrosis: Pathology, Paradox, and Practical Considerations. Curr Rheumatol Rep 2018;
+20:3.
+387. Amaya-Montoya M, Pérez-Londoño A, Guatibonza-García V, et al. Cellular Senescence as a
+Therapeutic Target for Age-Related Diseases: A Review. Adv Ther 2020; 37:1407.
+388. Matsubayashi S, Ito S, Araya J, Kuwano K. Drugs against metabolic diseases as potential
+senotherapeutics for aging-related respiratory diseases. Front Endocrinol (Lausanne)
+2023; 14:1079626.
+389. Amor C, Feucht J, Leibold J, et al. Senolytic CAR T cells reverse senescence-associated
+pathologies. Nature 2020; 583:127.
+390. Sahin E, Colla S, Liesa M, et al. Telomere dysfunction induces metabolic and
+mitochondrial compromise. Nature 2011; 470:359.
+391. Miller RA, Harrison DE, Astle CM, et al. Rapamycin, but not resveratrol or simvastatin,
+extends life span of genetically heterogeneous mice. J Gerontol A Biol Sci Med Sci 2011;
+66:191.
+392. López-Otín C, Blasco MA, Partridge L, et al. Hallmarks of aging: An expanding universe.
+Cell 2023; 186:243.
+393. Forman DE, Kuchel GA, Newman JC, et al. Impact of Geroscience on Therapeutic
+Strategies for Older Adults With Cardiovascular Disease: JACC Scientific Statement. J Am
+Coll Cardiol 2023; 82:631.
+394. Walter LC, Covinsky KE. Cancer screening in elderly patients: a framework for
+individualized decision making. JAMA 2001; 285:2750.
+395. Glaser R, Marinopoulos S, Dimitrakakis C. Breast cancer treatment in women over the
+age of 80: A tailored approach. Maturitas 2018; 110:29.
+396. Newman AB, Arnold AM, Sachs MC, et al. Long-term function in an older cohort--the
+cardiovascular health study all stars study. J Am Geriatr Soc 2009; 57:432.
+397. Britton A, Shipley M, Singh-Manoux A, Marmot MG. Successful aging: the contribution of
+early-life and midlife risk factors. J Am Geriatr Soc 2008; 56:1098.
+398. Perls TT, Wilmoth J, Levenson R, et al. Life-long sustained mortality advantage of siblings
+of centenarians. Proc Natl Acad Sci U S A 2002; 99:8442.
+399. Atzmon G, Rincon M, Rabizadeh P, Barzilai N. Biological evidence for inheritance of
+
+-- 60 of 66 --
+
+exceptional longevity. Mech Ageing Dev 2005; 126:341.
+400. Libina N, Berman JR, Kenyon C. Tissue-specific activities of C. elegans DAF-16 in the
+regulation of lifespan. Cell 2003; 115:489.
+401. Franceschi C, Motta L, Valensin S, et al. Do men and women follow different trajectories
+to reach extreme longevity? Italian Multicenter Study on Centenarians (IMUSCE). Aging
+(Milano) 2000; 12:77.
+402. Willcox DC, Willcox BJ, Todoriki H, et al. Caloric restriction and human longevity: what can
+we learn from the Okinawans? Biogerontology 2006; 7:173.
+403. Willcox BJ, Willcox DC, He Q, et al. Siblings of Okinawan centenarians share lifelong
+mortality advantages. J Gerontol A Biol Sci Med Sci 2006; 61:345.
+404. Ji H, Kwan AC, Chen MT, et al. Sex Differences in Myocardial and Vascular Aging. Circ Res
+2022; 130:566.
+405. Miller RA, Harrison DE, Allison DB, et al. Canagliflozin extends life span in genetically
+heterogeneous male but not female mice. JCI Insight 2020; 5.
+406. Miller RA, Harrison DE, Astle CM, et al. Rapamycin-mediated lifespan increase in mice is
+dose and sex dependent and metabolically distinct from dietary restriction. Aging Cell
+2014; 13:468.
+Topic 14605 Version 35.0
+
+-- 61 of 66 --
+
+GRAPHICS
+Figure 1: Homeostenosis
+Based on information from: Taffet GE. Physiology of aging. In: Cassel CK, Leipzig RM, Cohen HJ, et al [eds]. Geriatric Medicine:
+An Evidence-Based Approach, 4th ed. New York, Springer, 2003.
+Graphic 58907 Version 9.0
+
+-- 62 of 66 --
+
+Table 1: Renal changes with aging
+Anatomic
+Decrease in renal mass, mostly from cortex
+Increased renal fat and fibrosis
+Sclerosis of cortical nephrons with longest loops of Henle
+Functional
+Decreased renal blood flow
+Impaired vasodilation in response to dopamine
+Decreased creatinine clearance
+Impaired sodium excretion and conservation
+Decreased potassium excretion and conservation
+Decreased concentrating and diluting capacity
+Impaired excretion of acid loads
+Decreased serum renin and aldosterone
+Altered intrarenal nitric oxide actions
+Increased dependence on renal prostaglandins to maintain intrarenal perfusion
+Decreased vitamin D activation
+Increased vulnerability to dye, ischemia, or other insults
+Impaired recovery after insults
+Data from: Taffet GE. Physiology of aging. In: Geriatric Medicine: An Evidence-Based Approach, Cassel CK, Leipzig RM, Cohen HJ,
+et al (Eds), 4th ed, Springer, New York 2003.
+Graphic 68244 Version 1.0
+
+-- 63 of 66 --
+
+Figure 2: Pulmonary function with age
+TLC: total lung capacity; VC: vital capacity; IC: inspiratory capacity; ERV: expiratory reserve volume; RV:
+residual volume; FRC: functional residual capacity.
+Modified and reproduced with permission from: Janssens JP, Pache JC, Nicod LP. Physiological changes in respiratory function
+associated with ageing. Eur Respir J 1999; 13:197. Copyright © 1999 European Respiratory Society. All rights reserved.
+Graphic 67608 Version 6.0
+
+-- 64 of 66 --
+
+Table 2: Life expectancy by age
+Ages in years
+70 	75 	80 	85 	90 	95
+Women - Years of expected life
+Top 25 percentile 	21.3 	17 	13 	9.6 	6.8 	4.8
+50 percentile 	15.7 	11.9 	8.6 	5.9 	3.9 	2.7
+Lowest 25 percentile 	9.5 	6.8 	4.6 	2.9 	1.8 	1.1
+Men - Years of expected life
+Top 25 percentile 	18 	14.2 	10.8 	7.9 	5.8 	4.3
+50 percentile 	12.4 	9.3 	6.7 	4.7 	3.2 	2.3
+Lowest 25 percentile 	6.7 	4.9 	3.3 	2.2 	1.5 	1
+Data from: Walter LC, Covinsky KE. Cancer screening in elderly patients: a framework for individualized decision making. JAMA
+2001; 285:2750.
+Graphic 53094 Version 3.0
+th
+th
+th
+th
+th
+th
+
+-- 65 of 66 --
+
+Contributor Disclosures
+George E Taffet, MD Stock Options: Animatus Biosciences [Stem cells]. Grant/Research/Clinical Trial
+Support: Indus Instruments [Activity and cardiac function]. All of the relevant financial relationships
+listed have been mitigated. Kenneth E Schmader, MD No relevant financial relationship(s) with
+ineligible companies to disclose. Jane Givens, MD, MSCE No relevant financial relationship(s) with
+ineligible companies to disclose.
+Contributor disclosures are reviewed for conflicts of interest by the editorial group. When found, these
+are addressed by vetting through a multi-level review process, and through requirements for references
+to be provided to support the content. Appropriately referenced content is required of all authors and
+must conform to UpToDate standards of evidence.
+Conflict of interest policy
+
+
+-- 66 of 66 --
+

@@ -1,0 +1,1938 @@
+Official reprint from UpToDate
+www.uptodate.com © 2026 UpToDate, Inc. and/or its affiliates. All Rights Reserved.
+Healthy diet in adults
+INTRODUCTION
+Poor diet is one of the leading causes of mortality in the United States, along with tobacco use, hypertension, and
+overweight, and is a leading cause for disability-adjusted life years [1].
+Decades of research have revealed strong links between many dietary components and eating patterns and
+important health outcomes [2]. Furthermore, the majority of patients and clinicians view eating habits as
+important to health and an important part of healthy lifestyle counseling [3,4].
+This topic will discuss the evidence on the health effects of various types of dietary patterns, dietary components,
+and select foods. Although the science on the larger environmental effects of food choices, and their potential
+impact on health, continues to advance, it is an issue that is outside of the current scope of this review [5].
+Dietary assessment and diets for specific populations are discussed elsewhere:
+IMPACT OF A HEALTHY DIET
+While the specifics of healthy eating can vary, the overall goal of a healthy diet is to improve patients' health and
+lower the risk of disease. Considerable evidence shows us that healthy food choices can extend longevity [6] and
+reduce the risk of cardiovascular disease, diabetes, hypertension, and cancer, among other important chronic
+®
+AUTHOR: Graham A Colditz, MD, DrPH
+SECTION EDITOR: David Seres, MD
+DEPUTY EDITOR: Zehra Hussain, MD, FACP
+All topics are updated as new evidence becomes available and our peer review process is complete.
+Literature review current through: Aug 2026.
+This topic last updated: Jul 08, 2026.
+(See "Dietary assessment in adults".)	●
+(See "Dietary history and recommended dietary intake in children".)	●
+(See "Obesity in adults: Dietary therapy".)	●
+(See "Nutrition in pregnancy: Assessment and counseling".)	●
+(See "Nutrition in pregnancy: Dietary requirements and supplements".)	●
+(See "Nutritional issues in older adults".)	●
+(See "Medical nutrition therapy for type 2 diabetes mellitus".)	●
+(See "Lipid management with diet or dietary supplements".)	●
+
+-- 1 of 40 --
+
+diseases. A healthy diet can also help with weight management and is associated with improved health-related
+quality of life and a decreased risk of frailty in older adults [7-11].
+With such a broad impact, population-wide improvements in diet could have a substantial impact not only on
+population health but also on health care costs. Considering only cardiometabolic disease, a 2019 analysis using
+the United States National Health and Nutrition Examination Survey (NHANES) estimated the total annual costs
+related to poor diet to be approximately USD $50 billion [12]. Obesity-related medical costs have been estimated
+at $150 billion USD per year [13].
+CHOOSING A HEALTHY DIET: PATIENT COUNSELING
+Choosing a dietary pattern — The specific diet or dietary pattern an individual chooses is strongly influenced by
+a wide range of factors, including personal preference, social and cultural influences, as well as economic
+considerations. While maintenance of good health or prevention of disease may be important drivers of dietary
+choices, these will generally not be the patient's sole considerations; taste preferences, cost and food availability
+issues, religious requirements, social norms, and media and marketing forces all contribute. As an example, the
+lower cost of plant-based diets or their impact on planetary health (ie, reducing adverse climate change,
+promoting environmental sustainability) may be important considerations for some patients [14,15].
+Clinicians should work with individuals to determine the best healthy diet pattern based upon their unique
+circumstances. Patient encounters provide a valuable opportunity to promote healthy food choices. In a 2017
+systematic review evaluating the impact of behavioral interventions, there were multiple, though small, benefits
+from behavioral interventions on diet and physical activity, serum lipids, body mass index, and blood pressure at
+6 to 12 months [16]. While rates of such counseling have been increasing in the United States, however, in 2016,
+only around one-third of patients reported receiving dietary advice from clinicians or other medical professionals
+[17].
+Maintaining energy balance — Although weight management is not the focus of the diets in this review, any
+discussion of healthy diet needs to emphasize the importance of maintaining energy balance over time.
+Overnutrition leading to overweight and obesity is the single most important dietary factor associated with poor
+health outcomes. It is associated with premature mortality as well as increased incidence of cardiovascular
+disease, diabetes, hypertension, cancer, and other important conditions [18-20].
+Whatever dietary pattern an individual follows, maintenance of energy balance is an important overall goal.
+Avoidance of weight gain, even if a patient is overweight or has obesity, can have important long-term health
+benefits.
+Total energy expenditure for recommended daily caloric intake is based upon age, sex, weight, and activity level
+( 	table 1) (see "Obesity: Genetic contribution and pathophysiology", section on 'Physiologic processes affecting
+energy balance'). Calculating a patient's daily caloric intake can be aided by using 24-hour dietary recall, a food
+diary, or other assessment tools to determine intake of different foods and beverages. Assessment tools,
+including consumer-focused apps and online tools that can help patients readily track what they eat and drink,
+are discussed separately. (See "Dietary assessment in adults".)
+SPECIFIC HEALTHY DIETARY PATTERNS
+Dietary guidelines: Recommended dietary patterns — Specific dietary guidelines may vary, but in general, a
+high-quality, healthy diet emphasizes limited consumption of red and processed meats, unhealthy fats (saturated
+and industrial trans fats), sugar, sodium, and alcohol, and a greater intake of fruits, vegetables, legumes, nuts,
+and whole grains. This pattern is consistent with that generally recommended by the World Health Organization
+
+-- 2 of 40 --
+
+[21], the World Cancer Research Fund/American Institute for Cancer Research [22], the American Cancer Society
+[23], the American Heart association [24], and the US Department of Agriculture [25,26], as well as other groups
+[27]. In addition to multiple disease-specific benefits, results of meta-analyses and individual observational
+studies have found consistent associations between this dietary pattern and decreased mortality [28-35]. This
+dietary pattern has also been associated with an increased likelihood of healthy aging (ie, aging without
+impairments in cognitive, physical, or mental health) [36].
+The development of healthy eating guidelines can vary substantially, from expert panel review of existing
+evidence to the development and analysis of guideline-specific data [22]. While differences in methods may
+impact the detailed conclusions of guidelines as well as the confidence in them, there is generally consistency in
+messaging, both among organizations and even countries [25,37-39].
+The evidence evaluating specific dietary patterns can vary substantially, and it is likely that some diets that
+patients inquire about have been little studied. Although long-term randomized controlled trials are often absent,
+observational studies support the association of health benefits with a number of dietary patterns.
+Most of the dietary patterns discussed below share some similar aspects but are further defined by regional
+characteristics or a specific focus or restriction on dietary components or types of foods.
+Mediterranean diet — There is no single definition, but a
+Mediterranean diet is typically high in fruits, vegetables, whole
+grains, beans, nuts, and seeds. A Mediterranean diet includes olive
+oil as an important source of monounsaturated fat and allows low to
+moderate wine consumption. It generally includes low to moderate
+amounts of fish, poultry, and dairy products, and it includes little red
+meat ( 	table 2). Although the Mediterranean diet is associated
+with several health benefits, it remains uncertain if a single
+component of the Mediterranean diet is associated with the
+protective benefit or if the benefit results from an aggregation of
+effects.
+In a meta-analysis of randomized trials including the large
+PREDIMED trial [40], a Mediterranean diet reduced the risk of
+stroke compared with a low-fat diet (hazard ratio [HR] 0.60, 95% CI
+0.45-0.80) but did not reduce the incidence of cardiovascular or overall mortality [41].
+●
+In a subsequent 2022 trial including over 1000 adults with coronary heart disease conducted in Spain
+(CORDIOPREV), randomization to a Mediterranean diet resulted in fewer major cardiovascular events
+(myocardial infarction, revascularization, ischemic stroke, peripheral artery disease, cardiovascular death)
+compared with a low-fat diet at seven years' follow-up [42].
+●
+In a network meta-analysis of 40 trials comparing seven dietary patterns among 35, 548 participants at
+increased risk of CVD, a Mediterranean diet (12 trials) resulted in lower risk of several outcomes including all-
+cause mortality (odds ratio [OR] 0.72, 95% CI 0.56-0.92), cardiovascular mortality (OR 0.55, 95% CI 0.39-0.78),
+stroke (OR 0.65, 95% CI 0.46-0.93), and nonfatal myocardial infarction (OR 0.48, 95% CI 0.36-0.65), when
+compared with minimal intervention [43].
+●
+In observational studies, a Mediterranean diet has been associated with lower overall mortality and
+cardiovascular mortality [44-48], as well as a decreased incidence of Parkinson disease, Alzheimer disease,
+and cancers, including colorectal, prostate, aerodigestive, oropharyngeal, and breast cancers [45,46,49-51].
+(See "Factors that modify breast cancer risk in females", section on 'Diet rich in fruits and vegetables, fish,
+and olive oil (eg, Mediterranean diet)'.)
+●
+Healthy Mediterranean-style dietary
+pattern for children and adults
+Table 2 - larger image below
+
+-- 3 of 40 --
+
+The effects of the Mediterranean diet on type 2 diabetes mellitus and macular degeneration are discussed
+separately. (See "Medical nutrition therapy for type 2 diabetes mellitus", section on 'Macronutrient composition'
+and "Age-related macular degeneration", section on 'Diet/alcohol'.)
+DASH diet — 	The DASH (Dietary Approaches to Stop Hypertension) diet is composed of four to five servings
+of fruit, four to five servings of vegetables, and two to three servings of low-fat dairy per day, with <25 percent
+of daily caloric intake from fat.
+The DASH diet has been studied in both normotensive and hypertensive populations and has been found to
+lower systolic and diastolic pressure more than a diet rich in fruits and vegetables alone [52]. The combination
+of low-sodium and DASH diet resulted in further decreases in blood pressure, comparable with those observed
+with antihypertensive agents [53]. (See "Salt intake and hypertension" and "Diet in the treatment and
+prevention of hypertension".)
+The DASH diet has also been associated with a lower risk of colorectal cancer, cardiovascular disease,
+premature mortality, and gout (in males) [34,54-58]. These benefits have not been confirmed in randomized
+trials [59], although available trials all have fairly short follow-up periods (up to 18 months), limiting conclusions
+about the impact on chronic diseases. (See "Gout: Nonpharmacologic strategies for prevention and treatment",
+section on 'Modifying diet'.)
+Plant-based and vegetarian diets — Plant-based diets, which include vegetarian (and similar) diets, focus on
+the consumption of cereals, fruits, vegetables, legumes, and nuts, with the restriction of animal-based foods,
+including meat, dairy products, and eggs ( 	table 3) [60]. The degree of animal food restriction in plant-based
+eating varies considerably [61]. Vegan diets exclude all animal-based foods, while less restrictive approaches
+can include eggs, dairy products, and some meat. Selected plant-based diets may be grouped as follows:
+The long-term effects of a plant-based diets on health outcomes may be difficult to separate from lifestyle
+factors associated with consumption of a plant-based diet (eg, regular exercise, avoidance of tobacco and
+alcohol products). However, observational studies suggest that consumption of plant-based and vegetarian
+diets is associated with lower risk of obesity, coronary heart disease, hypertension, type 2 diabetes, certain
+cancers, and possibly all-cause mortality [63-74]. Results of randomized trials have found a beneficial impact of
+vegetarian diets on a number of cardiovascular risk factors [75,76]. As an example, in a meta-analysis of 20
+randomized trials (n = 1878) of individuals with or at high risk for cardiovascular disease, following a vegetarian
+diet for an average of six months reduced the cardiovascular risk factors of LDL-C (low density lipoprotein
+cholesterol), hemoglobin A1C, and weight by 6.6 mg/dL, 0.24 percent, and 3.4 kg, respectively [77]. Although
+Vegan – All animal products, including eggs, milk, and milk products, are excluded from the diet. Some
+vegans do not use honey and may refrain from using animal products such as leather or wool. They also may
+avoid foods that are processed or not organically grown [62].
+●
+Lactovegetarian – Milk and milk products are included in the diet, but no eggs or meat are consumed.	●
+Lacto-ovovegetarian – Eggs, milk, and milk products (lacto = dairy; ovo = eggs) are included, but no meat is
+consumed.
+●
+Semi-vegetarian (flexitarian) – Meat occasionally is included in the diet. Some people who follow such a diet
+may not eat red meat but may eat fish (pescatarian) or chicken (pollotarian). The Mediterranean diet could be
+considered a semi-vegetarian, plant-based diet. (See 'Mediterranean diet' above.)
+●
+Macrobiotic – Vegetables, fruits, legumes, and seaweeds are included in the diet, while whole grains,
+especially brown rice, are also emphasized. Locally grown fruits are recommended. Animal foods are
+generally limited to white meat or fish, which may be included in the diet once or twice a week.
+●
+
+-- 4 of 40 --
+
+one observational study suggested a modestly increased risk of stroke with a vegetarian diet in older adults (at
+approximately 85 years old), the risk estimate was imprecise and has not been observed in other studies [73].
+The nutritional adequacy and quality of plant-based and vegetarian diets should be judged individually, based
+on the type, amount, and variety of nutrients that are consumed [78]. As an example, some but not all studies
+suggest that vegan diets (which exclude all animal-based products, including dairy) may be associated with
+lower bone mineral density and higher fracture risk due to lower intake of calcium [79,80]. In addition,
+individuals whose diet excludes all animal products (ie, meat, eggs, milk, and milk products) are at risk for
+inadequate vitamin B12 intake and may benefit from vitamin B12 supplementation. (See "Vitamin intake and
+disease prevention", section on 'Special diets'.)
+Additionally, as with other healthy eating patterns, plant-based diets should emphasize the consumption of
+lesser amounts of processed foods as well as foods that are low in unhealthy fats, refined grains, sugar, and
+sodium.
+Low-fat diet — Low-fat diets focus on limiting calories from fat. Some approaches are very low-fat, with
+calories from fat ≤10 percent of total calories; others are more moderate, with ≤30 percent of daily caloric
+intake from fat.
+Most evidence also points to little or no health or mortality benefit from a low-fat dietary pattern [81-83],
+although other analyses suggest some possible mortality, coronary heart disease, diabetes, and breast cancer
+survival benefits [43,84].
+Compared with higher-fat diets, lower-fat diets are associated with lower body adiposity [85]. Overall, however,
+low-fat diets have been found to be no more effective than other types of diets for weight control [86,87]. This
+is discussed in detail separately. (See "Obesity in adults: Dietary therapy", section on 'Low-fat diets'.)
+Individuals choosing a reduced-fat diet should focus on food quality in addition to fat content. A 2020
+prospective cohort study using data from the US National Health and Nutrition Examination Survey (NHANES)
+found that an unhealthy low-fat diet was associated with a modest increase in total mortality, while a healthy
+low-fat diet was associated with a modest decrease in total mortality [88]. While consuming a reduced-fat diet,
+the emphasis should be on whole grains, legumes, fruits, and vegetables, with limited refined grains and
+sugar; fat should be from healthy sources, such as fatty fish, olive oil, and canola oil.
+Low-cholesterol diet — A low-cholesterol diet focuses on limiting the amount of dietary cholesterol, which can
+be found in higher levels in foods such as certain shellfish, full-fat dairy, and eggs.
+While elevated serum levels of low-density lipoprotein (LDL) cholesterol are an established risk factor for the
+development of cardiovascular disease, the relationship between dietary cholesterol intake and cardiovascular
+disease is less certain [89,90]. Because of their cholesterol content, eggs have often been restricted in low-
+cholesterol diets. A 2020 systematic review and meta-analysis of egg consumption found no association
+between daily intake of a single egg and risk of cardiovascular disease [91]. Similar overall null results were
+found for type 2 diabetes, although a small increase in risk with moderate egg consumption was seen in United
+States study populations [92]. However, in a subsequent 2021 observational study including over 96,000
+postmenopausal females without known cardiovascular disease at baseline, higher egg consumption (≥1
+egg/day versus <1 egg/week) was associated with greater risk of incident cardiovascular disease and total
+mortality (HR 1.14, 95% CI 1.04-1.25; and HR 1.14, 95% CI 1.07-1.22, respectively) [93].
+For cardiovascular disease risk reduction, a diet low in saturated fat is the preferred approach. (See 'Unhealthy
+fats' below.)
+
+-- 5 of 40 --
+
+DIETARY COMPONENTS ASSOCIATED WITH HEALTH BENEFITS
+Although we focus on overall dietary patterns, individual dietary components can play an important role in
+nutrition and health outcomes and can offer patients specific areas to focus their efforts at improving their diet.
+Fruits and vegetables — Patients should be counseled to consume three servings of vegetables and two
+servings of fruit per day for a 2000 calorie diet ( 	table 4) [25]. Fruits and vegetables are a rich source of fiber,
+essential vitamins and minerals, and other potentially beneficial compounds, as well as carbohydrates with a low
+glycemic index. (See 'Fiber' below and "Vitamin intake and disease prevention".)
+In large, prospective cohort studies, increased consumption of fruits and vegetables is associated with decreased
+all-cause and coronary heart disease mortality [94-97]. Several studies suggest that fruit and vegetable
+consumption is associated with a lower risk of coronary heart disease and stroke [98-100]. While large
+prospective cohort studies have not found a substantial effect of fruits and vegetables on cancer incidence in the
+general population, there is evidence of impact on some specific cancers, including aerodigestive cancers [101]
+and estrogen receptor-negative breast cancer. Some observational studies also support an association between
+higher intake of tomatoes and tomato-based products with a lower risk of prostate cancer [102,103]. (See
+"Overview of cancer prevention", section on 'Fruits and vegetables'.)
+Whole grains — Individuals should consume at least two to four
+servings a day of whole grains, which tend to be fiber-rich, as
+recommended by the Dietary Guidelines for Americans ( 	table 5)
+[25,26].
+Common types of food made from grain include breads, breakfast
+cereals, oatmeal, tortillas, and pasta. Grain products vary by level of
+milling or processing and can be defined as follows:
+Increased consumption of whole grains is associated with a variety of health benefits, including improved weight
+management, reduction in cardiovascular and all-cause mortality, and decreased incidence of coronary heart
+disease and cancer [104-107]. Representative studies include:
+Refined grains (eg, white rice, white bread, refined and sweetened
+cereals) have bran and germ removed during processing, which also
+removes fiber, iron, B vitamins, and other nutrients. Processing
+produces a finer texture and improves shelf life.
+●
+Enriched grains are refined grains that have iron and B vitamins
+added back, but not fiber in most cases.
+●
+Whole-grain foods include brown rice, whole-wheat bread, whole-
+grain cereal, and oatmeal. These are a good source of fiber and other nutrients and are considered
+carbohydrates with a lower glycemic index.
+●
+In a prospective study of over 120,000 healthy individuals, an increased intake in refined grains was associated
+with long-term weight gain, whereas an increased intake in whole grains was associated with weight loss [105].
+●
+In a 2014 meta-analysis of 18 studies including over 400,000 participants, increased whole-grain intake was
+associated with decreased risk for coronary heart disease (relative risk [RR] 0.79, 95% CI 0.74-0.83) [106].
+●
+In a pooled prospective cohort study including over 117,000 individuals, higher whole-grain consumption was
+associated with lower cardiovascular (RR 0.85, 95% CI 0.78-0.92) and total (RR 0.91, 95% CI 0.88-0.95) mortality
+●
+USDA recommended daily or weekly
+caloric intake of different food
+groups (USDA recommended
+average daily food intake)
+Table 5 - larger image below
+
+-- 6 of 40 --
+
+The World Cancer Research Fund/American Institute for Cancer Research, in their Third Expert Report: Diet,
+Nutrition, Physical Activity and Cancer, recommends increased dietary intake of whole grains to reduce the risk of
+developing colorectal cancer [101].
+Fiber — The recommended amount of dietary fiber is approximately 14 g per 1000 calories, which translates to
+approximately 25 g to 34 g per day for most adults ( 	table 6) [25].
+Fiber is the portion of plants that cannot be digested by enzymes in the gastrointestinal tract. Fiber is available in
+a large variety of natural foods and supplements ( 	table 7). Patients should be advised to replace refined grains
+(eg, white rice, white bread) with whole grains (eg, brown rice, whole-wheat bread), which have higher fiber
+content.
+Increased fiber intake is associated with many health benefits, including a decreased risk of coronary heart
+disease, cardiovascular and all-cause mortality, colorectal cancer, stroke, and type 2 diabetes [101,104,108-116].
+High-fiber diets may in part protect against coronary heart disease by controlling cardiovascular risk factors,
+including lowering insulin levels and blood pressure, and improving lipid profiles [117,118].
+The benefit of increased fiber intake is also observed in people with established cardiovascular disease. For
+example, in a prospective cohort study following 4000 patients after a first myocardial infarction, eating a high-
+fiber diet (post-myocardial infarction) was associated with lower cardiovascular and all-cause mortality (RR 0.72,
+95% CI 0.52-0.99; and RR 0.73, 95% 0.58-0.91, respectively) [119]. The largest benefit was seen among those with
+the greatest increase in fiber consumption, comparing pre- and post-myocardial infarction fiber intake.
+Further details on dietary fiber in managing and preventing disease are discussed separately. (See "Nutritional
+considerations in type 1 diabetes mellitus" and "Medical nutrition therapy for type 2 diabetes mellitus" and
+"Overview of cancer prevention", section on 'Fruits and vegetables' and "Type 2 diabetes mellitus: Prevalence and
+risk factors", section on 'Dietary patterns' and "Epidemiology and risk factors for colorectal cancer", section on
+'Fiber'.)
+Reduced-fat dairy — The United States Dietary Guidelines for Americans recommends that adults consume
+three servings of dairy products daily for a 2000-calorie diet ( 	table 5) [25].
+The dairy food group is composed of milk and foods made from milk, such as yogurt and cheese. Dairy products
+are a good source of protein, calcium, vitamin D, and potassium. Diets that include limited amounts of dairy
+should ensure adequate intake of these nutrients from other sources.
+Intake of dairy products likely lowers the risk of colorectal cancer [101] and possibly cardiovascular disease [120-
+122]. Low-fat dairy is also integral part of the DASH diet, which has been shown to help control blood pressure as
+well as lower the risk of colorectal cancer, cardiovascular disease, and premature mortality. (See 'DASH diet'
+above.).
+The data regarding the cardiovascular effects of dairy are conflicting [123]. Some observational studies have
+found an association between dairy consumption and lower risk of cardiovascular disease and mortality. As an
+example, in a multinational cohort study including over 130,000 patients followed for more than nine years,
+higher intake of total dairy was associated with lower total mortality, cardiovascular mortality, major
+cardiovascular disease, and stroke [122]. However, other studies have not found such an association. Moreover, it
+is uncertain whether consuming low-fat versus full-fat dairy has differential health effects. Most guidelines have
+traditionally recommended low-fat dairy, largely due to concerns around saturated fat content of full-fat dairy.
+However, meta-analyses of observational studies have not consistently found a differential health effect of low-fat
+versus full-fat dairy [124,125].
+[107].
+
+-- 7 of 40 --
+
+Protein-rich foods — We agree with the 2020 to 2025 Dietary Guidelines for Americans, which recommend that
+individuals consume 5.5 ounces of protein-rich foods daily for a 2000 calorie diet ( 	table 5) [25]. This is
+equivalent to approximately 35 to 45 grams of protein daily, or approximately 0.5 to 0.6 grams per kilogram for a
+70-kilogram adult, which is the minimum needed to maintain a neutral nitrogen balance [126]. Healthy protein-
+rich foods include poultry, beans, peas, seeds, nuts, fish, and soy products (eg, tofu and tempeh). (See 'Healthy
+fats' below.)
+In contrast, the 2025 to 2030 Dietary Guidelines for Americans recommend a higher protein intake goal of 1.2 to
+1.6 grams of protein per kilogram of body weight per day (approximately 80 to 112 grams for a 70 kilogram adult)
+[26]. However, there is no high-quality evidence to support this higher goal in the general population.
+Nuts — Nut consumption is associated with lower risk for cardiovascular disease. One study that combined
+data from three large cohorts found that the risk of myocardial infarction or stroke was reduced among
+participants who consumed nuts five or more times per week compared with participants who rarely ate nuts
+(hazard ratio [HR] 0.86, 95% CI 0.79-0.93) [127]. Peanuts, tree nuts, and walnuts were all associated with similar
+reductions in the risk of cardiovascular disease.
+Fish — One to two servings (total of eight ounces) of oily fish (eg, salmon and tuna) per week is suggested for
+most adults, with special consideration regarding mercury content of particular seafoods for individuals who
+are pregnant, planning pregnancy, and breastfeeding [25,128]. Reference levels for mercury in commercial fish
+and shellfish are available 	online, and information for patients is available from the US Food and Drug
+Administration (FDA) ( 	list of fish categorized by mercury concentration). (See "Fish consumption and marine
+omega-3 fatty acid supplementation in pregnancy", section on 'Fish'.)
+In a 2014 meta-analysis of 11 prospective cohort studies, fish consumption ≥4 times per week was associated
+with a decreased risk of acute coronary syndrome (RR 0.79, 95% CI 0.70-0.89) with a dose-response relationship
+(each additional 100 g serving per week associated with RR 0.95, 95% CI 0.92-0.97) [129]. In a subsequent
+pooled analysis of several international cohort studies, consuming two servings of fish weekly was associated
+with lower risk of major CVD and mortality among persons with existing CVD (HR 0.84, 95% CI 0.73-0.96; and
+HR 0.82, 95% CI 0.74-0.91, respectively), but not in those without CVD [130]. (See "Overview of primary
+prevention of cardiovascular disease in adults", section on 'Omega-3 fatty acids'.)
+Healthy fats — Saturated fat should make up no more than 10 percent of total caloric intake, as recommended
+by the Dietary Guidelines for Americans [25].
+The type of fat consumed appears to be more important than the amount of total fat ( 	table 8). Individuals
+should choose poly- and monounsaturated fats in place of saturated and trans fats [131] (see 'Unhealthy fats'
+below). Consumption of polyunsaturated fats can improve serum lipids and lower the risk of CVD and total
+mortality [131-134]. In a meta-analysis of four randomized controlled trials including individuals without coronary
+heart disease, replacement of dietary saturated fat with polyunsaturated fat reduced the risk of coronary heart
+disease by 29 percent compared with no intervention (RR 0.71, 95% CI 0.62-0.81) [131]. (See "Dietary fat", section
+on 'Type of fat' and "Lipid management with diet or dietary supplements".)
+Good sources of polyunsaturated and monounsaturated fats are
+certain oils (eg, olive, canola, and peanut) ( 	figure 1), as well as
+avocados, certain nuts, and fatty fish.
+DIETARY PATTERNS WITH LIMITED OR DEVELOPING
+EVIDENCE
+
+-- 8 of 40 --
+
+The list of diets with limited evidence of benefit is very long and
+potentially unlimited, as new diets and eating patterns regularly
+emerge both in the medical literature and popular media. Here, we
+highlight diets that patients may be likely to inquire about or that
+show potential evidence of health benefits.
+Low-carbohydrate diet — Low-carbohydrate diets emphasize protein and fat intake with limited carbohydrate
+intake. The level of carbohydrate restriction in low-carbohydrate diets can vary significantly.
+Ketogenic diets (high in dietary fat and low in carbohydrates, which causes the body to produce ketones from
+body fat to use for fuel) can have very few carbohydrates, often under 50 g per day, while some low-carbohydrate
+diets can have 40 percent of total calories from carbohydrates. The more restrictive the diet, however, the more
+difficult long-term maintenance can be for patients.
+Low-carbohydrate diets may aid in weight loss and possibly improve serum lipids over the short term, although
+results for low-density lipoprotein (LDL) cholesterol are mixed [135,136]. In addition, the health effects of low-
+carbohydrate diets over the longer term remain unclear and may depend upon overall dietary food quality;
+unhealthy low-carbohydrate diets (eg, higher in animal protein and saturated fat) have been found in
+observational studies to be associated with an increased mortality risk, while healthy low-carbohydrate diets
+(higher in plant protein and unsaturated fats) associated with a lower risk [88,137,138].
+Organic diet — There is significant interest in the potential health benefits of eating an organic diet. Although
+there are regulatory definitions for what qualifies as organic produce and organic egg, meat, and dairy products
+[139], there is a lack of established methodology in assessing what actually qualifies as an organic diet. In
+addition, complicating the research on the impact of organic food on health is the difficulty of taking fully into
+account the potential confounders linked with organic food consumption (eg, other elements of a healthy
+lifestyle) [140].
+Despite great interest in the area, high-quality data are still lacking on the links between the consumption of
+organic food and improved health. While eating a diet high in organic foods can lessen exposure to synthetic
+pesticides, it is unclear if this actually translates to improved health outcomes [140,141]. Growing evidence does,
+however, point to a possible link between high organic food intake and a lower risk of cancer, particularly non-
+Hodgkin lymphoma [142,143]. Further evidence from well-designed studies is needed to confirm this association.
+Anti-inflammatory diet — The anti-inflammatory diet focuses on food choices that may reduce systemic
+inflammation. Chronic inflammation is linked to an increased risk of multiple chronic diseases, including
+cardiovascular disease, type 2 diabetes, and cancer [144].
+There is no specific anti-inflammatory diet, and aspects of other healthy diets qualify as anti-inflammatory (see
+'Mediterranean diet' above). Overall, however, an anti-inflammatory diet emphasizes choices such as olive oil,
+nuts, fruits, leafy green vegetables, and fatty fish; and limits processed meats, refined grains, sugar, and fried
+food. Compared with anti-inflammatory diets, those diets that "promote" inflammation have been linked in
+observational studies with multiple health risks, including an increased risk of total, cancer, and cardiovascular
+disease-related mortality [144-146]. The science on anti-inflammatory diet continues to develop.
+Gluten-free diet — A gluten-free diet eliminates or substantially limits grains that contain the protein gluten,
+such as wheat and barley ( 	table 9). In individuals with celiac disease and non-celiac gluten sensitivity, a gluten-
+free diet has demonstrated benefits (see "Management of celiac disease in adults" and "Celiac disease in children
+and adolescents: Management"). Outside of those with gluten sensitivity, however, little evidence supports health
+benefits from a gluten-free diet, and some evidence suggests increased risk of cardiovascular disease due to
+related reductions in whole grain intake [147].
+Fat content of oils
+Figure 1 - larger image below
+
+-- 9 of 40 --
+
+DIETARY PATTERNS AND COMPONENTS TO LIMIT OR AVOID
+There is good evidence associating certain dietary patterns and individual dietary components with adverse
+health outcomes. Individuals should be encouraged to limit and, in some instances, avoid these components.
+Realistically, however, elimination may be too drastic for many patients, and a reduction in consumption is a more
+attainable goal, at least initially.
+"Western" diet — Studies consistently show that the typical Western diet increases the risk of multiple chronic
+diseases. The Western diet is marked by consumption of red and processed meats, full-fat dairy products, refined
+grains, high-sodium foods, and sugar, as well as and low amounts of fiber, whole grains, legumes, and fruits and
+vegetables.
+Compared with healthy eating patterns, the Western diet is linked to an increased risk of cardiovascular disease,
+type 2 diabetes, cancer, overweight and obesity, and other conditions. In 2016, poor diet was the leading cause of
+death and the third leading cause for disability-adjusted life-years in the United States [148]. Individuals should
+be encouraged to avoid the typical Western diet in favor of healthier eating patterns that are more plant-based,
+with a focus on healthy fats and fewer processed products.
+Unhealthy fats — Individuals should limit saturated and trans fats, replacing them with healthy fats such as
+polyunsaturated and monounsaturated fats. (See 'Healthy fats' above and "Dietary fat", section on 'Type of fat'.)
+Added sugars and sugar-sweetened beverages — Added sugars should be avoided in the diet [25,26]. These
+sugars often come from sweetened beverages and processed foods. If a higher percentage of caloric intake
+comes from added sugars, it may be difficult for individuals to meet their nutritional needs within caloric limits.
+The US FDA requires that nutrition labels list a food's quantity of added sugars [151].
+Naturally occurring sugars (eg, from fruit or milk) are not considered added sugars. However, fruit juices should
+still be limited to small daily amounts, if any, as they tend to be high in calories without the added benefit of fiber,
+which is found in whole fruit.
+Saturated fat – Saturated fat should make up no more than 10 percent of total caloric intake, as recommended
+by the Dietary Guidelines for Americans [26], as it has been shown to adversely impact serum lipids and
+increase the risk of cardiovascular disease [131]. As an example, in a meta-analysis of four randomized trials
+with a minimum two-year duration, replacing saturated fat with polyunsaturated fat reduced the risk of
+coronary heart disease by almost 30 percent (RR 0.71, 95% CI 0.62 to 0.81) [131].
+●
+The effect of reducing saturated fat on mortality is less certain. In a meta-analysis of randomized trials, lower
+saturated fat intake reduced cardiovascular mortality (RR 0.93, CI 0.77 to 1.11) and all-cause mortality (RR 0.96,
+95% CI 0.88-1.06), but the confidence intervals were wide and included no effect [149]. The absolute benefit
+was greatest in those with higher baseline cardiovascular risk and most pronounced when replacing saturated
+with polyunsaturated fat. However, most of the included studies were at high risk of bias due to methodologic
+limitations (eg, lack of blinding).
+Saturated fats are common in animal products, such as red meat and whole-fat dairy, and in some plant
+products, such as coconut and palm oils.
+Trans fats – Trans fats used to be common in many foods in the United States but since 2018 have been largely
+removed from the food supply following a US Food and Drug Administration ban on their use [150]. However,
+some foods can still include some trans fat, such as some fast foods and shortenings and oils with
+hydrogenated oil listed in the ingredients.
+●
+
+-- 10 of 40 --
+
+Soft drinks and other sugar-sweetened beverages (eg, fruit drinks, sports drinks, and energy drinks) should also
+be avoided [25,26] Sugar-sweetened beverages are a key contributor to weight gain and obesity [101]. Their
+consumption is also associated with lower intake of key nutrients because they replace nutrient-dense foods in
+the diet. In addition to excess weight, intake of sugar-sweetened beverages is associated with an increased risk of
+coronary heart disease, type 2 diabetes, hypertension, gout, metabolic syndrome, and all-cause mortality [152-
+159]. Individuals should be encouraged to drink plain water rather than sweetened beverages.
+Artificial sweeteners — Consumption of foods and beverages containing artificial sweeteners generally does
+not produce long-term weight loss and may be associated with health risks, including increased risks of
+cardiovascular disease, obesity, diabetes, incident depression, and all-cause mortality. The health effects of
+nonnutritive sweeteners are discussed separately. (See "Overview of nonnutritive sweeteners", section on 'Health
+effects of NNS consumption'.)
+Guidelines from the World Health Organization recommend against the use of non-sugar sweeteners (eg,
+aspartame, sucralose, stevia, saccharin) for weight loss or the reduction of chronic disease risk [160,161].
+Red and processed meats — We counsel patients to limit red (eg, beef, lamb, veal, venison, goat) and processed
+(eg, sausage, hot dogs, beef jerky, bologna) meat, because increased consumption has been associated with a
+small to moderate increased risk of numerous diseases and premature mortality [162,163]. Although modest,
+and unconfirmed by randomized trials, these risks are potentially important given the high level of red meat
+consumption in the United States and increasing consumption of red meat globally. In addition, red and
+processed meat are typically high in saturated fat, which has been shown to increase cardiovascular risk. (See
+'Unhealthy fats' above.)
+As examples, in meta-analyses and pooled analyses of prospective cohort studies, increased consumption of red
+and processed meat has been associated with an increased risk of type 2 diabetes [164], stroke [165], and
+multiple cancers [166-168], as well as increased cardiovascular disease mortality [169].
+The association with negative health effects appears to be stronger and more consistently demonstrated for
+processed compared with unprocessed red meat [170-175].
+In the 2021 Prospective Urban Rural Epidemiology (PURE) Study, an international cohort study including over
+134,000 participants followed for 9.5 years, a higher risk of major CVD and mortality was noted among those
+whose diets contained high amounts of processed meat (HR 1.46, 95% CI 1.08-1.98; and HR 1.51, 95% CI 1.08-
+2.10, respectively); however, the risks were not increased with consumption of unprocessed red meat [176].
+In addition, the reduction of red or processed meat appears to be very modestly associated with reduced
+mortality. As an example, in a meta-analysis of observational studies, decreased consumption of processed red
+meat and unprocessed red meat were both associated with a reduction in cardiovascular and all-cause mortality,
+but the magnitude of reduction was greater and more certain for processed red meat (all-cause mortality: RR
+0.92 [95% CI 0.87-0.96] with reduction of processed meat; RR 0.93 [95% CI 0.87-1.00] with reduction of
+unprocessed meat) [173].
+Our guidance to limit or avoid red and processed meats aligns with guidance from the American Heart
+Association [24,177] and American Cancer Society [23]. In contrast, other guidelines, including the 2025 to 2030
+Dietary Guidelines for Americans, do not advise reducing unprocessed red meat [26,37].
+Of note, the International Agency for Research on Cancer classifies processed meat as a Group 1 human
+carcinogen, and red meat as "probably carcinogenic to humans" [178]. (See "Epidemiology and risk factors for
+colorectal cancer", section on 'Red and processed meat'.)
+
+-- 11 of 40 --
+
+Highly processed foods — We advise limiting highly processed foods as much as possible as part of a healthy
+diet [26]. A growing body of evidence links consumption of highly processed foods with health risks [156,163,179-
+187]. Although the definition of highly or ultra-processed foods varies, it typically includes items such as sweet
+and savory snacks, reconstituted meats, packaged frozen entrées, instant soups, and sweetened drinks. Highly
+processed foods are often calorie-dense; higher in refined grains, sugar, saturated fat, and salt; and lower in fiber
+and other important nutrients.
+Data from meta-analyses of large, observational studies suggest an association between consumption of highly
+processed foods and a range of adverse health outcomes [188]. As an example, in one systematic review,
+exposure to ultraprocessed foods was associated with 32 adverse health parameters, including increased risks of
+all-cause and cardiovascular disease mortality, type 2 diabetes, cancer, cardiovascular events, anxiety, and
+combined common mental health disorders [189]. The quality of evidence ranged from low to very low for most
+of these associations.
+Alcohol — While certain diets and dietary guidelines allow for moderate alcohol consumption, growing evidence
+supports the message that zero alcohol is the best choice for patients' overall health [148]. Even light alcohol
+consumption of three to six drinks per week has been associated with a small increased risk for breast cancer in
+females as well as increased risk for oropharyngeal and esophageal cancer [190]. A Global Burden of Disease
+Study analysis found that cancer risk increased monotonically with increasing alcohol intake [148]. Although
+moderate alcohol use may have beneficial effects on cardiovascular health limited to older adults, the increased
+risks of cancer and other harms likely offset such benefits [148,191]. (See "Overview of the risks and benefits of
+alcohol consumption", section on 'Cardiovascular disease'.)
+The risks and benefits of alcohol consumption are discussed in detail elsewhere. (See "Overview of the risks and
+benefits of alcohol consumption", section on 'Is there a safe dose of alcohol?'.)
+SOCIETY GUIDELINE LINKS
+Links to society and government-sponsored guidelines from selected countries and regions around the world are
+provided separately. (See "Society guideline links: Vitamin deficiencies" and "Society guideline links: Healthy diet
+in adults".)
+INFORMATION FOR PATIENTS
+UpToDate offers two types of patient education materials, "The Basics" and "Beyond the Basics." The Basics
+patient education pieces are written in plain language, at the 5 to 6 grade reading level, and they answer the
+four or five key questions a patient might have about a given condition. These articles are best for patients who
+want a general overview and who prefer short, easy-to-read materials. Beyond the Basics patient education
+pieces are longer, more sophisticated, and more detailed. These articles are written at the 10 to 12 grade
+reading level and are best for patients who want in-depth information and are comfortable with some medical
+jargon.
+Here are the patient education articles that are relevant to this topic. We encourage you to print or e-mail these
+topics to your patients. (You can also locate patient education articles on a variety of subjects by searching on
+"patient info" and the keyword(s) of interest.)
+th 	th
+th 	th
+Basics topics (see "Patient education: Healthy eating for adults (The Basics)" and "Patient education: Making
+healthy choices when eating out (The Basics)" and "Patient education: Vegetarian or vegan diet (The Basics)"
+and "Patient education: Vitamin supplements (The Basics)" and "Patient education: Can foods or supplements
+lower cholesterol? (The Basics)" and "Patient education: DASH diet (The Basics)" and "Patient education: Good
+●
+
+-- 12 of 40 --
+
+SUMMARY AND RECOMMENDATIONS
+food sources of iron (The Basics)" and "Patient education: Low-carbohydrate diet (The Basics)" and "Patient
+education: Low-fat diet (The Basics)" and "Patient education: Mediterranean diet (The Basics)" and "Patient
+education: Anti-inflammatory diet (The Basics)")
+Beyond the Basics topics (see "Patient education: Diet and health (Beyond the Basics)" and "Patient education:
+High-fiber diet (Beyond the Basics)")
+●
+Impact of a healthy diet – Healthy food choices can extend longevity and reduce the risk of cardiovascular
+disease, diabetes, hypertension, and cancer, among other important chronic diseases. A healthy diet can also
+help with weight management and improve health-related quality of life. (See 'Impact of a healthy diet' above.)
+●
+Choosing a healthy diet or dietary pattern – The specific diet or dietary pattern an individual chooses is
+influenced by a wide range of factors, including personal preference, social and cultural influences, as well as
+economic considerations. Clinicians should work with individuals to determine the best healthy diet pattern
+based upon their unique circumstances. (See 'Choosing a healthy diet: Patient counseling' above.)
+●
+What are healthy dietary patterns? – Specific dietary guidelines may vary, but in general, a high-quality,
+healthy diet emphasizes limited consumption of red and processed meats, unhealthy fats (saturated and
+industrial trans fats), sugar, sodium, and alcohol, and a greater intake of fruits, vegetables, legumes, nuts, and
+whole grains. (See 'Dietary guidelines: Recommended dietary patterns' above.)
+●
+Examples of healthy dietary patterns associated with health benefits include the Mediterranean diet, the
+Dietary Approaches to Stop Hypertension (DASH) diet, plant-based and vegetarian diets, a low-fat diet, and a
+low-cholesterol diet. Most of these dietary patterns share some similar aspects but are further defined by
+regional characteristics or a specific focus or restriction on dietary components or types of foods ( 	table 2
+and 	table 3 and 	table 4). (See 'Mediterranean diet' above and 'DASH diet' above and 'Plant-based and
+vegetarian diets' above and 'Low-fat diet' above and 'Low-cholesterol diet' above.)
+•
+Specific healthy dietary components – Although we focus on overall dietary patterns, individual dietary
+components can play an important role in nutrition and health outcomes and can offer patients specific areas
+to focus their efforts at improving their diet. (See 'Dietary components associated with health benefits' above.)
+●
+Specific healthy dietary components include fruits and vegetables, whole grains, fiber, dairy, and certain
+protein-rich foods, such as nuts, fish, and soy products. (See 'Fruits and vegetables' above and 'Whole grains'
+above and 'Fiber' above and 'Reduced-fat dairy' above and 'Protein-rich foods' above.)
+•
+Dietary patterns with limited evidence of health benefits – The list of diets with limited evidence of benefit
+is very long and potentially unlimited, as new diets and eating patterns regularly emerge. Examples of dietary
+patterns with limited supporting evidence include a low-carbohydrate diet, an organic diet, an anti-
+inflammatory diet, and a gluten-free diet. (See 'Low-carbohydrate diet' above and 'Organic diet' above and
+'Anti-inflammatory diet' above and 'Gluten-free diet' above.)
+●
+Dietary patterns and specific components to avoid – Individuals should avoid consumption of a typical
+"Western" diet (characterized by consumption of red and processed meats, refined grains, high-sodium foods,
+and sugar, as well as low amounts of fiber, whole grains, legumes, and fruits and vegetables), and avoid or
+minimize consumption of unhealthy fats (ie, saturated and trans fats), added sugars (including sugar-
+sweetened beverages), red and processed meats, highly processed foods, and alcohol. (See 'Dietary patterns
+and components to limit or avoid' above.)
+●
+
+-- 13 of 40 --
+
+Use of UpToDate is subject to the Terms of Use.
+REFERENCES
+1. US Burden of Disease Collaborators, Mokdad AH, Ballestros K, et al. The State of US Health, 1990-2016:
+Burden of Diseases, Injuries, and Risk Factors Among US States. JAMA 2018; 319:1444.
+2. Willett W. Nutritional Epidemiology, 3rd ed, Oxford University Press, 2013.
+3. Weinehall L, Johansson H, Sorensen J, et al. Counseling on lifestyle habits in the United States and Sweden: a
+report comparing primary care health professionals' perspectives on lifestyle counseling in terms of scope,
+importance and competence. BMC Fam Pract 2014; 15:83.
+4. Jerdén L, Dalton J, Johansson H, et al. Lifestyle counseling in primary care in the United States and Sweden: a
+comparison of patients' expectations and experiences. Glob Health Action 2018; 11:1438238.
+5. Willett W, Rockström J, Loken B, et al. Food in the Anthropocene: the EAT-Lancet Commission on healthy diets
+from sustainable food systems. Lancet 2019; 393:447.
+6. English LK, Ard JD, Bailey RL, et al. Evaluation of Dietary Patterns and All-Cause Mortality: A Systematic
+Review. JAMA Netw Open 2021; 4:e2122277.
+7. Mancini JG, Filion KB, Atallah R, Eisenberg MJ. Systematic Review of the Mediterranean Diet for Long-Term
+Weight Loss. Am J Med 2016; 129:407.
+8. Govindaraju T, Sahle BW, McCaffrey TA, et al. Dietary Patterns and Quality of Life in Older Adults: A
+Systematic Review. Nutrients 2018; 10.
+9. Xu F, Cohen SA, Lofgren IE, et al. Relationship between Diet Quality, Physical Activity and Health-Related
+Quality of Life in Older Adults: Findings from 2007-2014 National Health and Nutrition Examination Survey. J
+Nutr Health Aging 2018; 22:1072.
+10. Zhong VW, Ning H, Van Horn L, et al. Diet Quality and Long-Term Absolute Risks for Incident Cardiovascular
+Disease and Mortality. Am J Med 2021; 134:490.
+11. Goshen A, Goldbourt U, Benyamini Y, et al. Diet Quality and Incident Frailty in Adults 65 Years or Older: The
+Israeli Longitudinal Study on Aging. Mayo Clin Proc 2023; 98:1774.
+12. Jardim TV, Mozaffarian D, Abrahams-Gessel S, et al. Cardiometabolic disease costs associated with
+suboptimal diet in the United States: A cost analysis based on a microsimulation model. PLoS Med 2019;
+16:e1002981.
+13. Kim DD, Basu A. Estimating the Medical Care Costs of Obesity in the United States: Systematic Review, Meta-
+Analysis, and Empirical Analysis. Value Health 2016; 19:602.
+14. Shah UA, Merlo G. Personal and Planetary Health-The Connection With Dietary Choices. JAMA 2023;
+329:1823.
+15. Kahleova H, Sutton M, Maracine C, et al. Vegan Diet and Food Costs Among Adults With Overweight: A
+Secondary Analysis of a Randomized Clinical Trial. JAMA Netw Open 2023; 6:e2332106.
+16. Patnode CD, Evans CV, Senger CA, et al. Behavioral Counseling to Promote a Healthful Diet and Physical
+Activity for Cardiovascular Disease Prevention in Adults Without Known Cardiovascular Disease Risk Factors:
+Updated Evidence Report and Systematic Review for the US Preventive Services Task Force. JAMA 2017;
+318:175.
+17. Ahmed NU, Delgado M, Saxena A. Trends and disparities in the prevalence of physicians' counseling on diet
+and nutrition among the U.S. adult population, 2000-2011. Prev Med 2016; 89:70.
+18. Adams KF, Schatzkin A, Harris TB, et al. Overweight, obesity, and mortality in a large prospective cohort of
+persons 50 to 71 years old. N Engl J Med 2006; 355:763.
+
+-- 14 of 40 --
+
+19. Renehan AG, Tyson M, Egger M, et al. Body-mass index and incidence of cancer: a systematic review and
+meta-analysis of prospective observational studies. Lancet 2008; 371:569.
+20. Willett WC, Dietz WH, Colditz GA. Guidelines for healthy weight. N Engl J Med 1999; 341:427.
+21. World Health Organization. Healthy diet. Available at: https://www.who.int/en/news-room/fact-sheets/detail/
+healthy-diet (Accessed on July 24, 2017).
+22. World Cancer Research Fund/American Institute for Cancer Research. Cancer prevention recommendations.
+Available at: https://www.wcrf.org/dietandcancer/cancer-prevention-recommendations (Accessed on May 12,
+2020).
+23. Rock CL, Thomson C, Gansler T, et al. American Cancer Society guideline for diet and physical activity for
+cancer prevention. CA Cancer J Clin 2020; 70:245.
+24. Lichtenstein AH, Khera A, Anderson CAM, et al. 2026 Dietary Guidance to Improve Cardiovascular Health: A
+Scientific Statement From the American Heart Association. Circulation 2026.
+25. US Department of Agriculture. Dietary guidelines for Americans: 2020-2025. US Department of Health and H
+uman Services 2020. Available at: https://www.dietaryguidelines.gov/sites/default/files/2020-12/Dietary_Guid
+elines_for_Americans_2020-2025.pdf (Accessed on June 28, 2022).
+26. Dietary Guidelines for Americans, 2025 to 2030. United States Department of Agriculture and United States D
+epartment of Health and Human Services. https://cdn.realfood.gov/DGA.pdf (Accessed on January 13, 2026).
+27. Chiuve SE, Fung TT, Rimm EB, et al. Alternative dietary indices both strongly predict risk of chronic disease. J
+Nutr 2012; 142:1009.
+28. Jankovic N, Geelen A, Streppel MT, et al. Adherence to a healthy diet according to the World Health
+Organization guidelines and all-cause mortality in elderly adults from Europe and the United States. Am J
+Epidemiol 2014; 180:978.
+29. Sotos-Prieto M, Bhupathiraju SN, Mattei J, et al. Association of Changes in Diet Quality with Total and Cause-
+Specific Mortality. N Engl J Med 2017; 377:143.
+30. Vergnaud AC, Romaguera D, Peeters PH, et al. Adherence to the World Cancer Research Fund/American
+Institute for Cancer Research guidelines and risk of death in Europe: results from the European Prospective
+Investigation into Nutrition and Cancer cohort study1,4. Am J Clin Nutr 2013; 97:1107.
+31. Harmon BE, Boushey CJ, Shvetsov YB, et al. Associations of key diet-quality indexes with mortality in the
+Multiethnic Cohort: the Dietary Patterns Methods Project. Am J Clin Nutr 2015; 101:587.
+32. Li F, Hou LN, Chen W, et al. Associations of dietary patterns with the risk of all-cause, CVD and stroke
+mortality: a meta-analysis of prospective cohort studies. Br J Nutr 2015; 113:16.
+33. Onvani S, Haghighatdoost F, Surkan PJ, et al. Adherence to the Healthy Eating Index and Alternative Healthy
+Eating Index dietary patterns and mortality from all causes, cardiovascular disease and cancer: a meta-
+analysis of observational studies. J Hum Nutr Diet 2017; 30:216.
+34. Schwingshackl L, Bogensberger B, Hoffmann G. Diet Quality as Assessed by the Healthy Eating Index,
+Alternate Healthy Eating Index, Dietary Approaches to Stop Hypertension Score, and Health Outcomes: An
+Updated Systematic Review and Meta-Analysis of Cohort Studies. J Acad Nutr Diet 2018; 118:74.
+35. Thomson CA, Van Horn L, Caan BJ, et al. Cancer incidence and mortality during the intervention and
+postintervention periods of the Women's Health Initiative dietary modification trial. Cancer Epidemiol
+Biomarkers Prev 2014; 23:2924.
+36. Tessier AJ, Wang F, Korat AA, et al. Optimal dietary patterns for healthy aging. Nat Med 2025; 31:1644.
+37. Johnston BC, Zeraatkar D, Han MA, et al. Unprocessed Red Meat and Processed Meat Consumption: Dietary
+Guideline Recommendations From the Nutritional Recommendations (NutriRECS) Consortium. Ann Intern
+Med 2019; 171:756.
+
+-- 15 of 40 --
+
+38. Public Health England. The Eatwell Guide. Available at: https://www.gov.uk/government/publications/the-eat
+well-guide (Accessed on June 28, 2022).
+39. Food and Agriculture Organization of the United Nations. Food-based dietary guidelines - Japan. Available at:
+https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/japan/en/ (Accessed on J
+une 28, 2022).
+40. Estruch R, Ros E, Salas-Salvadó J, et al. Retraction and Republication: Primary Prevention of Cardiovascular
+Disease with a Mediterranean Diet. N Engl J Med 2013;368:1279-90. N Engl J Med 2018; 378:2441.
+41. Rees K, Takeda A, Martin N, et al. Mediterranean-style diet for the primary and secondary prevention of
+cardiovascular disease. Cochrane Database Syst Rev 2019; 3:CD009825.
+42. Delgado-Lista J, Alcala-Diaz JF, Torres-Peña JD, et al. Long-term secondary prevention of cardiovascular
+disease with a Mediterranean diet and a low-fat diet (CORDIOPREV): a randomised controlled trial. Lancet
+2022; 399:1876.
+43. Karam G, Agarwal A, Sadeghirad B, et al. Comparison of seven popular structured dietary programmes and
+risk of mortality and major cardiovascular events in patients at increased cardiovascular risk: systematic
+review and network meta-analysis. BMJ 2023; 380:e072003.
+44. Maroto-Rodriguez J, Delgado-Velandia M, Ortolá R, et al. Association of a Mediterranean Lifestyle With All-
+Cause and Cause-Specific Mortality: A Prospective Study from the UK Biobank. Mayo Clin Proc 2024; 99:551.
+45. Schwingshackl L, Hoffmann G. Adherence to Mediterranean diet and risk of cancer: a systematic review and
+meta-analysis of observational studies. Int J Cancer 2014; 135:1884.
+46. Sofi F, Cesari F, Abbate R, et al. Adherence to Mediterranean diet and health status: meta-analysis. BMJ 2008;
+337:a1344.
+47. Ahmad S, Moorthy MV, Demler OV, et al. Assessment of Risk Factors and Biomarkers Associated With Risk of
+Cardiovascular Disease Among Women Consuming a Mediterranean Diet. JAMA Netw Open 2018; 1:e185708.
+48. Paterson KE, Myint PK, Jennings A, et al. Mediterranean Diet Reduces Risk of Incident Stroke in a Population
+With Varying Cardiovascular Disease Risk Profiles. Stroke 2018; 49:2415.
+49. Filomeno M, Bosetti C, Garavello W, et al. The role of a Mediterranean diet on the risk of oral and pharyngeal
+cancer. Br J Cancer 2014; 111:981.
+50. Castelló A, Pollán M, Buijsse B, et al. Spanish Mediterranean diet and other dietary patterns and breast
+cancer risk: case-control EpiGEICAM study. Br J Cancer 2014; 111:1454.
+51. Toledo E, Salas-Salvadó J, Donat-Vargas C, et al. Mediterranean Diet and Invasive Breast Cancer Risk Among
+Women at High Cardiovascular Risk in the PREDIMED Trial: A Randomized Clinical Trial. JAMA Intern Med
+2015; 175:1752.
+52. Appel LJ, Moore TJ, Obarzanek E, et al. A clinical trial of the effects of dietary patterns on blood pressure.
+DASH Collaborative Research Group. N Engl J Med 1997; 336:1117.
+53. Sacks FM, Svetkey LP, Vollmer WM, et al. Effects on blood pressure of reduced dietary sodium and the Dietary
+Approaches to Stop Hypertension (DASH) diet. DASH-Sodium Collaborative Research Group. N Engl J Med
+2001; 344:3.
+54. Rai SK, Fung TT, Lu N, et al. The Dietary Approaches to Stop Hypertension (DASH) diet, Western diet, and risk
+of gout in men: prospective cohort study. BMJ 2017; 357:j1794.
+55. Juraschek SP, Gelber AC, Choi HK, et al. Effects of the Dietary Approaches to Stop Hypertension (DASH) Diet
+and Sodium Intake on Serum Uric Acid. Arthritis Rheumatol 2016; 68:3002.
+56. Fung TT, Hu FB, Wu K, et al. The Mediterranean and Dietary Approaches to Stop Hypertension (DASH) diets
+and colorectal cancer. Am J Clin Nutr 2010; 92:1429.
+
+-- 16 of 40 --
+
+57. Fung TT, Chiuve SE, McCullough ML, et al. Adherence to a DASH-style diet and risk of coronary heart disease
+and stroke in women. Arch Intern Med 2008; 168:713.
+58. Salehi-Abargouei A, Maghsoudi Z, Shirani F, Azadbakht L. Effects of Dietary Approaches to Stop Hypertension
+(DASH)-style diet on fatal or nonfatal cardiovascular diseases--incidence: a systematic review and meta-
+analysis on observational prospective studies. Nutrition 2013; 29:611.
+59. Bensaaud A, Seery S, Gibson I, et al. Dietary Approaches to Stop Hypertension (DASH) for the primary and
+secondary prevention of cardiovascular diseases. Cochrane Database Syst Rev 2025; 5:CD013729.
+60. US Department of Agriculture. MyPlate: Enjoy vegetarian meals. Available at: https://www.myplate.gov/tip-sh
+eet/enjoy-vegetarian-meals (Accessed on June 28, 2022).
+61. Leitzmann C. Vegetarian diets: what are the advantages? Forum Nutr 2005; :147.
+62. Johnston PK, Sabate J. Nutritional implications of vegetarian diets. In: Modern nutrition in health and disease,
+10, Shils ME, Shike M, Ross AC, et al (Eds), Lippincott Williams & Wilkins, 2006. p.1638.
+63. Craig WJ. Health effects of vegan diets. Am J Clin Nutr 2009; 89:1627S.
+64. Rao V, Al-Weshahy A. Plant-based diets and control of lipids and coronary heart disease risk. Curr Atheroscler
+Rep 2008; 10:478.
+65. Barnard ND, Katcher HI, Jenkins DJ, et al. Vegetarian and vegan diets in type 2 diabetes management. Nutr
+Rev 2009; 67:255.
+66. Le LT, Sabaté J. Beyond meatless, the health effects of vegan diets: findings from the Adventist cohorts.
+Nutrients 2014; 6:2131.
+67. Orlich MJ, Singh PN, Sabaté J, et al. Vegetarian dietary patterns and mortality in Adventist Health Study 2.
+JAMA Intern Med 2013; 173:1230.
+68. Dinu M, Abbate R, Gensini GF, et al. Vegetarian, vegan diets and multiple health outcomes: A systematic
+review with meta-analysis of observational studies. Crit Rev Food Sci Nutr 2017; 57:3640.
+69. Kim H, Caulfield LE, Rebholz CM. Healthy Plant-Based Diets Are Associated with Lower Risk of All-Cause
+Mortality in US Adults. J Nutr 2018; 148:624.
+70. Segovia-Siapco G, Sabaté J. Health and sustainability outcomes of vegetarian dietary patterns: a revisit of the
+EPIC-Oxford and the Adventist Health Study-2 cohorts. Eur J Clin Nutr 2019; 72:60.
+71. Delgado-Velandia M, Maroto-Rodríguez J, Ortolá R, et al. Plant-Based Diets and All-cause and Cardiovascular
+Mortality in a Nationwide Cohort in Spain: The ENRICA Study. Mayo Clin Proc 2022; 97:2005.
+72. Zhao B, Gan L, Graubard BI, et al. Plant and Animal Fat Intake and Overall and Cardiovascular Disease
+Mortality. JAMA Intern Med 2024; 184:1234.
+73. Abris GP, Shavlik DJ, Mathew RO, et al. Cause-specific and all-cause mortalities in vegetarian compared with
+those in nonvegetarian participants from the Adventist Health Study-2 cohort. Am J Clin Nutr 2024; 120:907.
+74. Wang XJ, Steur M, Kavousi M, Voortman T. Adherence to plant-based diets and long-term changes in
+cardiometabolic markers: a longitudinal analysis in a population-based cohort. Am J Clin Nutr 2025; 122:424.
+75. Satija A, Hu FB. Plant-based diets and cardiovascular health. Trends Cardiovasc Med 2018; 28:437.
+76. Landry MJ, Ward CP, Cunanan KM, et al. Cardiometabolic Effects of Omnivorous vs Vegan Diets in Identical
+Twins: A Randomized Clinical Trial. JAMA Netw Open 2023; 6:e2344457.
+77. Wang T, Kroeger CM, Cassidy S, et al. Vegetarian Dietary Patterns and Cardiometabolic Risk in People With or
+at High Risk of Cardiovascular Disease: A Systematic Review and Meta-analysis. JAMA Netw Open 2023;
+6:e2325658.
+78. Melina V, Craig W, Levin S. Position of the Academy of Nutrition and Dietetics: Vegetarian Diets. J Acad Nutr
+Diet 2016; 116:1970.
+
+-- 17 of 40 --
+
+79. Iguacel I, Miguel-Berges ML, Gómez-Bruton A, et al. Veganism, vegetarianism, bone mineral density, and
+fracture risk: a systematic review and meta-analysis. Nutr Rev 2019; 77:1.
+80. Bakaloudi DR, Halloran A, Rippin HL, et al. Intake and adequacy of the vegan diet. A systematic review of the
+evidence. Clin Nutr 2021; 40:3503.
+81. Howard BV, Van Horn L, Hsia J, et al. Low-fat dietary pattern and risk of cardiovascular disease: the Women's
+Health Initiative Randomized Controlled Dietary Modification Trial. JAMA 2006; 295:655.
+82. Thomson CA, McCullough ML, Wertheim BC, et al. Nutrition and physical activity cancer prevention
+guidelines, cancer risk, and mortality in the women's health initiative. Cancer Prev Res (Phila) 2014; 7:42.
+83. Harcombe Z, Baker JS, DiNicolantonio JJ, et al. Evidence from randomised controlled trials does not support
+current dietary fat guidelines: a systematic review and meta-analysis. Open Heart 2016; 3:e000409.
+84. Prentice RL, Aragaki AK, Howard BV, et al. Low-Fat Dietary Pattern among Postmenopausal Women
+Influences Long-Term Cancer, Cardiovascular Disease, and Diabetes Outcomes. J Nutr 2019; 149:1565.
+85. Hooper L, Abdelhamid AS, Jimoh OF, et al. Effects of total fat intake on body fatness in adults. Cochrane
+Database Syst Rev 2020; 6:CD013636.
+86. Tobias DK, Chen M, Manson JE, et al. Effect of low-fat diet interventions versus other diet interventions on
+long-term weight change in adults: a systematic review and meta-analysis. Lancet Diabetes Endocrinol 2015;
+3:968.
+87. Ge L, Sadeghirad B, Ball GDC, et al. Comparison of dietary macronutrient patterns of 14 popular named
+dietary programmes for weight and cardiovascular risk factor reduction in adults: systematic review and
+network meta-analysis of randomised trials. BMJ 2020; 369:m696.
+88. Shan Z, Guo Y, Hu FB, et al. Association of Low-Carbohydrate and Low-Fat Diets With Mortality Among US
+Adults. JAMA Intern Med 2020; 180:513.
+89. Zhong VW, Van Horn L, Cornelis MC, et al. Associations of Dietary Cholesterol or Egg Consumption With
+Incident Cardiovascular Disease and Mortality. JAMA 2019; 321:1081.
+90. Hu FB, Stampfer MJ, Rimm EB, et al. A prospective study of egg consumption and risk of cardiovascular
+disease in men and women. JAMA 1999; 281:1387.
+91. Drouin-Chartier JP, Chen S, Li Y, et al. Egg consumption and risk of cardiovascular disease: three large
+prospective US cohort studies, systematic review, and updated meta-analysis. BMJ 2020; 368:m513.
+92. Drouin-Chartier JP, Schwab AL, Chen S, et al. Egg consumption and risk of type 2 diabetes: findings from 3
+large US cohort studies of men and women and a systematic review and meta-analysis of prospective cohort
+studies. Am J Clin Nutr 2020; 112:619.
+93. Chen GC, Chen LH, Mossavar-Rahmani Y, et al. Dietary cholesterol and egg intake in relation to incident
+cardiovascular disease and all-cause and cause-specific mortality in postmenopausal women. Am J Clin Nutr
+2021; 113:948.
+94. Miller V, Mente A, Dehghan M, et al. Fruit, vegetable, and legume intake, and cardiovascular disease and
+deaths in 18 countries (PURE): a prospective cohort study. Lancet 2017; 390:2037.
+95. Nagura J, Iso H, Watanabe Y, et al. Fruit, vegetable and bean intake and mortality from cardiovascular
+disease among Japanese men and women: the JACC Study. Br J Nutr 2009; 102:285.
+96. Sauvaget C, Nagano J, Allen N, Kodama K. Vegetable and fruit intake and stroke mortality in the
+Hiroshima/Nagasaki Life Span Study. Stroke 2003; 34:2355.
+97. Crowe FL, Roddam AW, Key TJ, et al. Fruit and vegetable intake and mortality from ischaemic heart disease:
+results from the European Prospective Investigation into Cancer and Nutrition (EPIC)-Heart study. Eur Heart J
+2011; 32:1235.
+
+-- 18 of 40 --
+
+98. Joshipura KJ, Hu FB, Manson JE, et al. The effect of fruit and vegetable intake on risk for coronary heart
+disease. Ann Intern Med 2001; 134:1106.
+99. Bazzano LA, He J, Ogden LG, et al. Legume consumption and risk of coronary heart disease in US men and
+women: NHANES I Epidemiologic Follow-up Study. Arch Intern Med 2001; 161:2573.
+100. Du H, Li L, Bennett D, et al. Fresh Fruit Consumption and Major Cardiovascular Disease in China. N Engl J Med
+2016; 374:1332.
+101. Diet, nutrition, physical activity and cancer: A global perspective. World Cancer Research Fund, 2018. https://
+www.wcrf.org/wp-content/uploads/2021/02/Summary-of-Third-Expert-Report-2018.pdf (Accessed on June 16,
+2018).
+102. Dagnelie PC, Schuurman AG, Goldbohm RA, Van den Brandt PA. Diet, anthropometric measures and prostate
+cancer risk: a review of prospective cohort and intervention studies. BJU Int 2004; 93:1139.
+103. Giovannucci E. A review of epidemiologic studies of tomatoes, lycopene, and prostate cancer. Exp Biol Med
+(Maywood) 2002; 227:852.
+104. Reynolds A, Mann J, Cummings J, et al. Carbohydrate quality and human health: a series of systematic
+reviews and meta-analyses. Lancet 2019; 393:434.
+105. Mozaffarian D, Hao T, Rimm EB, et al. Changes in diet and lifestyle and long-term weight gain in women and
+men. N Engl J Med 2011; 364:2392.
+106. Tang G, Wang D, Long J, et al. Meta-analysis of the association between whole grain intake and coronary
+heart disease risk. Am J Cardiol 2015; 115:625.
+107. Wu H, Flint AJ, Qi Q, et al. Association between dietary whole grain intake and risk of mortality: two large
+prospective studies in US men and women. JAMA Intern Med 2015; 175:373.
+108. Key TJ, Thorogood M, Appleby PN, Burr ML. Dietary habits and mortality in 11,000 vegetarians and health
+conscious people: results of a 17 year follow up. BMJ 1996; 313:775.
+109. Ascherio A, Rimm EB, Hernán MA, et al. Intake of potassium, magnesium, calcium, and fiber and risk of
+stroke among US men. Circulation 1998; 98:1198.
+110. Wolk A, Manson JE, Stampfer MJ, et al. Long-term intake of dietary fiber and decreased risk of coronary heart
+disease among women. JAMA 1999; 281:1998.
+111. Jensen MK, Koh-Banerjee P, Hu FB, et al. Intakes of whole grains, bran, and germ and the risk of coronary
+heart disease in men. Am J Clin Nutr 2004; 80:1492.
+112. Park Y, Subar AF, Hollenbeck A, Schatzkin A. Dietary fiber intake and mortality in the NIH-AARP diet and
+health study. Arch Intern Med 2011; 171:1061.
+113. Chuang SC, Norat T, Murphy N, et al. Fiber intake and total and cause-specific mortality in the European
+Prospective Investigation into Cancer and Nutrition cohort. Am J Clin Nutr 2012; 96:164.
+114. Kim Y, Je Y. Dietary fiber intake and total mortality: a meta-analysis of prospective cohort studies. Am J
+Epidemiol 2014; 180:565.
+115. Pereira MA, O'Reilly E, Augustsson K, et al. Dietary fiber and risk of coronary heart disease: a pooled analysis
+of cohort studies. Arch Intern Med 2004; 164:370.
+116. Parra-Soto S, Araya C, Knight K, et al. Different Sources of Fiber Intake and Risk of 17 Specific Cancers and All
+Cancers Combined: Prospective Study of 364,856 Participants in the UK Biobank. Am J Epidemiol 2024;
+193:660.
+117. Ludwig DS, Pereira MA, Kroenke CH, et al. Dietary fiber, weight gain, and cardiovascular disease risk factors
+in young adults. JAMA 1999; 282:1539.
+118. Hartley L, May MD, Loveman E, et al. Dietary fibre for the primary prevention of cardiovascular disease.
+
+-- 19 of 40 --
+
+Cochrane Database Syst Rev 2016; :CD011472.
+119. Li S, Flint A, Pai JK, et al. Dietary fiber intake and mortality among survivors of myocardial infarction:
+prospective cohort study. BMJ 2014; 348:g2659.
+120. Elwood PC, Pickering JE, Hughes J, et al. Milk drinking, ischaemic heart disease and ischaemic stroke II.
+Evidence from cohort studies. Eur J Clin Nutr 2004; 58:718.
+121. German JB, Gibson RA, Krauss RM, et al. A reappraisal of the impact of dairy foods and milk fat on
+cardiovascular disease risk. Eur J Nutr 2009; 48:191.
+122. Dehghan M, Mente A, Rangarajan S, et al. Association of dairy intake with cardiovascular disease and
+mortality in 21 countries from five continents (PURE): a prospective cohort study. Lancet 2018; 392:2288.
+123. Akyil S, Winkler S, Meyer D, et al. Association between dairy intake and multiple health outcomes: a scoping
+review of systematic reviews and meta-analyses. Eur J Clin Nutr 2026; 80:16.
+124. Guo J, Astrup A, Lovegrove JA, et al. Milk and dairy consumption and risk of cardiovascular diseases and all-
+cause mortality: dose-response meta-analysis of prospective cohort studies. Eur J Epidemiol 2017; 32:269.
+125. Schwingshackl L, Schwedhelm C, Hoffmann G, et al. Food Groups and Risk of Hypertension: A Systematic
+Review and Dose-Response Meta-Analysis of Prospective Studies. Adv Nutr 2017; 8:793.
+126. Heymsfield SB, Shapses SA. Guidance on Energy and Macronutrients across the Life Span. N Engl J Med 2024;
+390:1299.
+127. Guasch-Ferré M, Liu X, Malik VS, et al. Nut Consumption and Risk of Cardiovascular Disease. J Am Coll Cardiol
+2017; 70:2519.
+128. Advice about Eating Fish For Those Who Might Become or Are Pregnant or Breastfeeding and Children Ages
+1 - 11 Years https://www.fda.gov/food/consumers/advice-about-eating-fish (Accessed on June 28, 2022).
+129. Leung Yinko SS, Stark KD, Thanassoulis G, Pilote L. Fish consumption and acute coronary syndrome: a meta-
+analysis. Am J Med 2014; 127:848.
+130. Mohan D, Mente A, Dehghan M, et al. Associations of Fish Consumption With Risk of Cardiovascular Disease
+and Mortality Among Individuals With or Without Vascular Disease From 58 Countries. JAMA Intern Med
+2021; 181:631.
+131. Sacks FM, Lichtenstein AH, Wu JHY, et al. Dietary Fats and Cardiovascular Disease: A Presidential Advisory
+From the American Heart Association. Circulation 2017; 136:e1.
+132. Hu FB, Stampfer MJ, Manson JE, et al. Dietary fat intake and the risk of coronary heart disease in women. N
+Engl J Med 1997; 337:1491.
+133. Mozaffarian D, Micha R, Wallace S. Effects on coronary heart disease of increasing polyunsaturated fat in
+place of saturated fat: a systematic review and meta-analysis of randomized controlled trials. PLoS Med 2010;
+7:e1000252.
+134. Zhang Y, Chadaideh KS, Li Y, et al. Butter and Plant-Based Oils Intake and Mortality. JAMA Intern Med 2025;
+185:549.
+135. Hu T, Mills KT, Yao L, et al. Effects of low-carbohydrate diets versus low-fat diets on metabolic risk factors: a
+meta-analysis of randomized controlled clinical trials. Am J Epidemiol 2012; 176 Suppl 7:S44.
+136. Mansoor N, Vinknes KJ, Veierød MB, Retterstøl K. Effects of low-carbohydrate diets v. low-fat diets on body
+weight and cardiovascular risk factors: a meta-analysis of randomised controlled trials. Br J Nutr 2016;
+115:466.
+137. Fung TT, van Dam RM, Hankinson SE, et al. Low-carbohydrate diets and all-cause and cause-specific
+mortality: two cohort studies. Ann Intern Med 2010; 153:289.
+138. Seidelmann SB, Claggett B, Cheng S, et al. Dietary carbohydrate intake and mortality: a prospective cohort
+study and meta-analysis. Lancet Public Health 2018; 3:e419.
+
+-- 20 of 40 --
+
+139. US Department of Agriculture. Organic regulations. Available at: https://www.ams.usda.gov/rules-regulation
+s/organic (Accessed on February 15, 2019).
+140. Brantsæter AL, Ydersbond TA, Hoppin JA, et al. Organic Food in the Diet: Exposure and Health Implications.
+Annu Rev Public Health 2017; 38:295.
+141. Smith-Spangler C, Brandeau ML, Hunter GE, et al. Are organic foods safer or healthier than conventional
+alternatives?: a systematic review. Ann Intern Med 2012; 157:348.
+142. Bradbury KE, Balkwill A, Spencer EA, et al. Organic food consumption and the incidence of cancer in a large
+prospective study of women in the United Kingdom. Br J Cancer 2014; 110:2321.
+143. Baudry J, Assmann KE, Touvier M, et al. Association of Frequency of Organic Food Consumption With Cancer
+Risk: Findings From the NutriNet-Santé Prospective Cohort Study. JAMA Intern Med 2018; 178:1597.
+144. Phillips CM, Chen LW, Heude B, et al. Dietary Inflammatory Index and Non-Communicable Disease Risk: A
+Narrative Review. Nutrients 2019; 11.
+145. Shivappa N, Hebert JR, Kivimaki M, Akbaraly T. Alternative Healthy Eating Index 2010, Dietary Inflammatory
+Index and risk of mortality: results from the Whitehall II cohort study and meta-analysis of previous Dietary
+Inflammatory Index and mortality studies. Br J Nutr 2017; 118:210.
+146. Park SY, Kang M, Wilkens LR, et al. The Dietary Inflammatory Index and All-Cause, Cardiovascular Disease,
+and Cancer Mortality in the Multiethnic Cohort Study. Nutrients 2018; 10.
+147. Lebwohl B, Cao Y, Zong G, et al. Long term gluten consumption in adults without celiac disease and risk of
+coronary heart disease: prospective cohort study. BMJ 2017; 357:j1892.
+148. GBD 2016 Alcohol Collaborators. Alcohol use and burden for 195 countries and territories, 1990-2016: a
+systematic analysis for the Global Burden of Disease Study 2016. Lancet 2018; 392:1015.
+149. Steen JP, Klatt KC, Chang Y, et al. Effect of Interventions Aimed at Reducing or Modifying Saturated Fat Intake
+on Cholesterol, Mortality, and Major Cardiovascular Events : A Risk Stratified Systematic Review of
+Randomized Trials. Ann Intern Med 2026; 179:242.
+150. McCarthy M. US gives food manufacturers three years to ban trans fats. BMJ 2015; 350:h3315.
+151. Warraich HJ, Carroll L, McKinnon RA, et al. U.S. Food and Drug Administration Updates in Nutrition Labeling:
+What Clinicians Need to Know. Ann Intern Med 2024; 177:532.
+152. Imamura F, O'Connor L, Ye Z, et al. Consumption of sugar sweetened beverages, artificially sweetened
+beverages, and fruit juice and incidence of type 2 diabetes: systematic review, meta-analysis, and estimation
+of population attributable fraction. BMJ 2015; 351:h3576.
+153. Jayalath VH, de Souza RJ, Ha V, et al. Sugar-sweetened beverage consumption and incident hypertension: a
+systematic review and meta-analysis of prospective cohorts. Am J Clin Nutr 2015; 102:914.
+154. Xi B, Huang Y, Reilly KH, et al. Sugar-sweetened beverages and risk of hypertension and CVD: a dose-
+response meta-analysis. Br J Nutr 2015; 113:709.
+155. Huang Y, Chen Z, Chen B, et al. Dietary sugar consumption and health: umbrella review. BMJ 2023;
+381:e071609.
+156. Malik VS, Li Y, Pan A, et al. Long-Term Consumption of Sugar-Sweetened and Artificially Sweetened
+Beverages and Risk of Mortality in US Adults. Circulation 2019; 139:2113.
+157. Li H, Liang H, Yang H, et al. Association between intake of sweetened beverages with all-cause and cause-
+specific mortality: a systematic review and meta-analysis. J Public Health (Oxf) 2022; 44:516.
+158. Rodríguez-Ayala M, Donat-Vargas C, Moreno-Franco B, et al. Association of a healthy beverage score with
+total mortality in the adult population of Spain: A nationwide cohort study. PLoS Med 2024; 21:e1004337.
+159. Lara-Castor L, O'Hearn M, Cudhea F, et al. Burdens of type 2 diabetes and cardiovascular disease attributable
+
+-- 21 of 40 --
+
+to sugar-sweetened beverages in 184 countries. Nat Med 2025; 31:552.
+160. Use of non-sugar sweeteners: WHO guideline. World Health Organization, May 15, 2023. https://www.who.in
+t/publications/i/item/9789240073616 (Accessed on October 06, 2023).
+161. Suran M. Sugar Substitutes Don't Help Weight Control and May Increase Risk of Heart Disease and Diabetes,
+WHO Warns. JAMA 2023; 330:9.
+162. Wolk A. Potential health hazards of eating red meat. J Intern Med 2017; 281:106.
+163. Orlich MJ, Sabaté J, Mashchak A, et al. Ultra-processed food intake and animal-based food intake and
+mortality in the Adventist Health Study-2. Am J Clin Nutr 2022; 115:1589.
+164. Feskens EJ, Sluik D, van Woudenbergh GJ. Meat consumption, diabetes, and its complications. Curr Diab Rep
+2013; 13:298.
+165. Kaluza J, Wolk A, Larsson SC. Red meat consumption and risk of stroke: a meta-analysis of prospective
+studies. Stroke 2012; 43:2556.
+166. Chan DS, Lau R, Aune D, et al. Red and processed meat and colorectal cancer incidence: meta-analysis of
+prospective studies. PLoS One 2011; 6:e20456.
+167. Dankner R, Chetrit A, Avraham SB, et al. A historical cohort study with 27,754 individuals on the association
+between meat consumption and gastrointestinal tract and colorectal cancer incidence. Int J Cancer 2024;
+155:2009.
+168. Farvid MS, Sidahmed E, Spence ND, et al. Consumption of red meat and processed meat and cancer
+incidence: a systematic review and meta-analysis of prospective studies. Eur J Epidemiol 2021; 36:937.
+169. Abete I, Romaguera D, Vieira AR, et al. Association between total, processed, red and white meat
+consumption and all-cause, CVD and IHD mortality: a meta-analysis of cohort studies. Br J Nutr 2014;
+112:762.
+170. Larsson SC, Orsini N. Red meat and processed meat consumption and all-cause mortality: a meta-analysis.
+Am J Epidemiol 2014; 179:282.
+171. Wang X, Lin X, Ouyang YY, et al. Red and processed meat consumption and mortality: dose-response meta-
+analysis of prospective cohort studies. Public Health Nutr 2016; 19:893.
+172. Zeraatkar D, Johnston BC, Bartoszko J, et al. Effect of Lower Versus Higher Red Meat Intake on
+Cardiometabolic and Cancer Outcomes: A Systematic Review of Randomized Trials. Ann Intern Med 2019;
+171:721.
+173. Zeraatkar D, Han MA, Guyatt GH, et al. Red and Processed Meat Consumption and Risk for All-Cause
+Mortality and Cardiometabolic Outcomes: A Systematic Review and Meta-analysis of Cohort Studies. Ann
+Intern Med 2019; 171:703.
+174. Vernooij RWM, Zeraatkar D, Han MA, et al. Patterns of Red and Processed Meat Consumption and Risk for
+Cardiometabolic and Cancer Outcomes: A Systematic Review and Meta-analysis of Cohort Studies. Ann Intern
+Med 2019; 171:732.
+175. Han MA, Zeraatkar D, Guyatt GH, et al. Reduction of Red and Processed Meat Intake and Cancer Mortality
+and Incidence: A Systematic Review and Meta-analysis of Cohort Studies. Ann Intern Med 2019; 171:711.
+176. Iqbal R, Dehghan M, Mente A, et al. Associations of unprocessed and processed meat intake with mortality
+and cardiovascular disease in 21 countries [Prospective Urban Rural Epidemiology (PURE) Study]: a
+prospective cohort study. Am J Clin Nutr 2021; 114:1049.
+177. Arnett DK, Blumenthal RS, Albert MA, et al. 2019 ACC/AHA Guideline on the Primary Prevention of
+Cardiovascular Disease: A Report of the American College of Cardiology/American Heart Association Task
+Force on Clinical Practice Guidelines. Circulation 2019; 140:e596.
+
+-- 22 of 40 --
+
+178. Bouvard V, Loomis D, Guyton KZ, et al. Carcinogenicity of consumption of red and processed meat. Lancet
+Oncol 2015; 16:1599.
+179. Fiolet T, Srour B, Sellem L, et al. Consumption of ultra-processed foods and cancer risk: results from NutriNet-
+Santé prospective cohort. BMJ 2018; 360:k322.
+180. Schnabel L, Kesse-Guyot E, Allès B, et al. Association Between Ultraprocessed Food Consumption and Risk of
+Mortality Among Middle-aged Adults in France. JAMA Intern Med 2019; 179:490.
+181. Srour B, Fezeu LK, Kesse-Guyot E, et al. Ultraprocessed Food Consumption and Risk of Type 2 Diabetes
+Among Participants of the NutriNet-Santé Prospective Cohort. JAMA Intern Med 2020; 180:283.
+182. Srour B, Fezeu LK, Kesse-Guyot E, et al. Ultra-processed food intake and risk of cardiovascular disease:
+prospective cohort study (NutriNet-Santé). BMJ 2019; 365:l1451.
+183. Sherling DH, Hennekens CH, Ferris AH. Newest Updates to Health Providers on the Hazards of Ultra-
+Processed Foods and Proposed Solutions. Am J Med 2024; 137:395.
+184. Meine GC, Picon RV, Espírito Santo PA, Sander GB. Ultra-Processed Food Consumption and Gastrointestinal
+Cancer Risk: A Systematic Review and Meta-Analysis. Am J Gastroenterol 2024; 119:1056.
+185. Feinberg A, Rebholz CM, Lemaitre RN, et al. Ultra-processed foods, plant and animal sources, and all-cause,
+cardiovascular, and cancer mortality in older adults in the United States: results from the Cardiovascular
+Health Study. Am J Clin Nutr 2025; 122:523.
+186. Hatta-Langedyk J, Wang L, Fan B, et al. Ultraprocessed Food Versus Diet Quality in Relation to
+Cardiometabolic Health and All-Cause Mortality: NHANES 1999-2018. Am J Public Health 2026; 116:1015.
+187. Nguyen TA, Nguyen NN, Nguyen HS, et al. Ultraprocessed food consumption and the global burden of
+noncommunicable disease: a 45-country comparative risk assessment. Am J Clin Nutr 2026; 124:101417.
+188. Barbaresko J, Bröder J, Conrad J, et al. Ultra-processed food consumption and human health: an umbrella
+review of systematic reviews with meta-analyses. Crit Rev Food Sci Nutr 2025; 65:1999.
+189. Lane MM, Gamage E, Du S, et al. Ultra-processed food exposure and adverse health outcomes: umbrella
+review of epidemiological meta-analyses. BMJ 2024; 384:e077310.
+190. Bagnardi V, Rota M, Botteri E, et al. Light alcohol drinking and cancer: a meta-analysis. Ann Oncol 2013;
+24:301.
+191. Thun MJ, Peto R, Lopez AD, et al. Alcohol consumption and mortality among middle-aged and elderly U.S.
+adults. N Engl J Med 1997; 337:1705.
+Topic 5364 Version 103.0
+
+-- 23 of 40 --
+
+GRAPHICS
+Table 1: Estimated caloric needs per day, by age, sex, and physical activity level
+Males 	Females
+Age 	Sedentary* 	Moderately
+active
+Active 	Age 	Sedentary* 	Moderately
+active
+Active
+2 	1000 	1000 	1000 	2 	1000 	1000 	1000
+3 	1000 	1400 	1400 	3 	1000 	1200 	1400
+4 	1200 	1400 	1600 	4 	1200 	1400 	1400
+5 	1200 	1400 	1600 	5 	1200 	1400 	1600
+6 	1400 	1600 	1800 	6 	1200 	1400 	1600
+7 	1400 	1600 	1800 	7 	1200 	1600 	1800
+8 	1400 	1600 	2000 	8 	1400 	1600 	1800
+9 	1600 	1800 	2000 	9 	1400 	1600 	1800
+10 	1600 	1800 	2200 	10 	1400 	1800 	2000
+11 	1800 	2000 	2200 	11 	1600 	1800 	2000
+12 	1800 	2200 	2400 	12 	1600 	2000 	2200
+13 	2000 	2200 	2600 	13 	1600 	2000 	2200
+14 	2000 	2400 	2800 	14 	1800 	2000 	2400
+15 	2200 	2600 	3000 	15 	1800 	2000 	2400
+16 	2400 	2800 	3200 	16 	1800 	2000 	2400
+17 	2400 	2800 	3200 	17 	1800 	2000 	2400
+18 	2400 	2800 	3200 	18 	1800 	2000 	2400
+19 to 20 	2600 	2800 	3000 	19 to 20 	2000 	2200 	2400
+21 to 25 	2400 	2800 	3000 	21 to 25 	2000 	2200 	2400
+26 to 30 	2400 	2600 	3000 	26 to 30 	1800 	2000 	2400
+31 to 35 	2400 	2600 	3000 	31 to 35 	1800 	2000 	2200
+36 to 40 	2400 	2600 	2800 	36 to 40 	1800 	2000 	2200
+41 to 45 	2200 	2600 	2800 	41 to 45 	1800 	2000 	2200
+46 to 50 	2200 	2400 	2800 	46 to 50 	1800 	2000 	2200
+51 to 55 	2200 	2400 	2800 	51 to 55 	1600 	1800 	2200
+56 to 60 	2200 	2400 	2600 	56 to 60 	1600 	1800 	2200
+61 to 65 	2000 	2400 	2600 	61 to 65 	1600 	1800 	2000
+66 to 70 	2000 	2200 	2600 	66 to 70 	1600 	1800 	2000
+71 to 75 	2000 	2200 	2600 	71 to 75 	1600 	1800 	2000
+76 and up 	2000 	2200 	2400 	76 and up 	1600 	1800 	2000
+* Sedentary means a lifestyle that includes only the physical activity of independent living.
+¶ Moderately active means a lifestyle that includes physical activity equivalent to walking about 1.5 to 3 miles per day at 3 to
+4 miles per hour, in addition to the activities of independent living.
+Δ Active means a lifestyle that includes physical activity equivalent to walking more than 3 miles per day at 3 to 4 miles per
+hour, in addition to the activities of independent living.
+◊
+¶
+Δ
+¶
+Δ
+
+-- 24 of 40 --
+
+◊ Estimates for females do not include women who are pregnant or breastfeeding.
+Reproduced from: US Department of Agriculture and U.S. Department of Health and Human Services. Dietary Guidelines for Americans: 2020–2025, 9th
+ed, December 2020. Available at: https://www.dietaryguidelines.gov/ (Accessed on June 23, 2022).
+Graphic 107834 Version 5.0
+
+-- 25 of 40 --
+
+Table 2: Healthy Mediterranean-style dietary pattern for children and adults
+CALORIE LEVEL OF PATTERN* 	1000 	1200 	1400 	1600 	1800 	2000 	2200 	2400 	2600 	2800 	3000 	3200
+FOOD GROUP OR SUBGROUP 	Daily amount of food from each group
+(vegetable and protein foods subgroup amounts are per week)
+Vegetables
+(cup eq/day)
+1 	1½ 	1½ 	2 	2½ 	2½ 	3 	3 	3½ 	3½ 	4 	4
+Vegetable subgroups in weekly amounts
+Dark-green vegetables
+(cup eq/wk)
+½ 	1 	1 	1½ 	1½ 	1½ 	2 	2 	2½ 	2½ 	2½ 	2½
+Red and orange vegetables
+(cup eq/wk)
+2½ 	3 	3 	4 	5½ 	5½ 	6 	6 	7 	7 	7½ 	7½
+Beans, peas, lentils
+(cup eq/wk)
+½ 	½ 	½ 	1 	1½ 	1½ 	2 	2 	2½ 	2½ 	3 	3
+Starchy vegetables
+(cup eq/wk)
+2 	3½ 	3½ 	4 	5 	5 	6 	6 	7 	7 	8 	8
+Other vegetables
+(cup eq/wk)
+1½ 	2½ 	2½ 	3½ 	4 	4 	5 	5 	5½ 	5½ 	7 	7
+Fruits
+(cup eq/day)
+1 	1 	1½ 	2 	2 	2½ 	2½ 	2½ 	2½ 	3 	3 	3
+Grains
+(ounce eq/day)
+3 	4 	5 	5 	6 	6 	7 	8 	9 	10 	10 	10
+Whole grains
+(ounce eq/day)
+1½ 	2 	2½ 	3 	3 	3 	3½ 	4 	4½ 	5 	5 	5
+Refined grains
+(ounce eq/day)
+1½ 	2 	2½ 	2 	3 	3 	3½ 	4 	4½ 	5 	5 	5
+Dairy
+(cup eq/day)
+2 	2½ 	2½ 	2 	2 	2 	2 	2½ 	2½ 	2½ 	2½ 	2½
+Protein foods
+(ounce eq/day)
+2 	3 	4 	5½ 	6 	6½ 	7 	7½ 	7½ 	8 	8 	8
+Protein foods subgroups in weekly amounts
+Meats, poultry, eggs
+(ounce eq/wk)
+10 	14 	19 	23 	23 	26 	28 	31 	31 	33 	33 	33
+Seafood
+(ounce eq/wk)
+3 	4 	6 	11 	15 	15 	16 	16 	17 	17 	17 	17
+Nuts, seeds, soy products
+(ounce eq/wk)
+2 	2 	3 	4 	4 	5 	5 	5 	5 	6 	6 	6
+Oils
+(grams/day)
+15 	17 	17 	22 	24 	27 	29 	31 	34 	36 	44 	51
+Limit on calories for other
+uses
+(kcal/day)
+130 	80 	90 	120 	140 	240 	250 	280 	300 	330 	400 	540
+Limit on calories for other
+uses
+(%/day)
+13% 	7% 	6% 	8% 	8% 	12% 	11% 	12% 	12% 	12% 	13% 	17%
+¶
+Δ
+Δ
+◊
+§
+
+-- 26 of 40 --
+
+The total dietary pattern should not exceed Dietary Guidelines limits for added sugars, saturated fat, and alcohol; be within
+the Acceptable Macronutrient Distribution Ranges for protein, carbohydrate, and total fats; and stay within calorie limits.
+Values are rounded.
+* Patterns at 1000, 1200, and 1400 kcal levels are designed to meet the nutritional needs of children ages 2 through 8 years.
+Patterns from 1600 to 3200 kcal are designed to meet the nutritional needs of children 9 years and older and adults. If a
+child 4 through 8 years of age needs more energy and, therefore, is following a pattern at 1600 calories or more, their
+recommended amount from the dairy group should be 2½ cup eq per day. Amount of dairy for children ages 9 through 18 is
+3 cup eq per day regardless of calorie level. The 1000 and 1200 kcal level patterns are not intended for children 9 and older
+or adults. The 1400 kcal level is not intended for children ages 10 and older or adults.
+¶ Food group amounts shown in cup equivalents (cup eq) or ounce equivalents (ounce eq). Oils are shown in grams.
+Quantity equivalents for each food group are: Vegetables, fruits (1 cup eq): 1 cup raw or cooked vegetable or fruit; 1 cup
+vegetable or fruit juice; 2 cups leafy salad greens; ½ cup dried fruit or vegetable. Grains (1 ounce eq): ½ cup cooked rice,
+pasta, or cereal; 1 ounce dry pasta or rice; 1 medium (1 ounce) slice bread, tortilla, or flatbread; 1 ounce of ready-to-eat
+cereal (about 1 cup of flaked cereal). Dairy (1 cup eq): 1 cup milk, yogurt, or fortified soymilk; 1½ ounces natural cheese such
+as cheddar cheese or 2 ounces of processed cheese. Protein foods (1 ounce eq): 1 ounce lean meats, poultry, or seafood; 1
+egg; ¼ cup cooked beans or tofu; 1 tbsp nut or seed butter; ½ ounce nuts or seeds.
+Δ Amounts of dairy recommended for children and adolescents are as follows, regardless of the calorie level of the pattern:
+for age 2 years, 2 cup eq per day; for ages 3 through 8 years, 2½ cup eq per day; for ages 9 through 18 years, 3 cup eq per
+day.
+◊ The US Food and Drug Administration (FDA) and the US Environmental Protection Agency (EPA) provide joint advice
+regarding seafood consumption to limit methylmercury exposure for women who might become or are pregnant or
+lactating, and children. Depending on body weight, some women and children should choose seafood lowest in
+methylmercury or eat less seafood than the amounts in the healthy US-style dietary Pattern. For more information, see the
+FDA and EPA websites.
+§ Foods are assumed to be in nutrient-dense forms; lean or low-fat; and prepared with minimal added sugars, refined
+starches (which are a source of calories but few or no other nutrients), saturated fat, or sodium. If all food choices to meet
+food group recommendations are in nutrient-dense forms, a small number of calories remain within the overall limit of the
+pattern (ie, limit on calories for other uses). The amount of calories depends on the total calorie level of the pattern and the
+amounts of food from each food group required to meet nutritional goals. Calories up to the specified limit can be used for
+added sugars, saturated fat, and/or alcohol (for nonpregnant adults of legal drinking age only) or to eat more than the
+recommended amount of food in a food group.
+Adapted from: Dietary Guidelines for Americans, 2020-2025. US Department of Agriculture and US Department of Health and Human Services 2020.
+Available at: https://www.dietaryguidelines.gov/resources/2020-2025-dietary-guidelines-online-materials (Accessed on June 23, 2022).
+Graphic 138997 Version 1.0
+
+-- 27 of 40 --
+
+Table 3: Healthy vegetarian dietary pattern for children and adults
+CALORIE LEVEL OF PATTERN 	1000 	1200 	1400 	1600 	1800 	2000 	2200 	2400 	2600 	2800 	3000 	3200
+FOOD GROUP OR SUBGROUP 	Daily amount of food from each group
+(vegetable and protein foods subgroup amounts are per week)
+Vegetables
+(cup eq/day)
+1 	1½ 	1½ 	2 	2½ 	2½ 	3 	3 	3½ 	3½ 	4 	4
+Vegetable subgroups in weekly amounts
+Dark-green vegetables
+(cup eq/wk)
+½ 	1 	1 	1½ 	1½ 	1½ 	2 	2 	2½ 	2½ 	2½ 	2½
+Red and orange vegetables
+(cup eq/wk)
+2½ 	3 	3 	4 	5½ 	5½ 	6 	6 	7 	7 	7½ 	7½
+Beans, peas, lentils
+(cup eq/wk)
+½ 	½ 	½ 	1 	1½ 	1½ 	2 	2 	2½ 	2½ 	3 	3
+Starchy vegetables
+(cup eq/wk)
+2 	3½ 	3½ 	4 	5 	5 	6 	6 	7 	7 	8 	8
+Other vegetables
+(cup eq/wk)
+1½ 	2½ 	2½ 	3½ 	4 	4 	5 	5 	5½ 	5½ 	7 	7
+Fruits
+(cup eq/day)
+1 	1 	1½ 	1½ 	1½ 	2 	2 	2 	2 	2½ 	2½ 	2½
+Grains
+(ounce eq/day)
+3 	4 	5 	5½ 	6½ 	6½ 	7½ 	8½ 	9½ 	10½ 	10½ 	10½
+Whole grains
+(ounce eq/day)
+1½ 	2 	2½ 	3 	3½ 	3½ 	4 	4½ 	5 	5½ 	5½ 	5½
+Refined grains
+(ounce eq/day)
+1½ 	2 	2½ 	2½ 	3 	3 	3½ 	4 	4½ 	5 	5 	5
+Dairy
+(cup eq/day)
+2 	2½ 	2½ 	3 	3 	3 	3 	3 	3 	3 	3 	3
+Protein foods
+(ounce eq/day)
+1 	1½ 	2 	2½ 	3 	3½ 	3½ 	4 	4½ 	5 	5½ 	6
+Protein foods subgroups in weekly amounts
+Eggs
+(ounce eq/wk)
+2 	3 	3 	3 	3 	3 	3 	3 	3 	4 	4 	4
+Beans, peas, lentils
+(ounce eq/wk)
+1 	2 	4 	4 	6 	6 	6 	8 	9 	10 	11 	12
+Soy products
+(ounce eq/wk)
+2 	3 	4 	6 	6 	8 	8 	9 	10 	11 	12 	13
+Nuts, seeds
+(ounce eq/wk)
+2 	2 	3 	5 	6 	7 	7 	8 	9 	10 	12 	13
+Oils
+(grams/day)
+15 	17 	17 	22 	24 	27 	29 	31 	34 	36 	44 	51
+Limit on calories for other
+uses
+(kcal/day)
+170 	140 	160 	150 	150 	250 	290 	350 	350 	350 	390 	500
+*
+¶
+Δ
+Δ
+◊
+
+-- 28 of 40 --
+
+Limit on calories for other
+uses
+(%/day)
+17% 	12% 	11% 	9% 	8% 	13% 	13% 	15% 	13% 	13% 	13% 	16%
+Intake should not exceed Dietary Guidelines limits for added sugars, saturated fat, and alcohol; and should be within the
+Acceptable Macronutrient Distribution Ranges for protein, carbohydrate, and total fats; and stay within calorie limits. Values
+are rounded.
+* Patterns at 1000, 1200, and 1400 kcal levels are designed to meet the nutritional needs of children ages 2 through 8 years.
+Patterns from 1600 to 3200 kcal are designed to meet the nutritional needs of children 9 years and older and adults. If a
+child 4 through 8 years of age needs more energy and, therefore, is following a pattern at 1600 calories or more, their
+recommended amount from the dairy group should be 2½ cup eq per day. Amount of dairy for children ages 9 through 18 is
+3 cup eq per day regardless of calorie level. The 1000 and 1200 kcal level patterns are not intended for children 9 and older
+or adults. The 1400 kcal level is not intended for children ages 10 and older or adults.
+¶ Food group amounts shown in cup equivalents (cup eq) or ounce equivalents (ounce eq). Oils are shown in grams.
+Quantity equivalents for each food group are: Vegetables, fruits (1 cup eq): 1 cup raw or cooked vegetable or fruit; 1 cup
+vegetable or fruit juice; 2 cups leafy salad greens; ½ cup dried fruit or vegetable. Grains (1 ounce eq): ½ cup cooked rice,
+pasta, or cereal; 1 ounce dry pasta or rice; 1 medium (1 ounce) slice bread, tortilla, or flatbread; 1 ounce of ready-to-eat
+cereal (about 1 cup of flaked cereal). Dairy (1 cup eq): 1 cup milk, yogurt, or fortified soymilk; 1½ ounces natural cheese such
+as cheddar cheese or 2 ounces of processed cheese. Protein foods (1 ounce eq): 1 ounce lean meats, poultry, or seafood; 1
+egg; ¼ cup cooked beans or tofu; 1 tbsp nut or seed butter; ½ ounce nuts or seeds.
+Δ About half of beans, peas, lentils are shown as vegetables, in cup eq, and half as protein foods, in ounce eq. Beans, peas,
+lentils in the patterns, in cup eq, is the amount in the vegetable group plus the amount in protein foods group (in ounce eq)
+divided by 4.
+◊ Foods are assumed to be in nutrient-dense forms, lean or low-fat and prepared with minimal added saturated fat, added
+sugars, refined starches, or salt. If all food choices to meet food group recommendations are in nutrient-dense forms, a
+small number of calories remain within the overall limit of the pattern (ie, limit on calories for other uses). The amount of
+calories depends on the total calorie level of the pattern and the amounts of food from each food group required to meet
+nutritional goals. Calories up to the specified limit can be used for added sugars, added refined starches, saturated fat,
+alcohol, or to eat more than the recommended amount of food in a food group.
+Adapted from: Dietary Guidelines for Americans, 2020-2025. US Department of Agriculture and US Department of Health and Human Services 2020.
+Available at: https://www.dietaryguidelines.gov/resources/2020-2025-dietary-guidelines-online-materials (Accessed on June 23, 2022).
+Graphic 138996 Version 3.0
+
+-- 29 of 40 --
+
+Table 4: Healthy US-style dietary pattern for children and adults
+CALORIE LEVEL OF PATTERN* 	1000 	1200 	1400 	1600 	1800 	2000 	2200 	2400 	2600 	2800 	3000 	3200
+FOOD GROUP OR SUBGROUP 	Daily amount of food from each group
+(vegetable and protein foods subgroup amounts are per week)
+Vegetables
+(cup eq/day)
+1 	1½ 	1½ 	2 	2½ 	2½ 	3 	3 	3½ 	3½ 	4 	4
+Vegetable subgroups in weekly amounts
+Dark-green vegetables
+(cup eq/wk)
+½ 	1 	1 	1½ 	1½ 	1½ 	2 	2 	2½ 	2½ 	2½ 	2½
+Red and orange vegetables
+(cup eq/wk)
+2½ 	3 	3 	4 	5½ 	5½ 	6 	6 	7 	7 	7½ 	7½
+Beans, peas, lentils
+(cup eq/wk)
+½ 	½ 	½ 	1 	1½ 	1½ 	2 	2 	2½ 	2½ 	3 	3
+Starchy vegetables
+(cup eq/wk)
+2 	3½ 	3½ 	4 	5 	5 	6 	6 	7 	7 	8 	8
+Other vegetables
+(cup eq/wk)
+1½ 	2½ 	2½ 	3½ 	4 	4 	5 	5 	5½ 	5½ 	7 	7
+Fruits
+(cup eq/day)
+1 	1 	1½ 	1½ 	1½ 	2 	2 	2 	2 	2½ 	2½ 	2½
+Grains
+(ounce eq/day)
+3 	4 	5 	5 	6 	6 	7 	8 	9 	10 	10 	10
+Whole grains
+(ounce eq/day)
+1½ 	2 	2½ 	3 	3 	3 	3½ 	4 	4½ 	5 	5 	5
+Refined grains
+(ounce eq/day)
+1½ 	2 	2½ 	2 	3 	3 	3½ 	4 	4½ 	5 	5 	5
+Dairy
+(cup eq/day)
+2 	2½ 	2½ 	3 	3 	3 	3 	3 	3 	3 	3 	3
+Protein foods
+(ounce eq/day)
+2 	3 	4 	5 	5 	5½ 	6 	6½ 	6½ 	7 	7 	7
+Protein foods subgroups in weekly amounts
+Meats, poultry, eggs
+(ounce eq/wk)
+10 	14 	19 	23 	23 	26 	28 	31 	31 	33 	33 	33
+Seafood
+(ounce eq/wk)
+2-3 	4 	6 	8 	8 	8 	9 	10 	10 	10 	10 	10
+Nuts, seeds, soy products
+(ounce eq/wk)
+2 	2 	3 	4 	4 	5 	5 	5 	5 	6 	6 	6
+Oils
+(grams/day)
+15 	17 	17 	22 	24 	27 	29 	31 	34 	36 	44 	51
+Limit on calories for other
+uses
+(kcal/day)
+130 	80 	90 	100 	140 	240 	250 	320 	350 	370 	440 	580
+Limit on calories for other
+uses
+(%/day)
+13% 	7% 	6% 	6% 	8% 	12% 	11% 	13% 	13% 	13% 	15% 	18%
+¶
+Δ
+◊
+§
+¥
+
+-- 30 of 40 --
+
+The total dietary pattern should not exceed Dietary Guidelines limits for added sugars, saturated fat, and alcohol; be within
+the Acceptable Macronutrient Distribution Ranges for protein, carbohydrate, and total fats; and stay within calorie limits.
+Values are rounded.
+* Patterns at 1000, 1200, and 1400 kcal levels are designed to meet the nutritional needs of children ages 2 through 8 years.
+Patterns from 1600 to 3200 kcal are designed to meet the nutritional needs of children 9 years and older and adults. If a
+child 4 through 8 years of age needs more energy and, therefore, is following a pattern at 1600 calories or more, their
+recommended amount from the dairy group should be 2½ cup eq per day. Amount of dairy for children ages 9 through 18 is
+3 cup eq per day regardless of calorie level. The 1000 and 1200 kcal level patterns are not intended for children 9 and older
+or adults. The 1400 kcal level is not intended for children ages 10 and older or adults.
+¶ Food group amounts shown in cup equivalents (cup eq) or ounce equivalents (ounce eq). Oils are shown in grams.
+Quantity equivalents for each food group are: Vegetables, fruits (1 cup eq): 1 cup raw or cooked vegetable or fruit; 1 cup
+vegetable or fruit juice; 2 cups leafy salad greens; ½ cup dried fruit or vegetable. Grains (1 ounce eq): ½ cup cooked rice,
+pasta, or cereal; 1 ounce dry pasta or rice; 1 medium (1 ounce) slice bread, tortilla, or flatbread; 1 ounce of ready-to-eat
+cereal (about 1 cup of flaked cereal). Dairy (1 cup eq): 1 cup milk, yogurt, or fortified soymilk; 1½ ounces natural cheese such
+as cheddar cheese or 2 ounces of processed cheese. Protein foods (1 ounce eq): 1 ounce lean meats, poultry, or seafood; 1
+egg; ¼ cup cooked beans or tofu; 1 tbsp nut or seed butter; ½ ounce nuts or seeds.
+Δ Amounts of whole grains in patterns for children are less than the minimum of 3 ounce-eq in all patterns recommended
+for adults.
+◊ The US Food and Drug Administration (FDA) and the US Environmental Protection Agency (EPA) provide joint advice
+regarding seafood consumption to limit methylmercury exposure for women who might become or are pregnant or
+breastfeeding, and children. Depending on body weight, some women and many children should choose seafood lowest in
+methylmercury or eat less seafood than the amounts in the healthy US-style eating pattern. For more information, see the
+FDA and EPA websites.
+§ If consuming up to 2 ounces of seafood per week, children should only be fed cooked varieties from the "Best Choices" list
+in the FDA/EPA joint "Advice About Eating Fish," available on both websites. If consuming up to 3 ounces of seafood per
+week, children should only be fed cooked varieties from the "Best Choices" list that contain even lower methylmercury:
+flatfish (eg, flounder), salmon, tilapia, shrimp, catfish, crab, trout, haddock, oysters, sardines, squid, pollock, anchovies,
+crawfish, mullet, scallops, whiting, clams, shad, and Atlantic mackerel. If consuming up to 3 ounces of seafood per week,
+many commonly consumed varieties of seafood should be avoided because they cannot be consumed at 3 ounces per week
+by children without the potential of exceeding safe methylmercury limits; examples that should not be consumed include:
+canned light tuna or white (albacore) tuna, cod, perch, black sea bass.
+¥ Foods are assumed to be in nutrient-dense forms, lean or low-fat and prepared with minimal added saturated fat, added
+sugars, refined starches, or salt. If all food choices to meet food group recommendations are in nutrient-dense forms, a
+small number of calories remain within the overall limit of the pattern (ie, limit on calories for other uses). The amount of
+calories depends on the total calorie level of the pattern and the amounts of food from each food group required to meet
+nutritional goals. Calories up to the specified limit can be used for added sugars, added refined starches, saturated fat,
+alcohol, or to eat more than the recommended amount of food in a food group.
+Adapted from: Dietary Guidelines for Americans, 2020-2025. US Department of Agriculture and US Department of Health and Human Services 2020.
+Available at: https://www.dietaryguidelines.gov/resources/2020-2025-dietary-guidelines-online-materials (Accessed on June 23, 2022).
+Graphic 138995 Version 1.0
+
+-- 31 of 40 --
+
+Table 5: USDA recommended daily or weekly caloric intake of different food groups (USDA
+recommended average daily food intake)
+Calorie level of pattern 	1000 	1200 	1400 	1600 	1800 	2000
+Food group 	Daily amount of food from each group (vegetable and protein foods
+subgroup amounts are per week)
+Vegetables 	1 c-eq 	1½ c-eq 	1½ c-eq 	2 c-eq 	2½ c-eq 	2½ c-eq
+Dark-green vegetables (c-eq/week) 	½ 	1 	1 	1½ 	1½ 	1½
+Red and orange vegetables (c-eq/week) 	2½ 	3 	3 	4 	5½ 	5½
+Legumes (beans and peas) (c-eq/week) 	½ 	½ 	½ 	1 	1½ 	1½
+Starchy vegetables (c-eq/week) 	2 	3½ 	3½ 	4 	5 	5
+Other vegetables (c-eq/week) 	1½ 	2½ 	2½ 	3½ 	4 	4
+Fruits 	1 c-eq 	1 c-eq 	1½ c-eq 	1½ c-eq 	1½ c-eq 	2 c-eq
+Grains 	3 oz-eq 	4 oz-eq 	5 oz-eq 	5 oz-eq 	6 oz-eq 	6 oz-eq
+Whole grains (oz-eq/day) 	1½ 	2 	2½ 	3 	3 	3
+Refined grains (oz-eq/day) 	1½ 	2 	2½ 	2 	3 	3
+Dairy 	2 c-eq 	2½ c-eq 	2½ c-eq 	3 c-eq 	3 c-eq 	3 c-eq
+Protein foods 	2 oz-eq 	3 oz-eq 	4 oz-eq 	5 oz-eq 	5 oz-eq 	5½ oz-eq
+Seafood (oz-eq/week) 	3 	4 	6 	8 	8 	8
+Meats, poultry, eggs (oz-eq/week) 	10 	14 	19 	23 	23 	26
+Nuts seeds, soy products (oz-eq/week) 	2 	2 	3 	4 	4 	5
+Oils 	15 g 	17 g 	17 g 	22 g 	24 g 	27 g
+Limit on calories for other uses, calories (% of
+calories)
+150 (15%) 	100 (8%) 	110 (8%) 	130 (8%) 	170 (9%) 	270 (14%)
+USDA: United States Department of Agriculture.
+* Food intake patterns at 1000, 1200, and 1400 calories are designed to meet the nutritional needs of 2- to 8-year-old
+children. Patterns from 1600 to 3200 calories are designed to meet the nutritional needs of children 9 years and older as well
+as adults. If a child 4 to 8 years of age needs more calories and, therefore, is following a pattern at 1600 calories or more,
+their recommended amount from the dairy group should be 2.5 cups per day. Children 9 years and older and adults should
+not use the 1000-, 1200-, or 1400-calorie patterns.
+¶ Foods in each group and subgroup are:
+Vegetables
+Dark-green vegetables: All fresh, frozen, and canned dark-green leafy vegetables and broccoli, cooked or raw: for
+example, broccoli, spinach, romaine, kale, collard, turnip, and mustard greens.
+Red and orange vegetables: All fresh, frozen, and canned red and orange vegetables or juice, cooked or raw: for
+example, tomatoes, tomato juice, red peppers, carrots, sweet potatoes, winter squash, and pumpkin.
+Legumes (beans and peas): All cooked from dry or canned beans and peas: for example, kidney beans, white
+beans, black beans, lentils, chickpeas, pinto beans, split peas, and edamame (green soybeans). Does not include
+green beans or green peas.
+Starchy vegetables: All fresh, frozen, and canned starchy vegetables: for example, white potatoes, corn, green
+peas, green lima beans, plantains, and cassava.
+Other vegetables: All other fresh, frozen, and canned vegetables, cooked or raw: for example, iceberg lettuce,
+green beans, onions, cucumbers, cabbage, celery, zucchini, mushrooms, and green peppers.
+Fruits
+All fresh, frozen, canned, and dried fruits and fruit juices: for example, oranges and orange juice, apples and apple
+juice, bananas, grapes, melons, berries, and raisins.
+Grains
+Whole grains: All whole-grain products and whole grains used as ingredients: for example, whole-wheat bread,
+whole-grain cereals and crackers, oatmeal, quinoa, popcorn, and brown rice.
+*
+¶ 	Δ
+◊
+§¥
+
+-- 32 of 40 --
+
+Refined grains: All refined-grain products and refined grains used as ingredients: for example, white breads,
+refined grain cereals and crackers, pasta, and white rice. Refined grain choices should be enriched.
+Dairy
+All milk, including lactose-free and lactose-reduced products and fortified soy beverages (soymilk), yogurt, frozen
+yogurt, dairy desserts, and cheeses. Most choices should be fat-free or low-fat. Cream, sour cream, and cream
+cheese are not included due to their low-calcium content.
+Protein foods
+All seafood, meats, poultry, eggs, soy products, nuts, and seeds. Meats and poultry should be lean or low-fat and
+nuts should be unsalted. Legumes (beans and peas) can be considered part of this group as well as the vegetable
+group, but should be counted in one group only.
+Δ Food group amounts shown in cup-(c) or ounce-equivalents (oz-eq). Oils are shown in grams (g). Quantity equivalents for
+each food group are:
+Vegetables and fruits, 1 cup-equivalent is: 1 cup raw or cooked vegetable or fruit, 1 cup vegetable or fruit juice, 2 cups
+leafy salad greens, ½ cup dried fruit or vegetable.
+Grains, 1 ounce-equivalent is: ½ cup cooked rice, pasta, or cereal; 1 ounce dry pasta or rice; 1 medium (1 ounce) slice
+bread; 1 ounce of ready-to-eat cereal (about 1 cup of flaked cereal).
+Dairy, 1 cup-equivalent is: 1 cup milk, yogurt, or fortified soymilk; 1½ ounces natural cheese such as cheddar cheese or
+2 ounces of processed cheese.
+Protein foods, 1 ounce-equivalent is: 1 ounce lean meat, poultry, or seafood; 1 egg; ¼ cup cooked beans or tofu; 1
+Tbsp peanut butter; ½ ounce nuts or seeds.
+◊ Amounts of whole grains in the patterns for children are less than the minimum of 3 oz-eq in all patterns recommended
+for adults.
+§ All foods are assumed to be in nutrient-dense forms, lean or low-fat, and prepared without added fats, sugars, refined
+starches, or salt. If all food choices to meet food group recommendations are in nutrient-dense forms, a small number of
+calories remain within the overall calorie limit of the pattern (ie, limit on calories for other uses). The number of these
+calories depends on the overall calorie limit in the pattern and the amounts of food from each food group required to meet
+nutritional goals. Nutritional goals are higher for the 1200- to 1600-calorie patterns than for the 1000-calorie pattern, so the
+limit on calories for other uses is lower in the 1200- to 1600-calorie patterns. Calories up to the specified limit can be used
+for added sugars, added refined starches, solid fats, alcohol, or to eat more than the recommended amount of food in a
+food group. The overall eating pattern also should not exceed the limits of less than 10% of calories from added sugars and
+less than 10% of calories from saturated fats. At most calorie levels, amounts that can be accommodated are less than these
+limits. For adults of legal drinking age who choose to drink alcohol, a limit of up to 1 drink per day for females and up to 2
+drinks per day for males within limits on calories for other uses applies; and calories from protein, carbohydrate, and total
+fats should be within the acceptable macronutrient distribution ranges (AMDRs).
+¥ Values are rounded.
+Reproduced from: 2015-2020 Dietary Guidelines for Americans. U.S. Department of Health and Human Services and U.S. Department of Agriculture, 8
+Edition, December 2015. https://www.dietaryguidelines.gov/about-dietary-guidelines/previous-editions/2015-dietary-guidelines (Accessed on April 7,
+2021).
+Graphic 106206 Version 7.0
+th
+
+-- 33 of 40 --
+
+Table 6: Daily nutritional intake goals for children and adults
+Age-sex groups
+M/F
+2-3
+F
+4-8
+F
+9-13
+F
+14-
+18
+F
+19-
+30
+F
+31-
+50
+F
+51+
+M
+4-8
+M
+9-13
+M
+14-
+18
+M
+19-
+30
+M
+31-
+50
+M
+51+
+Calorie level
+assessed
+Source
+of
+goal
+1000 	1200 	1600 	1800 	2000 	1800 	1600 	1400 	1800 	2200 	2400 	2200 	2000
+Macronutrients
+Protein
+(% kcal)
+AMDR 	5-20 	10-
+30
+10-
+30
+10-
+30
+10-
+35
+10-
+35
+10-
+35
+10-
+30
+10-
+30
+10-
+30
+10-
+35
+10-
+35
+10-
+35
+Protein (g) 	RDA 	13 	19 	34 	46 	46 	46 	46 	19 	34 	52 	56 	56 	56
+Carbohydrate
+(% kcal)
+AMDR 	45-
+65
+45-
+65
+45-
+65
+45-
+65
+45-
+65
+45-
+65
+45-
+65
+45-
+65
+45-
+65
+45-
+65
+45-
+65
+45-
+65
+45-
+65
+Carbohydrate
+(g)
+RDA 	130 	130 	130 	130 	130 	130 	130 	130 	130 	130 	130 	130 	130
+Fiber (g) 	14 g/
+1000
+kcal
+14 	17 	22 	25 	28 	25 	22 	20 	25 	31 	34 	31 	28
+Added sugars
+(% kcal)
+DGA 	<10 	<10 	<10 	<10 	<10 	<10 	<10 	<10 	<10 	<10 	<10 	<10 	<10
+Total lipid
+(% kcal)
+AMDR 	30-
+40
+25-
+35
+25-
+35
+25-
+35
+20-
+35
+20-
+35
+20-
+35
+25-
+35
+25-
+35
+25-
+35
+20-
+35
+20-
+35
+20-
+35
+Saturated
+fatty acids
+(% kcal)
+DGA 	<10 	<10 	<10 	<10 	<10 	<10 	<10 	<10 	<10 	<10 	<10 	<10 	<10
+18:2 Linoleic
+acid (g)
+AI 	7 	10 	10 	11 	12 	12 	11 	10 	12 	16 	17 	17 	14
+18:3 Linoleic
+acid (g)
+AI 	0.7 	0.9 	1.0 	1.1 	1.1 	1.1 	1.1 	0.9 	1.2 	1.6 	1.6 	1.6 	1.6
+AMDR: Acceptable Macronutrient Distribution Ranges; RDA: Recommended Dietary Allowance; DGA: Dietary Guidelines for
+Americans, 2020-2025; AI: adequate intake.
+Adapted from: Dietary Guidelines for Americans, 2020-2025. US Department of Agriculture and US Department of Health and Human Services 2020.
+Available at: https://www.dietaryguidelines.gov/resources/2020-2025-dietary-guidelines-online-materials (Accessed on June 23, 2022).
+Graphic 138989 Version 1.0
+
+-- 34 of 40 --
+
+Table 7: Amount of fiber in different foods
+Food 	Serving 	Grams of fiber
+Fruits
+Apple (with skin) 	1 medium apple 	4.4 g
+Avocado 	1/2 cup 	5.0 g
+Banana 	1 medium banana 	3.1 g
+Blueberries 	1 cup 	3.6 g
+Oranges 	1 orange 	3.1 g
+Pear (with skin) 	1 medium pear 	5.5 g
+Prunes 	1 cup (pitted) 	12.4 g
+Raspberries 	1 cup 	8.0 g
+Strawberries 	1/2 cup 	2.0 g
+Juices
+Apple (unsweetened, with added ascorbic acid) 	1 cup 	0.5 g
+Grapefruit (white, canned, sweetened) 	1 cup 	0.2 g
+Grape (unsweetened, with added ascorbic acid) 	1 cup 	0.5 g
+Orange (with pulp) 	1 cup 	0.7 g
+Prune 	1 cup 	2.6 g
+Vegetables
+Cooked
+Carrots 	1/2 cup (sliced) 	2.3 g
+Corn 	1/2 cup 	2.0 g
+Green beans 	1 cup 	4.0 g
+Peas 	1 cup 	8.8 g
+Potato (baked, with skin) 	1 medium potato 	3.8 g
+Raw
+Broccoli 	1/2 cup 	2.6 g
+Celery 	1 cup 	2.0 g
+Cucumber (with peel) 	1 cucumber 	1.5 g
+Lettuce 	1 cup (shredded) 	0.5 g
+Spinach 	1 cup 	0.7 g
+Tomato 	1 medium tomato 	1.5 g
+Legumes
+Baked beans (canned, no salt added) 	1/2 cup 	5.6 g
+Black beans (cooked) 	1/2 cup 	7.5 g
+Chickpeas (cooked) 	1/2 cup 	6.2 g
+Kidney beans (canned) 	1/2 cup 	5.7 g
+
+-- 35 of 40 --
+
+Lentils (boiled) 	1/2 cup 	7.8 g
+Lima beans (canned) 	1/2 cup 	6.6 g
+Navy beans (cooked) 	1/2 cup 	9.5 g
+Breads, pastas, flours
+Bran muffins 	1 medium muffin 	5.2 g
+Bread (rye) 	1 slice 	2.0 g
+Bread (white) 	1 slice 	0.6 g
+Bread (whole wheat) 	1 slice 	1.9 g
+Bulgur (cooked) 	1/2 cup 	4.1 g
+Cracker (rye wafers) 	2 crackers 	5.0 g
+Oatmeal (cooked) 	1 cup 	4.0 g
+Pasta and rice (cooked)
+Macaroni 	1 cup 	2.5 g
+Rice (brown) 	1 cup 	3.5 g
+Rice (white) 	1 cup 	0.6 g
+Spaghetti (regular) 	1 cup 	2.5 g
+Spaghetti (whole wheat) 	1 cup 	5.4 g
+Pearl barley (cooked) 	1 cup 	6.0 g
+Popcorn (air popped) 	3 cups 	3.6 g
+Breakfast cereals
+Bran flakes 	3/4 cup 	5.5 g
+"High-fiber" cereals 	1/2 cup 	14 g
+Instant oatmeal 	1 pouch (43 g) 	3.0 g
+Other cereals 	1/2 cup 	3.0 to 7.5 g
+Nuts
+Almonds 	1/2 cup 	8.7 g
+Peanuts 	1/2 cup 	7.9 g
+There are 2 kinds of fiber:
+"Soluble fiber" is found in fruits, oats, barley, beans, and peas. It can help heart health, including lowering cholesterol.
+"Insoluble fiber" is found in wheat, rye, and other grains. It can help with constipation.
+The exact amount of fiber in a food depends on the specific product and brand. To learn how much fiber and other nutrients
+are in different foods, visit the United States Department of Agriculture FoodData Central website.
+* Ready-to-eat breakfast cereals have a wide range of fiber content. Types with high fiber content typically include bran
+(wheat or oat) and/or oat fiber. Check the nutrition label of each brand for actual fiber content.
+Data from: USDA FoodData Central. Available at: https://fdc.nal.usda.gov (Accessed on December 6, 2024).
+Graphic 122822 Version 2.0
+*
+
+-- 36 of 40 --
+
+Table 8: Sources and main effects of dietary fat
+Type of fat 	Chief food sources
+Leading food
+contributors in
+diets of adults in
+the United States
+Effects on
+cholesterol
+Effects on
+coronary heart
+disease
+Trans fatty acids, from
+partially hydrogenated
+vegetable oils
+Stick and full-fat
+margarine;
+commercial baked
+goods; deep-fried
+foods
+Fast food; margarines;
+commercial baked
+goods (sweet rolls,
+cookies, donuts)
+Increases LDL
+cholesterol, lowers
+HDL cholesterol
+Increases risk of
+coronary heart disease
+Saturated fatty acids 	Dairy foods; red meat;
+some plant oils
+(coconut, palm)
+Dairy foods, especially
+cheese, milk, ice
+cream; red meat
+Increases total
+cholesterol
+May increase risk of
+coronary heart disease
+Monounsaturated fatty
+acids
+Vegetable sources
+(canola, olive oil); also
+from meat, dairy
+Beef; margarines;
+chicken; olive oil
+Lowers LDL cholesterol
+and triglycerides,
+maintains HDL
+cholesterol
+Probably has no
+association
+Polyunsaturated fatty
+acids; n-6
+Safflower, sunflower,
+and corn oils
+Mayonnaise;
+margarines; salad
+dressing; nuts;
+chicken; peanut butter
+Lowers LDL cholesterol
+and triglycerides,
+increases HDL
+May reduce risk of
+coronary heart disease
+Polyunsaturated fatty
+acids; n-3
+Canola, soybean,
+flaxseed, walnut oil;
+wheat germ;
+vegetables of cabbage
+family
+For longer-chain n-3
+fatty acids: seafood,
+especially fatty fish
+Alpha-linolenic acid
+(18:3): mayonnaise,
+salad dressing,
+margarines, beef;
+longer-chain n-3: tuna,
+other dark fish, shrimp
+Lowers LDL cholesterol
+and triglycerides,
+maintains HDL
+cholesterol
+May reduce risk of
+coronary heart disease
+Leading food contributors combines the fatty acid content of the food with the frequency with which individuals eat that
+food.
+HDL: high-density lipoprotein; LDL: low-density lipoprotein.
+* Data from participants in the ongoing Nurses' Health Study (women) and Health Professionals Follow-up Study (men).
+Graphic 75539 Version 10.0
+*
+
+-- 37 of 40 --
+
+Figure 1: Fat content of oils
+When fats are needed for cooking, spreads, and other uses, oils with higher amounts of monounsaturated and/or
+polyunsaturated fatty acids should be used, such as canola oil and olive oil. Those oils that are higher in n-3 polyunsaturated
+fats (alpha-linolenic acid), such as walnut oil and, to a lesser extent, soybean oil, are also beneficial. Linoleic acid is an n-6
+polyunsaturated fatty acid.
+Graphic 51635 Version 10.0
+
+-- 38 of 40 --
+
+Table 9: Foods and products that may contain gluten
+Frequently overlooked foods that may contain
+gluten and need to be verified:
+NOT ALLOWED in any form:
+Brown rice syrup
+Breading and coating mixes
+Croutons
+Energy bars
+Flour or cereal products
+Imitation bacon
+Imitation seafood
+Marinades
+Panko (Japanese bread crumbs)
+Pastas
+Processed luncheon meats
+Sauces, gravies
+Self-basting poultry
+Soy sauce or soy sauce solids
+Soup bases
+Stuffings, dressing
+Thickeners (roux)
+Communion wafers
+Herbal supplements
+Probiotic products
+Drugs and over-the-counter medications
+Nutritional supplements
+Vitamins and mineral supplements
+Play-Doh, crayons, paint, glue, paper mache – A potential
+problem if the child puts their hands on or in the mouth
+while playing; wash hands after using these products
+Wheat (einkorn, durum, faro, graham, kamut, semolina,
+spelt)
+Rye
+Barley
+Triticale
+Malt, malt flavoring, malt vinegar (are generally made
+from barley; verify the source)
+* In 2015, a study of 22 commonly used probiotics revealed that 12 (55%) contained gluten, including 2 that were labeled
+gluten-free despite containing gluten levels higher than the 20 parts per million required for gluten-free labeling.
+Reference:
+1. Nazareth S, Lebwohl B, Voyksner JS, Green PH. Widespread Contamination of Probiotics With Gluten, Detected by Liquid Chromatography-Mass
+Spectrometry. Gastroenterology 2015; 148:S28.
+Modified with permission: "Frequently overlooked foods that may contain gluten and need to be verified." From Quick Start Diet Guide for Celiac Disease
+© 2009. Celiac Disease Foundation. www.celiac.org.
+Graphic 79790 Version 7.0
+*
+[1]
+
+-- 39 of 40 --
+
+Contributor Disclosures
+Graham A Colditz, MD, DrPH Stocks: Prognosia, Inc. [Mammography breast cancer risk]; ProvanAI [Ovarian cancer risk].
+Consultant/Advisory Boards: Lunit [Mammography breast imaging]. All of the relevant financial relationships listed have been
+mitigated. David Seres, MD Stocks: Biomed Industries, Inc. [Biomedical informatics, drug development (Alzheimer’s and
+obesity) – Financial relationship ended December 2024]. Grant/Research/Clinical Trial Support: Nasotrak Medical Pte, Ltd
+[Feeding tube technology, safety study – Financial relationship ended December 2025]. Consultant/Advisory Boards: Aspisafe
+[Tube feeding devices]; Biomed Industries, Inc [Biomedical informatics, drug development (Alzheimer’s and obesity)];
+Community Surgical Supply [Outpatient infusion pharmacy and DME, parenteral nutrition]. All of the relevant financial
+relationships listed have been mitigated. Zehra Hussain, MD, FACP No relevant financial relationship(s) with ineligible
+companies to disclose.
+Contributor disclosures are reviewed for conflicts of interest by the editorial group. When found, these are addressed by
+vetting through a multi-level review process, and through requirements for references to be provided to support the content.
+Appropriately referenced content is required of all authors and must conform to UpToDate standards of evidence.
+Conflict of interest policy
+
+
+-- 40 of 40 --
+
