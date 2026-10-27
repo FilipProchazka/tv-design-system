@@ -4,11 +4,11 @@
 A section within a women’s-health talk.
 
 **Roles**
-- statement — 102px, 3 lines
-- lead — one supporting paragraph
-- body — evidence, 32px floor
-- label — mono, tracked caps
-- data — mono, tabular
+- statement – 102px, 3 lines
+- lead – one supporting paragraph
+- body – evidence, 32px floor
+- label – mono, tracked caps
+- data – mono, tabular
 
 **Rules**
 - Side list of what the section covers, three to five items.

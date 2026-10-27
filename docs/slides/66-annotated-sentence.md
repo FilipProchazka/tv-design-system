@@ -4,7 +4,7 @@
 Unpacking a sentence word by word.
 
 **Roles**
-- label — mono, tracked caps
+- label – mono, tracked caps
 
 **Rules**
 - Three annotations maximum, each one mono line.

@@ -4,8 +4,8 @@
 Discrete magnitudes compared.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- data — mono, tabular
+- claim – 2 lines, ≤70 chars
+- data – mono, tabular
 
 **Rules**
 - Four to six bars. Value above each bar, no gridlines.

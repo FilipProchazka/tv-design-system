@@ -6,4 +6,4 @@ The lower half of a page: FAQ on hairlines, the three mail routes, and the one c
 <CtaClose claim="…" href="/kontakt" />
 ```
 
-`CtaClose` appears once per page, after the proof — never a second ask higher up. FAQ answers stay one paragraph; anything longer is a page.
+`CtaClose` appears once per page, after the proof – never a second ask higher up. FAQ answers stay one paragraph; anything longer is a page.

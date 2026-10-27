@@ -4,7 +4,7 @@
 Unpacking a sentence.
 
 **Roles**
-- kicker — mono, the keyword
+- kicker – mono, the keyword
 
 **Rules**
 - Three annotations maximum; line height 2.45 so they never collide.

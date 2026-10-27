@@ -4,8 +4,8 @@
 A single word, held.
 
 **Roles**
-- kicker — mono, the keyword
-- body — one sentence
+- kicker – mono, the keyword
+- body – one sentence
 
 **Rules**
 - Ghost glyph allowed here and on 3 Big number only.

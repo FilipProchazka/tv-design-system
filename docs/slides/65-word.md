@@ -4,8 +4,8 @@
 One word the talk turns on.
 
 **Roles**
-- body — evidence, 32px floor
-- label — mono, tracked caps
+- body – evidence, 32px floor
+- label – mono, tracked caps
 
 **Rules**
 - The word at display size, its definition under it in one sentence.

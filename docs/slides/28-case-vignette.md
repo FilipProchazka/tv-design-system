@@ -4,9 +4,9 @@
 A case that makes the abstract concrete.
 
 **Roles**
-- sub — column head, 40px/500
-- body — evidence, 32px floor
-- label — mono, tracked caps
+- sub – column head, 40px/500
+- body – evidence, 32px floor
+- label – mono, tracked caps
 
 **Rules**
 - Fictional or consented, and the board says which.

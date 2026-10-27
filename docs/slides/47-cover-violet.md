@@ -4,11 +4,11 @@
 Opening a women’s-health talk.
 
 **Roles**
-- statement — 102px, 3 lines
-- sub — column head, 40px/500
-- lead — one supporting paragraph
-- label — mono, tracked caps
-- photograph — duotone in Public mode
+- statement – 102px, 3 lines
+- sub – column head, 40px/500
+- lead – one supporting paragraph
+- label – mono, tracked caps
+- photograph – duotone in Public mode
 
 **Rules**
 - Violet is topic colour: the topic’s name appears in text on the board.

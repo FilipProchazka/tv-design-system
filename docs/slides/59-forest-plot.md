@@ -4,8 +4,8 @@
 Several effect estimates and their intervals.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- data — mono, tabular
+- claim – 2 lines, ≤70 chars
+- data – mono, tabular
 
 **Rules**
 - Null line drawn and labelled; effect direction named in mono at both ends.

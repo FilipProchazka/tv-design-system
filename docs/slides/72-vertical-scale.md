@@ -4,8 +4,8 @@
 A claim positioned on a continuum.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- body — evidence, 32px floor
+- claim – 2 lines, ≤70 chars
+- body – evidence, 32px floor
 
 **Rules**
 - The scale is the argument: mark where we are on it.

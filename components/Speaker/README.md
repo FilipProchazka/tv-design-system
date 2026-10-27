@@ -1,5 +1,5 @@
 # 63 · Speaker
 
-SPLIT · speaker. Portrait slot stays a dashed frame until a real photograph exists.
+SPLIT · speaker. Portrait slot takes her one real photograph (womens-health group, cv-tereza); the dashed frame is the empty state.
 
-The 63 · Speaker showcase page from the standalone version (`slides/63-speaker.html`): plain HTML with the system’s classes — copy the markup.
+The 63 · Speaker showcase page from the standalone version (`slides/63-speaker.html`): plain HTML with the system’s classes – copy the markup.

@@ -4,9 +4,9 @@
 A claim with points, where the photograph sets the mood.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- body — evidence, 32px floor
-- photograph — duotone in Public mode
+- claim – 2 lines, ≤70 chars
+- body – evidence, 32px floor
+- photograph – duotone in Public mode
 
 **Rules**
 - The fade is the scrim. Type never crosses into the unfaded half.

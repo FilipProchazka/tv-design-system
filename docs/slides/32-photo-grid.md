@@ -4,10 +4,10 @@
 Four things that belong to one system.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- body — evidence, 32px floor
-- label — mono, tracked caps
-- photograph — duotone in Public mode
+- claim – 2 lines, ≤70 chars
+- body – evidence, 32px floor
+- label – mono, tracked caps
+- photograph – duotone in Public mode
 
 **Rules**
 - Same crop, same duotone, mono label under each.

@@ -4,9 +4,9 @@
 The one sentence the talk is about.
 
 **Roles**
-- statement — 102px, 3 lines
-- lead — one supporting paragraph
-- photograph — duotone in Public mode
+- statement – 102px, 3 lines
+- lead – one supporting paragraph
+- photograph – duotone in Public mode
 
 **Rules**
 - 102px, three lines maximum, ninety characters.

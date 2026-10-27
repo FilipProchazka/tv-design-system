@@ -4,8 +4,8 @@
 What to do and what not to.
 
 **Roles**
-- mid — the frame’s idea
-- item heading — 600
+- mid – the frame’s idea
+- item heading – 600
 
 **Rules**
 - Marks are drawn at 1.5px stroke from the authored set. Never unicode ✓ or ×, never emoji.

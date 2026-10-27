@@ -1,4 +1,4 @@
-The seven record components — topic, talk, institution, webinar, entry, publication, fact panel. Each one renders a single record type; picking the right one is picking the right data shape.
+The seven record components – topic, talk, institution, webinar, entry, publication, fact panel. Each one renders a single record type; picking the right one is picking the right data shape.
 
 ```jsx
 <TopicCard title="Výživa u demence" kicker="Oblast 02" href="/vyziva" />

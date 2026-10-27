@@ -4,9 +4,9 @@
 Defining a term.
 
 **Roles**
-- quote — 112px
-- kicker — mono, the keyword
-- body — one sentence
+- quote – 112px
+- kicker – mono, the keyword
+- body – one sentence
 
 **Rules**
 - Term as the mid line, definition as body, one sentence.

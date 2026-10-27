@@ -4,9 +4,9 @@
 What the room should leave with.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- sub — column head, 40px/500
-- data — mono, tabular
+- claim – 2 lines, ≤70 chars
+- sub – column head, 40px/500
+- data – mono, tabular
 
 **Rules**
 - Four maximum, 48px, numbered. This is the board they photograph.

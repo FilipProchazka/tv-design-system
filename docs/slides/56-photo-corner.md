@@ -4,10 +4,10 @@
 A photograph that needs to be seen, with a short claim.
 
 **Roles**
-- statement — 102px, 3 lines
-- lead — one supporting paragraph
-- label — mono, tracked caps
-- photograph — duotone in Public mode
+- statement – 102px, 3 lines
+- lead – one supporting paragraph
+- label – mono, tracked caps
+- photograph – duotone in Public mode
 
 **Rules**
 - Claim in one corner on a scrim, two lines maximum.

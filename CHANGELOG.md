@@ -1,3 +1,27 @@
+## 0.9.1 – 27 October 2026
+
+### Dark bands clear contrast
+- `band` now has a value on the three `-dark` themes (`#123E66`, `#114540`, `#501666`): each band's own surface lightened in place, no new hue. Before, the dark bands inherited the light `#F2F6FA`, so a stripe inside a navy band came out near-white with `muted` on it at 1.7:1.
+- `signal-positive/negative/caution-ink` reuse their `-on-dark` token on the three dark bands (they inherited the light inks, about 1.9:1 on navy). Tuned by Tereza in her artifact copy on 26 September 2026; carried into `tokens.json` and `tokens.css` here.
+- The leftover `dark` theme is removed from `tokens.json` and `tokens.css`. Nothing set it; the system has no dark mode, only the three `-dark` bands.
+
+### Her portrait
+- One real photograph of her exists (`assets/womens-health/duo/cv-tereza.jpg`, `flat/cv-tereza.jpg`). `README.md`, `guidelines/IMAGERY.md`, the Speaker card and `docs/slides/63-speaker.md` now say it is the only face allowed under her name, on the Speaker layout and the CV, and that both copies carry a violet wash rather than the measured duotone. `photo/photo-portrait.jpg` in that folder is a stock stand-in and never ships. Principle 2 no longer lists a portrait among the things that do not exist.
+- `assets/womens-health/README.md` added: what each subfolder is, which set to use, and that no provenance is recorded for the group.
+
+### Workflows restored
+- `guidelines/WORKFLOWS.md` added: the standalone `uploads/SKILL.md` procedures (four facts, route by task, rules that get broken most, build a talk, review a deck, ship gate) with repository paths, so an artifact sync keeps them. `README.md` points at it.
+
+### Superseded export marked
+- `tokens/tokens.json` and `tokens/tokens.md` carry a superseded banner: radius 16/24, the lift shadow, deck sizes 34/30, reel safe-top 250 and body 1.68 no longer hold. `README.md` "Which files are truth" says to take no value from them.
+
+### Dashes
+- Em dashes replaced by spaced en dashes in `README.md`, `tokens.json`, the guideline files and cards, every layout card under `docs/`, every component README and preview subtitle, and `tokens.css`'s header: 590 occurrences. `CHANGELOG.md` entries before this one, `decks/`, `templates/` and `reference/deck-src/` are left as written.
+
+### Housekeeping
+- `assets/favicon.svg` added; the Index preview pointed at it but it was not in the repository.
+- `README.md`: the English affiliation names use en dashes; the Starters list explains the three image-only template folders and the `reference` material; a closing section records the two artifact copies.
+
 ## 0.9.0 — 14 September 2026
 
 ### Type: three faces, three jobs

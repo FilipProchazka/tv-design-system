@@ -7,7 +7,7 @@ Before you make anything, settle four facts and ask if one is missing: **languag
 Five, in priority order; when two collide the earlier wins.
 
 1. **State the evidence.** Every claim can say how well it is supported, with `Grade`. Show a grade only where she or the source states the study design; never infer one. Most claims carry none, which is what makes a grade a signal.
-2. **Nothing without a source.** State nothing about her, her work or a study that does not trace to a source. Her publication list, webinars, a portrait, testimonials, client numbers and fees do not exist in the sources: do not invent them. Mark an absence in one true sentence (*"Termíny dalších webinářů připravuji."*), never with a placeholder or "coming soon".
+2. **Nothing without a source.** State nothing about her, her work or a study that does not trace to a source. Her publication list, webinars, testimonials, client numbers and fees do not exist in the sources: do not invent them. Mark an absence in one true sentence (*"Termíny dalších webinářů připravuji."*), never with a placeholder or "coming soon".
 3. **One voice, first person.** She speaks: "I", never "we", never a third-person biography. Headings are full-sentence claims in sentence case.
 4. **Blue is the chrome; colour is information.** One accent does all the furniture. Petrol and violet appear only as topic identity, always beside the topic's name in text.
 5. **Flat at rest.** No shadow, lift or motion until someone touches or scrolls. Whitespace separates; borders are a hairline.
@@ -20,8 +20,8 @@ She works at exactly these four, under their registered names (verified Septembe
 | --- | --- |
 | Healthy Longevity Clinic | Healthy Longevity Clinic |
 | Klinika geriatrie a interní medicíny 1. LF UK a VFN | Department of Geriatrics and Internal Medicine, First Faculty of Medicine, Charles University and General University Hospital in Prague |
-| Klinika endokrinologie a metabolismu 1. LF UK a VFN | 3rd Department of Internal Medicine — Endocrinology and Metabolism, First Faculty of Medicine, Charles University and General University Hospital in Prague |
-| EFAD – European Federation of the Associations of Dietitians | EFAD — European Federation of the Associations of Dietitians |
+| Klinika endokrinologie a metabolismu 1. LF UK a VFN | 3rd Department of Internal Medicine – Endocrinology and Metabolism, First Faculty of Medicine, Charles University and General University Hospital in Prague |
+| EFAD – European Federation of the Associations of Dietitians | EFAD – European Federation of the Associations of Dietitians |
 
 - It is **Dietitians**, not Dieticians, and **Associations** is plural after *the*.
 - The endocrinology clinic keeps the Roman **III.** and the lowercase second half after the dash.
@@ -81,6 +81,10 @@ Type styles by surface:
 
 The `d-sub`, `d-lead`, `d-body` and `d-mono` spacing tokens predate the 13 Sep 2026 deck scale; use the deck type styles above.
 
+### Which files are truth
+
+`tokens.json` (this system's token file), `components/bundle.css` and `components/bundle.js` are the source. `tokens/tokens.json` and `tokens/tokens.md` are an older DTCG export kept for the record only: they still carry 16 and 24px radii, a `lift` shadow, deck sizes of 34 and 30, a reel safe zone from y 250 and a body line height of 1.68, all superseded. Take no value from them. When this README and a token disagree, the token wins and the disagreement is reported in one line.
+
 ### Spacing and layout
 
 - **Web:** centred `shell` (1240px), `gut` gutters, sections paced at `w-sec` (clamp 88 to 164px) or `w-sec-tight`, blocks at `w-block`. Use the step scale `s-2` … `s-64` as collected; 18, 26 and 44 are real values, never snap them to an 8px grid.
@@ -104,7 +108,7 @@ Two modes, never mixed in one piece:
 - **Public** (website, social, anything the public sees first): every photograph duotoned. On the web, blue at a 60% blend (`duo-shadow` `#0F3557` to `duo-highlight` `#8FC9F5`). On decks and reels the duotone follows the board theme: petrol `duo-deck-shadow` to `duo-deck-highlight`, violet `#401252` to `#D8A6F5`, applied as an SVG `feComponentTransfer`, never a CSS filter stack. Library: the `img` (site) and `photo` (deck) groups.
 - **Clinical** (talks to clinicians, carers, students): natural colour, documentary subjects, from the `clinical` group. Rights are unverified: internal talks only until confirmed. Several files are marked do not use in its PROVENANCE.
 
-In both: subject photography only (hands, food, a barbell, a clinical record). No portrait of her exists; never place a stock face under her name, and keep the Speaker layout's dashed frame until a real photograph is supplied. Never set text on a photograph without a real background-colour scrim: `scrim-photo` (.50) on Public photographs, raised to .62 or a solid panel on Clinical ones. A gradient alone is not a scrim.
+In both: subject photography only (hands, food, a barbell, a clinical record). One real photograph of her exists, the podcast-studio shot in the `womens-health` group (`flat/cv-tereza.jpg`, `duo/cv-tereza.jpg`); it is the only face that may sit under her name, on the Speaker layout and the CV, and both copies carry a violet wash rather than a measured duotone, so on a blue or petrol board it needs re-grading first. Never place a stock face under her name (`photo-portrait.jpg` in that group is a stock stand-in and does not ship), and the Speaker layout's dashed frame is the empty state only. Never set text on a photograph without a real background-colour scrim: `scrim-photo` (.50) on Public photographs, raised to .62 or a solid panel on Clinical ones. A gradient alone is not a scrim.
 
 ### Accessibility
 
@@ -134,10 +138,16 @@ Twenty exports of the bundle, in the author's four groups plus icons. Each has a
 
 To set a topic theme or a dark band, put `data-theme="t-petrol"`, `"t-violet"` or a `-dark` theme id on the containing element. `WebinarCard` is factored out of the site's webinar block; the empty state is the page's job. The deck's 72 slide layouts and 28 reel frames are kept as showcase pages (the other component cards): copy their markup, keep the grid, replace the roles. Put no subject copy into a layout or template, roles only.
 
+## Workflows
+
+`guidelines/WORKFLOWS.md` carries the working procedures: the four facts to settle first, the route by task, the rules that get broken most, how to build a talk from source material, how to review a deck, how to build a reel set or a web page, and the ship gate every deliverable passes before it leaves. Read it before a deck, reel or page; `guidelines/TALKS.md` holds the long form for talks.
+
 ## Open decisions
 
 Do not resolve these yourself; flag them when a task touches them.
 
+- **The portrait on themed boards:** both copies of her photograph are violet-washed. Whether to re-grade it per theme (blue, petrol) or keep it to violet pieces only is hers to decide.
+- **The `womens-health` image group:** it holds duo and flat renderings of the same photographs, PNG and WebP copies of the portion hands, and a copy of the deck `photo` library. Which set stays is open; until then its `README.md` says what to use.
 - **Grade levels:** the site defines six (`meta` `rct` `kohorta` `konsenzus` `mechanismus` `nepodlozeno`), the deck five (no `konsenzus`, and `meta` reads *Metaanalýza*). The system ships six; she should pick one.
 - **Speaker notes:** no board carries them yet; deliver notes as a separate file beside the deck.
 - **PowerPoint:** there is no `.potx`. The system produces HTML boards and PDF; say so if asked for an editable deck.
@@ -163,12 +173,14 @@ Reel         safe x 80–960, y 280–1250 · hook ≤ 7 words
 
 In the standalone version, this design system came with 6 starter template(s). Each is a small project of its own, not a part of the design system the page shows; its files are kept in this artifact as they were, under its folder, for a later migration of its own.
 
-- **Lecture deck – six boards, three palettes** — Cover, divider, three columns, big number, statement, closing – one board per family with role-named placeholders. Copy it, keep the grid, replace the roles. (3 files, entry `templates/lecture-deck/LectureDeck.dc.html`)
-- **Paliativní péče — výživa u demence (CZ)** — Her 31-slide clinical talk re-set in the system: Blue for the clinical sections, Petrol for the case study, Clinical imagery mode. (3 files, entry `templates/paliativni-pece/PaliativniPece.dc.html`)
-- **Palliative care – nutrition in dementia (EN)** — English mirror of the 31-slide clinical talk. Same layouts, same colour coding, Clinical imagery mode. (3 files, entry `templates/paliativni-pece-en/PalliativeCareEN.dc.html`)
-- **Reel — timing sheet + animated preview** — A 9:16 reel as timed frames with role-named placeholders: hook ≤7 words, safe zone, centre CTA, caption template. Two structures (claim-led, number-led); no subject content. (3 files, entry `templates/reel/Reel.dc.html`)
-- **Reel s fotografií — timing sheet + preview** — Photo-led 9:16 reel: duotoned photographs with real scrims, Ken Burns push, cuts to plain ground for figures. Role-named placeholders only; pick the palette per topic. (3 files, entry `templates/reel-zenske-zdravi/ReelZenskeZdravi.dc.html`)
-- **Slide kit – 26 compositions, any palette** — Content-free 1920×1080 layouts across all eight families. Tweaks: palette, imagery mode, evidence grade, footer scale, layout labels. Edit placeholder text in place. (3 files, entry `templates/slide-kit/SlideKit.dc.html`)
+- **Lecture deck – six boards, three palettes.** Cover, divider, three columns, big number, statement, closing – one board per family with role-named placeholders. Copy it, keep the grid, replace the roles. (3 files, entry `templates/lecture-deck/LectureDeck.dc.html`)
+- **Paliativní péče – výživa u demence (CZ).** Her 31-slide clinical talk re-set in the system: Blue for the clinical sections, Petrol for the case study, Clinical imagery mode. (3 files, entry `templates/paliativni-pece/PaliativniPece.dc.html`)
+- **Palliative care – nutrition in dementia (EN).** English mirror of the 31-slide clinical talk. Same layouts, same colour coding, Clinical imagery mode. (3 files, entry `templates/paliativni-pece-en/PalliativeCareEN.dc.html`)
+- **Reel – timing sheet + animated preview.** A 9:16 reel as timed frames with role-named placeholders: hook ≤7 words, safe zone, centre CTA, caption template. Two structures (claim-led, number-led); no subject content. (3 files, entry `templates/reel/Reel.dc.html`)
+- **Reel s fotografií – timing sheet + preview.** Photo-led 9:16 reel: duotoned photographs with real scrims, Ken Burns push, cuts to plain ground for figures. Role-named placeholders only; pick the palette per topic. (3 files, entry `templates/reel-zenske-zdravi/ReelZenskeZdravi.dc.html`)
+- **Slide kit – 26 compositions, any palette.** Content-free 1920×1080 layouts across all eight families. Tweaks: palette, imagery mode, evidence grade, footer scale, layout labels. Edit placeholder text in place. (3 files, entry `templates/slide-kit/SlideKit.dc.html`)
+
+Three more folders under `templates/` (`handout-zenske-zdravi`, `handout-zenske-zdravi-online`, `zenske-zdravi-longevity`) hold only the images of the women's health talk and its handouts; no entry file came across with them. The same images are in the `womens-health` asset group, which is where to take them from. The `reference` asset group holds screenshots of the live site and third-party material kept for comparison (a poster, an infographic, two journal figures); nothing in it is a brand asset and none of it may appear in a deliverable.
 
 ## Migrated from a legacy design system
 
@@ -178,3 +190,7 @@ This system was carried over from the standalone version on 2026-09-17. The part
 - `_ds_bundle.js` → `project/components/bundle.js`
 - showcase pages, each kept whole as one component’s preview (a page of examples, not an export of the bundle): `components/cards/cards.card.html` → `project/components/Cards/preview.html`; `components/core/core.card.html` → `project/components/Core/preview.html`; `components/icons/clinical-icons.card.html` → `project/components/ClinicalIcons/preview.html`; `components/navigation/navigation.card.html` → `project/components/Navigation/preview.html`; `components/sections/sections-furniture.card.html` → `project/components/SectionsFurniture/preview.html`; `components/sections/sections.card.html` → `project/components/Sections/preview.html`; `guidelines/chart-colors.card.html` → `project/components/ChartColors/preview.html`; `guidelines/chart-line.card.html` → `project/components/ChartLine/preview.html`; … and 103 more
 - the migration report, which lists what did not come across: `project/assets/notes/MIGRATION-REPORT.md`
+
+## Two artifact copies
+
+Two Design System artifacts are made from this repository: Filip's (upgraded from the Claude Design migration) and Tereza's (synced from `main@bcf9b93` on 26 September 2026). Both were brought level on 26 and 27 October 2026 and this commit carries those changes back here, so a re-sync keeps them. In the artifacts the `../../assets/…` paths of the bundle and previews point at uploads; here they are the files under `assets/`. `uploads/SKILL.md` is the standalone entry point; its procedures are `guidelines/WORKFLOWS.md`.

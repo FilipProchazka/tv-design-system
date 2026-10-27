@@ -4,8 +4,8 @@
 Spans of time compared across groups.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- body — evidence, 32px floor
+- claim – 2 lines, ≤70 chars
+- body – evidence, 32px floor
 
 **Rules**
 - Labels sit on the bar, not in a key.

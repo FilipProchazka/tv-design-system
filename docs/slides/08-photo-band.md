@@ -4,9 +4,9 @@
 The picture is the evidence, and needs the whole width.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- body — evidence, 32px floor
-- photograph — duotone in Public mode
+- claim – 2 lines, ≤70 chars
+- body – evidence, 32px floor
+- photograph – duotone in Public mode
 
 **Rules**
 - One sentence under the band. If it needs two, the picture is not carrying it.

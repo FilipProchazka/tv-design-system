@@ -4,9 +4,9 @@
 A quote that a photograph deepens.
 
 **Roles**
-- statement — 102px, 3 lines
-- body — evidence, 32px floor
-- photograph — duotone in Public mode
+- statement – 102px, 3 lines
+- body – evidence, 32px floor
+- photograph – duotone in Public mode
 
 **Rules**
 - Real scrim under the type; the quote is at least 76px.

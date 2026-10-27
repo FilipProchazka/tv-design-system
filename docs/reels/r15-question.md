@@ -4,9 +4,9 @@
 Asking the viewer something.
 
 **Roles**
-- hook — ≤7 words
-- kicker — mono, the keyword
-- body — one sentence
+- hook – ≤7 words
+- kicker – mono, the keyword
+- body – one sentence
 
 **Rules**
 - A real question. The answer belongs in the comments, not on the frame.

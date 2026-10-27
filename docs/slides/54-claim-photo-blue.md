@@ -4,9 +4,9 @@
 A clinical claim with a photograph.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- body — evidence, 32px floor
-- photograph — duotone in Public mode
+- claim – 2 lines, ≤70 chars
+- body – evidence, 32px floor
+- photograph – duotone in Public mode
 
 **Rules**
 - Text column 120–1060, photograph 1200–1920 full bleed.

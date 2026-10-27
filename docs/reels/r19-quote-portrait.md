@@ -4,9 +4,9 @@
 A quote, signed.
 
 **Roles**
-- quote — 112px
-- meta — source, handle
-- photograph — duotone in Public mode
+- quote – 112px
+- meta – source, handle
+- photograph – duotone in Public mode
 
 **Rules**
 - No portrait: the signature is the attribution.

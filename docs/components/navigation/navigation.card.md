@@ -6,4 +6,4 @@ Everything that frames a page: the hairline nav strip, the connect band, the fou
 <Foot />
 ```
 
-The nav is one strip — no utility bar, no pill CTA. `ScaleStrip` is static and belongs to topic pages only; it does not animate and it never appears on the homepage.
+The nav is one strip – no utility bar, no pill CTA. `ScaleStrip` is static and belongs to topic pages only; it does not animate and it never appears on the homepage.

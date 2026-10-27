@@ -4,11 +4,11 @@
 Entering a new part of the talk.
 
 **Roles**
-- statement — 102px, 3 lines
-- lead — one supporting paragraph
-- body — evidence, 32px floor
-- label — mono, tracked caps
-- data — mono, tabular
+- statement – 102px, 3 lines
+- lead – one supporting paragraph
+- body – evidence, 32px floor
+- label – mono, tracked caps
+- data – mono, tabular
 
 **Rules**
 - One line of what the part covers, nothing else.

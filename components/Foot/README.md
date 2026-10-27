@@ -5,4 +5,4 @@ The blue connect strip over the four-column footer.
   email="jmeno@instituce.cz" links={[…]} topics={[…]} />
 ```
 
-`wordmark` is her name set in Geist 600 — the site has no logotype and nothing here draws one. `clinic` names whose switchboard the phone number reaches. `topics` lists the eight subjects; the columns are fixed at four and do not reflow into three.
+`wordmark` is her name set in Geist 600 – the site has no logotype and nothing here draws one. `clinic` names whose switchboard the phone number reaches. `topics` lists the eight subjects; the columns are fixed at four and do not reflow into three.

@@ -4,8 +4,8 @@
 A number that wants to be the whole board.
 
 **Roles**
-- body — evidence, 32px floor
-- label — mono, tracked caps
+- body – evidence, 32px floor
+- label – mono, tracked caps
 
 **Rules**
 - Needs a bright photograph: through dark numerals the effect reads as dirt.

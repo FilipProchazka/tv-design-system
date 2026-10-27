@@ -4,10 +4,10 @@
 One number that carries the point on its own.
 
 **Roles**
-- sub — column head, 40px/500
-- figure — Geist 300 + mono unit
-- body — evidence, 32px floor
-- label — mono, tracked caps
+- sub – column head, 40px/500
+- figure – Geist 300 + mono unit
+- body – evidence, 32px floor
+- label – mono, tracked caps
 
 **Rules**
 - One number per board. A second number is a second board.

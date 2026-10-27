@@ -4,11 +4,11 @@
 Opening a clinical talk.
 
 **Roles**
-- statement — 102px, 3 lines
-- sub — column head, 40px/500
-- lead — one supporting paragraph
-- label — mono, tracked caps
-- photograph — duotone in Public mode
+- statement – 102px, 3 lines
+- sub – column head, 40px/500
+- lead – one supporting paragraph
+- label – mono, tracked caps
+- photograph – duotone in Public mode
 
 **Rules**
 - Blue is both the clinical topic colour and the chrome accent: that is by design.
