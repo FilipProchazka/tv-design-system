@@ -4,8 +4,8 @@
 Two quantities moving over one shared axis.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- data — mono, tabular
+- claim – 2 lines, ≤70 chars
+- data – mono, tabular
 
 **Rules**
 - Label each curve at its end. No legend.

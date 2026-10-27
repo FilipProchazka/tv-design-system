@@ -4,10 +4,10 @@
 A picture that introduces three short points.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- body — evidence, 32px floor
-- label — mono, tracked caps
-- photograph — duotone in Public mode
+- claim – 2 lines, ≤70 chars
+- body – evidence, 32px floor
+- label – mono, tracked caps
+- photograph – duotone in Public mode
 
 **Rules**
 - Strip height 640px; claim under it, three captions below that.

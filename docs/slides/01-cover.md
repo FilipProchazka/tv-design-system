@@ -4,12 +4,12 @@
 Opening board of a talk.
 
 **Roles**
-- statement — 102px, 3 lines
-- sub — column head, 40px/500
-- lead — one supporting paragraph
-- body — evidence, 32px floor
-- label — mono, tracked caps
-- photograph — duotone in Public mode
+- statement – 102px, 3 lines
+- sub – column head, 40px/500
+- lead – one supporting paragraph
+- body – evidence, 32px floor
+- label – mono, tracked caps
+- photograph – duotone in Public mode
 
 **Rules**
 - The title is a claim, not a topic label.

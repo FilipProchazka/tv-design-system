@@ -4,8 +4,8 @@
 Laboratory values on screen.
 
 **Roles**
-- kicker — mono, the keyword
-- body — one sentence
+- kicker – mono, the keyword
+- body – one sentence
 
 **Rules**
 - Everything mono, including the reference range.

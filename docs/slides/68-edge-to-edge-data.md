@@ -4,9 +4,9 @@
 A curve as atmosphere behind a claim.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- body — evidence, 32px floor
-- label — mono, tracked caps
+- claim – 2 lines, ≤70 chars
+- body – evidence, 32px floor
+- label – mono, tracked caps
 
 **Rules**
 - Decoration-grade only: no axis, no values, and never cite it.

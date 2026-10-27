@@ -4,10 +4,10 @@
 Three quick points in one frame.
 
 **Roles**
-- mid — the frame’s idea
-- item heading — 600
-- body — one sentence
-- meta — source, handle
+- mid – the frame’s idea
+- item heading – 600
+- body – one sentence
+- meta – source, handle
 
 **Rules**
 - One line each. If a point needs two lines, it is its own frame.

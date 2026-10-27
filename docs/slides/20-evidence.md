@@ -4,11 +4,11 @@
 A source stated in full, because the claim rests on it.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- sub — column head, 40px/500
-- body — evidence, 32px floor
-- label — mono, tracked caps
-- data — mono, tabular
+- claim – 2 lines, ≤70 chars
+- sub – column head, 40px/500
+- body – evidence, 32px floor
+- label – mono, tracked caps
+- data – mono, tabular
 
 **Rules**
 - No photograph: a citation owns its board.

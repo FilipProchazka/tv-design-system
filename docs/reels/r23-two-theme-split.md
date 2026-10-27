@@ -4,9 +4,9 @@
 Two phases of one topic.
 
 **Roles**
-- hook — ≤7 words
-- kicker — mono, the keyword
-- body — one sentence
+- hook – ≤7 words
+- kicker – mono, the keyword
+- body – one sentence
 
 **Rules**
 - One theme, one tint step apart; the phase is named in text.

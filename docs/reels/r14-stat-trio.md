@@ -4,9 +4,9 @@
 Three related numbers.
 
 **Roles**
-- figure — Geist 300
-- body — one sentence
-- meta — source, handle
+- figure – Geist 300
+- body – one sentence
+- meta – source, handle
 
 **Rules**
 - Figures in Geist 300, units in mono beneath. Same magnitude across all three.

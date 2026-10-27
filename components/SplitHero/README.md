@@ -7,4 +7,4 @@ The homepage opening: the deck's SPLIT board as a page. Claim column left on pap
   actions={<><Pill href="/temata" label="Projít témata" /><Pill href="/kontakt" label="Napište mi" small /></>} />
 ```
 
-`heading` is a claim, two lines at desktop, and it steps down one role on a phone rather than reflowing to reading size. The monogram sits above the kicker, as it does on a deck cover. `actions` takes the one square ask plus at most one mono link — never a pair of buttons. The photograph is duotoned and square-cornered; below 960px the columns collapse and the photograph follows the text. Use it once, on the homepage: every inner page opens on PageHero.
+`heading` is a claim, two lines at desktop, and it steps down one role on a phone rather than reflowing to reading size. The monogram sits above the kicker, as it does on a deck cover. `actions` takes the one square ask plus at most one mono link – never a pair of buttons. The photograph is duotoned and square-cornered; below 960px the columns collapse and the photograph follows the text. Use it once, on the homepage: every inner page opens on PageHero.

@@ -4,10 +4,10 @@
 One number that carries the whole reel.
 
 **Roles**
-- mid — the frame’s idea
-- kicker — mono, the keyword
-- figure — Geist 300
-- body — one sentence
+- mid – the frame’s idea
+- kicker – mono, the keyword
+- figure – Geist 300
+- body – one sentence
 
 **Rules**
 - Figure is Geist 300 at 380px; the unit is a half-size mono span.

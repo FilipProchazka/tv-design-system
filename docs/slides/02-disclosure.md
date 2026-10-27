@@ -4,9 +4,9 @@
 Conflict-of-interest and scope declaration, second board.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- lead — one supporting paragraph
-- label — mono, tracked caps
+- claim – 2 lines, ≤70 chars
+- lead – one supporting paragraph
+- label – mono, tracked caps
 
 **Rules**
 - The blank is deliberate and italic: fill it or leave it visible. Never fabricate a declaration.

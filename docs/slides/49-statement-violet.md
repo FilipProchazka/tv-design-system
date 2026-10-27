@@ -4,9 +4,9 @@
 The statement board of a violet talk.
 
 **Roles**
-- statement — 102px, 3 lines
-- lead — one supporting paragraph
-- photograph — duotone in Public mode
+- statement – 102px, 3 lines
+- lead – one supporting paragraph
+- photograph – duotone in Public mode
 
 **Rules**
 - One statement, three lines maximum.

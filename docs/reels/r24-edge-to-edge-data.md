@@ -4,9 +4,9 @@
 A curve under a claim.
 
 **Roles**
-- hook — ≤7 words
-- kicker — mono, the keyword
-- body — one sentence
+- hook – ≤7 words
+- kicker – mono, the keyword
+- body – one sentence
 
 **Rules**
 - Decoration-grade: no axis, no values, no citation.

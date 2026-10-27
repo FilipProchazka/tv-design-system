@@ -4,7 +4,7 @@
 A recommended range rather than a point value.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
+- claim – 2 lines, ≤70 chars
 
 **Rules**
 - Both bounds are labelled; the useful band is the highlight.

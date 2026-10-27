@@ -4,11 +4,11 @@
 Showing a video or external artefact.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- body — evidence, 32px floor
-- label — mono, tracked caps
-- data — mono, tabular
-- photograph — duotone in Public mode
+- claim – 2 lines, ≤70 chars
+- body – evidence, 32px floor
+- label – mono, tracked caps
+- data – mono, tabular
+- photograph – duotone in Public mode
 
 **Rules**
 - Play mark is a mark, not a screenshot of a player.

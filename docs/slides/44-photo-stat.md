@@ -4,11 +4,11 @@
 A number that the photograph gives context to.
 
 **Roles**
-- sub — column head, 40px/500
-- figure — Geist 300 + mono unit
-- body — evidence, 32px floor
-- label — mono, tracked caps
-- photograph — duotone in Public mode
+- sub – column head, 40px/500
+- figure – Geist 300 + mono unit
+- body – evidence, 32px floor
+- label – mono, tracked caps
+- photograph – duotone in Public mode
 
 **Rules**
 - Figure and sentence sit on a bottom scrim, not on bare photograph.

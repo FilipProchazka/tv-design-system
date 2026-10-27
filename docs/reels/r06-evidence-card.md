@@ -4,10 +4,10 @@
 Putting a source on screen.
 
 **Roles**
-- mid — the frame’s idea
-- kicker — mono, the keyword
-- item heading — 600
-- meta — source, handle
+- mid – the frame’s idea
+- kicker – mono, the keyword
+- item heading – 600
+- meta – source, handle
 
 **Rules**
 - Citation, identifier and grade ticks; nothing else on the frame.

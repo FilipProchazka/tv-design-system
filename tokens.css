@@ -1,4 +1,4 @@
-/* Tereza Vágnerová Design System — generated from tokens.json */
+/* Tereza Vágnerová Design System – generated from tokens.json */
 :root, [data-theme="light"] {
   --blue-accent: #1d5994;
   --blue-ink: #0f2c47;
@@ -204,6 +204,10 @@
 }
 [data-theme="t-blue-dark"] {
   --surface: #0f3557;
+  --band: #123e66;
+  --signal-positive-ink: var(--signal-positive-on-dark);
+  --signal-negative-ink: var(--signal-negative-on-dark);
+  --signal-caution-ink: var(--signal-caution-on-dark);
   --ink: #ffffff;
   --muted: #a6c2db;
   --soft: #8ca9c4;
@@ -249,6 +253,10 @@
 }
 [data-theme="t-petrol-dark"] {
   --surface: #0e3a36;
+  --band: #114540;
+  --signal-positive-ink: var(--signal-positive-on-dark);
+  --signal-negative-ink: var(--signal-negative-on-dark);
+  --signal-caution-ink: var(--signal-caution-on-dark);
   --ink: #ffffff;
   --muted: #9cbcb6;
   --soft: #93b5af;
@@ -294,6 +302,10 @@
 }
 [data-theme="t-violet-dark"] {
   --surface: #401252;
+  --band: #501666;
+  --signal-positive-ink: var(--signal-positive-on-dark);
+  --signal-negative-ink: var(--signal-negative-on-dark);
+  --signal-caution-ink: var(--signal-caution-on-dark);
   --ink: #ffffff;
   --muted: #c9aeda;
   --soft: #b49bc6;
@@ -330,51 +342,6 @@
   --icon-muted: var(--muted);
   --surface-1: var(--band);
   --surface-3: var(--blue-dark);
-  --signal-neutral-ink: var(--muted);
-  --signal-neutral-soft: var(--band);
-  --signal-neutral-edge: var(--rule);
-  --signal-neutral-on-dark: var(--muted);
-  --grade-5: var(--accent);
-  --grade-1: var(--rule);
-}
-[data-theme="dark"] {
-  --chart-axis: var(--rule);
-  --chart-grid: var(--rule);
-  --chart-label: var(--muted);
-  --chart-series-1: var(--accent);
-  --chart-series-2: var(--data-sand);
-  --chart-emphasis: var(--ink);
-  --text-body: var(--ink);
-  --text-muted: var(--muted);
-  --text-subtle: var(--soft);
-  --text-link: var(--accent);
-  --text-on-action: var(--onacc);
-  --text-inverse: var(--surface);
-  --surface-page: var(--surface);
-  --surface-band: var(--band);
-  --surface-card: var(--surface);
-  --surface-tint: var(--tint);
-  --surface-dark: var(--blue-dark);
-  --border-default: var(--rule);
-  --border-active: var(--accent);
-  --border-focus: var(--accent);
-  --action-primary: var(--accent);
-  --action-primary-text: var(--onacc);
-  --action-ghost-border: var(--rule);
-  --action-ghost-text: var(--accent);
-  --icon-default: var(--accent);
-  --icon-muted: var(--muted);
-  --surface-1: var(--band);
-  --surface-3: var(--blue-dark);
-  --signal-positive-ink: var(--signal-positive-on-dark);
-  --signal-positive-soft: #7fdcc029;
-  --signal-positive-edge: #7fdcc085;
-  --signal-negative-ink: var(--signal-negative-on-dark);
-  --signal-negative-soft: #f3a98e29;
-  --signal-negative-edge: #f3a98e85;
-  --signal-caution-ink: var(--signal-caution-on-dark);
-  --signal-caution-soft: #f0d2a229;
-  --signal-caution-edge: #f0d2a285;
   --signal-neutral-ink: var(--muted);
   --signal-neutral-soft: var(--band);
   --signal-neutral-edge: var(--rule);

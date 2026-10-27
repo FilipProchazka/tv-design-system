@@ -4,9 +4,9 @@
 A number knocked out of a photograph.
 
 **Roles**
-- mid — the frame’s idea
-- kicker — mono, the keyword
-- body — one sentence
+- mid – the frame’s idea
+- kicker – mono, the keyword
+- body – one sentence
 
 **Rules**
 - Needs a bright photograph or the effect reads as dirt.

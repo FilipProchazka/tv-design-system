@@ -4,9 +4,9 @@
 A set of pictures where one leads.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- label — mono, tracked caps
-- photograph — duotone in Public mode
+- claim – 2 lines, ≤70 chars
+- label – mono, tracked caps
+- photograph – duotone in Public mode
 
 **Rules**
 - One large, two stacked; the large one is the argument.

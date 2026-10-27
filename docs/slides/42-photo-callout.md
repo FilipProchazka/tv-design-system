@@ -4,10 +4,10 @@
 Parts of one object, named.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- body — evidence, 32px floor
-- data — mono, tabular
-- photograph — duotone in Public mode
+- claim – 2 lines, ≤70 chars
+- body – evidence, 32px floor
+- data – mono, tabular
+- photograph – duotone in Public mode
 
 **Rules**
 - Numbered callouts on the photograph, matching list in the left column.

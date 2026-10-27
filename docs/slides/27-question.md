@@ -4,9 +4,9 @@
 Handing the room a question to hold.
 
 **Roles**
-- statement — 102px, 3 lines
-- lead — one supporting paragraph
-- label — mono, tracked caps
+- statement – 102px, 3 lines
+- lead – one supporting paragraph
+- label – mono, tracked caps
 
 **Rules**
 - Nothing else on the board. The air is the point.

@@ -4,7 +4,7 @@
 A sequence of dated events.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
+- claim – 2 lines, ≤70 chars
 
 **Rules**
 - Six events maximum, alternating above and below the axis.

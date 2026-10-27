@@ -1,11 +1,14 @@
-# Tokens — human-readable export
+# Tokens: human-readable export (superseded)
+
+> **Superseded on 26 October 2026.** This file and `tokens/tokens.json` beside it are the older export from the standalone version. The live tokens are `project/tokens.json` and the generated `tokens.css`; the page's token cards read those. Role names below still hold; sizes, radii and shadows do not (nothing on the web has a radius, nothing has a shadow, the deck scale moved on 13 September 2026). Take no value from this file.
+
 
 For AI tools and new contributors: what every semantic token is for. Values
 live in `tokens/*.css` (CSS) and `tokens/tokens.json` (W3C DTCG).
 Components read **semantic** names, never a raw hex.
 
 ## Themes
-`.t-blue` (default, and the only chrome theme) · `.t-petrol` · `.t-violet` — set
+`.t-blue` (default, and the only chrome theme) · `.t-petrol` · `.t-violet`: set
 on a page, section or card. `.dark` on any of them flips to that theme's dark
 punctuation surface. There is no dark *mode*; `.dark` is a band.
 
@@ -41,7 +44,7 @@ Blue = clinical/medical (Medicína, Přehled) · Petrol = longevity (Dlouhověko
 `--icon-default` accent · `--icon-muted`.
 
 ## Photo scrim
-`--scrim-photo` — `rgba(15,53,87,.50)`. Never text on a photograph without it.
+`--scrim-photo`: `rgba(15,53,87,.50)`. Never text on a photograph without it.
 
 ## Elevation
 `--shadow-lift` (= `--lift`) a surface responding in place · `--shadow-float` (= `--lift-strong`) a surface floating over the page. Nothing has a shadow at rest.
@@ -52,19 +55,19 @@ Declared per theme in `colors.css` (not `dataviz.css`), so a `.t-*`/`.dark` boar
 `--chart-series-1` accent · `--chart-series-2` sand (the only second series) · `--chart-series-1-a75/-a50/-a25` the opacity ladder for ranked categories · `--chart-axis` · `--chart-grid` · `--chart-label` · `--chart-emphasis` ink, for the one highlighted point.
 
 ## Type roles
-`.display .h1 .h2 .lead .body .small .kicker .figure .card-title .eyebrow .meta` — web.
-`.d-statement .d-claim .d-sub .d-lead .d-body .d-mono .d-figure` — deck (slides/deck.css).
+`.display .h1 .h2 .lead .body .small .kicker .figure .card-title .eyebrow .meta`: web.
+`.d-statement .d-claim .d-sub .d-lead .d-body .d-mono .d-figure`: deck (slides/deck.css).
 Families: `--font-display` Geist · `--font-body` Inter · `--font-mono` Geist Mono.
 
 ## Space
-`--s-2 --s-6 --s-8 --s-12 --s-14 --s-18 --s-20 --s-24 --s-26 --s-32 --s-36 --s-44 --s-64` — collected from real use, not an 8px grid.
+`--s-2 --s-6 --s-8 --s-12 --s-14 --s-18 --s-20 --s-24 --s-26 --s-32 --s-36 --s-44 --s-64`: collected from real use, not an 8px grid.
 `--shell` 1240 · `--gut` 24 · `--gap` 24 · `--sec` fluid 64–112 · `--card-pad` 28.
 
 ## Radii
 `--radius` 16 card · `--radius-lg` 24 photo · `--radius-mark` 14 / `--radius-mark-lg` 18 icon tile · `--radius-pill` 999.
 
 ## Motion
-`--ease` cubic-bezier(.22,1,.36,1) — the only curve. `--dur-fast` .25s · `--dur` .3s · `--dur-card` .35s · `--dur-photo` .6s · `--dur-reveal` .75s.
+`--ease` cubic-bezier(.22,1,.36,1): the only curve. `--dur-fast` .25s · `--dur` .3s · `--dur-card` .35s · `--dur-photo` .6s · `--dur-reveal` .75s.
 
 ## Claim measure (deck)
 Claim 74px in a 1400px column, ≤70 characters, two lines. BESIDE column → 58px. Statement 102px in 1560px, ≤90 characters, three lines. Over the limit: `.long` steps the size down (60 / 84px); never widen the column.

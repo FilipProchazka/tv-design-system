@@ -4,9 +4,9 @@
 Two options or two regimes compared.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- sub — column head, 40px/500
-- body — evidence, 32px floor
+- claim – 2 lines, ≤70 chars
+- sub – column head, 40px/500
+- body – evidence, 32px floor
 
 **Rules**
 - Same number of rows on both sides, same order, same scale.

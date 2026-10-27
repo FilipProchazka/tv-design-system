@@ -4,9 +4,9 @@
 A short sequence in time.
 
 **Roles**
-- mid — the frame’s idea
-- item heading — 600
-- body — one sentence
+- mid – the frame’s idea
+- item heading – 600
+- body – one sentence
 
 **Rules**
 - Light ground: two or three light frames per reel are the pattern interrupt.

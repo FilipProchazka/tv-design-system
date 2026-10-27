@@ -4,8 +4,8 @@
 A claim that has a source behind it.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- body — evidence, 32px floor
+- claim – 2 lines, ≤70 chars
+- body – evidence, 32px floor
 
 **Rules**
 - Grade ticks top-right; the citation goes in the footer reference, not in the body.

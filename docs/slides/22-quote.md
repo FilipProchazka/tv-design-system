@@ -4,10 +4,10 @@
 Someone else said it better, and the words matter.
 
 **Roles**
-- statement — 102px, 3 lines
-- body — evidence, 32px floor
-- label — mono, tracked caps
-- data — mono, tabular
+- statement – 102px, 3 lines
+- body – evidence, 32px floor
+- label – mono, tracked caps
+- data – mono, tabular
 
 **Rules**
 - Czech quotes „…“, no em dash. Attribution in body, source in mono.

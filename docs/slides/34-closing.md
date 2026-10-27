@@ -4,11 +4,11 @@
 Closing the talk.
 
 **Roles**
-- statement — 102px, 3 lines
-- lead — one supporting paragraph
-- body — evidence, 32px floor
-- data — mono, tabular
-- photograph — duotone in Public mode
+- statement – 102px, 3 lines
+- lead – one supporting paragraph
+- body – evidence, 32px floor
+- data – mono, tabular
+- photograph – duotone in Public mode
 
 **Rules**
 - Contact in mono; the ask appears once in the deck, and this is it.

@@ -1,9 +1,9 @@
-# Imagery — two modes
+# Imagery: two modes
 
 Her material has two photographic languages and the decision (2026-09-13) is
 to keep both, documented, and **never mixed in one piece**.
 
-## Public mode — duotone to the surface's own theme
+## Public mode: duotone to the surface's own theme
 Website, social, webinar sales, anything a member of the public sees first.
 - **On the website** every photograph passes through the blue duotone
   (shadow `#0F3557`, highlight `#8FC9F5`) at a 60% blend, so the subject
@@ -19,12 +19,13 @@ Website, social, webinar sales, anything a member of the public sees first.
   a set of stock photographs with four colour temperatures reading as four
   different libraries.
 - Subjects: hands, food, a barbell, a clinical record, an archive image. No
-  portraits of her, no smiling stock clinicians, no flat-lay.
+  smiling stock clinicians, no flat-lay. Her own portrait is the one face
+  allowed, and only where the rule at the end of this file puts it.
 - Library: `assets/img/` (site) and `assets/photo/` (deck). On petrol decks
   the SVG `feComponentTransfer` duotone (`#062020` → `#73BFB4`) is used
   instead of a CSS filter stack.
 
-## Clinical mode — natural colour
+## Clinical mode: natural colour
 Professional talks to clinicians, carers and students, where the photograph
 is documentary evidence of a situation (a PEG tube, a bedside, an X-ray).
 - Natural colour, no duotone. Black-and-white is permitted where the source
@@ -32,14 +33,15 @@ is documentary evidence of a situation (a PEG tube, a bedside, an X-ray).
 - Text over a Clinical photograph needs `--scrim-photo` raised to .62, or a
   solid panel, because natural-colour images do not guarantee contrast.
 - Library: `assets/clinical/`, provenance in its `PROVENANCE.md`. Rights
-  unverified — see the note there.
+  unverified; see the note there.
 - Clip-art register stock (icon cubes, jigsaw heads, dissolving brains) is
   kept for the record and marked **do not use**.
 
 ## Rules that apply in both modes
 - A photograph earns its slide. The evidence slide has none; a citation owns
   its slide.
-- Crops: rectangular, radius 24px on the web, full-bleed or the 1200–1920
+- Crops: rectangular and square-cornered everywhere (nothing on the web has
+  a radius; `radius-photo` is deprecated), full-bleed or the 1200–1920
   right column on slides. The circular crop exists once in her material (the
   X-ray) and is reserved for radiology.
 - Never text on a photograph without a real background-colour scrim. A
@@ -47,9 +49,17 @@ is documentary evidence of a situation (a PEG tube, a bedside, an X-ray).
   transparent` and under-measures on contrast tools: the scrim needs a solid
   `background-color` floor with the gradient layered over it, as
   `tokens/base.css`'s `.scrim` does. On a 9:16 frame the alpha must hold at
-  the TOP of the frame too, where the kicker sits — not only at the bottom.
-- No stock of her; a portrait, when supplied, is the only exception and is
-  used on the Speaker layout and the CV.
+  the TOP of the frame too, where the kicker sits, not only at the bottom.
+- No stock of her. One real photograph of her exists, the podcast-studio
+  shot in the `womens-health` asset group (`flat/cv-tereza.jpg`,
+  `duo/cv-tereza.jpg`, supplied for the women's health talk in September
+  2026). It is used on the Speaker layout and the CV, nowhere else, and it
+  is the only face that may sit under her name. Both copies carry a violet
+  wash, not the measured duotone above: on a violet piece use it as it is;
+  on a blue or petrol board re-grade it to that theme's transfer curve first,
+  or leave the Speaker slot's dashed frame, which is the empty state.
+  `photo/photo-portrait.jpg` in the same group is a stock stand-in and never
+  ships.
 
 ## Choosing the mode
 Ask who is in the room. If the audience includes patients, families or the

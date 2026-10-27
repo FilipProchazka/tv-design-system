@@ -4,10 +4,10 @@
 Fixing the meaning of a term before using it.
 
 **Roles**
-- statement — 102px, 3 lines
-- lead — one supporting paragraph
-- body — evidence, 32px floor
-- label — mono, tracked caps
+- statement – 102px, 3 lines
+- lead – one supporting paragraph
+- body – evidence, 32px floor
+- label – mono, tracked caps
 
 **Rules**
 - Term as statement, definition as lead, the caveat as body.

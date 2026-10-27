@@ -4,10 +4,10 @@
 Asking the room to do one thing.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- sub — column head, 40px/500
-- body — evidence, 32px floor
-- data — mono, tabular
+- claim – 2 lines, ≤70 chars
+- sub – column head, 40px/500
+- body – evidence, 32px floor
+- data – mono, tabular
 
 **Rules**
 - The QR slot stays empty until a real code exists.

@@ -4,10 +4,10 @@
 A photograph strip with a claim.
 
 **Roles**
-- mid — the frame’s idea
-- kicker — mono, the keyword
-- body — one sentence
-- photograph — duotone in Public mode
+- mid – the frame’s idea
+- kicker – mono, the keyword
+- body – one sentence
+- photograph – duotone in Public mode
 
 **Rules**
 - Scrim under the text, never type straight onto photograph.

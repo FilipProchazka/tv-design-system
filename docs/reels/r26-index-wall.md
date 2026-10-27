@@ -4,9 +4,9 @@
 A recap of a series.
 
 **Roles**
-- mid — the frame’s idea
-- body — one sentence
-- meta — source, handle
+- mid – the frame’s idea
+- body – one sentence
+- meta – source, handle
 
 **Rules**
 - Numbered, two columns, one line each.

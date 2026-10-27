@@ -4,9 +4,9 @@
 A statement that the photograph amplifies.
 
 **Roles**
-- statement — 102px, 3 lines
-- lead — one supporting paragraph
-- photograph — duotone in Public mode
+- statement – 102px, 3 lines
+- lead – one supporting paragraph
+- photograph – duotone in Public mode
 
 **Rules**
 - Solid-colour scrim at 0.94–0.97 where the type sits; a gradient alone under-measures.

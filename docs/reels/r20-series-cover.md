@@ -4,10 +4,10 @@
 Opening a numbered series.
 
 **Roles**
-- hook — ≤7 words
-- sub — one line under the hook
-- meta — source, handle
-- photograph — duotone in Public mode
+- hook – ≤7 words
+- sub – one line under the hook
+- meta – source, handle
+- photograph – duotone in Public mode
 
 **Rules**
 - Episode number in mono, title as the mid line.

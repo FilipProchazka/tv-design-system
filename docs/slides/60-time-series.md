@@ -4,8 +4,8 @@
 A quantity over time with one interesting window.
 
 **Roles**
-- claim — 2 lines, ≤70 chars
-- data — mono, tabular
+- claim – 2 lines, ≤70 chars
+- data – mono, tabular
 
 **Rules**
 - One highlighted window, labelled; the rest is context.

@@ -1,4 +1,4 @@
-# Clinical imagery library — provenance
+# Clinical imagery library – provenance
 
 Extracted from her deck *Výživa u pacientů s demencí* (Paliativní péče), a
 31-page PDF supplied 2026-09-13. These are the **Clinical mode** photographs:
@@ -6,7 +6,7 @@ natural colour, documentary subjects. They are never mixed with the Public
 (duotone) library in one piece.
 
 **Rights: unverified.** These appear to be stock photographs (Pexels /
-Unsplash / paid stock — source not recorded in the PDF). Confirm the licence
+Unsplash / paid stock – source not recorded in the PDF). Confirm the licence
 before any public or commercial use. Internal talks are the current use.
 
 Resolution: downsampled to 640px on the long side for the library; the PDF
@@ -33,8 +33,8 @@ holds originals up to 2400px.
 | stock-puzzle-head | jigsaw head on blue | **do not use** | clip-art register |
 | stock-brain-dissolve | 3D brain dissolving | **do not use** | clip-art register |
 | legacy-speech-bubble | hand-drawn speech bubble, alpha | legacy | replaced by the statement layout; do not use |
-| uncaptioned-p19 … p30 | not yet viewed | — | caption after review |
+| uncaptioned-p19 … p30 | not yet viewed | – | caption after review |
 
 `reference/glim-algorithm-figure.png` is a figure reproduced from a
-publication (GLIM decision algorithm) — a citation, not an asset. Redraw on
+publication (GLIM decision algorithm) – a citation, not an asset. Redraw on
 the Decision path layout with the source stated.
